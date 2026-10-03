@@ -80,11 +80,24 @@ def _call(method: str, path: str, params: dict) -> dict:
             return json.loads(resp.read().decode())
     except urllib.error.HTTPError as exc:
         body = exc.read().decode(errors="replace")
-        if exc.code in (400, 401) and "oauth" in body.lower():
+        # Meta labels almost every 4xx an "OAuthException", including permission and media
+        # errors, so only subcode 190 actually means the token is dead. Everything else gets
+        # reported as Meta worded it — guessing here hides the real problem.
+        if exc.code in (400, 401):
+            try:
+                err = json.loads(body).get("error", {})
+            except Exception:
+                err = {}
+            if err.get("code") == 190:
+                raise PublishError(
+                    "the Instagram token has expired or been revoked. Generate a fresh one "
+                    "(Meta app dashboard -> Instagram -> API setup with Instagram business "
+                    "login -> Generate token) and update the IG_ACCESS_TOKEN secret."
+                ) from None
+            detail = err.get("error_user_msg") or err.get("message") or _redact(body)
             raise PublishError(
-                "the Instagram token has expired or been revoked. Generate a fresh one "
-                "(Meta app dashboard -> Instagram -> API setup with Instagram business "
-                "login -> Generate token) and update the IG_ACCESS_TOKEN secret."
+                f"{method} {path} -> {detail}"
+                f" [code={err.get('code')} subcode={err.get('error_subcode')}]"
             ) from None
         # Never echo the token back out, whatever the API decided to quote at us.
         raise PublishError(f"{method} {path} -> HTTP {exc.code}: {_redact(body)}") from None

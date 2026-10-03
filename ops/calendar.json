@@ -1,0 +1,230 @@
+{
+ "launch_date": "2026-09-28",
+ "note": "If launch slips, shift dates; 'day' is what matters. Weekly review 2026-10-03 updated days 7-13 (see learnings.md). Every reel must show its hook text at frame 0 so the grid thumbnail isn't blank.",
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-09-28",
+   "reel": "2 years of SIPs, zero returns. Should you stop?",
+   "carousel": "What 25 years of data says about flat 2-year periods",
+   "for": "Both"
+  },
+  {
+   "day": 2,
+   "date": "2026-09-29",
+   "reel": "32 with 12 mutual funds? You may own the same stocks 5 times",
+   "carousel": "Check your fund overlap in 5 minutes",
+   "for": "Optimizer"
+  },
+  {
+   "day": 3,
+   "date": "2026-09-30",
+   "reel": "₹1L salary at 28: one sensible monthly split",
+   "carousel": "The 50-30-20 rule, Indian version",
+   "for": "Builder"
+  },
+  {
+   "day": 4,
+   "date": "2026-10-01",
+   "reel": "Half-year's over: 3 things to check in your portfolio",
+   "carousel": "6-month portfolio checklist",
+   "for": "Optimizer"
+  },
+  {
+   "day": 5,
+   "date": "2026-10-02",
+   "reel": "Gold is up ~34% in a year. How much should you own?",
+   "carousel": "Gold allocation at 25, 32 and 40",
+   "for": "Both"
+  },
+  {
+   "day": 6,
+   "date": "2026-10-03",
+   "reel": "Your fund may have got more expensive in April",
+   "carousel": "Find your fund's TER and know what's too high",
+   "for": "Optimizer"
+  },
+  {
+   "day": 7,
+   "date": "2026-10-04",
+   "reel": "8 weeks of losses, longest streak in 25 years. What should your SIP do?",
+   "carousel": "Long losing streaks: what history says, and the 3 things to check (not sell)",
+   "for": "Both",
+   "pillar": "news decoded",
+   "why": "Replaces regular vs direct (moved to day 12). Peg: Nifty 8th straight weekly fall, closed 22,421.95 on 1 Oct; FIIs sold ~Rs36,000 cr in Sep. Also absorbs the FII-vs-DII angle from old day 11. Hook text on frame 0."
+  },
+  {
+   "day": 8,
+   "date": "2026-10-05",
+   "reel": "Small-caps got the most new money in August. Is your portfolio tilted?",
+   "carousel": "Check your small and mid-cap share in 3 steps",
+   "for": "Optimizer",
+   "pillar": "portfolio check-up",
+   "why": "Replaces the '40% of schemes lost money' angle (no solid source). Peg: AMFI Aug 2026 equity inflows Rs29,329 cr, small-cap Rs7,973 cr, mid-cap Rs6,989 cr (largest categories). Categories only, no fund names."
+  },
+  {
+   "day": 9,
+   "date": "2026-10-06",
+   "reel": "RBI decides on Wednesday. What a rate hike means for your EMI, FD and debt fund",
+   "carousel": "Rate hike cheat sheet: who pays more, who earns more",
+   "for": "Both",
+   "pillar": "news decoded",
+   "why": "New news peg: MPC meets 5-7 Oct, repo 5.25%, most economists expect +25 bp to 5.50% (CPI 4.82% Aug). Frame as 'if it happens' - re-check news on the day. Retirement corpus moved to day 13."
+  },
+  {
+   "day": 10,
+   "date": "2026-10-07",
+   "reel": "₹50L home loan: what a 0.25% rate rise does to your EMI",
+   "carousel": "Rates up: keep the EMI and stretch the tenure, or pay more? The maths",
+   "for": "Builder",
+   "pillar": "goal maths",
+   "why": "RBI announcement day (7 Oct). Update with the actual decision before writing; if rates are unchanged, use 'what if rates rise later'. Illustrative numbers only. X-ray #1 moved to day 11."
+  },
+  {
+   "day": 11,
+   "date": "2026-10-08",
+   "reel": "X-ray #1: 36, 14 funds, ₹42L. What's wrong here?",
+   "carousel": "The same portfolio, before and after",
+   "for": "Optimizer",
+   "pillar": "portfolio check-up",
+   "why": "Moved from day 10 (kept: strongest Optimizer format). Illustrative portfolio, categories only."
+  },
+  {
+   "day": 12,
+   "date": "2026-10-09",
+   "reel": "Regular vs direct plan: what the extra cost buys you",
+   "carousel": "The 1% that compounds against you over 20 years (illustrative)",
+   "for": "Both",
+   "pillar": "costly mistakes",
+   "why": "Moved from day 7. Generic categories, no AMC or platform names; cost difference labelled illustrative unless sourced."
+  },
+  {
+   "day": 13,
+   "date": "2026-10-10",
+   "reel": "How much do you really need to retire in India?",
+   "carousel": "Corpus needed at ₹50k, ₹1L, ₹2L monthly expenses",
+   "for": "Builder",
+   "pillar": "goal maths",
+   "why": "Moved from day 9. If AMFI September data is out by 9-10 Oct, the 'record SIPs in a flat market' angle can swap into day 14 (flex) instead."
+  },
+  {
+   "day": 14,
+   "date": "2026-10-11",
+   "reel": "5 signs your portfolio needs a check-up",
+   "carousel": "Rate your portfolio out of 10",
+   "for": "Optimizer"
+  },
+  {
+   "day": 15,
+   "date": "2026-10-12",
+   "reel": "FD vs SIP over 5 years: what actually happened",
+   "carousel": "FD, debt fund, equity SIP compared (historical)",
+   "for": "Builder"
+  },
+  {
+   "day": 16,
+   "date": "2026-10-13",
+   "reel": "Prepay the home loan or run a SIP? The maths",
+   "carousel": "Decision guide by loan rate and tax bracket",
+   "for": "Both"
+  },
+  {
+   "day": 17,
+   "date": "2026-10-14",
+   "reel": "X-ray #2: couple, 34 and 32, 9 SIPs on 4 apps",
+   "carousel": "One household, one plan",
+   "for": "Optimizer"
+  },
+  {
+   "day": 18,
+   "date": "2026-10-15",
+   "reel": "Step-up SIP: the 10% habit that changes your corpus",
+   "carousel": "Flat vs step-up SIP over 20 years (illustrative)",
+   "for": "Builder"
+  },
+  {
+   "day": 19,
+   "date": "2026-10-16",
+   "reel": "Emergency fund: how many months, and where to keep it",
+   "carousel": "Emergency fund by life stage",
+   "for": "Builder"
+  },
+  {
+   "day": 20,
+   "date": "2026-10-17",
+   "reel": "Small-cap fund down? When to actually worry",
+   "carousel": "Hold, review or exit: questions to ask",
+   "for": "Optimizer"
+  },
+  {
+   "day": 21,
+   "date": "2026-10-18",
+   "reel": "Money mistakes at 25 vs at 35",
+   "carousel": "10 mistakes, two life stages",
+   "for": "Both"
+  },
+  {
+   "day": 22,
+   "date": "2026-10-19",
+   "reel": "Diwali bonus coming? Gold, FD or SIP top-up",
+   "carousel": "Bonus split for 3 salary bands",
+   "for": "Builder"
+  },
+  {
+   "day": 23,
+   "date": "2026-10-20",
+   "reel": "X-ray #3: ₹80L portfolio, 60% in one theme",
+   "carousel": "Concentration risk explained",
+   "for": "Optimizer"
+  },
+  {
+   "day": 24,
+   "date": "2026-10-21",
+   "reel": "Term plan vs ULIP: the one question to ask",
+   "carousel": "Insurance before investing",
+   "for": "Builder"
+  },
+  {
+   "day": 25,
+   "date": "2026-10-22",
+   "reel": "Consolidating funds? Check tax and exit load first",
+   "carousel": "Step-by-step fund consolidation",
+   "for": "Optimizer"
+  },
+  {
+   "day": 26,
+   "date": "2026-10-23",
+   "reel": "New tax law: 3 changes for salaried investors",
+   "carousel": "Old vs new regime at ₹12L, ₹20L, ₹35L",
+   "for": "Builder"
+  },
+  {
+   "day": 27,
+   "date": "2026-10-24",
+   "reel": "Asset allocation at 25, 32 and 40",
+   "carousel": "Equity, debt, gold mix by age",
+   "for": "Both"
+  },
+  {
+   "day": 28,
+   "date": "2026-10-25",
+   "reel": "Buying gold this festive season? Jewellery vs ETF vs gold fund",
+   "carousel": "Costs compared: making charges, GST, expense ratio",
+   "for": "Builder"
+  },
+  {
+   "day": 29,
+   "date": "2026-10-26",
+   "reel": "The 5 most common portfolio mistakes",
+   "carousel": "Checklist to spot each one",
+   "for": "Optimizer"
+  },
+  {
+   "day": 30,
+   "date": "2026-10-27",
+   "reel": "30 days, 30 lessons: the 1-minute money checklist",
+   "carousel": "Save-this master checklist",
+   "for": "Both"
+  }
+ ]
+}

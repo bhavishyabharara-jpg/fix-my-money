@@ -2,9 +2,10 @@ name: Publish to Instagram
 on:
   push:
     branches: [main]
+    # Only the queue triggers a run. Media files are uploaded first, one commit each,
+    # and a job that fired halfway through that would find its slides missing.
     paths:
       - 'queue/**'
-      - 'media/**'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
