@@ -22,9 +22,13 @@ Published jobs are appended to published.json and never retried. Nothing here wr
 content: if a job is malformed the publisher refuses it rather than guessing.
 
 Environment:
-    IG_ACCESS_TOKEN   long-lived token with instagram_content_publish  (Actions secret)
-    IG_USER_ID        the Instagram account's numeric id               (Actions secret)
-    PAGES_BASE        e.g. https://<user>.github.io/<repo>             (Actions variable)
+    IG_ACCESS_TOKEN   long-lived token, generated in the Meta app dashboard (Actions secret)
+    IG_USER_ID        the Instagram account's numeric id                    (Actions secret)
+    PAGES_BASE        e.g. https://<user>.github.io/<repo>                  (Actions variable)
+
+The token is good for 60 days. When it lapses, every call here fails with an auth error
+and the workflow goes red, which GitHub emails about — and a scheduled reminder asks for
+a fresh one before that happens.
 """
 
 from __future__ import annotations
@@ -38,7 +42,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-GRAPH = "https://graph.facebook.com/v21.0"
+# Instagram API with Instagram Login: the account talks for itself, so there is no
+# Facebook Page in the path and no page token to derive.
+GRAPH = "https://graph.instagram.com/v21.0"
 
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "queue"
@@ -74,6 +80,12 @@ def _call(method: str, path: str, params: dict) -> dict:
             return json.loads(resp.read().decode())
     except urllib.error.HTTPError as exc:
         body = exc.read().decode(errors="replace")
+        if exc.code in (400, 401) and "oauth" in body.lower():
+            raise PublishError(
+                "the Instagram token has expired or been revoked. Generate a fresh one "
+                "(Meta app dashboard -> Instagram -> API setup with Instagram business "
+                "login -> Generate token) and update the IG_ACCESS_TOKEN secret."
+            ) from None
         # Never echo the token back out, whatever the API decided to quote at us.
         raise PublishError(f"{method} {path} -> HTTP {exc.code}: {_redact(body)}") from None
     except urllib.error.URLError as exc:

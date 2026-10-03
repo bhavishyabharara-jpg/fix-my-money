@@ -40,47 +40,33 @@ them, and takes no `cover`.
 
 ## One-time setup
 
-These four steps need a human. Do them once, in order.
+Three steps, once. There is no Facebook Page in this setup and no OAuth flow to build —
+this uses **Instagram API with Instagram Login**, where the account authorises itself and
+the dashboard hands you a long-lived token directly.
 
 ### 1. Make the Instagram account eligible
 
 Instagram only allows API publishing from a **Business** or **Creator** account.
 
 On the phone, in the @fix_mymoney app: **Settings → Account type and tools →
-Switch to professional account → Creator** (Business is fine too). Free, keeps the
-handle and the posts, and turns on Insights — which the weekly review currently
-can't read.
+Switch to professional account → Creator**. Free, keeps the handle and the posts, and
+turns on Insights — which the weekly review currently can't read.
 
-### 2. Link a Facebook Page
+### 2. Create the Meta app and click one button
 
-The publishing API reaches Instagram through a Page. A brand-new empty Page is fine;
-nothing is ever posted to it.
+1. developers.facebook.com → **My Apps → Create app** → app type **Business** → name it
+   `fix-my-money`.
+2. **Add product → Instagram → Set up**.
+3. Open **Instagram → API setup with Instagram business login**.
+   - **Add account**, and sign in as @fix_mymoney when asked.
+   - Next to the account, click **Generate token**. Copy it.
+   - That token is long-lived: **valid 60 days**, no debugger, no extending, no
+     `/me/accounts` hunt.
+4. The same panel shows the **Instagram account ID** next to the connected account.
+   Copy it. (If you'd rather confirm it: `GET https://graph.instagram.com/v21.0/me
+   ?fields=user_id,username&access_token=<token>`.)
 
-- facebook.com/pages/create → name it **Fix My Money** → create.
-- Then in the Instagram app: **Settings → Account type and tools → Sharing to other
-  apps → Facebook** → connect that Page.
-
-### 3. Create the Meta app and get a token
-
-1. developers.facebook.com → **My Apps → Create App** → use case **Other** → type
-   **Business** → name it `fix-my-money`.
-2. In the app, **Add product → Instagram → Set up** (the "Instagram Graph API" /
-   API setup with Facebook login path).
-3. Open the **Graph API Explorer** (developers.facebook.com/tools/explorer):
-   - Pick your app, top right.
-   - **Add permissions**: `instagram_basic`, `instagram_content_publish`,
-     `pages_show_list`, `pages_read_engagement`, `business_management`.
-   - **Generate Access Token**, and allow the Page and Instagram account when asked.
-4. That token lasts an hour. Make it permanent:
-   - **Access Token Debugger** (developers.facebook.com/tools/debug/accesstoken) →
-     paste it → **Extend Access Token**. You now have a 60-day user token.
-   - Back in the Explorer with the extended token, call `GET /me/accounts`. Find your
-     Page and copy its `access_token` — **a Page token derived from a long-lived user
-     token does not expire.** That is the one to keep.
-5. Get the Instagram account id: in the Explorer, call
-   `GET /<page-id>?fields=instagram_business_account`. Copy the id it returns.
-
-### 4. Put the credentials where only the Action can see them
+### 3. Put the credentials where only the Action can see them
 
 In this repo: **Settings → Secrets and variables → Actions**.
 
@@ -88,8 +74,8 @@ Under **Secrets** → *New repository secret*:
 
 | Name | Value |
 |---|---|
-| `IG_ACCESS_TOKEN` | the non-expiring Page token from step 3.4 |
-| `IG_USER_ID` | the Instagram account id from step 3.5 |
+| `IG_ACCESS_TOKEN` | the token from step 2.3 |
+| `IG_USER_ID` | the Instagram account id from step 2.4 |
 
 Under **Variables** → *New repository variable*:
 
@@ -99,9 +85,13 @@ Under **Variables** → *New repository variable*:
 
 And enable Pages: **Settings → Pages → Source: Deploy from a branch → `main` / `root`**.
 
-Paste the token into GitHub directly. It should not be sent through chat, committed to
-a file, or pasted anywhere else — a Page token with `instagram_content_publish` can post
-as the account until it is revoked.
+Paste the token into GitHub directly. It should not be sent through chat, committed to a
+file, or pasted anywhere else — it can post as the account until it is revoked.
+
+**The token expires every 60 days.** A scheduled reminder asks for a fresh one before it
+lapses; regenerating is the same **Generate token** button and a paste into the secret.
+If it ever does lapse first, the workflow turns red, GitHub emails you, and nothing is
+lost — the queue just waits and goes out once the secret is updated.
 
 ## Checking on it
 
