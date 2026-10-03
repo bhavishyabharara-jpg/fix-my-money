@@ -50,9 +50,11 @@ ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "queue"
 STATE = ROOT / "published.json"
 
-TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
-IG_USER = os.environ.get("IG_USER_ID", "")
-PAGES = os.environ.get("PAGES_BASE", "").rstrip("/")
+# .strip() matters: a secret pasted with a trailing newline or a stray space is a different
+# token as far as Meta is concerned, and the only symptom is a flat "invalid token".
+TOKEN = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+IG_USER = os.environ.get("IG_USER_ID", "").strip()
+PAGES = os.environ.get("PAGES_BASE", "").strip().rstrip("/")
 
 # Instagram gives a container up to 24h, but a 23s reel is normally FINISHED well
 # inside a minute. Back off gently rather than hammering the endpoint.
@@ -223,6 +225,19 @@ def main() -> int:
     if missing:
         print(f"Not configured yet: {', '.join(missing)}. Nothing published.")
         return 0
+
+    # Preflight: ask Instagram who this token belongs to. It costs one call and turns a bare
+    # "invalid token" into something diagnosable — whether the token works at all, and whether
+    # IG_USER_ID is the account it actually belongs to. Nothing secret is printed.
+    print(f"token: {len(TOKEN)} chars, starts {TOKEN[:4]}…  IG_USER_ID: {IG_USER}")
+    try:
+        who = _call("GET", "me", {"fields": "user_id,username"})
+        print(f"token is valid for @{who.get('username')} (user_id {who.get('user_id')})")
+        if str(who.get("user_id")) != str(IG_USER):
+            print(f"WARNING: IG_USER_ID is {IG_USER} but this token belongs to {who.get('user_id')}")
+    except PublishError as exc:
+        print(f"PREFLIGHT FAILED: {exc}")
+        return 1
 
     state = load_state()
     jobs = pending(state)
