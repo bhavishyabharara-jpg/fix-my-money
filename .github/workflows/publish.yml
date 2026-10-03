@@ -1,0 +1,41 @@
+name: Publish to Instagram
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'queue/**'
+      - 'media/**'
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Let the Pages deploy settle
+        if: github.event_name == 'push'
+        run: sleep 45
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish anything pending
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PAGES_BASE: ${{ vars.PAGES_BASE }}
+        run: python tools/publish.py
+      - name: Record what went live
+        run: |
+          if [ -n "$(git status --porcelain published.json)" ]; then
+            git config user.name  "fix-my-money-bot"
+            git config user.email "noreply@github.com"
+            git add published.json
+            git commit -m "Published: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
