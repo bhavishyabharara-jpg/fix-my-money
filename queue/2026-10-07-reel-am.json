@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-07",
+  "slot": "reel",
+  "publish_at": "2026-10-07T02:45",
+  "topic": "RBI decision day: your rights when a floating loan rate resets",
+  "hook_pattern": "news-stakes (your home loan, decision day)",
+  "caption": "RBI decides on rates today. If your home loan is on a floating rate, here are 4 things your lender must do when that rate resets.\n\nUnder RBI's rules for EMI-based floating-rate loans, the lender must tell you right away what the reset does to your EMI and tenure. You get to choose: a higher EMI, a longer tenure, or a mix. You can prepay, in part or in full, at any time. And the lender must offer the option to switch to a fixed rate, under its board-approved policy (*how many switches and what charges apply depend on that policy). You also get a statement every quarter showing principal and interest paid, EMIs left and the annual rate.\n\nWhy the choice matters, in an illustrative example: a ₹50 lakh, 20-year loan whose rate goes from 8% to 8.25%. Raising the EMI by about ₹781 adds roughly ₹1.9 lakh of interest over the loan. Keeping the EMI and extending the tenure by about 12 months adds roughly ₹5 lakh. This assumes the new rate holds for the full loan; your numbers will differ.\n\nSave this for your next rate reset. Send it to someone with a home loan. Follow for one money fix a day.\n\nSources: RBI circular on reset of floating interest rate on EMI-based personal loans (18 Aug 2023, updated 1 Oct 2025); RBI policy preview as reported (2 Oct 2026). Interest figures are illustrative, calculated by us.\nFor education only. Not investment advice.\n\n#homeloan #emi #repoRate #personalfinanceindia",
+  "media": [
+    "media/2026-10-07/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-07/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12529&Mode=0",
+    "https://www.business-standard.com/finance/news/rbi-mpc-meeting-october-2026-monetary-policy-repo-rate-hike-retail-inflation-126100200188_1.html"
+  ]
+}

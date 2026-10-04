@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-04 — Daily review
+
+- **Data so far:** 5 posts tracked on the pipeline (2 reels manual, 1 carousel 3 Oct, 1 carousel + 1 reel 4 Oct). Insights do return for the 3 Oct carousel (views 0, reach 0, saves 0), so the token has the permission; the 4 Oct posts are too new to show views yet.
+- **Best:** 4 Oct am reel "Thinking of stopping your SIP? 8 weeks of red" — 1 like within an hour, the only engagement so far. News-pegged reel beat the evergreen carousel. **Worst:** 3 Oct expense-ratio carousel — 0 views/reach after a day: carousels to a 0-follower account get no distribution.
+- **Patterns:** too little data to score hook_patterns (no reel has views yet). Keep the mix weighted to news-stakes and big-question; no more carousels this week.
+- **Slots:** only one AM reel live; first PM reel (RBI/EMI, news-stakes) goes out 13:45 UTC today. Compare am vs pm from Tuesday.
+- **Followers:** 0 (first account.csv row). The 30-day aim is 500–1,000; needs ~17–33 a day from here, so reach per reel is the only lever.
+
 ## 2026-10-03 — Weekly review, week 1 (28 Sep – 3 Oct)
 
 Snapshot from the profile, 3 Oct 10:50 IST (active account confirmed @fix_mymoney via Edit profile): **6 posts live (5 carousels + 1 reel), 0 followers, 0 following.** Web Insights page returns "page not available", so reach/saves/shares/follows could not be read; open Insights in the mobile app to fill the gaps.

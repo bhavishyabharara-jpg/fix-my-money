@@ -2,6 +2,14 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-04 (daily pass, 12:50 IST)
+
+- **@financewithsharan:** grid unchanged at the top (8.4M retire, 6.6M Dubai, 1.1M, 1M). Newest 8 reels 138K–369K; nothing new breaking out this week.
+- **@anushkarathod98, rotated-in @labourlawadvisor:** logged-out wall hid the reel grid; skipped. @ca_rachanaranade not attempted after two blocks.
+- **Pattern:** the top tier is still evergreen big questions; weekly news reels sit at ~150–350K for a 2.9M account (5–12% of followers).
+- **News hooks (last 48 h):** RBI MPC decides 7 Oct, repo at 5.25% after four holds, most polls expect +0.25%; CPI 4.82% in Aug, above the 4% target for a 3rd month; WPI 9.92%. October rule changes (FD rules, biometric Aadhaar for LPG subsidy) already queued 5 Oct.
+- **Used:** 7 Oct am "RBI decision day: 4 rights when your loan rate resets" (news-stakes); 7 Oct pm "Start at 25 or 30?" (big-question). After the decision lands, a same-day follow-up ("RBI did X: what it means for your EMI") is worth a slot on 8 Oct.
+
 ## 2026-10-04
 
 **@financewithsharan** (Finance with Sharan, about 2.9M followers)
