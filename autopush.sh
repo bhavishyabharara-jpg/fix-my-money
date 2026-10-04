@@ -13,21 +13,34 @@
 
 set -u
 cd "$HOME/Documents/Money X-Ray/publisher-repo" || exit 1
+STAMP=$(date -u +%Y-%m-%dT%H:%MZ)
 
-# Nothing new? Say nothing and stop — this runs every ten minutes and should be silent.
+# Commit local work first, so the rebase below has something to replay cleanly.
 git add -A
-if git diff --cached --quiet; then
-  exit 0
+if ! git diff --cached --quiet; then
+  git -c user.name="Bhavishay" -c user.email="bhavishyabharara@gmail.com" \
+      commit -q -m "Queue update $STAMP" || exit 1
 fi
 
-STAMP=$(date -u +%Y-%m-%dT%H:%MZ)
-git -c user.name="Bhavishay" -c user.email="bhavishyabharara@gmail.com" \
-    commit -q -m "Queue update $STAMP" || exit 1
+# The publisher Action commits published.json after every post, so the remote is routinely
+# ahead of this machine. Catch up before pushing — without this, every push after a
+# successful publish is rejected as non-fast-forward.
+if ! git pull --rebase -q; then
+  git rebase --abort 2>/dev/null
+  echo "$STAMP PULL FAILED — remote and local have diverged in a way that needs a human."
+  echo "  Try:  cd ~/Documents/Money\\ X-Ray/publisher-repo && git pull --rebase"
+  exit 1
+fi
+
+# Nothing of our own to send? The pull may still have brought changes down; that's fine.
+if git diff --quiet HEAD @{u} 2>/dev/null; then
+  exit 0
+fi
 
 if git push -q; then
   echo "$STAMP pushed"
 else
-  # Most likely the credential has lapsed. Leave the commit in place; the next run retries.
-  echo "$STAMP PUSH FAILED — run this script by hand once to re-enter your GitHub token"
+  echo "$STAMP PUSH FAILED. If it mentions authentication, run this script by hand once to"
+  echo "  re-enter your GitHub token. If it mentions fast-forward, run: git pull --rebase"
   exit 1
 fi
