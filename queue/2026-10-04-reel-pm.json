@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-04",
+  "slot": "reel",
+  "publish_at": "2026-10-04T13:45",
+  "topic": "RBI decides on 7 Oct: what a 0.25% hike would mean for a home loan EMI",
+  "hook_pattern": "news-stakes (your EMI)",
+  "caption": "The RBI's rate-setting committee meets 5–7 October and announces its decision on Wednesday, 7 October. The repo rate is 5.25% today, and in one poll of 10 economists, 8 expected a 0.25% increase. That is an expectation, not a decision.\n\nWhat would 0.25% mean? An illustrative example: a ₹50 lakh loan over 20 years at 8.00% has an EMI of about ₹41,822. At 8.25% it is about ₹42,603 — roughly ₹781 more a month. Your own rate, balance and tenure will give a different number.\n\nTwo things worth knowing. Loans linked to an external benchmark like the repo rate must have their interest rate reset at least once every three months, so a change reaches you at your loan's next reset, not overnight. And lenders can adjust the tenure, the EMI, or both, depending on your loan terms.\n\nSave this for Wednesday. Send it to someone with a floating-rate loan. Follow for one money fix a day.\n\nSources: news poll of economists (2 Oct 2026); RBI policy previews (Oct 2026); RBI external benchmark circular as reported (2019). EMI figures are illustrative, calculated by us.\nFor education only. Not investment advice.\n\n#homeloan #repoRate #emi #personalfinanceindia",
+  "media": [
+    "media/2026-10-04/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-04/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.business-standard.com/finance/news/business-standard-poll-rbi-may-hike-repo-rate-by-25-bps-in-october-meet-126100200016_1.html",
+    "https://www.gopocket.in/news/rbi-policy-october-2026-repo-rate-inflation-emi-outlook",
+    "https://www.business-standard.com/amp/article/finance/link-all-new-floating-rate-home-auto-loans-to-repo-from-oct-rbi-to-banks-119090401264_1.html",
+    "https://upstox.com/learning-center/personal-finance/how-rbi-rate-changes-impact-your-home-loan-interest-rate-april-2026/article-1540/"
+  ]
+}

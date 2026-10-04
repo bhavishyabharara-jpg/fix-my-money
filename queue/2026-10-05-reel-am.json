@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "slot": "reel",
+  "publish_at": "2026-10-05T02:45",
+  "topic": "Money rules that changed in October 2026",
+  "hook_pattern": "news-list (what changed this month)",
+  "caption": "Four money rules that changed this October, plus one thing that didn't.\n\n1. Subsidised LPG: biometric Aadhaar authentication is now needed to book a subsidised domestic refill (from 1 October).\n2. NPS: a one-time onboarding fee of ₹200 per account when you open through a point of presence (from 1 October).\n3. ATM limits: at least one large bank cut free transactions at other banks' ATMs on salary accounts from 10 a month to 5. Check your own bank's schedule of charges.\n4. UPI: from 15 October, a merchant fee applies to some payments to merchants above ₹2,000. Customers are not charged it, and person-to-person UPI stays free.\n\nAnd what didn't change: small savings rates for October–December. PPF stays at 7.1%.\n\nSave this for later. Send it to someone who pays by UPI all day. Follow for one money fix a day.\n\nSources: published lists of October 2026 rule changes (1 Oct 2026); small savings rate announcement (30 Sep 2026).\nFor education only. Not investment advice.\n\n#moneyrules #upi #nps #personalfinanceindia",
+  "media": [
+    "media/2026-10-05/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-05/reel-am/reel_cover.png",
+  "sources": [
+    "https://upstox.com/news/personal-finance/latest-updates/11-financial-changes-coming-in-october-2026-rbi-mpc-sbi-atm-rules-fd-rules-lpg-kyc-upi-mdr-small-savings-itr-deadline-and-more/article-200981/",
+    "https://www.outlookmoney.com/news/new-money-rules-from-october-2026-key-changes-to-know",
+    "https://upstox.com/news/personal-finance/investing/public-provident-fund-ppf-interest-rate-for-october-december-2026/article-201130/"
+  ]
+}

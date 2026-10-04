@@ -7,7 +7,8 @@ on:
     paths:
       - 'queue/**'
   schedule:
-    - cron: '17 * * * *'
+    # :50 past the hour, so a post due at 13:45 UTC (19:15 IST) goes out at ~19:20 IST.
+    - cron: '50 * * * *'
   workflow_dispatch:
 concurrency:
   group: instagram-publish
@@ -31,12 +32,20 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           PAGES_BASE: ${{ vars.PAGES_BASE }}
         run: python tools/publish.py
+      - name: Daily metrics snapshot
+        if: always()
+        continue-on-error: true
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python tools/metrics.py
+
       - name: Record what went live
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain published.json)" ]; then
+          git add published.json metrics 2>/dev/null || true
+          if [ -n "$(git status --porcelain published.json metrics)" ]; then
             git config user.name  "fix-my-money-bot"
             git config user.email "noreply@github.com"
-            git add published.json
             git commit -m "Published: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

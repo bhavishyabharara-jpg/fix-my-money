@@ -363,6 +363,8 @@ def draw_reel_frame(scene, st, t_total, T, idx_total):
         f = fit_font(scene["title"], "b", 80, 56, maxw, 3)
         y = draw_lines(d, wrap_rich(scene["title"], f, maxw), f, 80, 560, int(f.size * 1.2)) + 80
         bars = scene["bars"]
+        # four or more bars would run into the footer at full size, so tighten them
+        bh, gap = (110, 70) if len(bars) <= 3 else (84, 34)
         vmax = max(abs(b["value"]) for b in bars) or 1
         for i, b in enumerate(bars):
             local = ease((st - 0.3 - i * 0.35) / 0.8)
@@ -370,10 +372,10 @@ def draw_reel_frame(scene, st, t_total, T, idx_total):
             y += 76
             w = max(6, int((maxw - 300) * abs(b["value"]) / vmax * local))
             col = RED if b.get("alert") else (MINT if b.get("highlight") else (70, 110, 145))
-            d.rounded_rectangle((80, y, 80 + w, y + 110), radius=16, fill=col)
+            d.rounded_rectangle((80, y, 80 + w, y + bh), radius=16, fill=col)
             if local > 0.05:
-                d.text((80 + w + 24, y + 12), count_text(clean(b.get("display", str(b["value"]))), local), font=F("b", 60), fill=WHITE)
-            y += 110 + 70
+                d.text((80 + w + 24, y + (bh - 72) // 2), count_text(clean(b.get("display", str(b["value"]))), local), font=F("b", 60), fill=WHITE)
+            y += bh + gap
         if scene.get("note"):
             a = ease((st - 1.8) / 0.5)
             fn = F("r", 38)

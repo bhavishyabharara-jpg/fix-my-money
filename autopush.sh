@@ -25,8 +25,13 @@ fi
 # The publisher Action commits published.json after every post, so the remote is routinely
 # ahead of this machine. Catch up before pushing — without this, every push after a
 # successful publish is rejected as non-fast-forward.
-if ! git pull --rebase -q; then
+if ! PULL_OUT=$(git pull --rebase -q 2>&1); then
   git rebase --abort 2>/dev/null
+  if echo "$PULL_OUT" | grep -qiE "resolve host|unable to access|timed out|network|connection"; then
+    echo "$STAMP offline — couldn't reach GitHub. Nothing lost; will retry on the next run."
+    exit 0
+  fi
+  echo "$PULL_OUT"
   echo "$STAMP PULL FAILED — remote and local have diverged in a way that needs a human."
   echo "  Try:  cd ~/Documents/Money\\ X-Ray/publisher-repo && git pull --rebase"
   exit 1
