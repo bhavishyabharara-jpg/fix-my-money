@@ -184,8 +184,25 @@ def save_state(state: dict) -> None:
 
 
 def pending(state: dict) -> list[Path]:
+    """Jobs not yet published and already due.
+
+    A job may carry `publish_at` (UTC, "YYYY-MM-DDTHH:MM"). That is what lets the queue be
+    filled weeks ahead: the hourly run simply ignores anything not yet due, so a fortnight of
+    posts can sit here and go out on their own dates with nobody feeding them.
+    """
     done = state["published"]
-    jobs = [p for p in sorted(QUEUE.glob("*.json")) if p.stem not in done]
+    now = time.strftime("%Y-%m-%dT%H:%M", time.gmtime())
+    jobs = []
+    for p in sorted(QUEUE.glob("*.json")):
+        if p.stem in done:
+            continue
+        try:
+            due = json.loads(p.read_text()).get("publish_at")
+        except Exception:
+            due = None            # malformed: let validate() report it properly
+        if due and str(due)[:16] > now:
+            continue              # not yet its turn
+        jobs.append(p)
     return jobs
 
 
