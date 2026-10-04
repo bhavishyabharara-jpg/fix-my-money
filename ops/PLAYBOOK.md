@@ -67,3 +67,25 @@ Keep carousel titles under ~12 words, bodies under ~45 words, list items under ~
 
 ## Caption style
 Line 1 = the hook restated. 2–4 short paragraphs of value. One value prompt (save/send). Sources line. Disclaimer. 3–5 hashtags from: #mutualfunds #sipinvestment #personalfinanceindia #investingforbeginners #mutualfundsindia #financialplanning #moneytips #retirementplanning #assetallocation.
+
+## Reels-first system (from 4 Oct 2026)
+
+Cadence: 2 reels a day, publish_at 02:45 and 13:45 UTC (08:15 and 19:15 IST), with at most one carousel a week. Each reel runs 15–18 s in 5–6 scenes. The hook is on screen in the first second and fills half the frame. The end card asks for a save or a share.
+
+Every job records its `hook_pattern`, so the daily review can score patterns against each other:
+
+| hook_pattern | Example | Why it should work |
+|---|---|---|
+| news-stakes | "Your home loan EMI could go up this Wednesday" | The top format across all three competitors |
+| news-list | "4 money rules changed this October" | Timely, and people save lists |
+| big-question | "How much money do you need to retire?" | Sharan's best reel (8.4M views), and it works without a face |
+| ranking | "Which govt savings scheme pays the most?" | Bars get saved and shared |
+| contrarian-number | "PPF pays 7.1%. Your money grows less than that." | Overturns something people assume |
+| audit | "12 funds. Same stocks 5 times?" | Our own best reel so far |
+| relatable (red weeks only) | A light, rule-safe take on a bad market week | A meme reel did 5–10× a competitor's usual reach |
+
+Decision rules, applied weekly:
+
+- A pattern whose median views are 2× the account median gets an extra slot.
+- A pattern below half the median for 2 weeks is dropped.
+- A reel that beats 3× the median gets a follow-up within 48 hours (part 2 or the same idea from a new angle). The owner also re-posts it by hand with a trending sound.
