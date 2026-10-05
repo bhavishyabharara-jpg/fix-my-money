@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "slot": "reel",
+  "publish_at": "2026-10-08T02:45",
+  "topic": "Lost your job tomorrow? How big your emergency fund should be (3-6-12 months)",
+  "hook_pattern": "audit (emergency-fund check: how many months could you last?)",
+  "caption": "Lost your job tomorrow. How many months could you last?\n\nCount only the essentials: rent or home-loan EMI, groceries, bills, insurance premiums, school fees and other EMIs. Leave out eating out and shopping.\n\nThen multiply by the months that fit your life (a common rule of thumb):\nStable job, no dependents: about 3 months.\nFamily depends on you: about 6 months.\nVariable income or self-employed: up to 12 months.\n\nIllustrative: with ₹40,000 of essentials a month, that's ₹1.2 lakh, ₹2.4 lakh or ₹4.8 lakh.\n\nKeep it boring. This money is for safety and quick access, not returns: a slice in a savings account, the rest in low-risk options you can withdraw within a day or two.\n\nSave this and work out your number tonight. Send it to a friend who has no backup fund.\n\nSources: published personal-finance guides on emergency funds (2026), which agree on 3 months for stable jobs, about 6 with dependents and up to 12 for variable income. Rupee figures are our illustrative calculations.\nFor education only. Not investment advice.\n\n#personalfinanceindia #financialplanning #moneytips #emergencyfund",
+  "media": [
+    "media/2026-10-08/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-08/reel-am/reel_cover.png",
+  "sources": [
+    "https://cleartax.in/s/emergency-fund-invest",
+    "https://www.finnovate.in/learn/blog/emergency-fund-india-3-6-12-rule"
+  ]
+}

@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-05 (daily pass, 12:55 IST, logged out)
+
+- **@financewithsharan:** newest reel "How to afford a ₹2L Bali trip" 92.5K (1 day old); rest of the newest 12 at 140K–373K; pinned big questions still 8.4M / 6.6M / 1.1M.
+- **@ca_rachanaranade:** newest Marathi "Is this market fall temporary, or will the pressure stay?" 26.6K; "FII selling / DII buying will continue?" 51.9K; "400 points, two sessions" 97K; the "Me replicating the market" meme still leads at 655K, with an older pinned 404K.
+- **@anushkarathod98:** newest "Why are the stock market and gold falling?" 162K; "How many bank accounts do you need?" 126K; "How to start a ₹10,000 SIP?" 154K; "Save ₹10 lakhs on home loan" 43.7K. Her 3M and 3.1M news reels sit just behind.
+- **Rotated in @pranjalkamra:** pinned "Investment plan for 5,000, get 1.6 crores" 3.3M, "Luxury brands are fooling you?" 2M, "6 step financial plan" 1.1M; recent face-to-camera reels only 25K–236K.
+- **Pattern:** the outliers on every account are a **small input turned into a big number** (₹5,000 → ₹1.6 cr) or a **big personal question**. "Why is X falling?" news explainers do 2–5× the explainer median while markets are red. Weekly market analysis underperforms the account median.
+- **News hooks (last 48 h):** RBI MPC meets 5–7 Oct, decision on 7 Oct, and polls lean to a 25 bp hike (Business Standard, Upstox previews). ITR due 31 Oct 2026 for audit cases; the CBDT moved transfer-pricing cases to 21 Nov. October TDS forms now carry new Income Tax Act 2025 numbers (Form 138/140/141), which are employer-facing and not worth a reel.
+- **Used:** 8 Oct am "Lost your job tomorrow? How many months could you last?" (audit, emergency fund); 8 Oct pm "When will your money double? Rule of 72" (big-question, small-number-to-big idea). **For the 7 Oct run:** once the RBI result is out (~04:30 UTC), consider swapping 8 Oct pm for a same-day follow-up ("RBI did X: what it means for your EMI and FD") and moving the rule-of-72 reel to 9 Oct.
+
 ## 2026-10-04 (daily pass, 12:50 IST)
 
 - **@financewithsharan:** grid unchanged at the top (8.4M retire, 6.6M Dubai, 1.1M, 1M). Newest 8 reels 138K–369K; nothing new breaking out this week.

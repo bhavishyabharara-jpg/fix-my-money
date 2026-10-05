@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-10-05 — Daily review
+
+- **Data:** account.csv 5 Oct shows **0 followers** (no change from 4 Oct), 12 posts, and **following jumped 0 → 67** (worth confirming that was intentional). Reel views/reach/saves are **blank for every reel**, while the 3 Oct carousel returns zeros, so insights work for carousels but the reel metric calls fail; ranked on likes/comments instead.
+- **Best:** 4 Oct pm "RBI decides on 7 Oct: what a 0.25% hike would mean for your EMI" (news-stakes) and 4 Oct am "Thinking of stopping your SIP?" each got 1 like, 0 comments. **Worst:** both carousels (3 Oct expense ratio, 4 Oct eight losing weeks): 0 likes, and 0 reach where measured. 5 Oct am "October money rules" went out at 03:02 UTC and has no numbers yet.
+- **Patterns/slots:** news-stakes 1 like from 1 reel; am vs pm tied (1 like each). Far too little signal to rank patterns. Keep weighting news-stakes and big-question; 8 Oct am is the first *audit*-tagged reel since the pipeline went live (emergency fund), so it tests our playbook's "own best" pattern.
+- **Timing:** the Action published 4 Oct pm 75 min late (15:00 UTC) and 5 Oct am 17 min late. Fine for now; watch it.
+- **Followers vs aim:** 0 against 500–1,000 in 30 days, i.e. 17–33 a day needed. After 12 posts the page still has almost no distribution; reels are the only format with any reach, and hand-adding a trending sound to the best reel remains the untested lever.
+- **Ops:** the Mac's autopush pulls and rebases (last at 04:40 UTC 5 Oct) but the 4 Oct "Queue update" commit (7 Oct reels) is **not on GitHub**, so the push step is failing. Also: never run plain `git status` from the Cowork shell, it leaves a `.git/index.lock` that can't be deleted there; use `git --no-optional-locks`.
+
 ## 2026-10-04 — Daily review
 
 - **Data so far:** 5 posts tracked on the pipeline (2 reels manual, 1 carousel 3 Oct, 1 carousel + 1 reel 4 Oct). Insights do return for the 3 Oct carousel (views 0, reach 0, saves 0), so the token has the permission; the 4 Oct posts are too new to show views yet.
