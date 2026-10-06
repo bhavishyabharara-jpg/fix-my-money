@@ -438,13 +438,13 @@ def render_reel(r, out):
     import audio as A
     lines = []
     if r.get("narrate", True) and any(s.get("vo") for s in scenes):
-        voice = r.get("voice", A.DEFAULT_VOICE)
+        voice = r.get("voice", CFG.get("voice", A.DEFAULT_VOICE))
         for s in scenes:
             clip = None
             if s.get("vo"):
                 try:
-                    clip = A.speak(s["vo"], voice=voice, speed=r.get("voice_speed", A.DEFAULT_SPEED),
-                                   language=r.get("language", "hi-IN"))
+                    clip = A.speak(s["vo"], voice=voice, speed=r.get("voice_speed", CFG.get("voice_speed", A.DEFAULT_SPEED)),
+                                   language=r.get("language", CFG.get("language", "hi-IN")))
                 except Exception as exc:  # a voice outage must never cost us the post
                     print(f"narration failed, scene stays silent: {type(exc).__name__}: {exc}")
             if clip is not None:
@@ -484,7 +484,11 @@ def render_reel(r, out):
         m = float(mouth_at[min(len(mouth_at) - 1, int(t * FPS))]) if mouth_at is not None else 0.0
         size = 300
         spr = C.sprite(size, mouth=m, t=t, mood=mood)
-        img.paste(spr, (RW - 70 - size, RH - 200 - size + C.bob(t)), spr)
+        if s.get("type") == "end":   # centred under the closing line, clear of the save prompt
+            pos = ((RW - size) // 2, RH - 470 - size + C.bob(t))
+        else:
+            pos = (RW - 70 - size, RH - 200 - size + C.bob(t))
+        img.paste(spr, pos, spr)
         return img
 
     frame = 0

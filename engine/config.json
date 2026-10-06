@@ -1,1 +1,8 @@
-{"handle": "@fix_mymoney", "brand": "Fix My Money", "timezone": "Asia/Kolkata"}
+{
+ "handle": "@fix_mymoney",
+ "brand": "Fix My Money",
+ "timezone": "Asia/Kolkata",
+ "voice": "sarvam:amit",
+ "voice_speed": 1.15,
+ "language": "hi-IN"
+}
