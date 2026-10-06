@@ -1,0 +1,7 @@
+{
+  "note": "Voice audition for Fix My Money. Each speaker reads the same line; samples land in voice/samples/.",
+  "language": "hi-IN",
+  "pace": 1.05,
+  "text": "होम लोन है? तो ध्यान से सुनिए। इस बुधवार RBI का फैसला आपकी EMI बढ़ा सकता है। पचास लाख के लोन पर, ये लगभग सात सौ अस्सी रुपये महीना ज़्यादा है। तो अपनी loan reset date अभी चेक कीजिए।",
+  "speakers": ["amit", "varun", "dev", "rahul", "ishita", "tanya", "kavya", "shubh"]
+}

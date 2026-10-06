@@ -6,6 +6,8 @@ on:
     # and a job that fired halfway through that would find its slides missing.
     paths:
       - 'queue/**'
+      - 'specs/**'
+      - 'voice/request.json'
   schedule:
     # :50 past the hour, so a post due at 13:45 UTC (19:15 IST) goes out at ~19:20 IST.
     - cron: '50 * * * *'
@@ -15,6 +17,7 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
+  pages: write
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -26,6 +29,34 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      # Narrated reels are rendered here, because the voice key only exists in this
+      # repo's secrets. Output is committed, then Pages is asked to redeploy so
+      # Instagram can fetch it.
+      - name: Build narrated reels and voice samples
+        continue-on-error: true
+        env:
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+        run: |
+          pip install -q numpy pillow
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          python tools/build.py
+
+      - name: Save built media and redeploy Pages
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add media voice queue 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git config user.name  "fix-my-money-bot"
+            git config user.email "noreply@github.com"
+            git commit -q -m "Built: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull -q --rebase && git push -q
+            curl -s -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages/builds" | head -c 300; echo
+            sleep 60
+          fi
       - name: Publish anything pending
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}

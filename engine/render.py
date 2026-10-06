@@ -18,6 +18,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "fonts")
+sys.path.insert(0, HERE)
 CFG = json.load(open(os.path.join(HERE, "config.json")))
 
 NAVY = (11, 27, 43)
@@ -429,31 +430,81 @@ def make_audio(path, seconds):
 
 def render_reel(r, out):
     os.makedirs(out, exist_ok=True)
-    scenes = r["scenes"]
-    T = sum(s["dur"] for s in scenes)
+    scenes = [dict(s) for s in r["scenes"]]
     tmp_video = os.path.join(out, "_video.mp4")
     audio = os.path.join(out, "_audio.wav")
-    make_audio(audio, T)
+    # Narration: a scene's `vo` line is spoken by the AI voice and the scene stretches
+    # to fit it, so the voice never runs past its own text. No `vo` lines = music only.
+    import audio as A
+    lines = []
+    if r.get("narrate", True) and any(s.get("vo") for s in scenes):
+        voice = r.get("voice", A.DEFAULT_VOICE)
+        for s in scenes:
+            clip = None
+            if s.get("vo"):
+                try:
+                    clip = A.speak(s["vo"], voice=voice, speed=r.get("voice_speed", A.DEFAULT_SPEED),
+                                   language=r.get("language", "hi-IN"))
+                except Exception as exc:  # a voice outage must never cost us the post
+                    print(f"narration failed, scene stays silent: {type(exc).__name__}: {exc}")
+            if clip is not None:
+                s["dur"] = round(max(s["dur"], len(clip) / A.SR + 0.55), 2)
+            lines.append(clip)
+    T = sum(s["dur"] for s in scenes)
+    track = None
+    if any(c is not None for c in lines):
+        track = np.zeros(int(T * A.SR) + A.SR, dtype=np.float32)
+        start = 0.0
+        for s, clip in zip(scenes, lines):
+            if clip is not None:
+                a = int((start + 0.2) * A.SR)
+                track[a:a + len(clip)] += clip[: len(track) - a]
+            start += s["dur"]
+    A.write_wav(audio, A.mix(T, track))
     proc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                              "-s", f"{RW}x{RH}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium",
                              "-crf", "20", "-pix_fmt", "yuv420p", tmp_video], stdin=subprocess.PIPE)
+    # mouth openness per frame, from the narration's loudness
+    mouth_at = None
+    if track is not None:
+        hop = A.SR // FPS
+        nfr = len(track) // hop
+        env = np.sqrt(np.mean(track[: nfr * hop].reshape(nfr, hop) ** 2, axis=1))
+        ref = np.percentile(env[env > 1e-4], 90) if np.any(env > 1e-4) else 1.0
+        mouth_at = np.clip(env / (ref + 1e-9), 0, 1)
+        mouth_at = np.convolve(mouth_at, [0.25, 0.5, 0.25], mode="same")
+    use_mascot = r.get("mascot", True)
+
+    def with_mascot(img, s, t):
+        if not use_mascot:
+            return img
+        import character as C
+        mood = s.get("mood") or ("concerned" if s.get("color") == "red" else
+                                 "happy" if s.get("type") == "end" or s.get("color") == "mint" else "neutral")
+        m = float(mouth_at[min(len(mouth_at) - 1, int(t * FPS))]) if mouth_at is not None else 0.0
+        size = 250
+        spr = C.sprite(size, mouth=m, t=t, mood=mood)
+        img.paste(spr, (RW - 70 - size, RH - 200 - size + C.bob(t)), spr)
+        return img
+
     frame = 0
     start = 0.0
     for s in scenes:
         nf = int(round(s["dur"] * FPS))
         for i in range(nf):
             st = i / FPS
-            img = draw_reel_frame(s, st, start + st, T, len(scenes))
+            img = with_mascot(draw_reel_frame(s, st, start + st, T, len(scenes)), s, start + st)
             proc.stdin.write(img.tobytes())
             frame += 1
         start += s["dur"]
     proc.stdin.close(); proc.wait()
     final = os.path.join(out, "reel.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp_video, "-i", audio, "-c:v", "copy",
+                    "-af", f"loudnorm=I={-14 if track is not None else -20}:TP=-1.5:LRA=11", "-ar", "44100",
                     "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", final], check=True)
     os.remove(tmp_video); os.remove(audio)
     # cover frame (end of first scene) for preview/check
-    draw_reel_frame(scenes[0], scenes[0]["dur"] - 0.01, scenes[0]["dur"], T, len(scenes)).save(os.path.join(out, "reel_cover.png"))
+    with_mascot(draw_reel_frame(scenes[0], scenes[0]["dur"] - 0.01, scenes[0]["dur"], T, len(scenes)), scenes[0], 0.0).save(os.path.join(out, "reel_cover.png"))
     with open(os.path.join(out, "reel_caption.txt"), "w") as fh:
         fh.write(r["caption"].strip() + "\n")
     return final
