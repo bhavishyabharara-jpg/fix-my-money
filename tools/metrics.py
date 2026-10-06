@@ -45,16 +45,33 @@ def get(path: str, params: dict) -> dict:
 
 
 def insight(media_id: str, metric: str):
+    """One metric for one post. Returns "" when Instagram won't give a number for it.
+
+    Instagram answers code 10 both for "your token lacks the permission" and for
+    "not enough viewers for this media to show insights" (any post under ~100 views).
+    Only the first means stop asking; the second is normal for a new account.
+    """
     try:
         data = get(f"{media_id}/insights", {"metric": metric}).get("data", [])
         return data[0]["values"][0]["value"] if data else ""
     except urllib.error.HTTPError as exc:
         body = exc.read().decode(errors="replace")
-        if "permission" in body.lower() or '"code":10' in body or '"code":200' in body:
-            raise PermissionError from None
-        return ""            # metric not available for this media type
+        try:
+            msg = json.loads(body).get("error", {}).get("message", "")
+        except Exception:
+            msg = body
+        low = msg.lower()
+        if "not enough viewers" in low:
+            return "<100"
+        if "permission" in low and "insights" in low or "instagram_business_manage_insights" in low:
+            raise PermissionError(msg) from None
+        NOTES.add(f"{metric}: {msg[:120]}")
+        return ""
     except Exception:
         return ""
+
+
+NOTES: set = set()
 
 
 def main() -> int:
@@ -105,8 +122,9 @@ def main() -> int:
                 continue
             try:
                 row[m] = insight(mid, m)
-            except PermissionError:
+            except PermissionError as exc:
                 have_insights = False
+                NOTES.add(f"permission: {str(exc)[:120]}")
                 row[m] = ""
         rows.append(row)
 
@@ -117,6 +135,8 @@ def main() -> int:
             w.writeheader()
         w.writerows(rows)
     print(f"metrics: {len(rows)} posts recorded")
+    for n in sorted(NOTES):
+        print(f"metrics note: {n}")
     if not have_insights:
         print("metrics: reach/views/saves/shares need the instagram_business_manage_insights "
               "permission on the token — those columns are blank until it is added.")
