@@ -93,11 +93,31 @@ def render_specs() -> int:
     return made
 
 
+def previews() -> int:
+    """Render specs in previews/*.json to previews/out/<name>.mp4. Never published."""
+    made = 0
+    for spec in sorted((ROOT / "previews").glob("*.json")):
+        dst = ROOT / "previews" / "out" / f"{spec.stem}.mp4"
+        if dst.exists():
+            continue
+        with tempfile.TemporaryDirectory() as td:
+            res = subprocess.run([sys.executable, str(ROOT / "engine" / "render.py"), str(spec), td, "--only", "reel"],
+                                 capture_output=True, text=True)
+            print(res.stdout[-1500:], res.stderr[-1500:])
+            out = Path(td) / "reel" / "reel.mp4"
+            if out.exists():
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(out, dst)
+                made += 1
+                print(f"preview {spec.stem}: ok")
+    return made
+
+
 def main() -> int:
     if not os.environ.get("SARVAM_API_KEY", "").strip():
         print("build: SARVAM_API_KEY not set; skipping voice work")
         return 0
-    n = voice_samples() + render_specs()
+    n = voice_samples() + previews() + render_specs()
     print(f"build: {n} file(s) made")
     return 0
 

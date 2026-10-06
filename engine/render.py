@@ -482,7 +482,7 @@ def render_reel(r, out):
         mood = s.get("mood") or ("concerned" if s.get("color") == "red" else
                                  "happy" if s.get("type") == "end" or s.get("color") == "mint" else "neutral")
         m = float(mouth_at[min(len(mouth_at) - 1, int(t * FPS))]) if mouth_at is not None else 0.0
-        size = 250
+        size = 300
         spr = C.sprite(size, mouth=m, t=t, mood=mood)
         img.paste(spr, (RW - 70 - size, RH - 200 - size + C.bob(t)), spr)
         return img

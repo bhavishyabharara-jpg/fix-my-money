@@ -8,6 +8,7 @@ on:
       - 'queue/**'
       - 'specs/**'
       - 'voice/request.json'
+      - 'previews/*.json'
   schedule:
     # :50 past the hour, so a post due at 13:45 UTC (19:15 IST) goes out at ~19:20 IST.
     - cron: '50 * * * *'
@@ -47,7 +48,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add media voice queue 2>/dev/null || true
+          git add media voice queue previews 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git config user.name  "fix-my-money-bot"
             git config user.email "noreply@github.com"
