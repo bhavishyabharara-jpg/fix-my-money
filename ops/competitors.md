@@ -2,6 +2,14 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-06 (daily pass, 12:50 IST, logged out)
+
+- **@financewithsharan:** newest 12 reels 110K–379K; newest "Planning a ₹2L Bali trip for New Year 2027?" 110K (2 days), "Why do IT companies pay freshers just ₹3 LPA?" 379K, "Why has Europe stopped depending on Russia?" 333K. Pinned 8.4M / 6.6M / 1.1M unchanged.
+- **@ca_rachanaranade, @anushkarathod98, rotated-in @ankurwarikoo:** logged-out wall hid the reel grid (only the bio loaded); skipped.
+- **Pattern:** Sharan's best recent non-pinned reels are "Why does X happen to your money?" questions (freshers' pay, energy); everyday-spending goals (a trip) get the lower end. Big-question still beats explainers.
+- **News hooks (last 48 h):** RBI MPC decision 7 Oct (~10:00 IST); repo 5.25%, most previews expect +25 bp to 5.50%, SBI Research and Nomura see another +25 bp in December (Upstox preview). Tax: TDS for September due 7 Oct; tax audit report extended to 21 Oct; audit-case ITR extended to 21 Nov (Upstox tax calendar, 1 Oct). Note: this conflicts with the 5 Oct entry (ITR 31 Oct for audit cases); not used.
+- **Used:** 9 Oct am "Paid only the minimum due?" (contrarian-number, credit card); 9 Oct pm "₹2 lakh trip: save first or EMI?" (big-question, mirrors Sharan's trip reel with numbers on screen). **For the 7 Oct run:** once RBI announces, make a same-day "RBI did X: your EMI and FD" reel and swap it into 8 Oct pm (move rule-of-72 to 10 Oct).
+
 ## 2026-10-05 (daily pass, 12:55 IST, logged out)
 
 - **@financewithsharan:** newest reel "How to afford a ₹2L Bali trip" 92.5K (1 day old); rest of the newest 12 at 140K–373K; pinned big questions still 8.4M / 6.6M / 1.1M.

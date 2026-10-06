@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-09",
+  "slot": "reel",
+  "publish_at": "2026-10-09T02:45",
+  "topic": "Credit card minimum due: how little of it clears your bill",
+  "hook_pattern": "contrarian-number (the minimum due barely touches the bill)",
+  "caption": "Paid only the minimum due on your credit card? Most of it never touched the bill.\n\nIllustrative example: a ₹50,000 bill, interest at 3.5% a month (cards in India commonly charge about 2.5–4% a month, roughly 30–48% a year) and a minimum due of 5%.\n\nYou pay the ₹2,500 minimum. About ₹1,750 of the next month's charge is interest, so only about ₹750 actually cuts what you owe. Keep paying only the minimum with no new spends and it could take around 15 years and roughly ₹99,000 in interest to clear (illustrative, assuming a ₹200 minimum floor; GST on interest and late fees would add more).\n\nPay a fixed ₹5,000 a month instead and the same bill clears in about 13 months, with about ₹12,600 of interest. Paying the full bill by the due date costs no interest at all.\n\nThree fixes: pay the full bill if you can, set a fixed payment well above the minimum if you can't, and stop new spends on that card until it's clear.\n\nSave this. Send it to someone who pays only the minimum.\n\nSources: published guides to Indian credit card interest rates and minimum due (bankbazaar.com/credit-card/interest-rates.html; indianpaycalculator.in credit card minimum-due explainer, 2026). Rupee amounts are our illustrative calculations.\nFor education only. Not investment advice.\n\n#personalfinanceindia #moneytips #creditcard #debtfree #financialplanning",
+  "media": [
+    "media/2026-10-09/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-09/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.bankbazaar.com/credit-card/interest-rates.html",
+    "https://www.indianpaycalculator.in/govt-news/credit-card-minimum-due-trap-emi-vs-full-payment-2026"
+  ]
+}

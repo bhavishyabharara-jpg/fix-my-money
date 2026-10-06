@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-06 — Daily review
+
+- **Followers: 11 (+11 since 5 Oct)**, the first growth, with 14 posts live. Following also rose 67 → 91; if that is follow-for-follow, today's gain may be follow-backs rather than content. 30-day aim of 500–1,000 still needs ~17–33 a day.
+- **Data gap persists:** views/reach/saves are blank for every reel (the carousel returns zeros), so reel insights still fail; ranking on likes. Best: 4 Oct am "Stopping your SIP?" and 4 Oct pm "RBI decides on 7 Oct" (news-stakes), 1 like each. Worst: 5 Oct am "October money rules" (news-list) and 5 Oct pm "Which small savings scheme pays most" (ranking), 0 likes after ~a day.
+- **Patterns:** news-stakes 2 likes from 2 reels; news-list, ranking and both carousels 0. am vs pm tied. Keep leaning on news-stakes and big-question; trial contrarian-number (credit-card minimum due, 9 Oct am) and a goal-maths big-question (₹2L trip, 9 Oct pm).
+- **Publishing:** the Action published 5 Oct pm and 6 Oct am on time (±20 min).
+- **Ops, urgent:** the Mac's 4 Oct and 5 Oct "Queue update" commits (7 Oct and 8 Oct reels) are still **not on GitHub**; pull works, push fails. The 7 Oct am RBI decision-day reel will be skipped unless the owner runs ./autopush.sh by hand before 02:45 UTC 7 Oct.
+
 ## 2026-10-05 — Daily review
 
 - **Data:** account.csv 5 Oct shows **0 followers** (no change from 4 Oct), 12 posts, and **following jumped 0 → 67** (worth confirming that was intentional). Reel views/reach/saves are **blank for every reel**, while the 3 Oct carousel returns zeros, so insights work for carousels but the reel metric calls fail; ranked on likes/comments instead.
