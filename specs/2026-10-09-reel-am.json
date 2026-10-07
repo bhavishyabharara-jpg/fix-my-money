@@ -1,0 +1,65 @@
+{
+ "date": "2026-10-09",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "Paying only the [[minimum due?]]",
+    "sub": "Most of it never touches your bill.",
+    "vo": "Credit card का सिर्फ़ minimum due भरते हैं? ये ज़रूर देखिए।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.5,
+    "title": "₹50,000 bill, 3.5% a month. Of a ₹2,500 minimum, interest takes",
+    "big": "₹1,750",
+    "color": "red",
+    "label": "only ~₹750 cuts the bill (illustrative)",
+    "vo": "पचास हज़ार के bill पर, ढाई हज़ार में से सत्रह सौ पचास तो सिर्फ़ interest है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 4.5,
+    "title": "Interest paid to clear ₹50,000 (illustrative)",
+    "bars": [
+     {
+      "label": "Minimum only · ~15 years",
+      "value": 99,
+      "display": "₹99,000",
+      "alert": true
+     },
+     {
+      "label": "₹5,000 a month · 13 months",
+      "value": 12.6,
+      "display": "₹12,600",
+      "highlight": true
+     }
+    ],
+    "vo": "सिर्फ़ minimum भरा, तो पंद्रह साल और निन्यानवे हज़ार interest। पाँच हज़ार महीना भरा, तो तेरह महीने।"
+   },
+   {
+    "type": "list",
+    "dur": 3.5,
+    "title": "Three fixes",
+    "marks": "num",
+    "items": [
+     "Pay the full bill if you can",
+     "Else a fixed amount well above minimum",
+     "No new spends on that card"
+    ],
+    "vo": "Full bill भरिए। नहीं तो fixed amount, और उस card पर नया खर्च बंद।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "The full bill by the due date costs **zero interest.**",
+    "vo": "Due date तक पूरा bill, तो interest ज़ीरो। इसे save कीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

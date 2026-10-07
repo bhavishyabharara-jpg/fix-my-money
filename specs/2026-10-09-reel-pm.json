@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-09",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "₹2 lakh holiday: [[save first]] or take a loan?",
+    "sub": "Same trip, same 12 months.",
+    "vo": "दो लाख की trip। पहले save करें, या loan लें?"
+   },
+   {
+    "type": "bars",
+    "dur": 4.5,
+    "title": "Monthly cost over 12 months (illustrative)",
+    "bars": [
+     {
+      "label": "Save first",
+      "value": 16700,
+      "display": "₹16,700",
+      "highlight": true
+     },
+     {
+      "label": "Loan at 14% a year",
+      "value": 17960,
+      "display": "₹17,960",
+      "alert": true
+     }
+    ],
+    "vo": "पहले save किया तो सोलह हज़ार सात सौ महीना। Loan पर, लगभग अठारह हज़ार EMI।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.2,
+    "title": "Interest on the loan, before any processing fee",
+    "big": "₹15,500",
+    "color": "red",
+    "label": "for a holiday that's already over",
+    "vo": "यानी पंद्रह हज़ार interest, उस holiday के लिए जो खत्म हो चुकी।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.5,
+    "title": "How to save for it",
+    "marks": "num",
+    "items": [
+     "A separate account just for the trip",
+     "Auto-transfer on salary day",
+     "Book once the money is there"
+    ],
+    "vo": "Trip के लिए अलग account बनाइए, salary day पर auto transfer, फिर booking।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Pay for the trip **before** you take it.",
+    "vo": "इसे अपने travel buddy को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

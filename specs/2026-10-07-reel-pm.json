@@ -1,0 +1,69 @@
+{
+ "date": "2026-10-07",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "Start a SIP at 25 or 30? That wait costs [[₹74 lakh.]]",
+    "sub": "Illustrative, at 8% a year.",
+    "vo": "पच्चीस में SIP शुरू करें या तीस में? ये पाँच साल बहुत महँगे पड़ते हैं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 4.5,
+    "title": "₹10,000 a month until 60, at 8% a year",
+    "bars": [
+     {
+      "label": "Start at 25",
+      "value": 216,
+      "display": "₹2.16 cr",
+      "highlight": true
+     },
+     {
+      "label": "Start at 30",
+      "value": 142,
+      "display": "₹1.42 cr"
+     },
+     {
+      "label": "Start at 35",
+      "value": 91,
+      "display": "₹91 lakh"
+     }
+    ],
+    "vo": "दस हज़ार महीना, साठ की उम्र तक। पच्चीस से शुरू किया तो लगभग दो करोड़ सोलह लाख।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Invested only ₹6 lakh less, but ended",
+    "big": "₹74 lakh",
+    "color": "red",
+    "label": "lower by 60",
+    "vo": "तीस से शुरू किया, तो सिर्फ़ छह लाख कम लगाए, पर चौहत्तर लाख कम बने।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.5,
+    "title": "Why the late years matter most",
+    "marks": "num",
+    "items": [
+     "Growth earns growth",
+     "The last years add the most",
+     "A late start gives those up"
+    ],
+    "vo": "क्योंकि compounding में आखिरी साल सबसे ज़्यादा जोड़ते हैं।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "The best time was yesterday. **The next best is now.**",
+    "vo": "तो next year मत कहिए। इसे save कीजिए, और उस दोस्त को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

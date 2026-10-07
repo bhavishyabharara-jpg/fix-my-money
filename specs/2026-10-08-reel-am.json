@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-08",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "Lost your job tomorrow. How many [[months]] could you last?",
+    "sub": "Your emergency fund, worked out.",
+    "vo": "कल नौकरी चली जाए, तो कितने महीने चल पाएँगे?",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 4.0,
+    "title": "Count only essentials",
+    "marks": "num",
+    "items": [
+     "Rent or home-loan EMI",
+     "Groceries and bills",
+     "Insurance, school fees, other EMIs"
+    ],
+    "vo": "सिर्फ़ ज़रूरी खर्च गिनिए। किराया या EMI, राशन, bills, insurance और fees।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.5,
+    "title": "₹40,000 of essentials a month (illustrative)",
+    "bars": [
+     {
+      "label": "Stable job · 3 months",
+      "value": 1.2,
+      "display": "₹1.2 lakh"
+     },
+     {
+      "label": "Family depends on you · 6",
+      "value": 2.4,
+      "display": "₹2.4 lakh",
+      "highlight": true
+     },
+     {
+      "label": "Variable income · 12",
+      "value": 4.8,
+      "display": "₹4.8 lakh"
+     }
+    ],
+    "vo": "Stable job है तो तीन महीने, परिवार निर्भर है तो छह, और income ऊपर नीचे होती है तो बारह।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "This money is for",
+    "big": "Safety",
+    "color": "mint",
+    "label": "and quick access, not returns",
+    "vo": "ये पैसा return के लिए नहीं, safety के लिए है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Work out **your number** tonight.",
+    "vo": "आज रात अपना number निकालिए, और इसे save कर लीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

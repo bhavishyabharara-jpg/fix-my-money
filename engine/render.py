@@ -484,7 +484,9 @@ def render_reel(r, out):
         m = float(mouth_at[min(len(mouth_at) - 1, int(t * FPS))]) if mouth_at is not None else 0.0
         size = 300
         spr = C.sprite(size, mouth=m, t=t, mood=mood)
-        if s.get("type") == "end":   # centred under the closing line, clear of the save prompt
+        if s.get("type") == "bars":  # bars run to the right edge, so the coin moves up top
+            pos = (RW - 70 - size, 150 + C.bob(t))
+        elif s.get("type") == "end":   # centred under the closing line, clear of the save prompt
             pos = ((RW - size) // 2, RH - 470 - size + C.bob(t))
         else:
             pos = (RW - 70 - size, RH - 200 - size + C.bob(t))
