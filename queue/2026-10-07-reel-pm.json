@@ -4,12 +4,15 @@
   "publish_at": "2026-10-07T13:45",
   "topic": "Start a SIP at 25 or 30? What a 5-year delay costs by 60",
   "hook_pattern": "big-question (start at 25 or 30?)",
-  "caption": "Start at 25 or 30? In this illustrative example, that 5-year wait costs about ₹74 lakh by age 60.\n\n₹10,000 a month until 60, assuming 8% a year (illustrative, not a promise):\nStart at 25: about ₹2.16 crore, from ₹42 lakh invested.\nStart at 30: about ₹1.42 crore, from ₹36 lakh invested.\nStart at 35: about ₹91 lakh, from ₹30 lakh invested.\n\nWaiting 5 years means investing only ₹6 lakh less, yet ending about ₹74 lakh lower. That's compounding: growth earns growth, so the final years add the most, and those are exactly the years a late start gives up. Real returns move up and down and can be negative in some years; the point here is time, not the rate.\n\nSave this. Send it to a friend who keeps saying \"next year\". Follow for one money fix a day.\n\nSources: SEBI investor education, \"Importance of investing early\"; figures are illustrative calculations by us, assuming 8% a year compounded monthly with investments at the start of each month.\nFor education only. Not investment advice.\n\n#sipinvestment #compounding #investingforbeginners #personalfinanceindia",
+  "caption": "Start at 25 or 30? In this illustrative example, that 5-year wait costs about ₹74 lakh by age 60.\n\n₹10,000 a month until 60, assuming 8% a year (illustrative, not a promise):\nStart at 25: about ₹2.16 crore, from ₹42 lakh invested.\nStart at 30: about ₹1.42 crore, from ₹36 lakh invested.\nStart at 35: about ₹91 lakh, from ₹30 lakh invested.\n\nWaiting 5 years means investing only ₹6 lakh less, yet ending about ₹74 lakh lower. That's compounding: growth earns growth, so the final years add the most, and those are exactly the years a late start gives up. Real returns move up and down and can be negative in some years; the point here is time, not the rate.\n\nSave this. Send it to a friend who keeps saying \"next year\". Follow for one money fix a day.\n\nSources: SEBI investor education, \"Importance of investing early\"; figures are illustrative calculations by us, assuming 8% a year (effective annual rate), invested at the start of each month.\nFor education only. Not investment advice.\n\n#sipinvestment #compounding #investingforbeginners #personalfinanceindia",
   "media": [
     "media/2026-10-07/reel-pm/reel.mp4"
   ],
   "cover": "media/2026-10-07/reel-pm/reel_cover.png",
   "sources": [
     "https://investor.sebi.gov.in/early_investing_impt.html"
-  ]
+  ],
+  "spec": "specs/2026-10-07-reel-pm.json",
+  "rebuild": true,
+  "voice": "sarvam:amit"
 }

@@ -12,5 +12,8 @@
   "sources": [
     "https://cleartax.in/s/rule-of-72-double-your-money",
     "https://www.indiafirstlife.com/knowledge-center/investment/rule-of-72-explained"
-  ]
+  ],
+  "spec": "specs/2026-10-08-reel-pm.json",
+  "rebuild": true,
+  "voice": "sarvam:amit"
 }
