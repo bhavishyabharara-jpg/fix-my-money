@@ -13,6 +13,5 @@
     "https://investor.sebi.gov.in/early_investing_impt.html"
   ],
   "spec": "specs/2026-10-07-reel-pm.json",
-  "rebuild": true,
   "voice": "sarvam:amit"
 }
