@@ -1,0 +1,70 @@
+{
+ "date": "2026-10-10",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "When will your money [[double?]]",
+    "sub": "One number does the maths: 72.",
+    "vo": "आपका पैसा double कब होगा? बस एक number याद रखिए, बहत्तर।"
+   },
+   {
+    "type": "bars",
+    "dur": 5.0,
+    "title": "72 ÷ rate = years to double (illustrative)",
+    "bars": [
+     {
+      "label": "4% a year",
+      "value": 18,
+      "display": "18 yrs"
+     },
+     {
+      "label": "6% a year",
+      "value": 12,
+      "display": "12 yrs"
+     },
+     {
+      "label": "8% a year",
+      "value": 9,
+      "display": "9 yrs"
+     },
+     {
+      "label": "12% a year",
+      "value": 6,
+      "display": "6 yrs",
+      "highlight": true
+     }
+    ],
+    "vo": "बहत्तर को rate से divide कीजिए। आठ percent पर नौ साल, बारह पर छह साल।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.2,
+    "title": "It works on prices too. At 6% inflation, costs double in",
+    "big": "12 yrs",
+    "color": "red",
+    "label": "illustrative",
+    "vo": "और ये महँगाई पर भी लागू होता है। छह percent पर, खर्च बारह साल में double।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹50,000 of monthly expenses today could need",
+    "big": "₹1 lakh",
+    "color": "amber",
+    "label": "in about 12 years",
+    "vo": "यानी आज का पचास हज़ार, तब एक लाख बन सकता है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Money slower than prices is **quietly shrinking.**",
+    "vo": "Idle पैसा धीरे धीरे घटता है। इसे save कीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

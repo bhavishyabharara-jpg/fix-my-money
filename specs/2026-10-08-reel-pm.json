@@ -5,63 +5,49 @@
    {
     "type": "hook",
     "dur": 2.5,
-    "text": "When will your money [[double?]]",
-    "sub": "One number does the maths: 72.",
-    "vo": "आपका पैसा double कब होगा? बस एक number याद रखिए, बहत्तर।"
-   },
-   {
-    "type": "bars",
-    "dur": 5.0,
-    "title": "72 ÷ rate = years to double (illustrative)",
-    "bars": [
-     {
-      "label": "4% a year",
-      "value": 18,
-      "display": "18 yrs"
-     },
-     {
-      "label": "6% a year",
-      "value": 12,
-      "display": "12 yrs"
-     },
-     {
-      "label": "8% a year",
-      "value": 9,
-      "display": "9 yrs"
-     },
-     {
-      "label": "12% a year",
-      "value": 6,
-      "display": "6 yrs",
-      "highlight": true
-     }
-    ],
-    "vo": "बहत्तर को rate से divide कीजिए। आठ percent पर नौ साल, बारह पर छह साल।"
-   },
-   {
-    "type": "stat",
-    "dur": 3.2,
-    "title": "It works on prices too. At 6% inflation, costs double in",
-    "big": "12 yrs",
-    "color": "red",
-    "label": "illustrative",
-    "vo": "और ये महँगाई पर भी लागू होता है। छह percent पर, खर्च बारह साल में double।",
+    "text": "RBI just [[raised]] the repo rate. What changes for you?",
+    "sub": "First hike since 2023.",
+    "vo": "RBI ने repo rate बढ़ा दिया। आप पर क्या असर?",
     "mood": "concerned"
    },
    {
     "type": "stat",
-    "dur": 3.0,
-    "title": "₹50,000 of monthly expenses today could need",
-    "big": "₹1 lakh",
-    "color": "amber",
-    "label": "in about 12 years",
-    "vo": "यानी आज का पचास हज़ार, तब एक लाख बन सकता है।"
+    "dur": 3.2,
+    "title": "Repo rate after the 7 Oct 2026 policy",
+    "big": "5.50%",
+    "color": "red",
+    "label": "up from 5.25%",
+    "vo": "अब साढ़े पाँच percent, दो हज़ार तेईस के बाद पहली बढ़ोतरी।"
+   },
+   {
+    "type": "list",
+    "dur": 4.0,
+    "title": "Loan linked to the repo rate?",
+    "marks": "num",
+    "items": [
+     "Your rate resets at least every 3 months",
+     "The change reaches you at that reset",
+     "You can choose higher EMI or longer tenure"
+    ],
+    "vo": "Floating loan है? अगले reset पर EMI या tenure बदलेगा।"
+   },
+   {
+    "type": "list",
+    "dur": 3.8,
+    "title": "Savings in fixed deposits?",
+    "marks": "check",
+    "items": [
+     "Rates can move either way",
+     "Don't lock everything at one rate",
+     "Split across different tenures"
+    ],
+    "vo": "FD वाले, सब कुछ एक ही rate पर lock न करें।"
    },
    {
     "type": "end",
     "dur": 3.0,
-    "text": "Money slower than prices is **quietly shrinking.**",
-    "vo": "Idle पैसा धीरे धीरे घटता है। इसे save कीजिए।",
+    "text": "Find your loan's **reset date** today.",
+    "vo": "अपनी reset date check कीजिए। Save कर लीजिए।",
     "mood": "happy"
    }
   ],

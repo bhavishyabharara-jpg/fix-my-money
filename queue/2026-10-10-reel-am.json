@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "slot": "reel",
+  "publish_at": "2026-10-10T02:45",
+  "topic": "When will your money double? The rule of 72 (and how it works on prices too)",
+  "hook_pattern": "big-question (when will your money double?)",
+  "caption": "When will your money double? One number does the maths: 72.\n\nDivide 72 by the yearly rate and you get roughly how many years it takes to double. Illustrative rates, not a promise of any return:\n4% a year: about 18 years.\n6% a year: about 12 years.\n8% a year: about 9 years.\n12% a year: about 6 years.\n\nIt works on prices too. If inflation runs at 6% a year (an illustrative figure), costs double in about 12 years. ₹50,000 of monthly expenses today could need about ₹1 lakh then. Money that grows slower than prices is quietly shrinking.\n\nIt's a rough shortcut, closest for rates between about 4% and 12%. Real returns move around and can be negative in some years.\n\nSave this. Send it to someone whose savings sit idle.\n\nSources: published explainers on the rule of 72 (72 ÷ rate = years to double). Inflation and rupee figures are our illustrative calculations.\nFor education only. Not investment advice.\n\n#personalfinanceindia #compounding #investingforbeginners #moneytips",
+  "media": [
+    "media/2026-10-10/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-10/reel-am/reel_cover.png",
+  "sources": [
+    "https://cleartax.in/s/rule-of-72-double-your-money",
+    "https://www.indiafirstlife.com/knowledge-center/investment/rule-of-72-explained"
+  ],
+  "spec": "specs/2026-10-10-reel-am.json"
+}

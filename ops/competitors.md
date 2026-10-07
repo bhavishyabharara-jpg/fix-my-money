@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-07 (daily pass, logged out)
+
+- **@financewithsharan:** newest "The smart way to pick mutual funds" 58.2K (fresh); then "How to afford a ₹2L Bali trip" 115K, "Your AI personal assistant" 300K, "Why Europe stopped fearing Russia" 350K, "This bag passed my test" 363K; rest 163K–384K. Pinned 6.6M / 1.1M / 8.4M unchanged.
+- **@ca_rachanaranade:** two newest reels 6.7K and 4.4K (hours old); Marathi "Is this fall temporary?" 27.6K; pinned 404K.
+- **@anushkarathod98:** newest 246K; "You are underestimating [a business founder]" 183K; "Why are the stock market and gold falling?" 209K; "Bad news for the middle class" 80.8K.
+- **Rotated in @ankurwarikoo:** grid loaded this time. "5 couple money rules we follow" 3.6M, "5 questions before marriage" 3.4M, "Everyone is jealous of the destination" 2.8M; newest 30.5K.
+- **Pattern:** money-in-relationships (couples, marriage) is the biggest non-news outlier seen so far; news explainers ("why is X falling") still beat how-tos 2–3× on Anushka's grid.
+- **News (last 48 h):** RBI raised the repo rate 25 bp to 5.50% on 7 Oct, first hike since Feb 2023; SDF 5.25%, MSF 5.75%; stance to "calibrated tightening" (4–2); hike unanimous; FY27 GDP forecast 7.1%; Governor: next move is a hike or a pause (Business Standard, Business Today, 7 Oct). One source gives FY27 CPI 5.2%; not used (single source).
+- **Used:** 8 Oct pm "RBI just raised the repo rate: what changes for you" (news-list); 10 Oct pm "How much life cover does your family need?" (big-question). Idea for next week: a couple-money reel ("Joint or separate accounts?").
+
 ## 2026-10-06 (daily pass, 12:50 IST, logged out)
 
 - **@financewithsharan:** newest 12 reels 110K–379K; newest "Planning a ₹2L Bali trip for New Year 2027?" 110K (2 days), "Why do IT companies pay freshers just ₹3 LPA?" 379K, "Why has Europe stopped depending on Russia?" 333K. Pinned 8.4M / 6.6M / 1.1M unchanged.

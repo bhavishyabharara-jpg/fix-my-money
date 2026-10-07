@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-07 — Daily review
+
+- **Followers: 12 (+1 since 6 Oct)** with 16 posts live; following dropped 91 → 0. 30-day aim of 500–1,000 still needs ~16–33 a day. Reel insights now return views for the first time.
+- **Best by views:** 5 Oct am "October money rules" (news-list) 30 views / 28 reach; 4 Oct pm "RBI decides on 7 Oct" (news-stakes) 22 views, 1 like; 4 Oct am "Stopping your SIP?" 13 views. **Worst:** 6 Oct pm "PPF 7.1% vs inflation" (contrarian-number) 1 view and both carousels 1 view each. Saves + shares are 0 on every post, so the second ranking key can't separate anything yet.
+- **Patterns:** news-list and news-stakes (the "this week, your money" hooks) lead; ranking (5 views) and contrarian-number (1) trail. Use more news-list on real events; hold contrarian-number until there's reach. Avg watch is 2.5–3.1 s on the top three: viewers are leaving in the hook, so the frame-0 line has to carry the whole promise.
+- **Slots:** am reels 51 views over 3, pm 28 over 3 (pm ones are younger); lean am for the most timely topic. All reels so far are silent; narrated reels start with 7 Oct pm, compare from 9 Oct.
+- **Ops:** the push problem is fixed: 7 Oct am went out at 03:02 UTC and media for 7 Oct pm–9 Oct pm are all on GitHub. Swapped 8 Oct pm to a same-day RBI follow-up (repo 5.50%) and moved rule-of-72 to 10 Oct am.
+
 ## 2026-10-06 — Daily review
 
 - **Followers: 11 (+11 since 5 Oct)**, the first growth, with 14 posts live. Following also rose 67 → 91; if that is follow-for-follow, today's gain may be follow-backs rather than content. 30-day aim of 500–1,000 still needs ~17–33 a day.

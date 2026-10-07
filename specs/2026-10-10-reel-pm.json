@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-10",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "How much [[life cover]] does your family need?",
+    "sub": "A starting point in 10 seconds.",
+    "vo": "परिवार को कितना term cover चाहिए? दस seconds में समझिए।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.2,
+    "title": "A common rule of thumb",
+    "big": "10–15×",
+    "color": "mint",
+    "label": "your annual income",
+    "vo": "Rule of thumb: सालाना income का दस से पंद्रह गुना।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.5,
+    "title": "₹10 lakh a year income (illustrative)",
+    "bars": [
+     {
+      "label": "10× income",
+      "value": 1.0,
+      "display": "₹1 crore"
+     },
+     {
+      "label": "15× income",
+      "value": 1.5,
+      "display": "₹1.5 crore"
+     },
+     {
+      "label": "15× + ₹30L home loan",
+      "value": 1.8,
+      "display": "₹1.8 crore",
+      "highlight": true
+     }
+    ],
+    "vo": "दस लाख income पर, एक से डेढ़ करोड़ cover।"
+   },
+   {
+    "type": "list",
+    "dur": 4.0,
+    "title": "Then adjust for",
+    "marks": "num",
+    "items": [
+     "Outstanding loans",
+     "Children's education and goals",
+     "Life cover you already have"
+    ],
+    "vo": "फिर loans, बच्चों की पढ़ाई जोड़िए, और पुराना cover घटाइए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Work out **your number** this week.",
+    "vo": "अपना number निकालिए, और family के साथ share कीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

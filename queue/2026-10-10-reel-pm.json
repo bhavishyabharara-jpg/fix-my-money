@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "slot": "reel",
+  "publish_at": "2026-10-10T13:45",
+  "topic": "How much term life cover does your family need? The 10–15× income rule",
+  "hook_pattern": "big-question (how much cover does your family need?)",
+  "caption": "How much term life cover does your family need? A common starting point is 10 to 15 times your annual income.\n\nIllustrative example: earn ₹10 lakh a year, and that's ₹1 crore to ₹1.5 crore of cover. Add a ₹30 lakh home loan to the top of that range and you're nearer ₹1.8 crore.\n\nThen adjust:\n1. Add outstanding loans (home, education, personal), so your family isn't left with the EMIs.\n2. Add big goals like children's education, at what they're likely to cost later.\n3. Subtract life cover you already hold.\n\nA rule of thumb is a starting point, not a final answer. Your expenses, dependants and loans decide the real number.\n\nSave this. Send it to someone who just started earning or just took a home loan. Follow for one money fix a day.\n\nSources: published guides on term insurance cover (10–15× annual income; add liabilities; account for existing cover), Jun 2026 and current. Rupee figures are our illustrative calculations.\nFor education only. Not investment advice.\n\n#terminsurance #lifeinsurance #personalfinanceindia #financialplanning",
+  "spec": "specs/2026-10-10-reel-pm.json",
+  "media": [
+    "media/2026-10-10/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-10/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/amp/personal-finance/insurance/story/is-rs1-crore-enough-why-urban-families-may-need-rs1-5-crore-or-more-in-term-insurance-536377-2026-06-12",
+    "https://joinditto.in/articles/life-insurance/how-much-term-insurance-do-i-need/"
+  ]
+}

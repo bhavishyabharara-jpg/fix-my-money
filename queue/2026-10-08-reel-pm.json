@@ -2,17 +2,18 @@
   "date": "2026-10-08",
   "slot": "reel",
   "publish_at": "2026-10-08T13:45",
-  "topic": "When will your money double? The rule of 72 (and how it works on prices too)",
-  "hook_pattern": "big-question (when will your money double?)",
-  "caption": "When will your money double? One number does the maths: 72.\n\nDivide 72 by the yearly rate and you get roughly how many years it takes to double. Illustrative rates, not a promise of any return:\n4% a year: about 18 years.\n6% a year: about 12 years.\n8% a year: about 9 years.\n12% a year: about 6 years.\n\nIt works on prices too. If inflation runs at 6% a year (an illustrative figure), costs double in about 12 years. ₹50,000 of monthly expenses today could need about ₹1 lakh then. Money that grows slower than prices is quietly shrinking.\n\nIt's a rough shortcut, closest for rates between about 4% and 12%. Real returns move around and can be negative in some years.\n\nSave this. Send it to someone whose savings sit idle.\n\nSources: published explainers on the rule of 72 (72 ÷ rate = years to double). Inflation and rupee figures are our illustrative calculations.\nFor education only. Not investment advice.\n\n#personalfinanceindia #compounding #investingforbeginners #moneytips",
+  "topic": "RBI raised the repo rate to 5.50%: what changes for your loan and FD",
+  "hook_pattern": "news-list (what RBI's hike means for you)",
+  "caption": "The RBI raised the repo rate by 0.25% to 5.50% on 7 October 2026, its first increase since February 2023. The policy stance moved from neutral to \"calibrated tightening\", and the Governor said rate cuts are off the table in the near term: the next move is either a hike or a pause.\n\nWhat it means for you:\n\nIf your home or other loan is linked to the repo rate: the rate on such loans must be reset at least once every three months, so the change reaches you at your loan's next reset, not overnight. When it does, your lender must tell you what happens to your EMI and tenure, and you can choose a higher EMI, a longer tenure, or a mix.\n\nIf you keep savings in fixed deposits: deposit rates are set by each bank and can move either way. One way to avoid betting on a single rate is to split deposits across different tenures, so some money comes up for renewal every year.\n\nSave this. Send it to someone with a home loan. Follow for one money fix a day.\n\nSources: RBI monetary policy decision, 7 Oct 2026, as reported by Business Standard and Business Today; RBI external benchmark rule (reset at least once in 3 months) as reported (Sep 2019).\nFor education only. Not investment advice.\n\n#repoRate #homeloan #fixeddeposit #personalfinanceindia",
+  "spec": "specs/2026-10-08-reel-pm.json",
   "media": [
     "media/2026-10-08/reel-pm/reel.mp4"
   ],
   "cover": "media/2026-10-08/reel-pm/reel_cover.png",
+  "rebuild": true,
   "sources": [
-    "https://cleartax.in/s/rule-of-72-double-your-money",
-    "https://www.indiafirstlife.com/knowledge-center/investment/rule-of-72-explained"
-  ],
-  "spec": "specs/2026-10-08-reel-pm.json",
-  "voice": "sarvam:amit"
+    "https://www.business-standard.com/finance/news/rbi-mpc-october-2026-repo-rate-hike-inflation-growth-gdp-sanjay-malhotra-126100700222_1.html",
+    "https://www.businesstoday.in/latest/economy/story/rbi-mpc-for-the-first-time-since-2023-repo-rate-hiked-by-25-bps-to-5-5-560010-2026-10-07",
+    "https://www.business-standard.com/amp/article/finance/link-all-new-floating-rate-home-auto-loans-to-repo-from-oct-rbi-to-banks-119090401264_1.html"
+  ]
 }
