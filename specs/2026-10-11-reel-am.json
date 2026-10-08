@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-11",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "\"No-cost EMI\" [[isn't always zero cost]]",
+    "sub": "Festive shopping? Check this first.",
+    "vo": "No-cost EMI ले रहे हैं? पहले ये देखिए।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.5,
+    "title": "The interest is still charged. It's covered by a",
+    "big": "discount",
+    "color": "amber",
+    "label": "built into the price you pay",
+    "vo": "Interest लगता है, बस discount बनकर price में छुपा होता है।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.5,
+    "title": "₹1 lakh phone: what one buyer still paid",
+    "bars": [
+     {
+      "label": "GST on the interest",
+      "value": 1467,
+      "display": "₹1,467",
+      "alert": true
+     },
+     {
+      "label": "Processing fee + its GST",
+      "value": 235,
+      "display": "₹235",
+      "alert": true
+     },
+     {
+      "label": "Total extra",
+      "value": 1702,
+      "display": "~₹1,700",
+      "highlight": true
+     }
+    ],
+    "vo": "एक लाख के phone पर, GST और fee मिलाकर करीब सत्रह सौ extra।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 4.0,
+    "title": "Before you tap EMI",
+    "marks": "num",
+    "items": [
+     "Ask the price if you pay upfront",
+     "Check the processing fee and GST",
+     "The full amount blocks your card limit"
+    ],
+    "vo": "Upfront price पूछिए, fee देखिए, और card limit का ध्यान रखिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Zero interest isn't **zero cost.**",
+    "vo": "Zero interest का मतलब zero cost नहीं। Save कीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

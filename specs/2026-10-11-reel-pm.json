@@ -1,0 +1,75 @@
+{
+ "date": "2026-10-11",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.5,
+    "text": "Couples: is splitting bills [[50-50]] fair?",
+    "sub": "Two salaries, one home.",
+    "vo": "क्या couples के लिए fifty-fifty सच में fair है?"
+   },
+   {
+    "type": "stat",
+    "dur": 3.2,
+    "title": "One method: each partner puts in the",
+    "big": "same %",
+    "color": "mint",
+    "label": "of their income into a shared pot",
+    "vo": "तरीका: दोनों income का same percent shared account में डालें।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.8,
+    "title": "Pay ₹60k + ₹90k, shared bills ₹75k. Left for each (illustrative)",
+    "bars": [
+     {
+      "label": "50-50 · Partner A keeps",
+      "value": 22.5,
+      "display": "₹22,500",
+      "alert": true
+     },
+     {
+      "label": "50-50 · Partner B keeps",
+      "value": 52.5,
+      "display": "₹52,500"
+     },
+     {
+      "label": "Same 50% · A keeps",
+      "value": 30,
+      "display": "₹30,000",
+      "highlight": true
+     },
+     {
+      "label": "Same 50% · B keeps",
+      "value": 45,
+      "display": "₹45,000",
+      "highlight": true
+     }
+    ],
+    "vo": "Fifty-fifty में कम कमाने वाले के पास सिर्फ़ साढ़े बाईस हज़ार बचते हैं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.8,
+    "title": "Three pots",
+    "marks": "num",
+    "items": [
+     "Ours: rent, groceries, bills",
+     "Yours: spend without asking",
+     "Mine: the same for your partner"
+    ],
+    "vo": "तीन accounts: एक shared, और दोनों का अपना personal।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Talk money **before** it becomes a fight.",
+    "vo": "अपने partner को भेजिए, आज ही बात कीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

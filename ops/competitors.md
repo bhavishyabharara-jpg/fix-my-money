@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-08 (daily pass, logged out)
+
+- **@financewithsharan:** newest "How to invest for your wedding" 55.2K (fresh); "The smart way to pick mutual funds" 82.2K; "How to afford a ₹2L Bali trip" 117K; "Your AI personal assistant" 353K; "Why Europe stopped fearing Russia" 360K; rest 167K–369K. Pinned 6.6M / 1.1M / 8.4M unchanged.
+- **@ca_rachanaranade:** two newest 3,761 and 6,003 (hours old); "Has it already been priced in?" 75.1K; Marathi FII/DII questions behind; pinned 404K.
+- **@anushkarathod98:** "Bad news for middle class" 307K, "Why stock market & gold falling?" 214K, "[Founder] is a mastermind" 185K, "How to start ₹10,000 SIP?" 165K, "How many bank accounts do you need?" 141K / 52.6K, "Save ₹10 lakh on home loan" 45K.
+- **Rotated in @labourlawadvisor:** grid loaded this time. Pinned "Why China beats India?" 3.3M, "Lifetime unlimited golgappe" 2.3M; recent "MDR nahi katega" 154K, "BMC ka naya tax?" 80.3K, "MLA se MP ke election?" 69K, "NPS ka naya twist" 50.9K, "Kahani Bharat ki sone ki" 18.5K.
+- **Pattern:** short Hinglish "X ka naya Y?" hooks on rule changes work for a rules-explainer account (50–150K); our on-screen text stays English but the vo can open the same way. Wedding/couple money appears on a second big account this week.
+- **News (last 48 h):** after the 7 Oct repo hike to 5.50%, banks have started raising repo-linked lending rates (ETV Bharat, Channel IAM, 8 Oct); one public-sector bank's RBLR is reported at 8.35% (single source; not used). Published EMI example: ₹50 lakh, 20 years, 7.15% → 7.40% adds ~₹758 a month (Paisabazaar, 7 Oct). RBI is resting after 4 reels.
+- **Used:** 11 Oct am "No-cost EMI isn't always zero cost" (festive season, news-stakes); 11 Oct pm "Couples: is 50-50 fair?" (big-question).
+
 ## 2026-10-07 (daily pass, logged out)
 
 - **@financewithsharan:** newest "The smart way to pick mutual funds" 58.2K (fresh); then "How to afford a ₹2L Bali trip" 115K, "Your AI personal assistant" 300K, "Why Europe stopped fearing Russia" 350K, "This bag passed my test" 363K; rest 163K–384K. Pinned 6.6M / 1.1M / 8.4M unchanged.

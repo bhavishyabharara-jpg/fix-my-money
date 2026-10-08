@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-10-08 — Daily review
+
+- **Followers: 11 (−1 since 7 Oct)** with 18 posts live. Against the 30-day aim of 500–1,000 the page now needs ~17–33 a day; nothing yet is driving follows.
+- **Best by views (last 7 days):** 5 Oct am "October money rules" (news-list) 30 views / 28 reach; 4 Oct pm "RBI decides on 7 Oct" (news-stakes) 22; 4 Oct am "Stopping your SIP?" 13. **Worst:** 7 Oct am "RBI decision day: your rights" 0 views after a day, 6 Oct pm "PPF vs inflation" (contrarian-number) 1, both carousels 1. Saves and shares are still 0 on every post.
+- **Narration is the first real signal:** 7 Oct pm "Start a SIP at 25 or 30?" (first narrated reel, big-question) holds viewers for **13.8 s average watch**, against 2.2–3.0 s for the silent top three (PPF's 7 s comes from 1 view). Views are still low (8), so narration fixes retention, not distribution yet. Keep every reel narrated; judge the hook on reach.
+- **Patterns:** news-list and news-stakes still lead on views; big-question now leads on watch time. RBI has had 4 reels in 5 days (4 Oct pm, 7 Oct am, 8 Oct pm, plus EMI angle) and the decision-day one drew 0, so rest RBI. Contrarian-number stays on hold except when tied to a live event.
+- **Slots:** am reels 51 views over 4, pm 36 over 4; still lean am for the most timely topic. 11 Oct am: festive "no-cost EMI" (news-stakes); 11 Oct pm: first couple-money reel ("is 50-50 fair?", big-question), copying the competitor outlier theme.
+- **Ops:** media for 8 Oct pm through 10 Oct pm is on GitHub; the Action published 8 Oct am at 04:03 UTC (78 min late). Watch timing.
+
 ## 2026-10-07 — Daily review
 
 - **Followers: 12 (+1 since 6 Oct)** with 16 posts live; following dropped 91 → 0. 30-day aim of 500–1,000 still needs ~16–33 a day. Reel insights now return views for the first time.

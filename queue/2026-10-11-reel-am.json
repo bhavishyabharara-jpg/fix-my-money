@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-11",
+  "slot": "reel",
+  "publish_at": "2026-10-11T02:45",
+  "topic": "Festive shopping: why \"no-cost EMI\" isn't always zero cost",
+  "hook_pattern": "news-stakes (festive season: no-cost EMI still costs you)",
+  "caption": "\"No-cost EMI\" isn't always zero cost. Here's where the money goes.\n\nHow it works: the lender still charges interest. The seller covers it, usually as a discount built into the price, so you pay the full price in instalments and the interest line looks like zero.\n\nWhat can still reach you, in one published example on a ₹1 lakh phone: GST on the interest (₹1,467) plus a processing fee and its GST (₹235), about ₹1,700 over the price. Your own bank and plan will give a different number.\n\nBefore you tap EMI this festive season:\n1. Ask what the price is if you pay upfront. Some sellers give a cash discount that the EMI plan doesn't.\n2. Check the processing fee and the GST on it.\n3. Remember the full purchase amount blocks your card limit until it's repaid, and a missed instalment brings late fees and interest.\n\nSave this before your next sale. Send it to the friend with a full cart. Follow for one money fix a day.\n\nSources: published explainers on how no-cost EMI works and its hidden charges (Aug 2025, Dec 2025); the ₹1 lakh example is from one of them.\nFor education only. Not investment advice.\n\n#personalfinanceindia #moneytips #creditcard #financialplanning",
+  "spec": "specs/2026-10-11-reel-am.json",
+  "media": [
+    "media/2026-10-11/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-11/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/amp/personal-finance/banking/story/no-cost-emi-popular-available-but-misunderstood-expert-busts-myths-hidden-charges-risks-505406-2025-12-06",
+    "https://www.theweek.in/news/biz-tech/2025/08/16/no-cost-emi-hidden-charges-india-festive-shopping-guide.html"
+  ]
+}
