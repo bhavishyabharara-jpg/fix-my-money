@@ -2,6 +2,14 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-09 (daily pass, logged out)
+
+- **@financewithsharan:** newest "Your biggest financial risk may not be losing 20% in the market… creditors coming after your assets" 142K (fresh); "Your wedding could cost more than your house" 72.1K; "Still picking mutual funds by last year's returns?" 94.3K; "₹2L Bali trip" 119K; older 212K–387K. Pinned 6.6M / 1.1M / 8.4M unchanged.
+- **@ca_rachanaranade, @anushkarathod98, rotated-in @akshatshrivastava:** logged-out wall hid the reel grid after the first profile load; skipped. (Tip that worked on Sharan: read each reel's og:title from its page for the hook.)
+- **Pattern:** Sharan's fresh winner opens with a *reframed risk* ("your biggest risk isn't X, it's Y") and beats his how-to median ~1.5×; "could cost more than your house" again uses a small-vs-big comparison. Both are sentence-one surprises, not topics.
+- **News (last 48 h):** banks are passing on the 7 Oct repo hike: one public-sector bank lifted its repo-linked lending rate to 8.15% from 8 Oct (single source; not used); FD-rate hikes expected but not uniform. UPI 0.4% MDR on shop payments above ₹2,000 (cap ₹300 at ₹75,000; P2P and ≤₹2,000 free; merchant side) starts 15 Oct, confirmed by three explainers (Trade Brains 17 Sep, Vajiram 21 Sep, Daily Financial 1 Oct). Small-merchant threshold given only by one source; not used. Diwali is 8 Nov.
+- **Used:** 12 Oct am "UPI above ₹2,000: the 15 Oct fee and who pays" (news-stakes); 12 Oct pm "₹200 a day = ₹73,000 a year" (small-input-big-number). Idea: a "your biggest money risk isn't the market" reel (no insurance / no will) next week.
+
 ## 2026-10-08 (daily pass, logged out)
 
 - **@financewithsharan:** newest "How to invest for your wedding" 55.2K (fresh); "The smart way to pick mutual funds" 82.2K; "How to afford a ₹2L Bali trip" 117K; "Your AI personal assistant" 353K; "Why Europe stopped fearing Russia" 360K; rest 167K–369K. Pinned 6.6M / 1.1M / 8.4M unchanged.

@@ -1,0 +1,73 @@
+{
+ "date": "2026-10-12",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "text": "Paying shops over ₹2,000 by UPI? New rule from [[15 Oct]]",
+    "sub": "Here's who pays what.",
+    "vo": "दुकान पर UPI से दो हज़ार से ऊपर? पंद्रह October से नया rule।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.2,
+    "title": "From 15 Oct, a merchant fee of",
+    "big": "0.4%",
+    "color": "amber",
+    "label": "on shop UPI payments above ₹2,000",
+    "vo": "ऐसे payment पर zero point four percent fee लगेगी।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.6,
+    "title": "Fee per shop payment (paid by the merchant)",
+    "bars": [
+     {
+      "label": "₹2,000 payment",
+      "value": 0.5,
+      "display": "₹0"
+     },
+     {
+      "label": "₹3,000 payment",
+      "value": 12,
+      "display": "₹12"
+     },
+     {
+      "label": "₹50,000 payment",
+      "value": 200,
+      "display": "₹200"
+     },
+     {
+      "label": "₹75,000 or more",
+      "value": 300,
+      "display": "₹300 cap",
+      "alert": true
+     }
+    ],
+    "vo": "तीन हज़ार पर बारह रुपये, max तीन सौ।"
+   },
+   {
+    "type": "list",
+    "dur": 3.8,
+    "title": "What doesn't change",
+    "marks": "check",
+    "items": [
+     "Sending money to friends: free",
+     "Shop payments up to ₹2,000: free",
+     "Fee sits with the merchant, not you"
+    ],
+    "vo": "Friends को भेजना free, और fee merchant की है, आपकी नहीं।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Know the rule **before** the bill.",
+    "vo": "Save कर लीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-12",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "text": "A ₹200-a-day habit = [[₹73,000]] a year",
+    "sub": "Coffee, cabs, delivery fees.",
+    "vo": "रोज़ के सिर्फ़ दो सौ रुपये? साल के तिहत्तर हज़ार।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.2,
+    "title": "₹200 a day, simply added up",
+    "bars": [
+     {
+      "label": "1 year",
+      "value": 73,
+      "display": "₹73,000"
+     },
+     {
+      "label": "5 years",
+      "value": 365,
+      "display": "₹3.65 lakh"
+     },
+     {
+      "label": "10 years",
+      "value": 730,
+      "display": "₹7.3 lakh",
+      "alert": true
+     }
+    ],
+    "vo": "दस साल में सात लाख तीस हज़ार रुपये।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.6,
+    "title": "Same ₹6,000 a month invested for 10 years at an assumed 10% a year",
+    "big": "₹12.4 lakh",
+    "color": "mint",
+    "label": "Illustrative only. Real returns vary and can be lower.",
+    "vo": "हर महीने invest करें, तो illustrative हिसाब से बारह लाख से ज़्यादा।"
+   },
+   {
+    "type": "list",
+    "dur": 3.8,
+    "title": "Before you cut anything",
+    "marks": "num",
+    "items": [
+     "Track one week of small spends",
+     "Keep the habits you love",
+     "Drop one you won't miss"
+    ],
+    "vo": "सब मत छोड़िए, बस एक habit कम कीजिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Small leaks sink **big** ships.",
+    "vo": "Save कीजिए, अपना daily number निकालिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

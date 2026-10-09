@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-09 — Daily review
+
+- **Followers: 11 (no change since 8 Oct)** with 21 posts live; still 0 saves and 0 shares on every post. The 30-day aim of 500–1,000 now needs ~17–33 a day, and nothing yet moves follows.
+- **Best (last 7 days):** 5 Oct am "October money rules" (news-list) 30 views / 28 reach; 4 Oct pm "RBI decides on 7 Oct" (news-stakes) 22; 7 Oct pm "SIP at 25 or 30?" (big-question, narrated) 9 views with 12.4 s average watch, still the best retention by far. **Worst:** 7 Oct am RBI rights 0 views; 8 Oct pm "RBI raised repo to 5.50%" 2 views, 0.7 s watch; 8 Oct am emergency fund (audit) 2 views, 1.0 s.
+- **Reach is shrinking, not growing:** the four reels since 7 Oct am drew 0, 9, 2, 2 views against 13 average for 4–6 Oct. Narration alone isn't the fix (the two newest narrated reels lose viewers inside 1 s); the frame-0 line and first spoken words must carry a concrete number for *the viewer*.
+- **Patterns:** news-list/news-stakes still own the top two, but only on fresh rule changes (the RBI follow-ups after the event flopped). Big-question holds viewers best. Adding a competitor-proven **small-input-big-number** hook (12 Oct pm, ₹200 a day → ₹7.3 lakh) and a fresh rule change (12 Oct am, UPI 0.4% merchant fee from 15 Oct). Audit and contrarian-number stay on hold.
+- **Slots:** am 40 views over 4 reels vs pm 39 over 5: no slot effect; keep the timeliest topic in am. Publishing: 8 Oct am went out 78 min late (04:03 UTC), 9 Oct am 17 min late; all media through 11 Oct pm is on GitHub.
+
 ## 2026-10-08 — Daily review
 
 - **Followers: 11 (−1 since 7 Oct)** with 18 posts live. Against the 30-day aim of 500–1,000 the page now needs ~17–33 a day; nothing yet is driving follows.
