@@ -34,7 +34,8 @@ TOKEN = os.environ.get("IG_ACCESS_TOKEN", "").strip()
 
 # Asked for one at a time: Instagram rejects the whole request if any single metric
 # doesn't apply to that media type, and a reel and a carousel accept different sets.
-INSIGHTS = ["views", "reach", "saved", "shares", "total_interactions", "ig_reels_avg_watch_time"]
+INSIGHTS = ["views", "reach", "saved", "shares", "total_interactions", "ig_reels_avg_watch_time",
+            "profile_visits", "follows"]
 POST_COLS = ["date", "key", "slot", "media_id", "posted_at", "likes", "comments"] + INSIGHTS + ["topic", "permalink"]
 
 
@@ -128,6 +129,17 @@ def main() -> int:
                 row[m] = ""
         rows.append(row)
 
+    # If the column set grew since the file was started, rewrite it with the new header
+    # (old rows keep blanks in the new columns) so the CSV stays readable.
+    if posts_file.exists():
+        with posts_file.open() as fh:
+            old_rows = list(csv.DictReader(fh))
+            old_cols = old_rows and list(old_rows[0].keys())
+        if old_rows and old_cols != POST_COLS:
+            with posts_file.open("w", newline="") as fh:
+                w = csv.DictWriter(fh, fieldnames=POST_COLS, extrasaction="ignore")
+                w.writeheader()
+                w.writerows(old_rows)
     new = not posts_file.exists()
     with posts_file.open("a", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=POST_COLS)
