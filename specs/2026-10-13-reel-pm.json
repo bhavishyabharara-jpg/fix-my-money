@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-13",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "text": "One extra EMI a year = [[3 years]] off your home loan",
+    "sub": "₹50 lakh, 20 years (illustrative)",
+    "vo": "Home loan है? साल में बस एक extra EMI, और तीन साल कम।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.4,
+    "title": "₹50 lakh for 20 years at an assumed 8.5%. Monthly EMI",
+    "big": "₹43,391",
+    "color": "mint",
+    "label": "Illustrative only. Your rate and terms will differ.",
+    "vo": "पचास लाख, बीस साल, EMI लगभग तैंतालीस हज़ार।"
+   },
+   {
+    "type": "bars",
+    "dur": 4.4,
+    "title": "Total interest paid (illustrative)",
+    "bars": [
+     {
+      "label": "Regular EMIs · 20 years",
+      "value": 54.1,
+      "display": "₹54.1 lakh",
+      "alert": true
+     },
+     {
+      "label": "+1 EMI a year · ~16.8 years",
+      "value": 43.8,
+      "display": "₹43.8 lakh",
+      "highlight": true
+     }
+    ],
+    "vo": "Interest में करीब दस लाख की बचत।",
+    "mood": "happy"
+   },
+   {
+    "type": "list",
+    "dur": 3.8,
+    "title": "Before you prepay",
+    "marks": "num",
+    "items": [
+     "Keep your emergency fund first",
+     "Ask to cut tenure, not the EMI",
+     "Check prepayment terms in your loan papers"
+    ],
+    "vo": "पहले emergency fund रखिए, फिर bank से tenure कम करवाइए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Small extra, **big** interest saved.",
+    "vo": "ऐसे money tips के लिए follow कीजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-13",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "text": "Loan at [[just 1% a month?]]",
+    "sub": "That isn't 12% a year.",
+    "vo": "Loan सिर्फ़ एक percent महीना? ये बारह percent साल नहीं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.6,
+    "title": "₹1 lakh at 1% a month flat, over 3 years. The real yearly rate",
+    "big": "~21%",
+    "color": "red",
+    "label": "Illustrative, before fees (our calculation)",
+    "vo": "तीन साल का flat loan, असली rate लगभग इक्कीस percent।",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 4.2,
+    "title": "Same ₹3,778 EMI for 3 years, shown two ways",
+    "bars": [
+     {
+      "label": "Quoted flat rate",
+      "value": 12,
+      "display": "12%"
+     },
+     {
+      "label": "Reducing-balance rate",
+      "value": 21.2,
+      "display": "~21.2%",
+      "alert": true
+     }
+    ],
+    "vo": "Interest पूरे एक लाख पर लगता है, घटते balance पर नहीं।"
+   },
+   {
+    "type": "list",
+    "dur": 3.8,
+    "title": "Before you sign",
+    "marks": "num",
+    "items": [
+     "Ask: flat or reducing rate?",
+     "Read the APR in the Key Fact Statement",
+     "Compare APRs, not monthly rates"
+    ],
+    "vo": "पूछिए, flat या reducing? Key Fact Statement में APR देखिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Skip the monthly rate. Compare the **APR**.",
+    "vo": "APR compare कीजिए, monthly rate नहीं।",
+    "mood": "happy"
+   }
+  ],
+  "caption": ""
+ }
+}

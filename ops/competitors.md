@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-10 (daily pass, logged out)
+
+- **@financewithsharan (newest 9 of 12; 3 pinned 6.6M / 1.1M / 8.4M):** newest "From a ₹4 crore house in Paris to a ₹20 crore business…" (creator-money interview) **669K** in about a day, his best non-pinned reel in weeks; "Your biggest financial risk may not be losing 20% in the market…" 192K (up from 142K); "Your wedding could cost more than your house" 81.1K; then 98.5K, 120K, 435K, 380K, 373K, 321K.
+- **@ca_rachanaranade, @anushkarathod98, rotated-in @labourlawadvisor:** logged-out wall hid the reel grid after the first profile load again (profiles show 1.2M / 1.3M / 1.3M followers); skipped. Tomorrow: open a non-Sharan creator first.
+- **Pattern:** Sharan's outliers are other people's big ₹ numbers (a house, a business, a wedding) set against each other. Our ₹2L-holiday reel, built on his ₹2L-trip topic, tied our best. Keep borrowing his *question*, not his story; we can't do interviews.
+- **News (last 48 h):** banks passing on the 7 Oct repo hike: one public-sector bank lifted its repo-linked lending rate to 8.15% from 8 Oct; FD-rate hikes for new deposits expected but uneven (only new/renewed FDs get them). UPI 0.4% merchant fee on shop payments above ₹2,000 starts 15 Oct (already queued 12 Oct am).
+
 ## 2026-10-09 (daily pass, logged out)
 
 - **@financewithsharan:** newest "Your biggest financial risk may not be losing 20% in the market… creditors coming after your assets" 142K (fresh); "Your wedding could cost more than your house" 72.1K; "Still picking mutual funds by last year's returns?" 94.3K; "₹2L Bali trip" 119K; older 212K–387K. Pinned 6.6M / 1.1M / 8.4M unchanged.

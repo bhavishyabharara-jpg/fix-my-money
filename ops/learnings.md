@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-10 — Daily review
+
+- **Followers: 11 (flat since 8 Oct; 23 posts live).** First save ever landed (9 Oct pm). The 30-day aim of 500–1,000 still needs ~17–33 a day; reach is finally moving, follows aren't.
+- **Best (last 7 days):** 9 Oct am "Credit card minimum due" (contrarian-number) 58 views / 50 reach, 3.4 s watch; 9 Oct pm "₹2 lakh holiday: save first or loan?" (big-question, modelled on a competitor's ₹2L-trip winner) 58 views / 49 reach, **1 save**, 4.0 s. Both doubled the old best (30). **Worst:** 7 Oct am RBI rights 0; 6 Oct pm PPF vs inflation 1; 8 Oct pm repo explainer 5. 8 Oct am emergency fund recovered to 14 after a slow day 1.
+- **Why the two winners worked:** the frame-0 line names the viewer's own money situation (a bill they're paying, a trip they want) with a concrete ₹ figure, and the first spoken words say it. RBI follow-ups after the event keep flopping: no more post-event macro explainers.
+- **Narration is now clearly winning:** narrated reels (7 Oct pm onward) average 29 views vs 11 for silent reels 4–7 Oct. Slots: am 110 views over 5 reels vs pm 100 over 6, still no slot effect.
+- **Use more:** contrarian-number on everyday debt, big-question borrowed from competitor winners, small-input-big-number. **Use less:** post-event news explainers, audit. Queued 13 Oct: flat-rate loan trap (contrarian-number) and one-extra-EMI home loan (small-input-big-number).
+
 ## 2026-10-09 — Daily review
 
 - **Followers: 11 (no change since 8 Oct)** with 21 posts live; still 0 saves and 0 shares on every post. The 30-day aim of 500–1,000 now needs ~17–33 a day, and nothing yet moves follows.
