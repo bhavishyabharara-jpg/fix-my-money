@@ -4,7 +4,7 @@
   "publish_at": "2026-10-11T13:45",
   "topic": "Couples: is splitting bills 50-50 fair? Same-percentage split and the three-pot method",
   "hook_pattern": "big-question (is 50-50 fair for couples?)",
-  "caption": "Couples: is splitting bills 50-50 actually fair?\n\nIllustrative example: one partner earns ₹60,000 a month, the other ₹90,000, and shared bills come to ₹75,000. Split 50-50, each pays ₹37,500, so one keeps ₹22,500 and the other ₹52,500.\n\nOne alternative couples use: each puts in the same percentage of their income. Here that's 50%, so ₹30,000 and ₹45,000 go in, and each keeps ₹30,000 and ₹45,000. Different rupees, the same share.\n\nMany couples run three pots:\n1. Ours: a shared account for rent, groceries and bills.\n2. Yours: personal money you spend without asking.\n3. Mine: the same for your partner.\n\nThere's no single right split. Equal rupees can suit similar incomes; equal percentages can suit different ones. What matters is agreeing on it together, before money becomes a fight.\n\nSend this to your partner. Save it for your next money talk. Follow for one money fix a day.\n\nSources: published guides on the \"yours, mine, ours\" couples budgeting method and proportional contributions. Rupee figures are our illustrative calculations.\nFor education only. Not investment advice.\n\n#personalfinanceindia #financialplanning #moneytips #couplegoals",
+  "caption": "Couples: is splitting bills 50-50 actually fair?\n\nIllustrative example: one partner earns ₹60,000 a month, the other ₹90,000, and shared bills come to ₹75,000. Split 50-50, each pays ₹37,500, so one keeps ₹22,500 and the other ₹52,500.\n\nOne alternative couples use: each puts in the same percentage of their income. Here that's 50%, so ₹30,000 and ₹45,000 go in, and each keeps ₹30,000 and ₹45,000. Different rupees, the same share.\n\nMany couples run three pots:\n1. Ours: a shared account for rent, groceries and bills.\n2. Yours: personal money you spend without asking.\n3. Mine: the same for your partner.\n\nThere's no single right split. Equal rupees can suit similar incomes; equal percentages can suit different ones. What matters is agreeing on it together, before money becomes a fight.\n\nSend this to your partner. Save it for your next money talk. Follow for one money fix a day.\n\nSources: published guides on the \"yours, mine, ours\" couples budgeting method and proportional contributions. Rupee figures are our illustrative calculations.\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalfinanceindia #financialplanning #moneytips #couplegoals",
   "spec": "specs/2026-10-11-reel-pm.json",
   "media": [
     "media/2026-10-11/reel-pm/reel.mp4"
@@ -12,5 +12,6 @@
   "cover": "media/2026-10-11/reel-pm/reel_cover.png",
   "sources": [
     "https://coupl.money/blog/yours-mine-ours-couples-budgeting-system"
-  ]
+  ],
+  "rebuild": true
 }

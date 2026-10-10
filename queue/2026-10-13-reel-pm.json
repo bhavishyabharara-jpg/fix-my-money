@@ -4,7 +4,7 @@
   "publish_at": "2026-10-13T13:45",
   "topic": "One extra EMI a year: how much faster a ₹50 lakh home loan closes",
   "hook_pattern": "small-input-big-number (one extra EMI a year → ~3 years and ~₹10 lakh interest saved)",
-  "caption": "One extra EMI a year can take years off a home loan.\n\nIllustrative example: a ₹50 lakh loan for 20 years at an assumed 8.5% has an EMI of about ₹43,391 and total interest of about ₹54.1 lakh. Pay one extra EMI at the end of every year, used to cut the tenure, and the loan closes in about 16 years 9 months, with about ₹43.8 lakh of interest: roughly ₹10 lakh less. Your own numbers depend on your rate, tenure and lender terms.\n\nBefore you prepay:\n1. Keep your emergency fund in place first.\n2. Ask the lender to reduce the tenure, not the EMI, to save the most interest.\n3. Check your loan papers for prepayment terms. RBI's rules bar prepayment charges on floating-rate loans taken by individuals for non-business purposes (for loans sanctioned or renewed from 1 Jan 2026).\n\nSave this and run your own loan's numbers. Follow for one money fix a day.\n\nSources: Business Standard and Angel One on RBI's prepayment-charge directions. Loan figures are our illustrative calculations (standard EMI formula, one extra EMI a year), not a forecast.\n\nFor education only. Not investment advice.\n\n#personalfinanceindia #homeloan #moneytips #emi #financialplanning",
+  "caption": "One extra EMI a year can take years off a home loan.\n\nIllustrative example: a ₹50 lakh loan for 20 years at an assumed 8.5% has an EMI of about ₹43,391 and total interest of about ₹54.1 lakh. Pay one extra EMI at the end of every year, used to cut the tenure, and the loan closes in about 16 years 9 months, with about ₹43.8 lakh of interest: roughly ₹10 lakh less. Your own numbers depend on your rate, tenure and lender terms.\n\nBefore you prepay:\n1. Keep your emergency fund in place first.\n2. Ask the lender to reduce the tenure, not the EMI, to save the most interest.\n3. Check your loan papers for prepayment terms. RBI's rules bar prepayment charges on floating-rate loans taken by individuals for non-business purposes (for loans sanctioned or renewed from 1 Jan 2026).\n\nSave this and run your own loan's numbers. Follow for one money fix a day.\n\nSources: Business Standard and Angel One on RBI's prepayment-charge directions. Loan figures are our illustrative calculations (standard EMI formula, one extra EMI a year), not a forecast.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalfinanceindia #homeloan #moneytips #emi #financialplanning",
   "spec": "specs/2026-10-13-reel-pm.json",
   "media": [
     "media/2026-10-13/reel-pm/reel.mp4"
@@ -13,5 +13,6 @@
   "sources": [
     "https://www.business-standard.com/finance/news/rbi-no-prepayment-charges-loans-mse-bank-small-business-finance-125070201501_1.html",
     "https://www.angelone.in/news/market-updates/rbi-guidelines-on-loan-prepayment-charges-to-take-effect-from-january-1"
-  ]
+  ],
+  "rebuild": true
 }

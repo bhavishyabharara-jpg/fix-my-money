@@ -4,7 +4,7 @@
   "publish_at": "2026-10-13T02:45",
   "topic": "Loan at \"1% a month\": why a flat rate is really ~21% a year",
   "hook_pattern": "contrarian-number (1% a month flat isn't 12% a year)",
-  "caption": "\"Just 1% a month\" sounds like 12% a year. On a flat-rate loan, it isn't.\n\nA flat rate charges interest on the full amount you borrowed for the whole term, even as your EMIs pay it down. Illustrative example: ₹1 lakh at 1% a month flat for 3 years means ₹36,000 of interest and an EMI of about ₹3,778. Measured on the reducing balance, the way most loans are quoted, that's roughly 21% a year, not 12%. Processing fees push the real cost higher still.\n\nBefore you sign:\n1. Ask whether the rate is flat or reducing-balance.\n2. Read the APR (annual percentage rate) in the Key Fact Statement. RBI has required lenders to give one, with an all-inclusive APR, for retail and MSME term loans since 1 Oct 2024.\n3. Compare loans by APR, not by the monthly rate.\n\nSave this for the next time someone quotes you a monthly rate. Ever been quoted a flat rate?\n\nSources: Wikipedia, \"Flat rate (finance)\"; Vinod Kothari Consultants and Outlook Money on RBI's Key Fact Statement rules (Apr 2024). Rupee figures and the ~21% rate are our illustrative calculations.\n\nFor education only. Not investment advice.\n\n#personalfinanceindia #moneytips #personalloan #loans #financialplanning",
+  "caption": "\"Just 1% a month\" sounds like 12% a year. On a flat-rate loan, it isn't.\n\nA flat rate charges interest on the full amount you borrowed for the whole term, even as your EMIs pay it down. Illustrative example: ₹1 lakh at 1% a month flat for 3 years means ₹36,000 of interest and an EMI of about ₹3,778. Measured on the reducing balance, the way most loans are quoted, that's roughly 21% a year, not 12%. Processing fees push the real cost higher still.\n\nBefore you sign:\n1. Ask whether the rate is flat or reducing-balance.\n2. Read the APR (annual percentage rate) in the Key Fact Statement. RBI has required lenders to give one, with an all-inclusive APR, for retail and MSME term loans since 1 Oct 2024.\n3. Compare loans by APR, not by the monthly rate.\n\nSave this for the next time someone quotes you a monthly rate. Ever been quoted a flat rate?\n\nSources: Wikipedia, \"Flat rate (finance)\"; Vinod Kothari Consultants and Outlook Money on RBI's Key Fact Statement rules (Apr 2024). Rupee figures and the ~21% rate are our illustrative calculations.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalfinanceindia #moneytips #personalloan #loans #financialplanning",
   "spec": "specs/2026-10-13-reel-am.json",
   "media": [
     "media/2026-10-13/reel-am/reel.mp4"
@@ -14,5 +14,6 @@
     "https://en.wikipedia.org/wiki/Flat_rate_(finance)",
     "https://vinodkothari.com/2024/04/the-key-to-loan-transparency-rbi-frames-kfs-norms-for-all-retail-and-msme-loans/",
     "https://www.outlookmoney.com/banking/loan/rbi-mandates-lenders-to-give-key-facts-statement-for-all-retail-msme-loans"
-  ]
+  ],
+  "rebuild": true
 }

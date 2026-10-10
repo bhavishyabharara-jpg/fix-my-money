@@ -321,7 +321,9 @@ def draw_reel_frame(scene, st, t_total, T, idx_total):
         y0 = (RH - total_h) // 2 - 80
         # word-by-word reveal over first 45% of scene (min 0.25s/line)
         words = [w for ln in lines for w in ln]
-        reveal = min(dur * 0.45, 0.18 * len(words) + 0.2)
+        # The hook is fully on screen from frame 0: the first second decides whether
+        # anyone stays, and a half-empty frame loses them. Later text still reveals.
+        reveal = 0.0 if typ == "hook" else min(dur * 0.45, 0.18 * len(words) + 0.2)
         shown = len(words) if st >= reveal else int(len(words) * st / max(reveal, 0.01)) + 1
         k = 0; y = y0
         for ln in lines:
@@ -341,8 +343,10 @@ def draw_reel_frame(scene, st, t_total, T, idx_total):
             draw_lines(d, sl, fs, 80, y + 50, 62, align="center", box_w=maxw, alpha=a)
         if typ == "end":
             a = ease((st - reveal) / 0.4)
-            ftxt = "Save this for later"
-            d.text(((RW - F("b", 44).getlength(ftxt)) / 2, RH - 420), ftxt, font=F("b", 44), fill=blend(MINT, NAVY, a))
+            for i, ftxt in enumerate(scene.get("cta", ["Send this to a friend who needs it", "Follow for a money fix every day"])):
+                fc = F("b", 44) if i == 0 else F("m", 38)
+                d.text(((RW - fc.getlength(ftxt)) / 2, RH - 430 + i * 64), ftxt, font=fc,
+                       fill=blend(MINT if i == 0 else WHITE, NAVY, a))
     elif typ == "stat":
         fl = F("m", 60)
         top = scene.get("title", "")
@@ -484,7 +488,11 @@ def render_reel(r, out):
         m = float(mouth_at[min(len(mouth_at) - 1, int(t * FPS))]) if mouth_at is not None else 0.0
         size = 300
         spr = C.sprite(size, mouth=m, t=t, mood=mood)
-        if s.get("type") == "bars":  # bars run to the right edge, so the coin moves up top
+        if s.get("type") == "hook":  # big and centred on the opening frame: a face stops the scroll
+            size = 340
+            spr = C.sprite(size, mouth=m, t=t, mood=mood)
+            pos = ((RW - size) // 2, RH - 180 - size + C.bob(t))
+        elif s.get("type") == "bars":  # bars run to the right edge, so the coin moves up top
             pos = (RW - 70 - size, 150 + C.bob(t))
         elif s.get("type") == "end":   # centred under the closing line, clear of the save prompt
             pos = ((RW - size) // 2, RH - 470 - size + C.bob(t))

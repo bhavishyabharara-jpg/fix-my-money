@@ -69,7 +69,9 @@ jobs:
         continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: python tools/metrics.py
+        run: |
+          python tools/metrics.py
+          python tools/review.py
 
       - name: Record what went live
         if: always()

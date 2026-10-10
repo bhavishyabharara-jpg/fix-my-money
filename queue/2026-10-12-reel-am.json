@@ -4,7 +4,7 @@
   "publish_at": "2026-10-12T02:45",
   "topic": "UPI shop payments above ₹2,000: the 0.4% merchant fee from 15 Oct, and who pays it",
   "hook_pattern": "news-stakes (new rule this week: your UPI payments)",
-  "caption": "Paying a shop more than ₹2,000 by UPI? A new rule starts on 15 October 2026.\n\nWhat changes: a merchant discount rate (MDR) of 0.4% on person-to-merchant UPI payments above ₹2,000, capped at ₹300 per payment (the cap kicks in at ₹75,000).\n\nWorked out: a ₹3,000 payment carries ₹12, a ₹50,000 payment ₹200, and anything from ₹75,000 up ₹300.\n\nWhat doesn't change:\n1. Sending money to friends and family (person-to-person) stays free.\n2. Shop payments up to ₹2,000 stay free.\n3. The fee sits on the merchant side. Published explainers say it isn't meant to be charged separately to customers.\n\nSome categories, such as utilities, follow a separate flat fee. Rules can still be modified, so check the latest with your bank.\n\nSave this so you know the rule before the bill. Send it to the friend who pays for everything by UPI. Follow for one money fix a day.\n\nSources: published explainers on the UPI MDR from 15 Oct 2026 (17 Sep, 21 Sep, 1 Oct 2026). Rupee examples are 0.4% of the amount.\nFor education only. Not investment advice.\n\n#personalfinanceindia #upi #moneytips #digitalpayments",
+  "caption": "Paying a shop more than ₹2,000 by UPI? A new rule starts on 15 October 2026.\n\nWhat changes: a merchant discount rate (MDR) of 0.4% on person-to-merchant UPI payments above ₹2,000, capped at ₹300 per payment (the cap kicks in at ₹75,000).\n\nWorked out: a ₹3,000 payment carries ₹12, a ₹50,000 payment ₹200, and anything from ₹75,000 up ₹300.\n\nWhat doesn't change:\n1. Sending money to friends and family (person-to-person) stays free.\n2. Shop payments up to ₹2,000 stay free.\n3. The fee sits on the merchant side. Published explainers say it isn't meant to be charged separately to customers.\n\nSome categories, such as utilities, follow a separate flat fee. Rules can still be modified, so check the latest with your bank.\n\nSave this so you know the rule before the bill. Send it to the friend who pays for everything by UPI. Follow for one money fix a day.\n\nSources: published explainers on the UPI MDR from 15 Oct 2026 (17 Sep, 21 Sep, 1 Oct 2026). Rupee examples are 0.4% of the amount.\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalfinanceindia #upi #moneytips #digitalpayments",
   "spec": "specs/2026-10-12-reel-am.json",
   "media": [
     "media/2026-10-12/reel-am/reel.mp4"
@@ -14,5 +14,6 @@
     "https://tradebrains.in/money/upi-rule-change-from-october-15-2026-payments-above-2000-to-attract-04-merchant-discount-rate-check-full-details-12542995",
     "https://vajiramandravi.com/current-affairs/upi-mdr-2026/",
     "https://dailyfinancial.in/october-2026-to-january-2027-personal-finance-checklist-15-deadlines-interest-rate-changes-tax-moves-and-banking-rules-you-shouldnt-miss/"
-  ]
+  ],
+  "rebuild": true
 }

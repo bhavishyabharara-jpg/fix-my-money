@@ -86,8 +86,14 @@ def render_specs() -> int:
             shutil.copy(out, target)
             if job.get("cover"):
                 shutil.copy(Path(td) / "reel" / "reel_cover.png", ROOT / job["cover"])
-        if job.pop("rebuild", None):
-            job_path.write_text(json.dumps(job, indent=2, ensure_ascii=False) + "\n")
+        job.pop("rebuild", None)
+        try:
+            dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                  str(target)], capture_output=True, text=True).stdout.strip()
+            job["duration_s"] = round(float(dur), 1)
+        except Exception:
+            pass
+        job_path.write_text(json.dumps(job, indent=2, ensure_ascii=False) + "\n")
         made += 1
         print(f"{job_path.name}: rendered -> {job['media'][0]}")
     return made
