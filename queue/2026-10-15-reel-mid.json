@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-15",
+  "slot": "reel",
+  "publish_at": "2026-10-15T07:45",
+  "topic": "LPG subsidy: biometric Aadhaar check needed from 1 Oct, or the refill comes at market price",
+  "hook_pattern": "news-list",
+  "experiment": "EXPLOIT (news-list): dated rule with a household cost, sent to parents. Tests whether a family-admin 'send to parents' target gets the first sends.",
+  "caption": "Could your LPG subsidy stop because of one missed check?\n\nFrom 1 October, domestic LPG users need biometric Aadhaar authentication to book refills at the subsidised price.\nWithout it, you can still get a cylinder, but at the market price without subsidy.\nIt can be done when the cylinder is delivered, at the distributor, or on the oil company's app. If it's already done, you don't need to repeat it.\n\nHas your family's gas connection done this yet?\n\nSources: two business news reports on October 2026 money rule changes.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#lpg #gascylinder #aadhaar #moneyrules #personalfinanceindia",
+  "spec": "specs/2026-10-15-reel-mid.json",
+  "media": [
+    "media/2026-10-15/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-15/reel-mid/reel_cover.png",
+  "sources": [
+    "https://www.business-standard.com/amp/finance/personal-finance/money-changes-in-oct-sbi-atm-lpg-fd-nps-and-epf-rules-to-know-126093000569_1.html",
+    "https://www.outlookmoney.com/news/new-money-rules-from-october-2026-key-changes-to-know"
+  ]
+}

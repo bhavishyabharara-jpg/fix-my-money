@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-15",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Your gas subsidy can stop without [[1 check]]",
+    "sub": "Biometric Aadhaar check, from 1 Oct.",
+    "vo": "आपकी gas subsidy रुक सकती है, एक check के बिना।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "To book a subsidised LPG refill",
+    "big": "1 Oct",
+    "color": "red",
+    "label": "Biometric Aadhaar check now needed",
+    "vo": "एक October से biometric Aadhaar check ज़रूरी।"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "Skip it and",
+    "marks": "num",
+    "items": [
+     "Refill comes at market price",
+     "No subsidy on that refill"
+    ],
+    "vo": "वरना refill market price पर।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "3 ways to finish it",
+    "marks": "check",
+    "items": [
+     "When the cylinder is delivered",
+     "At your gas distributor",
+     "On the gas company's app"
+    ],
+    "vo": "Delivery, distributor या app पर करा लीजिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Done once? **No need** to repeat",
+    "cta": [
+     "Send to parents who book the cylinder",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Parents को अभी भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Could your LPG subsidy stop because of one missed check?\n\nFrom 1 October, domestic LPG users need biometric Aadhaar authentication to book refills at the subsidised price.\nWithout it, you can still get a cylinder, but at the market price without subsidy.\nIt can be done when the cylinder is delivered, at the distributor, or on the oil company's app. If it's already done, you don't need to repeat it.\n\nHas your family's gas connection done this yet?\n\nSources: two business news reports on October 2026 money rule changes.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#lpg #gascylinder #aadhaar #moneyrules #personalfinanceindia"
+ }
+}

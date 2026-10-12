@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-15",
+  "slot": "reel",
+  "publish_at": "2026-10-15T13:45",
+  "topic": "Job switch: PF withdrawn before 5 years isn't tax-free; transfer it instead",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number): busts the 'PF is tax-free' myth with a ₹20,000 TDS figure; tests a job-switch send target in the pm slot.",
+  "caption": "Is your PF really tax-free if you withdraw it when you switch jobs?\n\nA final PF withdrawal is tax-free only after 5 years of continuous service. Earlier jobs count only if you transferred the balance, not withdrew it.\nBefore 5 years, your own contribution stays exempt, but the interest and the employer's share are taxable.\nAbove ₹50,000, 10% TDS is cut if your PAN is linked (illustrative: up to ₹20,000 on ₹2 lakh). Below that there's no TDS, but tax may still be due.\n\nDid you transfer your PF at your last job switch, or withdraw it?\n\nSources: a business news explainer on PF withdrawal tax (Jul 2026) and a bank's guide to PF withdrawal tax rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#epf #pfwithdrawal #incometax #jobswitch #personalfinanceindia",
+  "spec": "specs/2026-10-15-reel-pm.json",
+  "media": [
+    "media/2026-10-15/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-15/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/amp/personal-finance/tax/story/my-pf-is-tax-free-myth-or-truth-know-the-epf-withdrawal-tax-rules-before-you-cash-out-540381-2026-07-02",
+    "https://www.ujjivansfb.bank.in/banking-blogs/personal-finance/epf-withdrawal-tax-rules"
+  ]
+}

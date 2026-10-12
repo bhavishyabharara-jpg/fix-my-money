@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-12 — Daily review (second run, 07:20 UTC)
+
+- **Followers: 12 (+1 vs 11 Oct), the same as the 06:00 pass.** The path to 2,000 needed ~410 today; we're ~400 behind and need ~250 a day for 8 days. Honest read: the target won't be met organically. The useful goal this week is the first reel that gets sends.
+- **Best and worst are unchanged:** ₹2L holiday (141 views) and rule of 72 (122) lead on reach because the frame-0 line names *your* ₹. Couples 50-50 is worst (1.3 s, 7% watch). 12 Oct am (UPI fee) went live at 03:04 UTC, 19 min late, and has no metrics yet.
+- **Patterns:** news-list stays EXPLOIT (low data); contrarian-number and big-question are keep. Drop fairness or relationship topics with no ₹ cost. Narrated reels get 34 median views vs 22 for silent ones, so narration stays.
+- **Engine change:** send targets now name a *household role* the viewer already knows (parents who book the gas cylinder, the friend switching jobs) instead of a money trait. This tests whether family-admin topics get the first send. 15 Oct mid (LPG Aadhaar check, news-list) and pm (PF tax before 5 years, contrarian-number) are queued, so the queue now runs to the end of 15 Oct.
+- **Ops:** the routine fired twice today. A second pass 80 min after the first adds no new metrics, so keep it to one run a day.
+
 ## 2026-10-12 — Daily review
 
 - **Followers: 12 (+1 vs 11 Oct).** The 10-day path (11 → 2,000 by 20 Oct, ~200 a day) put us at ~410 today, so we are ~400 behind and now need ~250 a day for 8 days. That is ~100× today's rate; honest read: 2,000 by 20 Oct is very unlikely on organic reach alone, and the realistic win this week is the first reel that gets sends. Note: the account's media count fell 23 → 13–15 on 11 Oct and 6 older posts dropped out of tracking (5 Oct pm, 6 Oct am/pm, 7 Oct am, both carousels), so they look archived or deleted.

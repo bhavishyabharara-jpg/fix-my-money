@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-15",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Job switch? Your PF isn't tax-free before [[5 years]]",
+    "sub": "Withdraw it early, and tax can apply.",
+    "vo": "Job switch? पाँच साल से पहले PF tax-free नहीं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Withdraw ₹2 lakh before 5 years",
+    "big": "₹20,000",
+    "color": "red",
+    "label": "Up to this as 10% TDS, with PAN. Illustrative.",
+    "vo": "दो लाख निकाले, तो बीस हज़ार तक TDS।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "What gets taxed",
+    "marks": "num",
+    "items": [
+     "Your own contribution: exempt",
+     "Interest on it: taxable",
+     "Employer's share + interest: taxable"
+    ],
+    "vo": "Employer का हिस्सा और interest, taxable।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Keep it tax-free",
+    "marks": "check",
+    "items": [
+     "Transfer PF to the new job",
+     "Old service then counts",
+     "5 years in total = tax-free"
+    ],
+    "vo": "Transfer करो, पुरानी service गिनी जाती है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Don't withdraw. **Transfer it**",
+    "cta": [
+     "Send to the friend switching jobs",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Job बदलने वाले को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is your PF really tax-free if you withdraw it when you switch jobs?\n\nA final PF withdrawal is tax-free only after 5 years of continuous service. Earlier jobs count only if you transferred the balance, not withdrew it.\nBefore 5 years, your own contribution stays exempt, but the interest and the employer's share are taxable.\nAbove ₹50,000, 10% TDS is cut if your PAN is linked (illustrative: up to ₹20,000 on ₹2 lakh). Below that there's no TDS, but tax may still be due.\n\nDid you transfer your PF at your last job switch, or withdraw it?\n\nSources: a business news explainer on PF withdrawal tax (Jul 2026) and a bank's guide to PF withdrawal tax rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#epf #pfwithdrawal #incometax #jobswitch #personalfinanceindia"
+ }
+}

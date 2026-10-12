@@ -2,6 +2,11 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-12 (second run, news-only)
+
+- No Instagram re-browse: the full logged-out pass ran at ~06:00 UTC today (see below), and 80 minutes later the view counts wouldn't have moved enough to matter.
+- **News check (last 48 h, two sources agree):** biometric Aadhaar authentication has been needed for subsidised LPG refills since 1 Oct (without it, the refill comes at market price), and it's queued for 15 Oct mid. New NPS accounts opened through a point of presence pay a ₹200 one-time fee from 1 Oct. The ITR deadline for specified (audit-linked) taxpayers moved to 21 Nov. The UPI 0.4% merchant fee is still set for 15 Oct after the Supreme Court declined an interim stay on 28 Sep. The EPF wage ceiling rising to ₹25,000 has only one source, so it's not used.
+
 ## 2026-10-12 (daily pass, logged out)
 
 - **@ca_rachanaranade (grid loaded; pinned 404K):** 44.3K (a listed IT company's AI partnership), 30K (a big telecom IPO), 6.8K, **85.3K "RBI hiked repo to 5.50%: why and what it means"**, 4.6K, 28.6K, 57.1K (₹14 lakh crore of FII selling), **101K "Nifty fell 400+ points in 2 sessions"**, 5.8K, **695K "What's your target on Nifty? Bulls or bears?"** (a funny, relatable clip), 134K "Why insurance companies crashed today". Market-move news is her engine; the outlier is a light, relatable reel.
