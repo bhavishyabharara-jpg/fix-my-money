@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12",
+  "slot": "reel",
+  "publish_at": "2026-10-12T07:45",
+  "topic": "Parents on pension? The life certificate is due by 30 Nov, or the pension can be put on hold",
+  "hook_pattern": "news-list",
+  "experiment": "EXPLOIT news-list on a dated rule; first reel built for sending to family (the send prompt names a sibling). Tests whether a 'your parents' frame gets sends.",
+  "caption": "Do your parents get a pension? 30 November is the life-certificate deadline.\n\nPensioners aged 80 and above could submit from 1 October. Everyone else submits between 1 and 30 November.\nMiss it and the pension can be put on hold until the certificate is in. The held months are paid later.\nIt can be done at home with a face scan on a phone, or by fingerprint at a bank or post office.\n\nHave your parents done theirs yet?\n\nSources: a central government pensions department schedule as reported by two personal-finance news sites (Sep and Oct 2026), and a personal-finance deadline checklist (1 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#pension #seniorcitizens #lifecertificate #personalfinanceindia",
+  "spec": "specs/2026-10-12-reel-mid.json",
+  "media": [
+    "media/2026-10-12/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-12/reel-mid/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/personal-finance/story/jeevan-pramaan-2026-who-can-submit-digital-life-certificate-from-october-1-and-who-must-wait-559868-2026-10-07",
+    "https://www.indianpaycalculator.in/govt-news/life-certificate-2026-jeevan-pramaan-deadline-november-30-pension",
+    "https://dailyfinancial.in/october-2026-to-january-2027-personal-finance-checklist-15-deadlines-interest-rate-changes-tax-moves-and-banking-rules-you-shouldnt-miss/"
+  ]
+}

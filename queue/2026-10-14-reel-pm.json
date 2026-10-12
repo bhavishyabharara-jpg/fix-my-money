@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-14",
+  "slot": "reel",
+  "publish_at": "2026-10-14T13:45",
+  "topic": "Salary account? One big bank cut free other-bank ATM uses from 10 to 5 a month; each extra cash withdrawal costs ₹23 + GST",
+  "hook_pattern": "news-list",
+  "experiment": "EXPLOIT news-list on a fee that hits salaried viewers monthly; tests a small, certain rupee cost (₹23) against the big-number hooks.",
+  "caption": "Does your salary account still give you 10 free ATM uses? At one big bank, it's now 5.\n\nFrom 1 October, one large public-sector bank cut free monthly uses at other banks' ATMs for salary accounts from 10 to 5.\nAfter that, each cash withdrawal costs ₹23 + GST and each balance check ₹11 + GST. Balance checks count towards the 5.\nRules differ by bank and account, so check yours.\n\nHow many times a month do you use another bank's ATM?\n\nSources: two business news sites reporting the bank's revised ATM rules (Sep 2026), and a personal-finance deadline checklist (1 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#atm #bankcharges #salaryaccount #personalfinanceindia",
+  "spec": "specs/2026-10-14-reel-pm.json",
+  "media": [
+    "media/2026-10-14/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-14/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.outlookmoney.com/banking/sbi-revises-atm-transaction-rules-for-salary-package-account-holders-from-october-1",
+    "https://www.freepressjournal.in/business/sbi-halves-free-atm-limit-salary-customers-to-pay-sooner",
+    "https://dailyfinancial.in/october-2026-to-january-2027-personal-finance-checklist-15-deadlines-interest-rate-changes-tax-moves-and-banking-rules-you-shouldnt-miss/"
+  ]
+}

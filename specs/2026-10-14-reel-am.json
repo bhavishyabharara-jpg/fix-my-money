@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-14",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Old Form 15G won't stop [[your TDS]] now",
+    "sub": "Since April, it's Form 121.",
+    "vo": "पुराना 15G अब TDS नहीं रोकेगा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "What changed on 1 April 2026",
+    "marks": "num",
+    "items": [
+     "15G and 15H became one form",
+     "It's called Form 121",
+     "Old forms don't carry over"
+    ],
+    "vo": "अब एक form है: Form एक सौ इक्कीस।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Nil tax, but no Form 121?",
+    "big": "10%",
+    "color": "red",
+    "label": "TDS can still be cut from your FD interest",
+    "vo": "वरना FD interest से दस percent कटेगा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Who should file it",
+    "marks": "check",
+    "items": [
+     "Residents whose total tax is nil",
+     "Give it to each bank separately",
+     "Before the first interest credit"
+    ],
+    "vo": "हर bank को अलग से दीजिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Nil tax? Don't lose **10%**",
+    "cta": [
+     "Send this to parents with FDs",
+     "Follow for a money fix every day"
+    ],
+    "vo": "FD वाले parents को ज़रूर भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Still giving your bank Form 15G or 15H? Those were replaced on 1 April 2026.\n\nUnder the new income tax law, 15G and 15H became a single declaration: Form 121.\nIf your total tax for the year is nil, it asks the bank not to cut TDS from your FD interest.\nOld declarations don't carry over, so give a fresh Form 121 to each bank. Without it, 10% TDS can be cut.\n\nHas your bank asked you for Form 121 yet?\n\nSources: two tax explainers on Form 121 (Jun 2026 and current) and a personal-finance deadline checklist (1 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#tds #fixeddeposit #incometax #seniorcitizens #personalfinanceindia"
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-14",
+  "slot": "reel",
+  "publish_at": "2026-10-14T02:45",
+  "topic": "Form 15G/15H are gone: nil-tax savers need Form 121 or 10% TDS can be cut from FD interest",
+  "hook_pattern": "news-list",
+  "experiment": "EXPLOIT news-list on a rule most savers missed (1 Apr change); send target is parents with FDs.",
+  "caption": "Still giving your bank Form 15G or 15H? Those were replaced on 1 April 2026.\n\nUnder the new income tax law, 15G and 15H became a single declaration: Form 121.\nIf your total tax for the year is nil, it asks the bank not to cut TDS from your FD interest.\nOld declarations don't carry over, so give a fresh Form 121 to each bank. Without it, 10% TDS can be cut.\n\nHas your bank asked you for Form 121 yet?\n\nSources: two tax explainers on Form 121 (Jun 2026 and current) and a personal-finance deadline checklist (1 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#tds #fixeddeposit #incometax #seniorcitizens #personalfinanceindia",
+  "spec": "specs/2026-10-14-reel-am.json",
+  "media": [
+    "media/2026-10-14/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-14/reel-am/reel_cover.png",
+  "sources": [
+    "https://cleartax.in/s/form-121",
+    "https://indianpaycalculator.in/govt-news/form-121-replaces-15g-15h-tds-savers-2026",
+    "https://dailyfinancial.in/october-2026-to-january-2027-personal-finance-checklist-15-deadlines-interest-rate-changes-tax-moves-and-banking-rules-you-shouldnt-miss/"
+  ]
+}

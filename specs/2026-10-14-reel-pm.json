@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-14",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Salary account? Your free ATM uses may be [[5]]",
+    "sub": "At one big bank, at other banks' ATMs.",
+    "vo": "Salary account? Free ATM use शायद पाँच।",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 3.2,
+    "title": "Free uses a month at other banks' ATMs",
+    "bars": [
+     {
+      "label": "Before 1 Oct",
+      "value": 10,
+      "display": "10"
+     },
+     {
+      "label": "From 1 Oct",
+      "value": 5,
+      "display": "5",
+      "alert": true
+     }
+    ],
+    "vo": "एक बड़े bank में दस से पाँच।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Each extra cash withdrawal",
+    "big": "₹23",
+    "color": "red",
+    "label": "+ GST. A balance check: ₹11 + GST",
+    "vo": "फिर हर withdrawal पर तेईस रुपये plus GST।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Save your free uses",
+    "marks": "check",
+    "items": [
+     "Balance checks count too",
+     "Check balance on your phone",
+     "Use your own bank's ATM"
+    ],
+    "vo": "Balance check भी गिनता है, phone पर देखिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check your bank's **free limit**",
+    "cta": [
+     "Send to your cash-only friend",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Cash-only दोस्त को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Does your salary account still give you 10 free ATM uses? At one big bank, it's now 5.\n\nFrom 1 October, one large public-sector bank cut free monthly uses at other banks' ATMs for salary accounts from 10 to 5.\nAfter that, each cash withdrawal costs ₹23 + GST and each balance check ₹11 + GST. Balance checks count towards the 5.\nRules differ by bank and account, so check yours.\n\nHow many times a month do you use another bank's ATM?\n\nSources: two business news sites reporting the bank's revised ATM rules (Sep 2026), and a personal-finance deadline checklist (1 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#atm #bankcharges #salaryaccount #personalfinanceindia"
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "slot": "reel",
+  "publish_at": "2026-10-13T07:45",
+  "topic": "Missed your ITR? The belated return deadline is 31 Dec, with a ₹1,000 or ₹5,000 late fee",
+  "hook_pattern": "news-list",
+  "experiment": "EXPLOIT news-list with a hard rupee cost (late fee) and a 'you' hook; send target is a specific friend who skipped filing.",
+  "caption": "Missed your ITR deadline? You can still file until 31 December.\n\nA belated return for this year can be filed until 31 Dec 2026.\nThe late fee is ₹1,000 if your total income is up to ₹5 lakh, and up to ₹5,000 above that.\nIf tax is still unpaid, interest of 1% a month runs on it as well.\n\nWhat stopped you from filing on time?\n\nSources: two personal-finance news sites (Sep and Oct 2026) and a tax-filing explainer on belated-return penalties.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #itrfiling #taxindia #personalfinanceindia",
+  "spec": "specs/2026-10-13-reel-mid.json",
+  "media": [
+    "media/2026-10-13/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-13/reel-mid/reel_cover.png",
+  "sources": [
+    "https://www.outlookmoney.com/tax/itr-3-itr-4-deadline-missed-you-can-still-file-a-belated-return-till-december-31",
+    "https://dailyfinancial.in/october-2026-to-january-2027-personal-finance-checklist-15-deadlines-interest-rate-changes-tax-moves-and-banking-rules-you-shouldnt-miss/"
+  ]
+}

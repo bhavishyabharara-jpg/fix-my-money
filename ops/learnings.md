@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-12 — Daily review
+
+- **Followers: 12 (+1 vs 11 Oct).** The 10-day path (11 → 2,000 by 20 Oct, ~200 a day) put us at ~410 today, so we are ~400 behind and now need ~250 a day for 8 days. That is ~100× today's rate; honest read: 2,000 by 20 Oct is very unlikely on organic reach alone, and the realistic win this week is the first reel that gets sends. Note: the account's media count fell 23 → 13–15 on 11 Oct and 6 older posts dropped out of tracking (5 Oct pm, 6 Oct am/pm, 7 Oct am, both carousels), so they look archived or deleted.
+- **Best:** by reach, 9 Oct pm "₹2 lakh holiday: save first or loan?" 141 views / 116 reach, 1 save, 3 interactions, and 10 Oct am "When will your money double? Rule of 72" 122 / 100. Both name *your* money with a ₹ figure or a promise on frame 0. By score, 7 Oct pm "SIP at 25 or 30?" still leads (57% watch, but only 9 views). **Worst:** 11 Oct pm "Couples: is 50-50 fair?" 37 views but **1.3 s average watch (7%)**, the weakest hold yet: an abstract fairness question with no ₹ number loses people in the first second. 10 Oct pm term cover 9 views / 1.9 s: "how much cover" is a chore topic. 11 Oct am no-cost EMI 34 / 2.4 s.
+- **Patterns:** scoreboard calls **news-list EXPLOIT** (low data, 2 reels); big-question, contrarian-number and news-stakes stay **keep**; audit is on hold. Drop relationship or fairness questions without a rupee cost. Every reel is still under 20% watch, so the hook, not the topic, is failing.
+- **Narrated vs silent:** narrated median 34 views / 16% watch vs silent 22 / 13%. Narration stays on everything.
+- **Engine change today:** sends are **0 on all 12 reels**, and sends are the strongest reach signal. From 12 Oct mid, every new reel (1) is ~14 s with ≤35 spoken words, (2) puts the whole hook on screen at frame 0 with a number or "you", and (3) ends with a two-line CTA whose first line names who to send it to ("your sibling", "parents with FDs", "the friend who skipped ITR"). Moved to 3 reels a day (02:45 / 07:45 / 13:45 UTC). Queued 6: four news-list on dated rules with a ₹ cost (pension life certificate, belated ITR fee, Form 121 TDS, ATM fee cut), one contrarian-number (card late fee 3-day rule), and one experiment: a **guess-the-number** quiz hook (tax on ₹12.75 lakh salary).
+
 ## 2026-10-12 — Weekly review (format level)
 
 - **Followers 12 vs the sprint checkpoint of 50 for 12 Oct (25 for 11 Oct).** Week 8–12 Oct added +1 (11 → 12); the week before, 0 → 12 came from the launch push. At this pace the 16 Oct "below 400 → reset the target" rule is already triggered in substance.

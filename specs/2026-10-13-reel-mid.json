@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-13",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Missed your ITR? You have till [[31 Dec]]",
+    "sub": "After that, it costs more.",
+    "vo": "ITR miss? इकतीस December तक time है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 3.2,
+    "title": "Late fee for a belated return",
+    "bars": [
+     {
+      "label": "Income up to ₹5 lakh",
+      "value": 1000,
+      "display": "₹1,000"
+     },
+     {
+      "label": "Income above ₹5 lakh",
+      "value": 5000,
+      "display": "₹5,000",
+      "alert": true
+     }
+    ],
+    "vo": "Late fee एक हज़ार, या पाँच हज़ार रुपये।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Tax still unpaid? Interest on top",
+    "big": "1% a month",
+    "color": "amber",
+    "label": "On the unpaid tax, plus the late fee",
+    "vo": "Tax बाकी है? ऊपर से interest भी।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Before 31 Dec",
+    "marks": "num",
+    "items": [
+     "Pay any tax still due",
+     "File the belated return",
+     "Revising after 31 Dec costs a fee"
+    ],
+    "vo": "आज ही file कीजिए।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "File **before** the fee grows.",
+    "cta": [
+     "Send to the friend who skipped ITR",
+     "Follow for a money fix every day"
+    ],
+    "vo": "ITR skip करने वाले दोस्त को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Missed your ITR deadline? You can still file until 31 December.\n\nA belated return for this year can be filed until 31 Dec 2026.\nThe late fee is ₹1,000 if your total income is up to ₹5 lakh, and up to ₹5,000 above that.\nIf tax is still unpaid, interest of 1% a month runs on it as well.\n\nWhat stopped you from filing on time?\n\nSources: two personal-finance news sites (Sep and Oct 2026) and a tax-filing explainer on belated-return penalties.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #itrfiling #taxindia #personalfinanceindia"
+ }
+}

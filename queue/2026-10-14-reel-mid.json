@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "slot": "reel",
+  "publish_at": "2026-10-14T07:45",
+  "topic": "Paid your credit card 2 days late? Late fees can only start after 3 days past due, on the unpaid part",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP contrarian-number on everyday debt (the 9 Oct card reel drew 59 views); a 'you might owe ₹0' twist instead of a scare.",
+  "caption": "Paid your credit card bill 2 days late? You may owe no late fee.\n\nUnder RBI's card rules, a late fee and a credit-bureau \"past due\" report can only come after an account is past due for more than 3 days.\nAnd the late fee is worked out on the amount still unpaid after the due date, not the whole bill.\nPaying by the due date is still the safest habit.\n\nHave you ever been charged a late fee within 3 days?\n\nSources: RBI's amendment to its credit and debit card directions (7 Mar 2024) and a personal-finance explainer (Aug 2026). The ₹25,000 bill is an illustrative example.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #creditscore #moneytips #personalfinanceindia",
+  "spec": "specs/2026-10-14-reel-mid.json",
+  "media": [
+    "media/2026-10-14/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-14/reel-mid/reel_cover.png",
+  "sources": [
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=12620",
+    "https://www.outlookmoney.com/explainer/rbi-rules-on-rounding-off-and-credit-card-late-fees"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-14",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Paid your card 2 days late? [[₹0]] late fee",
+    "sub": "RBI's 3-day rule.",
+    "vo": "Card bill दो दिन late? Fee शून्य।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "A late fee can start only after",
+    "big": "3 days",
+    "color": "mint",
+    "label": "past the due date, under RBI card rules",
+    "vo": "Fee तीन दिन बाद ही लगती है।",
+    "mood": "happy"
+   },
+   {
+    "type": "bars",
+    "dur": 3.2,
+    "title": "₹25,000 bill, ₹3,500 unpaid. The fee is worked out on",
+    "bars": [
+     {
+      "label": "Not the full bill",
+      "value": 25000,
+      "display": "₹25,000"
+     },
+     {
+      "label": "Only the unpaid part",
+      "value": 3500,
+      "display": "₹3,500",
+      "highlight": true
+     }
+    ],
+    "vo": "और fee सिर्फ़ बचे हुए amount पर।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "From day 4",
+    "marks": "num",
+    "items": [
+     "Late fee can be charged",
+     "Reported to credit bureaus",
+     "So pay by the due date"
+    ],
+    "vo": "चौथे दिन से fee और credit report।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Charged early? **Question it.**",
+    "cta": [
+     "Send to the friend who pays late",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Late payer दोस्त को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paid your credit card bill 2 days late? You may owe no late fee.\n\nUnder RBI's card rules, a late fee and a credit-bureau \"past due\" report can only come after an account is past due for more than 3 days.\nAnd the late fee is worked out on the amount still unpaid after the due date, not the whole bill.\nPaying by the due date is still the safest habit.\n\nHave you ever been charged a late fee within 3 days?\n\nSources: RBI's amendment to its credit and debit card directions (7 Mar 2024) and a personal-finance explainer (Aug 2026). The ₹25,000 bill is an illustrative example.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #creditscore #moneytips #personalfinanceindia"
+ }
+}

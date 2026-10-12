@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-12",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Parents get a pension? [[30 Nov]] is the deadline",
+    "sub": "Miss it and the pension can pause.",
+    "vo": "Parents की pension है? तीस November last date है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "The life certificate, this year",
+    "marks": "num",
+    "items": [
+     "Age 80+: open since 1 Oct",
+     "Everyone else: 1 to 30 Nov",
+     "Missed it? Pension on hold"
+    ],
+    "vo": "अस्सी-plus अभी से, बाकी सब November में।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Not submitted by 30 Nov?",
+    "big": "On hold",
+    "color": "red",
+    "label": "Pension can be held until it's in. Held months are paid later.",
+    "vo": "Miss किया, तो pension रुक सकती है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Ways to submit",
+    "marks": "check",
+    "items": [
+     "Face scan on a phone at home",
+     "Fingerprint at a bank or post office",
+     "Visit the pension bank branch"
+    ],
+    "vo": "घर बैठे phone से face scan चलेगा।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Remind them **this week**",
+    "cta": [
+     "Send this to your sibling",
+     "Follow for a money fix every day"
+    ],
+    "vo": "भाई-बहन को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Do your parents get a pension? 30 November is the life-certificate deadline.\n\nPensioners aged 80 and above could submit from 1 October. Everyone else submits between 1 and 30 November.\nMiss it and the pension can be put on hold until the certificate is in. The held months are paid later.\nIt can be done at home with a face scan on a phone, or by fingerprint at a bank or post office.\n\nHave your parents done theirs yet?\n\nSources: a central government pensions department schedule as reported by two personal-finance news sites (Sep and Oct 2026), and a personal-finance deadline checklist (1 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#pension #seniorcitizens #lifecertificate #personalfinanceindia"
+ }
+}
