@@ -1,5 +1,18 @@
 # Learnings
 
+## 2026-10-12 — Weekly review (format level)
+
+- **Followers 12 vs the sprint checkpoint of 50 for 12 Oct (25 for 11 Oct).** Week 8–12 Oct added +1 (11 → 12); the week before, 0 → 12 came from the launch push. At this pace the 16 Oct "below 400 → reset the target" rule is already triggered in substance.
+- **This week (8 reels, 8–11 Oct) vs the week before (8 reels, 4–7 Oct):** median views 35.5 vs 8.5 (4×); reach 351 vs 80; median watch 13% vs 23% (the earlier figure is inflated by 0–5-view reels); saves 1 (0.28% of reach) vs 0; sends 0 vs 0. Profile visits and follows per reel still come back empty.
+- **Narrated vs silent:** narrated median 34 views vs 8 silent, but watch % is no better (14% vs 16%). The voice helps distribution, not retention; part of the gap is just account age.
+- **Best 3:** 9 Oct pm ₹2L holiday (141 views, 1 save), 10 Oct am rule of 72 (122), 9 Oct am credit-card minimum due (59): a rupee figure about the viewer's own money in line one. **Worst 3:** 8 Oct pm repo explainer (5), 10 Oct pm life cover (9, 1.9 s), 8 Oct am emergency fund (14, 2.3 s): post-event macro and duty topics. Watch % barely separates them (all 10–16%); the topic decides the test-pool size.
+- **Frame-0 hooks (from 10 Oct pm): watch % did not rise above 25%.** The three reels since got 10%, 12%, 7% (1.3–2.4 s), lower than before. The hook visual isn't the lever; the topic and the first spoken words are.
+- **12–16 s vs longer: untested.** No narrated reel has been under 17.5 s: render.py stretches scenes to fit the voice, so every reel since 7 Oct ran 18–23 s with 44–69 spoken words. Fixed this week (see PLAYBOOK Weekly decisions).
+- **Slots:** am wins on median views over all 16 reels (22 vs 9) and this week (46 vs 23); pm only has the single best. There is no mid slot: the "3 reels a day" change in the sprint plan never shipped (queue still has am + pm only).
+- **Hook patterns:** none is consistently last. big-question is both the best (141, 122) and the worst (9, 37 with 7% watch); the pattern label predicts less than the topic. audit has 1 reel (14).
+- **Decisions for 13–18 Oct:** (1) hard 15 s reels: 4 scenes, ≤30 spoken words, voice_speed 1.15 → 1.25; (2) topic mix: ≥2 of 3 reels are "your own ₹ number" everyday-money topics, strongest in am; pause insurance, emergency fund, post-event macro and couple money.
+- **Check:** queue/2026-10-12-reel-pm (₹200 a day → ₹7.3 lakh) has an empty sources list; any growth figure needs its assumed return labelled "illustrative".
+
 ## 2026-10-10 — Daily review
 
 - **Followers: 11 (flat since 8 Oct; 23 posts live).** First save ever landed (9 Oct pm). The 30-day aim of 500–1,000 still needs ~17–33 a day; reach is finally moving, follows aren't.

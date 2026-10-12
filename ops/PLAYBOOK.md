@@ -89,3 +89,10 @@ Decision rules, applied weekly:
 - A pattern whose median views are 2× the account median gets an extra slot.
 - A pattern below half the median for 2 weeks is dropped.
 - A reel that beats 3× the median gets a follow-up within 48 hours (part 2 or the same idea from a new angle). The owner also re-posts it by hand with a trending sound.
+
+## Weekly decisions — 2026-10-12
+
+These override anything above until the next weekly review (18 Oct). The daily run must follow them.
+
+1. **Hard 15-second reel.** The 12–16 s rule from 10 Oct never reached the screen: render.py stretches each scene to fit its `vo` line + 0.55 s, so reels came out 18–20 s with 44–69 spoken words. From now: 4 scenes (hook, number, payoff, end), **at most 30 spoken words in total**, hook `vo` at most 8 words. `voice_speed` is now 1.25 in engine/config.json. After rendering, ffprobe the reel: if it is over 15.5 s, cut words and re-render before queueing. Already-queued 13 Oct reels may go out as they are.
+2. **Topic mix: "your own ₹ number" first.** All three winners this week (₹2L holiday 141 views, rule of 72 122, credit-card minimum due 59) put a rupee figure from the viewer's own spending, debt or savings in the first line. The losers were duty/protection topics (life cover 9, emergency fund 14), post-event macro (repo explainer 5) and relationship money (couples 50-50, 1.3 s watch). For 13–18 Oct: at least 2 of every 3 reels are everyday-money with a ₹ figure for the viewer (spending, cards, loans/EMIs, doubling, trips, small daily spends); the am slot always gets the strongest of these. Pause insurance/emergency-fund, post-event RBI/macro and couple-money reels this week. A fresh rule change that hits the viewer's wallet this week (like UPI 15 Oct) still counts as everyday-money.
