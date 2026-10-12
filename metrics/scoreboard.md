@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-11
+# Scoreboard — 2026-10-12
 
-Followers **11** (+0 vs previous day). Reels tracked: 10. Median views per reel: 18.
+Followers **12** (+1 vs previous day). Reels tracked: 12. Median views per reel: 26.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -15,22 +15,24 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
+| 2026-10-11-reel-am Festive shopping: why "no-cost EMI" isn't always zero cost | news-stakes | yes | 34 | 2.4s (12%) | 0 | 0 | 0 | 0 | 3.1 |
 | 2026-10-05-reel-am Money rules that changed in October 2026 | news-list | no | 30 | 2.5s (12%) | 0 | 0 | 0 | 0 | 3.1 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.3s (12%) | 0 | 0 | 0 | 0 | 2.9 |
-| 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 6 | 1.6s (9%) | 0 | 0 | 0 | 0 | 2.2 |
+| 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 9 | 1.9s (10%) | 0 | 0 | 0 | 0 | 2.6 |
+| 2026-10-11-reel-pm Couples: is splitting bills 50-50 fair? Same-percentage spli | big-question | yes | 37 | 1.3s (7%) | 0 | 0 | 0 | 0 | 1.7 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Mean score | Call |
 |---|---|---|---|---|---|
-| big-question | 4 | 66 | 17% | 6.7 | EXPLOIT |
-| news-list | 2 | 18 | 21% | 6.5 | test again (low data) |
+| news-list | 2 | 18 | 21% | 6.5 | EXPLOIT (low data) |
+| big-question | 5 | 37 | 16% | 5.8 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
 | contrarian-number | 1 | 59 | 16% | 4.1 | keep |
-| news-stakes | 1 | 22 | 13% | 3.7 | keep (low data) |
+| news-stakes | 2 | 28 | 13% | 3.4 | keep |
 | audit | 1 | 14 | 12% | 2.9 | test again (low data) |
 
-Narrated reels: median views 14, watch 16% — silent reels: 22, 13%.
+Narrated reels: median views 34, watch 16% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
