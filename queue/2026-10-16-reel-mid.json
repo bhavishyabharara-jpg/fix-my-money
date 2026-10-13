@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-16",
+  "slot": "reel",
+  "publish_at": "2026-10-16T07:45",
+  "topic": "₹98,073 crore unclaimed in old bank accounts: how to find and claim yours",
+  "hook_pattern": "if-you-have",
+  "experiment": "EXPERIMENT (if-you-have): conditional-urgency hook copied from a rotating creator's 1.1M 'If you have a bank loan, take this step' reel; tests whether naming a viewer segment lifts the 2-second hold and sends to parents.",
+  "caption": "Did you forget an old bank account or FD?\n\nBanks held ₹98,073 crore of unclaimed deposits in the RBI's depositor fund as of 31 Jan 2026.\nAn account or FD left untouched for 10 years moves there, but it doesn't stop being yours.\nSearch across banks on the RBI's unclaimed deposits portal, then claim at that bank. Nominees and legal heirs can claim too.\n\nDoes anyone in your family have an account they haven't used in years?\n\nSources: two business news explainers on unclaimed deposits (Jul and Aug 2026), citing Finance Ministry data in Parliament.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#unclaimeddeposits #bankaccount #savingsaccount #moneytips #personalfinanceindia",
+  "spec": "specs/2026-10-16-reel-mid.json",
+  "media": [
+    "media/2026-10-16/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-16/reel-mid/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/personal-finance/banking/story/forgot-money-in-an-old-bank-account-heres-how-rbi-helps-you-recover-unclaimed-deposits-even-after-10-years-540286-2026-07-01",
+    "https://insights.dsij.in/dsijarticledetail/rs-98073-crore-in-unclaimed-bank-deposits-how-to-find-forgotten-money-through-rbis-udgam-portal-58952",
+    "https://upstox.com/news/personal-finance/latest-updates/unclaimed-bank-deposits-near-1-lakh-crore-government-lists-steps-to-help-families-recover-forgotten-money/article-198510/"
+  ]
+}

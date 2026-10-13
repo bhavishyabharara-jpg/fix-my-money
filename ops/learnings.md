@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-13 — Daily review
+
+- **Followers: 12 (+0 vs 12 Oct).** The 10-day path (11 → 2,000, ~200 a day) puts us at ~610 today, so we're ~600 behind and now need ~284 a day for 7 days. Honest read: 2,000 by 20 Oct won't happen organically; the week's real target is the first reel with sends and a first follow from a reel.
+- **Best (new data):** 12 Oct am "UPI fee above ₹2,000 from 15 Oct" 82 views / 75 reach, 2 likes in a day: a dated rule that costs *you* ₹, said in line one. **Worst:** 12 Oct mid "Parents' pension life certificate" 8 views, 1.1 s (7%): the viewer isn't the pensioner, so the hook didn't name them. 12 Oct pm "₹200 a day = ₹73,000" 44 views but 1.8 s: the number was big, but the habit wasn't the viewer's.
+- **Patterns:** scoreboard calls **big-question EXPLOIT** (5 reels, median 46 views, its score is lifted by the 9-view SIP reel); contrarian-number, news-stakes and small-input-big-number **keep**; news-list falls to **drop** (median 8) — the 13–15 Oct news-list reels are already queued, judge them before adding more. Every reel is still under 20% watch and sends are 0 on all 15.
+- **Narrated vs silent:** narrated median 40 views vs 22 silent at the same 13% watch. Narration stays on.
+- **Engine change today:** hooks must **name the viewer's segment** ("If you forgot an old bank account", "Got ₹50,000+ in gifts?", "How much gold can you keep?") because the reels that flopped addressed someone else (parents, couples). Testing a new **if-you-have** hook copied from a rotating creator's 1.1M "If you have a bank loan…" reel. Queued 16 Oct: gold at home (big-question, am), unclaimed deposits (if-you-have, mid), gift tax (big-question, pm). Queue now runs to the end of 16 Oct.
+
 ## 2026-10-12 — Daily review (second run, 07:20 UTC)
 
 - **Followers: 12 (+1 vs 11 Oct), the same as the 06:00 pass.** The path to 2,000 needed ~410 today; we're ~400 behind and need ~250 a day for 8 days. Honest read: the target won't be met organically. The useful goal this week is the first reel that gets sends.

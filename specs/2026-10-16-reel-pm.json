@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-16",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Got ₹50,000+ in gifts? [[You]] may owe tax",
+    "sub": "Festive gifts from friends add up.",
+    "vo": "पचास हज़ार से ऊपर gift? Tax लग सकता है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Gifts from non-relatives in one year",
+    "big": "₹50,000",
+    "color": "red",
+    "label": "Cross it, and they're taxable income",
+    "vo": "साल में पचास हज़ार पार, तो taxable।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "Always tax-free",
+    "marks": "check",
+    "items": [
+     "Parents, spouse, siblings",
+     "Children and grandparents",
+     "Gifts at your wedding"
+    ],
+    "vo": "Family और शादी के gifts tax-free।"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "What counts",
+    "marks": "num",
+    "items": [
+     "Gifts from friends or colleagues",
+     "Added up over the whole year"
+    ],
+    "vo": "पूरे साल का total गिना जाता है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Big gift? Check **who** gave it",
+    "cta": [
+     "Send to the friend who got a big Diwali gift",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Gift वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Got more than ₹50,000 in gifts this year? Do you owe tax?\n\nGifts from non-relatives become taxable income once they cross ₹50,000 in total in a tax year. The rule continues under the new Income-tax Act.\nGifts from close relatives (parents, spouse, siblings, children, grandparents) are tax-free at any amount, and so are gifts at your wedding.\nThe limit counts all your gifts from friends and colleagues across the year, not each one.\n\nWhat's the biggest gift you've ever got from a friend?\n\nSources: a tax explainer under the Income-tax Act, 2025 (Aug 2026) and two business news explainers on festive gift tax.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gifttax #diwaligifts #incometax #taxtips #personalfinanceindia"
+ }
+}

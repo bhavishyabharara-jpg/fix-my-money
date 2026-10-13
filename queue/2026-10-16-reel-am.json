@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-16",
+  "slot": "reel",
+  "publish_at": "2026-10-16T02:45",
+  "topic": "How much gold can you keep at home? 500 g / 250 g / 100 g tax-search guidelines",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question): festive-season household topic with a gram number on frame 0; tests a 'mom who keeps the family gold' send target in the am slot.",
+  "caption": "How much gold can you keep at home without trouble in a tax search?\n\nIncome tax search guidelines say jewellery up to 500 g for a married woman, 250 g for an unmarried woman and 100 g for a man isn't seized, even without papers.\nThese are guidelines, not a legal cap. You can hold more if you can show where it came from.\nFor anything above, keep purchase bills, inheritance papers and gift records.\n\nDoes your family keep the bills for its gold?\n\nSources: a business news explainer on gold-at-home rules (Apr 2026) and a brokerage news explainer on gold limits.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldjewellery #incometax #goldathome #dhanteras #personalfinanceindia",
+  "spec": "specs/2026-10-16-reel-am.json",
+  "media": [
+    "media/2026-10-16/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-16/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/amp/personal-finance/investment/story/akshaya-tritiya-2026-how-much-gold-can-you-legally-keep-at-home-heres-what-income-tax-rules-say-525237-2026-04-13",
+    "https://www.angelone.in/news/commodities/how-much-gold-is-legal-to-keep-at-home-limits-for-married-unmarried-women-and-income-tax-explained"
+  ]
+}

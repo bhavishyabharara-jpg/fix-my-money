@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-16",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "If you forgot an old bank account, check [[this]]",
+    "sub": "₹98,073 crore is lying unclaimed.",
+    "vo": "पुराना bank account भूल गए? ये check करो।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Unclaimed bank deposits (Jan 2026)",
+    "big": "₹98,073 cr",
+    "color": "amber",
+    "label": "Moved to an RBI fund",
+    "vo": "अट्ठानवे हज़ार करोड़ unclaimed पड़ा है।"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "How it gets there",
+    "marks": "num",
+    "items": [
+     "Account or FD untouched for 10 years",
+     "Money moves to an RBI fund",
+     "It's still yours to claim"
+    ],
+    "vo": "दस साल untouched, तो RBI fund में।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Get it back",
+    "marks": "check",
+    "items": [
+     "Search the RBI's unclaimed deposits portal",
+     "Claim at that bank",
+     "Nominees and heirs can claim too"
+    ],
+    "vo": "RBI portal पर search करो, फिर bank में claim।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Your money is **still yours**",
+    "cta": [
+     "Send to parents with old bank accounts",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Parents को ज़रूर भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Did you forget an old bank account or FD?\n\nBanks held ₹98,073 crore of unclaimed deposits in the RBI's depositor fund as of 31 Jan 2026.\nAn account or FD left untouched for 10 years moves there, but it doesn't stop being yours.\nSearch across banks on the RBI's unclaimed deposits portal, then claim at that bank. Nominees and legal heirs can claim too.\n\nDoes anyone in your family have an account they haven't used in years?\n\nSources: two business news explainers on unclaimed deposits (Jul and Aug 2026), citing Finance Ministry data in Parliament.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#unclaimeddeposits #bankaccount #savingsaccount #moneytips #personalfinanceindia"
+ }
+}

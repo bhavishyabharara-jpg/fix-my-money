@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-16",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "How much [[gold]] can you keep at home?",
+    "sub": "Tax search guidelines, by person.",
+    "vo": "घर पर कितना gold रख सकते हो? जानिए।",
+    "mood": "neutral"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Married woman",
+    "big": "500 g",
+    "color": "mint",
+    "label": "Not seized in a tax search, even without bills",
+    "vo": "Married woman: पाँच सौ ग्राम तक।"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "The other limits",
+    "marks": "num",
+    "items": [
+     "Unmarried woman: 250 g",
+     "Any man: 100 g"
+    ],
+    "vo": "Unmarried woman ढाई सौ, आदमी सौ ग्राम।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Have more? Keep proof",
+    "marks": "check",
+    "items": [
+     "Purchase bills",
+     "Inheritance papers",
+     "Gift records"
+    ],
+    "vo": "ज़्यादा है? Bill या विरासत का proof रखो।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "It's a guideline, **not a legal cap**",
+    "cta": [
+     "Send to mom, who keeps the family gold",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Mummy को ये भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "How much gold can you keep at home without trouble in a tax search?\n\nIncome tax search guidelines say jewellery up to 500 g for a married woman, 250 g for an unmarried woman and 100 g for a man isn't seized, even without papers.\nThese are guidelines, not a legal cap. You can hold more if you can show where it came from.\nFor anything above, keep purchase bills, inheritance papers and gift records.\n\nDoes your family keep the bills for its gold?\n\nSources: a business news explainer on gold-at-home rules (Apr 2026) and a brokerage news explainer on gold limits.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldjewellery #incometax #goldathome #dhanteras #personalfinanceindia"
+ }
+}

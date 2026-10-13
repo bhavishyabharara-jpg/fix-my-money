@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-16",
+  "slot": "reel",
+  "publish_at": "2026-10-16T13:45",
+  "topic": "Got more than ₹50,000 in gifts from friends? When festive gifts become taxable",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question): ₹ threshold + 'you' on frame 0 in the strongest pm-slot topic type (₹ about your own money); tests a Diwali-gift send target.",
+  "caption": "Got more than ₹50,000 in gifts this year? Do you owe tax?\n\nGifts from non-relatives become taxable income once they cross ₹50,000 in total in a tax year. The rule continues under the new Income-tax Act.\nGifts from close relatives (parents, spouse, siblings, children, grandparents) are tax-free at any amount, and so are gifts at your wedding.\nThe limit counts all your gifts from friends and colleagues across the year, not each one.\n\nWhat's the biggest gift you've ever got from a friend?\n\nSources: a tax explainer under the Income-tax Act, 2025 (Aug 2026) and two business news explainers on festive gift tax.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gifttax #diwaligifts #incometax #taxtips #personalfinanceindia",
+  "spec": "specs/2026-10-16-reel-pm.json",
+  "media": [
+    "media/2026-10-16/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-16/reel-pm/reel_cover.png",
+  "sources": [
+    "https://thetaxcorp.in/article/rakhi-gifts-from-non-relatives-understanding-tax-implications-under-section",
+    "https://www.outlookmoney.com/tax/understanding-tax-on-diwali-gifts-whats-exempt-and-whats-not",
+    "https://www.business-standard.com/finance/personal-finance/diwali-season-do-you-have-to-pay-tax-on-gifts-received-123110900168_1.html"
+  ]
+}

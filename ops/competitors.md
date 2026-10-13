@@ -2,6 +2,15 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-13 (daily pass, logged out)
+
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** newest "The rupee recovered ₹1 against the dollar… will it last?" **452K** (fresh); "POV: your boss thinks your career is a mutual fund" 161K (up from 57K); Bollywood money 683K; ₹4 cr Paris house 958K; then 225K, 95.3K, 106K, 123K, 626K. A timely macro "₹1" reel beat his median in a day.
+- **@ca_rachanaranade (closed the sign-up popup):** new "Why is the Nifty 50 lagging its Asian peers?" 52.6K; "Nifty fell 400+ in 2 sessions" 101K; RBI repo 86.1K; FII selling 57.6K; pinned scam warning 404K; outlier "target on Nifty?" 698K. Market-move news remains her engine.
+- **@anushkarathod98:** two newest are small (7.2K "Is the world running out of money?", 4.1K); "Another bad news for the middle class" 344K; "Good news for Indian investors" 154K; "How many bank accounts should you have?" 150K; "Save ₹10 lakh on home loan" 45.7K; 3.7M and 472K further back.
+- **Rotated in @casarthakahuja (grid loaded after a scroll):** 1.9M "Before you take out your winter clothing, you need to know this"; **1.1M "If you have a bank loan currently, you immediately need to take this one step"**; 1.1M hair-treatment risk; 1M "a company paying Indians to watch cricket"; 824K, 754K, 650K, 534K, 417K, 388K, 334K. His hooks name a **segment + urgency** ("If you have X, you need to…") and a seasonal trigger.
+- **Pattern:** segment-plus-urgency hooks and seasonal cues outperform topic labels. Used: 16 Oct mid "If you forgot an old bank account, check this" (if-you-have); festive gold and gift-tax reels for the season.
+- **News (last 48 h):** banks still passing on the 7 Oct repo hike to floating loans; nothing new with two agreeing sources. Evergreen items checked on 2+ pages and used: gold-at-home search guidelines 500/250/100 g (Apr 2026 + one more); ₹98,073 crore unclaimed deposits as of 31 Jan 2026, moved to the RBI fund after 10 years (Jul + Aug 2026); the ₹50,000 non-relative gift rule continues under the Income-tax Act, 2025 (Aug 2026 + two more). Whether the whole amount or only the excess is taxed differs across sources, so it's left out.
+
 ## 2026-10-12 (second run, news-only)
 
 - No Instagram re-browse: the full logged-out pass ran at ~06:00 UTC today (see below), and 80 minutes later the view counts wouldn't have moved enough to matter.
