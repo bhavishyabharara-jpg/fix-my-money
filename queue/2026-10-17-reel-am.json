@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-17",
+  "slot": "reel",
+  "publish_at": "2026-10-17T02:45",
+  "topic": "Guess the tax on a ₹12.75 lakh salary under the new regime: ₹0",
+  "hook_pattern": "guess-the-number",
+  "experiment": "EXPERIMENT: new hook style, a quiz the viewer answers in their head ('Guess: ...?'). Tests whether a question with a withheld answer lifts first-2-second hold above the 16% median. Moved from 15 Oct am on 14 Oct to make room for the UPI-fee deferral (timely swap).",
+  "caption": "What tax do you pay on a ₹12.75 lakh salary? Under the new regime, it can be ₹0.\n\nSalaried people get a ₹75,000 standard deduction, so ₹12.75 lakh becomes ₹12 lakh taxable.\nTaxable income up to ₹12 lakh gets a full rebate, so the tax is zero. A little above, marginal relief can apply.\nOther income such as interest or capital gains changes the maths.\n\nWhat did you guess?\n\nSources: two income tax calculator guides for FY 2026-27. Figures assume salary is the only income and are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #newtaxregime #salary #taxsaving #personalfinanceindia",
+  "spec": "specs/2026-10-17-reel-am.json",
+  "media": [
+    "media/2026-10-17/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-17/reel-am/reel_cover.png",
+  "sources": [
+    "https://filingin.com/blog/en/new-tax-regime-calculation-fy-2026",
+    "https://stockcalc.in/calculator/income-tax"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-17",
+  "slot": "reel",
+  "publish_at": "2026-10-17T13:45",
+  "topic": "Missed EMIs: can the lender take your car by force? Supreme Court ₹10 lakh compensation and borrower rights",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question): a 'can they…?' rights question with 'your car' on frame 0 and a ₹10 lakh court number in scene 2; tests whether a rights/protection angle (not a cost) gets sends to 'the friend paying off a car loan'.",
+  "caption": "Missed a few EMIs: can the lender take your car by force?\n\nIn September 2026 the Supreme Court ordered ₹10 lakh compensation for a borrower whose financed truck was seized and sold without due process, and told the RBI to make lenders follow its recovery rules.\nLenders and recovery agents can't use force, threats or stealth, even after a default. You should get a notice before repossession and a chance to pay before the vehicle is sold.\nIf it goes wrong, complain in writing to the lender first, then to the RBI ombudsman.\nMissing EMIs still has real costs: penalties, a lower credit score, and legal repossession.\n\nDid you know recovery agents have rules to follow?\n\nSources: two personal-finance news reports on the September 2026 Supreme Court judgment (17 and 23 Sep 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#carloan #emi #borrowerrights #loanrecovery #personalfinanceindia",
+  "spec": "specs/2026-10-17-reel-pm.json",
+  "media": [
+    "media/2026-10-17/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-17/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.outlookmoney.com/banking/can-your-lender-take-your-car-after-an-emi-default-supreme-court-clarifies-borrower-rights",
+    "https://www.business-standard.com/amp/finance/personal-finance/what-borrowers-can-do-if-a-lender-forcibly-repossesses-a-financed-vehicle-126092301295_1.html"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+ "date": "2026-10-17",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹10 lakh cash deposit [[isn't a limit]]",
+    "sub": "It's a reporting line.",
+    "vo": "दस लाख cash कोई limit नहीं।",
+    "mood": "neutral"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Cash into savings accounts, one financial year",
+    "big": "₹10 lakh",
+    "color": "amber",
+    "label": "Cross it and the bank reports it to the tax department",
+    "vo": "दस लाख पार? Bank tax department को बताता है।"
+   },
+   {
+    "type": "text",
+    "dur": 2.6,
+    "text": "Then they may ask: **where's it from?**",
+    "sub": "Salary, a sale, a gift: keep the proof.",
+    "vo": "Notice आए तो proof दिखाना होगा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Taking cash from one person in a day",
+    "big": "₹2 lakh",
+    "color": "red",
+    "label": "Not allowed. The penalty can equal the amount, on the receiver.",
+    "vo": "किसी से दो लाख cash लेना मना।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Deposit freely. **Keep the paper trail.**",
+    "cta": [
+     "Send to the uncle who keeps cash at home",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Cash रखने वाले चाचा को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is ₹10 lakh the limit for cash deposits? No. It's a reporting line.\n\nOnce your cash deposits into savings accounts cross ₹10 lakh in a financial year, the bank reports them to the tax department.\nThere's no cap on depositing your own money, but you may be asked where it came from, so keep the proof (salary, a sale, a gift).\nSeparately, receiving ₹2 lakh or more in cash from one person in a day isn't allowed. The penalty can equal the amount and falls on the receiver.\n\nDoes anyone in your family still keep most of their savings in cash?\n\nSources: two personal-finance explainers on cash deposit rules (Sep 2026) and a tax column on the Income-tax Rules, 2026.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #cashdeposit #savingsaccount #taxnotice #personalfinanceindia"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "date": "2026-10-17",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Guess: tax on a [[₹12.75 lakh]] salary?",
+    "sub": "New regime. Answer in 3 seconds.",
+    "vo": "बारह लाख पचहत्तर हज़ार salary पर tax कितना?"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "New regime, salaried, no other income",
+    "big": "₹0",
+    "color": "mint",
+    "label": "Illustrative, FY 2026-27",
+    "vo": "जवाब: शून्य, new regime में।",
+    "mood": "happy"
+   },
+   {
+    "type": "bars",
+    "dur": 3.2,
+    "title": "How it gets to zero",
+    "bars": [
+     {
+      "label": "Salary",
+      "value": 12.75,
+      "display": "₹12.75 lakh"
+     },
+     {
+      "label": "Standard deduction",
+      "value": 0.75,
+      "display": "−₹75,000"
+     },
+     {
+      "label": "Taxable",
+      "value": 12,
+      "display": "₹12 lakh",
+      "highlight": true
+     }
+    ],
+    "vo": "पचहत्तर हज़ार standard deduction, बचे बारह लाख।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "The fine print",
+    "marks": "num",
+    "items": [
+     "Up to ₹12 lakh taxable: full rebate",
+     "A little above? Marginal relief",
+     "Other income changes the maths"
+    ],
+    "vo": "बारह लाख तक rebate, tax शून्य।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Know your number **before** TDS.",
+    "cta": [
+     "Send to a friend on ₹12 lakh",
+     "Follow for a money fix every day"
+    ],
+    "vo": "बारह लाख वाले दोस्त को भेजिए।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "What tax do you pay on a ₹12.75 lakh salary? Under the new regime, it can be ₹0.\n\nSalaried people get a ₹75,000 standard deduction, so ₹12.75 lakh becomes ₹12 lakh taxable.\nTaxable income up to ₹12 lakh gets a full rebate, so the tax is zero. A little above, marginal relief can apply.\nOther income such as interest or capital gains changes the maths.\n\nWhat did you guess?\n\nSources: two income tax calculator guides for FY 2026-27. Figures assume salary is the only income and are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #newtaxregime #salary #taxsaving #personalfinanceindia"
+ }
+}

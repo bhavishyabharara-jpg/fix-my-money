@@ -2,18 +2,18 @@
   "date": "2026-10-15",
   "slot": "reel",
   "publish_at": "2026-10-15T02:45",
-  "topic": "Guess the tax on a ₹12.75 lakh salary under the new regime: ₹0",
-  "hook_pattern": "guess-the-number",
-  "experiment": "EXPERIMENT: new hook style, a quiz the viewer answers in their head ('Guess: ...?'). Tests whether a question with a withheld answer lifts first-2-second hold above the 16% median.",
-  "caption": "What tax do you pay on a ₹12.75 lakh salary? Under the new regime, it can be ₹0.\n\nSalaried people get a ₹75,000 standard deduction, so ₹12.75 lakh becomes ₹12 lakh taxable.\nTaxable income up to ₹12 lakh gets a full rebate, so the tax is zero. A little above, marginal relief can apply.\nOther income such as interest or capital gains changes the maths.\n\nWhat did you guess?\n\nSources: two income tax calculator guides for FY 2026-27. Figures assume salary is the only income and are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #newtaxregime #salary #taxsaving #personalfinanceindia",
+  "topic": "UPI fee from 15 Oct? Not anymore: the 0.4% merchant fee is put off until after Diwali",
+  "hook_pattern": "news-stakes",
+  "experiment": "KEEP (news-stakes) + TIMELY SWAP: replaces the evergreen quiz on the morning the fee was due, and corrects our own 12 Oct reel (our best news reel, 89 views). Tests whether a same-day correction of a rule people expected lifts sends ('friend scared of UPI fees'). rebuild:true because the slot was pre-rendered.",
+  "caption": "Is there a UPI fee from 15 October? Not anymore.\n\nThe 0.4% merchant fee on shop payments above ₹2,000 was put on hold on 13 Oct. It will now start after Diwali, on a date still to be announced.\nSending money to a friend stays free at any amount, and shop payments up to ₹2,000 carry no fee.\nThe fee is charged to the merchant. The government says it isn't meant to be collected from customers.\n(Our 12 Oct reel said 15 Oct. That date has now moved.)\n\nHas a shop ever asked you for an extra charge to pay by UPI?\n\nSources: a national news agency report and a business news report on the deferral (13 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#upi #digitalpayments #upifee #moneynews #personalfinanceindia",
   "spec": "specs/2026-10-15-reel-am.json",
   "media": [
     "media/2026-10-15/reel-am/reel.mp4"
   ],
   "cover": "media/2026-10-15/reel-am/reel_cover.png",
   "sources": [
-    "https://filingin.com/blog/en/new-tax-regime-calculation-fy-2026",
-    "https://stockcalc.in/calculator/income-tax"
+    "https://aninews.in/news/business/npci-defers-mdr-on-select-upi-merchant-transactions-post-diwali20261013140300/",
+    "https://www.newsx.com/business/upi-payments-above-rs-2000-npci-defers-mdr-rollout-until-after-diwali-282856/"
   ],
-  "duration_s": 14.9
+  "rebuild": true
 }

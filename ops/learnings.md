@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-14 — Daily review
+
+- **Followers: 12 (+0 vs 13 Oct, flat for 3 days).** The 10-day path (11 → 2,000) puts us at ~810 today, so we're ~800 behind and now need ~330 a day for 6 days. Honest read: 2,000 by 20 Oct is out of reach organically; 18 tracked reels in, we still have 0 sends and 0 follows from any reel. The realistic goal for the week is the first send.
+- **Best (new data):** 12 Oct am "UPI fee above ₹2,000 from 15 Oct" kept growing (82 → 89 views, 82 reach): a dated rule that costs *you* ₹ is the only format still compounding after day 1. **Worst:** all three 13 Oct reels. "Loan at 1% a month" (19 views) and "One extra EMI a year" (10) held **0.8 s (4%)**, our worst ever, and "Missed your ITR?" got 8 views. Two of them were 19 s arithmetic claims you have to work out; the third addressed people who already missed a deadline. 14 Oct reels are the first true 14–15 s cut (am went live 03:14 UTC, 29 min late); judge them tomorrow.
+- **Patterns:** scoreboard keeps **big-question EXPLOIT** (median 46 views, 16% watch); news-stakes, contrarian-number and small-input-big-number **keep**; **news-list drop** (median 8: the remaining queued ones on 14–15 Oct finish the run, no new ones). Loan-maths hooks (flat rate, extra EMI) go on hold: two 4%-watch results.
+- **Narrated vs silent:** narrated median 19 views / 11% watch vs silent 22 / 13%, now level. Narration helped reach in week 1, not retention; it stays on, but it's no longer the lever.
+- **Engine change today: the timely swap.** News on the 13th put the 15 Oct UPI fee off until after Diwali, which our best news reel had announced. Fresh, dated news now **replaces the earliest unpublished evergreen job** (queue `rebuild: true` makes the Action re-render a pre-rendered slot), and the evergreen job moves back. Applied: 15 Oct am is now "UPI fee from 15 Oct? Not anymore" (news-stakes); the guess-the-number quiz moved to 17 Oct am. Also queued for 17 Oct: ₹10 lakh cash-deposit "isn't a limit" (contrarian-number, mid) and "Missed EMIs: can they take your car by force?" (big-question, pm). Queue now runs to the end of 17 Oct.
+
 ## 2026-10-13 — Daily review
 
 - **Followers: 12 (+0 vs 12 Oct).** The 10-day path (11 → 2,000, ~200 a day) puts us at ~610 today, so we're ~600 behind and now need ~284 a day for 7 days. Honest read: 2,000 by 20 Oct won't happen organically; the week's real target is the first reel with sends and a first follow from a reel.

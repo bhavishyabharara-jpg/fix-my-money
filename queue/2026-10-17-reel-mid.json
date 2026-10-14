@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-17",
+  "slot": "reel",
+  "publish_at": "2026-10-17T07:45",
+  "topic": "₹10 lakh cash deposit isn't a limit: it's the yearly reporting line (and the ₹2 lakh cash-receipt rule)",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number): busts a feared ₹ 'limit' in the festive cash season; tests a family-elder send target ('uncle who keeps cash at home') in the weak mid slot.",
+  "caption": "Is ₹10 lakh the limit for cash deposits? No. It's a reporting line.\n\nOnce your cash deposits into savings accounts cross ₹10 lakh in a financial year, the bank reports them to the tax department.\nThere's no cap on depositing your own money, but you may be asked where it came from, so keep the proof (salary, a sale, a gift).\nSeparately, receiving ₹2 lakh or more in cash from one person in a day isn't allowed. The penalty can equal the amount and falls on the receiver.\n\nDoes anyone in your family still keep most of their savings in cash?\n\nSources: two personal-finance explainers on cash deposit rules (Sep 2026) and a tax column on the Income-tax Rules, 2026.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #cashdeposit #savingsaccount #taxnotice #personalfinanceindia",
+  "spec": "specs/2026-10-17-reel-mid.json",
+  "media": [
+    "media/2026-10-17/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-17/reel-mid/reel_cover.png",
+  "sources": [
+    "https://www.indianpaycalculator.in/govt-news/cash-deposit-savings-account-income-tax-limit-2026",
+    "https://www.jurishour.in/columns/annual-cash-limits-saving-account-transactions-income-tax-rules-2026/",
+    "https://www.caclubindia.com/articles/savings-account-rule-2026-new-limits-for-pan-card-holder-56214.asp"
+  ]
+}

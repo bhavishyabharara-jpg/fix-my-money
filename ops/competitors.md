@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-14 (daily pass, logged out)
+
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M; no new reel since 12 Oct):** "The rupee recovered ₹1 against the dollar… will it last?" **735K** (452K yesterday, still compounding on day 3); "Paris house to ₹20 crore business" 976K; Bollywood money 714K; "POV: your boss thinks your career is a mutual fund" 220K; then 231K, 98.1K, 108K, 124K, 682K.
+- **@ca_rachanaranade, @anushkarathod98, rotated-in @labourlawadvisor:** the logged-out wall hid the reel grid on all three (profile header only, even on a fresh tab). Skipped; no counts invented.
+- **Pattern:** a timely macro reel with one ₹ number ("₹1") keeps compounding for 3+ days, while his evergreen reels plateau. It backs today's timely-swap rule.
+- **News (last 48 h, two sources agree):** on 13 Oct NPCI put the 0.4% UPI merchant fee (shop payments above ₹2,000, due 15 Oct) on hold until after Diwali, date to be notified; P2P stays free and the fee isn't meant to be passed to customers (a national news agency + a business news site). Used for 15 Oct am. Also used: the Supreme Court's Sep 2026 ₹10 lakh compensation for a forcibly repossessed financed vehicle (two personal-finance reports, 17 and 23 Sep), and the ₹10 lakh yearly cash-deposit reporting line for savings accounts plus the ₹2 lakh cash-receipt rule (three explainers). Not used: the ₹50,000-a-day PAN rule for cash deposits (one source says it's removed under the 2026 rules, another doesn't say), and the ~7-day repossession notice (one source, "may be").
+
 ## 2026-10-13 (daily pass, logged out)
 
 - **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** newest "The rupee recovered ₹1 against the dollar… will it last?" **452K** (fresh); "POV: your boss thinks your career is a mutual fund" 161K (up from 57K); Bollywood money 683K; ₹4 cr Paris house 958K; then 225K, 95.3K, 106K, 123K, 626K. A timely macro "₹1" reel beat his median in a day.

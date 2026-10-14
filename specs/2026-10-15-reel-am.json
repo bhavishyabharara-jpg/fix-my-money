@@ -5,68 +5,52 @@
    {
     "type": "hook",
     "dur": 2.4,
-    "text": "Guess: tax on a [[₹12.75 lakh]] salary?",
-    "sub": "New regime. Answer in 3 seconds.",
-    "vo": "बारह लाख पचहत्तर हज़ार salary पर tax कितना?"
+    "text": "UPI fee from [[15 Oct?]] Not anymore.",
+    "sub": "The shop-payment fee is on hold.",
+    "vo": "पंद्रह October से UPI fee? अब नहीं।",
+    "mood": "concerned"
    },
    {
     "type": "stat",
     "dur": 2.8,
-    "title": "New regime, salaried, no other income",
-    "big": "₹0",
-    "color": "mint",
-    "label": "Illustrative, FY 2026-27",
-    "vo": "जवाब: शून्य, new regime में।",
-    "mood": "happy"
-   },
-   {
-    "type": "bars",
-    "dur": 3.2,
-    "title": "How it gets to zero",
-    "bars": [
-     {
-      "label": "Salary",
-      "value": 12.75,
-      "display": "₹12.75 lakh"
-     },
-     {
-      "label": "Standard deduction",
-      "value": 0.75,
-      "display": "−₹75,000"
-     },
-     {
-      "label": "Taxable",
-      "value": 12,
-      "display": "₹12 lakh",
-      "highlight": true
-     }
-    ],
-    "vo": "पचहत्तर हज़ार standard deduction, बचे बारह लाख।"
+    "title": "0.4% merchant fee on shop payments above ₹2,000",
+    "big": "After Diwali",
+    "color": "amber",
+    "label": "Put off on 13 Oct. New date to be announced.",
+    "vo": "Shop payment fee अब Diwali के बाद।"
    },
    {
     "type": "list",
     "dur": 3.0,
-    "title": "The fine print",
-    "marks": "num",
+    "title": "Still true",
+    "marks": "check",
     "items": [
-     "Up to ₹12 lakh taxable: full rebate",
-     "A little above? Marginal relief",
-     "Other income changes the maths"
+     "Paying a friend: free, any amount",
+     "Shop payment up to ₹2,000: no fee",
+     "The fee is on the shop, not you"
     ],
-    "vo": "बारह लाख तक rebate, tax शून्य।"
+    "vo": "दोस्त को या दो हज़ार तक: सब free।",
+    "mood": "happy"
+   },
+   {
+    "type": "text",
+    "dur": 2.8,
+    "text": "Shop adds a [[\"UPI charge\"]]?",
+    "sub": "The fee isn't meant to be collected from customers.",
+    "vo": "Fee customer से लेनी नहीं है।"
    },
    {
     "type": "end",
     "dur": 3.0,
-    "text": "Know your number **before** TDS.",
+    "text": "Check before you **pay extra**",
     "cta": [
-     "Send to a friend on ₹12 lakh",
+     "Send to a friend scared of UPI fees",
      "Follow for a money fix every day"
     ],
-    "vo": "बारह लाख वाले दोस्त को भेजिए।",
+    "vo": "UPI fee से डरे दोस्त को भेजो।",
     "mood": "happy"
    }
   ],
-  "caption": "What tax do you pay on a ₹12.75 lakh salary? Under the new regime, it can be ₹0.\n\nSalaried people get a ₹75,000 standard deduction, so ₹12.75 lakh becomes ₹12 lakh taxable.\nTaxable income up to ₹12 lakh gets a full rebate, so the tax is zero. A little above, marginal relief can apply.\nOther income such as interest or capital gains changes the maths.\n\nWhat did you guess?\n\nSources: two income tax calculator guides for FY 2026-27. Figures assume salary is the only income and are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #newtaxregime #salary #taxsaving #personalfinanceindia"
+  "caption": "Is there a UPI fee from 15 October? Not anymore.\n\nThe 0.4% merchant fee on shop payments above ₹2,000 was put on hold on 13 Oct. It will now start after Diwali, on a date still to be announced.\nSending money to a friend stays free at any amount, and shop payments up to ₹2,000 carry no fee.\nThe fee is charged to the merchant. The government says it isn't meant to be collected from customers.\n(Our 12 Oct reel said 15 Oct. That date has now moved.)\n\nHas a shop ever asked you for an extra charge to pay by UPI?\n\nSources: a national news agency report and a business news report on the deferral (13 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#upi #digitalpayments #upifee #moneynews #personalfinanceindia"
  }
 }

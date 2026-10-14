@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-17",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Missed EMIs: can they take [[your car]] by force?",
+    "sub": "The Supreme Court answered.",
+    "vo": "EMI miss हुई, car उठा सकते हैं?",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Supreme Court, Sep 2026",
+    "big": "₹10 lakh",
+    "color": "mint",
+    "label": "Compensation to a borrower whose financed truck was seized by force",
+    "vo": "Court ने ऐसे borrower को दस लाख दिलवाए।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Not allowed",
+    "marks": "cross",
+    "items": [
+     "Force or threats",
+     "Taking it without telling you",
+     "Muscle-power recovery agents"
+    ],
+    "vo": "Force, धमकी, बिना notice उठाना: सब गलत।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Your rights",
+    "marks": "check",
+    "items": [
+     "A notice before repossession",
+     "A chance to pay before it's sold",
+     "Complain to the lender, then the RBI ombudsman"
+    ],
+    "vo": "पहले notice, फिर चुकाने का मौका।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Default still costs you. **Force isn't legal.**",
+    "cta": [
+     "Send to the friend paying off a car loan",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Car loan वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Missed a few EMIs: can the lender take your car by force?\n\nIn September 2026 the Supreme Court ordered ₹10 lakh compensation for a borrower whose financed truck was seized and sold without due process, and told the RBI to make lenders follow its recovery rules.\nLenders and recovery agents can't use force, threats or stealth, even after a default. You should get a notice before repossession and a chance to pay before the vehicle is sold.\nIf it goes wrong, complain in writing to the lender first, then to the RBI ombudsman.\nMissing EMIs still has real costs: penalties, a lower credit score, and legal repossession.\n\nDid you know recovery agents have rules to follow?\n\nSources: two personal-finance news reports on the September 2026 Supreme Court judgment (17 and 23 Sep 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#carloan #emi #borrowerrights #loanrecovery #personalfinanceindia"
+ }
+}
