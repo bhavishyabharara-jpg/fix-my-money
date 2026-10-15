@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-18",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Can your bank push [[your balance]] below ₹0?",
+    "sub": "The RBI rule on minimum-balance fines.",
+    "vo": "Bank fine से आपका balance minus हो सकता है?",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "RBI rule, since April 2015",
+    "big": "₹0",
+    "color": "mint",
+    "label": "A minimum-balance fine can't take a savings balance below zero",
+    "vo": "नहीं। Balance zero से नीचे नहीं जाता।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Before any fine",
+    "marks": "check",
+    "items": [
+     "A notice by SMS, email or letter",
+     "At least 1 month to top up",
+     "Fine in proportion to the shortfall"
+    ],
+    "vo": "पहले notice, फिर एक महीने का time।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Seeing a minus?",
+    "marks": "num",
+    "items": [
+     "Complain to your bank in writing",
+     "Then go to the RBI ombudsman"
+    ],
+    "vo": "Minus दिखे? पहले bank, फिर ombudsman।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Fines have rules. **Know them.**",
+    "cta": [
+     "Send to the friend with an old salary account",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Salary account वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Can your bank fine you until your balance goes below ₹0?\n\nRBI guidelines on minimum-balance charges (in force since April 2015) say the fine can't turn a savings account balance negative.\nBefore any fine, the bank must tell you about the shortfall by SMS, email or letter and give you at least a month to top up. The fine must be in proportion to the shortfall.\nSeeing a minus balance? Complain to the bank in writing first, then to the RBI ombudsman.\n\nHas a bank ever shown you a minus balance?\n\nSources: the RBI circular on penal charges for non-maintenance of minimum balance (Dec 2014) and a fact-check explainer on the same rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#minimumbalance #savingsaccount #bankcharges #rbi #personalfinanceindia"
+ }
+}

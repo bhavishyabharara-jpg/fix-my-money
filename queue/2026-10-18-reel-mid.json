@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "slot": "reel",
+  "publish_at": "2026-10-18T07:45",
+  "topic": "Can a minimum-balance fine push your savings balance below ₹0? The RBI rule: notice, 1 month, no negative balance",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question): 'Can your bank…?' rights question with ₹0 on frame 0; tests a bank-fee grievance most viewers have seen, sent to 'the friend with an old salary account'.",
+  "caption": "Can your bank fine you until your balance goes below ₹0?\n\nRBI guidelines on minimum-balance charges (in force since April 2015) say the fine can't turn a savings account balance negative.\nBefore any fine, the bank must tell you about the shortfall by SMS, email or letter and give you at least a month to top up. The fine must be in proportion to the shortfall.\nSeeing a minus balance? Complain to the bank in writing first, then to the RBI ombudsman.\n\nHas a bank ever shown you a minus balance?\n\nSources: the RBI circular on penal charges for non-maintenance of minimum balance (Dec 2014) and a fact-check explainer on the same rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#minimumbalance #savingsaccount #bankcharges #rbi #personalfinanceindia",
+  "spec": "specs/2026-10-18-reel-mid.json",
+  "media": [
+    "media/2026-10-18/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-18/reel-mid/reel_cover.png",
+  "sources": [
+    "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=9421",
+    "https://factly.in/not-maintaining-minimum-balance-account-beware-penalty"
+  ],
+  "duration_s": 14.2
+}

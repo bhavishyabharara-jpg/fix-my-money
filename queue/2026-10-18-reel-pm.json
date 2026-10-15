@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "slot": "reel",
+  "publish_at": "2026-10-18T13:45",
+  "topic": "Life policy over 3 years old: Section 45 says it can't be questioned on any ground (revival restarts the clock)",
+  "hook_pattern": "myth-buster",
+  "experiment": "EXPERIMENT (new hook style 'myth-buster', copied from a rotating creator's 2M 'X is fooling you?' reel): busts the 'insurer will find a reason to reject' belief; tests whether a protective family topic sent to 'the parent paying a life policy' beats cost topics on sends.",
+  "caption": "Can an insurer reject a life claim on a policy that's more than 3 years old?\n\nUnder Section 45 of the Insurance Act, a life policy can't be questioned on any ground once 3 years have passed.\nWithin those 3 years, the insurer can question it for fraud or for hiding a fact that matters to the risk.\nThe 3 years count from the latest of: policy issue or risk start, revival of a lapsed policy, or adding a rider. So a revived policy restarts the clock.\nThe safest path is still to disclose everything honestly in the proposal form.\n\nDid you know about this 3-year rule?\n\nSources: a legal explainer on Section 45 of the Insurance Act and a life-insurance explainer on the 3-year clause.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#lifeinsurance #termplan #insuranceclaim #section45 #personalfinanceindia",
+  "spec": "specs/2026-10-18-reel-pm.json",
+  "media": [
+    "media/2026-10-18/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-18/reel-pm/reel_cover.png",
+  "sources": [
+    "https://taxguru.in/corporate-law/indisputable-clause-insurance-policy.html",
+    "https://joinditto.in/articles/life-insurance/3-year-clause-in-term-insurance/"
+  ],
+  "duration_s": 14.2
+}

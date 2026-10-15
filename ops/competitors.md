@@ -2,6 +2,15 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-15 (daily pass, logged out)
+
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** two new reels since 14 Oct: **"Stock market tax free again?" 305K** (fresh, a tax-change question) and "Slowest founders = biggest businesses" 111K (podcast clip). Then "How RBI saved the rupee" **782K** (735K yesterday, still compounding on day 4), "The secret to staying focused" 223K, Bollywood money 737K, Paris house 988K, 236K, 99.7K, 109K.
+- **@ca_rachanaranade (grid loaded after a scroll; pinned 404K):** she posted one topic, "Can India close the gap with its Asian peers?", in three languages: English **68.1K**, Marathi 11.1K, Hindi 2.7K. Then 49.2K (IT AI partnership), 32.2K, 6.9K, 87K (repo hike), 4.6K, 29K, 58.5K, 101K (Nifty fall), 5.8K, 698K (outlier).
+- **@anushkarathod98:** four fresh reels are small: "Best gift for Indian couples" 2.8K, "Is the govt running out of money?" 20K, a duplicate cut 11.5K, "Must have for Indian couples" 6.6K. Her proven "good news / bad news for the middle class" posts sit at 163K–347K; 3.7M further back.
+- **Rotated in @pranjalkamra:** pinned **"Investment plan for 5,000 → 1.6 crores" 3.3M**, **"Luxury brands are fooling you?" 2M**, "6-step financial plan" 1.1M; recent face-to-camera reels 25K–108K (gold vs gold ETF, IT-sector worries, social media). Biggest hits name a trick or a tiny input → huge output.
+- **Pattern:** a tax or rupee "question about a change" (Sharan's 305K in ~1 day) and "X is fooling you" myth hooks beat lifestyle and gifting content, even for big creators (Anushka's couples/gift reels: 2.8K–6.6K). Used: the myth-buster experiment for 18 Oct pm.
+- **News (last 48 h, two sources agree):** retail CPI inflation rose to **5.54% in September** from 4.83% in August, food 7.74% (official data on 12 Oct, two business news sites). Used for 18 Oct am. Also seen: the UPI merchant fee deferral (already covered 15 Oct), new portfolio-manager rules, and a consumer-commission ruling on a death claim (one source, teaser only, not used). WPI at 11.39% for September has only one page opened, so it's not used.
+
 ## 2026-10-14 (daily pass, logged out)
 
 - **@financewithsharan (pinned 6.6M / 1.1M / 8.4M; no new reel since 12 Oct):** "The rupee recovered ₹1 against the dollar… will it last?" **735K** (452K yesterday, still compounding on day 3); "Paris house to ₹20 crore business" 976K; Bollywood money 714K; "POV: your boss thinks your career is a mutual fund" 220K; then 231K, 98.1K, 108K, 124K, 682K.

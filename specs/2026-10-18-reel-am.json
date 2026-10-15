@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-18",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Prices up 5.54%: [[your idle ₹1 lakh]] shrank",
+    "sub": "Retail inflation, September 2026.",
+    "vo": "महँगाई साढ़े पाँच percent, आपका एक लाख घटा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Retail inflation, Sep 2026",
+    "big": "5.54%",
+    "label": "Up from 4.83% in August. Food prices: 7.74%.",
+    "vo": "Food महँगाई पौने आठ percent।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: ₹1 lakh kept as cash",
+    "big": "≈ ₹94,750",
+    "label": "What it buys a year later if prices rise 5.54%",
+    "vo": "साल भर बाद करीब पचानवे हज़ार जितना ही।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Quick check",
+    "marks": "check",
+    "items": [
+     "Keep an emergency fund, not a pile",
+     "Know what your savings earn",
+     "Compare it with inflation yearly"
+    ],
+    "vo": "अपना return inflation से compare करो।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Money sitting still **loses value**",
+    "cta": [
+     "Send to the friend who keeps cash at home",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Cash घर में रखने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Did your idle ₹1 lakh just get smaller?\n\nRetail inflation rose to 5.54% in September 2026, from 4.83% in August. Food inflation was 7.74%.\nIllustrative: if prices rise 5.54% in a year, ₹1 lakh kept as cash buys only about ₹94,750 worth of today's things.\nKeep an emergency fund, but check what the rest earns and compare it with inflation once a year.\n\nHow much cash does your family keep at home?\n\nSources: official CPI data for September 2026 as reported by two business news sites (12 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#inflation #cpi #savings #moneytips #personalfinanceindia"
+ }
+}

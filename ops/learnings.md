@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-15 — Daily review
+
+- **Followers: 12 (+0 vs 14 Oct, flat for 4 days).** The 10-day path (11 → 2,000) puts us at ~1,000 today, so we're ~990 behind and would need ~400 a day for the last 5 days. Honest read: 2,000 by 20 Oct will not happen; 24 reels in, no reel has produced a send or a follow. The goal that still means something this week is one reel with a send.
+- **Best (new data):** 14 Oct am "Form 15G/15H are gone" 23 views, 2.2 s (15%): a dated rule with a ₹ penalty (10% TDS) on *your* FD. **Worst:** 14 Oct mid "Paid your card 2 days late?" 4 views, 1.0 s (7%), and 14 Oct pm "Salary account ATM cut" 5 views, 1.8 s. Both opened on a condition the viewer has to check against their own life before they care; the card one also overlapped the 9 Oct card reel. All three 14 Oct reels went live 30 min late (03:14 / 08:18 / 14:16 UTC); 15 Oct am went live at 03:15 and has no metrics yet.
+- **Patterns:** **big-question stays EXPLOIT** (5 reels, median 46 views, 16% watch). news-stakes, contrarian-number and small-input-big-number **keep**. **news-list is dropped**: 6 reels, median 8 views, and the last two (4 and 5 views) confirm it. No new news-list jobs; the 15 Oct mid one is the last.
+- **Narrated vs silent:** narrated median 16 views / 11% watch vs silent 22 / 13%. Narration isn't moving reach or hold any more; it stays on (the cost is zero), but it isn't the lever.
+- **Engine change today: the experiment slot now copies a proven competitor hook shape instead of inventing one.** The rotating creator's top non-pinned reels are "Luxury brands are fooling you?" (2M) and "Investment plan for 5,000…" (3.3M): a myth or trick named in the hook. Queued 18 Oct pm "Your life policy over 3 years old? Read this" (new **myth-buster** pattern, Section 45). Also queued 18 Oct am inflation 5.54% → "your idle ₹1 lakh shrank" (news-stakes, keep) and 18 Oct mid "Can your bank push your balance below ₹0?" (big-question, exploit). Queue now runs to the end of 18 Oct.
+
 ## 2026-10-14 — Daily review
 
 - **Followers: 12 (+0 vs 13 Oct, flat for 3 days).** The 10-day path (11 → 2,000) puts us at ~810 today, so we're ~800 behind and now need ~330 a day for 6 days. Honest read: 2,000 by 20 Oct is out of reach organically; 18 tracked reels in, we still have 0 sends and 0 follows from any reel. The realistic goal for the week is the first send.

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "slot": "reel",
+  "publish_at": "2026-10-18T02:45",
+  "topic": "Inflation hit 5.54% in September: what idle ₹1 lakh in cash buys a year later (illustrative)",
+  "hook_pattern": "news-stakes",
+  "experiment": "KEEP (news-stakes): fresh CPI print (12 Oct) turned into a ₹ cost to *you* on frame 0; tests whether a macro number framed as 'your ₹1 lakh shrank' gets sends to 'the friend who keeps cash at home'.",
+  "caption": "Did your idle ₹1 lakh just get smaller?\n\nRetail inflation rose to 5.54% in September 2026, from 4.83% in August. Food inflation was 7.74%.\nIllustrative: if prices rise 5.54% in a year, ₹1 lakh kept as cash buys only about ₹94,750 worth of today's things.\nKeep an emergency fund, but check what the rest earns and compare it with inflation once a year.\n\nHow much cash does your family keep at home?\n\nSources: official CPI data for September 2026 as reported by two business news sites (12 Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#inflation #cpi #savings #moneytips #personalfinanceindia",
+  "spec": "specs/2026-10-18-reel-am.json",
+  "media": [
+    "media/2026-10-18/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-18/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/latest/economy/story/indias-retail-inflation-rises-to-5-54-in-september-food-inflation-hits-7-74-561057-2026-10-12",
+    "https://www.freepressjournal.in/business/india-retail-inflation-rises-to-554-in-september-as-food-prices-surge"
+  ],
+  "duration_s": 14.2
+}
