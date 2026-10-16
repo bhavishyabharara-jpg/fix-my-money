@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-19",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Locker robbed? [[Your bank]] pays at most 100× rent",
+    "sub": "RBI's locker rules, since Jan 2022.",
+    "vo": "Locker चोरी? Bank सिर्फ़ सौ गुना rent देगा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Fire, theft, staff fraud",
+    "big": "100×",
+    "color": "amber",
+    "label": "The bank's maximum liability: 100 times the locker's annual rent",
+    "vo": "चोरी, fire या fraud: बस सौ गुना rent।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Illustrative: ₹3,000 a year rent",
+    "big": "₹3 lakh",
+    "color": "red",
+    "label": "The most you get back, even if ₹10 lakh of gold is gone",
+    "vo": "तीन हज़ार rent, तो max तीन लाख।"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "Bank not liable for",
+    "marks": "num",
+    "items": [
+     "Floods and earthquakes",
+     "Lightning and storms"
+    ],
+    "vo": "Flood या earthquake? Bank liable नहीं।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "A locker isn't **insurance.**",
+    "cta": [
+     "Send to parents who keep gold in a locker",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Locker वाले parents को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is your gold in a bank locker fully covered?\n\nUnder RBI's revised locker rules (from 1 Jan 2022), a bank's liability for fire, theft, burglary, building collapse or fraud by its staff is capped at 100 times the locker's annual rent.\nIllustrative: ₹3,000 a year rent means at most ₹3 lakh back, whatever was inside.\nLosses from floods, earthquakes, lightning or storms aren't the bank's liability at all.\n\nDo you know what your locker's annual rent is?\n\nSources: a consumer-rights group's guide to the RBI locker rules and a personal-finance news report on the 100× cap.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#banklocker #gold #rbi #personalfinanceindia"
+ }
+}

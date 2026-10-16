@@ -75,8 +75,10 @@ def main() -> int:
     med_views = st.median([x["views"] for x in reels]) if reels else 0
 
     by = defaultdict(list)
+    zero = [x for x in reels if x["views"] <= 0]
     for x in reels:
-        by[x["pattern"]].append(x)
+        if x["views"] > 0:  # a 0-view reel wasn't distributed; its watch % is noise
+            by[x["pattern"]].append(x)
 
     L = [f"# Scoreboard — {latest}", "",
          f"Followers **{f_now}** ({f_now - f_prev:+d} vs previous day). Reels tracked: {len(reels)}. "
@@ -98,12 +100,16 @@ def main() -> int:
         ms = st.mean([x["score"] for x in xs])
         stats.append((ms, pat, len(xs), mv, mw))
     stats.sort(reverse=True)
+    exploit = next((p for ms_, p, n_, *_ in stats if n_ >= 3), stats[0][1] if stats else None)
     for i, (ms, pat, n, mv, mw) in enumerate(stats):
-        call = ("EXPLOIT" if i == 0 and n >= 1 else
+        call = ("EXPLOIT" if pat == exploit else
                 "keep" if mv >= med_views else
                 "drop" if n >= 3 and mv < 0.5 * med_views else "test again")
         tot = sum(x["views"] for x in by[pat])
         L.append(f"| {pat} | {n} | {mv:.0f} | {mw:.0%} | {ms:.1f} | {call}{' (low data)' if tot < 50 else ''} |")
+    if zero:
+        L += ["", "Left out of pattern stats (0 views, not distributed — check the post): "
+              + ", ".join(x["key"] for x in zero) + "."]
     narr = [x for x in reels if x["narrated"]]
     sil = [x for x in reels if not x["narrated"]]
     if narr and sil:

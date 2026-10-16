@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-16 — Daily review
+
+- **Followers: 12 (+0 vs 15 Oct, flat for 5 days).** The 10-day path (11 → 2,000) puts us at ~1,200 today, so we're ~1,190 behind and would need ~500 a day for the last 4 days. Honest read: 2,000 by 20 Oct is not reachable; 27 reels in, still 0 sends and 0 follows from any reel. The only meaningful target left this week is a first send.
+- **Best (new data):** 15 Oct pm "Job switch: PF withdrawn before 5 years isn't tax-free" 30 views, **2.7 s (18%)**, the best hold of the 14 Oct–15 Oct batch: it names a life event the viewer is in (a job switch) and says the opposite of what they assume. **Worst:** 15 Oct mid "LPG subsidy Aadhaar check" 3 views, 1.3 s (another news-list for someone else's chore). **15 Oct am "UPI fee… Not anymore" has 0 views and 0 reach after 28 h** although it's live (posted 03:15 UTC): Instagram didn't distribute it at all. Its 14.5 s "watch" is an empty-metric artefact. Both 15 Oct reels and 16 Oct am went live ~30 min after `publish_at` again.
+- **Patterns:** the raw scoreboard called **news-stakes EXPLOIT only because of that 0-view reel** (score 25 from a fake 100% watch). Without it, **big-question is EXPLOIT** (5 reels, median 46 views, 16% watch); news-stakes and contrarian-number **keep**; news-list stays **dropped** (7 reels, median 9; the last queued one has run).
+- **Narrated vs silent:** narrated median 19 views / 11% watch vs silent 22 / 13%. Still level; narration stays on but isn't the lever.
+- **Engine change today: tools/review.py now leaves 0-view reels out of the pattern stats and only crowns an EXPLOIT pattern with 3+ reels**, listing undistributed reels separately so they get checked instead of steering the plan. Also a new **hinglish-hook** experiment (19 Oct pm): the frame-0 line itself is Romanized Hinglish ("Floating loan jaldi band? Penalty ₹0"), copied from the rotating creator's Hinglish covers (88.6K, 56.8K). Queued 19 Oct: recovery-agent call hours (big-question, am), locker 100× rent cap (contrarian-number, mid), prepayment ₹0 (hinglish-hook, pm). Queue now runs to the end of 19 Oct.
+
 ## 2026-10-15 — Daily review
 
 - **Followers: 12 (+0 vs 14 Oct, flat for 4 days).** The 10-day path (11 → 2,000) puts us at ~1,000 today, so we're ~990 behind and would need ~400 a day for the last 5 days. Honest read: 2,000 by 20 Oct will not happen; 24 reels in, no reel has produced a send or a follow. The goal that still means something this week is one reel with a send.

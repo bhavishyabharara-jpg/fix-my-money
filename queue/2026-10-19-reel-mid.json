@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "slot": "reel",
+  "publish_at": "2026-10-19T07:45",
+  "topic": "Locker robbed? The bank pays at most 100× the annual rent, and nothing for floods or earthquakes",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number): 'your locker isn't fully covered' with 100× on frame 0 in festive gold season; send target is a household role ('parents who keep gold in a locker').",
+  "caption": "Is your gold in a bank locker fully covered?\n\nUnder RBI's revised locker rules (from 1 Jan 2022), a bank's liability for fire, theft, burglary, building collapse or fraud by its staff is capped at 100 times the locker's annual rent.\nIllustrative: ₹3,000 a year rent means at most ₹3 lakh back, whatever was inside.\nLosses from floods, earthquakes, lightning or storms aren't the bank's liability at all.\n\nDo you know what your locker's annual rent is?\n\nSources: a consumer-rights group's guide to the RBI locker rules and a personal-finance news report on the 100× cap.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#banklocker #gold #rbi #personalfinanceindia",
+  "spec": "specs/2026-10-19-reel-mid.json",
+  "media": [
+    "media/2026-10-19/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-19/reel-mid/reel_cover.png",
+  "sources": [
+    "https://consumer-voice.org/banking-finance/bank-locker-guidelines/",
+    "https://moneylife.in/article/bank-locker-rbi-fixes-banks-liability-to-100-times-of-annual-rent/64904.html"
+  ]
+}

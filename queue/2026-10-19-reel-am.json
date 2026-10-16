@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "slot": "reel",
+  "publish_at": "2026-10-19T02:45",
+  "topic": "Can a recovery agent call you at 10 pm? RBI: overdue-loan calls only 8 am–7 pm, no threats or anonymous calls",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question, the scoreboard's real winner once 0-view reels are excluded): a borrower-rights 'Can they…?' question with a time on frame 0; send target 'the friend getting late-night recovery calls'.",
+  "caption": "Can a loan recovery agent call you at 10 pm?\n\nNo. Since August 2022, RBI instructions say lenders and their recovery agents can't call about overdue loans before 8 am or after 7 pm.\nThreats, harassment, anonymous or threatening calls and misleading claims are also not allowed.\nGetting such calls? Note the time and number, complain to the lender in writing, then go to the RBI ombudsman.\n\nHave you or someone you know got a recovery call at night?\n\nSources: RBI instructions on recovery practices (Aug 2022) as reported by a national business newspaper, and a lender's explainer on the same rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#loanrecovery #borrowerrights #emi #rbi #personalfinanceindia",
+  "spec": "specs/2026-10-19-reel-am.json",
+  "media": [
+    "media/2026-10-19/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-19/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.business-standard.com/amp/article/finance/rbi-directs-loan-recovery-agents-not-to-intimidate-borrowers-no-calling-before-8am-after-7pm-122081201144_1.html",
+    "https://www.ltfinance.com/blog/personal-loan/rbi-guidelines-for-loan-recovery"
+  ]
+}

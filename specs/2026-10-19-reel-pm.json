@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-19",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Floating loan jaldi band? Penalty [[₹0]]",
+    "sub": "RBI rule for loans from 1 Jan 2026.",
+    "vo": "Loan जल्दी बंद करो, penalty zero।",
+    "mood": "happy"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "RBI rule, from 1 Jan 2026",
+    "big": "₹0",
+    "color": "mint",
+    "label": "Prepayment charge on floating-rate loans to individuals",
+    "vo": "Floating rate loan पे कोई prepayment charge नहीं।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "It covers",
+    "marks": "check",
+    "items": [
+     "Part or full prepayment",
+     "No minimum lock-in",
+     "Money from any source"
+    ],
+    "vo": "Part हो या full, कोई lock-in नहीं।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Check first",
+    "marks": "num",
+    "items": [
+     "Is your rate floating?",
+     "Sanctioned on or after 1 Jan 2026?",
+     "What your sanction letter says"
+    ],
+    "vo": "Sanction letter में rate type check करो।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Know before you **prepay.**",
+    "cta": [
+     "Send to the friend paying off a loan early",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Loan चुकाने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paying off a floating-rate loan early? Is there a penalty?\n\nUnder RBI's prepayment-charge directions, loans to individuals sanctioned from 1 Jan 2026 on a floating rate can't carry a prepayment charge.\nIt applies to part or full prepayment, with no minimum lock-in, whatever the source of the money.\nFixed-rate loans can still carry a charge, so check your sanction letter.\n\nWould you prepay your loan or invest the extra money?\n\nSources: RBI's prepayment-charge directions as reported by a national business newspaper and a personal-finance news site.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#homeloan #prepayment #emi #rbi #personalfinanceindia"
+ }
+}

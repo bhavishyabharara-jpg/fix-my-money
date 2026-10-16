@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-19",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Can a recovery agent call [[you]] at 10 pm?",
+    "sub": "What RBI rules say about overdue-loan calls.",
+    "vo": "Recovery agent रात दस बजे call कर सकता है?",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "RBI rule, since Aug 2022",
+    "big": "7 pm",
+    "color": "mint",
+    "label": "No overdue-loan calls after 7 pm or before 8 am, from lenders or their agents",
+    "vo": "नहीं, सिर्फ़ सुबह आठ से शाम सात।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Also not allowed",
+    "marks": "check",
+    "items": [
+     "Threats or harassment",
+     "Anonymous or threatening calls",
+     "Misleading claims about your loan"
+    ],
+    "vo": "धमकी और anonymous calls मना हैं।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Getting such calls?",
+    "marks": "num",
+    "items": [
+     "Note the time and the number",
+     "Complain to the lender in writing",
+     "Then go to the RBI ombudsman"
+    ],
+    "vo": "Time note करो, lender से शिकायत करो।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Late EMI ≠ **no rights.**",
+    "cta": [
+     "Send to the friend facing recovery calls",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Recovery calls वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Can a loan recovery agent call you at 10 pm?\n\nNo. Since August 2022, RBI instructions say lenders and their recovery agents can't call about overdue loans before 8 am or after 7 pm.\nThreats, harassment, anonymous or threatening calls and misleading claims are also not allowed.\nGetting such calls? Note the time and number, complain to the lender in writing, then go to the RBI ombudsman.\n\nHave you or someone you know got a recovery call at night?\n\nSources: RBI instructions on recovery practices (Aug 2022) as reported by a national business newspaper, and a lender's explainer on the same rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#loanrecovery #borrowerrights #emi #rbi #personalfinanceindia"
+ }
+}

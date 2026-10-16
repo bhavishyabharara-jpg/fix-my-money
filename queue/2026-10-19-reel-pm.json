@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "slot": "reel",
+  "publish_at": "2026-10-19T13:45",
+  "topic": "Prepaying a floating-rate loan? From 1 Jan 2026, the prepayment charge is ₹0 (part or full, no lock-in)",
+  "hook_pattern": "hinglish-hook",
+  "experiment": "EXPERIMENT (hinglish-hook): the on-screen hook itself is Romanized Hinglish, copying the rotating creator's 88.6K 'Income Tax se ₹1.5cr ka notice' / 56.8K 'EMI ab mehengi hogi?' covers. Tests whether a Hinglish frame-0 line holds Hindi-first viewers better than our English hooks.",
+  "caption": "Paying off a floating-rate loan early? Is there a penalty?\n\nUnder RBI's prepayment-charge directions, loans to individuals sanctioned from 1 Jan 2026 on a floating rate can't carry a prepayment charge.\nIt applies to part or full prepayment, with no minimum lock-in, whatever the source of the money.\nFixed-rate loans can still carry a charge, so check your sanction letter.\n\nWould you prepay your loan or invest the extra money?\n\nSources: RBI's prepayment-charge directions as reported by a national business newspaper and a personal-finance news site.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#homeloan #prepayment #emi #rbi #personalfinanceindia",
+  "spec": "specs/2026-10-19-reel-pm.json",
+  "media": [
+    "media/2026-10-19/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-19/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.business-standard.com/finance/news/rbi-no-prepayment-charges-loans-mse-bank-small-business-finance-125070201501_1.html",
+    "https://www.outlookmoney.com/banking/rbi-prohibits-regulated-entities-from-charging-pre-payment-penalties"
+  ]
+}
