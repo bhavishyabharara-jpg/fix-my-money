@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-15
+# Scoreboard — 2026-10-16
 
-Followers **12** (+0 vs previous day). Reels tracked: 21. Median views per reel: 19.
+Followers **12** (+0 vs previous day). Reels tracked: 24. Median views per reel: 19.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -8,25 +8,28 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 | Reel | Pattern | Voice | Views | Watch | Sends | Saves | Likes | Follows | Score |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-10-15-reel-am UPI fee from 15 Oct? Not anymore: the 0.4% merchant fee is p | news-stakes | yes | 0 | 14.5s (100%) | 0 | 0 | 0 | 0 | 25.0 |
 | 2026-10-07-reel-pm Start a SIP at 25 or 30? What a 5-year delay costs by 60 | big-question | yes | 9 | 11.4s (57%) | 0 | 0 | 1 | 0 | 15.7 |
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
+| 2026-10-15-reel-pm Job switch: PF withdrawn before 5 years isn't tax-free; tran | contrarian-number | yes | 30 | 2.7s (18%) | 0 | 0 | 0 | 0 | 4.4 |
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
 | 2026-10-12-reel-am UPI shop payments above ₹2,000: the 0.4% merchant fee from 1 | news-stakes | yes | 89 | 2.5s (13%) | 0 | 0 | 2 | 0 | 3.6 |
 | 2026-10-05-reel-am Money rules that changed in October 2026 | news-list | no | 30 | 2.5s (12%) | 0 | 0 | 0 | 0 | 3.1 |
-| 2026-10-14-reel-pm Salary account? One big bank cut free other-bank ATM uses fr | news-list | yes | 5 | 1.8s (12%) | 0 | 0 | 0 | 0 | 3.0 |
 | 2026-10-11-reel-am Festive shopping: why "no-cost EMI" isn't always zero cost | news-stakes | yes | 37 | 2.3s (12%) | 0 | 0 | 0 | 0 | 2.9 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.3s (11%) | 0 | 0 | 0 | 0 | 2.8 |
 | 2026-10-13-reel-mid Missed your ITR? The belated return deadline is 31 Dec, with | news-list | yes | 9 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-12-reel-pm A ₹200-a-day habit = ₹73,000 a year: what small daily spends | small-input-big-number | yes | 46 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
+| 2026-10-14-reel-pm Salary account? One big bank cut free other-bank ATM uses fr | news-list | yes | 19 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 9 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
+| 2026-10-15-reel-mid LPG subsidy: biometric Aadhaar check needed from 1 Oct, or t | news-list | yes | 3 | 1.3s (8%) | 0 | 0 | 0 | 0 | 2.0 |
 | 2026-10-12-reel-mid Parents on pension? The life certificate is due by 30 Nov, o | news-list | yes | 8 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.9 |
 | 2026-10-11-reel-pm Couples: is splitting bills 50-50 fair? Same-percentage spli | big-question | yes | 46 | 1.4s (7%) | 0 | 0 | 0 | 0 | 1.8 |
-| 2026-10-14-reel-mid Paid your credit card 2 days late? Late fees can only start  | contrarian-number | yes | 4 | 1.0s (7%) | 0 | 0 | 0 | 0 | 1.7 |
+| 2026-10-14-reel-mid Paid your credit card 2 days late? Late fees can only start  | contrarian-number | yes | 5 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.8 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 
@@ -34,15 +37,15 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 | Pattern | Reels | Median views | Median watch % | Mean score | Call |
 |---|---|---|---|---|---|
-| big-question | 5 | 46 | 16% | 5.7 | EXPLOIT |
+| news-stakes | 4 | 30 | 13% | 8.8 | EXPLOIT |
+| big-question | 5 | 46 | 16% | 5.7 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| news-list | 6 | 8 | 12% | 4.0 | drop |
-| news-stakes | 3 | 37 | 13% | 3.4 | keep |
+| news-list | 7 | 9 | 10% | 3.7 | drop |
+| contrarian-number | 4 | 24 | 12% | 2.8 | keep |
 | audit | 1 | 14 | 11% | 2.8 | test again (low data) |
-| contrarian-number | 3 | 19 | 7% | 2.3 | keep |
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
 
-Narrated reels: median views 16, watch 11% — silent reels: 22, 13%.
+Narrated reels: median views 19, watch 11% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
