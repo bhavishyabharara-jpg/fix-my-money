@@ -37,13 +37,15 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 | Pattern | Reels | Median views | Median watch % | Mean score | Call |
 |---|---|---|---|---|---|
-| news-stakes | 4 | 30 | 13% | 8.8 | EXPLOIT |
-| big-question | 5 | 46 | 16% | 5.7 | keep |
+| big-question | 5 | 46 | 16% | 5.7 | EXPLOIT |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
 | news-list | 7 | 9 | 10% | 3.7 | drop |
+| news-stakes | 3 | 37 | 13% | 3.4 | keep |
 | contrarian-number | 4 | 24 | 12% | 2.8 | keep |
 | audit | 1 | 14 | 11% | 2.8 | test again (low data) |
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
+
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
 Narrated reels: median views 19, watch 11% — silent reels: 22, 13%.
 
