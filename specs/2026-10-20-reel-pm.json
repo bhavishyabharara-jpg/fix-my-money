@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-20",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "POV: salary gone by the [[10th]]",
+    "vo": "Salary दस तारीख़ तक ग़ायब?",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "The fix: pay yourself first",
+    "big": "20%",
+    "color": "mint",
+    "label": "Moved to savings on salary day, before you spend",
+    "vo": "Salary day पर ही बीस percent अलग करो।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Illustrative: ₹50,000 take-home",
+    "big": "₹10,000",
+    "color": "mint",
+    "label": "Auto-transfer on day 1. Spend what's left.",
+    "vo": "पचास हज़ार में दस हज़ार, पहले दिन।"
+   },
+   {
+    "type": "list",
+    "dur": 2.8,
+    "title": "The other 80%",
+    "marks": "num",
+    "items": [
+     "50% needs: rent, EMI, bills",
+     "30% wants: food, trips, shopping"
+    ],
+    "vo": "बाकी needs और wants में बाँटो।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Save first. **Spend after.**",
+    "cta": [
+     "Send to the friend who's broke by the 10th",
+     "Follow for a money fix every day"
+    ],
+    "vo": "दस तारीख़ तक broke दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Salary on the 1st, gone by the 10th?\n\nThe 50/30/20 rule splits take-home pay: 50% needs, 30% wants, 20% savings.\nThe trick is order: move the 20% out automatically on salary day, then spend what's left.\nIllustrative: on ₹50,000 take-home, ₹10,000 leaves on day 1.\n\nWhat date does your salary usually run out?\n\nSources: an insurer's budgeting guide and an education site's explainer on the 50/30/20 rule.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#salary #budgeting #503020rule #savingmoney #personalfinanceindia"
+ }
+}

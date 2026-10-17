@@ -2,6 +2,15 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-17 (daily pass, logged out)
+
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Gold vs rupee: what's happening?" 220K** (fresh); "The man who made $100M from a crash" 73.3K (56K yesterday); "Slowest founders" 178K; "Stock market tax free again?" **353K** (344K); "How RBI saved the rupee" **822K**; then 226K, 773K, 1M, 243K. A 4-word macro question on a cover wins again.
+- **@ca_rachanaranade (pinned 404K):** "Will the IT rally sustain?" English **59.3K**, Marathi cut 4,050; 53.6K (sponsored); then 2,991, 11.4K, 71.9K, 51.1K, 34.2K, 6,916, 87.9K, 4,670, 29.1K, 58.7K. Same topic in 2 languages again; English carries it.
+- **@anushkarathod98:** **re-cut "Must have for Indian couples" 80.7K** (the earlier cut was 6.6K) and the re-cut "Is the govt running out of money?" **82.9K** (21K first cut). Two re-cuts this week each beat the original 4–12×. Then 2,920, 22.1K, 12K, 7,042, 168K, 350K, 201K, 82K, 247K, 154K.
+- **Rotated in @ankurwarikoo:** pinned 3.1M / 3.4M / 3.7M ("5 couple money rules we follow", "5 questions before marriage"); recent 60.6K "Settling down is a business", 42.6K "Bangalore vs Indore", **58.7K "How expensive is the house you can afford?"**, 6,824 "4 money mistakes you're probably making", 167K, 267K, 162K, 140K. "Your" + ₹ affordability question beats generic "mistakes" lists.
+- **Pattern:** covers are 3–6 words; re-posting a proven topic with a sharper hook is the biggest lever any of them used this week. Used: ≤7-word hooks with no sub line (all 20 Oct reels); a POV hook experiment (20 Oct pm). Our own re-cut candidate (9 Oct ₹2 lakh holiday, 141 views) is inside the 14-day no-repeat window until 23 Oct.
+- **News (last 48 h):** nothing household-ready with two agreeing sources: forex reserves down a fifth week, a retirement-planning survey, analysts expecting rate hikes to defend the rupee (opinion). Evergreen rules checked and used for 20 Oct: cheque-bounce fine up to 2× and jail up to 2 years, 30-day notice and 15 days to pay (three explainers agree); the ₹10,000 savings-interest deduction is old-regime only and seniors get up to ₹50,000 incl. FD interest (two pages, Apr and Jul 2026); the 50/30/20 split and paying yourself first (two explainers).
+
 ## 2026-10-16 (daily pass, logged out)
 
 - **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"The Man Who Made $100 Million From a Crash" 56K** (fresh); "Slowest founders = biggest businesses" 163K (111K yesterday); "Stock market tax free again?" **344K** (305K); "How RBI saved the rupee" **806K** (782K); "The secret to staying focused" 225K; then 755K, 997K, 240K, 101K. The tax-change question is still compounding on day 2–3.

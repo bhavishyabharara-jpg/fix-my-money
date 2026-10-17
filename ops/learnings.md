@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-17 — Daily review
+
+- **Followers: 11 (−1 vs 16 Oct, first drop).** The 10-day path (11 → 2,000) puts us at ~1,400 today, so we're ~1,390 behind and would need ~660 a day for the last 3 days. Honest read: 2,000 by 20 Oct will not happen; we're at 0.5% of the goal with 30 reels and still 0 sends and 0 follows from any reel.
+- **Best (new data):** 15 Oct pm "Job switch: PF withdrawn before 5 years isn't tax-free" kept growing (30 → 39 views, 2.6 s / 17%): a life event the viewer is in plus the opposite of what they assume. **Worst:** all of 16 Oct. "Gold at home 500/250/100 g" 4 views, "₹98,073 crore unclaimed" 3 views at **0.4 s (3%)**, our worst hold ever, "₹50,000 in gifts" 15 views at 0.9 s. Their frame-0 lines were 9-word sentences with a sub line, about grams, crores or other people's money: nothing a thumb can read in under a second.
+- **Patterns:** scoreboard keeps **big-question EXPLOIT** (7 reels, median 15 views, mean score 4.7), but its median fell from 46 to 15 after two 4- and 15-view reels: it wins only when the ₹ is the viewer's own. news-stakes, contrarian-number, small-input-big-number **keep**; **if-you-have drop** (1 reel, 3 views, 3%); news-list stays dropped. Day-1 distribution is now 3–15 views per reel, so the account is barely reaching a test pool.
+- **Narrated vs silent:** narrated median 14 views / 10% watch vs silent 22 / 13%. Narration still isn't the lever.
+- **Engine change today: frame-0 hooks are now ≤7 words with no sub line** (competitor covers that win are 3–6 words: "EMI ab mehengi hogi?", "Gold vs rupee: what's happening?"). Our 9-word hook + sub line put ~15 words on frame 0. Applied to all 20 Oct reels: "Your cheque bounced? Fine up to 2×" (big-question, am), "₹10,000 savings interest tax-free? Not always" (contrarian-number, mid), and a new **pov-relatable** experiment "POV: salary gone by the 10th" (pm), copying the lead creator's "POV: …" format (220K). Queue now runs to the end of 20 Oct.
+
 ## 2026-10-16 — Daily review
 
 - **Followers: 12 (+0 vs 15 Oct, flat for 5 days).** The 10-day path (11 → 2,000) puts us at ~1,200 today, so we're ~1,190 behind and would need ~500 a day for the last 4 days. Honest read: 2,000 by 20 Oct is not reachable; 27 reels in, still 0 sends and 0 follows from any reel. The only meaningful target left this week is a first send.

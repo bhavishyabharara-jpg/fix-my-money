@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "slot": "reel",
+  "publish_at": "2026-10-20T13:45",
+  "topic": "Salary gone by the 10th? Pay yourself first: 20% out on salary day (50/30/20)",
+  "hook_pattern": "pov-relatable",
+  "experiment": "EXPERIMENT (pov-relatable): a 'POV' frame-0 line copied from the lead creator's 'POV: your boss thinks…' (220K) format, on an everyday salary pain; tests whether relatability beats rules for sends.",
+  "caption": "Salary on the 1st, gone by the 10th?\n\nThe 50/30/20 rule splits take-home pay: 50% needs, 30% wants, 20% savings.\nThe trick is order: move the 20% out automatically on salary day, then spend what's left.\nIllustrative: on ₹50,000 take-home, ₹10,000 leaves on day 1.\n\nWhat date does your salary usually run out?\n\nSources: an insurer's budgeting guide and an education site's explainer on the 50/30/20 rule.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#salary #budgeting #503020rule #savingmoney #personalfinanceindia",
+  "spec": "specs/2026-10-20-reel-pm.json",
+  "media": [
+    "media/2026-10-20/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-20/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.shriramlife.com/blog/advice/what-is-50-30-20-rule",
+    "https://www.geeksforgeeks.org/?p=1177342"
+  ],
+  "duration_s": 13.8
+}

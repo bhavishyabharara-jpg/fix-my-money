@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-20",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Your cheque bounced? Fine up to [[2×]]",
+    "vo": "Cheque bounce? Fine दुगना तक।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "The cheque-bounce law",
+    "big": "2×",
+    "color": "red",
+    "label": "Fine up to twice the cheque amount, or jail up to 2 years, or both",
+    "vo": "Fine दुगना, या दो साल तक जेल।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "The clock after a bounce",
+    "marks": "num",
+    "items": [
+     "30 days: payee sends a notice",
+     "15 days: you pay to settle it",
+     "Miss it: a case can be filed"
+    ],
+    "vo": "Notice के बाद सिर्फ़ पंद्रह दिन मिलते हैं।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Illustrative: a ₹50,000 cheque",
+    "big": "₹1 lakh",
+    "color": "amber",
+    "label": "The maximum fine a court can order",
+    "vo": "पचास हज़ार का cheque, fine एक लाख तक।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Fund it before you **sign it.**",
+    "cta": [
+     "Send to the friend with post-dated cheques",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Post-dated cheque देने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Your cheque bounced? Could you really pay double?\n\nUnder the cheque-bounce law (Section 138), a court can order a fine of up to twice the cheque amount, jail of up to 2 years, or both.\nAfter a bounce, the payee has 30 days to send you a written notice; you then have 15 days to pay.\nPay within those 15 days and a case usually can't be filed.\nIllustrative: a ₹50,000 cheque can mean a fine of up to ₹1 lakh.\n\nHave you ever had a cheque bounce, given or received?\n\nSources: a law firm's guide to the cheque-bounce process, a tax-and-law portal's explainer, and a lender's explainer on cheque-bounce law.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#chequebounce #section138 #moneyrules #personalfinanceindia"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-20",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹10,000 savings interest tax-free? [[Not always]]",
+    "vo": "दस हज़ार savings interest tax-free? हमेशा नहीं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Savings account interest",
+    "big": "₹10,000",
+    "color": "amber",
+    "label": "Tax-free only if you file in the old tax regime",
+    "vo": "ये छूट सिर्फ़ old regime में मिलती है।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "In the new regime",
+    "marks": "num",
+    "items": [
+     "All the interest is added to income",
+     "Banks usually don't cut TDS on it",
+     "Show it in your ITR"
+    ],
+    "vo": "New regime में पूरा interest taxable है।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Seniors (60+), old regime",
+    "big": "₹50,000",
+    "color": "mint",
+    "label": "Deduction on savings and FD interest",
+    "vo": "Seniors को पचास हज़ार तक छूट।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Interest is **income.**",
+    "cta": [
+     "Send to a friend filing their ITR",
+     "Follow for a money fix every day"
+    ],
+    "vo": "ITR भरने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is your savings account interest tax-free up to ₹10,000?\n\nOnly if you file under the old tax regime: the ₹10,000 deduction on savings interest isn't available in the new regime.\nIn the new regime, all your savings interest is added to your income, and banks usually don't deduct TDS on it, so report it in your ITR.\nSeniors (60+) in the old regime get a larger deduction of up to ₹50,000, which also covers FD interest.\n\nDid you report your savings interest in your last ITR?\n\nSources: a tax-filing guide (updated Jul 2026) and a bank's explainer on the savings-interest deduction (Apr 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #savingsaccount #itr #newtaxregime #personalfinanceindia"
+ }
+}

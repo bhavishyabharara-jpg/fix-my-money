@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "slot": "reel",
+  "publish_at": "2026-10-20T07:45",
+  "topic": "₹10,000 savings-interest deduction applies only in the old regime; new regime taxes all of it",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number): busts a ₹ assumption most salaried filers hold; 6-word hook, no sub line.",
+  "caption": "Is your savings account interest tax-free up to ₹10,000?\n\nOnly if you file under the old tax regime: the ₹10,000 deduction on savings interest isn't available in the new regime.\nIn the new regime, all your savings interest is added to your income, and banks usually don't deduct TDS on it, so report it in your ITR.\nSeniors (60+) in the old regime get a larger deduction of up to ₹50,000, which also covers FD interest.\n\nDid you report your savings interest in your last ITR?\n\nSources: a tax-filing guide (updated Jul 2026) and a bank's explainer on the savings-interest deduction (Apr 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #savingsaccount #itr #newtaxregime #personalfinanceindia",
+  "spec": "specs/2026-10-20-reel-mid.json",
+  "media": [
+    "media/2026-10-20/reel-mid/reel.mp4"
+  ],
+  "cover": "media/2026-10-20/reel-mid/reel_cover.png",
+  "sources": [
+    "https://tax2win.in/guide/income-tax-on-saving-bank-interest",
+    "https://www.ujjivansfb.bank.in/banking-blogs/personal-finance/how-to-claim-80tta-deduction-on-savings-account-interest"
+  ],
+  "duration_s": 14.0
+}

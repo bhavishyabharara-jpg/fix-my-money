@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "slot": "reel",
+  "publish_at": "2026-10-20T02:45",
+  "topic": "Cheque bounced? Fine up to 2× the amount or up to 2 years' jail; 30-day notice, 15 days to pay",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question, scoreboard EXPLOIT): a ₹ cost the viewer can trigger themselves. Also the first test of today's engine change: a 6-word frame-0 hook with no sub line.",
+  "caption": "Your cheque bounced? Could you really pay double?\n\nUnder the cheque-bounce law (Section 138), a court can order a fine of up to twice the cheque amount, jail of up to 2 years, or both.\nAfter a bounce, the payee has 30 days to send you a written notice; you then have 15 days to pay.\nPay within those 15 days and a case usually can't be filed.\nIllustrative: a ₹50,000 cheque can mean a fine of up to ₹1 lakh.\n\nHave you ever had a cheque bounce, given or received?\n\nSources: a law firm's guide to the cheque-bounce process, a tax-and-law portal's explainer, and a lender's explainer on cheque-bounce law.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#chequebounce #section138 #moneyrules #personalfinanceindia",
+  "spec": "specs/2026-10-20-reel-am.json",
+  "media": [
+    "media/2026-10-20/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-20/reel-am/reel_cover.png",
+  "sources": [
+    "https://bhattandjoshiassociates.com/cheque-bounce-case-under-section-138-ni-act-the-process/",
+    "https://taxguru.in/finance/remedies-cheque-bounce.html",
+    "https://www.bajajfinserv.in/what-is-cheque-bounce-meaning-law"
+  ],
+  "duration_s": 14.0
+}
