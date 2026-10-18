@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-17
+# Scoreboard — 2026-10-18
 
-Followers **11** (-1 vs previous day). Reels tracked: 27. Median views per reel: 15.
+Followers **11** (+0 vs previous day). Reels tracked: 30. Median views per reel: 19.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -19,39 +19,43 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
 | 2026-10-12-reel-am UPI shop payments above ₹2,000: the 0.4% merchant fee from 1 | news-stakes | yes | 89 | 2.5s (13%) | 0 | 0 | 2 | 0 | 3.6 |
+| 2026-10-17-reel-mid ₹10 lakh cash deposit isn't a limit: it's the yearly reporti | contrarian-number | yes | 23 | 2.0s (14%) | 0 | 0 | 0 | 0 | 3.5 |
 | 2026-10-05-reel-am Money rules that changed in October 2026 | news-list | no | 30 | 2.5s (12%) | 0 | 0 | 0 | 0 | 3.1 |
+| 2026-10-17-reel-am Guess the tax on a ₹12.75 lakh salary under the new regime:  | guess-the-number | yes | 20 | 1.8s (12%) | 0 | 0 | 0 | 0 | 3.0 |
 | 2026-10-11-reel-am Festive shopping: why "no-cost EMI" isn't always zero cost | news-stakes | yes | 37 | 2.3s (12%) | 0 | 0 | 0 | 0 | 2.9 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.3s (11%) | 0 | 0 | 0 | 0 | 2.8 |
+| 2026-10-16-reel-am How much gold can you keep at home? 500 g / 250 g / 100 g ta | big-question | yes | 5 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-13-reel-mid Missed your ITR? The belated return deadline is 31 Dec, with | news-list | yes | 9 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
-| 2026-10-16-reel-am How much gold can you keep at home? 500 g / 250 g / 100 g ta | big-question | yes | 4 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-12-reel-pm A ₹200-a-day habit = ₹73,000 a year: what small daily spends | small-input-big-number | yes | 46 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-14-reel-pm Salary account? One big bank cut free other-bank ATM uses fr | news-list | yes | 19 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 9 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-12-reel-mid Parents on pension? The life certificate is due by 30 Nov, o | news-list | yes | 8 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.9 |
 | 2026-10-11-reel-pm Couples: is splitting bills 50-50 fair? Same-percentage spli | big-question | yes | 46 | 1.4s (7%) | 0 | 0 | 0 | 0 | 1.8 |
 | 2026-10-14-reel-mid Paid your credit card 2 days late? Late fees can only start  | contrarian-number | yes | 5 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.8 |
-| 2026-10-16-reel-pm Got more than ₹50,000 in gifts from friends? When festive gi | big-question | yes | 15 | 0.9s (7%) | 0 | 0 | 0 | 0 | 1.7 |
 | 2026-10-15-reel-mid LPG subsidy: biometric Aadhaar check needed from 1 Oct, or t | news-list | yes | 4 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.7 |
+| 2026-10-17-reel-pm Missed EMIs: can the lender take your car by force? Supreme  | big-question | yes | 3 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.7 |
+| 2026-10-16-reel-pm Got more than ₹50,000 in gifts from friends? When festive gi | big-question | yes | 30 | 0.9s (6%) | 0 | 0 | 0 | 0 | 1.5 |
+| 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 3 | 0.4s (3%) | 0 | 0 | 0 | 0 | 0.8 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Mean score | Call |
 |---|---|---|---|---|---|
-| big-question | 7 | 15 | 10% | 4.7 | EXPLOIT |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| news-list | 7 | 9 | 10% | 3.6 | test again |
+| big-question | 8 | 20 | 10% | 4.3 | EXPLOIT |
+| news-list | 7 | 9 | 10% | 3.6 | drop |
 | news-stakes | 3 | 37 | 13% | 3.4 | keep |
-| contrarian-number | 4 | 29 | 12% | 2.8 | keep |
+| guess-the-number | 1 | 20 | 12% | 3.0 | keep (low data) |
+| contrarian-number | 5 | 23 | 14% | 2.9 | keep |
 | audit | 1 | 14 | 11% | 2.8 | test again (low data) |
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
-| if-you-have | 1 | 3 | 3% | 0.8 | test again (low data) |
+| if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
 Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
-Narrated reels: median views 14, watch 10% — silent reels: 22, 13%.
+Narrated reels: median views 19, watch 11% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
