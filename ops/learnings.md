@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-18 — Daily review
+
+- **Followers: 11 (+0 vs 17 Oct).** The 10-day path (11 → 2,000) puts us at ~1,600 today, so we're ~1,590 behind and would need ~1,000 a day for the last 2 days. Honest read: 2,000 by 20 Oct will not happen organically; we're at 0.5% of the goal, 33 reels in, with 0 sends and 0 follows from any reel. The weekly review's reset stands: the only target that still means something is a first send.
+- **Best (new data):** 17 Oct mid "₹10 lakh cash deposit isn't a limit" 23 views, **2.0 s (14%)**, the best hold of the 17 Oct batch: a ₹ line the viewer worries about, and the opposite of what they assume. 17 Oct am "Guess the tax on ₹12.75 lakh" 20 views, 1.8 s. **Worst:** 17 Oct pm "Missed EMIs: can they take your car?" **3 views, 1.1 s**: a defaulter's problem, not the viewer's, same failure as the 16 Oct gold-limits and unclaimed-deposit reels. 18 Oct reels have no metrics yet.
+- **Patterns:** scoreboard keeps **big-question EXPLOIT** (8 reels, median 20 views, mean score 4.3) but it only works when the ₹ is the viewer's own. contrarian-number, news-stakes, small-input-big-number **keep**; guess-the-number keep (1 reel, 20 views); news-list stays **dropped**; if-you-have stays on hold. 15 Oct am is still at 0 views (undistributed).
+- **Narrated vs silent:** narrated median 19 views / 11% watch vs silent 22 / 13%. Level again; voice stays, it isn't the lever.
+- **Engine change today: the festive window.** Until Diwali, the am reel ties its ₹ to a festive money moment the viewer is in this month (bonus, gifts, gold), copying the lead creator's "Make this change before Diwali" cover (588K, his newest non-pinned). 21 Oct am: "Diwali bonus taxed? ₹15,000 vouchers aren't" (big-question). Also a render rule: **end-scene CTA line 1 ≤ 44 characters**; a 49-character send line ran off both edges in today's frame check. Per the weekly decision, 21 Oct gets 2 reels (am, pm), no mid. Queue now runs to the end of 21 Oct.
+
 ## 2026-10-18 — Weekly review (format level)
 
 - **Followers 11 vs the sprint checkpoint of 1,100 for today (2,000 by 20 Oct).** Flat all week (11 on 11 Oct → 11 today; peaked at 12); the week before, 0 → 11 came from the launch push. 34 reels in, still 0 sends and 0 follows from any reel. The sprint path is out of reach; the 16 Oct "below 400 → reset the target" rule fired 2 days ago.

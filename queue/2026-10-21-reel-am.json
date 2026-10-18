@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "slot": "reel",
+  "publish_at": "2026-10-21T02:45",
+  "topic": "Diwali bonus vs vouchers: employer gifts tax-free up to ₹15,000 a year from 1 Apr 2026 (was ₹5,000); a cash bonus is taxed as salary",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question, scoreboard EXPLOIT) on a festive ₹ the viewer gets this month. Tests a seasonal cue (Diwali) in the frame-0 line, copying a lead creator's 'before Diwali' cover (588K). First reel after the mid slot was dropped.",
+  "caption": "Is your Diwali bonus taxed while a voucher isn't?\n\nFrom 1 April 2026, gifts, vouchers and tokens from your employer are tax-free up to ₹15,000 a year (the old limit was ₹5,000). It applies in both tax regimes.\nA cash bonus isn't a gift: it's salary, taxed at your slab rate.\nIllustrative: at the 30% slab plus 4% cess, ₹15,000 in cash loses about ₹4,680 to tax.\n\nDoes your office give a Diwali bonus or gift vouchers?\n\nSources: a payroll guide to the 2026-27 tax-free perks and a business site's explainer on the new gift limit, both citing the Income-tax Rules, 2026.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#diwalibonus #incometax #salary #taxsaving #personalfinanceindia",
+  "spec": "specs/2026-10-21-reel-am.json",
+  "media": [
+    "media/2026-10-21/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-21/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.apnasalary.in/guides/tax-free-allowances-perquisites-2026-27",
+    "https://startuptalky.com/diwali-gift-tax-free-limit-15000/"
+  ]
+}

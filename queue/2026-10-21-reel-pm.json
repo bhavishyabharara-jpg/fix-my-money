@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "slot": "reel",
+  "publish_at": "2026-10-21T13:45",
+  "topic": "Exchanging old gold for new jewellery counts as a sale: long-term gain taxed at 12.5% with no indexation (illustrative ₹2 lakh gain → ₹25,000)",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number): 'the swap you think is free is a sale'. Tests a family send target ('anyone swapping gold this Dhanteras') instead of a friend, and whether a gold topic recovers after 16 Oct's 5-view gold-at-home reel (that one was about limits, this one is a ₹ tax).",
+  "caption": "Exchanging old gold for new jewellery this Dhanteras: is it really tax-free?\n\nSwapping old gold for new is treated as selling the old gold, so the gain is a capital gain.\nThe gain is its value on exchange day minus what you paid.\nLong-term gains on physical gold are taxed at 12.5% with no indexation.\nIllustrative: bought for ₹1 lakh, worth ₹3 lakh at exchange → ₹2 lakh gain → about ₹25,000 tax (before cess).\n\nIs anyone in your family planning to exchange old jewellery this festive season?\n\nSources: a bank's explainer on income tax on gold, a tax news site's gold FAQ, and a broker's 2026 guide to gold tax rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldtax #dhanteras #oldgold #capitalgains #personalfinanceindia",
+  "spec": "specs/2026-10-21-reel-pm.json",
+  "media": [
+    "media/2026-10-21/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-21/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.ujjivansfb.bank.in/banking-blogs/gold-loan/income-tax-on-gold-sale",
+    "https://www.taxscan.in/faq-on-gold/437384",
+    "https://www.arihantplus.com/blogs/gold/gold-silver-tax-rules-after-budget-2026/"
+  ]
+}

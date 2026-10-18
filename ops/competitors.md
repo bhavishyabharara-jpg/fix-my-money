@@ -2,6 +2,15 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-18 (daily pass, logged out)
+
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"AI is costing companies billions" 253K** (fresh); "Gold vs rupee: what's happening?" **287K** (220K yesterday); "$100M from a crash" 79.9K; "Slowest founders" 189K; "Stock market tax free again?" 359K; "How RBI saved the rupee" **838K**; then 228K, 788K, 1M, 247K, 103K, 112K. A 4–5-word question cover keeps compounding for days.
+- **@ca_rachanaranade (pinned 404K):** new **"If you are from a non-finance background?" 23.3K** (a segment hook, fresh); "Will the IT rally sustain?" 64.4K (59.3K), Marathi cut 5,161; then 54.8K, 3,010, 11.4K, 73.3K, 51.6K, 34.9K, 6,949, 88.2K, 4,686.
+- **@anushkarathod98:** the two re-cuts keep growing: "Must have for Indian couples" **105K** (80.7K) and "Is the govt running out of money?" **87.7K** (82.9K); then 2,925, 26.6K, 12.1K, 7,185, 171K, 351K, 201K, 82K, 249K, 154K.
+- **Rotated in @casarthakahuja** (two other handles tried were private or not the creator): **"Make this change before Diwali — save your family" 588K**, "Real estate prices 2027 problem" 731K, "Biggest festival in India 2026" 1.4M, "Immediate step for active loan Oct 2026" 1.2M; then 169K, 377K, 1.6M, 818K, 978K, 1.1M, 361K, 408K. Seasonal deadline + "your family / your loan" in 4–6 words is his engine.
+- **Pattern:** festive-deadline hooks and dated "Oct 2026" covers win now; re-cuts of a proven topic keep compounding (Anushka). Used: festive window for the am slot (21 Oct am Diwali bonus vs vouchers; 21 Oct pm Dhanteras gold-exchange tax).
+- **News (last 48 h):** nothing household-ready with two agreeing sources; the 1 Oct RBI deposit-rate rules cover only bulk deposits of ₹3 crore+ (one page opened, not used). Evergreen rules checked and used for 21 Oct: employer gifts/vouchers tax-free up to ₹15,000 a year from 1 Apr 2026, was ₹5,000, cash bonus taxed as salary (two pages agree); exchanging old gold counts as a sale, long-term gain at 12.5% without indexation (three pages agree on the rate). **Dropped:** the holding period for long-term gold (two pages say 24 months, an older one says 36), so no holding period is stated in the reel.
+
 ## 2026-10-17 (daily pass, logged out)
 
 - **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Gold vs rupee: what's happening?" 220K** (fresh); "The man who made $100M from a crash" 73.3K (56K yesterday); "Slowest founders" 178K; "Stock market tax free again?" **353K** (344K); "How RBI saved the rupee" **822K**; then 226K, 773K, 1M, 243K. A 4-word macro question on a cover wins again.
