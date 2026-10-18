@@ -4,5 +4,7 @@
  "timezone": "Asia/Kolkata",
  "voice": "sarvam:amit",
  "voice_speed": 1.25,
- "language": "hi-IN"
+ "language": "hi-IN",
+ "hook_presenter": "corner",
+ "hook_presenter_note": "2026-10-18 weekly: \"corner\" puts the presenter at its normal 300px bottom-right spot on the hook scene instead of 340px centred under the hook. \"centre\" restores the 10 Oct frame-0 layout."
 }

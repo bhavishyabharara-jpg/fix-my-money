@@ -488,7 +488,7 @@ def render_reel(r, out):
         m = float(mouth_at[min(len(mouth_at) - 1, int(t * FPS))]) if mouth_at is not None else 0.0
         size = 300
         spr = C.sprite(size, mouth=m, t=t, mood=mood)
-        if s.get("type") == "hook":  # big and centred on the opening frame: a face stops the scroll
+        if s.get("type") == "hook" and CFG.get("hook_presenter", "centre") == "centre":  # big and centred on the opening frame
             size = 340
             spr = C.sprite(size, mouth=m, t=t, mood=mood)
             pos = ((RW - size) // 2, RH - 180 - size + C.bob(t))
