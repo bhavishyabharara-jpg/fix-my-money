@@ -1,0 +1,44 @@
+{
+ "date": "2026-10-22",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Card fraud? Report in 3 days, lose [[₹0]]",
+    "vo": "Card fraud हुआ? तीन दिन में बताओ, loss zero।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Reported in 4 to 7 working days",
+    "big": "₹10,000",
+    "color": "amber",
+    "label": "Most you can lose on most savings accounts and cards",
+    "vo": "चार से सात दिन? दस हज़ार तक का loss।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "After you report, the bank must credit it in",
+    "big": "10 days",
+    "color": "mint",
+    "label": "Working days, value-dated to the fraud",
+    "vo": "Bank को दस working days में पैसा वापस डालना है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Never shared your OTP? **Report it fast.**",
+    "cta": [
+     "Send to the parent who shops online",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Online shopping करने वाले parents को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Card fraud on your account: do you lose the money?\n\nIf the fraud wasn't your fault and you report it within 3 working days, your liability is zero.\nReport in 4 to 7 working days and you can lose up to ₹10,000 on most savings accounts and cards (₹5,000 on basic accounts, ₹25,000 on some others).\nAfter you report, the bank must credit the disputed amount within 10 working days.\nShared an OTP or PIN? Then the loss until you report is yours.\n\nHave you ever had to dispute a transaction you didn't make?\n\nSources: the central bank's 2017 circular on limiting customer liability in unauthorised electronic transactions, and a broker's 2026 explainer on the same rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#cardfraud #bankingrules #onlinefraud #moneysafety #personalfinanceindia"
+ }
+}

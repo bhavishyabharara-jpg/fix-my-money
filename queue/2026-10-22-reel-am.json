@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "slot": "reel",
+  "publish_at": "2026-10-22T02:45",
+  "topic": "Card fraud: zero liability if reported within 3 working days; up to ₹10,000 if 4–7 days (most savings accounts/cards); bank must credit within 10 working days",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question) + new 'protective send' test: a warning people send to parents/family rather than a tip for themselves. Copies the lead creator's 'Your card didn't fail. It just got cloned.' fear topic. Tests whether a protective reason produces our first send.",
+  "caption": "Card fraud on your account: do you lose the money?\n\nIf the fraud wasn't your fault and you report it within 3 working days, your liability is zero.\nReport in 4 to 7 working days and you can lose up to ₹10,000 on most savings accounts and cards (₹5,000 on basic accounts, ₹25,000 on some others).\nAfter you report, the bank must credit the disputed amount within 10 working days.\nShared an OTP or PIN? Then the loss until you report is yours.\n\nHave you ever had to dispute a transaction you didn't make?\n\nSources: the central bank's 2017 circular on limiting customer liability in unauthorised electronic transactions, and a broker's 2026 explainer on the same rules.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#cardfraud #bankingrules #onlinefraud #moneysafety #personalfinanceindia",
+  "spec": "specs/2026-10-22-reel-am.json",
+  "media": [
+    "media/2026-10-22/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-22/reel-am/reel_cover.png",
+  "sources": [
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11040",
+    "https://www.shareindia.com/knowledge-center/market-insight/rbi-guidelines-on-unauthorised-transactions-customer-liability-refund-rules-safety-measures"
+  ],
+  "duration_s": 11.0
+}

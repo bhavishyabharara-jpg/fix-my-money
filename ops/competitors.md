@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-19 (daily pass, logged out)
+
+- **Reels-tab grids didn't load logged out today for 2 of 3 creators** (Rachana, Anushka); used their main profile grid and post pages instead, which show likes, not views.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Indians are spending more, borrowing more" 86.1K** (fresh; a statistic about consumption loans); "No salary hikes in IT?" **321K** (was 253K); "Buying gold this Dhanteras just got complicated" **305K** (287K); "$100M from a crash" 85.3K; "Slowest founders" 197K; "Stock market tax free again?" 364K; "How RBI saved the rupee" 856K; "POV: your boss thinks your career is a mutual fund" 229K; 800K. Festive-gold and salary questions keep compounding.
+- **@ca_rachanaranade:** the grid is a Navratri quiz series (45–100 likes each) plus Dussehra course offers (6–224 likes); her one market reel "Is IT driving the market higher?" 944 likes, an IPO explainer 632 likes. Promotions and quizzes pull ~10× less than her market questions.
+- **@anushkarathod98:** "EPF website has been revamped!" **27K likes** (7 Oct), "Do this for your aging parents" 5,256, "Another bad news for the middle class" 5,575, "What is happening to our rupee?" 4,342, **"Your card didn't fail. It just got cloned."** 1,872 (17 Oct, fresh), a travel-card post 763. A protective, family-facing warning is her newest format.
+- **Rotated in @pranjalkamra:** a big IPO explainer 1,767 likes, "Physical gold or Gold ETF? Which costs less?" **2,638**, "No layoffs, but no salary hikes" 1,515, a daily stock-picking series at 72–86 likes. Daily-series posts flop; a ₹ cost comparison wins.
+- **Pattern:** salary-hike and Dhanteras-gold questions are the week's two topics across creators; "for your parents" and fraud warnings give a built-in send reason. Used: protective-send test (22 Oct am, card fraud liability) and a job/salary life event (22 Oct pm, gratuity).
+- **News (last 48 h):** nothing household-ready with two agreeing sources: a finance-minister comment on equity underperformance (market, opinion). Evergreen rules checked and used for 22 Oct: the central bank's 2017 limited-liability rules for unauthorised electronic transactions (circular page + a 2026 explainer agree: zero if reported within 3 working days, ₹5,000/₹10,000/₹25,000 caps for 4–7 days, credit within 10 working days); gratuity 15/26 × wages × years, 5 years for permanent staff, 1 year for fixed-term under the new labour codes (two pages agree). **Not used:** the ₹20 lakh gratuity cap (one page calls it a payout ceiling, others a tax-free limit).
+
 ## 2026-10-18 (daily pass, logged out)
 
 - **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"AI is costing companies billions" 253K** (fresh); "Gold vs rupee: what's happening?" **287K** (220K yesterday); "$100M from a crash" 79.9K; "Slowest founders" 189K; "Stock market tax free again?" 359K; "How RBI saved the rupee" **838K**; then 228K, 788K, 1M, 247K, 103K, 112K. A 4–5-word question cover keeps compounding for days.

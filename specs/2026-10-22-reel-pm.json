@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-22",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Guess your gratuity after [[5 years]]",
+    "vo": "पाँच साल बाद gratuity कितनी मिलेगी?",
+    "mood": "neutral"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Illustrative: ₹40,000 monthly wages",
+    "big": "₹1,15,385",
+    "color": "mint",
+    "label": "15/26 × ₹40,000 × 5 years",
+    "vo": "चालीस हज़ार wages पर, लगभग एक लाख पंद्रह हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Permanent job, left before 5 years",
+    "big": "₹0",
+    "color": "red",
+    "label": "Gratuity needs 5 years of continuous service",
+    "vo": "पाँच साल से पहले छोड़ा, तो zero।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Fixed-term contract",
+    "big": "1 year",
+    "color": "amber",
+    "label": "New labour codes: eligible after 1 year, pro-rata",
+    "vo": "Fixed-term job में अब एक साल काफ़ी।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Count your years **before you resign.**",
+    "cta": [
+     "Send to the friend quitting before 5 years",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Job छोड़ने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "How much gratuity do you get after 5 years in a job?\n\nGratuity = 15/26 × your last monthly wages (basic + DA) × years of service.\nIllustrative: ₹40,000 wages × 5 years ≈ ₹1,15,385.\nIn a permanent job, you need 5 years of continuous service to qualify.\nFixed-term contracts now qualify after 1 year, paid pro-rata, under the new labour codes.\n\nHow many years have you been in your current job?\n\nSources: a business news explainer on the new gratuity rules (Apr 2026) and an HR software firm's guide to gratuity under the new labour codes.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gratuity #labourcodes #jobswitch #salaryindia #personalfinanceindia"
+ }
+}

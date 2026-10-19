@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-19 — Daily review
+
+- **Followers: 11 (+0 vs 18 Oct, flat 3 days).** The 10-day path (11 → 2,000) puts us at ~1,800 today, so we're ~1,790 behind with 1 day left. Honest read: 2,000 by 20 Oct will not happen; we're at 0.55% of it, 36 reels in, and no reel has ever produced a send or a follow. Organic reach is 4–28 views a reel; the gap is two orders of magnitude, not a tuning problem.
+- **Best (new data):** 18 Oct am "Inflation 5.54%: what idle ₹1 lakh buys a year later" 26 views, 2.1 s (14%): a this-week number applied to *your* cash. 17 Oct am "Guess the tax on ₹12.75 lakh" kept growing (20 → 28 views). **Worst:** 18 Oct pm "Section 45: life policy over 3 years can't be questioned" **4 views**, 2.1 s: a legal clause about a claim the viewer isn't making; 18 Oct mid "minimum-balance fine below ₹0" 13 views (mid slot again last). 19 Oct am went live at 03:17 UTC, 32 min late, no metrics yet.
+- **Patterns:** the scoreboard still calls **big-question EXPLOIT** (9 reels, mean score 4.2), but that rests on the 7 Oct and 9 Oct reels; its median is now **13 views**, below news-stakes (32), guess-the-number (28) and contrarian-number (24). Keep big-question only with a ₹ the viewer loses themselves. news-stakes, contrarian-number, guess-the-number, small-input-big-number **keep**; news-list stays **dropped**; myth-buster (1 reel, 4 views) on hold.
+- **Narrated vs silent:** narrated median 16 views / 11% vs silent 22 / 13%. Still level; voice stays, it isn't the lever.
+- **Engine change today: the "protective send".** 36 reels, 0 sends: our send prompts ask people to forward a tip to a friend, which nobody does. The reels people do forward are warnings for family. 22 Oct am "Card fraud? Report in 3 days, lose ₹0" (big-question) names the parent who shops online as the send target, copying the lead creator's card-cloning reel. 22 Oct pm moves the best-median 'keep' pattern into the pm slot (which wins on views): "Guess your gratuity after 5 years" (guess-the-number, a job-switch life event like the 15 Oct PF reel). Queue now runs to the end of 22 Oct (2 reels a day, no mid).
+
 ## 2026-10-18 — Daily review
 
 - **Followers: 11 (+0 vs 17 Oct).** The 10-day path (11 → 2,000) puts us at ~1,600 today, so we're ~1,590 behind and would need ~1,000 a day for the last 2 days. Honest read: 2,000 by 20 Oct will not happen organically; we're at 0.5% of the goal, 33 reels in, with 0 sends and 0 follows from any reel. The weekly review's reset stands: the only target that still means something is a first send.

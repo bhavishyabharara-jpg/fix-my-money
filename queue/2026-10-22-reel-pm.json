@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "slot": "reel",
+  "publish_at": "2026-10-22T13:45",
+  "topic": "Gratuity = 15/26 × last monthly wages × years: illustrative ₹40,000 × 5 years ≈ ₹1,15,385; permanent jobs need 5 years, fixed-term 1 year under the new labour codes",
+  "hook_pattern": "guess-the-number",
+  "experiment": "KEEP (guess-the-number, 28 views on its only run, 2nd-best views of 17 Oct) in the pm slot, which wins on views. Life event the viewer is in (job switch, like the 15 Oct PF reel that held 2.6 s) with a ₹ answer; 5 scenes at 13.4 s.",
+  "caption": "How much gratuity do you get after 5 years in a job?\n\nGratuity = 15/26 × your last monthly wages (basic + DA) × years of service.\nIllustrative: ₹40,000 wages × 5 years ≈ ₹1,15,385.\nIn a permanent job, you need 5 years of continuous service to qualify.\nFixed-term contracts now qualify after 1 year, paid pro-rata, under the new labour codes.\n\nHow many years have you been in your current job?\n\nSources: a business news explainer on the new gratuity rules (Apr 2026) and an HR software firm's guide to gratuity under the new labour codes.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gratuity #labourcodes #jobswitch #salaryindia #personalfinanceindia",
+  "spec": "specs/2026-10-22-reel-pm.json",
+  "media": [
+    "media/2026-10-22/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-22/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.businesstoday.in/amp/personal-finance/retirement-planning/story/new-gratuity-rules-explained-what-changes-mean-for-you-and-your-retirement-benefits-524961-2026-04-10",
+    "https://kredily.com/new-labour-codes-gratuity/"
+  ],
+  "duration_s": 13.4
+}
