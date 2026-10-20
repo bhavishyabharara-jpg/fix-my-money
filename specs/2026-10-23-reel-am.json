@@ -1,0 +1,58 @@
+{
+ "date": "2026-10-23",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh trip on EMI? [[₹15,500]] extra",
+    "vo": "दो लाख की trip EMI पर? पंद्रह हज़ार extra।",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 3.2,
+    "title": "Monthly cost over 12 months (illustrative)",
+    "bars": [
+     {"label": "Save first", "value": 16700, "display": "₹16,700", "highlight": true},
+     {"label": "Loan at 14% a year", "value": 17960, "display": "₹17,960", "alert": true}
+    ],
+    "vo": "पहले save करो: सोलह हज़ार सात सौ महीना।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Interest on the loan, before any fee",
+    "big": "₹15,500",
+    "color": "red",
+    "label": "for a trip that's already over",
+    "vo": "Loan पर पंद्रह हज़ार interest।",
+    "mood": "concerned"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Save for it instead",
+    "marks": "num",
+    "items": [
+     "A separate account just for the trip",
+     "Auto-transfer on salary day",
+     "Book once the money is there"
+    ],
+    "vo": "अलग account, salary day पर auto transfer।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Pay for the trip **before** you take it.",
+    "cta": [
+     "Send to the friend booking Goa on EMI",
+     "Follow for a money fix every day"
+    ],
+    "vo": "EMI वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is a ₹2 lakh trip on EMI really ₹15,500 more?\n\nIllustrative: ₹2 lakh over 12 months.\nSave first: about ₹16,700 a month into a trip account.\nPersonal loan at 14% a year: about ₹17,960 EMI, roughly ₹15,500 in interest, before any processing fee.\nPersonal loan rates currently start near 9–10% and run far higher depending on your profile.\n\nWould you take a loan for a holiday?\n\nSources: a loan-comparison site's personal loan rate table (rates as on 14 Oct 2026) and a news site's 2026 personal loan rates explainer. EMI worked out with the standard EMI formula.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#travelonemi #personalloan #emi #moneytips #personalfinanceindia"
+ }
+}

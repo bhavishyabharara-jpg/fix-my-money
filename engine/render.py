@@ -354,7 +354,7 @@ def draw_reel_frame(scene, st, t_total, T, idx_total):
         if top:
             y = draw_lines(d, wrap_rich(top, fl, maxw, MUTED), fl, 80, y, 82, align="center", box_w=maxw) + 40
         frac = ease(st / min(1.2, dur * 0.5))
-        big = count_text(clean(scene["big"]), frac)
+        big = count_text(clean(scene["big"]), frac) if scene.get("count", True) else clean(scene["big"])  # "count": false for phone numbers, years
         fb = fit_font(scene["big"], "b", 230, 110, maxw, 1)
         col = {"mint": MINT, "red": RED, "amber": AMBER}.get(scene.get("color", "mint"), MINT)
         scale_y = y + int((1 - frac) * 30)

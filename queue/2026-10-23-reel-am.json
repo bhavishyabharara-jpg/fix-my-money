@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-23",
+  "slot": "reel",
+  "publish_at": "2026-10-23T02:45",
+  "topic": "Re-cut of 9 Oct best reel: ₹2 lakh trip on a 14% personal loan over 12 months ≈ ₹17,960 EMI and ≈ ₹15,500 interest vs ₹16,700 a month saved first (illustrative)",
+  "hook_pattern": "big-question",
+  "experiment": "EXPLOIT (big-question) + engine change 're-cut the winner': our best reel ever (9 Oct, 141 views) re-run after 14 days with a ≤7-word frame-0 hook naming the ₹ cost and no sub line. Tests whether a proven topic with a sharper first second beats its original, as competitor re-cuts did (4–12×). 5 scenes, 14.2 s.",
+  "caption": "Is a ₹2 lakh trip on EMI really ₹15,500 more?\n\nIllustrative: ₹2 lakh over 12 months.\nSave first: about ₹16,700 a month into a trip account.\nPersonal loan at 14% a year: about ₹17,960 EMI, roughly ₹15,500 in interest, before any processing fee.\nPersonal loan rates currently start near 9–10% and run far higher depending on your profile.\n\nWould you take a loan for a holiday?\n\nSources: a loan-comparison site's personal loan rate table (rates as on 14 Oct 2026) and a news site's 2026 personal loan rates explainer. EMI worked out with the standard EMI formula.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#travelonemi #personalloan #emi #moneytips #personalfinanceindia",
+  "spec": "specs/2026-10-23-reel-am.json",
+  "media": [
+    "media/2026-10-23/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-23/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.paisabazaar.com/personal-loan/interest-rates/",
+    "https://www.outlookindia.com/xhub/featured-insights/personal-loan-interest-rates-in-india-for-2026"
+  ],
+  "duration_s": 14.2
+}

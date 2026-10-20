@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-23",
+  "slot": "reel",
+  "publish_at": "2026-10-23T13:45",
+  "topic": "Deepfake 'free money' ads: govt cyber-crime centre warning (19 Oct); a UPI PIN only pays, never receives; repeated 'fees'; call 1930 if money has gone",
+  "hook_pattern": "news-stakes",
+  "experiment": "KEEP (news-stakes, median 32 views) as a protective send: a this-week government scam warning with the parent as the send target, the second protective-send test after 22 Oct am. Tests whether a family-safety warning earns our first send. No ₹ figure (sources give none). 5 scenes, 13.6 s.",
+  "caption": "Does your UPI PIN ever receive money?\n\nNo. A UPI PIN only authorises a payment. It is never needed to receive money.\nOn 19 Oct the government's cyber-crime coordination centre warned of social media ads using deepfake videos of top leaders to promise welfare money, cashback or spin-and-win prizes.\nVictims are then asked to pay \"tax\", \"processing\" or \"registration\" fees again and again, or to approve a collect request.\nIf money has already gone, call the 1930 cyber-fraud helpline at once: faster reporting improves the chance of freezing it.\n\nHas anyone in your family seen one of these ads?\n\nSources: two news reports on the government cyber-crime centre's advisory (19–20 Oct 2026) and a state police cyber-fraud help page.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#upifraud #deepfakescam #cybersafety #upipin #moneysafety",
+  "spec": "specs/2026-10-23-reel-pm.json",
+  "media": [
+    "media/2026-10-23/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-23/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.deccanherald.com/amp/story/india/a-pm-modi-or-sitharaman-video-promising-you-benefits-i4c-warns-it-could-be-a-scam-4188473",
+    "https://kashmirvision.in/2026/10/20/scammers-using-deepfake-videos-of-pm-cms-in-social-media-political-ads-to-dupe-people-i4c/",
+    "https://ps.keralapolice.gov.in/malappuramcyberps-ps/notifications/WHAT-TO-DO-IF-YOU-ARE-A-VICTIM-OF-CYBER-FRAUD-3541",
+    "https://nicobartimes.com/?p=9349"
+  ],
+  "duration_s": 13.6
+}

@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-20 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators today** after closing the sign-up dialog (views, not likes).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new "…and you'll try to avoid that" 24.6K (fresh, podcast clip); "starts looking" 107K; **"The Truth About India's Economy" 105K** (guest collab); "AI is Costing Companies Billions" **342K** (253K two days ago); "Gold vs rupee: what's happening?" **317K** (287K); "$100M from a crash" 90.5K; "Slowest founders" 204K; "Stock market tax free again?" 369K; "How RBI saved the rupee" 868K. Two of his last three are guest collabs.
+- **@ca_rachanaranade (pinned 404K):** two Dussehra course-discount reels 21.1K / 23.9K; "If you are from a non-finance background?" **31K** (23.3K two days ago); "Will the IT rally sustain?" 69.1K, Marathi cut 5,191; then 56.3K, 3,036, 11.5K, 75.7K, 52.7K, 36.4K, 6,997, 88.9K. A segment hook ("if you are from…") keeps growing.
+- **@anushkarathod98:** new series **"EP-1 Shaadi ke baad ke finances" 136K** (couple collab, fresh); 1,456 (just posted); **"I pay less for same flight, same seat!" 102K**; "Must have for Indian couples" 118K (105K); "Is the govt running out of money?" 91.2K; then 2,926, 29.8K, 12.2K, 7,384, 174K, 353K, 202K. Couples money and a "you're overpaying" travel ₹ hook are her winners.
+- **Rotated in @labourlawadvisor:** 185K, 2.3M, 3.3M (top three, covers didn't load), "…Scam or Genius?" 34.4K, "Types of Forces" 156K, a street-skit 104K, "Kursi ka chakkar babu bhaiya!" 96.6K (skit), **"The Volatility Drag Trap" 25.8K** with a −₹7,50,000 cover. Skits and "scam?" framing out-pull explainers ~4×.
+- **Pattern:** collabs/series (Sharan's guests, Anushka's couple EP-1) and "you're overpaying / it's a scam" framing win this week. Used: travel-₹ re-cut (23 Oct am, trip on EMI) and a scam-warning protective send (23 Oct pm).
+- **News (last 48 h):** the government cyber-crime coordination centre's 19 Oct advisory on deepfake ads of top leaders promising welfare money (two news reports agree: fake fees, collect requests; "a UPI PIN authorises payments, it is not required to receive money"); 1930 helpline confirmed on a state police page and a news page. **Not used:** gold above ₹1.5 lakh per 10 g (a price under 3 months old) and pay-commission fitment demands (unions' ask, not a rule).
+
 ## 2026-10-19 (daily pass, logged out)
 
 - **Reels-tab grids didn't load logged out today for 2 of 3 creators** (Rachana, Anushka); used their main profile grid and post pages instead, which show likes, not views.

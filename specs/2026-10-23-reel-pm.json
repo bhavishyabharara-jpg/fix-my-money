@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-23",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Your UPI PIN never [[receives]] money",
+    "vo": "PIN डालने से पैसा जाता है, आता नहीं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Govt cyber-crime alert, 19 Oct",
+    "big": "Fake",
+    "color": "red",
+    "label": "Deepfake videos of top leaders promise free money",
+    "vo": "Deepfake नेता free money का वादा करते हैं।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Then they ask you to pay",
+    "big": "\"Fees\"",
+    "color": "amber",
+    "label": "Tax, processing, registration: again and again",
+    "vo": "फिर fee के नाम पर बार-बार payment।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Already paid?",
+    "big": "1930",
+    "color": "mint",
+    "label": "Call the cyber-fraud helpline at once",
+    "vo": "पैसा गया? तुरंत वन नाइन थ्री ज़ीरो पर call करो।",
+    "count": false
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Free money never needs **your PIN.**",
+    "cta": [
+     "Send to the parent who trusts video ads",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Mummy-Papa को अभी भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Does your UPI PIN ever receive money?\n\nNo. A UPI PIN only authorises a payment. It is never needed to receive money.\nOn 19 Oct the government's cyber-crime coordination centre warned of social media ads using deepfake videos of top leaders to promise welfare money, cashback or spin-and-win prizes.\nVictims are then asked to pay \"tax\", \"processing\" or \"registration\" fees again and again, or to approve a collect request.\nIf money has already gone, call the 1930 cyber-fraud helpline at once: faster reporting improves the chance of freezing it.\n\nHas anyone in your family seen one of these ads?\n\nSources: two news reports on the government cyber-crime centre's advisory (19–20 Oct 2026) and a state police cyber-fraud help page.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#upifraud #deepfakescam #cybersafety #upipin #moneysafety"
+ }
+}
