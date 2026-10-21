@@ -50,17 +50,17 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 ## By hook pattern
 
-| Pattern | Reels | Median views | Median watch % | Mean score | Call |
+| Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| big-question | 11 | 20 | 11% | 4.4 | EXPLOIT |
-| news-list | 7 | 9 | 10% | 3.6 | drop |
-| news-stakes | 4 | 32 | 13% | 3.4 | keep |
-| contrarian-number | 7 | 24 | 16% | 3.3 | keep |
+| contrarian-number | 7 | 24 | 16% | 4.1 | EXPLOIT |
+| news-stakes | 4 | 32 | 13% | 3.5 | keep |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
 | guess-the-number | 1 | 28 | 12% | 3.0 | keep (low data) |
 | hinglish-hook | 1 | 21 | 11% | 2.7 | keep (low data) |
+| big-question | 11 | 20 | 11% | 2.7 | keep |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
+| news-list | 7 | 9 | 10% | 2.5 | drop |
 | pov-relatable | 1 | 15 | 7% | 1.8 | test again (low data) |
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
