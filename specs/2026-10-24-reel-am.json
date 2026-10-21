@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-24",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹20,000 card cash costs you [[₹1,100]] a month",
+    "vo": "Card से बीस हज़ार cash? ग्यारह सौ गए।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Interest-free days on card cash",
+    "big": "0",
+    "color": "red",
+    "label": "Interest runs from the day you withdraw",
+    "vo": "Cash पर interest पहले दिन से।",
+    "count": false,
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Cash withdrawal fee, typically",
+    "big": "2.5%",
+    "color": "amber",
+    "label": "₹500 on ₹20,000, charged at once",
+    "vo": "ढाई percent fee, पाँच सौ रुपये।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Plus 3% a month interest (illustrative)",
+    "big": "₹600",
+    "color": "red",
+    "label": "Cards typically charge 2.5–3.5% a month",
+    "vo": "तीन percent monthly interest, छह सौ और।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Card cash is the **costliest cash.**",
+    "cta": [
+     "Send to the friend who swipes for cash",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Card से cash लेने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Does taking cash on a credit card really cost that much?\n\nCard cash withdrawals get no interest-free period: interest runs from the day you take the cash until you repay in full.\nMost cards also charge a cash withdrawal fee, typically 2.5% of the amount, with a minimum of a few hundred rupees.\nIllustrative: ₹20,000 withdrawn → ₹500 fee + ₹600 interest at 3% for one month = about ₹1,100, before GST.\nMonthly rates on cards typically run 2.5–3.5%, so check your own card's fee schedule.\n\nHave you ever taken cash on a credit card in an emergency?\n\nSources: a property-news site's table of card cash-withdrawal charges at major banks and a business newspaper's explainer on credit card cash advances.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #cashwithdrawal #creditcardtips #moneymistakes #personalfinanceindia"
+ }
+}

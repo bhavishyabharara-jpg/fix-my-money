@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "slot": "reel",
+  "publish_at": "2026-10-24T02:45",
+  "topic": "Credit card cash withdrawal: no interest-free period, typical 2.5% fee; illustrative ₹20,000 → ₹500 fee + ₹600 interest at 3%/month ≈ ₹1,100 in one month",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number, new EXPLOIT after review.py switched to median score: median 24 views, best hold 16%). Tests a ₹ cost on a habit the viewer's friend has, with a 'swipes for cash' send target. 5 scenes, 13.4 s silent.",
+  "caption": "Does taking cash on a credit card really cost that much?\n\nCard cash withdrawals get no interest-free period: interest runs from the day you take the cash until you repay in full.\nMost cards also charge a cash withdrawal fee, typically 2.5% of the amount, with a minimum of a few hundred rupees.\nIllustrative: ₹20,000 withdrawn → ₹500 fee + ₹600 interest at 3% for one month = about ₹1,100, before GST.\nMonthly rates on cards typically run 2.5–3.5%, so check your own card's fee schedule.\n\nHave you ever taken cash on a credit card in an emergency?\n\nSources: a property-news site's table of card cash-withdrawal charges at major banks and a business newspaper's explainer on credit card cash advances.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #cashwithdrawal #creditcardtips #moneymistakes #personalfinanceindia",
+  "spec": "specs/2026-10-24-reel-am.json",
+  "media": [
+    "media/2026-10-24/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-24/reel-am/reel_cover.png",
+  "sources": [
+    "https://housing.com/news/credit-card-cash-withdrawal-charges-in-top-banks-in-india",
+    "https://www.business-standard.com/article/pf/planning-to-withdraw-cash-on-your-credit-card-watch-out-for-the-expenses-118081300047_1.html"
+  ]
+}

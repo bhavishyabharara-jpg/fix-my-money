@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-24",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Take-home [[₹600]] less this month? Check your PF",
+    "vo": "Salary छह सौ कम? PF check करो।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "PF wage ceiling, from September",
+    "big": "₹25,000",
+    "color": "mint",
+    "label": "Was ₹15,000; October is the first full salary month",
+    "vo": "PF limit अब पच्चीस हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Basic + DA of ₹20,000",
+    "big": "₹600",
+    "color": "amber",
+    "label": "More PF a month: ₹1,800 to ₹2,400 (12%)",
+    "vo": "बीस हज़ार basic पर छह सौ ज़्यादा PF।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "It isn't lost",
+    "big": "Yours",
+    "color": "mint",
+    "label": "The extra 12% goes into your own PF account",
+    "vo": "ये पैसा आपके PF में ही जाता है।",
+    "count": false,
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Less in hand, **more saved.**",
+    "cta": [
+     "Send to the colleague asking about salary",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Office group में भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is your take-home lower this month, with no pay cut?\n\nThe EPF wage ceiling went up from ₹15,000 to ₹25,000, and October is the first full salary month under it.\nIf your PF was worked out on the old ₹15,000 cap, 12% is now taken on more of your basic + DA.\nExample from the reports: ₹20,000 basic + DA → PF rises from ₹1,800 to ₹2,400, so ₹600 less in hand. At ₹25,000 it's ₹1,200 more.\nThat extra amount goes into your PF balance; it is savings, not a deduction you lose.\n\nDid your October payslip change? What did you notice first?\n\nSources: two personal-finance news reports on the EPF wage ceiling change (Sept–Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#epf #providentfund #salaryslip #takehomepay #salariedindia"
+ }
+}

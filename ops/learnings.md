@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-21 — Daily review (day 1 after the goal date)
+
+- **Followers: 11 (+0 vs 20 Oct, flat 5 days). The 20 Oct goal is missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 42 reels/posts in, still 0 sends and 0 follows from any reel. Organic reels reach 4–47 people. No new target has been set; until the owner sets one, the engine aims at a first send.
+- **Best (new data):** 19 Oct mid "Locker robbed? Bank pays at most 100× rent" kept growing **28 → 47 views**, best of the last 6 days: a ₹ cap on the viewer's *own* valuables, the opposite of what they assume. 19 Oct pm "prepayment ₹0" 18 → 21. **Worst:** 20 Oct pm pov-relatable "Salary gone by the 10th?" **15 views, 1.0 s (7%)**: a lifestyle tip with no surprising ₹, lowest hold of the day; 20 Oct mid "₹10,000 savings-interest deduction" 16 views. 21 Oct am posted 03:17 UTC (32 min late, same as every am), no metrics yet.
+- **Patterns:** on median score **contrarian-number is the real leader** (7 reels, median 24 views, 16% hold, median score 4.1 vs big-question's 2.7). big-question → **keep**; news-stakes **keep**; news-list **drop**; pov-relatable (1 reel, 15 views, 7%) **drop** unless reworked around a ₹ surprise; hinglish-hook stays at 1 test.
+- **Narrated vs silent:** narrated median 19 views / 11% vs silent 22 / 13%. Still level; voice stays, it isn't the lever.
+- **Engine change today: the scoreboard now picks EXPLOIT by median score, not mean.** big-question was "EXPLOIT" only because one 7 Oct reel with 9 views scored 15.7; its median is the lowest of any multi-reel 'keep' pattern. tools/review.py now uses the median (dry run: contrarian-number becomes EXPLOIT, big-question keep). 24 Oct am follows it (contrarian-number, card cash withdrawal). 24 Oct pm (big-question, EPF wage ceiling) tests a new send target, the colleague / office group. Still 2 reels a day per the 18 Oct weekly decision; queue runs to the end of 24 Oct.
+
 ## 2026-10-20 — Daily review (goal day)
 
 - **Followers: 11 (+0 vs 19 Oct, flat 4 days). Goal day: 11 vs 2,000, missed by 1,989 (0.55%).** The 10-day path needed ~200 a day; we averaged 0. 39 reels in, still 0 sends and 0 follows from any reel, and day-1 reach is 4–28 views. The 2,000 target is over; what the engine can still honestly aim at is a first send, and a new target is the owner's call (organic alone has not moved followers in 10 days; collabs are the free lever, paid stays the owner's decision).

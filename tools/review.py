@@ -91,13 +91,13 @@ def main() -> int:
         L.append(f"| {x['key']} {x['topic']} | {x['pattern']} | {'yes' if x['narrated'] else 'no'} | {x['views']:.0f} | "
                  f"{x['watch']:.1f}s ({x['watch_pct']:.0%}) | {x['shares']:.0f} | {x['saves']:.0f} | {x['likes']:.0f} | "
                  f"{x['follows']:.0f} | {x['score']} |")
-    L += ["", "## By hook pattern", "", "| Pattern | Reels | Median views | Median watch % | Mean score | Call |",
+    L += ["", "## By hook pattern", "", "| Pattern | Reels | Median views | Median watch % | Median score | Call |",
           "|---|---|---|---|---|---|"]
     stats = []
     for pat, xs in by.items():
         mv = st.median([x["views"] for x in xs])
         mw = st.median([x["watch_pct"] for x in xs])
-        ms = st.mean([x["score"] for x in xs])
+        ms = st.median([x["score"] for x in xs])  # 2026-10-21: median, so one outlier reel (7 Oct, 9 views, 15.7) cannot crown a pattern
         stats.append((ms, pat, len(xs), mv, mw))
     stats.sort(reverse=True)
     exploit = next((p for ms_, p, n_, *_ in stats if n_ >= 3), stats[0][1] if stats else None)

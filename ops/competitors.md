@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-21 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"What's the special treat this season?" 82.3K** (fresh, festive question cover); "…and you'll try to avoid that" **82.7K** (24.6K yesterday); "starts looking" 144K (107K); "The Truth About India's Economy" 112K; "AI is Costing Companies Billions" **354K**; "Gold vs rupee" 327K; "$100M from a crash" 94.9K; "Slowest founders" 212K; "Stock market tax free again?" 374K. A podcast clip tripled in a day.
+- **@ca_rachanaranade (pinned 404K):** nothing new: Dussehra course offers 24K / 25K, "If you are from a non-finance background?" **32.3K** (31K), "Will the IT rally sustain?" + Nifty IT cut, then market reels.
+- **@anushkarathod98:** "EP-1 Shaadi ke baad ke finances" **160K** (136K yesterday), "How planning a wedding feels like in 2026" 1,485 (fresh), "I pay less for same flight, same seat!" 106K, "Must have for Indian couples" 121K, then "Is the govt running out of money?" and "Best gift for Indian couples" re-cuts.
+- **Rotated in @ankurwarikoo (pinned 3.2M / 3.4M / 3.7M):** a fresh reel at 1,583; **"How we handle fights as a couple" 92.6K**; "₹100: 2010 vs 2026" 29.6K; **"The best time to change your job" 927K**; "The story of Harshad Mehta" 378K. Career-timing and couple-money questions beat ₹ explainers.
+- **Pattern:** couples money (Anushka EP-1 160K, Warikoo couple fights 92.6K) and job/career timing are the week's winners; ₹ comparisons do well only with a surprise. Used: a payslip/job hook with a colleague send target (24 Oct pm). Couples not used: 11 Oct couples reel is inside the 14-day window.
+- **News (last 48 h):** little household-ready news found. Used the EPF wage ceiling ₹15,000 → ₹25,000 with October the first full salary month (two news reports agree on ₹20,000 basic → ₹1,800 to ₹2,400 PF, ₹600 less in hand). Evergreen for 24 Oct am: card cash withdrawals have no interest-free period, fee typically 2.5% (two pages agree; minimums differ, so not used), monthly rates 2.5–3.5%. **Not used:** whether the ceiling change is formally notified (neither report says).
+
 ## 2026-10-20 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators today** after closing the sign-up dialog (views, not likes).

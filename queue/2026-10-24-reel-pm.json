@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "slot": "reel",
+  "publish_at": "2026-10-24T13:45",
+  "topic": "EPF wage ceiling ₹15,000 → ₹25,000 (October first full salary month): ₹20,000 basic+DA → PF ₹1,800 → ₹2,400, ₹600 less take-home; goes to your PF",
+  "hook_pattern": "big-question",
+  "experiment": "KEEP (big-question, now 'keep' on median score) in the pm slot, tied to this month's payslip. EXPERIMENT inside it: first 'colleague / office group' send target (a workplace send instead of family or friend). 5 scenes, 13.6 s silent.",
+  "caption": "Is your take-home lower this month, with no pay cut?\n\nThe EPF wage ceiling went up from ₹15,000 to ₹25,000, and October is the first full salary month under it.\nIf your PF was worked out on the old ₹15,000 cap, 12% is now taken on more of your basic + DA.\nExample from the reports: ₹20,000 basic + DA → PF rises from ₹1,800 to ₹2,400, so ₹600 less in hand. At ₹25,000 it's ₹1,200 more.\nThat extra amount goes into your PF balance; it is savings, not a deduction you lose.\n\nDid your October payslip change? What did you notice first?\n\nSources: two personal-finance news reports on the EPF wage ceiling change (Sept–Oct 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#epf #providentfund #salaryslip #takehomepay #salariedindia",
+  "spec": "specs/2026-10-24-reel-pm.json",
+  "media": [
+    "media/2026-10-24/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-24/reel-pm/reel_cover.png",
+  "sources": [
+    "https://upstox.com/news/personal-finance/latest-updates/epfo-wage-hike-impact-how-your-october-2026-salary-slip-could-change-from-ctc-to-take-home-pay/article-200973/",
+    "https://newsd.in/epfo-wage-ceiling-hiked-to-25000-will-your-ctc-or-take-home-salary-change"
+  ]
+}
