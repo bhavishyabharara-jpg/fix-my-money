@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-22 — Daily review (day 2 after the goal date)
+
+- **Followers: 11 (+0 vs 21 Oct, flat 6 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 44 posts in, still 0 sends and 0 follows from any reel. No new target set; the engine still aims at a first send.
+- **Best (new data):** 21 Oct pm "Exchanging old gold counts as a sale" **99 views / 90 reach on day 1**, our best day-1 reach in 10 days and the 3rd-best reel ever; 21 Oct am "Diwali bonus vs vouchers" **65 views**. Both tie a ₹ to a festive money move the viewer makes *this month* (gold, bonus), and the gold reel had a family send target. Hold is still weak (21% / 14%): reach rose, the first 2 seconds didn't. **Worst:** 20 Oct mid "₹10,000 savings-interest deduction" 17 views, 2.4 s: an old-vs-new-regime footnote; 19 Oct am recovery-agent reel stuck at 4.
+- **Patterns:** **contrarian-number EXPLOIT** (8 reels, median score 4.0, median 32 views); big-question and news-stakes **keep**; news-list stays **dropped**; pov-relatable dropped unless built on a ₹ surprise. 22 Oct am (card fraud, protective send) went out today; no metrics yet.
+- **Narrated vs silent:** narrated median 20 views / 12% vs silent 22 / 13%. Still level; voice stays, it isn't the lever.
+- **Engine change today: the festive window now covers both slots until Diwali.** The only two reels in 10 days to clear 60 views on day 1 were festive-₹ reels. 25 Oct am (contrarian-number) is the buyer's side of the gold reel: "₹1 lakh of gold costs you ₹1,13,500" (3% GST, illustrative making charge + 5% GST, making charge not recovered on resale). 25 Oct pm is a new **bill-reveal** experiment for a Diwali dinner out: "₹4,000 dinner bill? ₹400 of it is optional" (service charge is voluntary), copying the newest "wait for bill reveal" reel on a lead creator's tab (168K); send target is the friend who always pays the group bill. Frame check caught "Voluntary" as a stat number running off both edges; swapped to "₹0" with the ruling in the label. Still 2 reels a day per the 18 Oct weekly decision; queue runs to the end of 25 Oct.
+
 ## 2026-10-21 — Daily review (day 1 after the goal date)
 
 - **Followers: 11 (+0 vs 20 Oct, flat 5 days). The 20 Oct goal is missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 42 reels/posts in, still 0 sends and 0 follows from any reel. Organic reels reach 4–47 people. No new target has been set; until the owner sets one, the engine aims at a first send.

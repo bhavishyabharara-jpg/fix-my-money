@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "slot": "reel",
+  "publish_at": "2026-10-25T13:45",
+  "topic": "Restaurant service charge is voluntary: can't be added by default (2022 consumer guidelines, upheld by Delhi High Court March 2025); illustrative ₹400 on a ₹4,000 bill; helpline 1915",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPERIMENT (new pattern 'bill-reveal'): frame 0 shows a bill total and the slice you can cut, copying the 'wait for bill reveal' couple-dinner reel (168K, newest on the third lead creator's tab). Everyday spend, not a rule about a situation the viewer isn't in. Send target: the friend who always pays the group bill. 5 scenes, ~13.6 s silent.",
+  "caption": "Diwali dinner out: do you have to pay the service charge on the bill?\n\nConsumer protection guidelines (2022) say restaurants can't add a service charge automatically or by default.\nIn March 2025 the Delhi High Court upheld this: a service charge is voluntary, not compulsory.\nIllustrative: 10% on a ₹4,000 bill = ₹400 you can ask them to remove.\nIf they refuse, the National Consumer Helpline is 1915.\n\nHave you ever asked a restaurant to remove the service charge? What happened?\n\nSources: a public broadcaster's report and a legal news site's report on the Delhi High Court ruling, and two news reports on the consumer authority's guidelines.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#servicecharge #consumerrights #restaurantbill #diwalidinner #moneytips",
+  "spec": "specs/2026-10-25-reel-pm.json",
+  "media": [
+    "media/2026-10-25/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-25/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.newsonair.gov.in/delhi-hc-rules-restaurants-cant-impose-mandatory-service-charge-in-bills",
+    "https://www.livelaw.in/amp/high-court/delhi-high-court/delhi-high-court-restaurant-service-charge-on-food-not-mandatory-287836",
+    "https://www.businesstoday.in/amp/latest/story/ccpa-bars-hotels-restaurants-from-levying-service-charge-automatically-340256-2022-07-04",
+    "https://www.boomlive.in/amp/news/service-charges-restaurants-hotel-optional-not-automatic-removal-consumer-protection-authority-notification-tax-18419"
+  ]
+}

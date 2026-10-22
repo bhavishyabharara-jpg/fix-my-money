@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-25",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1 lakh of gold costs you [[₹1,13,500]]",
+    "vo": "एक लाख का gold, साढ़े तेरह हज़ार extra।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "GST on the gold value",
+    "big": "3%",
+    "color": "amber",
+    "label": "₹3,000 on ₹1 lakh of gold",
+    "vo": "Gold पर तीन percent GST।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Making charge (illustrative 10%)",
+    "big": "₹10,000",
+    "color": "amber",
+    "label": "+5% GST on it: ₹500",
+    "vo": "Making charge दस हज़ार, GST पाँच सौ।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Making charge back when you sell",
+    "big": "₹0",
+    "color": "red",
+    "count": false,
+    "label": "Resale counts only the gold",
+    "vo": "बेचोगे तो making charge वापस नहीं मिलता।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Gold is the metal. **Making is the cost.**",
+    "cta": [
+     "Send to whoever's buying gold this Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Diwali पर gold लेने वाले को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Buying ₹1 lakh of gold jewellery this Diwali: why is the bill ₹1,13,500?\n\nGST on gold jewellery is 3% of the gold value: ₹3,000 on ₹1 lakh.\nMaking charges are extra, and when billed separately they carry 5% GST.\nIllustrative: ₹10,000 making charge + ₹500 GST → total bill ₹1,13,500.\nWhen you sell jewellery back, it is valued on gold weight only; the making charge doesn't come back.\n\nDo you compare making charges across jewellers before you buy?\n\nSources: an accounting software maker's GST-on-gold guide, a financial group's explainer on GST on jewellery, and two lenders' guides to gold resale value.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldjewellery #makingcharges #gstongold #diwalishopping #personalfinanceindia"
+ }
+}

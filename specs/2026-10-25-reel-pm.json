@@ -1,0 +1,58 @@
+{
+ "date": "2026-10-25",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹4,000 dinner bill? [[₹400]] of it is optional",
+    "vo": "चार हज़ार के bill में चार सौ optional।",
+    "mood": "neutral"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Service charge (illustrative 10%)",
+    "big": "₹400",
+    "color": "amber",
+    "label": "Can't be added by default",
+    "vo": "Service charge default में नहीं जोड़ सकते।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Service charge you must pay",
+    "big": "₹0",
+    "color": "mint",
+    "count": false,
+    "label": "Delhi High Court, 2025: it's voluntary",
+    "vo": "High Court: ये voluntary है।",
+    "mood": "happy"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Seen it on your bill?",
+    "marks": "num",
+    "items": [
+     "Ask them to remove it",
+     "Refused? Call 1915",
+     "Tip only if you want to"
+    ],
+    "vo": "हटाने को बोलो, ना मानें तो 1915।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Service charge is **your choice.**",
+    "cta": [
+     "Send to the friend who always pays the bill",
+     "Follow for a money fix every day"
+    ],
+    "vo": "हमेशा bill भरने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Diwali dinner out: do you have to pay the service charge on the bill?\n\nConsumer protection guidelines (2022) say restaurants can't add a service charge automatically or by default.\nIn March 2025 the Delhi High Court upheld this: a service charge is voluntary, not compulsory.\nIllustrative: 10% on a ₹4,000 bill = ₹400 you can ask them to remove.\nIf they refuse, the National Consumer Helpline is 1915.\n\nHave you ever asked a restaurant to remove the service charge? What happened?\n\nSources: a public broadcaster's report and a legal news site's report on the Delhi High Court ruling, and two news reports on the consumer authority's guidelines.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#servicecharge #consumerrights #restaurantbill #diwalidinner #moneytips"
+ }
+}

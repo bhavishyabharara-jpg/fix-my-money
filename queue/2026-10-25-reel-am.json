@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "slot": "reel",
+  "publish_at": "2026-10-25T02:45",
+  "topic": "Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on gold, illustrative 10% making charge + 5% GST on it); making charge not recovered on resale",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number, scoreboard EXPLOIT). Follows the 21 Oct pm gold-exchange reel (99 views, best day-1 reach in 10 days) with the buyer's side of the same festive gold moment. Tests whether a festive purchase ₹ repeats in the am slot. 5 scenes, ~13.6 s silent.",
+  "caption": "Buying ₹1 lakh of gold jewellery this Diwali: why is the bill ₹1,13,500?\n\nGST on gold jewellery is 3% of the gold value: ₹3,000 on ₹1 lakh.\nMaking charges are extra, and when billed separately they carry 5% GST.\nIllustrative: ₹10,000 making charge + ₹500 GST → total bill ₹1,13,500.\nWhen you sell jewellery back, it is valued on gold weight only; the making charge doesn't come back.\n\nDo you compare making charges across jewellers before you buy?\n\nSources: an accounting software maker's GST-on-gold guide, a financial group's explainer on GST on jewellery, and two lenders' guides to gold resale value.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldjewellery #makingcharges #gstongold #diwalishopping #personalfinanceindia",
+  "spec": "specs/2026-10-25-reel-am.json",
+  "media": [
+    "media/2026-10-25/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-25/reel-am/reel_cover.png",
+  "sources": [
+    "https://tallysolutions.com/gst/how-to-calculate-gst-on-gold/",
+    "https://www.adityabirlacapital.com/abc-of-money/how-gst-on-gold-jewellery-is-calculated",
+    "https://www.iifl.com/blogs/gold-loan/gold-jewellery-resale-value-calculation",
+    "https://www.shriramfinance.in/articles/gold-loan/2026/understanding-making-charges-and-how-they-impact-gold-resale-value"
+  ]
+}

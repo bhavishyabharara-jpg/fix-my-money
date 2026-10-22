@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-22 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"The Truth About Jio's IPO" 220K** (fresh, an IPO everyone is talking about); "What if your bank paid for your Diwali treats?" 103K (82.3K yesterday, sponsored); "Why do people become poor after being rich?" 90.1K (guest); "Is your PF really tax-free?" **157K** (144K); "India's economy" 118K; "AI is costing companies billions" 367K; "Gold vs rupee" 336K; "$100M from a crash" 98.5K; "Slowest founders" 217K.
+- **@ca_rachanaranade (pinned 404K):** nothing new: "Can this rally sustain?" 26.4K, two Dussehra course offers 25K / 25.8K, "If you are from a non-finance background?" **33.4K** (32.3K), "Will the IT rally sustain?" 72.3K, Marathi cut 5,208, a sponsored reel 57.8K, then AI-rally question covers.
+- **@anushkarathod98:** new **"Ordering everything we agree on!! (wait for bill reveal)" 168K** (fresh, a two-person dinner-bill skit); "EP-1 Shaadi ke baad ke finances" **193K** (160K); "How planning a wedding feels like in 2026" 1,493; "I pay less for same flight, same seat!" 109K; "Must have for Indian couples" 126K; "Is the govt running out of money?" 93.7K.
+- **Rotated in @pranjalkamra (pinned 3.3M / 2M / 1.1M):** newest "Incentives" 18.1K; **"Jio IPO: watch this before applying!" 294K**; "Please don't trust me!!" 34.5K; "PK Bola EP 8" 101K (series); "IT sector's tough times ahead?" 77.1K; then "Physical gold vs gold ETF". The same IPO is the top new reel for two of four creators.
+- **Pattern:** a "bill reveal" dinner skit pulled 168K within a day, and series (EP-1, EP 8) keep compounding. A topical IPO beats everything this week, but we can't name it or give a view on it. Used: bill-reveal hook on restaurant service charge (25 Oct pm), festive gold purchase cost (25 Oct am).
+- **News (last 48 h):** little household-ready news found in search. Used evergreen, well-sourced rules: restaurant service charge can't be added by default (2022 consumer guidelines, upheld by the Delhi High Court in March 2025; two reports each), complaints to the National Consumer Helpline 1915 (two reports); GST on gold jewellery 3% and 5% on separately billed making charges (two guides agree), making charges not recovered on resale (two lenders' guides agree). **Not used:** GST paid at purchase being unrecoverable (only one source says so explicitly); a typical making-charge range (sources differ: 5–15% vs up to 25–30%).
+
 ## 2026-10-21 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
