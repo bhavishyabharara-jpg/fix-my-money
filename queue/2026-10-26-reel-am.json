@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-26",
+  "slot": "reel",
+  "publish_at": "2026-10-26T02:45",
+  "topic": "Health insurance room-rent cap: a room above the cap cuts room-linked charges by the same ratio (illustrative ₹5,000 cap, ₹10,000 room = 50%; ₹50,000 out of pocket on ₹1 lakh); medicines, consumables, implants, diagnostics and ICU excluded under the 2024 master circular",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number, scoreboard median-score leader). Tests a hospital-bill topic, copying the rotating creator's 'hospital bill' exposé (104K). Protective send to the parent on a family floater. 5 scenes, 33 vo words, ~13.6 s.",
+  "caption": "Is a bigger hospital room worth it if your policy has a room-rent cap?\n\nMany health policies cap the daily room rent, often at 1% of the sum insured.\nPick a room above the cap and the insurer pays the same ratio of room-linked charges (doctor, nursing, procedure), not just the rent gap.\nIllustrative: ₹5,000 cap, ₹10,000 room = 50%. On ₹1 lakh of room-linked charges, ₹50,000 can come from your pocket.\nUnder the 2024 insurance regulator master circular, medicines, consumables, implants, diagnostics and ICU charges aren't cut by this ratio.\n\nDo you know your policy's room-rent limit without checking?\n\nSources: a personal-finance magazine's explainer (Sept 2026) and an insurance advisory's guide on proportionate deduction.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#healthinsurance #roomrent #hospitalbill #insuranceclaim #familyfloater",
+  "spec": "specs/2026-10-26-reel-am.json",
+  "media": [
+    "media/2026-10-26/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-26/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.outlookmoney.com/spotlight/financehub/the-three-lines-in-your-health-policy-that-decide-how-much-you-actually-get-paid",
+    "https://cdn.joinditto.in/articles/health-insurance/proportionate-deduction-in-health-insurance/"
+  ],
+  "duration_s": 13.6
+}

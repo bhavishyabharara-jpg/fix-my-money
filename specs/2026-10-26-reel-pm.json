@@ -1,0 +1,57 @@
+{
+ "date": "2026-10-26",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Insurance expired? Guess your fine: [[₹2,000]]",
+    "vo": "Insurance expire? Guess करो fine: दो हज़ार।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Caught again",
+    "big": "₹4,000",
+    "color": "red",
+    "label": "Fine doubles on a repeat offence",
+    "vo": "दोबारा पकड़े गए तो चार हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "On top of the fine",
+    "big": "3 months",
+    "color": "amber",
+    "count": false,
+    "label": "Jail of up to 3 months, either time",
+    "vo": "और तीन महीने तक की जेल भी।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Before a Diwali road trip",
+    "marks": "num",
+    "items": [
+     "Check the expiry date",
+     "Third-party cover is compulsory",
+     "Keep a copy on your phone"
+    ],
+    "vo": "Diwali trip से पहले expiry date check करो।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Renew it **before you ride.**",
+    "cta": [
+     "Send to the friend whose insurance expired",
+     "Follow for a money fix every day"
+    ],
+    "vo": "जिसका insurance expire है, उसे भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Riding with expired vehicle insurance? Guess the fine.\n\nThird-party insurance is compulsory for every vehicle on the road.\nFirst offence: ₹2,000 fine and up to 3 months' jail.\nRepeat offence: ₹4,000 fine and up to 3 months' jail.\nBefore a festive road trip, check the expiry date on your policy.\n\nWhen did you last check your bike or car insurance expiry date?\n\nSources: two insurance guides on fines for driving without insurance, and a government information portal on compulsory third-party cover.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#motorinsurance #bikeinsurance #trafficfine #roadtrip #moneytips"
+ }
+}

@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-23 — Daily review (day 3 after the goal date)
+
+- **Followers: 11 (+0 vs 22 Oct, flat 7 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 45 posts in, still 0 sends and 0 follows from any reel. Reach is up on festive/life-event reels but it isn't converting to follows.
+- **Best (new data):** 22 Oct pm "Guess your gratuity after 5 years" **86 views / 76 reach on day 1** (2.4 s, 17%): a ₹ answer to a job-switch question the viewer is actually asking, third reel in a row above 60 views. 21 Oct pm gold-exchange kept growing **99 → 109 views**. **Worst:** 22 Oct am "Card fraud: report in 3 days" **15 views, 1.0 s (8%)**: the protective-send idea didn't lift it; the hook read as a rule, not a ₹ loss.
+- **Patterns:** **contrarian-number EXPLOIT** (8 reels, median score 4.0); **guess-the-number keep and rising** (2 reels, median 57 views, best median views of any multi-reel pattern); news-stakes keep; big-question keep only with the viewer's own ₹ (card fraud dragged it to median 20); news-list stays **dropped**.
+- **Narrated vs silent:** narrated median 20 views / 12% vs silent 22 / 13%. Still level; voice stays.
+- **Engine change today: protective sends must name a ₹ loss in the hook, not a rule.** "Report in 3 days" (rule) got 15 views; "you pay half" (₹ loss) is the test for 26 Oct am (contrarian-number, health-insurance room-rent cap, copying the rotating creator's hospital-bill exposé at 104K). 26 Oct pm is guess-the-number with the ₹ answer on frame 0 ("Insurance expired? Guess your fine: ₹2,000", festive road-trip, send target the friend whose insurance expired). Still 2 reels a day per the 18 Oct weekly decision; queue now runs to the end of 26 Oct. Engine files couldn't be staged from the Mac today (upload failed), so the frame check used the identical engine from the GitHub main branch.
+
 ## 2026-10-22 — Daily review (day 2 after the goal date)
 
 - **Followers: 11 (+0 vs 21 Oct, flat 6 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 44 posts in, still 0 sends and 0 follows from any reel. No new target set; the engine still aims at a first send.

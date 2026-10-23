@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-23 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Jio IPO: what are we missing?" 85.3K** (guest); new **"Elon Musk's $11 billion giveaway?" 152K**; "The Truth About Jio's IPO" **294K** (220K yesterday); "What if your bank paid for your Diwali treats?" 114K (103K); "Why do people become poor after being rich?" 94.3K; "Is your PF really tax-free?" 165K; "India's economy" 122K; "AI is costing companies billions" 376K; "Gold vs rupee" 345K.
+- **@ca_rachanaranade (pinned 404K):** new company-case-study reel "Pieces of the puzzle" 17.8K; "Can this rally sustain?" 29.1K (26.4K); Dussehra course offer 25.8K; then the non-finance-background and IT-rally reels.
+- **@anushkarathod98:** "Ordering everything we agree on!! (wait for bill reveal)" **209K** (168K yesterday); "EP-1 Shaadi ke baad ke finances" **198K** (193K); "How planning a wedding feels like" 1,509; "I pay less for same flight, same seat!" 111K; "Must have for Indian couples"; "Is the govt running out of money?".
+- **Rotated in @labourlawadvisor (pinned 185K / 2.3M / 3.3M):** "Dark patterns of quick-commerce app" 19K; "Cancer ki dawai ya loot" 23.1K; **"Hospital ki loot" 104K**; "Elon's scam or genius?" 48.3K; "Types of forces" 162K. The everyday-bill exposé (hospital) beats the drug-price one 4×.
+- **Pattern:** the bill-reveal skit is still compounding (+41K in a day) and the IPO wave continues (we can't name or opine). Bill exposés that show what *you* get overcharged work. Used: hospital room-rent cap as a ₹ loss (26 Oct am).
+- **News (last 48 h):** markets fell on 22 Oct (a business daily's close report); no household-ready rule change found in search. Used evergreen, two-source rules: room-rent proportionate deduction and its 2024 master-circular exclusions (a personal-finance magazine, Sept 2026, and an insurance advisory guide agree; their worked examples differ, so ours is our own illustrative arithmetic); fine for driving without insurance ₹2,000 / ₹4,000 with up to 3 months' jail (two insurance guides agree), third-party cover compulsory (a government portal). **Not used:** the advisory guide's ₹75,000 example (applies the ratio to the whole bill, which conflicts with the exclusions).
+
 ## 2026-10-22 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).

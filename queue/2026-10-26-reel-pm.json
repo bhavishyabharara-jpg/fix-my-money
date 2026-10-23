@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "slot": "reel",
+  "publish_at": "2026-10-26T13:45",
+  "topic": "Driving without valid motor insurance: ₹2,000 fine and up to 3 months' jail for a first offence, ₹4,000 for a repeat; third-party cover is compulsory",
+  "hook_pattern": "guess-the-number",
+  "experiment": "KEEP (guess-the-number; 22 Oct pm gratuity reel got 86 views on day 1, 2nd-best new reel). Tests a vehicle/road-trip topic in the festive window, and a pm guess hook with the ₹ answer on frame 0. Protective send to the friend whose insurance expired. 5 scenes, 32 vo words, ~13.6 s.",
+  "caption": "Riding with expired vehicle insurance? Guess the fine.\n\nThird-party insurance is compulsory for every vehicle on the road.\nFirst offence: ₹2,000 fine and up to 3 months' jail.\nRepeat offence: ₹4,000 fine and up to 3 months' jail.\nBefore a festive road trip, check the expiry date on your policy.\n\nWhen did you last check your bike or car insurance expiry date?\n\nSources: two insurance guides on fines for driving without insurance, and a government information portal on compulsory third-party cover.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#motorinsurance #bikeinsurance #trafficfine #roadtrip #moneytips",
+  "spec": "specs/2026-10-26-reel-pm.json",
+  "media": [
+    "media/2026-10-26/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-26/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.bankbazaar.com/driving-licence/fine-for-driving-without-motor-insurance.html",
+    "https://reliancegeneral.co.in/Insurance/Knowledge-Center/Insurance-Reads/fine-for-driving-without-insurance.aspx",
+    "https://en.vikaspedia.in/viewcontent/news/plying-motor-vehicles-without-valid-motor-third-party-insurance-is-a-punishable-offence"
+  ],
+  "duration_s": 13.6
+}
