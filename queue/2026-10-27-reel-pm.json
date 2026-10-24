@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "slot": "reel",
+  "publish_at": "2026-10-27T13:45",
+  "topic": "₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI ≈ ₹43,391, total ≈ ₹1.04 crore, interest ≈ ₹54 lakh (more than the loan); 0.5% lower ≈ ₹3.8 lakh less interest",
+  "hook_pattern": "guess-the-number",
+  "experiment": "KEEP (guess-the-number, best median views of any multi-reel pattern) with the ₹ answer on frame 0. Tests a home-purchase life event (festive property buying) after the job-switch gratuity reel (109 views). Send target: the friend buying a flat. First bars scene since 13 Oct. 5 scenes, 33 vo words, ~14 s.",
+  "caption": "₹50 lakh home loan for 20 years: can you guess the interest?\n\nIllustrative at 8.5% a year (within the range lenders list in 2026 rate round-ups): EMI ≈ ₹43,391 for 240 months.\nTotal paid back ≈ ₹1.04 crore, so interest ≈ ₹54 lakh, more than the loan itself.\nAt an illustrative 8% instead, interest is ≈ ₹50.4 lakh: half a percent is worth about ₹3.8 lakh.\nAsk the lender for the total interest, not just the EMI.\n\nDid your guess come close?\n\nSources: a housing-finance lender's ₹50 lakh EMI worked example (standard EMI formula) and two rate round-ups from October and July 2026.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#homeloan #emi #homebuying #firsthome #loaninterest",
+  "spec": "specs/2026-10-27-reel-pm.json",
+  "media": [
+    "media/2026-10-27/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-27/reel-pm/reel_cover.png",
+  "sources": [
+    "https://homefirstindia.com/blog/article/50-lakh-home-loan-emi-calculation/",
+    "https://www.newsbytesapp.com/news/business/banks-update-home-loan-interest-rates-on-october-16-2026/tldr",
+    "https://www.nobroker.in/home-loan/blog/home-loan-interest-rates/"
+  ],
+  "duration_s": 14.0
+}

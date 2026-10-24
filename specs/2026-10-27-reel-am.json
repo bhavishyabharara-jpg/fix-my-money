@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-27",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "50% + 20% off? Not 70%. Just [[60%]]",
+    "vo": "पचास plus बीस off? साठ percent, सत्तर नहीं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Illustrative ₹10,000 item, half off",
+    "big": "₹5,000",
+    "color": "amber",
+    "label": "Price after the first discount",
+    "vo": "दस हज़ार पर पचास off, पाँच हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Extra 20% comes off ₹5,000",
+    "big": "₹4,000",
+    "color": "red",
+    "label": "You pay ₹4,000, not ₹3,000",
+    "vo": "बीस percent पाँच हज़ार पर, चार हज़ार।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Quick check",
+    "marks": "num",
+    "items": [
+     "Multiply: 0.5 × 0.8",
+     "= 0.4 of the price",
+     "So 60% off, not 70%"
+    ],
+    "vo": "Multiply करो, जोड़ो मत।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Discounts **multiply, they don't add.**",
+    "cta": [
+     "Send to the friend shopping every sale",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Sale वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Sale says 50% off plus an extra 20%. Is that 70% off?\n\nNo. The extra 20% comes off the already-cut price, so discounts multiply, they don't add.\nIllustrative: a ₹10,000 item at 50% off is ₹5,000. An extra 20% off ₹5,000 leaves ₹4,000.\nThat's 60% off. A real 70% off would be ₹3,000.\nQuick check: multiply what's left (0.5 × 0.8 = 0.4 of the price).\n\nWhat's the biggest 'stacked' discount you've seen this festive season?\n\nSources: a maths-competition problem and solution on successive discounts, and a maths-teachers' association challenge on why two discounts can't be added.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#festivesale #discount #diwalishopping #moneytips #smartshopping"
+ }
+}

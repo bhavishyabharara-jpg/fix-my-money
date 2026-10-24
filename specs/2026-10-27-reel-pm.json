@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-27",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹50 lakh loan? Guess the interest: [[₹54 lakh]]",
+    "vo": "पचास लाख home loan? Interest: चौवन लाख।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Illustrative: 8.5% for 20 years",
+    "big": "₹43,391",
+    "color": "amber",
+    "label": "EMI every month for 240 months",
+    "vo": "साढ़े आठ percent पर EMI तैंतालीस हज़ार।"
+   },
+   {
+    "type": "bars",
+    "dur": 3.0,
+    "title": "Total paid back ≈ ₹1.04 crore",
+    "bars": [
+     {
+      "label": "Loan",
+      "value": 50,
+      "display": "₹50 lakh"
+     },
+     {
+      "label": "Interest",
+      "value": 54,
+      "display": "₹54 lakh",
+      "alert": true
+     }
+    ],
+    "vo": "कुल वापस, एक करोड़ चार लाख।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Before you sign",
+    "marks": "num",
+    "items": [
+     "Ask for the total interest",
+     "Compare rates, not EMIs",
+     "0.5% lower ≈ ₹3.8 lakh less"
+    ],
+    "vo": "आधा percent कम, पौने चार लाख बचत।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Ask for the **total interest.**",
+    "cta": [
+     "Send to the friend buying a flat",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Flat लेने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹50 lakh home loan for 20 years: can you guess the interest?\n\nIllustrative at 8.5% a year (current home loan rates run roughly 8–9% at many lenders): EMI ≈ ₹43,391 for 240 months.\nTotal paid back ≈ ₹1.04 crore, so interest ≈ ₹54 lakh, more than the loan itself.\nAt an illustrative 8% instead, interest is ≈ ₹50.4 lakh: half a percent is worth about ₹3.8 lakh.\nAsk the lender for the total interest, not just the EMI.\n\nDid your guess come close?\n\nSources: a housing-finance lender's ₹50 lakh EMI worked example (standard EMI formula) and two rate round-ups from October and July 2026.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#homeloan #emi #homebuying #firsthome #loaninterest"
+ }
+}
