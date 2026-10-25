@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-28",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Switched jobs this year? You may owe [[₹81,900]]",
+    "vo": "इस साल job बदली? इक्यासी हज़ार tax बाकी हो सकता है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Illustrative: ₹7 lakh at each job",
+    "big": "₹0",
+    "color": "mint",
+    "label": "TDS at both: each applies the rebate",
+    "vo": "दोनों companies ने zero TDS काटा।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Combined ₹14 lakh salary",
+    "big": "₹81,900",
+    "color": "amber",
+    "label": "Tax due at filing (new regime, with cess)",
+    "vo": "पर कुल चौदह लाख पर tax इक्यासी हज़ार।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Fix it now",
+    "marks": "num",
+    "items": [
+     "Tell new HR your old salary",
+     "Deduct ₹75,000 only once",
+     "Pay any gap early"
+    ],
+    "vo": "नए HR को पुरानी salary बताओ।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Two jobs. **One bill.**",
+    "cta": [
+     "Send to the colleague who just joined",
+     "Follow for a money fix every day"
+    ],
+    "vo": "नए colleague को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Switched jobs this year? Could you owe tax at filing?\n\nEach employer works out your TDS as if its salary is your only income, so both can apply the ₹75,000 standard deduction and the ₹12 lakh rebate.\nIllustrative: ₹7 lakh at each job → ₹0 TDS at both. Combined ₹14 lakh (standard deduction once) → ₹13.25 lakh taxable → ≈ ₹81,900 tax in the new regime, including cess.\nFix: give your new employer your earlier salary and TDS details, and pay any gap early as self-assessment tax to keep interest down.\n\nDid your new HR ask for your old salary details?\n\nSources: a financial-planning firm's job-switch tax guide (July 2026) with this example, a personal-finance magazine (July 2026), and two FY 2026-27 slab summaries; we re-checked the arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #jobswitch #form16 #salariedindia #tds"
+ }
+}

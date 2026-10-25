@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "slot": "reel",
+  "publish_at": "2026-10-28T13:45",
+  "topic": "Job switch mid-year: each employer applies the ₹75,000 standard deduction and ₹12 lakh rebate separately; illustrative ₹7 lakh + ₹7 lakh → ₹0 TDS at both, ≈ ₹81,900 tax due at filing on ₹14 lakh (new regime, with cess)",
+  "hook_pattern": "big-question",
+  "experiment": "KEEP (big-question) and first reel under the new 'payslip slot' rule: pm reel ties its ₹ to salary/job events with a colleague send target, after EPF (112 views) and gratuity (110). Tests whether a job-switch tax shock reaches the same audience. 5 scenes, 35 vo words, ~15 s.",
+  "caption": "Switched jobs this year? Could you owe tax at filing?\n\nEach employer works out your TDS as if its salary is your only income, so both can apply the ₹75,000 standard deduction and the ₹12 lakh rebate.\nIllustrative: ₹7 lakh at each job → ₹0 TDS at both. Combined ₹14 lakh (standard deduction once) → ₹13.25 lakh taxable → ≈ ₹81,900 tax in the new regime, including cess.\nFix: give your new employer your earlier salary and TDS details, and pay any gap early as self-assessment tax to keep interest down.\n\nDid your new HR ask for your old salary details?\n\nSources: a financial-planning firm's job-switch tax guide (July 2026) with this example, a personal-finance magazine (July 2026), and two FY 2026-27 slab summaries; we re-checked the arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#incometax #jobswitch #form16 #salariedindia #tds",
+  "spec": "specs/2026-10-28-reel-pm.json",
+  "media": [
+    "media/2026-10-28/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-28/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.finnovate.in/learn/blog/multiple-form-16-itr-job-switch-india",
+    "https://www.outlookmoney.com/tax/changed-jobs-in-fy-2025-26-heres-what-to-check-before-filing-your-itr",
+    "https://www.storyboard18.com/amp/special-coverage/budget-2026-no-change-in-tax-rates-in-budget-2026-rebate-continues-for-income-up-to-%e2%82%b912-lakh-88610.htm",
+    "https://calcguru.in/questions/what-are-the-new-tax-regime-slab-rates-for-fy-2026-27-ay-2027-28/"
+  ]
+}

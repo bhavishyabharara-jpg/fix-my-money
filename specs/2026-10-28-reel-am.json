@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-28",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Regret a [[₹50,000]] policy? You have 30 days",
+    "vo": "पचास हज़ार की policy पर पछतावा? तीस दिन हैं।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Free-look period: life & health",
+    "big": "30 days",
+    "color": "mint",
+    "label": "From the day you get the policy document",
+    "vo": "तीस दिन में cancel, पैसा वापस।"
+   },
+   {
+    "type": "list",
+    "dur": 3.0,
+    "title": "Only these get deducted",
+    "marks": "num",
+    "items": [
+     "Cover for the days used",
+     "Medical test cost",
+     "Stamp duty"
+    ],
+    "vo": "सिर्फ़ cover, test, stamp duty कटते हैं।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Refund deadline",
+    "big": "7 days",
+    "color": "amber",
+    "label": "After your cancellation request",
+    "vo": "Refund सात दिन में।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Read it in the **first 30 days.**",
+    "cta": [
+     "Send to the friend who just bought a policy",
+     "Follow for a money fix every day"
+    ],
+    "vo": "नई policy लेने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Regret a policy you just bought? Did you know you have 30 days?\n\nInsurance rules give new life and individual health policies a 30-day free-look period, counted from the day you receive the policy document.\nCancel inside it and you get the premium back, minus only cover for the days used, any medical-test cost and stamp duty.\nThe refund is due within 7 days of your request. (ULIPs refund at the day's unit value. Renewals, portability and policies under a year are excluded.)\nIllustrative: on a ₹50,000 premium, that's most of the money back.\n\nHave you ever bought a policy you didn't fully understand?\n\nSources: an insurance-news explainer on the regulator's 2024 notification and a policy-advisory guide (updated Jan 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#insurance #freelookperiod #lifeinsurance #healthinsurance #misselling"
+ }
+}

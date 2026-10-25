@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28",
+  "slot": "reel",
+  "publish_at": "2026-10-28T02:45",
+  "topic": "Insurance free-look period: 30 days from receiving the policy document for new life and individual health policies; refund minus proportionate risk premium, medical-exam cost and stamp duty, within 7 days (illustrative ₹50,000 premium)",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number: 'the premium isn't gone, you have 30 days'). Applies the 24 Oct co-buyer send rule to insurance: send target is the friend who just bought a policy (festive-season and bank-counter buys). 5 scenes, 33 vo words, ~14 s.",
+  "caption": "Regret a policy you just bought? Did you know you have 30 days?\n\nInsurance rules give new life and individual health policies a 30-day free-look period, counted from the day you receive the policy document.\nCancel inside it and you get the premium back, minus only cover for the days used, any medical-test cost and stamp duty.\nThe refund is due within 7 days of your request. (ULIPs refund at the day's unit value. Renewals, portability and policies under a year are excluded.)\nIllustrative: on a ₹50,000 premium, that's most of the money back.\n\nHave you ever bought a policy you didn't fully understand?\n\nSources: an insurance-news explainer on the regulator's 2024 notification and a policy-advisory guide (updated Jan 2026).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#insurance #freelookperiod #lifeinsurance #healthinsurance #misselling",
+  "spec": "specs/2026-10-28-reel-am.json",
+  "media": [
+    "media/2026-10-28/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-28/reel-am/reel_cover.png",
+  "sources": [
+    "https://news.onepercentclub.io/insurance/how-much-refund-can-you-get-during-30-day-free-look-period-for-life-and-health-insurance/4057",
+    "https://joinditto.in/articles/life-insurance/free-look-period-in-term-insurance-2/"
+  ]
+}

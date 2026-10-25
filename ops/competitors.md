@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-25 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Is Ambani really running India?" 273K** (guest podcast clip); "Why your portfolio feels stuck" **151K** (115K yesterday); IPO guest reel 109K; "Elon Musk's $11 billion giveaway?" 207K; "The Truth About Jio's IPO" 315K; "Diwali treats" 124K; "poor after rich" 100K; "Is your PF really tax-free?" 174K; "India's economy" 127K.
+- **@ca_rachanaranade (pinned 405K):** nothing new: company case study 22.4K, "Can this rally sustain?" 31.5K, Dussehra course offers 27.2K, then the non-finance-background and IT-rally reels.
+- **@anushkarathod98:** nothing new; **"Gold is down -₹10,000!!!" 366K** (269K yesterday); "Good news if you pay GST!" 111K (97K); "Ordering everything we agree on (wait for bill reveal)" 229K; "EP-1 Shaadi ke baad ke finances" 206K; "I pay less for same flight, same seat!", "Must have for Indian couples", "Is the govt running out of money?".
+- **Rotated in @ankurwarikoo (pinned 3.3M / 3.4M / 3.7M: jealousy, "5 questions before marriage", "5 couple money rules"):** newest "My team's best purchases under ₹2K" 67.7K; **"260+ careers that exist today" 750K**; "Career in sports" 18.1K; "5 AI jobs after B.Tech" 123K; **"30 days to know your parents better" 431K**. Career and family "lists you'd send to someone" beat his shopping reel 6–11×.
+- **Pattern:** the price-drop news reel is still compounding (+97K in a day), but we can't quote recent prices. The send-worthy formats this week are career / job content (750K) and couple or family rules. Used: job-switch tax shortfall with a colleague send target (28 Oct pm), insurance free-look with a new-buyer send target (28 Oct am).
+- **News (last 48 h):** search found no household-ready rule change. Used evergreen, two-source facts: 30-day free-look for new life and individual health policies, deductions limited to proportionate risk premium, medical-exam cost and stamp duty, refund within 7 days (an insurance-news explainer on the regulator's 2024 notification and a policy-advisory guide updated Jan 2026 agree); job-switch TDS shortfall (a financial-planning firm's guide, July 2026, with the ₹14 lakh → ₹81,900 example, and a personal-finance magazine, July 2026); FY 2026-27 new-regime slabs unchanged (a Budget-day report and a tax-calculator page agree), and our own arithmetic matches ₹81,900. **Not used:** the form-number change for the previous-employer declaration (only one source).
+
 ## 2026-10-24 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
