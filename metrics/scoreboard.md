@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-24
+# Scoreboard — 2026-10-25
 
-Followers **11** (+0 vs previous day). Reels tracked: 45. Median views per reel: 20.
+Followers **11** (+0 vs previous day). Reels tracked: 47. Median views per reel: 20.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -18,8 +18,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-19-reel-mid Locker robbed? The bank pays at most 100× the annual rent, a | contrarian-number | yes | 47 | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-15-reel-pm Job switch: PF withdrawn before 5 years isn't tax-free; tran | contrarian-number | yes | 39 | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
-| 2026-10-22-reel-pm Gratuity = 15/26 × last monthly wages × years: illustrative  | guess-the-number | yes | 109 | 2.4s (17%) | 0 | 0 | 0 | 0 | 4.2 |
+| 2026-10-22-reel-pm Gratuity = 15/26 × last monthly wages × years: illustrative  | guess-the-number | yes | 110 | 2.4s (17%) | 0 | 0 | 0 | 0 | 4.2 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
+| 2026-10-24-reel-pm EPF wage ceiling ₹15,000 → ₹25,000 (October first full salar | big-question | yes | 112 | 2.2s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-20-reel-mid ₹10,000 savings-interest deduction applies only in the old r | contrarian-number | yes | 17 | 2.4s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-21-reel-am Diwali bonus vs vouchers: employer gifts tax-free up to ₹15, | big-question | yes | 70 | 1.8s (15%) | 0 | 0 | 0 | 0 | 3.8 |
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
@@ -35,9 +36,11 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-11-reel-am Festive shopping: why "no-cost EMI" isn't always zero cost | news-stakes | yes | 37 | 2.3s (12%) | 0 | 0 | 0 | 0 | 2.9 |
 | 2026-10-20-reel-am Cheque bounced? Fine up to 2× the amount or up to 2 years' j | big-question | yes | 22 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.8 |
 | 2026-10-19-reel-pm Prepaying a floating-rate loan? From 1 Jan 2026, the prepaym | hinglish-hook | yes | 21 | 1.5s (11%) | 0 | 0 | 0 | 0 | 2.7 |
+| 2026-10-24-reel-am Credit card cash withdrawal: no interest-free period, typica | contrarian-number | yes | 16 | 1.7s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.1s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-16-reel-am How much gold can you keep at home? 500 g / 250 g / 100 g ta | big-question | yes | 5 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-13-reel-mid Missed your ITR? The belated return deadline is 31 Dec, with | news-list | yes | 9 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
+| 2026-10-23-reel-pm Deepfake 'free money' ads: govt cyber-crime centre warning ( | news-stakes | yes | 7 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-12-reel-pm A ₹200-a-day habit = ₹73,000 a year: what small daily spends | small-input-big-number | yes | 46 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-20-reel-pm Salary gone by the 10th? Pay yourself first: 20% out on sala | pov-relatable | yes | 29 | 1.3s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-14-reel-pm Salary account? One big bank cut free other-bank ATM uses fr | news-list | yes | 19 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.4 |
@@ -52,18 +55,17 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-10-23-reel-pm Deepfake 'free money' ads: govt cyber-crime centre warning ( | news-stakes | yes | 4 | 0.6s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| contrarian-number | 8 | 32 | 16% | 4.0 | EXPLOIT |
-| guess-the-number | 2 | 68 | 15% | 3.6 | keep |
+| contrarian-number | 9 | 24 | 16% | 4.0 | EXPLOIT |
+| guess-the-number | 2 | 69 | 15% | 3.6 | keep |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
+| big-question | 15 | 20 | 13% | 3.2 | keep |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
-| big-question | 14 | 20 | 12% | 3.0 | keep |
 | hinglish-hook | 1 | 21 | 11% | 2.7 | keep (low data) |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
 | news-list | 7 | 9 | 10% | 2.5 | drop |
