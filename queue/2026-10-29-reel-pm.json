@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "slot": "reel",
+  "publish_at": "2026-10-29T13:45",
+  "topic": "Employer NPS deductible up to 14% of basic + DA in the new regime (private and government): illustrative ₹50,000 basic a month → ₹84,000 a year → ≈ ₹17,472 less tax at the 20% slab with 4% cess",
+  "hook_pattern": "guess-the-number",
+  "experiment": "KEEP (guess-the-number, best median views) in the payslip slot with the ₹ answer on frame 0 and the 'hidden ₹ on your payslip' framing. 12-second rule: 4 scenes, 21 spoken words, hook vo 6 words, 11.4 s. Tests whether a ₹ gain (not a loss) holds as well; colleague send target.",
+  "caption": "Can one line on your payslip cut your tax by ₹17,472?\n\nIn the new tax regime, your employer's NPS contribution is deductible up to 14% of basic + DA, for private and government employees.\nIllustrative: ₹50k basic/month → up to ₹84,000 a year → at the 20% slab plus 4% cess, ≈ ₹17,472 less tax.\nIt usually comes out of your CTC, so take-home pay falls and the money stays invested for retirement. Total employer PF + NPS + superannuation is capped at ₹7.5 lakh a year.\n\nDoes your company offer employer NPS?\n\nSources: an investment-research site's July 2026 explainer, the NPS record-keeper's FY 2026-27 guide and an FY 2026-27 slab summary; the ₹ figure is our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#nps #newtaxregime #salary #taxsaving #salariedindia",
+  "spec": "specs/2026-10-29-reel-pm.json",
+  "media": [
+    "media/2026-10-29/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-29/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.valueresearchonline.com/stories/229044/employer-nps-deduction-new-tax-regime/",
+    "https://cms.proteantech.in/articles/corporate-nps-tax-regime-2026",
+    "https://calcguru.in/questions/what-are-the-new-tax-regime-slab-rates-for-fy-2026-27-ay-2027-28/"
+  ],
+  "duration_s": 11.4
+}

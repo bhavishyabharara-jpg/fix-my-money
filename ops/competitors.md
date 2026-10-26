@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-26 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** (views shown, logged out).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Six months… and you end up paying the loan for" 107K** (guest clip on loan tenure); "Is Ambani really running India?" **351K** (273K yesterday); "Why your portfolio feels stuck" 163K; IPO guest 112K; "Elon Musk's $11 billion giveaway?" 218K; "The Truth About Jio's IPO" 318K; "Diwali treats" 128K; "poor after rich" 103K; "Is your PF really tax-free?" 178K.
+- **@ca_rachanaranade (pinned 405K):** nothing new: company case study 23.9K, "Can this rally sustain?" 32.6K, Dussehra course offer 27.9K.
+- **@anushkarathod98:** nothing new; "Gold is down -₹10,000!!!" **385K** (366K); "Good news if you pay GST!" 114K; "Ordering everything we agree on (wait for bill reveal)" 236K; "EP-1 Shaadi ke baad ke finances" 209K; "I pay less for same flight, same seat!" 115K; "Must have for Indian couples" 141K.
+- **Rotated in @labourlawadvisor:** "London to UP baccha paida karne" **581K**; "Hospital ki loot" **118K**; "Types of forces" 166K; "Cancer ki dawai ya loot" 27.6K; "Dark patterns of quick logistics app" 24.9K; pinned 2.3M / 3.3M. Exposé framing ("loot") on a bill the viewer pays wins when it's a big-ticket bill (hospital), not an app.
+- **Pattern:** bill-reveal and "what the price really costs you" keep compounding (bill reveal 236K, hospital loot 118K, loan-tenure trap 107K). Matches our own 25 Oct data (gold bill 26% hold). Used: hidden GST in a no-cost EMI (29 Oct am), employer-NPS tax saving on the payslip (29 Oct pm).
+- **News (last 48 h):** the July 2026 DA hike (60% → expected 63%) is still awaiting cabinet approval; every page we opened is an expectation, so not used (no predictions). Used evergreen, two-source facts: GST on the interest of a no-cost EMI is still charged to the cardholder (a credit-comparison site's explainer, Dec 2025, a personal-finance magazine, Sep 2024, and a brokerage's learning newsletter agree; their ₹ examples disagree, so we use only our own EMI-formula arithmetic); employer NPS deductible up to 14% of basic + DA in the new regime for private and government employees (an investment-research site, July 2026, and the NPS record-keeper's FY 2026-27 guide agree); FY 2026-27 slabs from a tax-calculator page (20% for ₹16–20 lakh, 4% cess). **Not used:** processing-fee amounts (sources disagree: ₹100 vs ₹199).
+
 ## 2026-10-25 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).

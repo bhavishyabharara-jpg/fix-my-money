@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "slot": "reel",
+  "publish_at": "2026-10-29T02:45",
+  "topic": "No-cost EMI still costs the 18% GST on the interest: illustrative ₹1 lakh over 12 months at 15% → interest ≈ ₹7,672 covered by the seller's discount, GST ≈ ₹1,381 billed to the card",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number) with the new 'price tag → hidden ₹' hook copied from 25 Oct am gold bill (26% hold). First reel under the 25 Oct weekly 12-second rule: 4 scenes, 20 spoken words, hook vo 6 words, 11.4 s. Festive am slot; send target the friend buying on EMI this sale.",
+  "caption": "Bought something on 'no-cost' EMI this festive sale: do you still pay extra?\n\nOn a no-cost EMI the bank still charges interest; the seller gives an upfront discount equal to that interest.\nThe 18% GST on the interest is not covered by that discount, so it lands on your card bill.\nIllustrative: ₹1 lakh over 12 months at 15% a year → interest ≈ ₹7,672 → GST ≈ ₹1,381 extra, plus any processing fee (also with GST).\nAsk to see the interest and GST split before you choose EMI.\n\nDid your last EMI purchase show a GST line on the bill?\n\nSources: a credit-comparison site's no-cost EMI explainer, a personal-finance magazine's credit-card EMI guide and a brokerage's learning newsletter; ₹ figures are our own EMI-formula arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#nocostemi #festivesale #creditcard #emi #personalfinanceindia",
+  "spec": "specs/2026-10-29-reel-am.json",
+  "media": [
+    "media/2026-10-29/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-29/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.paisabazaar.com/credit-card/should-you-opt-no-cost-emi-consumer-durables/",
+    "https://www.outlookmoney.com/tax/are-no-cost-emis-on-credit-cards-really-free-heres-why-you-end-up-paying-more",
+    "https://zerodhavarsity.substack.com/p/the-actual-cost-of-no-cost-emi"
+  ],
+  "duration_s": 11.4
+}

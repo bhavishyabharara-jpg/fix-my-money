@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-26 — Daily review (day 6 after the goal date)
+
+- **Followers: 11 (+0 vs 25 Oct, flat 10 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 52 posts in, still 0 sends and 0 follows from any reel. The gap is not closing; the only thing moving is hold.
+- **Best (new data):** 25 Oct am "₹1 lakh of gold costs you ₹1,13,500" **117 views on day 1 and 3.7 s held (26%)**, our best day-1 views and the best hold on a reel with real reach since frame-0 hooks (10 Oct). 25 Oct pm bill-reveal "₹4,000 dinner bill? ₹400 optional" **39 views, 3.4 s (25%)**. Both hooks open on the price tag of something the viewer is buying this week and reveal a hidden ₹ inside the bill; the viewer stays to see the breakdown. **Worst (still):** 24 Oct am card cash withdrawal 16 views, 1.7 s (11%): a habit, not a purchase.
+- **Patterns:** **contrarian-number EXPLOIT** (10 reels, median score 4.0, median 32 views); **bill-reveal keep, promote to test again** (1 reel, 25% hold, score 6.2); guess-the-number keep (2 reels, median 69 views); big-question test again; news-list stays **dropped**.
+- **Narrated vs silent:** narrated median 20 views / 12% vs silent 22 / 13%. Level; voice stays `sarvam:amit`.
+- **Engine change today: "price tag → hidden ₹" hook.** The two reels that held ≥25% both put a familiar bill amount and the hidden extra on frame 0. Both new jobs use it: 29 Oct am (contrarian-number, EXPLOIT) "No-cost EMI on ₹1 lakh? You pay ₹1,381" (18% GST on an illustrative ₹7,672 interest, send to the friend buying on EMI this sale); 29 Oct pm (guess-the-number, keep, payslip slot) "Guess this payslip line's tax saving: ₹17,472" (employer NPS 14% of basic in the new regime, illustrative ₹50k basic at the 20% slab, colleague send). These are also the first jobs under the 25 Oct weekly 12-second rule: 4 scenes, 20 and 21 spoken words, hook vo 6 words, 11.4 s silent render. Still 2 reels a day per the weekly decisions (the run prompt's 3 a day is overridden until the owner changes PLAYBOOK); queue runs to the end of 29 Oct. Frame check fixed two wrapped stat titles.
+
 ## 2026-10-25 — Weekly review (format level)
 
 - **Followers 11 vs 2,000 (goal date 20 Oct passed 5 days ago; the 18 Oct checkpoint was 1,100).** Flat for the second week (11 on 18 Oct → 11 today, 12 at peak). 47 reels in, still 0 sends and 0 follows from any reel.

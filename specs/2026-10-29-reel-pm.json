@@ -1,0 +1,44 @@
+{
+ "date": "2026-10-29",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Guess this payslip line's tax saving: [[₹17,472]]",
+    "vo": "Employer NPS: सत्रह हज़ार tax बचत।",
+    "mood": "happy"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Employer NPS, new tax regime",
+    "big": "14%",
+    "color": "mint",
+    "label": "of basic + DA is deductible",
+    "vo": "Basic का चौदह percent deductible।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: ₹50k basic/month",
+    "big": "₹84,000",
+    "color": "amber",
+    "label": "deducted a year → ₹17,472 less tax at 20%",
+    "vo": "बीस percent slab पर, सत्रह हज़ार बचे।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Ask HR: **employer NPS?**",
+    "cta": [
+     "Send to the colleague doing tax planning",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Colleague को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Can one line on your payslip cut your tax by ₹17,472?\n\nIn the new tax regime, your employer's NPS contribution is deductible up to 14% of basic + DA, for private and government employees.\nIllustrative: ₹50k basic/month → up to ₹84,000 a year → at the 20% slab plus 4% cess, ≈ ₹17,472 less tax.\nIt usually comes out of your CTC, so take-home pay falls and the money stays invested for retirement. Total employer PF + NPS + superannuation is capped at ₹7.5 lakh a year.\n\nDoes your company offer employer NPS?\n\nSources: an investment-research site's July 2026 explainer, the NPS record-keeper's FY 2026-27 guide and an FY 2026-27 slab summary; the ₹ figure is our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#nps #newtaxregime #salary #taxsaving #salariedindia"
+ }
+}
