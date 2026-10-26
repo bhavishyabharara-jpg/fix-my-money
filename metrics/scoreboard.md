@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-25
+# Scoreboard — 2026-10-26
 
-Followers **11** (+0 vs previous day). Reels tracked: 47. Median views per reel: 20.
+Followers **11** (+0 vs previous day). Reels tracked: 49. Median views per reel: 21.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -12,6 +12,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-07-reel-pm Start a SIP at 25 or 30? What a 5-year delay costs by 60 | big-question | yes | 9 | 11.4s (57%) | 0 | 0 | 1 | 0 | 15.7 |
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
+| 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
+| 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 39 | 3.4s (25%) | 0 | 0 | 0 | 0 | 6.2 |
 | 2026-10-21-reel-pm Exchanging old gold for new jewellery counts as a sale: long | contrarian-number | yes | 109 | 2.3s (21%) | 0 | 0 | 0 | 0 | 5.2 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
@@ -20,7 +22,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
 | 2026-10-22-reel-pm Gratuity = 15/26 × last monthly wages × years: illustrative  | guess-the-number | yes | 110 | 2.4s (17%) | 0 | 0 | 0 | 0 | 4.2 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
-| 2026-10-24-reel-pm EPF wage ceiling ₹15,000 → ₹25,000 (October first full salar | big-question | yes | 112 | 2.2s (16%) | 0 | 0 | 0 | 0 | 4.0 |
+| 2026-10-24-reel-pm EPF wage ceiling ₹15,000 → ₹25,000 (October first full salar | big-question | yes | 114 | 2.2s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-20-reel-mid ₹10,000 savings-interest deduction applies only in the old r | contrarian-number | yes | 17 | 2.4s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-21-reel-am Diwali bonus vs vouchers: employer gifts tax-free up to ₹15, | big-question | yes | 70 | 1.8s (15%) | 0 | 0 | 0 | 0 | 3.8 |
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
@@ -60,11 +62,12 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
+| bill-reveal | 1 | 39 | 25% | 6.2 | keep (low data) |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| contrarian-number | 9 | 24 | 16% | 4.0 | EXPLOIT |
+| contrarian-number | 10 | 32 | 16% | 4.0 | EXPLOIT |
 | guess-the-number | 2 | 69 | 15% | 3.6 | keep |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
-| big-question | 15 | 20 | 13% | 3.2 | keep |
+| big-question | 15 | 20 | 13% | 3.2 | test again |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
 | hinglish-hook | 1 | 21 | 11% | 2.7 | keep (low data) |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
