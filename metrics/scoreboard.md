@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-26
+# Scoreboard — 2026-10-27
 
-Followers **11** (+0 vs previous day). Reels tracked: 49. Median views per reel: 21.
+Followers **11** (+0 vs previous day). Reels tracked: 51. Median views per reel: 21.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -13,7 +13,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
-| 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 39 | 3.4s (25%) | 0 | 0 | 0 | 0 | 6.2 |
+| 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 129 | 3.5s (25%) | 0 | 0 | 0 | 0 | 6.3 |
 | 2026-10-21-reel-pm Exchanging old gold for new jewellery counts as a sale: long | contrarian-number | yes | 109 | 2.3s (21%) | 0 | 0 | 0 | 0 | 5.2 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
@@ -35,6 +35,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-05-reel-am Money rules that changed in October 2026 | news-list | no | 30 | 2.5s (12%) | 0 | 0 | 0 | 0 | 3.1 |
 | 2026-10-17-reel-am Guess the tax on a ₹12.75 lakh salary under the new regime:  | guess-the-number | yes | 28 | 1.8s (12%) | 0 | 0 | 0 | 0 | 3.0 |
 | 2026-10-18-reel-pm Life policy over 3 years old: Section 45 says it can't be qu | myth-buster | yes | 10 | 1.7s (12%) | 0 | 0 | 0 | 0 | 3.0 |
+| 2026-10-26-reel-am Health insurance room-rent cap: a room above the cap cuts ro | contrarian-number | yes | 52 | 1.8s (12%) | 0 | 0 | 0 | 0 | 2.9 |
 | 2026-10-11-reel-am Festive shopping: why "no-cost EMI" isn't always zero cost | news-stakes | yes | 37 | 2.3s (12%) | 0 | 0 | 0 | 0 | 2.9 |
 | 2026-10-20-reel-am Cheque bounced? Fine up to 2× the amount or up to 2 years' j | big-question | yes | 22 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.8 |
 | 2026-10-19-reel-pm Prepaying a floating-rate loan? From 1 Jan 2026, the prepaym | hinglish-hook | yes | 21 | 1.5s (11%) | 0 | 0 | 0 | 0 | 2.7 |
@@ -55,6 +56,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-17-reel-pm Missed EMIs: can the lender take your car by force? Supreme  | big-question | yes | 7 | 1.0s (6%) | 0 | 0 | 0 | 0 | 1.6 |
 | 2026-10-16-reel-pm Got more than ₹50,000 in gifts from friends? When festive gi | big-question | yes | 30 | 0.9s (6%) | 0 | 0 | 0 | 0 | 1.5 |
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
+| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 7 | 0.6s (4%) | 0 | 0 | 0 | 0 | 1.1 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 
@@ -62,13 +64,13 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
-| bill-reveal | 1 | 39 | 25% | 6.2 | keep (low data) |
+| bill-reveal | 1 | 129 | 25% | 6.3 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| contrarian-number | 10 | 32 | 16% | 4.0 | EXPLOIT |
-| guess-the-number | 2 | 69 | 15% | 3.6 | keep |
+| contrarian-number | 11 | 39 | 16% | 4.0 | EXPLOIT |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
 | big-question | 15 | 20 | 13% | 3.2 | test again |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
+| guess-the-number | 3 | 28 | 12% | 3.0 | keep |
 | hinglish-hook | 1 | 21 | 11% | 2.7 | keep (low data) |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
 | news-list | 7 | 9 | 10% | 2.5 | drop |
