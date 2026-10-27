@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-27 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** (views shown, logged out).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** nothing new; loan-tenure clip **130K** (107K yesterday); "Is Ambani really running India?" 373K; "Why your portfolio feels stuck" 172K; IPO guest 116K; Musk giveaway 226K; Jio IPO 329K; Diwali treats 131K; poor-after-rich 105K; "Is your PF really tax-free?" 181K.
+- **@ca_rachanaranade (pinned 405K):** new "3 global events / Indian markets" **34.5K**; company case study 24.9K; "Can this rally sustain?" 33.5K.
+- **@anushkarathod98:** new GST-council "Good news if you pay GST!" **156K**; "Gold is down -₹10,000!!!" **396K** (385K); earlier GST reel 116K; "Ordering everything we agree on (wait for bill reveal)" **241K** (236K); "Shaadi ke baad ke finances", "I pay less for same flight", "Must have for Indian couples".
+- **Rotated in @pranjalkamra:** pinned 3.3M ("investment plan for 5,000") and 2M ("luxury brands are fooling you?"); recent: **"Should you even buy a car in 2026?" 92.8K**, Jio IPO 328K, "Please don't trust me" 38.3K, "Why you'll never make money in stocks" 37.1K, "Don't invest like this" 27.3K. A big-purchase decision question (car) beats his market reels 2–3×.
+- **Pattern:** "the price you see vs what you really pay" keeps compounding across creators (bill reveal 241K, luxury-brands 2M, car-purchase question 93K). Used: card minimum-due cost on the festive bill (30 Oct am), CTC vs in-hand as a payslip bill-reveal (30 Oct pm).
+- **News (last 48 h):** the search returned no dated household-money change for 25–27 Oct; nothing used. Used evergreen facts with two or more sources: paying only the minimum due keeps interest running and cancels the interest-free period on new purchases (a personal-finance magazine, Aug 2025, a loans-marketplace guide and a bank's card-interest page agree; their monthly rates run 2.5–3.75%, so we use an illustrative 3%); employer and employee PF 12% of basic and gratuity ≈ 4.81% of basic (a hiring platform's CTC guide, Oct 2026, and a salary-calculator site's guide, Sep 2026, agree); new-regime ₹75,000 standard deduction and no tax on taxable income up to ₹12 lakh (the hiring-platform guide and a tax explainer, Mar 2026). **Not used:** the hiring platform's ₹25,000 PF-wage-ceiling in-hand figure (our 24 Oct reel covered the ceiling) and professional-tax rates other than ₹200 (they vary by state).
+
 ## 2026-10-26 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** (views shown, logged out).

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "slot": "reel",
+  "publish_at": "2026-10-30T13:45",
+  "topic": "CTC vs in-hand: illustrative ₹12 lakh CTC with ₹50k basic → employer + employee PF ₹12,000, gratuity 4.81% ₹2,405, professional tax ₹200 a month, ₹0 income tax in the new regime → ≈ ₹85,395 in hand a month",
+  "hook_pattern": "bill-reveal",
+  "experiment": "KEEP: second bill-reveal (25 Oct pm got 129 views, 25% hold), moved from a restaurant bill to the payslip slot: CTC as the price tag, in-hand as the reveal. Tests whether bill-reveal holds 25% on salary. 20 spoken words, 11.4 s; send target the friend with a new offer letter.",
+  "caption": "Is a ₹1 lakh a month CTC really ₹1 lakh in your hand?\n\nIllustrative ₹12 lakh CTC, ₹50k basic: employer PF ₹6,000 and gratuity ₹2,405 a month sit inside CTC but never reach your account.\nFrom your gross, your own PF ₹6,000 and professional tax ₹200 (varies by state) come out.\nIncome tax is ₹0 here: in the new regime, taxable income up to ₹12 lakh after the ₹75,000 standard deduction pays none. Left in hand ≈ ₹85,395 a month.\nYour PF is still your money, just not spendable this month. If PF is on the ₹25,000 wage ceiling, in-hand is higher.\n\nHow far apart were your CTC and your first salary credit?\n\nSources: a hiring platform's CTC-to-in-hand guide, a salary-calculator site's salary-structure guide and an FY 2026-27 tax explainer; the ₹ figures are our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#ctc #inhandsalary #salary #offerletter #salariedindia",
+  "spec": "specs/2026-10-30-reel-pm.json",
+  "media": [
+    "media/2026-10-30/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-30/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.weekday.works/post/ctc-meaning-in-hand-salary",
+    "https://salaryinhand.in/guides/salary-structure",
+    "https://filingin.com/?p=34526"
+  ],
+  "duration_s": 11.4
+}

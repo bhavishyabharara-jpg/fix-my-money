@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-10-27 — Daily review (day 7 after the goal date)
+
+- **Followers: 11 (+0 vs 26 Oct, flat 11 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 54 posts in, still 0 sends and 0 follows from any reel. Reach per good reel is ~110–130 views; nothing converts, and nothing in the data says this changes without outside reach (collab or the owner's manual push).
+- **Best (new data):** 25 Oct pm bill-reveal "₹4,000 dinner bill? ₹400 optional" grew **39 → 129 views at 3.5 s (25%)**, now our best views since 9 Oct with the best hold among reels above 50 views. 25 Oct am gold bill holds at 117 / 26%. **Worst:** 26 Oct pm "Insurance expired? Guess your fine: ₹2,000" **7 views, 0.6 s (4%)**, the lowest hold we've recorded: a fine for a situation the viewer isn't in, exactly what the 25 Oct weekly rule bans. 26 Oct am room-rent cap 52 views, 1.8 s (12%): a ₹ loss, but on a hospital bill nobody is paying this week.
+- **Patterns:** **contrarian-number EXPLOIT** (11 reels, median 39 views, score 4.0); **bill-reveal keep and promote** (1 reel, 129 views, 25%, score 6.3, top of the board); guess-the-number keep but the frame-0-answer version failed (26 Oct pm 4%; 29 Oct pm uses the same shape, so watch it); big-question test again; news-list stays **dropped**.
+- **Narrated vs silent:** narrated median 20 views / 12% vs silent 22 / 13%. Level; voice stays `sarvam:amit`.
+- **Engine change today: bill-reveal moves to the payslip slot.** The two ≥25% holds were both a price tag the viewer pays with the hidden ₹ on frame 0. 30 Oct pm (bill-reveal, keep) treats CTC as the price tag: "₹1 lakh a month CTC? You get ₹85,395" (illustrative ₹50k basic: PF ₹12,000 + gratuity ₹2,405 + professional tax ₹200 a month, ₹0 tax in the new regime; send to the friend with a new offer letter). 30 Oct am (contrarian-number, EXPLOIT) is the festive card bill: "Paid the minimum on ₹50,000? ₹1,682 extra" (illustrative 3% a month + 18% GST on ₹47,500; send to the friend who pays the minimum). Both 4 scenes, 20 spoken words, 11.4 s silent render. Still 2 a day per the weekly decisions; queue runs to the end of 30 Oct. Frame check fixed an overflowing end-scene send line and three orphan words.
+
 ## 2026-10-26 — Daily review (day 6 after the goal date)
 
 - **Followers: 11 (+0 vs 25 Oct, flat 10 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 52 posts in, still 0 sends and 0 follows from any reel. The gap is not closing; the only thing moving is hold.

@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-30",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Paid the minimum on ₹50,000? [[₹1,682]] extra",
+    "vo": "Minimum due? सोलह सौ बयासी extra।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: ₹2,500 paid",
+    "big": "₹47,500",
+    "color": "amber",
+    "label": "still unpaid · 3% a month",
+    "vo": "बाकी पर तीन percent महीना।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Interest + 18% GST, 1 month",
+    "big": "₹1,682",
+    "color": "red",
+    "label": "and new buys lose interest-free days",
+    "vo": "नई shopping पर भी interest।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Pay the **total due.**",
+    "cta": [
+     "Send to the friend who pays the minimum",
+     "Follow for a money fix every day"
+    ],
+    "vo": "उस दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paid only the minimum due on a ₹50,000 festive card bill: how much extra does it cost?\n\nThe minimum due only stops the late fee. Interest still runs on what you leave unpaid, from the purchase date.\nIllustrative: ₹2,500 paid, ₹47,500 left at 3% a month → ₹1,425 interest + 18% GST ≈ ₹1,682 in one month.\nUntil the full balance is cleared, new purchases lose the interest-free period too. Card rates are often 2.5–3.75% a month; check yours.\n\nWhat's the biggest card bill you've carried to the next month?\n\nSources: a personal-finance magazine's credit-card interest explainer, a loans-marketplace guide and a bank's card interest page; the ₹ figure is our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #minimumdue #festivesale #debtfree #personalfinanceindia"
+ }
+}

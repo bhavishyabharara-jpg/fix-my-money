@@ -1,0 +1,44 @@
+{
+ "date": "2026-10-30",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1 lakh a month CTC? You get [[₹85,395]]",
+    "vo": "CTC एक लाख? मिलते पचासी हज़ार।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "PF, employer + yours",
+    "big": "₹12,000",
+    "color": "amber",
+    "label": "a month on ₹50k basic (illustrative)",
+    "vo": "PF में बारह हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Gratuity + professional tax",
+    "big": "₹2,605",
+    "color": "red",
+    "label": "a month · income tax ₹0 (new regime)",
+    "vo": "Gratuity और tax, छब्बीस सौ।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Read your **CTC breakup.**",
+    "cta": [
+     "Send to the friend with a new offer letter",
+     "Follow for a money fix every day"
+    ],
+    "vo": "New offer वाले को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Is a ₹1 lakh a month CTC really ₹1 lakh in your hand?\n\nIllustrative ₹12 lakh CTC, ₹50k basic: employer PF ₹6,000 and gratuity ₹2,405 a month sit inside CTC but never reach your account.\nFrom your gross, your own PF ₹6,000 and professional tax ₹200 (varies by state) come out.\nIncome tax is ₹0 here: in the new regime, taxable income up to ₹12 lakh after the ₹75,000 standard deduction pays none. Left in hand ≈ ₹85,395 a month.\nYour PF is still your money, just not spendable this month. If PF is on the ₹25,000 wage ceiling, in-hand is higher.\n\nHow far apart were your CTC and your first salary credit?\n\nSources: a hiring platform's CTC-to-in-hand guide, a salary-calculator site's salary-structure guide and an FY 2026-27 tax explainer; the ₹ figures are our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#ctc #inhandsalary #salary #offerletter #salariedindia"
+ }
+}
