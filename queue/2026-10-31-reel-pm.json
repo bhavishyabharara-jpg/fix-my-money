@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "slot": "reel",
+  "publish_at": "2026-10-31T13:45",
+  "topic": "Leave encashment: encashed in service = fully taxed as salary (illustrative ₹50,000 at 20% slab + 4% cess = ₹10,400); at resignation/retirement exempt up to the least of amount paid, ₹25 lakh lifetime, 10 months' average basic+DA, 30 days per completed year; available in both regimes",
+  "hook_pattern": "bill-reveal",
+  "experiment": "KEEP/promote (bill-reveal, top of the scoreboard) in the payslip slot: a payout as the price tag, tax as the reveal, then a ₹0 flip. Tests bill-reveal with a 'when' twist instead of a breakdown. 22 spoken words, 11.4 s; send target the colleague encashing leaves.",
+  "caption": "Encashing ₹50,000 of leave: how much of it goes to tax?\n\nLeave encashed while you're still in the job is taxed as salary: illustrative ₹50,000 at a 20% slab + 4% cess = ₹10,400.\nEncashed when you resign or retire, it's tax-free up to the least of: the amount paid, ₹25 lakh (lifetime, across all employers), 10 months' average basic + DA, and leave counted at most 30 days per completed year.\nThe exemption applies in both the old and new regimes. Your company's leave policy decides what you can carry forward.\n\nDo you encash leaves every year or let them pile up?\n\nSources: a payroll-software academy guide (Aug 2026), an HR platform's leave-encashment guide (May 2026) and a tax-filing site's explainer; the ₹ figure is our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#leaveencashment #incometax #salary #resignation #salariedindia",
+  "spec": "specs/2026-10-31-reel-pm.json",
+  "media": [
+    "media/2026-10-31/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-10-31/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.zoho.com/in/payroll/academy/payroll-administration/leave-encashment-exemption-employers-must-know-2026.html",
+    "https://darwinbox.com/blog/exemption-of-leave-encashment",
+    "https://cleartax.in/s/leave-encashment-tax"
+  ],
+  "duration_s": 11.4
+}

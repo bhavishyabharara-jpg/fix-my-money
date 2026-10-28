@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-28 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Your Dream Home Could Become a Nightmare" 82.6K**; new guest series "Dilemma of Democracy" 132K and "Are Gen-Z Not Planning for Future?" 138K; "Is Ambani really running India?" 384K (373K); "Why your portfolio feels stuck" 177K; IPO guest 121K; Musk giveaway 233K; Jio IPO 348K; "What if your bank paid for your Diwali treats?" 133K.
+- **@ca_rachanaranade (pinned 405K):** new demerger capital-gains explainer ("1 share → 1 share of each resulting company") **50.9K**; another new reel 6.4K; "3 global events / Indian markets" 41.4K (34.5K); "Will the IT rally sustain?" 81.3K.
+- **@anushkarathod98:** new **"60,000 employees laid off by [a tech major]!" 129K** and **"Bad news for [a big bank] users!" 177K**; "Gold is down -₹10,000!!!" 403K (396K); "Good news if you pay GST!" 189K; bill-reveal reel 245K (241K); "Shaadi ke baad ke finances" 213K.
+- **Rotated in @iamnehanagar:** pinned **"New born baby can save tax?" 7.8M**, a congratulations family reel 11.6M, "My husband's money is also my money" 2.2M; **"Before you plan a baby, watch this" 391K**; her other recent reels sit at 1–4K. Life-event money (baby, marriage) is her only breakout format.
+- **Pattern:** "good news / bad news if you're X" (bank users, GST payers, laid-off employees) is the fastest-growing hook of the week (129–189K in days): it names the viewer's group in the first words, so it is a ready-made send. Our closest equivalent is the send line; worth a hook test ("Bad news if you encash leaves") once bill-reveal has a second data point. Life-event money (baby, wedding) is a big untested topic for us.
+- **News (last 48 h):** searches returned market updates and a luxury-housing launch, no household-money rule change; nothing used, and no prices quoted. Used evergreen facts with two or more sources: hotel rooms at or below ₹7,500 a night 5% GST, above 18%, since 22 Sep 2025 (a tax-compliance site's guide updated Sep 2026 and a brokerage news explainer, Sep 2025, agree); leave encashment taxed as salary in service, exempt at resignation up to the least of amount paid / ₹25 lakh lifetime / 10 months' average basic + DA / 30 days per completed year, in both regimes (a payroll-software academy guide Aug 2026, an HR platform guide May 2026 and a tax-filing site agree). **Not used:** the invoice-discount route under the ₹7,500 slab (one source only).
+
 ## 2026-10-27 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** (views shown, logged out).

@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-31",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹7,600 room? You pay [[₹1,368]] GST",
+    "vo": "Room छिहत्तर सौ? GST अठारह percent।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹7,500 room, one night",
+    "big": "₹375",
+    "color": "green",
+    "label": "GST at 5% (up to ₹7,500)",
+    "vo": "पचहत्तर सौ पर सिर्फ़ पाँच percent।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹100 more tariff costs",
+    "big": "₹1,093",
+    "color": "red",
+    "label": "more a night, GST included",
+    "vo": "सौ रुपये ज़्यादा, ग्यारह सौ extra।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Mind **₹7,500.**",
+    "cta": [
+     "Send to the friend booking the Diwali trip",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Trip वाले को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Booking a ₹7,600 hotel room this Diwali: did you know ₹1,368 of the bill is GST?\n\nHotel rooms priced at or below ₹7,500 a night pay 5% GST: ₹375 on a ₹7,500 room.\nAbove ₹7,500 the rate jumps to 18%, on the whole tariff: ₹1,368 on ₹7,600.\nSo a room just ₹100 dearer costs ₹1,093 more a night: ₹8,968 vs ₹7,875. Over a 3-night trip that's ₹3,279.\n\nHave you ever paid more in GST than the room upgrade itself?\n\nSources: a tax-compliance site's 2026 hotel GST guide and a brokerage's news explainer on the September 2025 GST rate change; the ₹ figures are our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gst #hotelbooking #diwalitrip #travelindia #moneytips"
+ }
+}

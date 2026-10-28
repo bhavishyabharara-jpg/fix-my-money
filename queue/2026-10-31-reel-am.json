@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-31",
+  "slot": "reel",
+  "publish_at": "2026-10-31T02:45",
+  "topic": "Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% GST, above ₹7,500 pay 18% on the whole tariff (since 22 Sep 2025) → ₹7,600 room ₹1,368 GST vs ₹375 on ₹7,500; ₹100 more tariff costs ₹1,093 more a night",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number) in the festive am slot with the 'price tag → hidden ₹' frame-0 hook: a ₹100 tariff step that costs ₹1,093. Tests whether a travel bill holds like the gold bill (26%). 22 spoken words, 11.4 s; send target the friend booking the Diwali trip.",
+  "caption": "Booking a ₹7,600 hotel room this Diwali: did you know ₹1,368 of the bill is GST?\n\nHotel rooms priced at or below ₹7,500 a night pay 5% GST: ₹375 on a ₹7,500 room.\nAbove ₹7,500 the rate jumps to 18%, on the whole tariff: ₹1,368 on ₹7,600.\nSo a room just ₹100 dearer costs ₹1,093 more a night: ₹8,968 vs ₹7,875. Over a 3-night trip that's ₹3,279.\n\nHave you ever paid more in GST than the room upgrade itself?\n\nSources: a tax-compliance site's 2026 hotel GST guide and a brokerage's news explainer on the September 2025 GST rate change; the ₹ figures are our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gst #hotelbooking #diwalitrip #travelindia #moneytips",
+  "spec": "specs/2026-10-31-reel-am.json",
+  "media": [
+    "media/2026-10-31/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-10-31/reel-am/reel_cover.png",
+  "sources": [
+    "https://themunim.com/?p=53552",
+    "https://oga-prod.angelone.in/news/taxation/gst-cut-on-hotel-rooms-below-7-500-how-much-you-save"
+  ],
+  "duration_s": 11.4
+}

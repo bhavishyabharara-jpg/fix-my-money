@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-31",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹50,000 leave encashment? [[₹10,400]] goes to tax",
+    "vo": "Encash? दस हज़ार चार सौ tax।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Encashed while in the job",
+    "big": "100% taxed",
+    "color": "red",
+    "label": "as salary · 20% slab + cess (illustrative)",
+    "vo": "नौकरी में रहते encash, पूरा taxable।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Paid when you resign",
+    "big": "₹0 tax",
+    "color": "green",
+    "label": "exempt up to ₹25 lakh, lifetime",
+    "vo": "Resign पर, पच्चीस लाख तक tax-free।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check **when** you encash.",
+    "cta": [
+     "Send to the colleague encashing leaves",
+     "Follow for a money fix every day"
+    ],
+    "vo": "उस colleague को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Encashing ₹50,000 of leave: how much of it goes to tax?\n\nLeave encashed while you're still in the job is taxed as salary: illustrative ₹50,000 at a 20% slab + 4% cess = ₹10,400.\nEncashed when you resign or retire, it's tax-free up to the least of: the amount paid, ₹25 lakh (lifetime, across all employers), 10 months' average basic + DA, and leave counted at most 30 days per completed year.\nThe exemption applies in both the old and new regimes. Your company's leave policy decides what you can carry forward.\n\nDo you encash leaves every year or let them pile up?\n\nSources: a payroll-software academy guide (Aug 2026), an HR platform's leave-encashment guide (May 2026) and a tax-filing site's explainer; the ₹ figure is our own arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#leaveencashment #incometax #salary #resignation #salariedindia"
+ }
+}
