@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-27
+# Scoreboard — 2026-10-28
 
-Followers **11** (+0 vs previous day). Reels tracked: 51. Median views per reel: 21.
+Followers **11** (+0 vs previous day). Reels tracked: 53. Median views per reel: 21.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -29,6 +29,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
 | 2026-10-12-reel-am UPI shop payments above ₹2,000: the 0.4% merchant fee from 1 | news-stakes | yes | 89 | 2.5s (13%) | 0 | 0 | 2 | 0 | 3.6 |
 | 2026-10-18-reel-am Inflation hit 5.54% in September: what idle ₹1 lakh in cash  | news-stakes | yes | 26 | 2.1s (14%) | 0 | 0 | 0 | 0 | 3.5 |
+| 2026-10-27-reel-am Stacked festive-sale discounts multiply, they don't add: 50% | contrarian-number | yes | 3 | 2.0s (14%) | 0 | 0 | 0 | 0 | 3.5 |
 | 2026-10-17-reel-mid ₹10 lakh cash deposit isn't a limit: it's the yearly reporti | contrarian-number | yes | 24 | 1.9s (13%) | 0 | 0 | 0 | 0 | 3.4 |
 | 2026-10-18-reel-mid Can a minimum-balance fine push your savings balance below ₹ | big-question | yes | 20 | 2.0s (13%) | 0 | 0 | 0 | 0 | 3.3 |
 | 2026-10-23-reel-am Re-cut of 9 Oct best reel: ₹2 lakh trip on a 14% personal lo | big-question | yes | 20 | 2.0s (13%) | 0 | 0 | 0 | 0 | 3.2 |
@@ -42,12 +43,14 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-24-reel-am Credit card cash withdrawal: no interest-free period, typica | contrarian-number | yes | 16 | 1.7s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.1s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-16-reel-am How much gold can you keep at home? 500 g / 250 g / 100 g ta | big-question | yes | 5 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.7 |
+| 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 25 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-13-reel-mid Missed your ITR? The belated return deadline is 31 Dec, with | news-list | yes | 9 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-23-reel-pm Deepfake 'free money' ads: govt cyber-crime centre warning ( | news-stakes | yes | 7 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-12-reel-pm A ₹200-a-day habit = ₹73,000 a year: what small daily spends | small-input-big-number | yes | 46 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-20-reel-pm Salary gone by the 10th? Pay yourself first: 20% out on sala | pov-relatable | yes | 29 | 1.3s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-14-reel-pm Salary account? One big bank cut free other-bank ATM uses fr | news-list | yes | 19 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 9 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
+| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 8 | 1.3s (9%) | 0 | 0 | 0 | 0 | 2.2 |
 | 2026-10-22-reel-am Card fraud: zero liability if reported within 3 working days | big-question | yes | 15 | 1.0s (8%) | 0 | 0 | 0 | 0 | 2.1 |
 | 2026-10-12-reel-mid Parents on pension? The life certificate is due by 30 Nov, o | news-list | yes | 8 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.9 |
 | 2026-10-11-reel-pm Couples: is splitting bills 50-50 fair? Same-percentage spli | big-question | yes | 46 | 1.4s (7%) | 0 | 0 | 0 | 0 | 1.8 |
@@ -56,7 +59,6 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-17-reel-pm Missed EMIs: can the lender take your car by force? Supreme  | big-question | yes | 7 | 1.0s (6%) | 0 | 0 | 0 | 0 | 1.6 |
 | 2026-10-16-reel-pm Got more than ₹50,000 in gifts from friends? When festive gi | big-question | yes | 30 | 0.9s (6%) | 0 | 0 | 0 | 0 | 1.5 |
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
-| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 7 | 0.6s (4%) | 0 | 0 | 0 | 0 | 1.1 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 
@@ -66,11 +68,11 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 |---|---|---|---|---|---|
 | bill-reveal | 1 | 129 | 25% | 6.3 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| contrarian-number | 11 | 39 | 16% | 4.0 | EXPLOIT |
+| contrarian-number | 12 | 32 | 15% | 3.8 | EXPLOIT |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
 | big-question | 15 | 20 | 13% | 3.2 | test again |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
-| guess-the-number | 3 | 28 | 12% | 3.0 | keep |
+| guess-the-number | 4 | 26 | 11% | 2.8 | keep |
 | hinglish-hook | 1 | 21 | 11% | 2.7 | keep (low data) |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
 | news-list | 7 | 9 | 10% | 2.5 | drop |
