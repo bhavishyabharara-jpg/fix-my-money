@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-29 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** after closing the sign-up dialog (views shown). The rotating pick @thefinancebowl showed "Profile isn't available"; rotated to @casarthakahuja instead.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Is RBI Banning US Stock Investments?" 206K**; "Your Dream Home Could Become a Nightmare" 183K (82.6K yesterday); "Dilemma of Democracy" 168K; "Are Gen-Z Not Planning for Future?" 142K; "Is Ambani really running India?" 392K; "Why your portfolio feels stuck" 181K; IPO guest 123K; Musk giveaway 236K; Jio IPO 359K.
+- **@ca_rachanaranade (pinned 405K):** new **"What's driving this rally? Market excitement or strong fundamentals?" 50.1K** plus a Marathi cut of it 12.9K; demerger capital-gains explainer 59.3K (50.9K).
+- **@anushkarathod98:** new **"Left your job? Do this on EPFO first" 518K** (posted in the last ~2 days; her biggest recent reel); "For once I want US Indians to win" 39.8K; a foreign-policy explainer 1.8K (just posted); "60,000 employees laid off by [a tech major]!" 145K; "Bad news for [a big bank] users!" 244K; "Good news if you pay GST!" 198K; "Gold is down -₹10,000!!!" 407K; bill-reveal reel 249K; "Shaadi ke baad ke finances" 216K; "I pay less for same flight, same seat!" 120K.
+- **Rotated in @casarthakahuja:** "Silver Falls 53% — Should You Buy? (Oct 2026)" 1.3M, "Gold Prices Fall — Should You Buy?" 1.1M, a religion/lesson reel 1.1M, "Secret Indian Fruit 10X Price in USA" 909K, "Best Cities in India" 780K, "GenZ Travel: Offbeat Destinations Diwali 2026" 783K, "Superfood" 767K, "Economics of 70% Discount at Outlet Malls" 375K, real-estate city comparison 325K, "China has started the food war" 369K. Format: same face, same 2-line coloured caption box, a dated question ("Oct 2026", "Diwali 2026") on every tile.
+- **Pattern:** the job-loss → PF reel (518K) confirms the "you just did X? here's the money catch" group-callout: it names a life event the viewer is in this week, and layoffs are in the news. We test it on 1 Nov pm ("Bad news if you quit: ₹1 lakh PF locked"). Second pattern: dated hooks ("Oct 2026", "Diwali 2026") on the big account's tiles signal freshness; cheap to copy in our hook text.
+- **News (last 48 h):** the search returned only general finance-portal front pages, no dated household-money rule change; nothing used, no prices quoted. Used evergreen facts with two sources each: train refund rules from April 2026 (>72 h flat fee, 72–24 h 25%, 24–8 h 50%, <8 h no refund; two news reports, Mar 2026, agree); EPF after job loss 75% at once, 25% after 12 months unemployed (a business news site Aug 2026 and a CA news portal Oct 2025 agree). **Not used:** the EPS pension waiting period (sources disagree: 36 months vs no wait) and the new per-class flat cancellation fees (no source gave them).
+
 ## 2026-10-28 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators** after closing the sign-up dialog (views shown).

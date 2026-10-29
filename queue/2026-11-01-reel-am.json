@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-01",
+  "slot": "reel",
+  "publish_at": "2026-11-01T02:45",
+  "topic": "Train ticket cancellation under the revised refund rules (from April 2026): confirmed ticket cancelled >72 h before departure = flat fee only; 72–24 h = 25% cut; 24–8 h = 50% cut (₹1,000 on an illustrative ₹2,000 fare); <8 h = no refund",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number) in the festive am slot: one bill the viewer pays this week (a Diwali train ticket) with the hidden ₹ loss on frame 0. Tests a travel-refund loss vs the gold/dinner bills. 22 spoken words, 11.4 s silent; send target the friend going home for Diwali.",
+  "caption": "Cancelling a ₹2,000 train ticket this Diwali: did you know you can lose ₹1,000 of it?\n\nUnder the railways' revised refund rules (from April 2026), a confirmed ticket cancelled more than 72 hours before departure loses only a flat fee.\nBetween 72 and 24 hours, 25% of the fare is cut. Between 24 and 8 hours, 50%: ₹1,000 on a ₹2,000 ticket.\nLess than 8 hours before departure, there is no refund at all.\n\nHave you ever lost money on a late cancellation?\n\nSources: two news reports on the railways' revised cancellation rules (March 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#trainticket #diwalitravel #refund #moneytips #travelindia",
+  "spec": "specs/2026-11-01-reel-am.json",
+  "media": [
+    "media/2026-11-01/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-01/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.patrika.com/en/business-news/train-ticket-cancellation-rule-changed-no-refund-within-8-hours-of-departure-20448389",
+    "https://keralakaumudi.com/en/news/news-amp.php?id=1720768"
+  ]
+}

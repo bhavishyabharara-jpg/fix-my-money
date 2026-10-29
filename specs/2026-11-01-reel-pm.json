@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-01",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Bad news if you quit:\n[[₹1 lakh]] PF locked",
+    "vo": "Job छोड़ी? एक लाख lock।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹4 lakh PF, no new job",
+    "big": "₹3 lakh",
+    "color": "green",
+    "label": "75% you can withdraw now (illustrative)",
+    "vo": "चार में से तीन लाख अभी।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "The other 25%",
+    "big": "12 months",
+    "color": "red",
+    "label": "the ₹1 lakh waits a full year",
+    "vo": "बाकी एक लाख, बारह महीने बाद।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check what's **locked** first.",
+    "cta": [
+     "Send to the friend planning to quit",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Quit करने वाले को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Left your job: did you know ₹1 lakh of a ₹4 lakh PF stays locked for a year?\n\nAfter a job loss you can withdraw up to 75% of your EPF balance straight away: ₹3 lakh of an illustrative ₹4 lakh.\nThe other 25% (₹1 lakh here) unlocks only after 12 months without a job.\nYour balance keeps earning interest meanwhile. Withdrawals before 5 years of continuous service may be taxable.\n\nWould you take the 75% out, or leave it in?\n\nSources: a business news site's EPF explainer (Aug 2026) and a CA news portal's report of the government's clarification (Oct 2025); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#epf #pfwithdrawal #jobloss #salariedindia #resignation"
+ }
+}

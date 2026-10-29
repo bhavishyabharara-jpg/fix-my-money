@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-01",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2,000 train ticket? Cancel late, lose [[₹1,000]]",
+    "vo": "Late cancel? हज़ार रुपये गए।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Cancel 24 to 8 hours before",
+    "big": "50% cut",
+    "color": "red",
+    "label": "₹1,000 of a ₹2,000 confirmed ticket",
+    "vo": "चौबीस घंटे के अंदर, आधा कटेगा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Under 8 hours before",
+    "big": "₹0 refund",
+    "color": "red",
+    "label": "the full ₹2,000 is gone",
+    "vo": "आठ घंटे से कम? Refund zero।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "**72+ hours** early? Flat fee only.",
+    "cta": [
+     "Send to the friend going home for Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "घर जाने वाले को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Cancelling a ₹2,000 train ticket this Diwali: did you know you can lose ₹1,000 of it?\n\nUnder the railways' revised refund rules (from April 2026), a confirmed ticket cancelled more than 72 hours before departure loses only a flat fee.\nBetween 72 and 24 hours, 25% of the fare is cut. Between 24 and 8 hours, 50%: ₹1,000 on a ₹2,000 ticket.\nLess than 8 hours before departure, there is no refund at all.\n\nHave you ever lost money on a late cancellation?\n\nSources: two news reports on the railways' revised cancellation rules (March 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#trainticket #diwalitravel #refund #moneytips #travelindia"
+ }
+}

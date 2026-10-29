@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-01",
+  "slot": "reel",
+  "publish_at": "2026-11-01T13:45",
+  "topic": "EPF after job loss: up to 75% withdrawable immediately, remaining 25% only after 12 months of unemployment (illustrative ₹4 lakh PF → ₹3 lakh now, ₹1 lakh locked a year); balance keeps earning interest; withdrawals before 5 years of continuous service may be taxable",
+  "hook_pattern": "group-callout",
+  "experiment": "NEW TEST (15% slot): 'Bad news if you <do X>' group-callout hook, the competitors' fastest-growing format this week (a top creator's 'Left your job? Do this on EPFO first' reached ~518K in about 2 days). Names the viewer's group in the first 3 words so the send target is built in. Payslip slot. 22 spoken words, 11.4 s silent; send target the friend planning to quit.",
+  "caption": "Left your job: did you know ₹1 lakh of a ₹4 lakh PF stays locked for a year?\n\nAfter a job loss you can withdraw up to 75% of your EPF balance straight away: ₹3 lakh of an illustrative ₹4 lakh.\nThe other 25% (₹1 lakh here) unlocks only after 12 months without a job.\nYour balance keeps earning interest meanwhile. Withdrawals before 5 years of continuous service may be taxable.\n\nWould you take the 75% out, or leave it in?\n\nSources: a business news site's EPF explainer (Aug 2026) and a CA news portal's report of the government's clarification (Oct 2025); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#epf #pfwithdrawal #jobloss #salariedindia #resignation",
+  "spec": "specs/2026-11-01-reel-pm.json",
+  "media": [
+    "media/2026-11-01/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-01/reel-pm/reel_cover.png",
+  "sources": [
+    "https://businesstoday.in/personal-finance/story/taking-a-break-from-work-heres-what-epfo-rules-say-about-your-pf-balance-interest-and-withdrawals-547797-2026-08-07",
+    "https://www.caalley.com/news-updates/indian-news/epfo-revises-pf-withdrawal-rule-75-after-job-loss-rest-after-12-months"
+  ]
+}
