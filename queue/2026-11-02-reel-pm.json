@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-02",
+  "slot": "reel",
+  "publish_at": "2026-11-02T13:45",
+  "topic": "HRA exemption: Bengaluru, Pune, Hyderabad, Ahmedabad moved to the 50%-of-basic limit from 1 Apr 2026 (was 40%); illustrative ₹50k basic, ₹25k HRA, ₹30k rent → ₹5,000 a month / ₹60,000 a year more exempt; old regime only",
+  "hook_pattern": "bill-reveal",
+  "experiment": "KEEP (bill-reveal, 1 reel at 129 views / 25%; 30 and 31 Oct pm are tests 2–3, this is test 4). Payslip slot: the price tag is the rent the viewer pays this month, the hidden ₹ is the extra tax-free HRA. First city-named hook: tests whether naming a city narrows or sharpens the send. 22 spoken words, 11.4 s silent; send target the flatmate on the old regime.",
+  "caption": "Paying ₹30,000 rent in Bengaluru: is ₹60,000 more of your HRA now tax-free?\n\nFrom 1 April 2026, Bengaluru, Pune, Hyderabad and Ahmedabad joined the 50% HRA cities (earlier 40%).\nHRA exempt = the lowest of: HRA received, rent minus 10% of basic, 50% of basic in these 8 cities.\nIllustrative: ₹50,000 basic, ₹25,000 HRA, ₹30,000 rent → ₹25,000 a month exempt instead of ₹20,000 = ₹60,000 a year more. At a 30% slab that's about ₹18,720 less tax.\nOnly in the old regime; in the new regime HRA is fully taxable.\n\nWhich regime are you on this year?\n\nSources: a chartered-accountant firm's HRA guide (Apr 2026) and a law firm's note on the notified rules (Apr 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#hra #incometax #salariedindia #bengaluru #oldregime",
+  "spec": "specs/2026-11-02-reel-pm.json",
+  "media": [
+    "media/2026-11-02/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-02/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.patronaccounting.com/blog/hra-exemption-2026-pune-bengaluru-hyderabad-ahmedabad-50-percent",
+    "https://www.sansalegal.com/post/hra-tax-exemption-now-covers-eight-cities-in-india-from-april-2026"
+  ],
+  "duration_s": 11.4
+}

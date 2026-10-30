@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-02",
+  "slot": "reel",
+  "publish_at": "2026-11-02T02:45",
+  "topic": "Overseas tour package TCS: flat 2% from the first rupee from 1 Apr 2026 (was 5% up to ₹10 lakh, 20% above); illustrative ₹2 lakh package → ₹4,000 collected at booking, adjustable against tax or refunded via the ITR",
+  "hook_pattern": "guess-the-number",
+  "experiment": "EXPLOIT (scoreboard's top-median pattern, 5 reels). Festive-travel am slot. Today's engine change: the guess hook withholds the answer until scene 2 (27 Oct pm withheld it and held 29%; 26 Oct pm showed it on frame 0 and held 4%). 22 spoken words, 11.4 s silent; send target the friend booking a trip abroad.",
+  "caption": "₹2 lakh trip abroad: do you know how much TCS is collected upfront?\n\nOn an overseas tour package, TCS is now a flat 2% from the first rupee (from 1 April 2026). Earlier it was 5% up to ₹10 lakh.\nOn an illustrative ₹2 lakh package that's ₹4,000 collected at booking.\nIt isn't a fee: it shows in your tax credit statement and you claim it in your ITR, adjusted against tax or refunded.\n\nDid you know TCS comes back when you file?\n\nSources: a chartered-accountant firm's TCS guide (Apr 2026) and a personal-finance magazine's Budget 2026 explainer (Feb 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#tcs #foreigntravel #incometax #itr #travelmoney",
+  "spec": "specs/2026-11-02-reel-am.json",
+  "media": [
+    "media/2026-11-02/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-02/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.patronaccounting.com/blog/tcs-rate-changes-april-2026-overseas-travel-lrs-education-liquor",
+    "https://www.outlookmoney.com/tax/budget-2026-how-the-tcs-cut-changes-the-math-for-foreign-travel-in-2026"
+  ],
+  "duration_s": 11.4
+}

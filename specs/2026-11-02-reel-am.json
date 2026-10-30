@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-02",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh trip abroad?\nGuess the [[TCS]] upfront",
+    "vo": "Foreign trip दो लाख? TCS कितना?",
+    "mood": "neutral"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹2 lakh tour package",
+    "big": "₹4,000",
+    "color": "red",
+    "label": "2% TCS at booking (illustrative)",
+    "vo": "दो percent, यानी चार हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Not a fee",
+    "big": "₹4,000 back",
+    "color": "green",
+    "label": "claim it in your ITR",
+    "vo": "ITR में claim करो, वापस मिलेगा।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "TCS is **advance tax,** not a cost.",
+    "cta": [
+     "Send to the friend booking a trip abroad",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Trip वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹2 lakh trip abroad: do you know how much TCS is collected upfront?\n\nOn an overseas tour package, TCS is now a flat 2% from the first rupee (from 1 April 2026). Earlier it was 5% up to ₹10 lakh.\nOn an illustrative ₹2 lakh package that's ₹4,000 collected at booking.\nIt isn't a fee: it shows in your tax credit statement and you claim it in your ITR, adjusted against tax or refunded.\n\nDid you know TCS comes back when you file?\n\nSources: a chartered-accountant firm's TCS guide (Apr 2026) and a personal-finance magazine's Budget 2026 explainer (Feb 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#tcs #foreigntravel #incometax #itr #travelmoney"
+ }
+}

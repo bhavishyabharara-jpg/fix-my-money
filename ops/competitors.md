@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-30 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** after closing the sign-up dialog (views shown). Rotating pick: @pranjalkamra.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"Platinum: A new way to look at value" 371K**; "Is RBI Banning US Stock Investments?" 261K (206K); "Your Dream Home Could Become a Nightmare" 195K (183K); "Dilemma of Democracy" 178K; "Are Gen-Z Not Planning for Future?" still climbing; guest-podcast reels (Ambani, portfolio, IPO) steady.
+- **@ca_rachanaranade (pinned 405K):** rally explainer 57.6K (50.1K) plus Marathi cut 18K (12.9K); demerger capital-gains explainer 61.8K. Nothing new.
+- **@anushkarathod98:** **"Left your job? Do this on EPFO first" 637K** (518K yesterday); new **"Bad news for [a big bank] users!" re-post 342K** within about a day (original 273K); a foreign-policy explainer 3.2K; "For once I want US Indians to win" 45.5K; layoffs reel 148K; "Good news if you pay GST!" 208K; "Gold is down" 411K.
+- **Rotated in @pranjalkamra:** pinned "Investment plan for 5,000 get 1.6 crores" 3.3M, "Luxury brands are fooling you?" 2M, "6 step financial plan" 1.1M; recent reels 25–60K ("The luxury scam!" 59.5K, an expo promo 34.1K, "Beware of the startup vultures" 24.7K). The pinned winners are a small monthly input with a big ₹ output and a "you're being fooled" debunk.
+- **Pattern:** "Bad news for <group>" got a second life: the same reel re-posted reached 342K in about a day, more than the original. The group-callout + news hook is the week's dominant format, and re-posting a proven reel works for a 1.3M account (our own 23 Oct re-cut didn't, at 11 followers). The "you're being fooled" debunk (luxury brands 2M) matches our best hold (no-cost EMI, 34%).
+- **News (last 48 h):** searches returned only older monthly "rules changing" round-ups and front pages, no dated household-money change this week; nothing used, no prices quoted. Used evergreen 2026 rules with two sources each: overseas tour package TCS flat 2% from 1 Apr 2026, adjustable in the ITR (a CA firm's TCS guide Apr 2026 and a personal-finance magazine Feb 2026 agree; the magazine's own "old ₹4 lakh" example was inconsistent, so not used); HRA 50% limit extended to Bengaluru, Pune, Hyderabad, Ahmedabad from 1 Apr 2026, old regime only (a CA firm's guide and a law firm's note, both Apr 2026, agree).
+
 ## 2026-10-29 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** after closing the sign-up dialog (views shown). The rotating pick @thefinancebowl showed "Profile isn't available"; rotated to @casarthakahuja instead.

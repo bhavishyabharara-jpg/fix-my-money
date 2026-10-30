@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-02",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹30,000 rent in Bengaluru?\n[[₹60,000]] more tax-free",
+    "vo": "Bengaluru rent? साठ हज़ार extra छूट।",
+    "mood": "happy"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "HRA cap in 8 cities now",
+    "big": "50%",
+    "color": "green",
+    "label": "of basic, was 40%",
+    "vo": "Cap अब basic का पचास percent।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹50k basic, ₹30k rent",
+    "big": "₹60,000",
+    "color": "green",
+    "label": "a year more tax-free (illustrative)",
+    "vo": "साल के साठ हज़ार ज़्यादा।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "**Old regime** only.",
+    "cta": [
+     "Send to your flatmate on the old regime",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Old regime flatmate को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paying ₹30,000 rent in Bengaluru: is ₹60,000 more of your HRA now tax-free?\n\nFrom 1 April 2026, Bengaluru, Pune, Hyderabad and Ahmedabad joined the 50% HRA cities (earlier 40%).\nHRA exempt = the lowest of: HRA received, rent minus 10% of basic, 50% of basic in these 8 cities.\nIllustrative: ₹50,000 basic, ₹25,000 HRA, ₹30,000 rent → ₹25,000 a month exempt instead of ₹20,000 = ₹60,000 a year more. At a 30% slab that's about ₹18,720 less tax.\nOnly in the old regime; in the new regime HRA is fully taxable.\n\nWhich regime are you on this year?\n\nSources: a chartered-accountant firm's HRA guide (Apr 2026) and a law firm's note on the notified rules (Apr 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#hra #incometax #salariedindia #bengaluru #oldregime"
+ }
+}
