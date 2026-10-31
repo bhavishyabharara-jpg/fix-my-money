@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-10-31 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @labourlawadvisor.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"I Saved ₹43 Lakhs Using AI?" 82.9K** and an ad-tools reel 25.8K; "Platinum: A new way to look at value" **459K** (371K); "Is RBI Banning US Stock Investments?" 273K; "Your Dream Home Could Become a Nightmare" 201K.
+- **@ca_rachanaranade (pinned 405K):** new **"Will [a tech major]'s AI bets justify this spending?" 41.1K**; rally explainer 62.2K plus Marathi cut 18.9K.
+- **@anushkarathod98:** a fresh run of market-drop news reels: **"[A tech major] crashed by half trillion dollars!" 2.1M**, **"Should you buy the dip?" 562K**, "[A billionaire]'s tweet shook the market" 255K; "Bad news for [a big bank] users!" 502K; "Left your job? Do this on EPFO first" still climbing.
+- **Rotated in @labourlawadvisor:** pinned reels 185K / 2.3M ("Lifetime, unlimited gol gappe") / 3.3M ("Why China beats India?"); latest "Secret Chinese wholesale markets" 45K. Big wins are consumer-curiosity stories, not tax rules.
+- **Pattern:** a sharp global tech-stock fall is this week's breakout topic (2.1M in days for a 1.3M account). We can't do price/prediction reels, but a red-market week is the trigger for the planned "light relatable reel on a red market day" experiment (what a fall means for your SIP, no prices). Also: the "Bad news for <group>" format keeps compounding (502K, up from 342K yesterday).
+- **News (last 48 h):** the search returned only calendars and older round-ups, no dated household-money change; nothing used, no prices quoted. Used evergreen rules with two sources each: small-car GST 18% with no cess, bigger cars 40%, from 22 Sep 2025 (an auto news site, Sep 2025, and a business-advisory site, Sep 2025, agree); LTA covers only the travel fare, two journeys per four-year block, not in the new regime (two tax-filing guides, one updated Apr 2026, agree). **Not used:** exact LTA block dates (one guide still calls 2022–25 current).
+
 ## 2026-10-30 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** after closing the sign-up dialog (views shown). Rotating pick: @pranjalkamra.

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-03",
+  "slot": "reel",
+  "publish_at": "2026-11-03T13:45",
+  "topic": "LTA exempts only the travel fare (economy air / AC first-class rail / bus, shortest route), old regime only, two journeys per four-year block; illustrative ₹40,000 Diwali trip with ₹16,000 fare → ₹24,000 hotel/food taxed ≈ ₹4,992 at the 20% slab + 4% cess",
+  "hook_pattern": "contrarian-number",
+  "experiment": "keep pattern. Today's engine change: the payslip slot opens on a spend the viewer makes this week (a Diwali trip) with the salary rule as the payoff, because the last three pure-payslip pm reels (job-switch tax 11, employer NPS 5, CTC 5 views) got no reach despite 20–35% holds. 21 spoken words, 11.4 s silent; send target the colleague claiming LTA.",
+  "caption": "₹40,000 Diwali trip on LTA: is all of it tax-free?\n\nLTA exempts only the travel fare: economy air, AC first-class rail or the bus fare, by the shortest route.\nHotel, food, cabs and sightseeing stay taxable. On an illustrative ₹40,000 trip with a ₹16,000 fare, ₹24,000 is taxed: about ₹4,992 at the 20% slab + 4% cess.\nIt's two journeys in a four-year block, and only in the old regime.\n\nAre you claiming LTA on a trip this year?\n\nSources: two tax-filing guides on LTA rules (one updated Apr 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#lta #incometax #salary #diwalitrip #oldregime",
+  "spec": "specs/2026-11-03-reel-pm.json",
+  "media": [
+    "media/2026-11-03/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-03/reel-pm/reel_cover.png",
+  "sources": [
+    "https://cleartax.in/s/lta-leave-travel-allowance",
+    "https://www.retirewise.in/?p=5656"
+  ],
+  "duration_s": 11.4
+}

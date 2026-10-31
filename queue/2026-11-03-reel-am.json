@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-03",
+  "slot": "reel",
+  "publish_at": "2026-11-03T02:45",
+  "topic": "Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, petrol ≤1,200 cc, diesel ≤1,500 cc); illustrative ₹8 lakh ex-showroom → ≈ ₹1,22,034 is GST; bigger cars 40% slab → ≈ ₹2,28,571 on the same price",
+  "hook_pattern": "guess-the-number",
+  "experiment": "EXPLOIT (scoreboard's EXPLOIT pattern, 6th reel). Festive am slot, answer withheld to scene 2 (30 Oct rule). Tests a big-ticket Diwali purchase (car) as the bill; 22 spoken words, 11.4 s silent; send target the friend buying a car this Diwali.",
+  "caption": "₹8 lakh small car: how much of that price is GST?\n\nSince 22 Sep 2025, small cars (up to 4 m, petrol up to 1,200 cc, diesel up to 1,500 cc) pay 18% GST with no cess.\nOn an illustrative ₹8 lakh ex-showroom price, about ₹1,22,034 of it is GST.\nLonger cars or bigger engines sit in the 40% slab: on the same ₹8 lakh that's about ₹2,28,571.\n\nDid you know the car's size changes the tax this much?\n\nSources: an auto news site's GST explainer (Sep 2025) and a business-advisory site's GST reform note (Sep 2025); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gst #carbuying #diwali2026 #moneytips #personalfinanceindia",
+  "spec": "specs/2026-11-03-reel-am.json",
+  "media": [
+    "media/2026-11-03/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-03/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.cardekho.com/india-car-news/gst-rate-cut-for-cars-cess-removed-all-cars-to-get-cheaper-34975.htm",
+    "https://www.india-briefing.com/news/india-gst-reform-makes-automobiles-cheaper-39856.html"
+  ],
+  "duration_s": 11.4
+}

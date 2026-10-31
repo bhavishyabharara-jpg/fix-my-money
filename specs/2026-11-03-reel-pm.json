@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-03",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹40,000 trip on LTA?\n₹24,000 gets [[taxed]]",
+    "vo": "LTA पर trip? चौबीस हज़ार taxable।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "LTA covers only",
+    "big": "₹16,000",
+    "color": "green",
+    "label": "the travel fare (illustrative)",
+    "vo": "सिर्फ़ ticket cover होता है।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Hotel + food: ₹24,000",
+    "big": "₹4,992 tax",
+    "color": "red",
+    "label": "at the 20% slab + 4% cess",
+    "vo": "Hotel-खाना पर पाँच हज़ार tax।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "LTA works only in the **old regime.**",
+    "cta": [
+     "Send to the colleague claiming LTA this Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "LTA वाले colleague को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹40,000 Diwali trip on LTA: is all of it tax-free?\n\nLTA exempts only the travel fare: economy air, AC first-class rail or the bus fare, by the shortest route.\nHotel, food, cabs and sightseeing stay taxable. On an illustrative ₹40,000 trip with a ₹16,000 fare, ₹24,000 is taxed: about ₹4,992 at the 20% slab + 4% cess.\nIt's two journeys in a four-year block, and only in the old regime.\n\nAre you claiming LTA on a trip this year?\n\nSources: two tax-filing guides on LTA rules (one updated Apr 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#lta #incometax #salary #diwalitrip #oldregime"
+ }
+}

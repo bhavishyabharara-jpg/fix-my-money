@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-03",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹8 lakh\nsmall car?\nGuess the [[GST]] inside",
+    "vo": "आठ लाख की car? GST कितना?",
+    "mood": "neutral"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹8 lakh ex-showroom",
+    "big": "₹1.22 lakh",
+    "color": "red",
+    "label": "18% GST inside the price (illustrative)",
+    "vo": "एक लाख बाईस हज़ार GST।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Over 4 m or bigger engine",
+    "big": "₹2.29 lakh",
+    "color": "red",
+    "label": "40% slab, same price",
+    "vo": "बड़ी car पर चालीस percent।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check the **size slab** first.",
+    "cta": [
+     "Send to the friend buying a car this Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Car लेने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹8 lakh small car: how much of that price is GST?\n\nSince 22 Sep 2025, small cars (up to 4 m, petrol up to 1,200 cc, diesel up to 1,500 cc) pay 18% GST with no cess.\nOn an illustrative ₹8 lakh ex-showroom price, about ₹1,22,034 of it is GST.\nLonger cars or bigger engines sit in the 40% slab: on the same ₹8 lakh that's about ₹2,28,571.\n\nDid you know the car's size changes the tax this much?\n\nSources: an auto news site's GST explainer (Sep 2025) and a business-advisory site's GST reform note (Sep 2025); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gst #carbuying #diwali2026 #moneytips #personalfinanceindia"
+ }
+}
