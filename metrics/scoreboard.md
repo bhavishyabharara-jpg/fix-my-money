@@ -1,6 +1,6 @@
-# Scoreboard — 2026-10-30
+# Scoreboard — 2026-10-31
 
-Followers **11** (+0 vs previous day). Reels tracked: 58. Median views per reel: 20.
+Followers **11** (+0 vs previous day). Reels tracked: 59. Median views per reel: 20.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -11,7 +11,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-15-reel-am UPI fee from 15 Oct? Not anymore: the 0.4% merchant fee is p | news-stakes | yes | 0 | 14.5s (100%) | 0 | 0 | 0 | 0 | 25.0 |
 | 2026-10-07-reel-pm Start a SIP at 25 or 30? What a 5-year delay costs by 60 | big-question | yes | 9 | 11.4s (57%) | 0 | 0 | 1 | 0 | 15.7 |
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
-| 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 124 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.5 |
+| 2026-10-30-reel-pm CTC vs in-hand: illustrative ₹12 lakh CTC with ₹50k basic →  | bill-reveal | yes | 5 | 4.1s (35%) | 0 | 0 | 0 | 0 | 8.7 |
+| 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
 | 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
@@ -19,6 +20,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 129 | 3.5s (25%) | 0 | 0 | 0 | 0 | 6.3 |
 | 2026-10-28-reel-am Insurance free-look period: 30 days from receiving the polic | contrarian-number | yes | 6 | 3.2s (23%) | 0 | 0 | 0 | 0 | 5.6 |
 | 2026-10-21-reel-pm Exchanging old gold for new jewellery counts as a sale: long | contrarian-number | yes | 109 | 2.3s (21%) | 0 | 0 | 0 | 0 | 5.2 |
+| 2026-10-30-reel-am Paying only the minimum due on a festive card bill: illustra | contrarian-number | yes | 121 | 2.4s (21%) | 0 | 0 | 0 | 0 | 5.1 |
 | 2026-10-29-reel-pm Employer NPS deductible up to 14% of basic + DA in the new r | guess-the-number | yes | 5 | 2.4s (20%) | 0 | 0 | 0 | 0 | 4.9 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
@@ -65,16 +67,15 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-10-30-reel-am Paying only the minimum due on a festive card bill: illustra | contrarian-number | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
-| bill-reveal | 1 | 129 | 25% | 6.3 | keep |
+| bill-reveal | 2 | 67 | 30% | 7.5 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
 | guess-the-number | 5 | 28 | 17% | 4.2 | EXPLOIT |
-| contrarian-number | 14 | 32 | 16% | 4.0 | keep |
+| contrarian-number | 15 | 39 | 16% | 4.1 | keep |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
 | big-question | 16 | 20 | 13% | 3.2 | keep |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
@@ -85,7 +86,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-10-30-reel-am.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
 Narrated reels: median views 20, watch 13% — silent reels: 22, 13%.
 
