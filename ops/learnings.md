@@ -1,5 +1,18 @@
 # Learnings
 
+## 2026-11-01 — Weekly review (format level)
+
+- **Followers 12 vs 2,000 (goal date 20 Oct passed 12 days ago; off the sprint path by ~99%).** +1 this week (11 on 25 Oct → 12), flat the week before (11 → 11). 64 posts in; still 0 sends and 0 follows credited to any reel.
+- **This week (14 reels, 25–31 Oct) vs last week (17 reels, 18–24 Oct):** median views **30 vs 21**; reach **638 vs 594**; median watch **24% (3.35 s) vs 13% (2.0 s)**, the biggest week-on-week gain yet; sends 0 vs 0; saves 2 vs 0 (0.3% vs 0% of reach); follows 0 vs 0. Hold is fixed enough; reach per reel and conversion are not.
+- **Narrated vs silent:** every reel since 6 Oct is narrated, so no new comparison (all-time narrated median 21 views / 13%, silent 22 / 13%, 3 silent reels from week 1). Voice stays `sarvam:amit`.
+- **Best 3 (score):** 31 Oct pm leave encashment (21 views, 6.5 s, 56%, 1 day old), 29 Oct am no-cost EMI (125, 4.0 s, 34%), 27 Oct pm ₹50 lakh home-loan guess (110, 4.5 s, 29%). Close behind on reach: dinner bill 129, minimum due 121, gold bill 117. **Worst 3:** 26 Oct pm motor-insurance fine (8, 9%), 26 Oct am room-rent cap (52, 12%), 27 Oct am stacked discounts (4, 13%). Winners hand one ₹ bill for something the viewer is buying or paying now, with the answer held back; losers are insurance/fine rules or a % puzzle with no single bill.
+- **Watch % above 25% since frame-0 hooks (10 Oct)? Not overall:** 52 reels since 10 Oct, median 13% (1.95 s); 7 above 25%, 6 of them this week. This week alone: 24%, just under the line.
+- **12–16 s vs longer? Shorter wins on hold:** since 10 Oct, ≤12.6 s 8 reels median 21% / 2.35 s / 45.5 views; 12.6–16.5 s 35 reels 13% / 1.9 s / 20 views; >16.5 s 9 reels 9% / 1.7 s / 37 views. The 12 s rule passed its 1 Nov check (≤12.5 s reels: median 22%) and stays.
+- **Slots:** am won this week on reach (7 reels, median 52 views, 391 reach) vs pm (7, median 13, 247), reversing last week. pm held better (25% vs 23%). The difference is topic: pm was the payslip slot. Mid stays dropped (all-time median 9 views).
+- **Hook pattern consistently last? No.** contrarian-number was the day's last place on 4 of 7 days but was also 7 of 14 reels and three of the week's top reach (EMI, minimum due, gold). guess-the-number was last on 2 of its 3 days (both payslip/fine topics) and first on the third (home loan). Topic, not label, decides.
+- **Decisions for 2–8 Nov (PLAYBOOK "Weekly decisions — 2026-11-01"):** (1) both slots open on one ₹ bill the viewer is paying this month; payslip rules only as payoff (pm payslip slot ends); (2) no verdicts, re-cuts or pattern calls on reels under 48 h old. Not changed: voice, presenter (corner), on-screen language, 12 s length, posting times.
+- **Paid / collabs:** ~1,230 reach over two weeks and ~1,950 all-time produced 0 follows and 0 sends, so a paid test would still buy views that don't convert; not justified. Collabs (or the owner's own shares) remain the only lever that could move followers at this scale; both are the owner's call, and the automation never spends money.
+
 ## 2026-10-31 — Daily review (day 11 after the goal date)
 
 - **Followers: 11 (+0 vs 30 Oct, flat 15 days). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we averaged 0.** 62 posts in, still 0 sends and 0 follows from any reel. Holds keep improving (four of the last six reels held 20–35%) but reach and conversion don't; the engine alone is not closing this gap.
