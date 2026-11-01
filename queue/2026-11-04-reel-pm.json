@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-04",
+  "slot": "reel",
+  "publish_at": "2026-11-04T13:45",
+  "topic": "SIP on a down day: a fixed ₹5,000 buys more units when the NAV falls (illustrative NAV ₹100 → 50 units, ₹90 → ~55.5 units, ~11% more); holdings are worth less today and no one knows the next move",
+  "hook_pattern": "red-day-relatable",
+  "experiment": "NEW (15% slot): first 'light relatable reel on a red market day', planned since 31 Oct after the competitors' market-fall reels (3.4M / 895K / 458K this week). Tests whether an investing topic framed as this month's ₹5,000 SIP instalment gets reach, vs our spend-led bills. No prices, no prediction; 22 spoken words, 11.4 s; send target the friend who panics on red days.",
+  "caption": "Market down 10%: what happens to your ₹5,000 SIP?\n\nA SIP invests a fixed amount, so the units you get depend on that day's NAV.\nIllustrative: at a NAV of ₹100, ₹5,000 buys 50 units. If the NAV falls to ₹90, the same ₹5,000 buys about 55.5 units.\nMore units isn't a gain: what you already hold is worth less today, and nobody knows where the NAV goes next.\n\nWhat do you do with your SIP on a red day?\n\nSources: two investor-education pages on SIPs and rupee-cost averaging (a securities-market education institute and a fund house); the ₹ figures are our own illustrative arithmetic. Mutual fund investments are subject to market risks.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#sip #mutualfunds #rupeecostaveraging #stockmarketindia #personalfinanceindia",
+  "spec": "specs/2026-11-04-reel-pm.json",
+  "media": [
+    "media/2026-11-04/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-04/reel-pm/reel_cover.png",
+  "sources": [
+    "https://www.nism.ac.in/why-sips-should-be-continued-when-markets-are-down",
+    "https://mf.nipponindiaim.com/investoreducation/rupee-cost-averaging"
+  ],
+  "duration_s": 11.4
+}

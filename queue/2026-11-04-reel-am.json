@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-04",
+  "slot": "reel",
+  "publish_at": "2026-11-04T02:45",
+  "topic": "Personal-loan processing fee: most lenders deduct it before disbursal (fees ~0–3.5%) plus 18% GST on the fee; illustrative ₹2 lakh at 2% → ₹4,000 + ₹720 GST → ₹1,95,280 received, EMI still on the full ₹2 lakh",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (scoreboard's EXPLOIT pattern from 1 Nov: 3 reels, median score 6.7). Weekly rule 1: hook names one loan the viewer may take this month (festive personal loan), hidden ₹ on frame 0. 22 spoken words, 11.4 s silent render; send target the friend taking a loan for Diwali.",
+  "caption": "₹2 lakh personal loan: why does only ₹1,95,280 reach your account?\n\nMost lenders deduct the processing fee before the loan is disbursed. Fees run from about 0% to 3.5% of the loan.\nAt an illustrative 2%, that's ₹4,000, plus 18% GST on the fee (₹720). You receive ₹1,95,280.\nYour EMI and interest are still worked out on the full ₹2 lakh.\n\nDid you check the processing fee on your last loan?\n\nSources: two lenders' education pages on personal-loan processing fees and GST (one dated Oct 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalloan #processingfee #gstonloan #diwalishopping #loantips",
+  "spec": "specs/2026-11-04-reel-am.json",
+  "media": [
+    "media/2026-11-04/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-04/reel-am/reel_cover.png",
+  "sources": [
+    "https://www.idfcfirst.bank.in/finfirst-blogs/personal-loan/personal-loan-processing-fee-charges-gst-examples",
+    "https://www.bankbazaar.com/personal-loan/gst-on-personal-loans.html"
+  ],
+  "duration_s": 11.4
+}

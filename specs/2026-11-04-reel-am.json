@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-04",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh loan?\nYou get [[₹1,95,280]]",
+    "vo": "दो लाख loan? करीब पाँच हज़ार पहले कटेंगे।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Processing fee at 2%",
+    "big": "₹4,000",
+    "color": "red",
+    "label": "illustrative rate",
+    "vo": "दो percent fee।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "18% GST on that fee",
+    "big": "₹720",
+    "color": "red",
+    "label": "also cut before disbursal",
+    "vo": "उस पर GST।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Your EMI is still on the full **₹2 lakh.**",
+    "cta": [
+     "Send to the friend taking a loan for Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "EMI पूरे दो लाख पर। दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹2 lakh personal loan: why does only ₹1,95,280 reach your account?\n\nMost lenders deduct the processing fee before the loan is disbursed. Fees run from about 0% to 3.5% of the loan.\nAt an illustrative 2%, that's ₹4,000, plus 18% GST on the fee (₹720). You receive ₹1,95,280.\nYour EMI and interest are still worked out on the full ₹2 lakh.\n\nDid you check the processing fee on your last loan?\n\nSources: two lenders' education pages on personal-loan processing fees and GST (one dated Oct 2026); the ₹ figures are our own illustrative arithmetic.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalloan #processingfee #gstonloan #diwalishopping #loantips"
+ }
+}

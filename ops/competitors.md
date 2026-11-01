@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-01 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** after closing the sign-up dialog (views shown, logged out). Rotating pick: @ankurwarikoo.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** "Platinum: A new way to look at value" **484K** (459K); "Is RBI Banning US Stock Investments?" 282K; "Is Google Destroying Its Own Business With AI?" 192K; new guest reel "Biggest Problem While Buying a Property" 129K; "I Saved ₹43 Lakhs Using AI?" 105K (82.9K).
+- **@ca_rachanaranade (pinned 405K):** "What's driving this rally?" 65.7K plus Marathi cut; "Will [a tech major]'s AI bets justify this spending?" 47.4K; demerger capital-gains explainer 65.3K. Steady, nothing breakout.
+- **@anushkarathod98:** the market-fall run keeps compounding: **"[A tech major] crashed by half trillion dollars!" 3.4M** (2.1M yesterday), **"Should you buy the dip?" 895K** (562K), "[A billionaire]'s tweet shook the market" 606K (two cuts), new **"Gold & silver prices crashed!" 458K**; "Bad news for [a big bank] users!" 350K (re-post); a foreign-policy explainer 3.2K.
+- **Rotated in @ankurwarikoo:** pinned "Everyone is jealous of the destination" 3.4M, "5 questions before marriage" 3.4M, "5 couple money rules we follow" 3.7M; recent "My team's worst expensive purchase!" 283K, "How big a house can you get in ₹1 crore?" 206K, "Student budget plan" 130K. Big wins are relationship + money and "what ₹X actually buys".
+- **Pattern:** a market fall is the week's dominant topic (3.4M + 895K + 458K for one creator in days). We can't do prices or "buy the dip" calls, so 4 Nov pm tests the education-only version: what a fall does to a fixed SIP instalment (more units, lower value, no prediction). Second: "how much does ₹X actually buy" (₹1 crore house 206K) matches our bill-reveal shape.
+- **News (last 48 h):** a 1 Nov round-up lists new credit-card and failed-transaction charges at two named banks from 1 Nov (brand-specific, single source, not used), an ITR deadline extension to 21 Nov for some taxpayers (single source, not used) and the 1–30 Nov pensioner life-certificate window (covered 12 Oct). No prices quoted. Used evergreen facts with two sources each: personal-loan processing fee usually deducted before disbursal, 18% GST on the fee (a lender's education page, Oct 2026, and a loan-comparison guide, 2026, agree; the 0–3.5% range is from one, so the caption's 2% is labelled illustrative); a fixed SIP buys more units when the NAV is lower (a securities-market education institute and a fund house's investor-education page agree).
+
 ## 2026-10-31 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @labourlawadvisor.

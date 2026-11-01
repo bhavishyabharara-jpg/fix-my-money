@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-04",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Down 10%?\nYour ₹5,000 SIP buys [[more]]",
+    "vo": "Market गिरा? SIP ज़्यादा units लाएगी।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "NAV ₹100 (illustrative)",
+    "big": "50 units",
+    "color": "green",
+    "label": "₹5,000 ÷ ₹100",
+    "vo": "सौ के NAV पर पचास units।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "NAV falls to ₹90",
+    "big": "55.5 units",
+    "color": "green",
+    "label": "same ₹5,000, about 11% more units",
+    "vo": "नब्बे पर साढ़े पचपन units।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "More units, but **lower value** today.",
+    "cta": [
+     "Send to the friend who panics on red days",
+     "Follow for a money fix every day"
+    ],
+    "vo": "डरने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Market down 10%: what happens to your ₹5,000 SIP?\n\nA SIP invests a fixed amount, so the units you get depend on that day's NAV.\nIllustrative: at a NAV of ₹100, ₹5,000 buys 50 units. If the NAV falls to ₹90, the same ₹5,000 buys about 55.5 units.\nMore units isn't a gain: what you already hold is worth less today, and nobody knows where the NAV goes next.\n\nWhat do you do with your SIP on a red day?\n\nSources: two investor-education pages on SIPs and rupee-cost averaging (a securities-market education institute and a fund house); the ₹ figures are our own illustrative arithmetic. Mutual fund investments are subject to market risks.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#sip #mutualfunds #rupeecostaveraging #stockmarketindia #personalfinanceindia"
+ }
+}
