@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-05",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹8,000 flight?\n48-hour cancel: [[₹0 fee]]",
+    "vo": "आठ हज़ार की flight? अड़तालीस घंटे तक fee zero।",
+    "mood": "happy"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Domestic flight rule",
+    "big": "7+ days",
+    "color": "green",
+    "label": "departure after booking",
+    "vo": "बस flight सात दिन बाद की हो।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Cancel later or no-show?",
+    "big": "Taxes back",
+    "color": "green",
+    "label": "airport fees too",
+    "vo": "बाद में cancel? Taxes वापस।",
+    "mood": "neutral"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Fee can't exceed **base fare + fuel.**",
+    "cta": [
+     "Send to the friend booking a flight home",
+     "Follow for a money fix every day"
+    ],
+    "vo": "दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹8,000 flight: can you cancel it for ₹0 fee?\n\nUnder the aviation regulator's revised refund rules (from March 2026), airlines must let you cancel or change a ticket within 48 hours of booking with no extra fee (you pay only any fare difference).\nFor a domestic flight, departure must be at least 7 days after booking (15 days for international) when booked on the airline's own website.\nCancel later, or miss the flight? Statutory taxes and airport fees still come back, and the cancellation fee can't exceed the base fare plus fuel surcharge.\n\nHave you ever lost money on a cancelled flight?\n\nSources: a legal news service's summary of the regulator's notification (Feb 2026); a business news report (Feb 2026). ₹8,000 is an illustrative fare.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#flightrefund #flightcancellation #airtravelindia #diwalitravel #moneytips"
+ }
+}

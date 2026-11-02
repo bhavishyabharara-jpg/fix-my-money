@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "slot": "reel",
+  "publish_at": "2026-11-05T13:45",
+  "topic": "Loan guarantor: liability equals the borrower's (contract law, unless the guarantee says otherwise); lender can recover directly from the guarantor without first chasing the borrower (High Court, Aug 2026); guaranteed loan shows on the guarantor's credit report, so missed EMIs can hurt the guarantor's score (illustrative ₹5 lakh loan)",
+  "hook_pattern": "group-callout",
+  "experiment": "KEEP: second test of group-callout ('Bad news, <group>:'), whose first test (1 Nov pm, PF lock) reached 138 views at 40% hold (early read, under 48 h). The send target is built into the hook (the friend asking you to be guarantor). Loan-led per weekly rule 1. 21 spoken words, 11.4 s silent render.",
+  "caption": "Loan guarantor: can you owe the full ₹5 lakh?\n\nUnder Indian contract law, a guarantor's liability is the same as the borrower's unless the guarantee says otherwise.\nIf the borrower stops paying, the lender can ask the guarantor for the dues directly, without first chasing the borrower (a High Court reaffirmed this in Aug 2026).\nThe guaranteed loan shows on your credit report, so the borrower's missed EMIs can pull your score down too.\n\nHas anyone ever asked you to be their guarantor?\n\nSources: a personal-finance news report on the Aug 2026 High Court ruling; a lender's education page on guarantors and credit scores; a market-education site's guide to guarantor risks. ₹5 lakh is illustrative.\n\nFor education only. Not legal or investment advice.\nVoiceover is AI-generated.\n\n#loanguarantor #creditscore #personalloan #moneytips #indianlaw",
+  "spec": "specs/2026-11-05-reel-pm.json",
+  "media": [
+    "media/2026-11-05/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-05/reel-pm/reel_cover.png",
+  "sources": [
+    "A personal-finance news report on the Allahabad High Court guarantor ruling (12 Aug 2026)",
+    "A lender's education page on guarantors and credit scores",
+    "A market-education site's guide to guarantor risks (2024)"
+  ]
+}

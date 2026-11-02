@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-05",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Bad news, guarantor:\nyou can owe\n[[₹5 lakh]]",
+    "vo": "Guarantor बने? पाँच लाख आप पर भी।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Friend stops his EMI",
+    "big": "₹5 lakh",
+    "color": "red",
+    "label": "illustrative loan",
+    "vo": "दोस्त ने EMI रोकी,"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Bank can ask you first",
+    "big": "100%",
+    "color": "red",
+    "label": "no need to chase him",
+    "vo": "तो bank सीधे आपसे पूरा माँग सकता है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "His missed EMIs can hit **your credit score.**",
+    "cta": [
+     "Send to the friend needing a guarantor",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Sign करने से पहले ये भेजो।",
+    "mood": "neutral"
+   }
+  ],
+  "caption": "Loan guarantor: can you owe the full ₹5 lakh?\n\nUnder Indian contract law, a guarantor's liability is the same as the borrower's unless the guarantee says otherwise.\nIf the borrower stops paying, the lender can ask the guarantor for the dues directly, without first chasing the borrower (a High Court reaffirmed this in Aug 2026).\nThe guaranteed loan shows on your credit report, so the borrower's missed EMIs can pull your score down too.\n\nHas anyone ever asked you to be their guarantor?\n\nSources: a personal-finance news report on the Aug 2026 High Court ruling; a lender's education page on guarantors and credit scores; a market-education site's guide to guarantor risks. ₹5 lakh is illustrative.\n\nFor education only. Not legal or investment advice.\nVoiceover is AI-generated.\n\n#loanguarantor #creditscore #personalloan #moneytips #indianlaw"
+ }
+}

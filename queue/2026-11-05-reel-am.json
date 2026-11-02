@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "slot": "reel",
+  "publish_at": "2026-11-05T02:45",
+  "topic": "Flight tickets: under the aviation regulator's revised refund rules (from Mar 2026), cancel or change within 48 hours of booking with no extra fee if a domestic departure is 7+ days away (15+ international, airline-website bookings); later cancellations or no-shows still get statutory taxes and airport fees back; cancellation fee capped at base fare + fuel surcharge (illustrative ₹8,000 fare)",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (scoreboard's EXPLOIT pattern: 3 reels, median score 6.7). Tests whether a travel-booking rule repeats the 1 Nov am train-refund reach (160 views, 37% hold, the account's best views, under 48 h old so an early read). Weekly rule 1: hook names one booking the viewer makes this month; ₹0 reveal on frame 0. 22 spoken words, 11.4 s silent render.",
+  "caption": "₹8,000 flight: can you cancel it for ₹0 fee?\n\nUnder the aviation regulator's revised refund rules (from March 2026), airlines must let you cancel or change a ticket within 48 hours of booking with no extra fee (you pay only any fare difference).\nFor a domestic flight, departure must be at least 7 days after booking (15 days for international) when booked on the airline's own website.\nCancel later, or miss the flight? Statutory taxes and airport fees still come back, and the cancellation fee can't exceed the base fare plus fuel surcharge.\n\nHave you ever lost money on a cancelled flight?\n\nSources: a legal news service's summary of the regulator's notification (Feb 2026); a business news report (Feb 2026). ₹8,000 is an illustrative fare.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#flightrefund #flightcancellation #airtravelindia #diwalitravel #moneytips",
+  "spec": "specs/2026-11-05-reel-am.json",
+  "media": [
+    "media/2026-11-05/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-05/reel-am/reel_cover.png",
+  "sources": [
+    "A legal news service's summary of the aviation regulator's revised refund requirements (27 Feb 2026)",
+    "A business news report on the same norms (Feb 2026)"
+  ]
+}
