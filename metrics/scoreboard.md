@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-01
+# Scoreboard — 2026-11-02
 
-Followers **12** (+1 vs previous day). Reels tracked: 61. Median views per reel: 21.
+Followers **12** (+0 vs previous day). Reels tracked: 63. Median views per reel: 22.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -10,12 +10,14 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-10-15-reel-am UPI fee from 15 Oct? Not anymore: the 0.4% merchant fee is p | news-stakes | yes | 0 | 14.5s (100%) | 0 | 0 | 0 | 0 | 25.0 |
 | 2026-10-07-reel-pm Start a SIP at 25 or 30? What a 5-year delay costs by 60 | big-question | yes | 9 | 11.4s (57%) | 0 | 0 | 1 | 0 | 15.7 |
-| 2026-10-31-reel-pm Leave encashment: encashed in service = fully taxed as salar | bill-reveal | yes | 21 | 6.5s (56%) | 0 | 0 | 0 | 0 | 13.9 |
+| 2026-10-31-reel-pm Leave encashment: encashed in service = fully taxed as salar | bill-reveal | yes | 44 | 4.7s (40%) | 0 | 0 | 0 | 0 | 10.1 |
+| 2026-11-01-reel-pm EPF after job loss: up to 75% withdrawable immediately, rema | group-callout | yes | 138 | 4.6s (40%) | 0 | 0 | 0 | 0 | 10.0 |
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
+| 2026-11-01-reel-am Train ticket cancellation under the revised refund rules (fr | contrarian-number | yes | 160 | 4.2s (37%) | 0 | 0 | 1 | 0 | 9.3 |
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
-| 2026-10-31-reel-am Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% | contrarian-number | yes | 39 | 3.8s (30%) | 0 | 0 | 0 | 0 | 7.4 |
+| 2026-10-31-reel-am Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% | contrarian-number | yes | 42 | 3.7s (29%) | 0 | 0 | 0 | 0 | 7.3 |
 | 2026-10-30-reel-pm CTC vs in-hand: illustrative ₹12 lakh CTC with ₹50k basic →  | bill-reveal | yes | 13 | 2.6s (22%) | 0 | 1 | 0 | 0 | 6.7 |
 | 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-28-reel-pm Job switch mid-year: each employer applies the ₹75,000 stand | big-question | yes | 11 | 3.9s (26%) | 0 | 0 | 0 | 0 | 6.4 |
@@ -51,6 +53,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-19-reel-pm Prepaying a floating-rate loan? From 1 Jan 2026, the prepaym | hinglish-hook | yes | 21 | 1.5s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-24-reel-am Credit card cash withdrawal: no interest-free period, typica | contrarian-number | yes | 16 | 1.7s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.1s (11%) | 0 | 0 | 0 | 0 | 2.7 |
+| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 9 | 1.5s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-16-reel-am How much gold can you keep at home? 500 g / 250 g / 100 g ta | big-question | yes | 5 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-13-reel-mid Missed your ITR? The belated return deadline is 31 Dec, with | news-list | yes | 9 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-23-reel-pm Deepfake 'free money' ads: govt cyber-crime centre warning ( | news-stakes | yes | 7 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.5 |
@@ -58,7 +61,6 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-20-reel-pm Salary gone by the 10th? Pay yourself first: 20% out on sala | pov-relatable | yes | 29 | 1.3s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-14-reel-pm Salary account? One big bank cut free other-bank ATM uses fr | news-list | yes | 19 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 9 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
-| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 8 | 1.3s (9%) | 0 | 0 | 0 | 0 | 2.3 |
 | 2026-10-22-reel-am Card fraud: zero liability if reported within 3 working days | big-question | yes | 15 | 1.0s (8%) | 0 | 0 | 0 | 0 | 2.1 |
 | 2026-10-12-reel-mid Parents on pension? The life certificate is due by 30 Nov, o | news-list | yes | 8 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.9 |
 | 2026-10-11-reel-pm Couples: is splitting bills 50-50 fair? Same-percentage spli | big-question | yes | 46 | 1.4s (7%) | 0 | 0 | 0 | 0 | 1.8 |
@@ -74,14 +76,15 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
-| bill-reveal | 3 | 21 | 25% | 6.7 | EXPLOIT |
+| group-callout | 1 | 138 | 40% | 10.0 | keep |
+| bill-reveal | 3 | 44 | 25% | 6.7 | EXPLOIT |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
+| contrarian-number | 17 | 42 | 17% | 4.3 | keep |
 | guess-the-number | 5 | 28 | 17% | 4.2 | keep |
-| contrarian-number | 16 | 39 | 17% | 4.2 | keep |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
 | big-question | 16 | 20 | 13% | 3.2 | test again |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
-| hinglish-hook | 1 | 21 | 11% | 2.7 | keep (low data) |
+| hinglish-hook | 1 | 21 | 11% | 2.7 | test again (low data) |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
 | news-list | 7 | 9 | 10% | 2.5 | drop |
 | pov-relatable | 1 | 29 | 10% | 2.4 | keep (low data) |
@@ -90,7 +93,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
-Narrated reels: median views 20, watch 13% — silent reels: 22, 13%.
+Narrated reels: median views 22, watch 13% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
