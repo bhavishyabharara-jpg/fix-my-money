@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-06",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹50,000 TV?\n[[₹7,627]] of it\nis GST",
+    "vo": "पचास हज़ार के TV में साढ़े सात हज़ार GST।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "TVs above 32 inches",
+    "big": "18% GST",
+    "color": "mint",
+    "label": "was 28% till Sep 2025",
+    "vo": "GST अब अठारह percent,"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same TV at the old 28%",
+    "big": "₹54,237",
+    "color": "red",
+    "label": "₹4,237 more, illustrative",
+    "vo": "पहले होता चौवन हज़ार।",
+    "mood": "neutral"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check the **GST line** on your bill.",
+    "cta": [
+     "Send to the friend buying a TV this Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹50,000 TV: how much of it is GST?\n\nSince 22 Sep 2025, TVs above 32 inches carry 18% GST, down from 28%.\nOn an illustrative ₹50,000 bill (GST included), ₹7,627 is GST.\nAt the old 28%, the same pre-tax price would have come to ₹54,237, or ₹4,237 more.\nHow much of the cut a shop passed on varies, so check the GST line on your invoice.\n\nAre you buying anything big this Diwali?\n\nSources: a business news report on the GST rate cut for TVs (Sep 2025); a tax-filing platform's GST rate guide. ₹50,000 is an illustrative price.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gstindia #diwalishopping #gstcut #moneytips #tvbuying"
+ }
+}

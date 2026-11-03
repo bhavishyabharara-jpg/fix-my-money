@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-03 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @sarthakahuja "isn't available", so @labourlawadvisor (last seen 31 Oct).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** new **"A big tax change for mutual fund investors" 42.8K** and **"Don't buy an iPhone before watching this" 212K**; "Is Google Destroying Its Own Business With AI?" 215K; "Biggest Problem While Buying a Property" 162K (152K); "The Real Reason France is Protesting" 99.7K (83.2K); "I Saved ₹43 Lakhs Using AI?" 118K; "Platinum" **511K** (499K); "Is RBI Banning US Stock Investments?" 294K.
+- **@anushkarathod98:** **"Something big is happening in 2 days" 1M** (651K yesterday); "Left your job? Do this on EPFO first" 478K; a "Google crashed" re-cut 88.1K; new **"[A big bank] employee scammed ₹11 Cr" 11.7K** (early); "[A tech major] crashed by half trillion dollars!" 3.7M; "Should you buy the dip?" 962K; "Gold & silver prices crashed!" 647K; "[A billionaire]'s tweet shook the market" 721K.
+- **@ca_rachanaranade (pinned 405K):** a retail-business "what to watch" reel 54.4K; "Will [a tech major]'s AI bets justify this spending?" 50.8K; Marathi rally cut 20K; "What's driving this rally?" 69.1K; demerger tax 67.5K. Steady, nothing breakout.
+- **@labourlawadvisor:** pinned 2.3M / 3.3M; "London to UP …" 972K; "Chai wale se panga mehenga" 158K; a food-regulator-vs-influencers reel 143K; political-satire series 101–105K. Big wins are story + outrage, not rules.
+- **Pattern:** a pre-purchase warning ("Don't buy an iPhone before watching this", 212K within days) is the newest winner on the biggest account, the same intent as our bill-reveal (the ₹ hidden in a purchase made this week). The countdown reel ("in 2 days") kept compounding to 1M. Our education-only version is the Diwali purchase bill: 6 Nov am "₹50,000 TV? ₹7,627 of it is GST".
+- **News (last 48 h):** a 2 Nov business-news round-up of November changes: direct plans became the default option on fund-house sites and apps from 1 Nov (regular plans and SIPs not converted); pensioner life certificates 1–30 Nov (covered 12 Oct); ITR deadline for audited taxpayers moved to 21 Nov (not salaried); two named banks' new card and failed-transaction charges (brand-specific, not used). Single source each, so none used in a reel; no prices quoted. Used evergreen facts with two sources each: TVs above 32 inches 28% → 18% GST from 22 Sep 2025 (a business news report and a tax-filing platform's rate guide agree); gold-loan LTV caps of 85/80/75% from 1 Apr 2026 and the 7-working-day gold return (a business news report and a lender's education page agree); ₹5,000-a-day compensation for late return (the same news report and a second lender page agree). **Not used:** that making charges are excluded from gold valuation (one source only).
+
 ## 2026-11-02 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @nehanagar and @akshatshrivastava_ were the wrong / private accounts and @akshatzayn "isn't available", so @pranjalkamra (last seen 30 Oct) again.

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-06",
+  "slot": "reel",
+  "publish_at": "2026-11-06T02:45",
+  "topic": "TV GST: TVs above 32 inches moved from 28% to 18% GST on 22 Sep 2025; illustrative ₹50,000 TV (GST included) → ₹7,627 GST; same pre-tax price at the old 28% = ₹54,237 (₹4,237 more); pass-through varies, check the invoice's GST line",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (scoreboard's EXPLOIT pattern: 4 reels, median score 6.9). Weekly rule 1: hook names one purchase the viewer makes this week (a Diwali TV). Today's engine change: plain-word hook, no tax acronym except everyday GST. Tests whether an appliance bill repeats the gold/dinner-bill reach (117–129 views). 20 spoken words, 11.4 s silent render.",
+  "caption": "₹50,000 TV: how much of it is GST?\n\nSince 22 Sep 2025, TVs above 32 inches carry 18% GST, down from 28%.\nOn an illustrative ₹50,000 bill (GST included), ₹7,627 is GST.\nAt the old 28%, the same pre-tax price would have come to ₹54,237, or ₹4,237 more.\nHow much of the cut a shop passed on varies, so check the GST line on your invoice.\n\nAre you buying anything big this Diwali?\n\nSources: a business news report on the GST rate cut for TVs (Sep 2025); a tax-filing platform's GST rate guide. ₹50,000 is an illustrative price.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#gstindia #diwalishopping #gstcut #moneytips #tvbuying",
+  "spec": "specs/2026-11-06-reel-am.json",
+  "media": [
+    "media/2026-11-06/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-06/reel-am/reel_cover.png",
+  "sources": [
+    "A business news report on the GST rate cut for TVs above 32 inches (Sep 2025)",
+    "A tax-filing platform's GST rate guide for TVs (2025)"
+  ]
+}

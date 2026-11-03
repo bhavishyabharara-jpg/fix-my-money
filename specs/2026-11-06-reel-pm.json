@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-06",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1 lakh gold?\nMax loan:\n[[₹85,000]]",
+    "vo": "एक लाख का gold? Loan पचासी हज़ार तक।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Gold loans up to ₹2.5 lakh",
+    "big": "85%",
+    "color": "amber",
+    "label": "of gold value, at most",
+    "vo": "ढाई लाख तक, पचासी percent।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Gold returned late?",
+    "big": "₹5,000",
+    "color": "mint",
+    "label": "a day, after 7 working days",
+    "vo": "देर से लौटे? पाँच हज़ार रोज़।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Repaid? Gold back in\n**7 working days.**",
+    "cta": [
+     "Send to the friend pledging gold this Diwali",
+     "Follow for a money fix every day"
+    ],
+    "vo": "दोस्त को भेजो।",
+    "mood": "neutral"
+   }
+  ],
+  "caption": "₹1 lakh of gold: how much loan can you get?\n\nUnder the RBI's gold-loan rules in force from 1 April 2026, a loan of up to ₹2.5 lakh can be at most 85% of the gold's value (80% for ₹2.5–5 lakh, 75% above ₹5 lakh).\nSo ₹1 lakh of gold gets you a loan of up to ₹85,000.\nOnce you repay, the lender must return your gold within 7 working days, or pay ₹5,000 compensation for each day of delay.\n\nHave you or your family ever pledged gold for a loan?\n\nSources: a business news report on the RBI's gold-loan directions (Oct 2025); two lenders' education pages on loan-to-value limits and borrower rights. ₹1 lakh is illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldloan #rbirules #diwalispending #moneytips #personalfinanceindia"
+ }
+}
