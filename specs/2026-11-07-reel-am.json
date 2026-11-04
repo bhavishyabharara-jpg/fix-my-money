@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-07",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1 lakh FD broken?\n[[₹2,000]] gone",
+    "vo": "FD तोड़ा? दो हज़ार गए।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Kept: 2 years at 6.5%",
+    "big": "₹6,500",
+    "color": "mint",
+    "label": "interest in year 1",
+    "vo": "रखते तो साढ़े छह हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Broken after 1 year",
+    "big": "₹4,500",
+    "color": "red",
+    "label": "5.5% rate minus 1% penalty",
+    "vo": "तोड़ा तो सिर्फ़ साढ़े चार।",
+    "mood": "neutral"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Need cash?\nCheck the **penalty** first.",
+    "cta": [
+     "Send to the friend breaking an FD",
+     "Follow for a money fix every day"
+    ],
+    "vo": "FD तोड़ने वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Breaking a ₹1 lakh FD early: how much do you lose?\n\nBreak an FD early and the bank pays the rate for the time you actually stayed, then cuts a penalty, usually 0.5% to 1%.\nIllustrative: ₹1 lakh booked for 2 years at 6.5% would earn about ₹6,500 in year 1.\nBroken after 1 year, with a 5.5% one-year rate and a 1% penalty, it earns 4.5%: about ₹4,500, so ₹2,000 less.\nSimple interest, rounded; your bank's terms decide the real figure.\n\nHave you ever broken an FD for a wedding or an emergency?\n\nSources: a bank's education page on FD breaking charges; a finance marketplace's guide to premature FD withdrawal. All rates are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #fdpenalty #weddingseason #moneytips #personalfinanceindia"
+ }
+}

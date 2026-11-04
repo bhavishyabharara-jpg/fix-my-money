@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-07",
+  "slot": "reel",
+  "publish_at": "2026-11-07T02:45",
+  "topic": "Breaking an FD early: bank pays the rate for the period actually held minus a penalty (usually 0.5–1%); illustrative ₹1 lakh booked 2 years at 6.5% → ~₹6,500 in year 1; broken after 1 year at a 5.5% one-year rate minus 1% → 4.5% ≈ ₹4,500, ~₹2,000 less (simple interest)",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (scoreboard's bill-reveal pattern). Weekly rule 1: hook names one money move the viewer makes this month (breaking an FD for wedding-season cash). Tests whether a savings-side 'hidden cost' reaches like the spend-side bills. 21 spoken words, 11.4 s silent render.",
+  "caption": "Breaking a ₹1 lakh FD early: how much do you lose?\n\nBreak an FD early and the bank pays the rate for the time you actually stayed, then cuts a penalty, usually 0.5% to 1%.\nIllustrative: ₹1 lakh booked for 2 years at 6.5% would earn about ₹6,500 in year 1.\nBroken after 1 year, with a 5.5% one-year rate and a 1% penalty, it earns 4.5%: about ₹4,500, so ₹2,000 less.\nSimple interest, rounded; your bank's terms decide the real figure.\n\nHave you ever broken an FD for a wedding or an emergency?\n\nSources: a bank's education page on FD breaking charges; a finance marketplace's guide to premature FD withdrawal. All rates are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #fdpenalty #weddingseason #moneytips #personalfinanceindia",
+  "spec": "specs/2026-11-07-reel-am.json",
+  "media": [
+    "media/2026-11-07/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-07/reel-am/reel_cover.png",
+  "sources": [
+    "A bank's education page on FD breaking charges (penalty usually 0.5–1%, rate for the completed tenure)",
+    "A finance marketplace's guide to premature FD withdrawal (lower of booked and held-tenure rate, minus penalty)"
+  ]
+}

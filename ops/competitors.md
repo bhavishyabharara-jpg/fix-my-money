@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-04 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @ankurwarikoo (last seen 1 Nov).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** "A big tax change for mutual fund investors" **123K** (42.8K yesterday); "Don't buy an iPhone before watching this" **263K** (212K); "Is Google Destroying Its Own Business With AI?" 220K; "Biggest Problem While Buying a Property" 169K; "The Real Reason France is Protesting" 104K; "Platinum" 520K; "Is RBI Banning US Stock Investments?" 297K.
+- **@anushkarathod98:** new **"Earn in dollars, sitting in India!" 114K**; "[A big bank] scam alert: users lost crores" 32.7K (new); "Left your job? Do this on EPFO first" **672K** (478K); "[A tech major] crashed by half trillion dollars!" 3.8M; "Something big is happening in 2 days" 1M; "[A big bank] employee scammed ₹11 Cr" 12K; gold/silver crash 745K; billionaire's tweet 660K.
+- **@ca_rachanaranade (pinned 405K):** retail-business "what to watch" 60.5K; AI-spending reel 51.8K; Marathi rally cut 20.2K; rally explainer 70.7K; demerger tax 68.5K. Steady, nothing breakout.
+- **@ankurwarikoo:** "Everyone is jealous of the destination" 3.4M; "5 questions before marriage" 3.4M; "5 couple money rules we follow" 3.7M; a "₹100: 2010 vs 2026" reel ~1M; "3 messages to ask for a job referral" 681 (new). Wedding/couple money and then-vs-now rupee comparisons are his biggest.
+- **Pattern:** a "do this first" action for a life event (left your job → EPFO, 672K and still climbing; before marriage → 5 questions, 3.4M) keeps compounding for days. Our education-only version is the life-event ₹ cost (breaking an FD for a wedding, 7 Nov am) and a dated deadline (belated ITR, 7 Nov pm).
+- **News (last 48 h):** the search returned only generic personal-finance index pages, no new dated household-money change; nothing used, no prices quoted. Used evergreen facts with two sources each: FD premature-withdrawal penalty usually 0.5–1% on the held-tenure rate (a bank's education page and a finance marketplace's guide agree); belated ITR for FY 2025-26 by 31 Dec 2026 with a ₹5,000 / ₹1,000 fee (a tax-filing platform's guide and a tax-education site agree); updated return not available for a refund (tax-filing platform's guide; the tax-education site doesn't contradict). **Not used:** revised-return window to 31 Mar 2027 (one source, no budget citation).
+
 ## 2026-11-03 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @sarthakahuja "isn't available", so @labourlawadvisor (last seen 31 Oct).

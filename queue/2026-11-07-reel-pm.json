@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-07",
+  "slot": "reel",
+  "publish_at": "2026-11-07T13:45",
+  "topic": "Belated ITR for FY 2025-26: last date 31 Dec 2026; late fee ₹5,000 (₹1,000 if total income up to ₹5 lakh); after 31 Dec the updated return can't be used to claim a refund",
+  "hook_pattern": "deadline-countdown",
+  "experiment": "EXPERIMENT (15% slot): new deadline-countdown hook ('₹5,000 late fee? 54 days left'), copying the competitor countdown format that reached 1M, without a prediction. First line is the ₹ fee per weekly rule 1; tests whether a dated countdown lifts the first-2-second hold. 19 spoken words, 11.4 s silent render.",
+  "caption": "₹5,000 late fee: do you still have time to dodge it?\n\nMissed the July ITR date? You can still file a belated return for FY 2025-26 until 31 Dec 2026.\nThe late fee is ₹5,000, or ₹1,000 if your total income is up to ₹5 lakh.\nAfter 31 Dec, the updated return route is only for paying extra tax: it can't be used to claim a refund.\n\nIs your refund still stuck because you haven't filed?\n\nSources: a tax-filing platform's guide to belated returns; a tax-education site's note on AY 2026-27 belated and revised return dates.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#itrfiling #belatedreturn #incometaxindia #taxrefund #moneytips",
+  "spec": "specs/2026-11-07-reel-pm.json",
+  "media": [
+    "media/2026-11-07/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-07/reel-pm/reel_cover.png",
+  "sources": [
+    "A tax-filing platform's guide to belated returns and the late fee (AY 2026-27)",
+    "A tax-education site's note on AY 2026-27 belated and revised return dates"
+  ]
+}
