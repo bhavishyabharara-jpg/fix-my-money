@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-05 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @pranjalkamra (last seen 2 Nov).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** **"Don't buy an iPhone before watching this" 3.4M** (263K yesterday, a 13× jump in a day); new "The Next Big Opportunity for Indian Stocks?" 379K; "A big tax change for mutual fund investors" 129K (123K); "Biggest Problem While Buying a Property" 174K; "The Real Reason France is Protesting" 108K; "Platinum" 530K; "Is RBI Banning US Stock Investments?" 300K.
+- **@anushkarathod98:** new "Indian companies are cleanmaxxing" 41.5K and an 18K reel; "Earn in dollars, sitting in India!" 131K (114K); "[A big bank] scam alert: users lost crores" 38.9K; older grid unchanged ("Left your job? Do this on EPFO first", "Something big is happening in 2 days").
+- **@ca_rachanaranade (pinned 405K):** retail-business "what to watch" 61.9K; AI-spending reel 52.6K; Marathi rally cut 20.2K. Steady, nothing breakout.
+- **@pranjalkamra:** pinned "Investment plan for ₹5,000 get 1.6 crores" 3.3M, "Luxury brands are fooling you?" 2M, "6 step financial plan" 1.1M; newest "We don't reject every stock!!" 22.6K. Big wins are a small ₹ input with a big ₹ outcome, or a purchase trap.
+- **Pattern:** the pre-purchase warning ("Don't buy X before watching this") is now the biggest-growing reel on the biggest account, 3.4M within a week. It is our bill-reveal intent with a "before you buy" frame. Our education-only version for the next batch: "Before you <buy/sign> this Diwali: the ₹ you don't see".
+- **News (last 48 h):** a business-news report (3 Nov) on gold hallmarking charges rising ₹45 → ₹75 per article from 14 Sep 2026: only ₹30 a piece, single source, not used. Gold-rate pages quote prices (not used: no prices under 3 months). Used evergreen facts: the ₹2 lakh cash-receipt rule, penalty equal to the amount, borne by the receiver (a tax-education site and a broker's news-desk explainer agree; a law firm's note says it reaches wedding cash gifts from one person). Home-loan prepayment numbers are illustrative reducing-balance maths. **Not used:** the new-Act section number for the cash rule (one blog only, no effective date).
+
 ## 2026-11-04 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @ankurwarikoo (last seen 1 Nov).

@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-08",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh\ncash shagun?\nPenalty:\n[[₹2 lakh]]",
+    "vo": "दो लाख cash shagun? Penalty भी दो लाख।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "From one person, one occasion",
+    "big": "₹2 lakh+",
+    "color": "amber",
+    "label": "in cash: not allowed",
+    "vo": "एक occasion, एक इंसान से।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Who pays the penalty?",
+    "big": "You",
+    "color": "red",
+    "label": "the receiver, not the giver",
+    "vo": "Penalty लेने वाला भरता है।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Big gift?\nTake it by **bank transfer.**",
+    "cta": [
+     "Send to the friend getting married",
+     "Follow for a money fix every day"
+    ],
+    "vo": "शादी वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹2 lakh cash shagun: can it cost you ₹2 lakh?\n\nTax law bars receiving ₹2 lakh or more in cash from one person in a day, for one transaction, or for one event or occasion.\nThe penalty can equal the cash received, and it falls on the person who receives it, not the giver.\nWedding cash gifts of ₹2 lakh or more from one person can be caught by this rule; a bank transfer or cheque is not.\n\nDoes your family still give big wedding gifts in cash?\n\nSources: a law firm's note on wedding-gift tax compliance; a tax-education site's guide to cash-transaction limits; a broker's news desk explainer on the ₹2 lakh cash rule.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddingseason #cashgift #incometaxindia #shagun #moneytips"
+ }
+}

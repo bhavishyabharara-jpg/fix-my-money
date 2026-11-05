@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "slot": "reel",
+  "publish_at": "2026-11-08T13:45",
+  "topic": "Home-loan prepayment with a Diwali bonus: illustrative ₹50 lakh at 8.5% for 20 years (EMI ≈ ₹43,391, total interest ≈ ₹54 lakh); ₹1 lakh prepaid at end of year 1 with the same EMI → ≈ ₹3.8 lakh less interest, 11 fewer EMIs",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number): small input, big ₹ saving on a bill the viewer already pays (home-loan EMI), timed to bonus week. Hook is 4 short explicit lines so no ₹ figure splits. All numbers are illustrative reducing-balance maths. 22 spoken words, 11.4 s silent render.",
+  "caption": "Home loan: what does prepaying ₹1 lakh of your Diwali bonus save?\n\nIllustrative: a ₹50 lakh loan at 8.5% for 20 years has an EMI of about ₹43,391 and about ₹54 lakh of total interest.\nPrepay ₹1 lakh at the end of year 1 and keep the same EMI: about ₹3.8 lakh less interest and 11 fewer EMIs.\nEarly prepayments save the most because interest is charged on the outstanding balance. Check your lender's terms first.\n\nWould you prepay the loan or keep the bonus as savings?\n\nSources: standard reducing-balance EMI calculation. All rates and amounts are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#homeloan #prepayment #diwalibonus #emi #personalfinanceindia",
+  "spec": "specs/2026-11-08-reel-pm.json",
+  "media": [
+    "media/2026-11-08/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-08/reel-pm/reel_cover.png",
+  "sources": [
+    "Standard reducing-balance EMI calculation (illustrative)"
+  ]
+}
