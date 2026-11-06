@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-09",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹60,000\nrent?\n[[₹14,400]] TDS\nis on you",
+    "vo": "साठ हज़ार rent? TDS आपकी ज़िम्मेदारी।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Rent above ₹50,000 a month",
+    "big": "2%",
+    "color": "amber",
+    "label": "TDS the tenant deducts",
+    "vo": "पचास हज़ार से ऊपर, दो percent TDS।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: 12 × ₹60,000",
+    "big": "₹14,400",
+    "color": "red",
+    "label": "cut from March rent",
+    "vo": "March के rent से काटो।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Skip it?\nInterest +\n**a tax notice.**",
+    "cta": [
+     "Send to the friend paying big rent",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Rent वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹60,000 rent: is ₹14,400 of TDS your job?\n\nA tenant (individual, not under tax audit) paying rent above ₹50,000 a month must deduct 2% TDS from the rent.\nIt is deducted once a year: from the rent for March, or the last month of the tenancy if you move out earlier.\nIllustrative: ₹60,000 × 12 = ₹7.2 lakh rent → ₹14,400 TDS. Skipping it can bring interest every month and a tax notice.\n\nDid you know the tenant, not the landlord, has to cut this TDS?\n\nSources: a tax-education site's guide to TDS on rent under the new Income-tax Act; a business newspaper's explainer on the ₹50,000 rent rule; a broker's news desk report on TDS-on-rent notices.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#tdsonrent #rentindia #incometaxindia #tenant #moneytips"
+ }
+}

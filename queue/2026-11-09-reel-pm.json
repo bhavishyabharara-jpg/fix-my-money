@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "slot": "reel",
+  "publish_at": "2026-11-09T13:45",
+  "topic": "Clubbing: interest on an FD made with money a husband gifted his wife is taxed as the husband's income; gift itself tax-free; illustrative ₹10 lakh at 7% = ₹70,000 → ≈ ₹21,840 at 30% slab + 4% cess",
+  "hook_pattern": "group-callout",
+  "experiment": "KEEP (group-callout, 3rd test after EPF job loss 139 views and guarantor). Callout names the person ('Husbands:') and a money move (an FD booked in a spouse's name); tests whether a tax-saving myth with one ₹ figure gets sends to the husband who did it. 22 spoken words.",
+  "caption": "FD in your wife's name: who pays the tax on its interest?\n\nMoney a husband gifts his wife is tax-free for her, but the income it earns is clubbed back to him.\nIllustrative: a ₹10 lakh gift put in an FD at 7% earns ₹70,000 a year, taxed as his income: about ₹21,840 at a 30% slab with 4% cess.\nGifts from her parents or relatives, or her own savings, are treated differently.\n\nDid you know an FD in a spouse's name doesn't move the tax?\n\nSources: a personal-finance magazine's explainer on spouse gifts and FDs; a business magazine's article on transfers to a wife's account. Rates and amounts are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #incometaxindia #clubbingofincome #taxsaving #moneytips",
+  "spec": "specs/2026-11-09-reel-pm.json",
+  "media": [
+    "media/2026-11-09/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-09/reel-pm/reel_cover.png",
+  "sources": [
+    "A personal-finance magazine's explainer on spouse gifts, FDs and clubbing",
+    "A business magazine's article on transfers to a wife's account"
+  ]
+}

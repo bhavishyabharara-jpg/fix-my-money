@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-06 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @shashankudupa "isn't available", so @labourlawadvisor (last seen 3 Nov).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** **"Don't Buy an iPhone Before Watching this" 9.3M** (3.4M yesterday, 263K two days ago); **"Platinum: a new way to look at value" 2.2M** (530K); new US-midterms reel 236K; "The Next Big Opportunity for Indian Stocks?" 422K (379K); "A big tax change for mutual fund investors" 132K; "Is Google Destroying Its Own Business With AI?" 228K; "Biggest Problem While Buying a Property" 178K; "I Saved ₹43 Lakhs Using AI?" 127K; "The Real Reason France is Protesting" 110K.
+- **@anushkarathod98:** "Indian companies are cleanmaxxing" 90.1K (41.5K); an 18.7K reel; "Earn in dollars, sitting in India!" 133K; "[A big bank] scam alert" 39.2K; "Left your job? Do this on EPFO first" **711K** (still climbing); "Something big is happening in 2 days" 1M; "Should you buy the dip?" 985K; "[A tech major] crashed by half trillion dollars!" 3.9M.
+- **@ca_rachanaranade (pinned 405K):** new Diwali reel "Stop investing on someone else's conviction" 1,106 (just posted); retail-business "what to watch" 62.7K; AI-spending reel 53.6K; rally explainer 73.3K. Steady.
+- **@labourlawadvisor:** pinned "Lifetime, unlimited gol gappe" 2.3M, "Why China beats India?" 3.3M; newest 185K and 45.6K; "₹34 ke liye … ko toda" 79.9K; "Chai wale se panga mehenga" 167K; food-regulator vs influencers 156K.
+- **Pattern:** the pre-purchase warning ("Don't buy X before watching this") went 263K → 9.3M in two days, now the biggest reel on the biggest account, and a reframe-the-value reel (platinum) quadrupled. Both are "before you spend, see the hidden ₹". Our education-only version stays the bill-reveal, and the next experiment slot should test the literal "Before you <pay/book> X: the ₹ you don't see" frame.
+- **News (last 48 h):** a 31 Oct business-news round-up of 1 Nov changes: pensioner life certificates 1–30 Nov (covered 12 Oct); audit-case ITR deadline 21 Nov (not salaried); a bank's credit-card fee changes and another bank's failed-transaction charges (brand-specific, single source, not used). No prices quoted. Used evergreen facts with two sources each: 2% TDS on rent above ₹50,000 a month, deducted once a year at March or move-out (a tax-education site's new-Act guide and a business newspaper agree; a broker's news desk agrees on 2%); interest on money gifted to a wife taxed as the husband's income, gift itself tax-free (a personal-finance magazine, June 2026, and a business magazine agree). **Not used:** the ₹200-a-day late fee and ₹1 lakh penalty figures (old-Act forms, one source).
+
 ## 2026-11-05 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @pranjalkamra (last seen 2 Nov).

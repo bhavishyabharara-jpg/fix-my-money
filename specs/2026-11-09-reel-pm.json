@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-09",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Husbands:\nFD in your\nwife's name?\n[[You]] pay tax",
+    "vo": "Husbands, wife के नाम FD? Tax आपका।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹10 lakh gift, FD at 7%",
+    "big": "₹70,000",
+    "color": "amber",
+    "label": "added to YOUR income",
+    "vo": "सत्तर हज़ार interest, आपकी income में।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "At an illustrative 30% slab",
+    "big": "₹21,840",
+    "color": "red",
+    "label": "tax on you, not her",
+    "vo": "लगभग बाईस हज़ार tax आप पर।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "The gift is tax-free.\n**Its interest isn't.**",
+    "cta": [
+     "Send to the husband with that FD",
+     "Follow for a money fix every day"
+    ],
+    "vo": "दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "FD in your wife's name: who pays the tax on its interest?\n\nMoney a husband gifts his wife is tax-free for her, but the income it earns is clubbed back to him.\nIllustrative: a ₹10 lakh gift put in an FD at 7% earns ₹70,000 a year, taxed as his income: about ₹21,840 at a 30% slab with 4% cess.\nGifts from her parents or relatives, or her own savings, are treated differently.\n\nDid you know an FD in a spouse's name doesn't move the tax?\n\nSources: a personal-finance magazine's explainer on spouse gifts and FDs; a business magazine's article on transfers to a wife's account. Rates and amounts are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #incometaxindia #clubbingofincome #taxsaving #moneytips"
+ }
+}
