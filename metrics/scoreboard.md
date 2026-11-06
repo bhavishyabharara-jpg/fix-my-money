@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-05
+# Scoreboard — 2026-11-06
 
-Followers **11** (-1 vs previous day). Reels tracked: 69. Median views per reel: 24.
+Followers **11** (+0 vs previous day). Reels tracked: 69. Median views per reel: 24.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -15,7 +15,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
 | 2026-11-01-reel-am Train ticket cancellation under the revised refund rules (fr | contrarian-number | yes | 162 | 4.3s (38%) | 0 | 0 | 1 | 0 | 9.5 |
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
-| 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 120 | 3.8s (32%) | 0 | 0 | 0 | 0 | 8.0 |
+| 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 126 | 3.8s (32%) | 0 | 0 | 0 | 0 | 8.1 |
+| 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 121 | 3.8s (32%) | 0 | 0 | 0 | 0 | 8.0 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
 | 2026-11-03-reel-am Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, pet | guess-the-number | yes | 126 | 3.4s (30%) | 0 | 0 | 0 | 0 | 7.5 |
@@ -45,7 +46,6 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
 | 2026-10-12-reel-am UPI shop payments above ₹2,000: the 0.4% merchant fee from 1 | news-stakes | yes | 89 | 2.5s (13%) | 0 | 0 | 2 | 0 | 3.6 |
-| 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 35 | 1.6s (14%) | 0 | 0 | 0 | 0 | 3.5 |
 | 2026-10-18-reel-am Inflation hit 5.54% in September: what idle ₹1 lakh in cash  | news-stakes | yes | 26 | 2.1s (14%) | 0 | 0 | 0 | 0 | 3.5 |
 | 2026-10-17-reel-mid ₹10 lakh cash deposit isn't a limit: it's the yearly reporti | contrarian-number | yes | 24 | 1.9s (13%) | 0 | 0 | 0 | 0 | 3.4 |
 | 2026-10-18-reel-mid Can a minimum-balance fine push your savings balance below ₹ | big-question | yes | 20 | 2.0s (13%) | 0 | 0 | 0 | 0 | 3.3 |
@@ -83,11 +83,11 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
 | group-callout | 1 | 139 | 40% | 10.0 | keep |
+| red-day-relatable | 1 | 126 | 32% | 8.1 | keep |
 | bill-reveal | 5 | 108 | 25% | 6.4 | EXPLOIT |
 | contrarian-number | 18 | 44 | 19% | 4.7 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
 | guess-the-number | 7 | 28 | 17% | 4.3 | keep |
-| red-day-relatable | 1 | 35 | 14% | 3.5 | keep (low data) |
 | news-stakes | 5 | 26 | 13% | 3.5 | keep |
 | big-question | 16 | 20 | 13% | 3.2 | test again |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
@@ -100,7 +100,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
-Narrated reels: median views 24, watch 15% — silent reels: 22, 13%.
+Narrated reels: median views 24, watch 16% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
