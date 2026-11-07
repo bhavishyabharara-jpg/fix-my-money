@@ -1,4 +1,4 @@
-# Scoreboard — 2026-11-06
+# Scoreboard — 2026-11-07
 
 Followers **11** (+0 vs previous day). Reels tracked: 69. Median views per reel: 24.
 
