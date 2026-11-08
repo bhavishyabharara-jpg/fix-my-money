@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "slot": "reel",
+  "publish_at": "2026-11-10T13:45",
+  "topic": "SIP step-up: ₹5,000 a month for 20 years at an illustrative 12% a year ≈ ₹49.5 lakh; the same SIP raised 10% every year ≈ ₹98.5 lakh, but you invest ≈ ₹34.4 lakh instead of ₹12 lakh; returns not guaranteed",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number). Weekly rule 1: every-other-day pm investing ₹ number (2nd test after 4 Nov red-day SIP, 126 views / 32%). Tests a big-₹ outcome hook with the honest twist (more money in) on the end card. 22 spoken words.",
+  "caption": "₹5,000 SIP: what does a 10% yearly step-up do?\n\nIllustrative, at an assumed 12% a year for 20 years:\nFlat ₹5,000 a month → about ₹49.5 lakh (you put in ₹12 lakh).\nRaise it 10% every year → about ₹98.5 lakh (you put in about ₹34.4 lakh).\nMost of the gap is extra money in, plus more time for it to compound. Returns are not guaranteed and can be lower.\n\nWould you rather step up your SIP or start a second one?\n\nSources: illustrative compounding maths; no real fund or return assumed.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#sipstepup #sipinvestment #mutualfundsindia #compounding #moneytips",
+  "spec": "specs/2026-11-10-reel-pm.json",
+  "media": [
+    "media/2026-11-10/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-10/reel-pm/reel_cover.png",
+  "sources": [
+    "Illustrative compounding maths (monthly SIP, 12% a year assumed, 1% a month)"
+  ]
+}

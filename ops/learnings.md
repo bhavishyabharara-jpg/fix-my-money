@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-11-08 — Daily review (day 19 after the goal date)
+
+- **Followers: 11 (+0 vs 7 Nov). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we have averaged under 1.** No reel has published since 4 Nov pm. **Push blocker, day 6:** local main 56ac16a vs origin 3e6840f; the Mac fetched at 07:10 UTC but hasn't pushed since 2 Nov. 5–8 Nov specs and media are 404 on GitHub (8 slots missed so far). Until the owner runs autopush.sh by hand and re-authenticates, nothing below matters for growth.
+- **Best (≥48 h, unchanged since 4 Nov; no new posts):** 2 Nov pm HRA rent **168 views, 26%**, 1 Nov am train refund **162, 38%**, 1 Nov pm PF after job loss **139, 40%**: each is a life event happening to the viewer this week, with one ₹ bill. **Worst:** 2 Nov am overseas TCS **24, 20%** (acronym, rare purchase). 4 Nov pm red-day SIP holds **126 / 32%**: an investing reel that reached.
+- **Patterns:** bill-reveal **EXPLOIT**; contrarian-number, group-callout, guess-the-number, news-stakes, red-day-relatable **keep**; news-list **drop**. Narrated vs silent: no new data; voice stays `sarvam:amit`.
+- **Engine change today: the 15% experiment slot tests a "before-you" hook** (the education-only version of this week's biggest competitor reel, a pre-purchase warning now at 19M). Also applied the 8 Nov weekly rules from 10 Nov: am reels speak the follow ask with a save line on the end card (send line in the caption); every-other-day pm investing number.
+- **Queued (4 jobs, to the end of 11 Nov):** 10 Nov am bill-reveal "₹1,000 left unpaid? New buys pay interest" (card interest-free period lost); 10 Nov pm contrarian-number "₹5,000 SIP? +10% yearly = 2× corpus" (illustrative 12%; end card shows ₹34 lakh in vs ₹12 lakh); 11 Nov am bill-reveal "₹50,000 bill to EMI? ₹6,122 extra" (illustrative 16%, fee + 18% GST); 11 Nov pm before-you "Before you claim ₹5,000, see this: ₹8,000 more" (no-claim bonus). 21–22 spoken words each, 11.4 s silent render. Frame check fixed a "pay" orphan, a "₹34 / lakh" split, two orphaned end words and an end text crowding the presenter. The 90-day NCB lapse window was dropped (sources disagreed).
+
 ## 2026-11-08 — Weekly review (format level)
 
 - **Followers 11 vs 2,000 (goal date 20 Oct passed 19 days ago; off the sprint checkpoint path by ~99%).** −1 this week (12 on 1 Nov → 11), +1 the week before. **Publishing stopped after 4 Nov:** the Mac still pulls (last fetch 8 Nov 06:30 UTC) but has not pushed since 2 Nov, so 5–9 Nov (10 rendered reels) never reached GitHub. Only 8 reels went out this week vs 14 last week. Fixing the push (owner runs autopush.sh by hand and re-authenticates) is still the #1 growth action.

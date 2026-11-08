@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-08 (daily pass, logged out)
+
+- **Reels tabs loaded for 4 creators** (view counts only; titles not readable logged out this time). Rotating pick: @ankurwarikoo (last seen 4 Nov).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** the pre-purchase warning reel ("Don't buy an iPhone before watching this") is now **19M** (9.3M on 6 Nov, 263K on 4 Nov). Two new reels at 60.5K and 107K; the rest 114K–432K.
+- **@anushkarathod98:** two new reels, **1.1M** and 62.5K; "cleanmaxxing" 116K (90.1K); an 18.8K reel.
+- **@ca_rachanaranade (pinned 408K):** a new reel at **1.5M** (her first breakout in weeks), plus 67.7K and 2,610 (just posted); the Diwali "stop" reel is in the next row.
+- **@ankurwarikoo (4M followers):** pinned 3.5M / 3.4M / 3.8M; recent 38.1K, 11.2K, 265K, 79.4K, 110K, 31.9K, 280K, 2,836, 480K. Wide spread, typical of a big account.
+- **Pattern:** the "before you buy/do X" warning keeps compounding (19M, ~70× in 4 days). Our education-only test runs 11 Nov pm ("Before you claim ₹5,000…"). Two creators broke 1M with new reels this week; we couldn't read their hooks logged out.
+- **News (last 48 h):** nothing new for salaried viewers. A 2 Nov business-newspaper round-up: direct mutual-fund plans are now the default on fund-house sites (1 Nov), pensioner life certificates are due 1–30 Nov (covered 12 Oct), and the audit-case ITR deadline is 21 Nov (not salaried). Bank-specific card and failed-transaction charges weren't used (brand-specific). Used evergreen facts: losing the interest-free period when a card bill is part-paid (a personal-finance magazine and a comparison site agree); 18% GST on card-EMI interest and processing fee (a business magazine, Oct 2026, and a comparison site agree); no-claim bonus 20% → 50% over five claim-free years, own-damage premium only, reset to 0 by a claim (an insurer's page, a comparison site and an investing-research site agree). **Not used:** the 90-day NCB renewal window (one source says fixed 90 days, another says it varies by insurer).
+
 ## 2026-11-06 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (views shown, logged out). Rotating pick: @shashankudupa "isn't available", so @labourlawadvisor (last seen 3 Nov).

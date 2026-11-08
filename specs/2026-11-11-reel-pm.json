@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-11",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Before you\nclaim ₹5,000,\nsee this:\n[[₹8,000]] more",
+    "vo": "पाँच हज़ार claim? अगले साल आठ हज़ार ज़्यादा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "5 claim-free years",
+    "big": "50%",
+    "color": "green",
+    "label": "off own-damage premium",
+    "vo": "पाँच साल, पचास percent छूट।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹16,000 premium",
+    "big": "₹8,000",
+    "color": "red",
+    "label": "lost after one claim",
+    "vo": "एक claim, छूट zero।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Small dent?\n**Do the maths.**",
+    "cta": [
+     "Send to the friend with a new dent",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Car वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Before you claim ₹5,000 for a dent: could it cost ₹8,000?\n\nThe no-claim bonus (NCB) on car insurance starts at 20% after one claim-free year and reaches 50% after five.\nIt applies only to the own-damage part of the premium, and one claim resets it to zero.\nIllustrative: ₹16,000 own-damage premium at 50% NCB = ₹8,000 paid. Claim ₹5,000 → next year about ₹8,000 more, and the bonus rebuilds from scratch.\nSome policies offer an add-on that protects the NCB; check your terms.\n\nWould you claim a small dent or pay it yourself?\n\nSources: an insurer's knowledge-centre page on NCB slabs; a comparison site's article on keeping the NCB; an investing-research site's NCB explainer. Figures are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#carinsurance #noclaimbonus #motorinsurance #carownersindia #moneytips"
+ }
+}

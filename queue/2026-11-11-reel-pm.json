@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "slot": "reel",
+  "publish_at": "2026-11-11T13:45",
+  "topic": "Car insurance no-claim bonus: 20% after one claim-free year rising to 50% after five, on the own-damage premium only; one claim resets it to 0; illustrative ₹16,000 own-damage premium at 50% NCB → ₹8,000 more next year after a ₹5,000 claim",
+  "hook_pattern": "before-you",
+  "experiment": "EXPERIMENT (15%): new 'before-you' hook, the education-only version of the biggest competitor reel this week (pre-purchase warning, 19M). Everyday ₹ bill (car insurance renewal) per weekly rule 1. 22 spoken words.",
+  "caption": "Before you claim ₹5,000 for a dent: could it cost ₹8,000?\n\nThe no-claim bonus (NCB) on car insurance starts at 20% after one claim-free year and reaches 50% after five.\nIt applies only to the own-damage part of the premium, and one claim resets it to zero.\nIllustrative: ₹16,000 own-damage premium at 50% NCB = ₹8,000 paid. Claim ₹5,000 → next year about ₹8,000 more, and the bonus rebuilds from scratch.\nSome policies offer an add-on that protects the NCB; check your terms.\n\nWould you claim a small dent or pay it yourself?\n\nSources: an insurer's knowledge-centre page on NCB slabs; a comparison site's article on keeping the NCB; an investing-research site's NCB explainer. Figures are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#carinsurance #noclaimbonus #motorinsurance #carownersindia #moneytips",
+  "spec": "specs/2026-11-11-reel-pm.json",
+  "media": [
+    "media/2026-11-11/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-11/reel-pm/reel_cover.png",
+  "sources": [
+    "An insurer's knowledge-centre page on no-claim bonus slabs",
+    "A comparison site's article on keeping the no-claim bonus",
+    "An investing-research site's article on no-claim bonus"
+  ]
+}

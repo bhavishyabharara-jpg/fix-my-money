@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-10",
+  "slot": "reel",
+  "publish_at": "2026-11-10T02:45",
+  "topic": "Credit card bill not paid in full: the interest-free period is lost and new purchases attract interest too (until the full balance is cleared); illustrative ₹20,000 new spend at 3% a month → ₹600 a month + 18% GST (₹108)",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (bill-reveal). Weekly rule 1: the after-Diwali card statement the viewer holds now. Weekly rule 2: am reel speaks a follow ask (send line moved to the caption); judged 15 Nov on follows/profile visits per reach. 22 spoken words.",
+  "caption": "Left ₹1,000 unpaid on your card bill? Your new buys now pay interest.\n\nIf the full bill isn't paid by the due date, the interest-free period is lost, even on a small leftover amount.\nNew purchases then attract interest too, until the whole balance is cleared.\nIllustrative: ₹20,000 of new spending at 3% a month = ₹600 a month, plus 18% GST (₹108) on that interest.\nPaying only the minimum due avoids the late fee, not this interest.\n\nDid you know a small leftover balance switches off your free days?\nSend this to the friend who pays \"almost all\" of the bill.\n\nSources: a personal-finance magazine's explainer on interest-free days; a comparison site's guide to the card grace period. Card rates vary by issuer; figures are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcardbill #creditcardindia #interestfree #moneytips #personalfinanceindia",
+  "spec": "specs/2026-11-10-reel-am.json",
+  "media": [
+    "media/2026-11-10/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-10/reel-am/reel_cover.png",
+  "sources": [
+    "A personal-finance magazine's explainer on why unpaid card bills remove interest-free days",
+    "A comparison site's guide to the credit-card interest-free period",
+    "A personal-finance blog on card interest and GST"
+  ]
+}

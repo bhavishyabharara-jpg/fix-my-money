@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-10",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹5,000 SIP?\n+10% yearly\n= [[2×]] corpus",
+    "vo": "पाँच हज़ार SIP? हर साल दस percent बढ़ाओ।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative 12%, 20 years",
+    "big": "₹49.5 lakh",
+    "color": "amber",
+    "label": "flat ₹5,000 a month",
+    "vo": "Flat SIP: लगभग पचास लाख।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same SIP, +10% every year",
+    "big": "₹98.5 lakh",
+    "color": "green",
+    "label": "about 2× the corpus",
+    "vo": "Step-up: लगभग अट्ठानवे लाख।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "In: ₹34 lakh,\nnot ₹12 lakh.\n**Not guaranteed.**",
+    "cta": [
+     "Send to the friend with a flat SIP",
+     "Follow for a money fix every day"
+    ],
+    "vo": "SIP वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹5,000 SIP: what does a 10% yearly step-up do?\n\nIllustrative, at an assumed 12% a year for 20 years:\nFlat ₹5,000 a month → about ₹49.5 lakh (you put in ₹12 lakh).\nRaise it 10% every year → about ₹98.5 lakh (you put in about ₹34.4 lakh).\nMost of the gap is extra money in, plus more time for it to compound. Returns are not guaranteed and can be lower.\n\nWould you rather step up your SIP or start a second one?\n\nSources: illustrative compounding maths; no real fund or return assumed.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#sipstepup #sipinvestment #mutualfundsindia #compounding #moneytips"
+ }
+}

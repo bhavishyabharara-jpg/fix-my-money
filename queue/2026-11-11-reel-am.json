@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11",
+  "slot": "reel",
+  "publish_at": "2026-11-11T02:45",
+  "topic": "Converting a credit card bill to EMI: illustrative ₹50,000 at 16% a year over 12 months → ₹4,438 interest + 18% GST on interest (₹799) + 1.5% processing fee (₹750) + GST on fee (₹135) = ₹6,122 extra",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (bill-reveal). Weekly rule 1: after-Diwali card statement converted to EMI. Weekly rule 2: am follow ask, send line in caption. 22 spoken words.",
+  "caption": "₹50,000 card bill to EMI: what does it really cost?\n\nIllustrative: ₹50,000 at 16% a year over 12 months = about ₹4,438 interest.\n18% GST applies to that interest (₹799) and to a processing fee (1.5% = ₹750, + ₹135 GST).\nTotal extra: about ₹6,122. Check the rate, fee and any pre-closure charge before you convert.\n\nWould you convert, or pay it off in two months?\nSend this to the friend about to press \"convert to EMI\".\n\nSources: a business magazine's explainer on card EMI costs; a comparison site's guide to GST on card EMI. Rates and fees vary by issuer; figures are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcardemi #creditcardindia #gstonemi #emi #moneytips",
+  "spec": "specs/2026-11-11-reel-am.json",
+  "media": [
+    "media/2026-11-11/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-11/reel-am/reel_cover.png",
+  "sources": [
+    "A business magazine's October 2026 explainer on the costs of converting a card bill to EMI",
+    "A comparison site's guide to GST on card EMI interest and processing fees"
+  ]
+}

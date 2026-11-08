@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-10",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1,000 left\nunpaid?\nNew buys\npay [[interest]]",
+    "vo": "एक हज़ार बाकी? नई shopping पर interest।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Bill not paid in full",
+    "big": "0 days",
+    "color": "amber",
+    "label": "free days on new buys",
+    "vo": "पूरा नहीं, free days ख़त्म।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: ₹20,000 at 3%",
+    "big": "₹600",
+    "color": "red",
+    "label": "a month, + 18% GST",
+    "vo": "बीस हज़ार पर छह सौ।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Pay the full bill.\n**Free days return.**",
+    "cta": [
+     "Follow for a money fix every day",
+     "Save this for your next bill"
+    ],
+    "vo": "रोज़ bill decode, follow करो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Left ₹1,000 unpaid on your card bill? Your new buys now pay interest.\n\nIf the full bill isn't paid by the due date, the interest-free period is lost, even on a small leftover amount.\nNew purchases then attract interest too, until the whole balance is cleared.\nIllustrative: ₹20,000 of new spending at 3% a month = ₹600 a month, plus 18% GST (₹108) on that interest.\nPaying only the minimum due avoids the late fee, not this interest.\n\nDid you know a small leftover balance switches off your free days?\nSend this to the friend who pays \"almost all\" of the bill.\n\nSources: a personal-finance magazine's explainer on interest-free days; a comparison site's guide to the card grace period. Card rates vary by issuer; figures are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcardbill #creditcardindia #interestfree #moneytips #personalfinanceindia"
+ }
+}
