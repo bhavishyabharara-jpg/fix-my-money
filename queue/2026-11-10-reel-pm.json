@@ -13,5 +13,6 @@
   "cover": "media/2026-11-10/reel-pm/reel_cover.png",
   "sources": [
     "Illustrative compounding maths (monthly SIP, 12% a year assumed, 1% a month)"
-  ]
+  ],
+  "duration_s": 12.1
 }
