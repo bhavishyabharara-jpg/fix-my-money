@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-12",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh loan\nclosed early?\n[[₹8,260]]\nfee",
+    "vo": "दो लाख loan जल्दी बंद? आठ हज़ार fee!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: 3.5% fee",
+    "big": "₹7,000",
+    "color": "amber",
+    "label": "foreclosure fee",
+    "vo": "Foreclosure साढ़े तीन percent, सात हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "18% GST on the fee",
+    "big": "₹1,260",
+    "color": "red",
+    "label": "GST on top",
+    "vo": "ऊपर से GST बारह सौ।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Total:\n**₹8,260.**\nAsk the fee first.",
+    "cta": [
+     "Follow for a money fix every day",
+     "Send to the friend closing a loan"
+    ],
+    "vo": "रोज़ bill decode, follow करो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Closing a ₹2 lakh personal loan early: what does it cost?\n\nIllustrative: a 3.5% foreclosure fee on ₹2 lakh outstanding = ₹7,000.\n18% GST on that fee = ₹1,260. Total: ₹8,260.\nFixed-rate personal loans commonly carry a 2–6% foreclosure fee; for floating-rate loans taken by individuals for non-business use, lenders can't charge one. Check your loan agreement and key facts statement first.\n\nWould you still close it early with a bonus, or keep paying EMIs?\nSend this to the friend about to close a festive loan early.\n\nSources: a comparison site's guide to GST on personal loans; a credit-information site's guide to foreclosure charges. Fees vary by lender; figures are illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalloan #loanforeclosure #prepayment #emi #moneytips"
+ }
+}

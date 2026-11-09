@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-12",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1 lakh FD\nat 7%?\nYou keep\n[[₹4,816]]",
+    "vo": "एक लाख FD, सात percent? हाथ में अड़तालीस सौ!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: 7% for 1 year",
+    "big": "₹7,000",
+    "color": "amber",
+    "label": "interest earned",
+    "vo": "Interest सात हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "30% slab + 4% cess",
+    "big": "−₹2,184",
+    "color": "red",
+    "label": "tax on interest",
+    "vo": "तीस percent slab पर, बाईस सौ tax।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Real FD return:\n**4.8%,** not 7%.",
+    "cta": [
+     "Send to your FD-only friend",
+     "Follow for a money fix every day"
+    ],
+    "vo": "FD वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹1 lakh FD at 7%: how much do you really keep?\n\nIllustrative: ₹1 lakh at 7% for a year = ₹7,000 interest.\nFD interest is taxed at your slab rate. In the 30% slab (income above ₹24 lakh, new regime) plus 4% cess, that's ₹2,184.\nYou keep ₹4,816: a 4.8% post-tax return, before inflation. Lower slabs keep more; surcharge not included.\n\nWhat's your FD rate after tax?\n\nSources: a comparison site's FY 2026-27 slab table; a broker's news-desk guide to slabs and cess. Illustrative maths only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #fdinterest #incometaxindia #taxonfd #moneytips"
+ }
+}

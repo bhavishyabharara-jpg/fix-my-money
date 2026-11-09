@@ -2,6 +2,14 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-09 (daily pass, logged out)
+
+- **Only one Reels tab loaded.** @financewithsharan loaded; @anushkarathod98, @ca_rachanaranade and the rotating pick @pranjalkamra showed the profile header but no reel grid logged out (likely a logged-out rate limit after the first profile). Hooks weren't readable logged out again.
+- **@financewithsharan (2.9M followers; pinned 6.6M / 1.1M / 8.4M):** the pre-purchase warning reel ("Don't buy an iPhone before watching this") is now **23.8M** (19M yesterday, 263K on 4 Nov). The rest of the last 12: 113K (newest), 304K, 435K, 140K, 116K, 188K, 235K, 133K. Outside the breakout, the typical reel sits at 115K–435K.
+- **@anushkarathod98:** 1.3M followers (header only).
+- **Pattern:** the "before you buy X" warning is still compounding (~90× in 5 days). Our education-only version ("Before you claim ₹5,000…", 11 Nov pm) can't be tested until the push works.
+- **News (last 48 h):** nothing new for salaried viewers. A broker's news desk (updated 30 Oct) lists November changes: direct mutual-fund plans default on fund-house sites from 1 Nov; pensioner life certificates 1–30 Nov (covered 12 Oct); audit-case ITR deadline 21 Nov (not salaried); one bank's card-fee and dormant-account KYC changes (brand-specific, not used). A business newspaper's personal-finance page had nothing dated 7–9 Nov. Used evergreen facts: personal-loan foreclosure fee 2–6% on fixed-rate loans, none on floating-rate loans to individuals, 18% GST on the fee (a comparison site and a credit-information site agree); new-regime 30% slab above ₹24 lakh (a comparison site and a broker's news desk agree) with 4% cess (broker's news desk).
+
 ## 2026-11-08 (daily pass, logged out)
 
 - **Reels tabs loaded for 4 creators** (view counts only; titles not readable logged out this time). Rotating pick: @ankurwarikoo (last seen 4 Nov).
