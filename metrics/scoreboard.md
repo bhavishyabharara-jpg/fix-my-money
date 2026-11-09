@@ -1,4 +1,4 @@
-# Scoreboard — 2026-11-08
+# Scoreboard — 2026-11-09
 
 Followers **11** (+0 vs previous day). Reels tracked: 69. Median views per reel: 24.
 
@@ -15,8 +15,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
 | 2026-11-01-reel-am Train ticket cancellation under the revised refund rules (fr | contrarian-number | yes | 162 | 4.3s (38%) | 0 | 0 | 1 | 0 | 9.5 |
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
-| 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 126 | 3.8s (32%) | 0 | 0 | 0 | 0 | 8.1 |
-| 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 121 | 3.8s (32%) | 0 | 0 | 0 | 0 | 8.0 |
+| 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 126 | 3.9s (33%) | 0 | 0 | 0 | 0 | 8.3 |
+| 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 121 | 3.8s (32%) | 0 | 0 | 0 | 0 | 7.9 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
 | 2026-11-03-reel-am Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, pet | guess-the-number | yes | 126 | 3.4s (30%) | 0 | 0 | 0 | 0 | 7.5 |
@@ -83,7 +83,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
 | group-callout | 1 | 139 | 40% | 10.0 | keep |
-| red-day-relatable | 1 | 126 | 32% | 8.1 | keep |
+| red-day-relatable | 1 | 126 | 33% | 8.3 | keep |
 | bill-reveal | 5 | 108 | 25% | 6.4 | EXPLOIT |
 | contrarian-number | 18 | 44 | 19% | 4.7 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
