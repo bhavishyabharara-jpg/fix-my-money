@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-10 (daily pass, logged out)
+
+- **Reels tabs loaded for all 4 creators, with titles readable.** Rotating pick: @pranjalkamra (failed to load on 9 Nov).
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** newest first: "Why [a design app]'s layoffs are different" 120K, US midterms 312K, "The Next Big Opportunity for Indian Stocks?" 438K, "A big tax change for mutual fund investors" 143K, "Don't buy an iPhone before watching this" (count hidden; 23.8M yesterday), France protests 119K, "Biggest problem while buying a property" 191K, "Is Google destroying its own business with AI?" 238K, "I saved ₹43 lakhs using AI?" (hidden), **"Platinum: a new way to look at value" 8M** (2.2M on 6 Nov), "Is RBI banning US stock investments?" 311K, "Your dream home could become a nightmare" 219K.
+- **@ca_rachanaranade (pinned 408K):** **"Toxic boss vs toxic team" office skit 1.8M** (the 1.5M breakout seen 8 Nov) and a second cut at 200K; newest 2,742; "Nifty has made a strong comeback" 46.9K; Diwali reels 2,131 and 37.8K; a retail-stock watch 68.1K; AI-spending 58.5K; 21K; "What's driving this rally?" 79.9K; 74.4K.
+- **@anushkarathod98:** AI-bet reels 100K and 82.2K; "US stock market crashes $2.5 trillion" 1.3M; "cleanmaxxing" 122K; 19K; "Earn in dollars, sitting in India" 140K; bank-branch scam 40K; "Left your job? Do this on EPFO first" 754K; "Google crashed by half a trillion" 118K; bank employee scam 12.3K; "Something big is happening in 2 days" 1M; "Gold & silver prices crashed" 675K.
+- **@pranjalkamra:** pinned 3.3M ("Investment plan for ₹5,000 → ₹1.6 crore"), 2M ("Luxury brands are fooling you?"), 1.1M ("6-step financial plan"); recent: "Please don't invest like this" 43.4K, Q&A clips 24.5K–39.9K, "Beware of the startup vultures" 27K, "Don't fall for the silver FOMO trap" 47.2K, an expo clip 38.8K, "The luxury scam!" 87K.
+- **Pattern:** the breakouts are a relatable non-finance skit (office boss vs team, 1.8M), a big-number market shock (crash, 1–1.3M) and a reframe of a purchase (platinum 8M, iPhone 24M). Explainers sit at 20K–440K. The skit is the new signal: a light relatable reel is our 15% experiment slot on the next red market day.
+- **News (last 48 h):** nothing new for salaried viewers. A TV-news finance page (9 Nov): the central pension-system record-keeper is simplifying account management (no ₹ effect, not used). Used evergreen facts: physical gold held ≤24 months taxed at slab, >24 months 12.5% + cess with no indexation (a personal-finance magazine, Jan 2026, and a tax-filing site agree); since 10 Apr 2026 no cash at national-highway tolls and 1.25× by UPI without FASTag (two business news sites agree). **Not used:** the inactive or blacklisted FASTag charge (sources disagree: 1.25× by UPI vs double).
+
 ## 2026-11-09 (daily pass, logged out)
 
 - **Only one Reels tab loaded.** @financewithsharan loaded; @anushkarathod98, @ca_rachanaranade and the rotating pick @pranjalkamra showed the profile header but no reel grid logged out (likely a logged-out rate limit after the first profile). Hooks weren't readable logged out again.

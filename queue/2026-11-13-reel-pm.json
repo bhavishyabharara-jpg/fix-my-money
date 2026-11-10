@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "slot": "reel",
+  "publish_at": "2026-11-13T13:45",
+  "topic": "Highway tolls without a valid FASTag: since 10 Apr 2026 no cash at national-highway plazas; UPI without FASTag pays 1.25× (illustrative ₹1,000 of tolls = ₹1,250)",
+  "hook_pattern": "group-callout",
+  "experiment": "KEEP (group-callout, 3rd test after EPF 139 views and FD clubbing 25): everyday pm bill day (investing day was 12 Nov). Tests a non-finance-app everyday cost (road trip home after the festive season) with a 'Car owners:' callout and a 4-scene 10.6 s cut, the shortest yet. 17 spoken words.",
+  "caption": "No FASTag? Why does a ₹1,000 toll cost you ₹1,250?\n\nSince 10 Apr 2026, national-highway toll plazas take no cash: FASTag or UPI only.\nPay by UPI without a valid FASTag and you're charged 1.25× the toll.\nIllustrative: ₹1,000 of tolls on a trip home = ₹1,250. Recharge or fix your tag before you drive.\n\nHas a toll plaza ever charged you extra?\n\nSources: a business news site's 11 Apr 2026 report on the cashless toll rules; a business news site's report on how tolls are paid from 10 Apr. Illustrative maths only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fastag #tollplaza #roadtrip #nationalhighway #moneytips",
+  "spec": "specs/2026-11-13-reel-pm.json",
+  "media": [
+    "media/2026-11-13/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-13/reel-pm/reel_cover.png",
+  "sources": [
+    "A business news site's 11 Apr 2026 report on the cashless national-highway toll rules (UPI without FASTag at 1.25×)",
+    "A business news site's report on toll payment from 10 Apr 2026 (no cash; ₹100 toll becomes ₹125 by UPI)"
+  ],
+  "duration_s": 10.6
+}

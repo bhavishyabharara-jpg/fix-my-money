@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-13",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Gold sold\nwithin 2 yrs?\n[[₹6,240]]\ntax",
+    "vo": "Gold जल्दी बेचा? बासठ सौ tax!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: ₹20,000 gain",
+    "big": "−₹6,240",
+    "color": "red",
+    "label": "30% slab + 4% cess",
+    "vo": "Profit बीस हज़ार, slab पर tax।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "After 24 months: 12.5%",
+    "big": "₹2,600",
+    "color": "mint",
+    "label": "tax on the same gain",
+    "vo": "दो साल बाद? छब्बीस सौ।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Same gold.\n**₹3,640** gap.",
+    "cta": [
+     "Follow for a money fix every day",
+     "Send to your Dhanteras gold buyer"
+    ],
+    "vo": "रोज़ money fix, follow करो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Sold your Dhanteras gold within 2 years? How much tax?\n\nIllustrative: a ₹20,000 gain on physical gold (coins, bars, jewellery) sold within 24 months is short-term.\nIt's added to your income and taxed at your slab: at 30% + 4% cess, that's ₹6,240.\nHeld more than 24 months, the same gain is long-term: 12.5% + 4% cess = ₹2,600, no indexation.\nSurcharge not included; lower slabs pay less.\n\nDid you know gold had two different tax rates?\nSend this to the friend who bought gold this Dhanteras.\n\nSources: a personal-finance magazine's Jan 2026 guide to gold and silver tax by holding period; a tax-filing site's guide to tax on gold. Illustrative maths only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldtax #dhanteras #capitalgains #incometaxindia #moneytips"
+ }
+}
