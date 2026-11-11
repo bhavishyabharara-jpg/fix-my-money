@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-14",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "One EMI\nbounced?\nCharged twice:\n[[₹1,000]]",
+    "vo": "EMI bounce? दो बार charge, हज़ार!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: lender",
+    "big": "−₹500",
+    "color": "red",
+    "label": "bounce charge",
+    "vo": "Lender का charge, पाँच सौ।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Your own bank too",
+    "big": "−₹500",
+    "color": "red",
+    "label": "failed auto-debit fee",
+    "vo": "आपका bank भी, पाँच सौ।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Fund the account\n**a day early.**",
+    "cta": [
+     "Follow for a money fix every day",
+     "Send to your after-EMI-day friend"
+    ],
+    "vo": "रोज़ money fix, follow करो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "One EMI bounced: how much does it really cost you?\n\nIllustrative: when an EMI auto-debit fails, the lender adds a bounce charge (₹500 here, plus taxes).\nYour own bank can charge a separate fee for the failed auto-debit (₹500 here).\nOne bounce: ₹1,000+, before any late-payment charges on the EMI itself.\nAmounts vary: check your loan's key fact statement and your bank's schedule of charges.\n\nHas an auto-debit ever failed on you?\nSend this to the friend whose salary lands after EMI day.\n\nSources: two lending companies' guides to EMI bounce charges; a bank's blog on personal-loan EMI bounces. Illustrative amounts only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#emi #personalloan #loanemi #bankcharges #moneytips"
+ }
+}

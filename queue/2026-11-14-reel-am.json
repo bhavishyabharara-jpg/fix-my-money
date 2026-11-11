@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-14",
+  "slot": "reel",
+  "publish_at": "2026-11-14T02:45",
+  "topic": "One bounced EMI can be charged twice: the lender's bounce charge plus the borrower's own bank's fee for the failed auto-debit; illustrative ₹500 + ₹500 = ₹1,000+ before late-payment charges; amounts vary by lender and bank",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (bill-reveal), am after-Diwali window (weekly rule 1: festive personal loan / EMI). Tests a 'charged twice' count hook (two ₹500 scenes adding to the ₹1,000 on the hook) instead of one fee. Spoken follow ask on the end (weekly rule 2). 21 spoken words, 11.4 s silent render.",
+  "caption": "One EMI bounced: how much does it really cost you?\n\nIllustrative: when an EMI auto-debit fails, the lender adds a bounce charge (₹500 here, plus taxes).\nYour own bank can charge a separate fee for the failed auto-debit (₹500 here).\nOne bounce: ₹1,000+, before any late-payment charges on the EMI itself.\nAmounts vary: check your loan's key fact statement and your bank's schedule of charges.\n\nHas an auto-debit ever failed on you?\nSend this to the friend whose salary lands after EMI day.\n\nSources: two lending companies' guides to EMI bounce charges; a bank's blog on personal-loan EMI bounces. Illustrative amounts only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#emi #personalloan #loanemi #bankcharges #moneytips",
+  "spec": "specs/2026-11-14-reel-am.json",
+  "media": [
+    "media/2026-11-14/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-14/reel-am/reel_cover.png",
+  "sources": [
+    "A lending company's guide to EMI bounce charges (lender charge applies over and above the bank's own auto-debit return fee)",
+    "A second lending company's guide to EMI bounce charges (borrower's bank may also charge per failed auto-debit, separate from the lender's fee)",
+    "A bank's blog on personal-loan EMI bounces (one bounce can bring charges from both the lender and the bank account)"
+  ],
+  "duration_s": 11.4
+}

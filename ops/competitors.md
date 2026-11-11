@@ -2,6 +2,15 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-11 (daily pass, logged out)
+
+- **Reels tabs: counts loaded for 3 of 4.** Rotating pick @labourlawadvisor showed the header only (1.3M followers; grid didn't load logged out). Titles weren't readable logged out today.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M):** no new reel since 10 Nov; last 9: 125K, 316K, 440K, 146K, **30.8M** (the "Don't buy an iPhone before watching this" reel, 23.8M on 9 Nov), 121K, 194K, 240K, 137K.
+- **@ca_rachanaranade (pinned 409K):** the office-skit breakout is now **1.9M** (1.8M), its second cut 203K; then 2,751, 48.4K, 2,134, 39K, 68.8K, 59.4K, 21.4K, 81.2K, 74.7K, 15.2K.
+- **@anushkarathod98 (1.3M):** 122K, 82.7K, **1.4M**, 124K, 19.1K, 142K, 40.2K, 765K, 118K, 12.4K, 1M, 676K: about a third of her reels clear 600K; no new breakout today.
+- **Pattern:** the two breakouts still compounding are a pre-purchase warning (30.8M) and a relatable office skit (1.9M); explainers sit at 20K–440K. For us: keep the "before you…" test result (11 Nov pm) and the light relatable reel for the next red market day.
+- **News (last 48 h):** nothing new with a ₹ effect for salaried viewers (a personal-finance news page carried only pay-commission and a state DA item). Used evergreen facts: an EMI bounce can bring the lender's bounce charge and the borrower's own bank's failed auto-debit fee (two lending companies' guides and a bank blog agree). **Dropped:** fee ranges (₹250 vs ₹500 low ends disagree) and GST on the bank fee (one source only).
+
 ## 2026-11-10 (daily pass, logged out)
 
 - **Reels tabs loaded for all 4 creators, with titles readable.** Rotating pick: @pranjalkamra (failed to load on 9 Nov).

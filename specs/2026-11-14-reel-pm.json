@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-14",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹10 lakh,\n20 years:\n1% fee costs\n[[₹16 lakh]]",
+    "vo": "एक percent fee? सोलह लाख कम!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative: 12% a year",
+    "big": "₹96.5 lakh",
+    "color": "mint",
+    "label": "after 20 years",
+    "vo": "बारह percent: साढ़े छियानवे लाख।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same fund, 1% more fee",
+    "big": "₹80.6 lakh",
+    "color": "red",
+    "label": "11% a year after fee",
+    "vo": "fee कटे, तो साढ़े अस्सी लाख।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check your\n**expense ratio.**",
+    "cta": [
+     "Send to your friend who skips fees",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Fund वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "1% fee on ₹10 lakh: how much does it cost over 20 years?\n\nIllustrative: ₹10 lakh growing at 12% a year for 20 years ≈ ₹96.5 lakh.\nIf a fee 1% higher cuts that to 11% a year, it's ≈ ₹80.6 lakh.\nThat 1% gap costs ≈ ₹15.8 lakh, more than the ₹10 lakh you put in.\nA fund's yearly fee (its expense ratio) comes out of returns every year. Returns are not guaranteed.\n\nDo you know your fund's expense ratio?\n\nSources: compound-growth maths (₹10 lakh × 1.12^20 vs × 1.11^20). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#expenseratio #mutualfunds #compounding #sip #moneytips"
+ }
+}
