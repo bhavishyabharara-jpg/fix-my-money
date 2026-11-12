@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-11
+# Scoreboard — 2026-11-12
 
-Followers **11** (+0 vs previous day). Reels tracked: 72. Median views per reel: 25.
+Followers **11** (+0 vs previous day). Reels tracked: 75. Median views per reel: 24.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -17,6 +17,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-11-10-reel-pm SIP step-up: ₹5,000 a month for 20 years at an illustrative  | contrarian-number | yes | 120 | 4.3s (36%) | 0 | 0 | 0 | 0 | 8.9 |
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
 | 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 126 | 3.9s (33%) | 0 | 0 | 0 | 0 | 8.3 |
+| 2026-11-11-reel-am Converting a credit card bill to EMI: illustrative ₹50,000 a | bill-reveal | yes | 117 | 3.9s (33%) | 0 | 0 | 0 | 0 | 8.2 |
 | 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 121 | 3.8s (32%) | 0 | 0 | 0 | 0 | 7.9 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
@@ -31,7 +32,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 129 | 3.5s (25%) | 0 | 0 | 0 | 0 | 6.3 |
 | 2026-11-04-reel-am Personal-loan processing fee: most lenders deduct it before  | bill-reveal | yes | 108 | 2.9s (24%) | 0 | 0 | 1 | 0 | 6.1 |
 | 2026-10-28-reel-am Insurance free-look period: 30 days from receiving the polic | contrarian-number | yes | 6 | 3.2s (23%) | 0 | 0 | 0 | 0 | 5.6 |
-| 2026-11-10-reel-am Credit card bill not paid in full: the interest-free period  | bill-reveal | yes | 59 | 2.4s (21%) | 0 | 0 | 0 | 0 | 5.3 |
+| 2026-11-11-reel-pm Car insurance no-claim bonus: 20% after one claim-free year  | before-you | yes | 21 | 2.7s (22%) | 0 | 0 | 0 | 0 | 5.5 |
+| 2026-11-10-reel-am Credit card bill not paid in full: the interest-free period  | bill-reveal | yes | 61 | 2.4s (21%) | 0 | 0 | 0 | 0 | 5.4 |
 | 2026-10-21-reel-pm Exchanging old gold for new jewellery counts as a sale: long | contrarian-number | yes | 109 | 2.3s (21%) | 0 | 0 | 0 | 0 | 5.2 |
 | 2026-10-30-reel-am Paying only the minimum due on a festive card bill: illustra | contrarian-number | yes | 121 | 2.4s (21%) | 0 | 0 | 0 | 0 | 5.1 |
 | 2026-11-02-reel-am Overseas tour package TCS: flat 2% from the first rupee from | guess-the-number | yes | 24 | 2.2s (20%) | 0 | 0 | 0 | 0 | 4.9 |
@@ -80,6 +82,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
+| 2026-11-12-reel-am Closing a personal loan early: illustrative 3.5% foreclosure | bill-reveal | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
@@ -87,7 +90,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 |---|---|---|---|---|---|
 | group-callout | 2 | 125 | 33% | 8.4 | keep |
 | red-day-relatable | 1 | 126 | 33% | 8.3 | keep |
-| bill-reveal | 6 | 84 | 25% | 6.3 | EXPLOIT |
+| bill-reveal | 7 | 108 | 25% | 6.4 | EXPLOIT |
+| before-you | 1 | 21 | 22% | 5.5 | test again (low data) |
 | contrarian-number | 19 | 47 | 21% | 5.1 | keep |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
 | guess-the-number | 7 | 28 | 17% | 4.3 | keep |
@@ -101,9 +105,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-12-reel-am.
 
-Narrated reels: median views 26, watch 16% — silent reels: 22, 13%.
+Narrated reels: median views 25, watch 16% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
