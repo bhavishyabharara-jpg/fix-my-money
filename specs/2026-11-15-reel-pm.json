@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-15",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Cash users:\nextra ATM trips cost\n[[₹1,104 a year]]",
+    "vo": "ATM fees, साल के ग्यारह सौ!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "After the free limit",
+    "big": "₹23",
+    "color": "red",
+    "label": "per withdrawal + taxes",
+    "vo": "Limit के बाद, हर बार तेईस।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Balance check counts too",
+    "big": "5 / 3",
+    "count": false,
+    "color": "amber",
+    "label": "free: own / other bank",
+    "vo": "Balance check भी गिनता है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Fewer, bigger\n**withdrawals.**",
+    "cta": [
+     "Send to your cash-only friend",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Cash वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Cash user: are ATM fees costing you ₹1,104 a year?\n\nAfter the free monthly limit, banks can charge up to ₹23 per ATM withdrawal, plus taxes (since 1 May 2025).\nFree each month: 5 at your own bank's ATMs; at other banks, 3 in metros and 5 elsewhere.\nBalance checks and mini statements count toward the free limit too.\nIllustrative: 4 extra withdrawals a month × 12 × ₹23 = ₹1,104 a year, before taxes.\n\nHow many times did you visit an ATM last month?\n\nSources: a business newspaper's 30 Apr 2025 report on ATM charges; a tax-filing site's guide to ATM withdrawal charges. Limits vary by bank and account. Illustrative maths only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#atm #bankcharges #cashwithdrawal #savingsaccount #moneytips"
+ }
+}

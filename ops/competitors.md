@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-12 (daily pass, logged out)
+
+- **Reels tabs: view counts loaded for all 4; titles not readable logged out.** Rotating pick: @ankurwarikoo.
+- **@financewithsharan (pinned 6.6M / 1.1M / 8.4M; 2.9M followers):** newest reel 13.4K (just posted), then 129K, 319K, 441K, 149K, **30.8M** (iPhone warning, flat since 11 Nov), 122K, 196K, 242K, 139K, **11.3M** (platinum reframe: 8M on 10 Nov), 313K.
+- **@ca_rachanaranade (pinned 409K):** new 44.2K; then 205K, **1.9M** (office skit, flat), 2,753, 49.8K, 2,136, 39.8K, 69.4K, 60.2K, 21.4K, 81.5K, 74.7K.
+- **@anushkarathod98:** new 6,049 (just posted); 130K, 83.3K, **1.4M**, 126K, 19.1K, 144K, 40.3K, 774K, 118K, 12.5K, **1M**.
+- **@ankurwarikoo (pinned 3.5M / 3.4M / 3.8M):** 60.8K, 134K, 275K, 3,433, **1.4M**, 240K, 144K, 43.9K, 590K, 144K, 46.1K, 247K.
+- **Pattern:** breakouts keep compounding for days (platinum +3.3M in 2 days) while typical explainers settle at 40K–440K. Every creator posts at least one 1M+ reel per ~12; ours all plateau by day 2, a sign of zero sends rather than a weak hook.
+- **News (last 48 h):** nothing with a ₹ effect for salaried viewers. A banking-industry newsletter (11 Nov): from 1 Jan, consolidated statements will show bank deposits alongside mutual funds (no ₹ effect, not used). Used evergreen facts: ATM charge up to ₹23 + taxes per withdrawal beyond the free limit since 1 May 2025, 5 own-bank / 3 metro / 5 non-metro, non-financial transactions included (a business newspaper and a tax-filing site agree; a broker blog on April 2026 changes shows ₹23 still applied at one bank); loan tenure maths matches a loan-calculator site's worked example. **Dropped:** a GST figure on ATM fees (not stated consistently).
+
 ## 2026-11-11 (daily pass, logged out)
 
 - **Reels tabs: counts loaded for 3 of 4.** Rotating pick @labourlawadvisor showed the header only (1.3M followers; grid didn't load logged out). Titles weren't readable logged out today.

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-15",
+  "slot": "reel",
+  "publish_at": "2026-11-15T02:45",
+  "topic": "Same ₹2 lakh personal loan at an illustrative 12%: 3 years = EMI ₹6,643, interest ₹39,143; 5 years = EMI ₹4,449, interest ₹66,933; the smaller EMI costs ₹27,790 more interest",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (bill-reveal), am after-Diwali window (weekly rule 1: festive personal loan). Tests a same-loan, two-tenure comparison where the hook ₹ is the difference the smaller EMI costs (no scene repeats the hook number). Spoken follow ask on the end (weekly rule 2). 21 spoken words, 11.4 s silent render.",
+  "caption": "Smaller EMI on a ₹2 lakh loan: why does it cost you ₹27,790 more?\n\nIllustrative ₹2 lakh personal loan at 12% a year:\n3 years: EMI ₹6,643, total interest ₹39,143.\n5 years: EMI ₹4,449, total interest ₹66,933.\nThe lower EMI pays ₹27,790 more interest. A longer tenure can also come with a higher rate.\n\nDid you pick your loan's tenure, or did the lender pick it for you?\nSend this to the friend who took a festive loan.\n\nSources: a loan-calculator site's guide to short vs long tenure; a comparison site's blog on tenure vs EMI. EMIs are standard reducing-balance maths. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalloan #emi #loantenure #festiveloan #moneytips",
+  "spec": "specs/2026-11-15-reel-am.json",
+  "media": [
+    "media/2026-11-15/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-15/reel-am/reel_cover.png",
+  "sources": [
+    "A loan-calculator site's guide to short vs long loan tenure (₹10 lakh at 12%: 36 months ≈ ₹1.95 lakh interest, 60 months ≈ ₹3.34 lakh; same reducing-balance formula used here)",
+    "A comparison site's blog on longer tenure vs higher EMI for personal loans (longer tenure lowers the EMI but raises total interest)"
+  ],
+  "duration_s": 11.4
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-15",
+  "slot": "reel",
+  "publish_at": "2026-11-15T13:45",
+  "topic": "ATM charges: after the free monthly limit (5 own-bank; 3 other-bank in metros, 5 elsewhere; balance checks count), banks can charge up to ₹23 per withdrawal plus taxes since 1 May 2025; illustrative 4 extra a month = ₹1,104 a year before taxes",
+  "hook_pattern": "group-callout",
+  "experiment": "KEEP (group-callout, 'Cash users:'), pm everyday-bill day (14 Nov pm was the investing number). Engine change: a small per-use fee (₹23) annualised into one ₹ yearly number on the hook, to test whether recurring small fees reach like one-off bills. Send ask spoken (pm). 22 spoken words, 11.4 s silent render.",
+  "caption": "Cash user: are ATM fees costing you ₹1,104 a year?\n\nAfter the free monthly limit, banks can charge up to ₹23 per ATM withdrawal, plus taxes (since 1 May 2025).\nFree each month: 5 at your own bank's ATMs; at other banks, 3 in metros and 5 elsewhere.\nBalance checks and mini statements count toward the free limit too.\nIllustrative: 4 extra withdrawals a month × 12 × ₹23 = ₹1,104 a year, before taxes.\n\nHow many times did you visit an ATM last month?\n\nSources: a business newspaper's 30 Apr 2025 report on ATM charges; a tax-filing site's guide to ATM withdrawal charges. Limits vary by bank and account. Illustrative maths only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#atm #bankcharges #cashwithdrawal #savingsaccount #moneytips",
+  "spec": "specs/2026-11-15-reel-pm.json",
+  "media": [
+    "media/2026-11-15/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-15/reel-pm/reel_cover.png",
+  "sources": [
+    "A business newspaper's 30 Apr 2025 report on ATM charges beyond the free limit (₹23 excluding taxes from 1 May 2025; 5 own-bank, 3 metro / 5 non-metro other-bank, non-financial included)",
+    "A tax-filing site's guide to ATM withdrawal charges (₹23 per withdrawal after the free limit from 1 May 2025; same free limits)",
+    "A broker's blog on April 2026 ATM rule changes (₹23 still applied beyond the free limit at one large bank)"
+  ],
+  "duration_s": 11.4
+}

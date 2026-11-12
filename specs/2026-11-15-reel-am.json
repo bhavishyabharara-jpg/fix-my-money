@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-15",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Smaller EMI?\n₹2 lakh loan costs\n[[₹27,790 more]]",
+    "vo": "EMI छोटी? सत्ताईस हज़ार ज़्यादा interest!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative 12%: 3 years",
+    "big": "₹6,643",
+    "color": "amber",
+    "label": "EMI · interest ₹39,143",
+    "vo": "तीन साल: interest उनतालीस हज़ार।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same loan: 5 years",
+    "big": "₹4,449",
+    "color": "red",
+    "label": "EMI · interest ₹66,933",
+    "vo": "पाँच साल: interest सड़सठ हज़ार।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Pick the\nshortest tenure\n**you can afford.**",
+    "cta": [
+     "Follow for a money fix every day",
+     "Send to your festive-loan friend"
+    ],
+    "vo": "रोज़ money fix, follow करो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Smaller EMI on a ₹2 lakh loan: why does it cost you ₹27,790 more?\n\nIllustrative ₹2 lakh personal loan at 12% a year:\n3 years: EMI ₹6,643, total interest ₹39,143.\n5 years: EMI ₹4,449, total interest ₹66,933.\nThe lower EMI pays ₹27,790 more interest. A longer tenure can also come with a higher rate.\n\nDid you pick your loan's tenure, or did the lender pick it for you?\nSend this to the friend who took a festive loan.\n\nSources: a loan-calculator site's guide to short vs long tenure; a comparison site's blog on tenure vs EMI. EMIs are standard reducing-balance maths. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#personalloan #emi #loantenure #festiveloan #moneytips"
+ }
+}
