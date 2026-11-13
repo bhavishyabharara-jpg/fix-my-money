@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-16",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹50,000 gain\nat 11 months?\n[[₹10,000 tax]]",
+    "vo": "ग्यारह महीने? दस हज़ार tax!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Held 12 months or less",
+    "big": "20%",
+    "color": "red",
+    "label": "short-term tax on gains",
+    "vo": "बारह महीने तक: बीस percent।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Held over 12 months",
+    "big": "₹0",
+    "count": false,
+    "color": "green",
+    "label": "on the first ₹1.25 lakh a year",
+    "vo": "उसके बाद: सवा लाख तक zero।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check the\n**holding date.**",
+    "cta": [
+     "Send to your wedding-fund friend",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Wedding fund वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Sold your equity fund at 11 months: why did a ₹50,000 gain cost you ₹10,000 tax?\n\nEquity shares and equity mutual funds held 12 months or less: gains taxed at 20% (short-term).\nHeld over 12 months: long-term, and the first ₹1.25 lakh of such gains in a financial year is tax-free; 12.5% above that.\nIllustrative lump sum: ₹50,000 gain sold at month 11 = ₹10,000 tax (+ cess). Sold after month 12, with no other long-term gains that year = ₹0.\nWith a SIP, each instalment has its own 12-month clock.\n\nHave you ever checked the holding date before redeeming?\n\nSources: a broker's FY 2026-27 capital gains tax guide; a tax-help site's post-Budget 2026 rates note; a personal-finance blog on the ₹1.25 lakh exemption. Rates unchanged by Budget 2026. Illustrative only; returns and tax depend on your situation.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#capitalgains #mutualfunds #ltcg #taxsaving #weddingbudget"
+ }
+}

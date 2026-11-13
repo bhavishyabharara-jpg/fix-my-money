@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-16",
+  "slot": "reel",
+  "publish_at": "2026-11-16T02:45",
+  "topic": "Gold loan repayment: illustrative ₹1 lakh at 12% for 12 months; bullet (principal + interest at the end) = ₹12,000 interest vs monthly EMI (≈ ₹8,885) = ≈ ₹6,619 interest; the one-shot option costs ≈ ₹5,381 more; fees + 18% GST on fees extra either way",
+  "hook_pattern": "bill-reveal",
+  "experiment": "EXPLOIT (bill-reveal), am after-Diwali window (weekly rule 1: gold loan). Hook ₹ is the extra the viewer pays for one structure vs another (same shape as 15 Nov am tenure reel); hook number not repeated in later scenes. Spoken follow ask (weekly rule 2). 21 spoken words, 11.4 s silent render.",
+  "caption": "Paying your gold loan in one shot at the end: why can it cost you ₹5,381 more?\n\nIllustrative ₹1 lakh gold loan at 12% a year for 12 months:\nBullet (principal + interest at the end): ₹12,000 interest.\nMonthly EMI (reducing balance): EMI ≈ ₹8,885, interest ≈ ₹6,619.\nThe EMI pays down principal every month, so you pay ₹5,381 less interest. Processing and valuation fees (plus 18% GST on them) come on top either way.\n\nDid your lender offer you a choice of repayment, or only one?\nSend this to the friend who pledged gold after Diwali.\n\nSources: a small-finance bank's blog on gold loan interest calculation (Oct 2026); a gold-loan lender's guide to total interest cost (Aug 2026). Check your Key Fact Statement for your actual rate and fees. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldloan #emi #loaninterest #moneytips #personalfinanceindia",
+  "spec": "specs/2026-11-16-reel-am.json",
+  "media": [
+    "media/2026-11-16/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-16/reel-am/reel_cover.png",
+  "sources": [
+    "A small-finance bank's blog on gold loan interest calculation (27 Oct 2026): ₹1 lakh at 12% for 12 months, bullet simple interest ₹12,000 vs EMI ≈ ₹8,884.88 / interest ≈ ₹6,618.55",
+    "A gold-loan lender's guide to total interest cost (6 Aug 2026): bullet vs EMI at an illustrative 10% (₹10,000 vs ≈ ₹5,500); GST applies to processing/valuation fees, not interest"
+  ],
+  "duration_s": 11.4
+}

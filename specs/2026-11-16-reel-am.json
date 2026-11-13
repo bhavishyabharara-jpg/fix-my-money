@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-16",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "One-shot\ngold loan?\n[[₹5,381 extra]]",
+    "vo": "एक साथ चुकाया? तिरेपन सौ ज़्यादा!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹1 lakh, 12%: one-shot",
+    "big": "₹12,000",
+    "color": "red",
+    "label": "interest at month 12",
+    "vo": "अंत में चुकाओ: बारह हज़ार interest।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same loan: monthly EMI",
+    "big": "₹6,619",
+    "color": "green",
+    "label": "interest · EMI ₹8,885",
+    "vo": "EMI में: छियासठ सौ।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Ask for EMI\n**before signing.**",
+    "cta": [
+     "Follow for a money fix every day",
+     "Send to your gold-loan friend"
+    ],
+    "vo": "रोज़ money fix, follow करो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paying your gold loan in one shot at the end: why can it cost you ₹5,381 more?\n\nIllustrative ₹1 lakh gold loan at 12% a year for 12 months:\nBullet (principal + interest at the end): ₹12,000 interest.\nMonthly EMI (reducing balance): EMI ≈ ₹8,885, interest ≈ ₹6,619.\nThe EMI pays down principal every month, so you pay ₹5,381 less interest. Processing and valuation fees (plus 18% GST on them) come on top either way.\n\nDid your lender offer you a choice of repayment, or only one?\nSend this to the friend who pledged gold after Diwali.\n\nSources: a small-finance bank's blog on gold loan interest calculation (Oct 2026); a gold-loan lender's guide to total interest cost (Aug 2026). Check your Key Fact Statement for your actual rate and fees. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#goldloan #emi #loaninterest #moneytips #personalfinanceindia"
+ }
+}

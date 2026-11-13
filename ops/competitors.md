@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-13 (daily pass, logged out)
+
+- **Only one Reels tab loaded.** @financewithsharan loaded; @ca_rachanaranade, @anushkarathod98 and the rotating pick @nehanagar showed the header and a sign-up wall with no reel grid (the logged-out limit after the first profile, as on 9 Nov).
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest **350K** (13.4K yesterday) and next **799K** (129K yesterday): two fresh reels compounding fast; then 132K, 322K, 443K, 151K, **30.8M** (iPhone warning, flat), 123K, 198K.
+- **Pattern:** his last two reels grew 6–26× in a day, so reach for big creators is decided in the first 24 h by shares; ours flatten at ~120 views by day 2. Same lesson: our ceiling is sends, not hooks.
+- **News (last 48 h):** October CPI inflation **6.09%**, a 24-month high, above the RBI's 6% upper limit, food inflation 8.94% (government news site, a national daily and a wire service agree, released 12 Nov); reports note a December rate hike is being discussed (not a prediction we make). Candidate for a later reel: what 6% inflation does to idle savings (last inflation reel 18 Oct). Used evergreen facts: gold loan bullet vs EMI maths (a small-finance bank's blog, Oct 2026, and a gold-loan lender's guide, Aug 2026, agree on the principle; GST only on fees); equity STCG 20% / LTCG 12.5% above ₹1.25 lakh, unchanged by Budget 2026 (a broker's guide and a tax-help note agree).
+
 ## 2026-11-12 (daily pass, logged out)
 
 - **Reels tabs: view counts loaded for all 4; titles not readable logged out.** Rotating pick: @ankurwarikoo.
