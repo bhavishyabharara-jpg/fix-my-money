@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "slot": "reel",
+  "publish_at": "2026-11-17T02:45",
+  "topic": "Belated ITR for FY 2025-26: can be filed until 31 Dec 2026 with a ₹5,000 late fee (income above ₹5 lakh) and the refund is still paid; after 31 Dec only an updated return (ITR-U), which can't claim a refund (illustrative ₹20,000 extra TDS lost)",
+  "hook_pattern": "group-callout",
+  "experiment": "EXPLOIT (group-callout, now the scoreboard's top pattern: 3 reels, median 115 views / 35%). Deadline-driven group callout with the ₹ the viewer loses on the hook; tests the new end card order (send line first, follow second) and a spoken SEND ask instead of the follow ask. 35 spoken words, 11.4 s silent render.",
+  "caption": "Haven't filed your ITR yet: can you lose a ₹20,000 refund after 31 December?\n\nFor FY 2025-26, a late (belated) return can still be filed until 31 December 2026.\nLate fee: ₹5,000 if your total income is above ₹5 lakh. Your refund is still paid.\nAfter 31 December, only an updated return is possible, and it can only add tax: a refund can't be claimed through it.\nIllustrative: ₹20,000 of extra TDS you never get back.\n\nWhat's stopping you from filing: documents, time or the late fee?\nSend this to the friend who still hasn't filed.\n\nSources: an income-tax filing site's guide on belated returns; a personal-finance magazine's explainer on belated filing (Aug 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#itr #incometax #taxrefund #belatedreturn #salaried",
+  "spec": "specs/2026-11-17-reel-am.json",
+  "media": [
+    "media/2026-11-17/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-17/reel-am/reel_cover.png",
+  "sources": [
+    "An income-tax filing site's guide on belated returns (undated): belated deadline 31 Dec 2026 for FY 2025-26; 234F ₹5,000 above ₹5 lakh income; ITR-U only where tax liability increases, no refund",
+    "A personal-finance magazine's belated-ITR explainer (13 Aug 2026): file until 31 Dec 2026; ₹5,000 fee (₹1,000 below ₹5 lakh); refund can't be claimed via ITR-U after that date",
+    "A CA's tax blog on AY 2026-27 late fees (Apr 2026): 31 Dec 2026 belated deadline, ₹5,000 fee; its lower-income threshold differs, so only the ₹5,000 figure is used"
+  ]
+}

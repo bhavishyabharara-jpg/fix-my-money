@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-17",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Still no ITR?\n[[₹20,000 refund]]\nlost after\n31 Dec",
+    "vo": "ITR नहीं भरा? बीस हज़ार refund, इकत्तीस दिसंबर बाद गया!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Late fee, filing by 31 Dec 2026",
+    "big": "₹5,000",
+    "color": "red",
+    "label": "if income is above ₹5 lakh",
+    "vo": "इकत्तीस दिसंबर तक: पाँच हज़ार fee, पर refund मिलेगा।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "After 31 Dec: updated return",
+    "big": "₹0",
+    "color": "red",
+    "label": "refund · it can only add tax",
+    "vo": "उसके बाद updated return में refund नहीं मिलता।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "File before\n**31 December.**",
+    "cta": [
+     "Send to the friend who hasn't filed",
+     "Follow for a money fix every day"
+    ],
+    "vo": "जिसने ITR नहीं भरा, उस दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Haven't filed your ITR yet: can you lose a ₹20,000 refund after 31 December?\n\nFor FY 2025-26, a late (belated) return can still be filed until 31 December 2026.\nLate fee: ₹5,000 if your total income is above ₹5 lakh. Your refund is still paid.\nAfter 31 December, only an updated return is possible, and it can only add tax: a refund can't be claimed through it.\nIllustrative: ₹20,000 of extra TDS you never get back.\n\nWhat's stopping you from filing: documents, time or the late fee?\nSend this to the friend who still hasn't filed.\n\nSources: an income-tax filing site's guide on belated returns; a personal-finance magazine's explainer on belated filing (Aug 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#itr #incometax #taxrefund #belatedreturn #salaried"
+ }
+}

@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-14 (daily pass, logged out)
+
+- **All four Reels tabs loaded** after closing the sign-up popup. Rotating pick: @pranjalkamra. Titles came from thumbnails only.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest reel a tech-CEO news explainer (8.1K likes, just posted), then **380K** and **816K** (the two fresh reels from 13 Nov, both still compounding), 135K, 323K, 444K, 153K, **30.9M** (iPhone warning), 124K, 200K, 247K, 142K.
+- **@ca_rachanaranade (1.2M; pinned 409K):** new 145K; then 42.1K, 53.2K, 206K, **1.9M** (office skit), 2,766, 52.1K, 2,139, 41.2K, 70.9K, 61.5K.
+- **@anushkarathod98:** three new reels in ~2 days: **542K** (breaking tech-CEO news), **505K** (a billionaire 'shocked the finance industry' story), **191K** (Diwali gifts/bonus tax); then 6,081, 140K, 83.9K, **1.5M**, 130K, 19.1K, 146K, 40.6K, 794K.
+- **@pranjalkamra (pinned 3.3M / 2M / 1.1M):** 68K, 27K, 29.5K, 47.6K, 25.9K, 31.7K, 46.4K, 38.7K, 27.9K, 48.3K, 38.9K, 87.6K: a steady 25–90K explainer floor.
+- **Insight: the same topic re-cut won 31×.** Anushka's Diwali-gift tax reel posted on 12 Nov as a plain rules card (6,081) was re-posted with a 'the Govt wants a share of your Diwali bonus' hook and got 191K. Same facts; the second hook names who takes the viewer's money. For us: re-cut a proven reel with a sharper ₹-loss hook rather than retire it.
+- **News (last 48 h):** several large banks raised FD rates by up to 0.5% this month, citing tight liquidity (a financial news site, 13 Nov 2026); used as the peg for 17 Nov pm (FD break penalty). Evergreen facts used: belated ITR deadline 31 Dec 2026, ₹5,000 fee above ₹5 lakh income, no refund through an updated return (an income-tax filing site and a personal-finance magazine agree); premature FD interest = rate for the period held minus a penalty, often 0.5%, up to 1% (two banks' guides agree).
+
 ## 2026-11-13 (daily pass, logged out)
 
 - **Only one Reels tab loaded.** @financewithsharan loaded; @ca_rachanaranade, @anushkarathod98 and the rotating pick @nehanagar showed the header and a sign-up wall with no reel grid (the logged-out limit after the first profile, as on 9 Nov).

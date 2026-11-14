@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "slot": "reel",
+  "publish_at": "2026-11-17T13:45",
+  "topic": "Breaking an FD to chase a higher rate: interest is paid at the rate for the period actually held minus a premature-withdrawal penalty (often 0.5%, up to 1%); illustrative ₹2 lakh booked at 6.5% for 3 years, broken after 1 year at 6% − 0.5% = 5.5% → ₹11,000 vs ₹13,000 (₹2,000 lost); re-invested at 7% for 2 years = ₹2,000 more → net ≈ ₹0 (simple interest, pre-tax)",
+  "hook_pattern": "bill-reveal",
+  "experiment": "KEEP (bill-reveal) + news peg (banks raised FD rates this week). Tests a 'switch decision' break-even: the hook ₹ is what the viewer gives up, the payoff is ₹0 net. Spoken send ask. 35 spoken words, 11.4 s silent render.",
+  "caption": "Breaking your FD for a 0.5% higher rate: why can it cost you ₹2,000?\n\nIllustrative ₹2 lakh FD booked at 6.5% for 3 years, broken after 1 year:\nBanks pay the rate for the period actually held (say 6%), minus a premature-withdrawal penalty (often 0.5%, up to 1%) = 5.5%. Year-1 interest: ₹11,000 instead of ₹13,000.\nRe-invested at 7% for the last 2 years: ₹2,000 more. Net gain ≈ ₹0.\nSimple interest, before tax; your bank's card rates and penalty decide the real answer.\n\nWould you break an FD for a higher rate, or wait for maturity?\nSend this to the friend chasing every new FD rate.\n\nSources: two banks' guides on premature FD withdrawal (Oct 2024, Feb 2025); a financial news site on this month's FD rate hikes (13 Nov 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #fdrates #savings #moneytips #personalfinanceindia",
+  "spec": "specs/2026-11-17-reel-pm.json",
+  "media": [
+    "media/2026-11-17/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-17/reel-pm/reel_cover.png",
+  "sources": [
+    "A bank's blog on premature FD withdrawal (15 Oct 2024): interest at the rate for the period held, minus penal interest; 0.5% for deposits under ₹3 crore",
+    "A bank's guide to premature-withdrawal interest (18 Feb 2025): lower of booked rate and card rate for the period held, minus penalty (0.5% in its example, up to 1%)",
+    "A financial news site (13 Nov 2026): several large banks raised FD rates by up to 0.5% this month, citing tight liquidity"
+  ]
+}

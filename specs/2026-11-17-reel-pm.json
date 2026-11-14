@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-17",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Breaking your FD\nfor 0.5% more?\n[[₹2,000 gone]]",
+    "vo": "आधा percent ज़्यादा के लिए FD तोड़ोगे? दो हज़ार गए!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹2 lakh at 6.5%, broken after 1 yr",
+    "big": "5.5%",
+    "color": "red",
+    "label": "6% card rate − 0.5% penalty",
+    "vo": "एक साल बाद तोड़ा: सिर्फ़ साढ़े पाँच percent मिला।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "New FD at 7%, last 2 yrs",
+    "big": "₹0",
+    "color": "red",
+    "label": "net gain after the penalty",
+    "vo": "नई FD का extra, बस penalty भरता है।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check the penalty\n**before you switch.**",
+    "cta": [
+     "Send to the friend chasing FD rates",
+     "Follow for a money fix every day"
+    ],
+    "vo": "FD rates के पीछे भागते दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Breaking your FD for a 0.5% higher rate: why can it cost you ₹2,000?\n\nIllustrative ₹2 lakh FD booked at 6.5% for 3 years, broken after 1 year:\nBanks pay the rate for the period actually held (say 6%), minus a premature-withdrawal penalty (often 0.5%, up to 1%) = 5.5%. Year-1 interest: ₹11,000 instead of ₹13,000.\nRe-invested at 7% for the last 2 years: ₹2,000 more. Net gain ≈ ₹0.\nSimple interest, before tax; your bank's card rates and penalty decide the real answer.\n\nWould you break an FD for a higher rate, or wait for maturity?\nSend this to the friend chasing every new FD rate.\n\nSources: two banks' guides on premature FD withdrawal (Oct 2024, Feb 2025); a financial news site on this month's FD rate hikes (13 Nov 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #fdrates #savings #moneytips #personalfinanceindia"
+ }
+}
