@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-11-15 — Daily review (day 26 after the goal date)
+
+- **Followers: 11 (+0 vs 14 Nov). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we have averaged under 1.** 84 posts (89 in published.json), still 0 sends and 0 follows credited to any reel. Late posting continues: 15 Nov am went out 03:13 UTC (0.5 h late, the best this week). Media for 15 Nov pm to 17 Nov is all on GitHub.
+- **Best (≥48 h):** 13 Nov am gold sold within 24 months **237 views / 42%** (record): a ₹ tax on a timing choice the viewer is making; 12 Nov pm FD after tax 170 / 34% with a save. **Early:** 14 Nov pm fee drag 147 / 46% with a save, the best hold of any investing reel. **Worst (≥48 h):** 11 Nov pm before-you NCB 28 / 20% (a claim the viewer isn't making).
+- **Patterns:** group-callout **EXPLOIT** (3 reels, median 121 / 38%); bill-reveal, contrarian-number, red-day-relatable **keep**; before-you and news-list **drop**. Narrated vs silent unchanged (all narrated since 6 Oct; voice `sarvam:amit`).
+- **Engine change today: the 12 s cap is enforced on the queue, not just new jobs.** 17 Nov am (ITR, 35 words / 13.4 s) is cut to 24 spoken words and flagged `rebuild` so the Action re-renders it before 02:45 UTC on 17 Nov; 18 Nov jobs are 23 words each (end `vo` 5). Reason: ≤12.6 s reels median 121 views / 30% vs 20.5 / 13% for 12.6–16.5 s (weekly review).
+- **Second change: re-cut a proven topic instead of only new ones.** 18 Nov am re-cuts the 30 Oct minimum-due reel (122 views / 20%) as a group-callout with the monthly ₹ cost on the hook, following the 14 Nov competitor finding (same facts, sharper hook, 31× views). Judge on 21 Nov against the original's 20% hold.
+- **Queued (2 jobs, to the end of 18 Nov; 2 a day per the 18 Oct weekly decision, the scheduled prompt's 3-slot line is overridden by the PLAYBOOK):** 18 Nov am group-callout "Minimum-due payers: ₹50,000 bill = ₹1,962 a month"; 18 Nov pm contrarian-number "PPF deposit after the 5th? ₹888 lost a year". Frame check fixed "₹1,962 a / month" and "₹888 a year / lost" hook splits.
+
 ## 2026-11-15 — Weekly review (format level)
 
 - **Followers 11 vs 2,000 (goal date 20 Oct passed 26 days ago; off the sprint checkpoint path by ~99%).** Flat this week (11 on 8 Nov → 11). Publishing resumed on 9 Nov pm after the 5–8 Nov push gap (those 8 reels never went out); posting is still 0.5–9 h late from the throttled Publish cron (am due 02:45 UTC went out 03:13–08:13; pm due 13:45 went out 14:34–22:46).

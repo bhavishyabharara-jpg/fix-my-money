@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "slot": "reel",
+  "publish_at": "2026-11-18T02:45",
+  "topic": "Paying only the minimum due on a card: minimum ≈ 5% of the bill; illustrative ₹50,000 bill → ₹2,500 paid, ₹47,500 carried at ~3.5% a month ≈ ₹1,663 interest + 18% GST (≈ ₹299) ≈ ₹1,962 in one month; new purchases also lose the interest-free period",
+  "hook_pattern": "group-callout",
+  "experiment": "EXPLOIT (group-callout, scoreboard top: 3 reels, median 121 / 38%). After-Diwali card bill. Re-cut of the 30 Oct minimum-due reel (122 views / 20%) with a group-callout hook and the monthly ₹ cost on the hook, per the 14 Nov competitor insight (same facts, sharper ₹-loss hook won 31×). 23 spoken words, end vo 5. Tests whether a re-cut beats the original's hold.",
+  "caption": "Paying only the minimum due: what does a ₹50,000 card bill cost you each month?\n\nThe minimum due is usually about 5% of the bill. Pay ₹2,500 and ₹47,500 stays unpaid.\nCard interest on that runs about 3.5% a month (roughly 42% a year): ≈ ₹1,663.\n18% GST is added on the interest: ≈ ₹299. Total ≈ ₹1,962 for one month, before any new purchases (which lose the interest-free period too).\nIllustrative; your card's rate and statement decide the real figure.\n\nHave you ever paid only the minimum due? What made you do it?\nSend this to the friend who pays only the minimum.\n\nSources: a business magazine on card charges (~3.5% a month, 18% GST on interest, minimum ≈ 5%); a personal-finance blog on the minimum-due trap (Jul 2026, ~3.5% a month); a card-rules explainer on GST on card fees (Mar 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #minimumdue #creditcarddebt #moneytips #personalfinanceindia",
+  "spec": "specs/2026-11-18-reel-am.json",
+  "media": [
+    "media/2026-11-18/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-18/reel-am/reel_cover.png",
+  "sources": [
+    "A business magazine on credit card charges (Jun 2023, upd. Aug 2023): ~3.5% monthly interest after the due date, 18% GST on interest, minimum ≈ 5% of the amount due",
+    "A personal-finance blog on the minimum-due trap (11 Jul 2026): rates typically ~3.5% a month (~42% a year), minimum ~5%",
+    "A card-rules explainer on GST on card fees (upd. 22 Mar 2026): 18% GST on the interest amount"
+  ]
+}

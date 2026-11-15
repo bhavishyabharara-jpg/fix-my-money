@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-15 (daily pass, logged out)
+
+- **Only one Reels tab loaded.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @labourlawadvisor showed the header and no reel grid (the logged-out limit after the first profile, as on 9 and 13 Nov). Titles not readable logged out.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest **482K** (8.1K on 14 Nov: ~60× in a day), then **385K**, **830K** (the two 13 Nov reels, still growing), 137K, 325K, 445K, 154K, **30.9M** (iPhone warning), 125K.
+- **Insight:** his newest reel went from 8K to 482K in ~24 h; big-creator reach is decided by first-day shares. Ours stop at ~120 views on day 2 with 0 sends, so the send line naming one specific friend stays the priority over new hook styles.
+- **News (last 48 h):** banks are still revising FD rates this month (several news sites, 8–14 Nov); no new rule with a ₹ effect for salaried viewers found. Evergreen facts used: card revolving interest ~3.5% a month (a business magazine and a personal-finance blog agree), 18% GST on card interest (the magazine and a card-rules explainer agree); PPF 7.1% for Oct–Dec 2026 and the 5th-of-month rule (a business news site and a national daily agree on ₹887.50 a month on ₹1.5 lakh). **Dropped:** an October CPI figure (search results mixed 2025 and 2026 numbers).
+
 ## 2026-11-14 (daily pass, logged out)
 
 - **All four Reels tabs loaded** after closing the sign-up popup. Rotating pick: @pranjalkamra. Titles came from thumbnails only.

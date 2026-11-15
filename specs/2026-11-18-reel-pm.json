@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-18",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "PPF deposit\nafter the 5th?\n[[₹888 lost]]\n[[a year]]",
+    "vo": "पाँच के बाद PPF? आठ सौ अठासी गए!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Deposited after the 5th",
+    "big": "₹0",
+    "color": "red",
+    "label": "interest on it that month",
+    "vo": "उस महीने zero interest।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹1.5 lakh at 7.1%",
+    "big": "11 of 12",
+    "count": false,
+    "color": "red",
+    "label": "months of interest",
+    "vo": "बारह नहीं, ग्यारह महीने का interest।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Deposit by\n**the 5th.**",
+    "cta": [
+     "Send to the friend with a PPF account",
+     "Follow for a money fix every day"
+    ],
+    "vo": "PPF वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "PPF deposit after the 5th: why can it cost you ₹888 a year?\n\nPPF interest is worked out each month on the lowest balance between the 5th and the month-end.\nMoney that arrives after the 5th earns nothing for that month.\nIllustrative ₹1.5 lakh a year at 7.1% (the current rate): deposited by 5 April ≈ ₹10,650 of interest; after 5 April only 11 months count ≈ ₹9,763. About ₹888 less.\nPaying ₹12,500 monthly? Missing the 5th every month adds up to about the same.\nSimple interest for clarity; PPF compounds yearly, so actual credits differ slightly.\n\nDo you deposit in April, or a little every month?\nSend this to the friend with a PPF account.\n\nSources: a business news site on Oct–Dec 2026 small-savings rates (PPF 7.1%, 30 Sep 2026); the same site on the 5th-of-month rule (Apr 2026); a national daily's PPF explainer with a ₹887.50 one-month example. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#ppf #publicprovidentfund #taxsaving #savings #personalfinanceindia"
+ }
+}

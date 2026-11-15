@@ -6,7 +6,7 @@
     "type": "hook",
     "dur": 2.4,
     "text": "Still no ITR?\n[[₹20,000 refund]]\nlost after\n31 Dec",
-    "vo": "ITR नहीं भरा? बीस हज़ार refund, इकत्तीस दिसंबर बाद गया!",
+    "vo": "ITR नहीं भरा? बीस हज़ार refund ख़तरे में!",
     "mood": "concerned"
    },
    {
@@ -16,7 +16,7 @@
     "big": "₹5,000",
     "color": "red",
     "label": "if income is above ₹5 lakh",
-    "vo": "इकत्तीस दिसंबर तक: पाँच हज़ार fee, पर refund मिलेगा।",
+    "vo": "दिसंबर तक fee, पर refund मिलेगा।",
     "mood": "concerned"
    },
    {
@@ -26,7 +26,7 @@
     "big": "₹0",
     "color": "red",
     "label": "refund · it can only add tax",
-    "vo": "उसके बाद updated return में refund नहीं मिलता।"
+    "vo": "उसके बाद refund नहीं।"
    },
    {
     "type": "end",
@@ -36,7 +36,7 @@
      "Send to the friend who hasn't filed",
      "Follow for a money fix every day"
     ],
-    "vo": "जिसने ITR नहीं भरा, उस दोस्त को भेजो।",
+    "vo": "ITR बाकी वाले दोस्त को भेजो।",
     "mood": "happy"
    }
   ],

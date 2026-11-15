@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "slot": "reel",
+  "publish_at": "2026-11-18T13:45",
+  "topic": "PPF interest is calculated monthly on the lowest balance between the 5th and month-end; a deposit after the 5th earns nothing that month; illustrative ₹1.5 lakh a year at 7.1% (Oct–Dec 2026 rate): by 5 April ≈ ₹10,650 vs after ≈ ₹9,763 → ≈ ₹888 less (simple interest)",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number) + 15 Nov weekly rule 1: pm = investing ₹ number. First PPF reel since 6 Oct; tests a timing-mistake ₹ on a safe-savings product (no market risk) with a send to 'the friend with a PPF account'. 23 spoken words, end vo 5.",
+  "caption": "PPF deposit after the 5th: why can it cost you ₹888 a year?\n\nPPF interest is worked out each month on the lowest balance between the 5th and the month-end.\nMoney that arrives after the 5th earns nothing for that month.\nIllustrative ₹1.5 lakh a year at 7.1% (the current rate): deposited by 5 April ≈ ₹10,650 of interest; after 5 April only 11 months count ≈ ₹9,763. About ₹888 less.\nPaying ₹12,500 monthly? Missing the 5th every month adds up to about the same.\nSimple interest for clarity; PPF compounds yearly, so actual credits differ slightly.\n\nDo you deposit in April, or a little every month?\nSend this to the friend with a PPF account.\n\nSources: a business news site on Oct–Dec 2026 small-savings rates (PPF 7.1%, 30 Sep 2026); the same site on the 5th-of-month rule (Apr 2026); a national daily's PPF explainer with a ₹887.50 one-month example. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#ppf #publicprovidentfund #taxsaving #savings #personalfinanceindia",
+  "spec": "specs/2026-11-18-reel-pm.json",
+  "media": [
+    "media/2026-11-18/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-18/reel-pm/reel_cover.png",
+  "sources": [
+    "A business news site (30 Sep 2026): small-savings rates unchanged for Oct–Dec 2026, PPF 7.1%",
+    "The same business news site (4 Apr 2026): PPF interest on the lowest balance between the 5th and month-end; a deposit after the 5th earns nothing that month",
+    "A national daily's PPF explainer (5 Apr 2024): monthly interest on the lowest balance from the 5th; ₹1.5 lakh at 7.1% = ₹887.50 for one month"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-18",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Minimum-due payers:\n₹50,000 bill =\n[[₹1,962]]\n[[a month]]",
+    "vo": "Minimum due भरा? उन्नीस सौ बासठ हर महीने गए!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Interest on the unpaid ₹47,500",
+    "big": "3.5%",
+    "color": "red",
+    "label": "a month · about 42% a year",
+    "vo": "बाकी पर साढ़े तीन percent महीना।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "On ₹1,663 of interest",
+    "big": "+18%",
+    "color": "red",
+    "label": "GST, added every month",
+    "vo": "ऊपर से GST।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Pay the\n**full bill.**",
+    "cta": [
+     "Send to the friend who pays only the minimum",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Minimum वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paying only the minimum due: what does a ₹50,000 card bill cost you each month?\n\nThe minimum due is usually about 5% of the bill. Pay ₹2,500 and ₹47,500 stays unpaid.\nCard interest on that runs about 3.5% a month (roughly 42% a year): ≈ ₹1,663.\n18% GST is added on the interest: ≈ ₹299. Total ≈ ₹1,962 for one month, before any new purchases (which lose the interest-free period too).\nIllustrative; your card's rate and statement decide the real figure.\n\nHave you ever paid only the minimum due? What made you do it?\nSend this to the friend who pays only the minimum.\n\nSources: a business magazine on card charges (~3.5% a month, 18% GST on interest, minimum ≈ 5%); a personal-finance blog on the minimum-due trap (Jul 2026, ~3.5% a month); a card-rules explainer on GST on card fees (Mar 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #minimumdue #creditcarddebt #moneytips #personalfinanceindia"
+ }
+}
