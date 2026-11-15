@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-14
+# Scoreboard — 2026-11-15
 
-Followers **11** (+0 vs previous day). Reels tracked: 79. Median views per reel: 28.
+Followers **11** (+0 vs previous day). Reels tracked: 81. Median views per reel: 29.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -10,42 +10,44 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-10-15-reel-am UPI fee from 15 Oct? Not anymore: the 0.4% merchant fee is p | news-stakes | yes | 0 | 14.5s (100%) | 0 | 0 | 0 | 0 | 25.0 |
 | 2026-10-07-reel-pm Start a SIP at 25 or 30? What a 5-year delay costs by 60 | big-question | yes | 9 | 11.4s (57%) | 0 | 0 | 1 | 0 | 15.7 |
-| 2026-11-12-reel-am Closing a personal loan early: illustrative 3.5% foreclosure | bill-reveal | yes | 136 | 5.3s (45%) | 0 | 0 | 0 | 0 | 11.1 |
-| 2026-11-01-reel-pm EPF after job loss: up to 75% withdrawable immediately, rema | group-callout | yes | 141 | 4.6s (40%) | 0 | 0 | 1 | 0 | 10.2 |
-| 2026-11-13-reel-am Physical gold sold within 24 months is short-term: gain adde | bill-reveal | yes | 232 | 4.7s (40%) | 0 | 0 | 0 | 0 | 10.0 |
-| 2026-10-31-reel-pm Leave encashment: encashed in service = fully taxed as salar | bill-reveal | yes | 44 | 4.6s (40%) | 0 | 0 | 0 | 0 | 10.0 |
+| 2026-11-14-reel-pm Fee drag: illustrative ₹10 lakh at 12% a year for 20 years ≈ | contrarian-number | yes | 147 | 5.3s (46%) | 0 | 1 | 0 | 0 | 11.6 |
+| 2026-11-12-reel-am Closing a personal loan early: illustrative 3.5% foreclosure | bill-reveal | yes | 139 | 5.3s (45%) | 0 | 0 | 0 | 0 | 11.3 |
+| 2026-11-13-reel-am Physical gold sold within 24 months is short-term: gain adde | bill-reveal | yes | 237 | 4.9s (42%) | 0 | 0 | 0 | 0 | 10.5 |
+| 2026-11-01-reel-pm EPF after job loss: up to 75% withdrawable immediately, rema | group-callout | yes | 142 | 4.6s (40%) | 0 | 0 | 1 | 0 | 10.2 |
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
-| 2026-11-01-reel-am Train ticket cancellation under the revised refund rules (fr | contrarian-number | yes | 162 | 4.3s (38%) | 0 | 0 | 1 | 0 | 9.5 |
-| 2026-11-10-reel-pm SIP step-up: ₹5,000 a month for 20 years at an illustrative  | contrarian-number | yes | 121 | 4.4s (36%) | 0 | 0 | 0 | 0 | 9.1 |
-| 2026-11-13-reel-pm Highway tolls without a valid FASTag: since 10 Apr 2026 no c | group-callout | yes | 115 | 3.8s (35%) | 0 | 0 | 0 | 0 | 8.8 |
+| 2026-10-31-reel-pm Leave encashment: encashed in service = fully taxed as salar | bill-reveal | yes | 45 | 4.6s (39%) | 0 | 0 | 0 | 0 | 9.8 |
+| 2026-11-10-reel-pm SIP step-up: ₹5,000 a month for 20 years at an illustrative  | contrarian-number | yes | 124 | 4.7s (39%) | 0 | 0 | 0 | 0 | 9.7 |
+| 2026-11-01-reel-am Train ticket cancellation under the revised refund rules (fr | contrarian-number | yes | 163 | 4.3s (38%) | 0 | 0 | 1 | 0 | 9.5 |
+| 2026-11-13-reel-pm Highway tolls without a valid FASTag: since 10 Apr 2026 no c | group-callout | yes | 121 | 4.1s (38%) | 0 | 0 | 0 | 0 | 9.5 |
+| 2026-11-12-reel-pm FD interest after tax: illustrative ₹1 lakh at 7% for a year | contrarian-number | yes | 170 | 4.3s (34%) | 0 | 1 | 1 | 0 | 8.6 |
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
-| 2026-11-11-reel-am Converting a credit card bill to EMI: illustrative ₹50,000 a | bill-reveal | yes | 118 | 4.1s (34%) | 0 | 0 | 0 | 0 | 8.5 |
-| 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 126 | 3.9s (33%) | 0 | 0 | 0 | 0 | 8.3 |
-| 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 121 | 3.8s (32%) | 0 | 0 | 0 | 0 | 7.9 |
-| 2026-10-30-reel-pm CTC vs in-hand: illustrative ₹12 lakh CTC with ₹50k basic →  | bill-reveal | yes | 14 | 3.1s (27%) | 0 | 1 | 0 | 0 | 7.8 |
+| 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 128 | 4.0s (34%) | 0 | 0 | 0 | 0 | 8.5 |
+| 2026-11-11-reel-am Converting a credit card bill to EMI: illustrative ₹50,000 a | bill-reveal | yes | 121 | 4.1s (34%) | 0 | 0 | 0 | 0 | 8.5 |
+| 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 122 | 3.8s (32%) | 0 | 0 | 0 | 0 | 7.9 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-28-reel-pm Job switch mid-year: each employer applies the ₹75,000 stand | big-question | yes | 12 | 4.7s (31%) | 0 | 0 | 0 | 0 | 7.7 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
-| 2026-11-03-reel-am Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, pet | guess-the-number | yes | 126 | 3.4s (30%) | 0 | 0 | 0 | 0 | 7.5 |
-| 2026-10-31-reel-am Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% | contrarian-number | yes | 42 | 3.7s (29%) | 0 | 0 | 0 | 0 | 7.3 |
+| 2026-11-03-reel-am Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, pet | guess-the-number | yes | 127 | 3.4s (30%) | 0 | 0 | 0 | 0 | 7.5 |
+| 2026-10-30-reel-pm CTC vs in-hand: illustrative ₹12 lakh CTC with ₹50k basic →  | bill-reveal | yes | 15 | 3.0s (26%) | 0 | 1 | 0 | 0 | 7.5 |
 | 2026-10-27-reel-am Stacked festive-sale discounts multiply, they don't add: 50% | contrarian-number | yes | 4 | 4.3s (29%) | 0 | 0 | 0 | 0 | 7.3 |
-| 2026-11-12-reel-pm FD interest after tax: illustrative ₹1 lakh at 7% for a year | contrarian-number | yes | 165 | 3.6s (28%) | 0 | 0 | 1 | 0 | 7.1 |
-| 2026-11-09-reel-pm Clubbing: interest on an FD made with money a husband gifted | group-callout | yes | 111 | 3.2s (27%) | 0 | 0 | 0 | 0 | 6.8 |
-| 2026-11-02-reel-pm HRA exemption: Bengaluru, Pune, Hyderabad, Ahmedabad moved t | bill-reveal | yes | 168 | 3.0s (26%) | 0 | 0 | 0 | 0 | 6.4 |
+| 2026-11-09-reel-pm Clubbing: interest on an FD made with money a husband gifted | group-callout | yes | 113 | 3.4s (29%) | 0 | 0 | 0 | 0 | 7.2 |
+| 2026-10-31-reel-am Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% | contrarian-number | yes | 43 | 3.7s (29%) | 0 | 0 | 0 | 0 | 7.2 |
+| 2026-11-14-reel-am One bounced EMI can be charged twice: the lender's bounce ch | bill-reveal | yes | 120 | 3.1s (27%) | 0 | 1 | 1 | 0 | 7.0 |
+| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 11 | 4.0s (28%) | 0 | 0 | 0 | 0 | 6.9 |
+| 2026-11-02-reel-pm HRA exemption: Bengaluru, Pune, Hyderabad, Ahmedabad moved t | bill-reveal | yes | 169 | 3.0s (26%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 129 | 3.5s (25%) | 0 | 0 | 0 | 0 | 6.3 |
-| 2026-11-04-reel-am Personal-loan processing fee: most lenders deduct it before  | bill-reveal | yes | 108 | 2.9s (24%) | 0 | 0 | 1 | 0 | 6.1 |
+| 2026-11-04-reel-am Personal-loan processing fee: most lenders deduct it before  | bill-reveal | yes | 109 | 2.9s (25%) | 0 | 0 | 1 | 0 | 6.2 |
+| 2026-11-10-reel-am Credit card bill not paid in full: the interest-free period  | bill-reveal | yes | 62 | 2.6s (23%) | 0 | 0 | 0 | 0 | 5.7 |
 | 2026-10-28-reel-am Insurance free-look period: 30 days from receiving the polic | contrarian-number | yes | 6 | 3.2s (23%) | 0 | 0 | 0 | 0 | 5.6 |
-| 2026-11-10-reel-am Credit card bill not paid in full: the interest-free period  | bill-reveal | yes | 61 | 2.4s (21%) | 0 | 0 | 0 | 0 | 5.4 |
 | 2026-10-21-reel-pm Exchanging old gold for new jewellery counts as a sale: long | contrarian-number | yes | 109 | 2.3s (21%) | 0 | 0 | 0 | 0 | 5.2 |
-| 2026-10-30-reel-am Paying only the minimum due on a festive card bill: illustra | contrarian-number | yes | 121 | 2.4s (21%) | 0 | 0 | 0 | 0 | 5.1 |
-| 2026-11-11-reel-pm Car insurance no-claim bonus: 20% after one claim-free year  | before-you | yes | 27 | 2.5s (20%) | 0 | 0 | 0 | 0 | 5.0 |
-| 2026-11-02-reel-am Overseas tour package TCS: flat 2% from the first rupee from | guess-the-number | yes | 24 | 2.2s (20%) | 0 | 0 | 0 | 0 | 4.9 |
+| 2026-10-30-reel-am Paying only the minimum due on a festive card bill: illustra | contrarian-number | yes | 122 | 2.3s (20%) | 0 | 0 | 0 | 0 | 5.1 |
+| 2026-11-11-reel-pm Car insurance no-claim bonus: 20% after one claim-free year  | before-you | yes | 28 | 2.5s (20%) | 0 | 0 | 0 | 0 | 5.0 |
+| 2026-11-02-reel-am Overseas tour package TCS: flat 2% from the first rupee from | guess-the-number | yes | 25 | 2.2s (19%) | 0 | 0 | 0 | 0 | 4.8 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
 | 2026-10-19-reel-mid Locker robbed? The bank pays at most 100× the annual rent, a | contrarian-number | yes | 47 | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-15-reel-pm Job switch: PF withdrawn before 5 years isn't tax-free; tran | contrarian-number | yes | 39 | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
-| 2026-10-29-reel-pm Employer NPS deductible up to 14% of basic + DA in the new r | guess-the-number | yes | 5 | 2.1s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
 | 2026-10-22-reel-pm Gratuity = 15/26 × last monthly wages × years: illustrative  | guess-the-number | yes | 110 | 2.4s (17%) | 0 | 0 | 0 | 0 | 4.2 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
@@ -55,6 +57,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
 | 2026-10-12-reel-am UPI shop payments above ₹2,000: the 0.4% merchant fee from 1 | news-stakes | yes | 89 | 2.5s (13%) | 0 | 0 | 2 | 0 | 3.6 |
+| 2026-10-29-reel-pm Employer NPS deductible up to 14% of basic + DA in the new r | guess-the-number | yes | 6 | 1.8s (15%) | 0 | 0 | 0 | 0 | 3.6 |
 | 2026-10-18-reel-am Inflation hit 5.54% in September: what idle ₹1 lakh in cash  | news-stakes | yes | 26 | 2.1s (14%) | 0 | 0 | 0 | 0 | 3.5 |
 | 2026-10-17-reel-mid ₹10 lakh cash deposit isn't a limit: it's the yearly reporti | contrarian-number | yes | 24 | 1.9s (13%) | 0 | 0 | 0 | 0 | 3.4 |
 | 2026-10-18-reel-mid Can a minimum-balance fine push your savings balance below ₹ | big-question | yes | 20 | 2.0s (13%) | 0 | 0 | 0 | 0 | 3.3 |
@@ -68,7 +71,6 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-19-reel-pm Prepaying a floating-rate loan? From 1 Jan 2026, the prepaym | hinglish-hook | yes | 21 | 1.5s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-24-reel-am Credit card cash withdrawal: no interest-free period, typica | contrarian-number | yes | 16 | 1.7s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-08-reel-am Lost your job tomorrow? How big your emergency fund should b | audit | yes | 14 | 2.1s (11%) | 0 | 0 | 0 | 0 | 2.7 |
-| 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 9 | 1.5s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-16-reel-am How much gold can you keep at home? 500 g / 250 g / 100 g ta | big-question | yes | 5 | 1.6s (11%) | 0 | 0 | 0 | 0 | 2.7 |
 | 2026-10-13-reel-mid Missed your ITR? The belated return deadline is 31 Dec, with | news-list | yes | 9 | 1.5s (10%) | 0 | 0 | 0 | 0 | 2.5 |
 | 2026-10-23-reel-pm Deepfake 'free money' ads: govt cyber-crime centre warning ( | news-stakes | yes | 7 | 1.4s (10%) | 0 | 0 | 0 | 0 | 2.5 |
@@ -86,19 +88,19 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-11-14-reel-am One bounced EMI can be charged twice: the lender's bounce ch | bill-reveal | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
+| 2026-11-15-reel-am Same ₹2 lakh personal loan at an illustrative 12%: 3 years = | bill-reveal | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
-| group-callout | 3 | 115 | 35% | 8.8 | EXPLOIT |
-| red-day-relatable | 1 | 126 | 33% | 8.3 | keep |
-| bill-reveal | 9 | 118 | 27% | 7.8 | keep |
-| contrarian-number | 20 | 50 | 21% | 5.2 | keep |
-| before-you | 1 | 27 | 20% | 5.0 | test again (low data) |
+| group-callout | 3 | 121 | 38% | 9.5 | EXPLOIT |
+| red-day-relatable | 1 | 128 | 34% | 8.5 | keep |
+| bill-reveal | 10 | 120 | 26% | 7.2 | keep |
+| contrarian-number | 21 | 52 | 21% | 5.2 | keep |
+| before-you | 1 | 28 | 20% | 5.0 | test again (low data) |
+| guess-the-number | 7 | 28 | 19% | 4.8 | test again |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
-| guess-the-number | 7 | 28 | 17% | 4.3 | keep |
 | news-stakes | 5 | 26 | 13% | 3.5 | test again |
 | big-question | 16 | 20 | 13% | 3.2 | test again |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
@@ -109,9 +111,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | keep |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-14-reel-am.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-15-reel-am.
 
-Narrated reels: median views 28, watch 17% — silent reels: 22, 13%.
+Narrated reels: median views 30, watch 17% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
