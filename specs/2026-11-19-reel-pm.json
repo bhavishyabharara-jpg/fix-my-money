@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-19",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "SIP from\n'next year'?\n[[−₹6.19 lakh]]",
+    "sub": "For the friend who says 'next year'",
+    "vo": "SIP अगले साल? छह लाख उन्नीस हज़ार कम!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹5,000 a month at 12% a year",
+    "big": "₹49.96 lakh",
+    "count": false,
+    "color": "mint",
+    "label": "after 20 years",
+    "vo": "बीस साल: करीब पचास लाख।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same end date,\nstarted 1 year later",
+    "big": "₹43.77 lakh",
+    "count": false,
+    "color": "red",
+    "label": "19 years of SIP",
+    "vo": "Late start: छह लाख कम।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Start\n**this month.**",
+    "cta": [
+     "Send to the friend who says 'next year'",
+     "Follow for a money fix every day"
+    ],
+    "vo": "'Next year' वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Starting your SIP \"next year\": why can it cost you ₹6.19 lakh?\n\nIllustrative ₹5,000 a month at an assumed 12% a year for 20 years ≈ ₹49.96 lakh.\nStart one year later and stop on the same date: 19 years ≈ ₹43.77 lakh.\nYou invest only ₹60,000 less, but end up ≈ ₹6.19 lakh lower. The last year of compounding is the biggest one.\nAssumed return for illustration; market returns are not guaranteed and vary year to year.\n\nWhat's the one thing that keeps you saying \"next year\"?\nSend this to the friend who keeps saying \"next year\".\n\nSources: a broker's knowledge-centre explainer on the SIP future-value formula (₹10,000 a month at 12% for 10 years ≈ ₹23.23 lakh); a SIP-maths explainer with the same formula and monthly rate. Figures calculated from that formula. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#sip #sipinvestment #compounding #mutualfundsindia #personalfinanceindia"
+ }
+}

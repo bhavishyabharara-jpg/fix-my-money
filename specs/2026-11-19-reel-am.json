@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-19",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Bike EMI buyers:\n'6% flat' =\n[[₹8,481 extra]]",
+    "sub": "For everyone who bought a bike on EMI",
+    "vo": "छह percent flat? आठ हज़ार चार सौ इक्यासी extra!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Flat rate: interest on the full\n₹1 lakh, all 3 years",
+    "big": "₹18,000",
+    "color": "red",
+    "label": "vs ≈ ₹9,519 at a real 6%",
+    "vo": "पूरे loan पर, तीनों साल।",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹1 lakh, 3 years",
+    "big": "≈11%",
+    "count": false,
+    "color": "red",
+    "label": "the real yearly rate",
+    "vo": "असली rate लगभग ग्यारह percent।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Ask for the\n**reducing rate.**",
+    "cta": [
+     "Send to the friend with a new bike EMI",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Bike वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Bought a bike on EMI at \"6% flat\": why does it cost you ₹8,481 more?\n\nA flat rate charges interest on the full loan for the whole tenure, even as you repay it.\nIllustrative ₹1 lakh for 3 years at 6% flat: interest ₹18,000 (EMI ≈ ₹3,278).\nThe same loan at a real 6% on the reducing balance: interest ≈ ₹9,519 (EMI ≈ ₹3,042).\nThat's ≈ ₹8,481 more, and the flat loan's true yearly rate works out to about 11%.\nIllustrative; fees, GST on fees and your lender's terms change the real figure. Ask for the reducing-balance rate before you sign.\n\nWas your vehicle loan quoted as a flat rate or a reducing rate?\nSend this to the friend who just bought a bike on EMI.\n\nSources: a private bank's explainer on flat vs reducing-balance EMI formulas; a lender's flat vs reducing rate guide with a worked example (Mar 2026). Figures calculated from those formulas. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#bikeloan #emi #flatrate #loantips #personalfinanceindia"
+ }
+}

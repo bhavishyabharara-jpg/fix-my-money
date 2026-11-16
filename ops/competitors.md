@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-16 (daily pass, logged out)
+
+- **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade and @anushkarathod98 showed no reel grid, and the rotating pick @sarthakahuja returned "Profile isn't available" logged out. Titles not readable.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest shown as 10K likes / 26 comments (hover overlay, no view count), then **389K** (385K yesterday), **846K** (830K), 139K, 327K, 446K, 156K, **30.9M**, 125K, 201K, 247K.
+- **Insight:** after day 2 his reels add only ~1–4% a day (846K vs 830K), so even at 2.9M followers reach is decided in the first 24–48 h by shares. Our reels also stop on day 2; a send in the first hours is the only lever, which is why today's change puts the send target on the hook frame.
+- **News (last 48 h):** FD rate hikes continue (a business news site, 7 Nov: one large private bank up to 0.5% from 4 Nov; senior-citizen rates up to 8.6% at small finance banks); markets near highs (Nifty ~26,000 on 11 Nov), so no red-day reel. **Dropped:** October 2026 CPI (no 2026 page opened; a search hit was the 2024 figure, 6.21%). Evergreen facts used: flat vs reducing EMI formulas (a private bank's explainer and a lender's guide agree: ₹5 lakh at 10% for 5 yrs = ₹2.5 lakh flat vs ₹1,37,440 reducing); SIP annuity-due formula (a broker's explainer and a SIP-maths page agree; ₹10,000 at 12% for 10 yrs ≈ ₹23,23,391, reproduced).
+
 ## 2026-11-15 (daily pass, logged out)
 
 - **Only one Reels tab loaded.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @labourlawadvisor showed the header and no reel grid (the logged-out limit after the first profile, as on 9 and 13 Nov). Titles not readable logged out.

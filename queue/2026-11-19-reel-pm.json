@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-19",
+  "slot": "reel",
+  "publish_at": "2026-11-19T13:45",
+  "topic": "Delaying a SIP by one year: illustrative ₹5,000 a month at an assumed 12% a year, annuity-due formula; 20 years ≈ ₹49.96 lakh vs 19 years (same end date) ≈ ₹43.77 lakh → ≈ ₹6.19 lakh less for ₹60,000 less invested; returns not guaranteed",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number) + 15 Nov weekly rule 1: pm = investing ₹ number. Re-cut of the 7 Oct 'start at 25 or 30' reel (best all-time hold 57%, 9 views pre-12 s) as a one-year-delay ₹ with a specific send target ('the friend who says next year'). 24 spoken words, end vo 6, 11.4 s silent. Engine change (16 Nov): the send target is on the hook frame as `sub` (visible from ~0.4 s), not only on the end card that ~65% of viewers never reach. Judge on 22 Nov: sends > 0 on any 19 Nov reel.",
+  "caption": "Starting your SIP \"next year\": why can it cost you ₹6.19 lakh?\n\nIllustrative ₹5,000 a month at an assumed 12% a year for 20 years ≈ ₹49.96 lakh.\nStart one year later and stop on the same date: 19 years ≈ ₹43.77 lakh.\nYou invest only ₹60,000 less, but end up ≈ ₹6.19 lakh lower. The last year of compounding is the biggest one.\nAssumed return for illustration; market returns are not guaranteed and vary year to year.\n\nWhat's the one thing that keeps you saying \"next year\"?\nSend this to the friend who keeps saying \"next year\".\n\nSources: a broker's knowledge-centre explainer on the SIP future-value formula (₹10,000 a month at 12% for 10 years ≈ ₹23.23 lakh); a SIP-maths explainer with the same formula and monthly rate. Figures calculated from that formula. Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#sip #sipinvestment #compounding #mutualfundsindia #personalfinanceindia",
+  "spec": "specs/2026-11-19-reel-pm.json",
+  "media": [
+    "media/2026-11-19/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-19/reel-pm/reel_cover.png",
+  "sources": [
+    "A broker's knowledge-centre explainer on the SIP future-value formula FV = P × [((1+i)^n − 1)/i] × (1+i), i = annual/12 (₹10,000 a month at 12% for 10 years ≈ ₹23,23,391)",
+    "A SIP-maths explainer with the same annuity-due formula and monthly rate",
+    "Figures for ₹5,000 a month over 20 and 19 years calculated from that formula (checked against the ₹23,23,391 example)"
+  ],
+  "duration_s": 11.4
+}
