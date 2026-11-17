@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-16
+# Scoreboard — 2026-11-17
 
-Followers **11** (+0 vs previous day). Reels tracked: 83. Median views per reel: 30.
+Followers **11** (+0 vs previous day). Reels tracked: 85. Median views per reel: 30.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -14,16 +14,18 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-11-12-reel-am Closing a personal loan early: illustrative 3.5% foreclosure | bill-reveal | yes | 139 | 5.3s (45%) | 0 | 0 | 0 | 0 | 11.3 |
 | 2026-11-13-reel-am Physical gold sold within 24 months is short-term: gain adde | bill-reveal | yes | 237 | 4.9s (42%) | 0 | 0 | 0 | 0 | 10.5 |
 | 2026-11-01-reel-pm EPF after job loss: up to 75% withdrawable immediately, rema | group-callout | yes | 142 | 4.6s (40%) | 0 | 0 | 1 | 0 | 10.2 |
+| 2026-11-15-reel-pm ATM charges: after the free monthly limit (5 own-bank; 3 oth | group-callout | yes | 120 | 4.5s (40%) | 0 | 0 | 0 | 0 | 10.0 |
 | 2026-10-08-reel-pm RBI raised the repo rate to 5.50%: what changes for your loa | news-list | yes | 5 | 6.0s (30%) | 0 | 0 | 1 | 0 | 10.0 |
 | 2026-10-31-reel-pm Leave encashment: encashed in service = fully taxed as salar | bill-reveal | yes | 45 | 4.6s (39%) | 0 | 0 | 0 | 0 | 9.8 |
 | 2026-11-10-reel-pm SIP step-up: ₹5,000 a month for 20 years at an illustrative  | contrarian-number | yes | 124 | 4.7s (39%) | 0 | 0 | 0 | 0 | 9.7 |
+| 2026-11-16-reel-am Gold loan repayment: illustrative ₹1 lakh at 12% for 12 mont | bill-reveal | yes | 149 | 4.4s (38%) | 0 | 0 | 0 | 0 | 9.6 |
 | 2026-11-01-reel-am Train ticket cancellation under the revised refund rules (fr | contrarian-number | yes | 163 | 4.3s (38%) | 0 | 0 | 1 | 0 | 9.5 |
 | 2026-11-13-reel-pm Highway tolls without a valid FASTag: since 10 Apr 2026 no c | group-callout | yes | 121 | 4.1s (38%) | 0 | 0 | 0 | 0 | 9.5 |
-| 2026-11-15-reel-pm ATM charges: after the free monthly limit (5 own-bank; 3 oth | group-callout | yes | 58 | 3.9s (35%) | 0 | 0 | 0 | 0 | 8.7 |
 | 2026-11-12-reel-pm FD interest after tax: illustrative ₹1 lakh at 7% for a year | contrarian-number | yes | 170 | 4.3s (34%) | 0 | 1 | 1 | 0 | 8.6 |
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
 | 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 128 | 4.0s (34%) | 0 | 0 | 0 | 0 | 8.5 |
 | 2026-11-11-reel-am Converting a credit card bill to EMI: illustrative ₹50,000 a | bill-reveal | yes | 121 | 4.1s (34%) | 0 | 0 | 0 | 0 | 8.5 |
+| 2026-11-16-reel-pm Equity holding period: listed equity shares / equity mutual  | contrarian-number | yes | 144 | 3.8s (33%) | 0 | 1 | 1 | 0 | 8.4 |
 | 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 122 | 3.8s (32%) | 0 | 0 | 0 | 0 | 7.9 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-28-reel-pm Job switch mid-year: each employer applies the ₹75,000 stand | big-question | yes | 12 | 4.7s (31%) | 0 | 0 | 0 | 0 | 7.7 |
@@ -90,16 +92,16 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-11-16-reel-am Gold loan repayment: illustrative ₹1 lakh at 12% for 12 mont | bill-reveal | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
+| 2026-11-17-reel-am Belated ITR for FY 2025-26: can be filed until 31 Dec 2026 w | group-callout | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
-| group-callout | 4 | 117 | 36% | 9.1 | EXPLOIT |
+| group-callout | 4 | 120 | 39% | 9.8 | EXPLOIT |
 | red-day-relatable | 1 | 128 | 34% | 8.5 | keep |
-| bill-reveal | 11 | 121 | 27% | 6.9 | keep |
-| contrarian-number | 21 | 52 | 21% | 5.2 | keep |
+| bill-reveal | 12 | 121 | 27% | 7.2 | keep |
+| contrarian-number | 22 | 56 | 22% | 5.4 | keep |
 | before-you | 1 | 28 | 20% | 5.0 | test again (low data) |
 | guess-the-number | 7 | 28 | 19% | 4.8 | test again |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
@@ -113,9 +115,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | test again |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-16-reel-am.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-17-reel-am.
 
-Narrated reels: median views 34, watch 17% — silent reels: 22, 13%.
+Narrated reels: median views 38, watch 17% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
