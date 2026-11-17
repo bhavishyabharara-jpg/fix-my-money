@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-17 (daily pass, logged out)
+
+- **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @pranjalkamra showed no reel grid (the logged-out limit after the first profile). Titles not readable.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest shown as 7,898 likes / 24 comments (hover overlay, no view count), then **510K**, **391K** (389K yesterday), **854K** (846K), 141K, 329K, 447K, 158K, **30.9M**, 125K, 201K, 247K.
+- **Insight:** reels a few days old add only ~1% a day (846K → 854K, 389K → 391K); everything is decided in the first 24–48 h. Same as our own curve: ~120 views by day 2, then flat. A send in the first hours is still the only lever, so the send line stays on the hook frame.
+- **News (last 48 h):** markets near 8-month highs (several market sites, 11–16 Nov), so no red-day reel. October 2026 CPI **6.09%** (two-year high; food 8.94%; up from 5.54% in September), confirmed today on a public broadcaster's news site and an environment-and-economy magazine (both 12 Nov): used for 20 Nov pm. A banking digest (16 Nov) reports new money-transfer cash caps for unbanked beneficiaries (₹10,000 a transaction / ₹25,000 a month) and no deposit-rate changes. Evergreen facts used: ₹7 lakh at 12% for 5 years = EMI ₹15,571, interest ₹2,34,267 (a broker's news page, reproduced with the EMI formula); wedding loans are personal loans at ~10–25% (a broker's explainer). Savings rate 2.5% (a business daily for the largest public bank, Jun 2025; a rate-comparison page for several private banks, Mar 2026).
+
 ## 2026-11-16 (daily pass, logged out)
 
 - **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade and @anushkarathod98 showed no reel grid, and the rotating pick @sarthakahuja returned "Profile isn't available" logged out. Titles not readable.

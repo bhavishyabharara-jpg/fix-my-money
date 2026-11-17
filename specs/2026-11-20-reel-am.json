@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-20",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹7 lakh wedding loan?\n[[₹2.34 lakh extra]]",
+    "sub": "For the friend planning a wedding loan",
+    "vo": "सात लाख का wedding loan? दो लाख चौंतीस हज़ार extra!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Illustrative ₹7 lakh at 12%,\n5 years",
+    "big": "₹15,571",
+    "color": "amber",
+    "label": "EMI for 60 months",
+    "vo": "EMI: साठ महीने।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Interest on top",
+    "big": "₹2,34,267",
+    "color": "red",
+    "label": "≈ ₹1 extra for every ₹3 borrowed",
+    "vo": "हर तीन rupee पर एक extra।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Borrow less,\n**pay less.**",
+    "cta": [
+     "Send to the friend planning a wedding loan",
+     "Follow for a money fix every day"
+    ],
+    "vo": "शादी वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Taking a loan for the wedding: why does ₹7 lakh cost you ₹2.34 lakh more?\n\nIllustrative ₹7 lakh personal loan at 12% a year for 5 years: EMI ≈ ₹15,571 for 60 months.\nTotal repaid ≈ ₹9,34,267, so ≈ ₹2,34,267 is interest: about ₹1 extra for every ₹3 borrowed.\nWedding loans are personal loans, and rates run roughly 10–25% a year, so the real figure can be higher. Fees and GST on fees come on top.\n\nHow much of a wedding budget would you put on a loan?\nSend this to the friend planning a wedding loan.\n\nSources: a broker's personal-finance news page with the same ₹7 lakh / 12% / 5-year example (Feb 2026); a broker's wedding-loan explainer giving the 10–25% rate range (Dec 2025). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddingloan #personalloan #emi #weddingbudget #personalfinanceindia"
+ }
+}

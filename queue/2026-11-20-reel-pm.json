@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "slot": "reel",
+  "publish_at": "2026-11-20T13:45",
+  "topic": "Idle savings vs inflation: October 2026 CPI 6.09%; ₹1 lakh at an illustrative 2.5% savings rate = ₹1,02,500, which buys what ≈ ₹96,616 bought a year earlier → ≈ ₹3,384 of buying power lost (approximate)",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number) + 15 Nov weekly rule 1 (pm = investing/savings ₹ number) + news peg (CPI 6.09%, two-year high, 12 Nov). ENGINE TEST (17 Nov): 10 s cut, 18 spoken words (hook 7, end 3), 10.0 s silent vs the 12 s standard. Reason: average watch has sat at 4–6 s whatever the length, so a shorter reel should lift watch % (the two best holds, 50% and 45%, came at ~11.5 s). Judge on 23 Nov: watch % ≥45% and views ≥121 → make 10 s the cap.",
+  "caption": "₹1 lakh sitting in a savings account: how did it lose ≈ ₹3,400?\n\nRetail inflation was 6.09% in October 2026, a two-year high.\nA savings account paying 2.5% turns ₹1 lakh into ₹1,02,500.\nAt prices 6.09% higher, that buys what ≈ ₹96,616 bought a year ago: ≈ ₹3,384 of buying power gone.\nApproximate and illustrative: your own prices and your bank's rate will differ.\n\nHow much of your money sits idle in savings right now?\nSend this to the friend with idle savings.\n\nSources: government CPI data for October 2026 as reported by a public broadcaster and an environment-and-economy magazine (12 Nov 2026); savings rates of 2.5% at a large public bank (a business daily, Jun 2025) and at several private banks for balances up to ₹1 lakh (a rate-comparison page, rates as of Mar 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#inflation #savingsaccount #personalfinanceindia #moneytips #financialplanning",
+  "spec": "specs/2026-11-20-reel-pm.json",
+  "media": [
+    "media/2026-11-20/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-20/reel-pm/reel_cover.png",
+  "sources": [
+    "Public broadcaster's news site: October 2026 CPI retail inflation 6.09%, up from 5.54% in September (MoSPI provisional data, 12 Nov 2026)",
+    "An environment-and-economy magazine: October 2026 retail inflation 6.09%, food 8.94% (12 Nov 2026)",
+    "A business daily: the largest public bank pays 2.5% on all savings balances (Jun 2025); a rate-comparison page lists 2.5% up to ₹1 lakh at several private banks (rates as of Mar 2026)",
+    "₹1,02,500 / 1.0609 ≈ ₹96,616 → ≈ ₹3,384 less buying power (calculated; approximate)"
+  ],
+  "duration_s": 10.0
+}

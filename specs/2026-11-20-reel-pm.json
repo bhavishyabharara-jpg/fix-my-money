@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-20",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.2,
+    "text": "₹1 lakh in savings?\n[[≈₹3,400 lost]]\nto prices",
+    "sub": "For the friend with idle savings",
+    "vo": "Savings में एक लाख? चौंतीस सौ गए!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Savings interest vs prices\n(Oct 2026 inflation)",
+    "big": "2.5% vs 6.09%",
+    "count": false,
+    "color": "amber",
+    "label": "interest vs price rise",
+    "vo": "ढाई percent vs छह percent।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "₹1,02,500 now buys what\nthis much bought last year",
+    "big": "₹96,616",
+    "color": "red",
+    "label": "approx., illustrative",
+    "vo": "असल value घटी।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 2.6,
+    "text": "Idle cash\n**shrinks.**",
+    "cta": [
+     "Send to the friend with idle savings",
+     "Follow for a money fix every day"
+    ],
+    "vo": "दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹1 lakh sitting in a savings account: how did it lose ≈ ₹3,400?\n\nRetail inflation was 6.09% in October 2026, a two-year high.\nA savings account paying 2.5% turns ₹1 lakh into ₹1,02,500.\nAt prices 6.09% higher, that buys what ≈ ₹96,616 bought a year ago: ≈ ₹3,384 of buying power gone.\nApproximate and illustrative: your own prices and your bank's rate will differ.\n\nHow much of your money sits idle in savings right now?\nSend this to the friend with idle savings.\n\nSources: government CPI data for October 2026 as reported by a public broadcaster and an environment-and-economy magazine (12 Nov 2026); savings rates of 2.5% at a large public bank (a business daily, Jun 2025) and at several private banks for balances up to ₹1 lakh (a rate-comparison page, rates as of Mar 2026). Illustrative only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#inflation #savingsaccount #personalfinanceindia #moneytips #financialplanning"
+ }
+}
