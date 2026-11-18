@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-21",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh cash gift?\n[[₹2 lakh penalty]]",
+    "sub": "For the friend getting married this season",
+    "vo": "शादी में दो लाख cash? Penalty भी दो लाख!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Cash from ONE person,\nfor one wedding",
+    "big": "₹2 lakh+",
+    "count": false,
+    "color": "amber",
+    "label": "can't be taken in cash",
+    "vo": "एक इंसान, एक event।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Penalty on the person\nwho receives it",
+    "big": "100%",
+    "count": false,
+    "color": "red",
+    "label": "of the cash received",
+    "vo": "लेने वाले पर पूरा penalty।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Take it by\n**UPI or cheque.**",
+    "cta": [
+     "Send to the friend getting married",
+     "Follow for a money fix every day"
+    ],
+    "vo": "शादी वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Getting married this season? Why can a ₹2 lakh cash gift cost ₹2 lakh?\n\nWedding gifts are tax-free, but the cash rule is separate.\nNo one may receive ₹2 lakh or more in cash from one person for one event or occasion.\nBreak it and the penalty can equal the full cash received, and it falls on the person who receives it.\nTake big gifts by UPI, bank transfer or cheque instead.\n\nDid anyone at your wedding hand over a big cash envelope?\nSend this to the friend getting married this season.\n\nSources: a tax-law publisher's guide to wedding gifts and the ₹2 lakh cash rule; a tax-law news site's explainer on the cash limit and the 100% penalty (May 2025). Figures illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddinggifts #incometax #cashlimit #shaadi #personalfinanceindia"
+ }
+}

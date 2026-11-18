@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-18 (daily pass, logged out)
+
+- **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @nehanagar showed no reel grid (the logged-out limit after the first profile). Titles not readable.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest **1M** (7,898 likes at the 17 Nov pass: about 1M views in ~24 h; the thumbnail shows him with a well-known film actor), then **517K** (510K), **393K** (391K), **859K** (854K), 143K, 330K, 448K, 158K, **30.9M**.
+- **Insight:** his biggest new reel in weeks features a famous guest: borrowed audience, not a sharper hook. We can't do celebrity, but the same lever at our size is a collab with a small creator in the niche (owner's call); older reels again added only ~1% a day.
+- **News (last 48 h):** markets down ~0.7% midday today (Sensex −587 at 81,945, Nifty 25,201; IT and metals; a business daily's live blog, 18 Nov), not a red enough day for a relatable reel. Gold fell 7.7% in October while large-caps rose (same blog); jewellery and gold/silver ETFs fell today. An industry body proposed zero LTCG after 3 years for Budget 2027 (a business magazine, 17 Nov): a proposal, not used. Evergreen facts used: the ₹2 lakh cash-receipt rule and 100% penalty, including one event such as a wedding (a tax-law publisher's guide and a tax-law news site agree); 6% inflation retirement maths (a financial planner's two guides: ₹50,000 → ₹1.60 lakh in 20 years; ₹1 lakh → ₹3.21 lakh), reproduced as ₹50,000 × 1.06^20.
+
 ## 2026-11-17 (daily pass, logged out)
 
 - **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @pranjalkamra showed no reel grid (the logged-out limit after the first profile). Titles not readable.

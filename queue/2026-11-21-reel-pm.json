@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-21",
+  "slot": "reel",
+  "publish_at": "2026-11-21T13:45",
+  "topic": "Retirement in future prices: ₹50,000 a month today ≈ ₹1.6 lakh a month in 20 years at an illustrative 6% inflation, so ₹1 crore covers ≈5 years of it before returns",
+  "hook_pattern": "future-bill",
+  "experiment": "EXPERIMENT (~15% slot): new hook style 'future-bill' (the viewer's own monthly spend projected forward) and the first goal-maths topic since 10 Oct, in place of the pm investing number once (15 Nov weekly rule 1 bent for the test). Send target named by a belief the friend says out loud ('the friend who says ₹1 crore is enough') rather than a situation. 23 spoken words, 11.4 s. Judge on 24 Nov vs pm median (~140 views / 34%) and any send.",
+  "caption": "₹50,000 a month today: what will the same life cost you in 20 years?\n\nAt an illustrative 6% inflation, ₹50,000 a month becomes ≈ ₹1.6 lakh a month in 20 years.\nThat's ≈ ₹19.2 lakh a year, so ₹1 crore would cover only about 5 years of it, before any returns.\nIllustrative only: your own costs, inflation and returns will differ, and returns are not guaranteed.\nPlan your retirement number in future prices, not today's.\n\nWhat monthly spend are you planning for when you retire?\nSend this to the friend who says ₹1 crore is enough.\n\nSources: a financial planner's retirement guides using 6% yearly inflation (₹1 lakh a month today ≈ ₹3.21 lakh in 20 years; ₹50,000 ≈ ₹89,542 in 10 years); ₹50,000 × 1.06^20 ≈ ₹1,60,357 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#retirementplanning #inflation #financialplanning #personalfinanceindia #moneytips",
+  "spec": "specs/2026-11-21-reel-pm.json",
+  "media": [
+    "media/2026-11-21/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-21/reel-pm/reel_cover.png",
+  "sources": [
+    "A financial planner's guide 'Is ₹1 crore enough for retirement' (Sep 2026): 6% yearly expense inflation; ₹50,000 a month today ≈ ₹89,542 in 10 years, ₹1.60 lakh in 20 years",
+    "The same planner's inflation-and-retirement guide (Sep 2026): ₹1 lakh a month today ≈ ₹3.21 lakh after 20 years at 6%",
+    "₹50,000 × 1.06^20 ≈ ₹1,60,357 a month ≈ ₹19.2 lakh a year; ₹1 crore ÷ ₹19.2 lakh ≈ 5.2 years, before returns (calculated; illustrative)"
+  ],
+  "duration_s": 11.4
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-21",
+  "slot": "reel",
+  "publish_at": "2026-11-21T02:45",
+  "topic": "Wedding cash gifts: receiving ₹2 lakh or more in cash from one person for one event breaks the cash rule; penalty can equal 100% of the cash, on the receiver (wedding gifts themselves are tax-free)",
+  "hook_pattern": "group-callout",
+  "experiment": "EXPLOIT (group-callout, scoreboard EXPLOIT 5 reels median 120 / 38%) + am wedding-money mix from 21 Nov (8 Nov weekly rule). Tests a time-bound send target ('the friend getting married this season') on the hook sub and end card: wedding season gives a reason to send today. Hook is 6 words with the ₹ twice (gift = penalty). 23 spoken words, 11.4 s. Judge on 24 Nov: sends ≥1, watch ≥38%.",
+  "caption": "Getting married this season? Why can a ₹2 lakh cash gift cost ₹2 lakh?\n\nWedding gifts are tax-free, but the cash rule is separate.\nNo one may receive ₹2 lakh or more in cash from one person for one event or occasion.\nBreak it and the penalty can equal the full cash received, and it falls on the person who receives it.\nTake big gifts by UPI, bank transfer or cheque instead.\n\nDid anyone at your wedding hand over a big cash envelope?\nSend this to the friend getting married this season.\n\nSources: a tax-law publisher's guide to wedding gifts and the ₹2 lakh cash rule; a tax-law news site's explainer on the cash limit and the 100% penalty (May 2025). Figures illustrative.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddinggifts #incometax #cashlimit #shaadi #personalfinanceindia",
+  "spec": "specs/2026-11-21-reel-am.json",
+  "media": [
+    "media/2026-11-21/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-21/reel-am/reel_cover.png",
+  "sources": [
+    "A tax-law publisher's guide to income-tax on wedding gifts: marriage gifts exempt; no one may receive ₹2 lakh or more in cash from one person for one event/occasion; penalty 100% of the amount (Sec 269ST / 271DA)",
+    "A tax-law news site's explainer on cash transactions (25 May 2025): ₹2 lakh limit per person / transaction / event, wedding example, penalty equal to the cash received"
+  ],
+  "duration_s": 11.4
+}
