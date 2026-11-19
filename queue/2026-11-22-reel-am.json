@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "slot": "reel",
+  "publish_at": "2026-11-22T02:45",
+  "topic": "Wedding-guest bill: illustrative ₹2,100 shagun + ₹2,000 outfit + ₹900 travel = ₹5,000 a wedding; 8 invites = ₹40,000; set a per-wedding cap",
+  "hook_pattern": "group-callout",
+  "experiment": "EXPLOIT (group-callout, ~60%). Wedding-money am slot from 20 Nov. Tests whether the viewer's OWN seasonal spending tally (pure arithmetic, no rule or penalty) earns a send where rule-based callouts have not: send target is a friend in the situation this month ('the friend with 8 invites'). 19 spoken words, 11.4 s. Judge on 25 Nov vs group-callout median (117 views / 34%) and any send.",
+  "caption": "8 wedding invites this season: what will being a guest cost you?\n\nIllustrative: ₹2,100 shagun + ₹2,000 outfit + ₹900 travel = ₹5,000 a wedding.\n8 invites = ₹40,000, close to a month's salary for many.\nDecide a per-wedding cap before the next invite, and keep it in a separate pot so it doesn't land on your card.\n\nHow many wedding invites do you have this season?\nSend this to the friend with 8 invites.\n\nSources: illustrative amounts, calculated (₹2,100 + ₹2,000 + ₹900 = ₹5,000; × 8 = ₹40,000). Your own costs will differ.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddingseason #shaadi #budgeting #personalfinanceindia #moneytips",
+  "spec": "specs/2026-11-22-reel-am.json",
+  "media": [
+    "media/2026-11-22/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-22/reel-am/reel_cover.png",
+  "sources": [
+    "Illustrative amounts, calculated: ₹2,100 + ₹2,000 + ₹900 = ₹5,000 a wedding; × 8 = ₹40,000"
+  ],
+  "duration_s": 11.4
+}

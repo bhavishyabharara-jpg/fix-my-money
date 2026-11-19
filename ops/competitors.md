@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-19 (daily pass, logged out)
+
+- **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @ankurwarikoo (4M) showed the header and no reel grid (the logged-out limit after the first profile).
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** new **229K** (posted since yesterday), then **1.1M** (the famous-guest reel, 1M yesterday), **521K** (517K), **394K** (393K), **863K** (859K), 144K, 331K, 448K, 158K.
+- **Insight:** the guest reel kept growing (+10% in a day) while his solo reels added under 1%; the new solo reel sits at 229K, a quarter of it. Borrowed audience is still the biggest lever at every size, so a collab with a small finance creator remains the owner's highest-value move.
+- **News (last 48 h):** markets near highs: Nifty and Sensex closed higher on 16–17 Nov (a broker's daily close reports for 16 and 17 Nov 2026), so no red-day reel. No new personal-finance rule with a ₹ effect found in the last 48 h. Evergreen facts used: ₹1.25 lakh yearly LTCG exemption and 12.5% above it on equity held over 12 months (an asset manager's guide and a broker's knowledge-centre article agree; one FAQ on the broker page says 15%, which conflicts with its own body and the other source, so only the 12.5% the body and the second source agree on is used). Wedding-guest amounts are illustrative arithmetic; a 2026 wedding-count figure was not used (only 2025 trade-body numbers found).
+
 ## 2026-11-18 (daily pass, logged out)
 
 - **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @nehanagar showed no reel grid (the logged-out limit after the first profile). Titles not readable.

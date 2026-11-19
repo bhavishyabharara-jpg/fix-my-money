@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-22",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹1.25 lakh gains a year:\n[[₹0 tax]]",
+    "sub": "For the friend who never sells a single unit",
+    "vo": "सवा लाख का gain, tax ज़ीरो, हर साल!",
+    "mood": "happy"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Long-term equity gains\nexempt each year",
+    "big": "₹1.25 lakh",
+    "count": false,
+    "color": "mint",
+    "label": "held over 12 months, per financial year",
+    "vo": "बारह महीने से ज़्यादा, सवा लाख exempt।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "The same ₹1.25 lakh taxed\nat 12.5% if it's above the limit",
+    "big": "₹15,625",
+    "count": false,
+    "color": "red",
+    "label": "illustrative, before cess",
+    "vo": "Limit के ऊपर? पंद्रह हज़ार tax।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Use the yearly\n**₹1.25 lakh limit.**",
+    "cta": [
+     "Send to the friend who never sells",
+     "Follow for a money fix every day"
+    ],
+    "vo": "उस दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹1.25 lakh of long-term gains a year with ₹0 tax: are you using it?\n\nLong-term gains on listed equity shares and equity mutual funds (held over 12 months) are tax-free up to ₹1.25 lakh each financial year.\nGains above that are taxed at 12.5%, so ₹1.25 lakh above the limit = ₹15,625 tax (before cess).\nSpreading gains across years so each year stays within the limit is called tax harvesting. Exit loads, costs and your own goals matter; returns are not guaranteed.\n\nHave you ever booked gains just to use the yearly limit?\nSend this to the friend who never sells a single unit.\n\nSources: an asset manager's guide to capital gains tax on mutual funds and a broker's knowledge-centre article on LTCG (both: ₹1.25 lakh yearly exemption, 12.5% above it); 12.5% × ₹1,25,000 = ₹15,625 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#taxharvesting #ltcg #mutualfundsindia #incometax #personalfinanceindia"
+ }
+}

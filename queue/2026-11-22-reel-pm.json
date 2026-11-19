@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "slot": "reel",
+  "publish_at": "2026-11-22T13:45",
+  "topic": "Tax harvesting: long-term gains on listed equity / equity funds (held >12 months) are exempt up to ₹1.25 lakh each financial year; 12.5% above it, so ₹1.25 lakh above the limit = ₹15,625 tax before cess",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number; pm = investing ₹ number per the 15 Nov weekly rule). First 'free money you're not using' framing (a ₹0 tax hook, happy mood) instead of a loss hook, to test whether a positive number holds better than the usual ₹-loss. Related to but distinct from 16 Nov's holding-period reel. 24 spoken words, 11.4 s. Judge on 25 Nov vs pm median (~140 views / 34%) and saves.",
+  "caption": "₹1.25 lakh of long-term gains a year with ₹0 tax: are you using it?\n\nLong-term gains on listed equity shares and equity mutual funds (held over 12 months) are tax-free up to ₹1.25 lakh each financial year.\nGains above that are taxed at 12.5%, so ₹1.25 lakh above the limit = ₹15,625 tax (before cess).\nSpreading gains across years so each year stays within the limit is called tax harvesting. Exit loads, costs and your own goals matter; returns are not guaranteed.\n\nHave you ever booked gains just to use the yearly limit?\nSend this to the friend who never sells a single unit.\n\nSources: an asset manager's guide to capital gains tax on mutual funds and a broker's knowledge-centre article on LTCG (both: ₹1.25 lakh yearly exemption, 12.5% above it); 12.5% × ₹1,25,000 = ₹15,625 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#taxharvesting #ltcg #mutualfundsindia #incometax #personalfinanceindia",
+  "spec": "specs/2026-11-22-reel-pm.json",
+  "media": [
+    "media/2026-11-22/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-22/reel-pm/reel_cover.png",
+  "sources": [
+    "An asset manager's knowledge-centre guide to capital gains tax on mutual funds: equity LTCG up to ₹1.25 lakh a financial year exempt; 12.5% above; long-term = held over 12 months",
+    "A broker's knowledge-centre article on avoiding LTCG on mutual funds: first ₹1.25 lakh of equity LTCG exempt every financial year; 12.5% on the excess",
+    "12.5% × ₹1,25,000 = ₹15,625 (calculated, before 4% cess)"
+  ],
+  "duration_s": 11.4
+}

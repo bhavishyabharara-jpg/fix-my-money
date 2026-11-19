@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-22",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "8 weddings this season?\n[[₹40,000 gone]]",
+    "sub": "For the friend with 8 invites this season",
+    "vo": "आठ शादियां? चालीस हज़ार गए!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Shagun + outfit + travel,\nper wedding (illustrative)",
+    "big": "₹5,000",
+    "count": false,
+    "color": "amber",
+    "label": "₹2,100 + ₹2,000 + ₹900",
+    "vo": "शगुन, कपड़े, travel: पांच हज़ार एक शादी।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Your season's total",
+    "big": "₹40,000",
+    "count": false,
+    "color": "red",
+    "label": "8 invites × ₹5,000",
+    "vo": "आठ invites, चालीस हज़ार।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Fix a per-wedding\n**cap today.**",
+    "cta": [
+     "Send to the friend with 8 invites",
+     "Follow for a money fix every day"
+    ],
+    "vo": "आठ invites वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "8 wedding invites this season: what will being a guest cost you?\n\nIllustrative: ₹2,100 shagun + ₹2,000 outfit + ₹900 travel = ₹5,000 a wedding.\n8 invites = ₹40,000, close to a month's salary for many.\nDecide a per-wedding cap before the next invite, and keep it in a separate pot so it doesn't land on your card.\n\nHow many wedding invites do you have this season?\nSend this to the friend with 8 invites.\n\nSources: illustrative amounts, calculated (₹2,100 + ₹2,000 + ₹900 = ₹5,000; × 8 = ₹40,000). Your own costs will differ.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddingseason #shaadi #budgeting #personalfinanceindia #moneytips"
+ }
+}
