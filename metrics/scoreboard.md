@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-19
+# Scoreboard — 2026-11-20
 
-Followers **11** (+0 vs previous day). Reels tracked: 89. Median views per reel: 37.
+Followers **11** (+0 vs previous day). Reels tracked: 90. Median views per reel: 41.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -10,6 +10,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-10-15-reel-am UPI fee from 15 Oct? Not anymore: the 0.4% merchant fee is p | news-stakes | yes | 0 | 14.5s (100%) | 0 | 0 | 0 | 0 | 25.0 |
 | 2026-10-07-reel-pm Start a SIP at 25 or 30? What a 5-year delay costs by 60 | big-question | yes | 9 | 11.4s (57%) | 0 | 0 | 1 | 0 | 15.7 |
+| 2026-11-19-reel-pm Delaying a SIP by one year: illustrative ₹5,000 a month at a | contrarian-number | yes | 39 | 6.6s (54%) | 0 | 0 | 0 | 0 | 13.6 |
 | 2026-11-14-reel-pm Fee drag: illustrative ₹10 lakh at 12% a year for 20 years ≈ | contrarian-number | yes | 158 | 5.8s (50%) | 0 | 1 | 0 | 0 | 12.6 |
 | 2026-11-12-reel-am Closing a personal loan early: illustrative 3.5% foreclosure | bill-reveal | yes | 139 | 5.3s (45%) | 0 | 0 | 0 | 0 | 11.3 |
 | 2026-11-13-reel-am Physical gold sold within 24 months is short-term: gain adde | bill-reveal | yes | 237 | 4.9s (42%) | 0 | 0 | 0 | 0 | 10.5 |
@@ -33,10 +34,11 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
 | 2026-11-03-reel-am Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, pet | guess-the-number | yes | 127 | 3.4s (30%) | 0 | 0 | 0 | 0 | 7.5 |
 | 2026-10-30-reel-pm CTC vs in-hand: illustrative ₹12 lakh CTC with ₹50k basic →  | bill-reveal | yes | 15 | 3.0s (26%) | 0 | 1 | 0 | 0 | 7.5 |
-| 2026-11-17-reel-pm Breaking an FD to chase a higher rate: interest is paid at t | bill-reveal | yes | 118 | 3.7s (30%) | 0 | 0 | 0 | 0 | 7.4 |
+| 2026-11-17-reel-pm Breaking an FD to chase a higher rate: interest is paid at t | bill-reveal | yes | 119 | 3.6s (29%) | 0 | 0 | 0 | 0 | 7.4 |
 | 2026-10-27-reel-am Stacked festive-sale discounts multiply, they don't add: 50% | contrarian-number | yes | 4 | 4.3s (29%) | 0 | 0 | 0 | 0 | 7.3 |
 | 2026-11-09-reel-pm Clubbing: interest on an FD made with money a husband gifted | group-callout | yes | 113 | 3.4s (29%) | 0 | 0 | 0 | 0 | 7.2 |
 | 2026-10-31-reel-am Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% | contrarian-number | yes | 43 | 3.7s (29%) | 0 | 0 | 0 | 0 | 7.2 |
+| 2026-11-18-reel-pm PPF interest is calculated monthly on the lowest balance bet | contrarian-number | yes | 56 | 3.4s (28%) | 0 | 0 | 0 | 0 | 7.1 |
 | 2026-11-14-reel-am One bounced EMI can be charged twice: the lender's bounce ch | bill-reveal | yes | 121 | 3.1s (27%) | 0 | 1 | 1 | 0 | 6.9 |
 | 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 11 | 4.0s (28%) | 0 | 0 | 0 | 0 | 6.9 |
 | 2026-11-15-reel-am Same ₹2 lakh personal loan at an illustrative 12%: 3 years = | bill-reveal | yes | 118 | 3.2s (27%) | 0 | 0 | 0 | 0 | 6.8 |
@@ -46,6 +48,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-11-04-reel-am Personal-loan processing fee: most lenders deduct it before  | bill-reveal | yes | 109 | 2.9s (25%) | 0 | 0 | 1 | 0 | 6.2 |
 | 2026-11-10-reel-am Credit card bill not paid in full: the interest-free period  | bill-reveal | yes | 62 | 2.6s (23%) | 0 | 0 | 0 | 0 | 5.7 |
 | 2026-10-28-reel-am Insurance free-look period: 30 days from receiving the polic | contrarian-number | yes | 6 | 3.2s (23%) | 0 | 0 | 0 | 0 | 5.6 |
+| 2026-11-19-reel-am Vehicle loan quoted at a flat rate: interest on the full pri | group-callout | yes | 105 | 2.6s (22%) | 0 | 0 | 0 | 0 | 5.4 |
 | 2026-11-17-reel-am Belated ITR for FY 2025-26: can be filed until 31 Dec 2026 w | group-callout | yes | 68 | 2.5s (21%) | 0 | 0 | 0 | 0 | 5.3 |
 | 2026-10-21-reel-pm Exchanging old gold for new jewellery counts as a sale: long | contrarian-number | yes | 109 | 2.3s (21%) | 0 | 0 | 0 | 0 | 5.2 |
 | 2026-10-30-reel-am Paying only the minimum due on a festive card bill: illustra | contrarian-number | yes | 122 | 2.3s (20%) | 0 | 0 | 0 | 0 | 5.1 |
@@ -87,7 +90,6 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-10-reel-pm How much term life cover does your family need? The 10–15× i | big-question | yes | 9 | 1.7s (9%) | 0 | 0 | 0 | 0 | 2.4 |
 | 2026-10-22-reel-am Card fraud: zero liability if reported within 3 working days | big-question | yes | 15 | 1.0s (8%) | 0 | 0 | 0 | 0 | 2.1 |
 | 2026-10-12-reel-mid Parents on pension? The life certificate is due by 30 Nov, o | news-list | yes | 8 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.9 |
-| 2026-11-18-reel-pm PPF interest is calculated monthly on the lowest balance bet | contrarian-number | yes | 6 | 0.9s (8%) | 0 | 0 | 0 | 0 | 1.9 |
 | 2026-10-11-reel-pm Couples: is splitting bills 50-50 fair? Same-percentage spli | big-question | yes | 46 | 1.4s (7%) | 0 | 0 | 0 | 0 | 1.8 |
 | 2026-10-14-reel-mid Paid your credit card 2 days late? Late fees can only start  | contrarian-number | yes | 5 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.8 |
 | 2026-10-15-reel-mid LPG subsidy: biometric Aadhaar check needed from 1 Oct, or t | news-list | yes | 4 | 1.1s (7%) | 0 | 0 | 0 | 0 | 1.7 |
@@ -96,21 +98,20 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-11-19-reel-am Vehicle loan quoted at a flat rate: interest on the full pri | group-callout | yes | 0 | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
-| group-callout | 6 | 117 | 34% | 8.6 | EXPLOIT |
 | red-day-relatable | 1 | 128 | 34% | 8.5 | keep |
+| group-callout | 7 | 114 | 30% | 7.6 | EXPLOIT |
 | bill-reveal | 13 | 121 | 27% | 7.4 | keep |
-| contrarian-number | 23 | 52 | 21% | 5.2 | keep |
+| contrarian-number | 24 | 54 | 24% | 6.0 | keep |
 | before-you | 1 | 28 | 20% | 5.0 | test again (low data) |
 | guess-the-number | 7 | 28 | 19% | 4.8 | test again |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
 | news-stakes | 5 | 26 | 13% | 3.5 | test again |
-| big-question | 16 | 20 | 13% | 3.2 | test again |
+| big-question | 16 | 20 | 13% | 3.2 | drop |
 | myth-buster | 1 | 10 | 12% | 3.0 | test again (low data) |
 | hinglish-hook | 1 | 21 | 11% | 2.7 | test again (low data) |
 | audit | 1 | 14 | 11% | 2.7 | test again (low data) |
@@ -119,9 +120,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | test again |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-19-reel-am.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
-Narrated reels: median views 41, watch 18% — silent reels: 22, 13%.
+Narrated reels: median views 45, watch 20% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
