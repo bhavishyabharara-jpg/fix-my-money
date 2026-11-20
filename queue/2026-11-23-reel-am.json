@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-23",
+  "slot": "reel",
+  "publish_at": "2026-11-23T02:45",
+  "topic": "Credit-card cash for wedding shagun: cash withdrawal fee often ~2.5% (₹500 on ₹20,000) and no interest-free period, interest from the day of withdrawal; illustrative 3.5% a month = ₹700 for one month → ₹1,200 before taxes on charges",
+  "hook_pattern": "group-callout",
+  "experiment": "EXPLOIT (group-callout, ~60%). Wedding-money am slot. Send target defined by an action the friend is taking THIS week (cash on a card for shagun), extending the 18 Nov rule. Format frozen (hook-frame send line, 11.4 s, 23 spoken words). Judge on 26 Nov vs group-callout median (~114 views / 30%) and any send.",
+  "caption": "Taking shagun cash from a credit card: what does ₹20,000 really cost?\n\nCash withdrawn on a credit card is charged a fee, often around 2.5% of the amount: ₹500 on ₹20,000.\nThere is no interest-free period on card cash: interest runs from the day you withdraw. At an illustrative 3.5% a month, that's ₹700 for one month.\n₹500 + ₹700 = ₹1,200 for one month, before taxes on charges. Fees, minimums and rates vary by card.\n\nHave you ever taken cash on a credit card?\nSend this to the friend using card cash this wedding season.\n\nSources: a bank's credit-card guide to cash withdrawal charges (fee 2.5%–3.5%, interest from the day of withdrawal) and a business news site's comparison of card cash-advance fees (2.5%–3%, no interest-free period); ₹1,200 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #weddingseason #cashwithdrawal #personalfinanceindia #moneytips",
+  "spec": "specs/2026-11-23-reel-am.json",
+  "media": [
+    "media/2026-11-23/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-23/reel-am/reel_cover.png",
+  "sources": [
+    "A bank's credit-card guide to cash withdrawal charges: fee typically 2.5%–3.5% of the amount; no interest-free period, interest from the day of withdrawal; 3–4% a month on its cards",
+    "A business news site's comparison of card cash-advance fees: 2.5%–3% per withdrawal; no interest-free period, interest from the first day",
+    "2.5% × ₹20,000 = ₹500; illustrative 3.5% × ₹20,000 = ₹700 for one month (calculated)"
+  ],
+  "duration_s": 11.4
+}

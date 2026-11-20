@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-23",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "Card cash for shagun?\n[[₹1,200 gone]]",
+    "sub": "For the friend taking cash on a credit card",
+    "vo": "Card cash बीस हज़ार? बारह सौ गए!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Cash withdrawal fee on\n₹20,000 (illustrative 2.5%)",
+    "big": "₹500",
+    "count": false,
+    "color": "amber",
+    "label": "charged upfront",
+    "vo": "पहले ही पांच सौ fee।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Interest from day one:\nno interest-free days",
+    "big": "₹700",
+    "count": false,
+    "color": "red",
+    "label": "illustrative 3.5% a month, one month",
+    "vo": "पहले दिन से interest: सात सौ।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Shagun cash:\n**not on a card.**",
+    "cta": [
+     "Send to the friend using card cash",
+     "Follow for a money fix every day"
+    ],
+    "vo": "Card cash वाले दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Taking shagun cash from a credit card: what does ₹20,000 really cost?\n\nCash withdrawn on a credit card is charged a fee, often around 2.5% of the amount: ₹500 on ₹20,000.\nThere is no interest-free period on card cash: interest runs from the day you withdraw. At an illustrative 3.5% a month, that's ₹700 for one month.\n₹500 + ₹700 = ₹1,200 for one month, before taxes on charges. Fees, minimums and rates vary by card.\n\nHave you ever taken cash on a credit card?\nSend this to the friend using card cash this wedding season.\n\nSources: a bank's credit-card guide to cash withdrawal charges (fee 2.5%–3.5%, interest from the day of withdrawal) and a business news site's comparison of card cash-advance fees (2.5%–3%, no interest-free period); ₹1,200 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#creditcard #weddingseason #cashwithdrawal #personalfinanceindia #moneytips"
+ }
+}

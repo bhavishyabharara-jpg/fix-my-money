@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-23",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹20,000 fund payout?\n[[₹6,000 to tax]]",
+    "sub": "For the friend who loves fund payouts",
+    "vo": "बीस हज़ार payout? छह हज़ार tax में!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Fund value (NAV) falls\nby the same amount",
+    "big": "₹20,000",
+    "count": false,
+    "color": "amber",
+    "label": "it's your own money coming back",
+    "vo": "NAV उतना ही गिर जाता है।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Payout added to income,\ntaxed at your slab",
+    "big": "₹6,000",
+    "count": false,
+    "color": "red",
+    "label": "illustrative 30% slab",
+    "vo": "तीस percent slab पर छह हज़ार tax।",
+    "mood": "concerned"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check which option\n**you hold.**",
+    "cta": [
+     "Send to the friend who loves payouts",
+     "Follow for a money fix every day"
+    ],
+    "vo": "उस दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "A ₹20,000 payout from your mutual fund: is it free income?\n\nIn a fund's payout (IDCW) option, the fund's value (NAV) falls by exactly the amount paid out: it's your own money coming back.\nThe payout is then added to your income and taxed at your slab rate. At an illustrative 30% slab, ₹20,000 → ₹6,000 tax (before cess).\nIn the growth option nothing is paid out, so tax waits until you redeem. Your slab, goals and need for cash flow matter; returns are not guaranteed.\n\nDid you know fund payouts are taxed at your slab?\nSend this to the friend who loves payouts.\n\nSources: a tax-law publisher's IDCW explainer (NAV falls by the amount paid; taxed at slab rate) and a personal-finance magazine's IDCW explainer (taxed at slab rate; NAV drops by the payout); 30% × ₹20,000 = ₹6,000 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#mutualfundsindia #idcw #incometax #personalfinanceindia #taxplanning"
+ }
+}

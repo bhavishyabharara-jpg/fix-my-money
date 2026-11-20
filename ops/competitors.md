@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-20 (daily pass, logged out)
+
+- **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @labourlawadvisor showed the header and no reel grid (the logged-out limit after the first profile). Titles not readable.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** new **143K** (posted since yesterday), then **277K** (229K yesterday, +21% on day 2), **1.1M** (guest reel, flat), **525K** (521K), **395K** (394K), **866K** (863K), 145K, 331K, 448K.
+- **Insight:** his day-2 reel grew +21% while week-old reels added <1%, and his newest opens at 143K: even at 2.9M followers a solo reel lands at 5% of followers and lives 48 h. Our 19 Nov pm also gets its views in the first 48 h, so the first-hours send (owner sharing to a few people who fit the send target) is still the cheapest lever.
+- **News (last 48 h):** markets near highs (a broker's daily close reports for 16 and 17 Nov 2026: Sensex +500, Nifty above 25,250), so no red-day reel; gold and silver fell over 3% today (a business news site, 20 Nov). A financial newswire (19 Nov) reports the government studying tax proposals to encourage stock trading and curb speculative bets; the market regulator's chief was silent on LTCG and STT (business news site, 20 Nov): proposals only, not used. Evergreen facts used: card cash-advance fee ~2.5% and interest from day one (a bank's card guide; a business news site's fee comparison agree; minimums disagree ₹100–₹700, so not used); IDCW taxed at slab with NAV falling by the payout (a tax-law publisher's explainer, a personal-finance magazine).
+
 ## 2026-11-19 (daily pass, logged out)
 
 - **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @ankurwarikoo (4M) showed the header and no reel grid (the logged-out limit after the first profile).

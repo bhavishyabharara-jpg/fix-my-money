@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-23",
+  "slot": "reel",
+  "publish_at": "2026-11-23T13:45",
+  "topic": "Mutual fund payout (IDCW) option: NAV falls by exactly the payout (your own money returned), and the payout is added to income and taxed at slab rate; illustrative ₹20,000 at a 30% slab = ₹6,000 tax before cess; growth option defers tax to redemption",
+  "hook_pattern": "contrarian-number",
+  "experiment": "KEEP (contrarian-number; pm = investing ₹ number per the 15 Nov weekly rule). New angle 'what you think is income is your own money, taxed': a myth-flip on a payout rather than a cost or a delay. TDS threshold dropped (sources disagree: ₹5,000 vs ₹10,000). 24 spoken words, 11.4 s. Judge on 26 Nov vs pm median (~140 views / 34%) and saves.",
+  "caption": "A ₹20,000 payout from your mutual fund: is it free income?\n\nIn a fund's payout (IDCW) option, the fund's value (NAV) falls by exactly the amount paid out: it's your own money coming back.\nThe payout is then added to your income and taxed at your slab rate. At an illustrative 30% slab, ₹20,000 → ₹6,000 tax (before cess).\nIn the growth option nothing is paid out, so tax waits until you redeem. Your slab, goals and need for cash flow matter; returns are not guaranteed.\n\nDid you know fund payouts are taxed at your slab?\nSend this to the friend who loves payouts.\n\nSources: a tax-law publisher's IDCW explainer (NAV falls by the amount paid; taxed at slab rate) and a personal-finance magazine's IDCW explainer (taxed at slab rate; NAV drops by the payout); 30% × ₹20,000 = ₹6,000 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#mutualfundsindia #idcw #incometax #personalfinanceindia #taxplanning",
+  "spec": "specs/2026-11-23-reel-pm.json",
+  "media": [
+    "media/2026-11-23/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-23/reel-pm/reel_cover.png",
+  "sources": [
+    "A tax-law publisher's IDCW explainer (updated 16 Nov 2026): NAV falls by exactly the amount paid out; IDCW is added to total income and taxed at the slab rate",
+    "A personal-finance magazine's IDCW explainer (Aug 2026): payouts taxed at slab rate; NAV drops by the payout amount",
+    "30% × ₹20,000 = ₹6,000 (calculated, before cess)"
+  ],
+  "duration_s": 11.4
+}
