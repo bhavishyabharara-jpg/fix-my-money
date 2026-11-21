@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-24",
+  "slot": "reel",
+  "publish_at": "2026-11-24T02:45",
+  "topic": "Wedding ₹2 lakh skipped = illustrative ₹6.2 lakh in 10 years at an assumed 12% (opportunity cost of one wedding upgrade)",
+  "hook_pattern": "group-callout",
+  "experiment": "EXPLOIT (group-callout, ~60%). Wedding-money am slot. Engine change 21 Nov: send target is a named family role (the sibling getting married), not 'a friend', because wedding-money talk happens in family chats. First positive-number group-callout (gain, happy mood). Format frozen (hook-frame send line, 11.4 s, 23 spoken words). Judge on 27 Nov: any send; views/hold vs group-callout median (114 / 29%).",
+  "caption": "Cutting ₹2 lakh from the wedding budget: what could it become in 10 years?\n\n₹2 lakh is one venue, decor or outfit upgrade at many weddings.\nInvested for 10 years at an assumed 12% a year, ₹2 lakh grows to about ₹6.2 lakh.\nThe 12% is an illustrative assumption only: returns are not guaranteed, and real returns can be lower or negative.\n\nWhich wedding expense would you cut first?\nSend this to the sibling planning the wedding budget.\n\nSources: ₹2,00,000 × 1.12^10 ≈ ₹6,21,170 (calculated; 12% a year is an illustrative assumption, not a promised return).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddingbudget #weddingseason #compounding #personalfinanceindia #moneytips",
+  "spec": "specs/2026-11-24-reel-am.json",
+  "media": [
+    "media/2026-11-24/reel-am/reel.mp4"
+  ],
+  "cover": "media/2026-11-24/reel-am/reel_cover.png",
+  "sources": [
+    "₹2,00,000 × 1.12^10 ≈ ₹6,21,170 (calculated; 12% a year is an illustrative assumption, returns not guaranteed)"
+  ],
+  "duration_s": 11.4
+}

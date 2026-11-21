@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-24",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "ELSS in the new regime?\n[[₹0 tax saved]]",
+    "sub": "For the colleague buying ELSS for tax",
+    "vo": "New regime में ELSS? Tax बचत ज़ीरो!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Deduction limit,\nold tax regime only",
+    "big": "₹1.5 lakh",
+    "count": false,
+    "color": "amber",
+    "label": "shared with PPF, EPF, insurance",
+    "vo": "डेढ़ लाख छूट, सिर्फ़ old regime में।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Old regime, 30% slab,\non the full ₹1.5 lakh",
+    "big": "₹45,000",
+    "count": false,
+    "color": "mint",
+    "label": "illustrative, before cess; ₹0 in the new regime",
+    "vo": "तीस percent slab पर, पैंतालीस हज़ार।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Check your regime\n**first.**",
+    "cta": [
+     "Send to the colleague buying ELSS",
+     "Follow for a money fix every day"
+    ],
+    "vo": "उस colleague को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Buying ELSS for tax in the new regime: how much tax does it save?\n\nThe ELSS deduction (old section 80C, now section 123 of the Income-tax Act, 2025) is up to ₹1.5 lakh a year, shared with PPF, EPF, life insurance and others.\nIt is available only in the old tax regime. In the new regime, ELSS reduces your taxable income by ₹0.\nIn the old regime at the 30% slab, the full ₹1.5 lakh saves an illustrative ₹45,000 before cess. ELSS also has a 3-year lock-in on each instalment.\n\nWhich regime did you pick this year?\nSend this to the colleague buying ELSS for tax proofs.\n\nSources: a tax-law publisher's explainer on ELSS under section 123 (₹1.5 lakh, old regime only, 3-year lock-in) and a lender's investment guide on old vs new regime (no ELSS deduction in the new regime); 30% × ₹1,50,000 = ₹45,000 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#elss #taxsaving #newtaxregime #incometax #personalfinanceindia"
+ }
+}

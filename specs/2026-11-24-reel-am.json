@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-24",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "text": "₹2 lakh skipped today\n[[= ₹6.2 lakh]]",
+    "sub": "For the sibling planning the wedding",
+    "vo": "दो लाख बचाओ, दस साल में छह लाख!",
+    "mood": "happy"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹2 lakh kept aside,\nnot spent on the wedding",
+    "big": "₹2 lakh",
+    "count": false,
+    "color": "amber",
+    "label": "one decoration or venue upgrade",
+    "vo": "एक upgrade छोड़ो।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Invested 10 years at\nan assumed 12% a year",
+    "big": "₹6.2 lakh",
+    "count": false,
+    "color": "mint",
+    "label": "illustrative, returns not guaranteed",
+    "vo": "बारह percent पर, छह लाख बीस हज़ार।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Plan the 10 years\n**after the wedding.**",
+    "cta": [
+     "Send to the sibling getting married",
+     "Follow for a money fix every day"
+    ],
+    "vo": "शादी वाले भाई-बहन को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Cutting ₹2 lakh from the wedding budget: what could it become in 10 years?\n\n₹2 lakh is one venue, decor or outfit upgrade at many weddings.\nInvested for 10 years at an assumed 12% a year, ₹2 lakh grows to about ₹6.2 lakh.\nThe 12% is an illustrative assumption only: returns are not guaranteed, and real returns can be lower or negative.\n\nWhich wedding expense would you cut first?\nSend this to the sibling planning the wedding budget.\n\nSources: ₹2,00,000 × 1.12^10 ≈ ₹6,21,170 (calculated; 12% a year is an illustrative assumption, not a promised return).\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#weddingbudget #weddingseason #compounding #personalfinanceindia #moneytips"
+ }
+}

@@ -2,6 +2,13 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-21 (daily pass, logged out)
+
+- **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @pranjalkamra showed the header and no reel grid (the logged-out limit after the first profile). Titles not readable.
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** newest **187K** (143K yesterday, +31% on day 2), then **289K** (277K, +4% on day 3), **1.1M** (guest reel, flat), **529K**, **396K**, **868K**, 145K, 332K, 448K.
+- **Insight:** both his new solo reels keep growing on days 2–3 (+31%, +4%) while week-old ones are flat: distribution keeps testing a reel for ~72 h. Our reels also gain most of their views after day 1 (19 Nov pm 39 → 127), so a share by the owner on day 2 to the exact person named on the send line still lands inside the window.
+- **News (last 48 h):** no red day: Sensex and Nifty closed higher on 19 Nov 2026 after a 18 Nov dip (a broker's daily closing reports for 18 and 19 Nov 2026), so no red-day reel. No new personal-finance rule with a ₹ effect found. Evergreen facts used: ELSS deduction up to ₹1.5 lakh, old regime only, 3-year lock-in per instalment, now section 123 of the Income-tax Act, 2025 (a tax-law publisher's explainer updated 16 Nov 2026; a lender's investment guide published 17 Nov 2026 agrees on old-regime-only). The ₹6.2 lakh wedding figure is calculated at an illustrative 12%.
+
 ## 2026-11-20 (daily pass, logged out)
 
 - **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @labourlawadvisor showed the header and no reel grid (the logged-out limit after the first profile). Titles not readable.
