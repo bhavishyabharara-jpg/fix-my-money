@@ -28,7 +28,7 @@ app = modal.App("fmm-avatar")
 vol = modal.Volume.from_name("fmm-avatar-models", create_if_missing=True)
 
 image = (
-    modal.Image.debian_slim(python_version="3.10")
+    modal.Image.debian_slim(python_version="3.11")
     .apt_install("git", "ffmpeg", "libsndfile1")
     .pip_install("torch==2.8.0", "torchvision==0.23.0", "torchaudio==2.8.0")
     .run_commands(
@@ -37,9 +37,9 @@ image = (
         "grep -v -E '^(torchvision|torchaudio|onnxruntime-gpu|ffmpeg|#)' /root/space/requirements.txt > /tmp/req.txt",
         "pip install -r /tmp/req.txt",
         "pip install spaces soundfile gradio==5.36.2 huggingface_hub hf_transfer",
-        # prebuilt flash-attn for torch 2.8 / cu12 / py3.10; if it is unavailable the pipeline uses torch attention
+        # prebuilt flash-attn for torch 2.8 / cu12 / py3.11; if it is unavailable the pipeline uses torch attention
         "pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/"
-        "flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl || true",
+        "flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl || true",
     )
     .env({"HF_HOME": f"{MODELS}/hf", "HF_HUB_ENABLE_HF_TRANSFER": "1", "PROCESSED_RESULTS": "/tmp/results"})
 )
