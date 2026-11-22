@@ -124,6 +124,10 @@ def main() -> int:
         print("build: SARVAM_API_KEY not set; skipping voice work")
         return 0
     n = voice_samples() + previews() + render_specs()
+    try:  # 2026-11-22: free realistic-presenter test clip (previews/talking_test.json); never published
+        subprocess.run([sys.executable, str(ROOT / "tools" / "talking_test.py")], timeout=900)
+    except Exception as exc:
+        print(f"talking_test: skipped ({type(exc).__name__})")
     print(f"build: {n} file(s) made")
     return 0
 
