@@ -64,9 +64,18 @@ def audio_env(path: Path, n_frames_hint: int | None = None):
 def main() -> int:
     cfg_path = ROOT / "previews" / "talking_test.json"
     dst = ROOT / "previews" / "out" / "talking_test.mp4"
-    if not cfg_path.exists() or dst.exists():
+    if not cfg_path.exists():
         return 0
     cfg = json.loads(cfg_path.read_text())
+    # keep a copy of the source photos in the repo (fal links can expire; the Mac can't reach fal)
+    src_dir = ROOT / "previews" / "out" / "presenter_src"
+    if not (src_dir / "base.png").exists():
+        src_dir.mkdir(parents=True, exist_ok=True)
+        for name, url in [("base", cfg["base"])] + [(f"edit{i + 1}", u) for i, u in enumerate(cfg["edits"])]:
+            Image.fromarray(load(url).astype(np.uint8)).save(src_dir / f"{name}.png")
+        print("talking_test: saved source photos to previews/out/presenter_src/")
+    if dst.exists():
+        return 0
     base = load(cfg["base"])
     edits = []
     for u in cfg["edits"]:
