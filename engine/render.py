@@ -305,6 +305,11 @@ def draw_reel_frame(scene, st, t_total, T, idx_total):
     # progress bar
     d.rectangle((0, 0, int(RW * t_total / T), 10), fill=MINT)
     d.text((80, 120), CFG["brand"].upper(), font=F("b", 38), fill=MINT)
+    if scene.get("tag"):  # 2026-11-22 weekly: numbered series tag ("₹ Fix #N"), small pill under the brand
+        ft = F("b", 40)
+        tw = ft.getlength(scene["tag"])
+        d.rounded_rectangle((80, 186, 80 + tw + 44, 252), radius=33, fill=MINT)
+        d.text((102, 192), scene["tag"], font=ft, fill=NAVY)
     d.text((80, RH - 150), CFG["handle"], font=F("m", 30), fill=MUTED)
     disc = "Education only. Not advice."
     d.text((RW - 80 - F("r", 28).getlength(disc), RH - 148), disc, font=F("r", 28), fill=MUTED)

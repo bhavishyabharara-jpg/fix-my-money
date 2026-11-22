@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-25",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "tag": "₹ Fix #2",
+    "text": "15-15-15 rule?\n[[₹25 lakh less]]",
+    "sub": "For the friend who quotes this rule",
+    "vo": "पंद्रह पंद्रह पंद्रह rule? पच्चीस लाख कम!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹15,000 a month, 15 years,\nat 15% a year",
+    "big": "≈₹1 crore",
+    "count": false,
+    "color": "amber",
+    "label": "illustrative, not guaranteed",
+    "vo": "पंद्रह percent पर, एक crore।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Same SIP at an\nillustrative 12% a year",
+    "big": "≈₹75.7 lakh",
+    "count": false,
+    "color": "red",
+    "label": "≈₹25 lakh less on ₹27 lakh",
+    "vo": "बारह percent पर, सिर्फ़ पचहत्तर लाख।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Plan with a\n**lower rate.**",
+    "cta": [
+     "Send to the friend quoting 15-15-15",
+     "Fix #3 tomorrow · follow"
+    ],
+    "vo": "उस दोस्त को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "₹15,000 a month for 15 years: is it really ₹1 crore?\n\nThe 15-15-15 rule says ₹15,000 a month for 15 years at 15% a year grows to about ₹1 crore.\nAt an illustrative 12% a year, the same SIP grows to about ₹75.7 lakh: roughly ₹25 lakh less on the same ₹27 lakh put in.\nReturns are never guaranteed, so a plan built on a lower assumed rate is less likely to fall short.\n\nWhat rate do you assume when you plan?\nSend this to the friend who quotes the 15-15-15 rule.\n\nSources: monthly SIP future-value formula (instalment at the start of each month), calculated at illustrative 15% and 12% a year; ₹15,000 × 180 months = ₹27 lakh invested.\n\nFor education only. Not investment advice. Illustrative projections only.\nVoiceover is AI-generated.\n\n#sip #mutualfunds #compounding #financialplanning #personalfinanceindia"
+ }
+}

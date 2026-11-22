@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-25",
+  "slot": "reel",
+  "publish_at": "2026-11-25T13:45",
+  "topic": "The 15-15-15 rule: ₹15,000 a month for 15 years at 15% ≈ ₹1.02 crore; at an illustrative 12% ≈ ₹75.7 lakh (≈₹25 lakh less) on the same ₹27 lakh invested; returns not guaranteed",
+  "hook_pattern": "contrarian-number",
+  "experiment": "EXPLOIT (contrarian-number, weekly decision 1). Investing pm slot. Myth-flip of a rule viewers repeat, send target defined by something the friend says (the friend quoting 15-15-15). Series tag '₹ Fix #2' + 'Fix #3 tomorrow · follow'. Judge on 28 Nov: sends, saves per reach vs pm median (~128 views / 29.5%).",
+  "caption": "₹15,000 a month for 15 years: is it really ₹1 crore?\n\nThe 15-15-15 rule says ₹15,000 a month for 15 years at 15% a year grows to about ₹1 crore.\nAt an illustrative 12% a year, the same SIP grows to about ₹75.7 lakh: roughly ₹25 lakh less on the same ₹27 lakh put in.\nReturns are never guaranteed, so a plan built on a lower assumed rate is less likely to fall short.\n\nWhat rate do you assume when you plan?\nSend this to the friend who quotes the 15-15-15 rule.\n\nSources: monthly SIP future-value formula (instalment at the start of each month), calculated at illustrative 15% and 12% a year; ₹15,000 × 180 months = ₹27 lakh invested.\n\nFor education only. Not investment advice. Illustrative projections only.\nVoiceover is AI-generated.\n\n#sip #mutualfunds #compounding #financialplanning #personalfinanceindia",
+  "spec": "specs/2026-11-25-reel-pm.json",
+  "media": [
+    "media/2026-11-25/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-25/reel-pm/reel_cover.png",
+  "sources": [
+    "Monthly SIP future-value formula, instalment at the start of each month: ₹15,000 × 180 months at 15%/12 ≈ ₹1,01,52,946; at 12%/12 ≈ ₹75,68,640 (calculated, illustrative)",
+    "₹15,000 × 180 = ₹27,00,000 invested (calculated)"
+  ],
+  "duration_s": 11.4
+}

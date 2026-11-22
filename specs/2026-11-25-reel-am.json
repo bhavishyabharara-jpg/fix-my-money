@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-25",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.4,
+    "tag": "₹ Fix #1",
+    "text": "Held 5 years?\n[[₹30,000 tax]]",
+    "sub": "Debt fund, ₹1 lakh gain.\nFor the colleague picking one",
+    "vo": "Debt fund पाँच साल? तीस हज़ार tax!",
+    "mood": "concerned"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "Debt fund units bought\nafter 1 April 2023",
+    "big": "Slab rate",
+    "count": false,
+    "color": "amber",
+    "label": "held 6 months or 6 years",
+    "vo": "अब holding period से tax नहीं घटता।"
+   },
+   {
+    "type": "stat",
+    "dur": 3.0,
+    "title": "₹1 lakh gain,\n30% slab",
+    "big": "₹30,000",
+    "count": false,
+    "color": "red",
+    "label": "illustrative, before cess",
+    "vo": "एक लाख gain, तीस हज़ार tax।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Know your slab\n**before you pick.**",
+    "cta": [
+     "Send to the colleague picking a debt fund",
+     "Fix #2 tonight · follow"
+    ],
+    "vo": "उस colleague को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Debt fund held for 5 years: why is the tax still the same?\n\nFor debt fund units bought on or after 1 April 2023, gains are taxed at your income-tax slab rate, however long you hold them.\nThere is no long-term rate and no indexation for these units, so 6 months or 6 years makes no difference.\nAt the 30% slab, an illustrative ₹1 lakh gain means ₹30,000 tax before cess. At the 10% slab it is ₹10,000.\nUnits bought before 1 April 2023 follow the older rules.\n\nWhich slab are you in this year?\nSend this to the colleague picking a debt fund.\n\nSources: an asset manager's guide on equity vs debt fund taxation (updated June 2026) and a broker's guide to debt fund taxation (updated May 2026); 30% × ₹1,00,000 = ₹30,000 calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#debtfunds #mutualfundtax #capitalgains #incometax #personalfinanceindia"
+ }
+}

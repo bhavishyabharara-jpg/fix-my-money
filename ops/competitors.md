@@ -2,6 +2,14 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-22 (daily pass, logged out)
+
+- **All four Reels tabs loaded this time** (view counts readable, titles not; no sign-up wall blocked the grid).
+- **@financewithsharan (2.9M; pinned 6.6M / 1.1M / 8.4M):** new **230K** (posted since yesterday), then **191K** (187K, +2% on day 3), **293K** (289K), **1.1M** (guest), 533K, 397K, 869K, 145K, 332K.
+- **@ca_rachanaranade (1.2M):** **410K**, 20.7K, 43.2K, 652, 38.1K, 51K, 36.3K, 202K, 59.4K, 63.1K, 210K, **2M**. **@anushkarathod98 (1.3M):** **1.2M**, 146K, **1.9M**, 11.9K, 426K, 582K, 589K, 224K, 6,090, 163K, 86.3K, **1.6M**. **Rotating @nehanagar (34.6K):** now a fashion/beauty/lifestyle account, 14K–68K; drop from the finance rotation. (@sarthakahuja: profile not available.)
+- **Insight:** even 1M+ finance creators swing from under 1% to over 100% of followers reel to reel (Rachana 652 → 2M; Anushka 6,090 → 1.9M): hits are rare outliers, not a steady rate, so our fixed format needs more distinct swings (new topic types) rather than more polish of the same template; Sharan's new solo reels again keep growing on day 2–3.
+- **News (last 48 h):** no red day: benchmarks closed higher on 19 Nov 2026 after an 18 Nov dip (a broker's daily closing reports), no newer close found; no new personal-finance rule with a ₹ effect found. Evergreen facts used: debt fund units bought on or after 1 Apr 2023 taxed at slab whatever the holding period (an asset manager's guide updated 11 Jun 2026; a broker's guide updated 22 May 2026 agree; their definitions of a "specified" fund differ, so the definition is not used). 15-15-15 figures are calculated.
+
 ## 2026-11-21 (daily pass, logged out)
 
 - **Only one Reels tab loaded again.** @financewithsharan loaded after closing the sign-up popup; @ca_rachanaranade, @anushkarathod98 and the rotating pick @pranjalkamra showed the header and no reel grid (the logged-out limit after the first profile). Titles not readable.
