@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-21
+# Scoreboard — 2026-11-22
 
-Followers **11** (+0 vs previous day). Reels tracked: 92. Median views per reel: 46.
+Followers **11** (+0 vs previous day). Reels tracked: 94. Median views per reel: 46.
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -26,6 +26,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-29-reel-am No-cost EMI still costs the 18% GST on the interest: illustr | contrarian-number | yes | 125 | 4.0s (34%) | 0 | 0 | 1 | 0 | 8.6 |
 | 2026-11-04-reel-pm SIP on a down day: a fixed ₹5,000 buys more units when the N | red-day-relatable | yes | 128 | 4.0s (34%) | 0 | 0 | 0 | 0 | 8.5 |
 | 2026-11-11-reel-am Converting a credit card bill to EMI: illustrative ₹50,000 a | bill-reveal | yes | 121 | 4.1s (34%) | 0 | 0 | 0 | 0 | 8.5 |
+| 2026-11-21-reel-pm Retirement in future prices: ₹50,000 a month today ≈ ₹1.6 la | future-bill | yes | 130 | 3.9s (32%) | 0 | 1 | 0 | 0 | 8.2 |
 | 2026-11-03-reel-pm LTA exempts only the travel fare (economy air / AC first-cla | contrarian-number | yes | 122 | 3.8s (32%) | 0 | 0 | 0 | 0 | 7.9 |
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-11-16-reel-pm Equity holding period: listed equity shares / equity mutual  | contrarian-number | yes | 175 | 3.5s (30%) | 0 | 1 | 1 | 0 | 7.7 |
@@ -38,11 +39,12 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-27-reel-am Stacked festive-sale discounts multiply, they don't add: 50% | contrarian-number | yes | 4 | 4.3s (29%) | 0 | 0 | 0 | 0 | 7.3 |
 | 2026-11-09-reel-pm Clubbing: interest on an FD made with money a husband gifted | group-callout | yes | 113 | 3.4s (29%) | 0 | 0 | 0 | 0 | 7.2 |
 | 2026-10-31-reel-am Hotel room GST slab: rooms at or below ₹7,500 a night pay 5% | contrarian-number | yes | 43 | 3.7s (29%) | 0 | 0 | 0 | 0 | 7.2 |
+| 2026-11-21-reel-am Wedding cash gifts: receiving ₹2 lakh or more in cash from o | group-callout | yes | 144 | 3.4s (28%) | 0 | 0 | 1 | 0 | 7.1 |
 | 2026-11-14-reel-am One bounced EMI can be charged twice: the lender's bounce ch | bill-reveal | yes | 121 | 3.1s (27%) | 0 | 1 | 1 | 0 | 6.9 |
-| 2026-11-20-reel-am Wedding loan cost: illustrative ₹7 lakh personal loan at 12% | group-callout | yes | 66 | 3.3s (27%) | 0 | 0 | 0 | 0 | 6.9 |
 | 2026-11-18-reel-pm PPF interest is calculated monthly on the lowest balance bet | contrarian-number | yes | 56 | 3.3s (28%) | 0 | 0 | 0 | 0 | 6.9 |
 | 2026-10-26-reel-pm Driving without valid motor insurance: ₹2,000 fine and up to | guess-the-number | yes | 11 | 4.0s (28%) | 0 | 0 | 0 | 0 | 6.9 |
 | 2026-11-15-reel-am Same ₹2 lakh personal loan at an illustrative 12%: 3 years = | bill-reveal | yes | 118 | 3.2s (27%) | 0 | 0 | 0 | 0 | 6.8 |
+| 2026-11-20-reel-am Wedding loan cost: illustrative ₹7 lakh personal loan at 12% | group-callout | yes | 70 | 3.2s (26%) | 0 | 0 | 0 | 0 | 6.5 |
 | 2026-11-02-reel-pm HRA exemption: Bengaluru, Pune, Hyderabad, Ahmedabad moved t | bill-reveal | yes | 169 | 3.0s (26%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 129 | 3.5s (25%) | 0 | 0 | 0 | 0 | 6.3 |
@@ -64,8 +66,8 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-24-reel-pm EPF wage ceiling ₹15,000 → ₹25,000 (October first full salar | big-question | yes | 114 | 2.2s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-20-reel-mid ₹10,000 savings-interest deduction applies only in the old r | contrarian-number | yes | 17 | 2.4s (16%) | 0 | 0 | 0 | 0 | 4.0 |
-| 2026-11-20-reel-pm Idle savings vs inflation: October 2026 CPI 6.09%; ₹1 lakh a | contrarian-number | yes | 135 | 1.6s (15%) | 0 | 1 | 0 | 0 | 3.9 |
 | 2026-10-21-reel-am Diwali bonus vs vouchers: employer gifts tax-free up to ₹15, | big-question | yes | 70 | 1.8s (15%) | 0 | 0 | 0 | 0 | 3.8 |
+| 2026-11-20-reel-pm Idle savings vs inflation: October 2026 CPI 6.09%; ₹1 lakh a | contrarian-number | yes | 145 | 1.5s (14%) | 0 | 1 | 0 | 0 | 3.7 |
 | 2026-10-14-reel-am Form 15G/15H are gone: nil-tax savers need Form 121 or 10% T | news-list | yes | 23 | 2.2s (15%) | 0 | 0 | 0 | 0 | 3.7 |
 | 2026-10-04-reel-pm RBI decides on 7 Oct: what a 0.25% hike would mean for a hom | news-stakes | no | 22 | 2.5s (13%) | 0 | 0 | 1 | 0 | 3.7 |
 | 2026-10-12-reel-am UPI shop payments above ₹2,000: the 0.4% merchant fee from 1 | news-stakes | yes | 89 | 2.5s (13%) | 0 | 0 | 2 | 0 | 3.6 |
@@ -106,8 +108,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | Pattern | Reels | Median views | Median watch % | Median score | Call |
 |---|---|---|---|---|---|
 | red-day-relatable | 1 | 128 | 34% | 8.5 | keep |
-| group-callout | 8 | 114 | 29% | 7.3 | EXPLOIT |
-| bill-reveal | 13 | 121 | 27% | 7.3 | keep |
+| future-bill | 1 | 130 | 32% | 8.2 | keep |
+| bill-reveal | 13 | 121 | 27% | 7.3 | EXPLOIT |
+| group-callout | 9 | 114 | 29% | 7.2 | keep |
 | contrarian-number | 25 | 59 | 23% | 5.6 | keep |
 | before-you | 1 | 28 | 20% | 5.0 | test again (low data) |
 | guess-the-number | 7 | 28 | 19% | 4.8 | test again |
@@ -124,7 +127,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 
 Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
-Narrated reels: median views 46, watch 20% — silent reels: 22, 13%.
+Narrated reels: median views 47, watch 21% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
