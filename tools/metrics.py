@@ -88,7 +88,7 @@ def main() -> int:
         return 0
 
     try:
-        me = get("me", {"fields": "username,followers_count,follows_count,media_count"})
+        me = get("me", {"fields": "id,username,followers_count,follows_count,media_count"})
     except Exception as exc:
         print(f"metrics: account lookup failed ({type(exc).__name__}); skipped")
         return 0
@@ -98,6 +98,27 @@ def main() -> int:
         if new:
             w.writerow(["date", "followers", "following", "posts"])
         w.writerow([today, me.get("followers_count", ""), me.get("follows_count", ""), me.get("media_count", "")])
+
+    # 2026-11-22: per-reel `follows` and `profile_visits` come back blank (Instagram doesn't
+    # report them for reels), so take them at account level, one row a day. Best effort.
+    acct_ins = {}
+    for metric in ("profile_views", "follows_and_unfollows", "accounts_engaged", "reach"):
+        try:
+            data = get(f"{me.get('id', 'me')}/insights",
+                       {"metric": metric, "period": "day", "metric_type": "total_value"}).get("data", [])
+            acct_ins[metric] = data[0].get("total_value", {}).get("value", "") if data else ""
+        except urllib.error.HTTPError as exc:
+            NOTES.add(f"account {metric}: {exc.read().decode(errors='replace')[:120]}")
+            acct_ins[metric] = ""
+        except Exception:
+            acct_ins[metric] = ""
+    ins_file = OUT / "account_insights.csv"
+    new_ins = not ins_file.exists()
+    with ins_file.open("a", newline="") as fh:
+        w = csv.writer(fh)
+        if new_ins:
+            w.writerow(["date", "profile_views", "follows_and_unfollows", "accounts_engaged", "reach"])
+        w.writerow([today] + [acct_ins.get(m, "") for m in ("profile_views", "follows_and_unfollows", "accounts_engaged", "reach")])
     print(f"metrics: @{me.get('username')} followers={me.get('followers_count')} posts={me.get('media_count')}")
 
     published = json.loads(STATE.read_text())["published"] if STATE.exists() else {}
