@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-11-23 — Daily review (day 1 of the one-reel-a-day test)
+
+- **Status:** followers **11 (+0)**; profile views yesterday **0** (first `account_insights` row: reach 232, 0 accounts engaged). 100 posts, still no measured follow. 22 Nov media all published; 23–25 Nov media on GitHub.
+- **Beat the yardstick:** nothing has reached 2× at 3 days. Best readable: 20 Nov pm idle savings vs CPI **1.2×** (145, but 14% hold); all-time best 13 Nov am gold short-term gain **1.9×**. Settling (<3 days): 21 Nov am wedding cash gifts 144 and 22 Nov am wedding-guest bill 141 (~1.2× each). Shared trait: a family money decision (gold, wedding) in plain words, not an investing term.
+- **Missed:** 20 Nov am wedding loan **0.6×** = the idea (a loan already taken). 22 Nov pm tax harvesting reached 132 but held 16% = the wording: a jargon first line.
+- **One change today:** the 26 Nov reel is the first adapted competitor outlier (a 3.3× property-ownership reel), as an evergreen family explainer with a sibling send target, breaking the 23–25 Nov run of our own contrarian-number investing reels.
+
 ## 2026-11-22 — Daily review (day 33 after the goal date)
 
 - **Followers: 11 (+0 vs 21 Nov). The 20 Oct goal was missed: 11 vs 2,000 (0.55%); the 10-day path needed ~200 a day and we have averaged under 1.** 98 posts, still 0 sends and 0 follows on every tracked reel. Honest read: ~120 views a reel with zero conversion will not reach 2,000 on its own. 22 Nov am (due 02:45 UTC) had not posted by 07:19 UTC (≥4.5 h late); media for 21–24 Nov is all on GitHub, so lateness is still the throttled cron, not the render.

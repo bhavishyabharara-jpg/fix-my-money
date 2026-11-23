@@ -2,6 +2,17 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-23 (daily pass, logged out; outliers = ≥3× the account's median of its last 12 non-pinned reels)
+
+- **All five Reels tabs loaded** (view counts readable; topics read from each reel's public description).
+- **@simply.kaasu** (median ~2.8K): car loan in the wife's name **32K (11×)**, 5 post office schemes **70K (25×)**, SWP explained **244K (87×)**, a non-finance phone-formatting trick **244K**. No new outlier idea since 22 Nov; the car-loan reel is still growing.
+- **@financewithsharan** (median ~332K of 9): **"you can pay for a property and still lose ownership" 1.1M (3.3×)**, 16 Nov: who pays vs who legally owns (a house bought for parents, shared later with other heirs). Adapted for 26 Nov as "paid-but-not-owner".
+- **@ca_rachanaranade** (median ~54K): 1.5M (28×, a food creator's comedy collab), 211K (3.9×, office-team comedy), 204K (3.8×, playing a film song on keyboard). All non-finance: personality/comedy, not adaptable as ideas.
+- **@anushkarathod98** (median ~197K): 1.9M (9.6×, "should you buy gold and silver in this dip?", a 10–20% gold allocation framing: a buy call, not adaptable as is; the education version is "how much of your money sits in gold"), 1.6M (8×, a named US chip company's fall: named-company news, not usable), 596K (3.0×, a paid promotion).
+- **Rotating @labourlawadvisor** (median ~70K of 9): no outlier (max 178K = 2.6×).
+- **Insight:** the finance-idea outliers this week are family-wealth questions (who owns the house, how much gold) and evergreen explainers (SWP, post office schemes), not investing-return math; the biggest multiples on big accounts are off-topic personality reels we can't copy.
+- **News (last 48 h):** a personal-finance site reports gold prices down 31% to the lowest since Sep 2025 (a fresh price: not used, under the 3-month price rule); no new personal-finance rule with a ₹ effect found. Evergreen facts used: Hindu Succession Act 1956 s.8 + Schedule, Class I heirs one share each (a legal-information wiki; a case-law research site quoting s.8(a) agrees).
+
 ## 2026-11-22 (daily pass, logged out)
 
 - **All four Reels tabs loaded this time** (view counts readable, titles not; no sign-up wall blocked the grid).

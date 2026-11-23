@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-26",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "tag": "₹ Fix #3",
+    "text": "You paid\n₹60 lakh.\n[[Your share: ₹20 lakh?]]",
+    "sub": "House in Papa's name, no will",
+    "vo": "साठ लाख आपने दिए, हिस्सा सिर्फ़ बीस लाख?",
+    "mood": "concerned"
+   },
+   {
+    "type": "bars",
+    "dur": 3.4,
+    "title": "Papa's name, no will:\n3 equal shares",
+    "bars": [
+     {
+      "label": "Mummy",
+      "value": 20,
+      "display": "₹20 lakh"
+     },
+     {
+      "label": "You (you paid ₹60 lakh)",
+      "value": 20,
+      "display": "₹20 lakh",
+      "alert": true
+     },
+     {
+      "label": "Your sibling",
+      "value": 20,
+      "display": "₹20 lakh"
+     }
+    ],
+    "note": "Illustrative. Hindu succession law, self-bought house, heirs = mother + 2 children.",
+    "vo": "Will नहीं? तीन बराबर हिस्से।"
+   },
+   {
+    "type": "text",
+    "dur": 2.6,
+    "text": "Who paid?\n[[Doesn't decide it.]]\n**The name and the will do.**",
+    "vo": "पैसे किसने दिए, गिना नहीं जाता।"
+   },
+   {
+    "type": "end",
+    "dur": 3.0,
+    "text": "Talk about the\n**will** at home.",
+    "cta": [
+     "Send to the sibling paying for Papa's house",
+     "Fix #4 tomorrow · follow"
+    ],
+    "vo": "भाई-बहन को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Paid for Papa's house? Who owns it? | Inheritance Without a Will Explained\n\nBought a house in your father's name with your own money? If he passes away without a will, it does not simply come back to you.\nUnder Hindu succession law, a man's self-acquired property goes first to his Class I heirs: widow, sons, daughters and his mother, one share each.\nIllustrative: a ₹60 lakh house, heirs = mother + 2 children, so ₹20 lakh each. Generally, who paid does not decide it; the name on the deed and a will do.\n\nSave this for later.\nSend this to the sibling paying for Papa's house.\nHas your family talked about a will yet?\n\nSources: Hindu Succession Act, 1956, Section 8 and the Schedule (Class I heirs), as explained by a legal-information wiki and a case-law research site. Applies to Hindus, Sikhs, Jains and Buddhists; ancestral property follows different rules; if the father's mother is alive she also takes a share.\n\nFor education only. Not investment advice. Not legal advice: ask a lawyer about your family's case.\nVoiceover is AI-generated.\n\n[Property Inheritance, Hindu Succession Act, Property in Father's Name, Will Kyun Zaroori Hai, Fix My Money]\n#propertyinheritance #willplanning #hindusuccessionact #personalfinanceindia #moneytips"
+ }
+}
