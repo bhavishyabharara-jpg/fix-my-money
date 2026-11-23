@@ -1,1 +1,1 @@
-{"image": "previews/out/presenter_src/base.png", "audio": "voice/samples/amit.mp3", "steps": 4, "note": "full-length test, run 3 with full log (2026-11-23)"}
+{"backend": "modal", "image": "previews/out/presenter_src/base.png", "audio": "voice/samples/amit.mp3", "steps": 4, "note": "Modal test, parked until a card is added (needs a payment method for GPUs)"}
