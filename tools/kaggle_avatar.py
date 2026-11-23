@@ -91,6 +91,8 @@ def run(cmd: list[str]) -> subprocess.CompletedProcess:
 
 
 def main() -> int:
+    # the kaggle CLI imports `six` but does not always install it
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "six"], check=False)
     req_path, out_path = Path(sys.argv[1]), Path(sys.argv[2])
     req = json.loads(req_path.read_text())
     user = os.environ["KAGGLE_USERNAME"]
