@@ -37,7 +37,11 @@ jobs:
             audio=$(python -c "import json,sys;print(json.load(open('$req'))['audio'])")
             steps=$(python -c "import json,sys;print(json.load(open('$req')).get('steps',4))")
             echo "== $name: $image + $audio ($steps steps)"
-            modal run tools/avatar_modal.py --image "$image" --audio "$audio" --out "$out" --steps "$steps" 2>&1 | tail -60 || echo "$name FAILED"
+            mkdir -p avatar/out
+            rc=0
+            PYTHONUNBUFFERED=1 modal run tools/avatar_modal.py --image "$image" --audio "$audio" --out "$out" --steps "$steps" > "avatar/out/$name.log" 2>&1 || rc=$?
+            echo "exit code $rc" >> "avatar/out/$name.log"
+            tail -40 "avatar/out/$name.log"
           done
       - name: Save results
         run: |
