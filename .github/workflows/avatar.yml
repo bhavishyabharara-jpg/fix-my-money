@@ -1,6 +1,6 @@
-name: Avatar (Modal)
-# Renders the realistic AI presenter on Modal's free monthly credit. Separate from the
-# Instagram publisher: this workflow never posts anything.
+name: Avatar (free GPU)
+# Renders the realistic AI presenter on Kaggle's free GPUs (default) or Modal ("backend": "modal").
+# Separate from the Instagram publisher: this workflow never posts anything.
 on:
   push:
     branches: [main]
@@ -8,14 +8,14 @@ on:
       - 'avatar/requests/*.json'
   workflow_dispatch:
 concurrency:
-  group: avatar-modal
+  group: avatar-render
   cancel-in-progress: false
 permissions:
   contents: write
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,27 +23,34 @@ jobs:
           python-version: '3.11'
       - name: Render pending avatar requests
         env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
         run: |
-          if [ -z "$MODAL_TOKEN_ID" ]; then echo "MODAL_TOKEN_ID not set; nothing to do"; exit 0; fi
-          pip install -q modal
+          pip install -q kaggle modal
           shopt -s nullglob
+          mkdir -p avatar/out
           for req in avatar/requests/*.json; do
             name=$(basename "$req" .json)
             out="avatar/out/$name.mp4"
             [ -f "$out" ] && continue
-            image=$(python -c "import json,sys;print(json.load(open('$req'))['image'])")
-            audio=$(python -c "import json,sys;print(json.load(open('$req'))['audio'])")
-            steps=$(python -c "import json,sys;print(json.load(open('$req')).get('steps',4))")
-            echo "== $name: $image + $audio ($steps steps)"
-            mkdir -p avatar/out
+            backend=$(python -c "import json;print(json.load(open('$req')).get('backend','kaggle'))")
+            echo "== $name via $backend"
             rc=0
-            PYTHONUNBUFFERED=1 modal run tools/avatar_modal.py --image "$image" --audio "$audio" --out "$out" --steps "$steps" > "avatar/out/$name.log" 2>&1 || rc=$?
+            if [ "$backend" = "modal" ]; then
+              image=$(python -c "import json;print(json.load(open('$req'))['image'])")
+              audio=$(python -c "import json;print(json.load(open('$req'))['audio'])")
+              PYTHONUNBUFFERED=1 modal run tools/avatar_modal.py --image "$image" --audio "$audio" --out "$out" > "avatar/out/$name.log" 2>&1 || rc=$?
+            else
+              if [ -z "$KAGGLE_KEY" ]; then echo "KAGGLE_KEY not set" > "avatar/out/$name.log"; continue; fi
+              PYTHONUNBUFFERED=1 python tools/kaggle_avatar.py "$req" "$out" > "avatar/out/$name.log" 2>&1 || rc=$?
+            fi
             echo "exit code $rc" >> "avatar/out/$name.log"
-            tail -40 "avatar/out/$name.log"
+            tail -30 "avatar/out/$name.log"
           done
       - name: Save results
+        if: always()
         run: |
           git add avatar/out 2>/dev/null || true
           if ! git diff --cached --quiet; then
