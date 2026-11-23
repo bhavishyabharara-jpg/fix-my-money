@@ -1,0 +1,5 @@
+✓ Initialized. View run at 
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-vqTbJY1iA1f7KqrfLdDcSQ
+Stopping app - uncaught exception raised locally: InvalidError('Please add a payment method to use H100 GPU functions.').
+Error: Please add a payment method to use H100 GPU functions.
+exit code 1
