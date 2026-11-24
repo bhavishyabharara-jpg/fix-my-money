@@ -1,22 +1,22 @@
 {
- "date": "2026-11-27",
- "slot": "reel",
- "publish_at": "2026-11-27T13:45",
- "topic": "Post office small-savings rates for Oct–Dec 2026 vs the 4% savings account: SCSS 8.2%, NSC 7.7%, MIS 7.4% (PPF 7.1%, 5-yr TD 7.5% in caption); illustrative ₹10 lakh for a year = ₹82,000 at 8.2% vs ₹40,000 at 4%",
- "idea": "post-office-rates-list",
- "hook_pattern": "rate-list",
- "experiment": "OUTLIER ADAPTATION (owner reset rule 4): idea from @simply.kaasu's '5 post office schemes with rates' reel, ~70K views vs that account's ~2.8K median of its last 12 = ~25×. Adapted as our own rate-list graphic (4 bars) + one ₹ example, send target = Papa (parent with money idle in savings). Goes AGAINST the leading pattern (bill-reveal): a positive 'where to look' list, not a cost reveal; opens on a rate contrast, unlike 25 Nov ('15-15-15 rule?') and 26 Nov ('You paid ₹60 lakh'). 24 spoken words, 11.8 s. Series '₹ Fix #4' + 'Fix #5 tomorrow · follow'. Critic predicted multiple: 1.5× (mass, evergreen, save-worthy; risk: rates are well known and the coin can't show a passbook). Judge on 30 Nov at 3 days vs the 122-view yardstick.",
- "caption": "Where can savings earn more than 4%? | Post Office Schemes Explained\n\nA post office savings account pays 4% a year. Its other government small-savings schemes pay more, for October–December 2026:\nSenior Citizens Savings Scheme 8.2%, NSC 7.7%, Monthly Income Scheme 7.4%, PPF 7.1% (also: 5-year time deposit 7.5%, Sukanya Samriddhi 8.2%).\nIllustrative: ₹10 lakh for a year at 8.2% earns about ₹82,000 of interest, vs about ₹40,000 at 4%. Each scheme has its own eligibility, lock-in and tax rules, and rates are reset every quarter.\n\nSave this for later.\nSend this to Papa if his money sits idle in savings.\nWhich of these does your family already use?\n\nSources: the Finance Ministry's small-savings rate notice for Oct–Dec 2026, as reported by a business news site, a personal-finance blog and a tax-news site (all list the rates as unchanged from Jul–Sep 2026). ₹ figures calculated, simple interest for one year, before tax.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[Post Office Schemes, Small Savings Interest Rates, SCSS, NSC, PPF, Post Office MIS, Paisa Kahan Lagayein, Fix My Money]\n#postofficescheme #smallsavings #seniorcitizens #personalfinanceindia #moneytips",
- "spec": "specs/2026-11-27-reel-pm.json",
- "media": [
-  "media/2026-11-27/reel-pm/reel.mp4"
- ],
- "cover": "media/2026-11-27/reel-pm/reel_cover.png",
- "sources": [
-  "Business news site, 30 Sep 2026: small savings rates unchanged for Oct–Dec 2026 (Q3 FY27): SCSS 8.2%, SSY 8.2%, NSC 7.7%, KVP 7.5%, 5-yr TD 7.5%, MIS 7.4%, PPF 7.1%, 3/2/1-yr TD 7.1/7/6.9%, 5-yr RD 6.7%, savings 4%",
-  "Personal-finance blog, 30 Sep 2026: Oct–Dec 2026 no change: PPF 7.10%, SSY 8.20%, SCSS 8.20%, NSC 7.70%, MIS 7.40%",
-  "Tax-news site, 1 Oct 2026: Finance Ministry kept rates unchanged for Oct–Dec 2026: savings 4%, TD 6.9/7/7.1/7.5%, RD 6.7%, SCSS 8.2%, MIS 7.4%, NSC 7.7%, PPF 7.1%, SSA 8.2%, KVP 7.5%",
-  "₹10,00,000 × 8.2% = ₹82,000; × 4% = ₹40,000 (calculated, one year, simple interest, before tax)"
- ],
- "duration_s": 11.8
+  "date": "2026-11-27",
+  "slot": "reel",
+  "publish_at": "2026-11-27T13:45",
+  "topic": "Post office small-savings rates for Oct–Dec 2026 vs the 4% savings account: SCSS 8.2%, NSC 7.7%, MIS 7.4% (PPF 7.1%, 5-yr TD 7.5% in caption); illustrative ₹10 lakh for a year = ₹82,000 at 8.2% vs ₹40,000 at 4%",
+  "idea": "post-office-rates-list",
+  "hook_pattern": "rate-list",
+  "experiment": "OUTLIER ADAPTATION (owner reset rule 4): idea from @simply.kaasu's '5 post office schemes with rates' reel, ~70K views vs that account's ~2.8K median of its last 12 = ~25×. Adapted as our own rate-list graphic (4 bars) + one ₹ example, send target = Papa (parent with money idle in savings). Goes AGAINST the leading pattern (bill-reveal): a positive 'where to look' list, not a cost reveal; opens on a rate contrast, unlike 25 Nov ('15-15-15 rule?') and 26 Nov ('You paid ₹60 lakh'). 24 spoken words, 11.8 s. Series '₹ Fix #4' + 'Fix #5 tomorrow · follow'. Critic predicted multiple: 1.5× (mass, evergreen, save-worthy; risk: rates are well known and the coin can't show a passbook). Judge on 30 Nov at 3 days vs the 122-view yardstick.",
+  "caption": "Where can savings earn more than 4%? | Post Office Schemes Explained\n\nA post office savings account pays 4% a year. Its other government small-savings schemes pay more, for October–December 2026:\nSenior Citizens Savings Scheme 8.2%, NSC 7.7%, Monthly Income Scheme 7.4%, PPF 7.1% (also: 5-year time deposit 7.5%, Sukanya Samriddhi 8.2%).\nIllustrative: ₹10 lakh for a year at 8.2% earns about ₹82,000 of interest, vs about ₹40,000 at 4%. Each scheme has its own eligibility, lock-in and tax rules, and rates are reset every quarter.\n\nSave this for later.\nSend this to Papa if his money sits idle in savings.\nWhich of these does your family already use?\n\nSources: the Finance Ministry's small-savings rate notice for Oct–Dec 2026, as reported by a business news site, a personal-finance blog and a tax-news site (all list the rates as unchanged from Jul–Sep 2026). ₹ figures calculated, simple interest for one year, before tax.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[Post Office Schemes, Small Savings Interest Rates, SCSS, NSC, PPF, Post Office MIS, Paisa Kahan Lagayein, Fix My Money]\n#postofficescheme #smallsavings #seniorcitizens #personalfinanceindia #moneytips",
+  "spec": "specs/2026-11-27-reel-pm.json",
+  "media": [
+    "media/2026-11-27/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-27/reel-pm/reel_cover.png",
+  "sources": [
+    "Business news site, 30 Sep 2026: small savings rates unchanged for Oct–Dec 2026 (Q3 FY27): SCSS 8.2%, SSY 8.2%, NSC 7.7%, KVP 7.5%, 5-yr TD 7.5%, MIS 7.4%, PPF 7.1%, 3/2/1-yr TD 7.1/7/6.9%, 5-yr RD 6.7%, savings 4%",
+    "Personal-finance blog, 30 Sep 2026: Oct–Dec 2026 no change: PPF 7.10%, SSY 8.20%, SCSS 8.20%, NSC 7.70%, MIS 7.40%",
+    "Tax-news site, 1 Oct 2026: Finance Ministry kept rates unchanged for Oct–Dec 2026: savings 4%, TD 6.9/7/7.1/7.5%, RD 6.7%, SCSS 8.2%, MIS 7.4%, NSC 7.7%, PPF 7.1%, SSA 8.2%, KVP 7.5%",
+    "₹10,00,000 × 8.2% = ₹82,000; × 4% = ₹40,000 (calculated, one year, simple interest, before tax)"
+  ],
+  "duration_s": 11.9
 }
