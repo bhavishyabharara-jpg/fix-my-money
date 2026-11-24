@@ -2,6 +2,17 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-24 (daily pass, logged out; outliers = ≥3× the account's median of its last 12 non-pinned reels)
+
+- **All five Reels tabs loaded** (Escape closes the sign-up popup; view counts readable, topics from each reel's public description).
+- **@simply.kaasu** (median ~2.8K): no new reel since 23 Nov. Outliers unchanged: SWP explained **248K (~89×)**, phone-formatting trick **252K**, 5 post office schemes with rates **71.7K (~26×)**, car loan in the wife's name **33K (~12×)**. The post-office rate list is adapted for 27 Nov.
+- **@financewithsharan** (median ~300K of 9 non-pinned): new 266K (rupee vs dollar, macro news: not usable). Only outlier still the 1.1M property-ownership reel (3.7×), already adapted for 26 Nov.
+- **@ca_rachanaranade** (median ~55K of 11): **1.8M (33×)** is a food creator's comedy collab (personality, not adaptable); 206K (3.7×) office comedy. New 109K (2×) explains why a named steel company's stock fell after an acquisition (named company: not usable).
+- **@anushkarathod98** (median ~198K): 2M (10×) gold/silver dip allocation and 1.7M (8.6×) named chip company fall: same as 23 Nov, not usable as is.
+- **Rotating @pranjalkamra** (median ~33.6K of 9 non-pinned): **115K (3.4×), 13 Nov: "the more something is advertised, the more carefully you should evaluate it"** (a skeptic's take on heavily marketed money products, tagged buy-now-pay-later). Idea worth a later slot: "the louder the ad, the closer the look" at one ₹ cost of a heavily promoted offer.
+- **Insight:** the adaptable outliers keep being evergreen lists and family-money questions (post office rates, SWP, who owns the house) or a consumer-skeptic angle; macro news and named-stock reels only work for big faces.
+- **News (last 48 h):** no personal-finance rule change with a ₹ effect for a mass audience found (a business news site lists an ESIC direct-payout change on 23 Nov and EPF early-withdrawal rules on 19 Nov). Facts used: Oct–Dec 2026 small-savings rates, unchanged from Jul–Sep (a business news site 30 Sep, a personal-finance blog 30 Sep, a tax-news site 1 Oct 2026 agree on every rate used).
+
 ## 2026-11-23 (daily pass, logged out; outliers = ≥3× the account's median of its last 12 non-pinned reels)
 
 - **All five Reels tabs loaded** (view counts readable; topics read from each reel's public description).

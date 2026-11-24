@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-27",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "tag": "₹ Fix #4",
+    "text": "Savings: [[4%]]\nPost office:\n**up to 8.2%**",
+    "sub": "Rates for Oct–Dec 2026",
+    "vo": "Savings में चार, post office में आठ point दो।"
+   },
+   {
+    "type": "bars",
+    "dur": 3.6,
+    "title": "Post office rates,\nOct–Dec 2026",
+    "bars": [
+     {
+      "label": "Savings account",
+      "value": 4.0,
+      "display": "4%",
+      "alert": true
+     },
+     {
+      "label": "Monthly Income Scheme",
+      "value": 7.4,
+      "display": "7.4%"
+     },
+     {
+      "label": "NSC (5 years)",
+      "value": 7.7,
+      "display": "7.7%"
+     },
+     {
+      "label": "Senior Citizens Scheme",
+      "value": 8.2,
+      "display": "8.2%",
+      "highlight": true
+     }
+    ],
+    "vo": "सारे rates यहाँ।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "₹10 lakh, one year's interest",
+    "big": "₹82,000",
+    "color": "mint",
+    "label": "at 8.2% vs [[₹40,000]] at 4%",
+    "vo": "दस लाख पर बयासी हज़ार, savings में सिर्फ़ चालीस।",
+    "mood": "happy"
+   },
+   {
+    "type": "end",
+    "dur": 2.8,
+    "text": "Papa's money:\n**4% or 8.2%?**",
+    "cta": [
+     "Send to Papa, money idle in savings",
+     "Fix #5 tomorrow · follow"
+    ],
+    "vo": "Papa को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Where can savings earn more than 4%? | Post Office Schemes Explained\n\nA post office savings account pays 4% a year. Its other government small-savings schemes pay more, for October–December 2026:\nSenior Citizens Savings Scheme 8.2%, NSC 7.7%, Monthly Income Scheme 7.4%, PPF 7.1% (also: 5-year time deposit 7.5%, Sukanya Samriddhi 8.2%).\nIllustrative: ₹10 lakh for a year at 8.2% earns about ₹82,000 of interest, vs about ₹40,000 at 4%. Each scheme has its own eligibility, lock-in and tax rules, and rates are reset every quarter.\n\nSave this for later.\nSend this to Papa if his money sits idle in savings.\nWhich of these does your family already use?\n\nSources: the Finance Ministry's small-savings rate notice for Oct–Dec 2026, as reported by a business news site, a personal-finance blog and a tax-news site (all list the rates as unchanged from Jul–Sep 2026). ₹ figures calculated, simple interest for one year, before tax.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[Post Office Schemes, Small Savings Interest Rates, SCSS, NSC, PPF, Post Office MIS, Paisa Kahan Lagayein, Fix My Money]\n#postofficescheme #smallsavings #seniorcitizens #personalfinanceindia #moneytips"
+ }
+}

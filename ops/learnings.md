@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-11-24 — Daily review (day 2 of the one-reel-a-day test)
+
+- **Status:** followers **11 (+0)**; profile views yesterday **0** (account reach 290, 2 accounts engaged). 23 Nov pm IDCW went out 20:38 UTC, ~7 h late, and sits at 71 views / 17% (2 likes) at <1 day: no verdict. Media for 24–26 Nov is on GitHub.
+- **Beat the yardstick:** still nothing at 2×. Best readable stays 13 Nov gold short-term gain **1.9×**; 21 Nov am wedding cash gifts **1.2×** (144) and 22 Nov am wedding-guest bill 141 settle level. Shared trait: a family money decision in plain words (gold, wedding), not an investing term.
+- **Missed:** none newly under 0.5× at 3 days. Weakest settled this week: 20 Nov am wedding loan **0.6×** = the idea (a loan already taken).
+- **One change today:** the 27 Nov reel is a rate list (our own 4-bar graphic of post office rates against the 4% savings account) adapted from @simply.kaasu's ~26× post-office reel, sent to a parent ("Papa"): the first positive "where to look" list, against the leading bill-reveal pattern.
+
 ## 2026-11-23 — Daily review (day 1 of the one-reel-a-day test)
 
 - **Status:** followers **11 (+0)**; profile views yesterday **0** (first `account_insights` row: reach 232, 0 accounts engaged). 100 posts, still no measured follow. 22 Nov media all published; 23–25 Nov media on GitHub.
