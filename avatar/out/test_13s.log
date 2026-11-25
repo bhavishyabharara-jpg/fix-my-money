@@ -1,5 +1,143 @@
 ✓ Initialized. View run at 
-https://modal.com/apps/bhavishyabharara-jpg/main/ap-M57Vb07WBHk2ZoHvV8Rbp5
-Stopping app - uncaught exception raised locally: InvalidError('Please add a payment method to use H100 GPU functions.').
-Error: Please add a payment method to use H100 GPU functions.
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-yAJ12cDDmE2JRwkW0Qk03Q
+✓ Created objects.
+├── ✓ Uploaded /home/runner/work/fix-my-money/fix-my-money/tools/avatar_modal.py
+└── ✓ Created Function render.
+weights downloaded in 326s
+Traceback (most recent call last):
+Stopping app - uncaught exception raised locally: ImportError('pyarrow requires NumPy 2.0 or newer, found 1.26.4').
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/avatar_modal.py", line 84, in render
+    import app as space  # loads models (from the volume) onto the GPU; builds but does not launch the UI
+    ^^^^^^^^^^^^^^^^^^^
+  File "/root/space/app.py", line 19, in <module>
+    from f5_tts.api import F5TTS
+  File "/usr/local/lib/python3.11/site-packages/f5_tts/api.py", line 11, in <module>
+    from f5_tts.infer.utils_infer import (
+  File "/usr/local/lib/python3.11/site-packages/f5_tts/infer/utils_infer.py", line 31, in <module>
+    from f5_tts.model import CFM
+  File "/usr/local/lib/python3.11/site-packages/f5_tts/model/__init__.py", line 5, in <module>
+    from f5_tts.model.trainer import Trainer
+  File "/usr/local/lib/python3.11/site-packages/f5_tts/model/trainer.py", line 19, in <module>
+    from f5_tts.model.dataset import DynamicBatchSampler, collate_fn
+  File "/usr/local/lib/python3.11/site-packages/f5_tts/model/dataset.py", line 7, in <module>
+    from datasets import Dataset as Dataset_
+  File "/usr/local/lib/python3.11/site-packages/datasets/__init__.py", line 17, in <module>
+    from .arrow_dataset import Column, Dataset
+  File "/usr/local/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 59, in <module>
+    import pyarrow as pa
+  File "/usr/local/lib/python3.11/site-packages/pyarrow/__init__.py", line 59, in <module>
+    from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_timezone_db_path,
+  File "pyarrow/lib.pyx", line 42, in init pyarrow.lib
+ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/runner/work/fix-my-money/fix-my-money/tools/avatar_modal.py:99 in main │
+│                                                                              │
+│    98 def main(image: str, audio: str, out: str, steps: int = 4, prompt: str │
+│ ❱  99 │   data = render.remote(Path(image).read_bytes(), Path(audio).read_by │
+│   100 │   Path(out).parent.mkdir(parents=True, exist_ok=True)                │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ object.py:49 in wrapped                                                      │
+│                                                                              │
+│    48 │   │   await self.hydrate()                                           │
+│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
+│    50                                                                        │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ functions.py:2115 in remote                                                  │
+│                                                                              │
+│   2114 │   │                                                                 │
+│ ❱ 2115 │   │   return await self._call_function(args, kwargs)                │
+│   2116                                                                       │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ functions.py:2050 in _call_function                                          │
+│                                                                              │
+│   2049 │   │                                                                 │
+│ ❱ 2050 │   │   return await invocation.run_function()                        │
+│   2051                                                                       │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ functions.py:527 in run_function                                             │
+│                                                                              │
+│    526 │   │   │   # No more retries left.                                   │
+│ ❱  527 │   │   │   return await _process_result(                             │
+│    528 │   │   │   │   await_response.output.result, await_response.output.d │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ utils/function_utils.py:572 in _process_result                               │
+│                                                                              │
+│   571 │   │   │                                                              │
+│ ❱ 572 │   │   │   raise exc_with_hints(exc)                                  │
+│   573                                                                        │
+│                                                                              │
+│     ...Remote call to Modal Function (ta-01M88SCKFY7BMM3DDBSH9RQ43R)...      │
+│                                                                              │
+│ /root/avatar_modal.py:84 in render                                           │
+│                                                                              │
+│ ❱ 84 import app as space  # loads models (from the volume) onto the GPU; bui │
+│                                                                              │
+│                                                                              │
+│ /root/space/app.py:19 in <module>                                            │
+│                                                                              │
+│ ❱ 19 from f5_tts.api import F5TTS                                            │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/f5_tts/api.py:11 in <module>         │
+│                                                                              │
+│ ❱ 11 from f5_tts.infer.utils_infer import (                                  │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/f5_tts/infer/utils_infer.py:31 in    │
+│ <module>                                                                     │
+│                                                                              │
+│ ❱ 31 from f5_tts.model import CFM                                            │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/f5_tts/model/__init__.py:5 in        │
+│ <module>                                                                     │
+│                                                                              │
+│ ❱ 5 from f5_tts.model.trainer import Trainer                                 │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/f5_tts/model/trainer.py:19 in        │
+│ <module>                                                                     │
+│                                                                              │
+│ ❱ 19 from f5_tts.model.dataset import DynamicBatchSampler, collate_fn        │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/f5_tts/model/dataset.py:7 in         │
+│ <module>                                                                     │
+│                                                                              │
+│ ❱ 7 from datasets import Dataset as Dataset_                                 │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/datasets/__init__.py:17 in <module>  │
+│                                                                              │
+│ ❱ 17 from .arrow_dataset import Column, Dataset                              │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/datasets/arrow_dataset.py:59 in      │
+│ <module>                                                                     │
+│                                                                              │
+│ ❱ 59 import pyarrow as pa                                                    │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/site-packages/pyarrow/__init__.py:59 in <module>   │
+│                                                                              │
+│ ❱ 59 from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_time │
+│                                                                              │
+│                                                                              │
+│ pyarrow/lib.pyx:42 in init pyarrow.lib                                       │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
 exit code 1
