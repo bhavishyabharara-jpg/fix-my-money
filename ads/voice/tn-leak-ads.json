@@ -1,0 +1,20 @@
+{
+  "note": "Tru Nivesh Meta ads, leak hook test (Nov 2026). Voice and pace match the Fix My Money reels.",
+  "voice": "sarvam:amit",
+  "pace": 1.05,
+  "language": "hi-IN",
+  "lines": [
+    {
+      "id": "tn-a-leak-jar",
+      "text": "आपका portfolio leak हो रहा है… और आपको दिख भी नहीं रहा। Overlap, पुराने ULIP, unused tax benefit. बीस मिनट का free health check कराइए।"
+    },
+    {
+      "id": "tn-b-maths",
+      "text": "सिर्फ एक percent कम return… और तीस लाख पर पंद्रह साल में बीस लाख गायब। आपका portfolio कहाँ leak हो रहा है? Free में check कराइए।"
+    },
+    {
+      "id": "tn-c-code-review",
+      "text": "Code बिना review के ship करोगे? नहीं ना? तो portfolio सात साल से बिना review के क्यों चल रहा है? Free portfolio review book कीजिए।"
+    }
+  ]
+}
