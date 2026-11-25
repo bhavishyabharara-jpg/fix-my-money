@@ -1,0 +1,20 @@
+{
+  "note": "Tru Nivesh Meta ads v3: full English, Indian English voice (Nov 2026).",
+  "voice": "sarvam:amit",
+  "pace": 1.0,
+  "language": "en-IN",
+  "lines": [
+    {
+      "id": "tn-v3-a-leak",
+      "text": "Your portfolio might be quietly losing money, and you wouldn't even know. Copycat funds, an old insurance plan, missed tax savings. Get a free check today."
+    },
+    {
+      "id": "tn-v3-b-maths",
+      "text": "Just one percent less return a year, and thirty lakh ends up twenty lakh short in fifteen years. Where is your portfolio leaking? Check it free."
+    },
+    {
+      "id": "tn-v3-c-checkup",
+      "text": "You get a health check-up every year, right? So when did your portfolio last get one? Book your free portfolio health check today."
+    }
+  ]
+}
