@@ -1,376 +1,6 @@
 ✓ Initialized. View run at 
-https://modal.com/apps/bhavishyabharara-jpg/main/ap-z4C5NSDfUxbjYwAxkR8jEs
-Building image im-QbmyIUGFwFifEOzoLgKHTK
-
-=> Step 0: FROM base
-
-=> Step 1: RUN python -m pip install hf_transfer 'huggingface_hub[cli]==0.26.5' librosa 'misaki[en]' ninja packaging psutil soundfile wheel
-Looking in indexes: http://pypi-mirror.modal.local:5555/simple
-Collecting hf_transfer
-  Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
-Collecting huggingface_hub==0.26.5 (from huggingface_hub[cli]==0.26.5)
-  Downloading huggingface_hub-0.26.5-py3-none-any.whl.metadata (13 kB)
-Collecting librosa
-  Downloading librosa-0.11.0-py3-none-any.whl.metadata (8.7 kB)
-Collecting ninja
-  Downloading ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.4 kB)
-Requirement already satisfied: packaging in ./usr/local/lib/python3.11/site-packages (26.3)
-Collecting psutil
-  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
-Collecting soundfile
-  Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl.metadata (18 kB)
-Requirement already satisfied: wheel in ./usr/local/lib/python3.11/site-packages (0.48.0)
-Collecting misaki[en]
-  Downloading misaki-0.9.4-py3-none-any.whl.metadata (19 kB)
-Requirement already satisfied: filelock in ./usr/local/lib/python3.11/site-packages (from huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5) (4.2.4)
-Requirement already satisfied: fsspec>=2023.5.0 in ./usr/local/lib/python3.11/site-packages (from huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5) (2026.9.0)
-Collecting pyyaml>=5.1 (from huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.3 kB)
-Collecting requests (from huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
-Collecting tqdm>=4.42.1 (from huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
-Requirement already satisfied: typing-extensions>=3.7.4.3 in ./usr/local/lib/python3.11/site-packages (from huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5) (4.16.0)
-Collecting InquirerPy==0.3.4 (from huggingface_hub[cli]==0.26.5)
-  Downloading InquirerPy-0.3.4-py3-none-any.whl.metadata (8.1 kB)
-Collecting pfzy<0.4.0,>=0.3.1 (from InquirerPy==0.3.4->huggingface_hub[cli]==0.26.5)
-  Downloading pfzy-0.3.4-py3-none-any.whl.metadata (4.9 kB)
-Collecting prompt-toolkit<4.0.0,>=3.0.1 (from InquirerPy==0.3.4->huggingface_hub[cli]==0.26.5)
-  Downloading prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)
-Collecting wcwidth>=0.1.4 (from prompt-toolkit<4.0.0,>=3.0.1->InquirerPy==0.3.4->huggingface_hub[cli]==0.26.5)
-  Downloading wcwidth-0.9.5-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (26 kB)
-Collecting audioread>=2.1.9 (from librosa)
-  Downloading audioread-3.1.0-py3-none-any.whl.metadata (9.0 kB)
-Collecting numba>=0.51.0 (from librosa)
-  Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.8 kB)
-Requirement already satisfied: numpy>=1.22.3 in ./usr/local/lib/python3.11/site-packages (from librosa) (2.4.6)
-Collecting scipy>=1.6.0 (from librosa)
-  Downloading scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
-Collecting scikit-learn>=1.1.0 (from librosa)
-  Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.3 kB)
-Collecting joblib>=1.0 (from librosa)
-  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
-Collecting decorator>=4.3.0 (from librosa)
-  Downloading decorator-5.3.2-py3-none-any.whl.metadata (4.1 kB)
-Collecting pooch>=1.1 (from librosa)
-  Downloading pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
-Collecting soxr>=0.3.2 (from librosa)
-  Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.8 kB)
-Collecting lazy_loader>=0.1 (from librosa)
-  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
-Collecting msgpack>=1.0 (from librosa)
-  Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
-Collecting addict (from misaki[en])
-  Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
-Collecting regex (from misaki[en])
-  Downloading regex-2026.11.24-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
-Collecting espeakng-loader (from misaki[en])
-  Downloading espeakng_loader-0.2.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
-Collecting num2words (from misaki[en])
-  Downloading num2words-0.5.14-py3-none-any.whl.metadata (13 kB)
-Collecting phonemizer-fork (from misaki[en])
-  Downloading phonemizer_fork-3.3.2-py3-none-any.whl.metadata (48 kB)
-Collecting spacy (from misaki[en])
-  Downloading spacy-3.8.18-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (28 kB)
-Collecting spacy-curated-transformers (from misaki[en])
-  Downloading spacy_curated_transformers-2.1.2-py2.py3-none-any.whl.metadata (2.8 kB)
-Collecting cffi>=1.0 (from soundfile)
-  Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
-Collecting pycparser (from cffi>=1.0->soundfile)
-  Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
-Collecting cloudpickle>=3.0 (from joblib>=1.0->librosa)
-  Downloading cloudpickle-3.1.3-py3-none-any.whl.metadata (7.1 kB)
-Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.51.0->librosa)
-  Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.1 kB)
-Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa)
-  Downloading platformdirs-4.14.8-py3-none-any.whl.metadata (5.7 kB)
-Collecting charset_normalizer<4,>=2 (from requests->huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading charset_normalizer-3.5.3-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (43 kB)
-Collecting idna<4,>=2.5 (from requests->huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
-Collecting urllib3<3,>=1.26 (from requests->huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
-Collecting certifi>=2023.5.7 (from requests->huggingface_hub==0.26.5->huggingface_hub[cli]==0.26.5)
-  Downloading certifi-2026.11.20-py3-none-any.whl.metadata (2.5 kB)
-Collecting narwhals>=2.0.1 (from scikit-learn>=1.1.0->librosa)
-  Downloading narwhals-2.29.0-py3-none-any.whl.metadata (15 kB)
-Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.1.0->librosa)
-  Downloading threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
-Collecting docopt>=0.6.2 (from num2words->misaki[en])
-  Downloading docopt-0.6.2.tar.gz (25 kB)
-  Installing build dependencies: started
-  Installing build dependencies: finished with status 'done'
-  Getting requirements to build wheel: started
-  Getting requirements to build wheel: finished with status 'done'
-  Preparing metadata (pyproject.toml): started
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Collecting attrs>=18.1 (from phonemizer-fork->misaki[en])
-  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
-Collecting dlinfo (from phonemizer-fork->misaki[en])
-  Downloading dlinfo-2.0.0-py3-none-any.whl.metadata (1.1 kB)
-Collecting segments (from phonemizer-fork->misaki[en])
-  Downloading segments-2.4.0-py2.py3-none-any.whl.metadata (3.5 kB)
-Collecting csvw>=1.5.6 (from segments->phonemizer-fork->misaki[en])
-  Downloading csvw-4.2.0-py2.py3-none-any.whl.metadata (10 kB)
-Collecting isodate (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading isodate-0.7.2-py3-none-any.whl.metadata (11 kB)
-Collecting python-dateutil (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
-Collecting rfc3986<2 (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading rfc3986-1.5.0-py2.py3-none-any.whl.metadata (6.5 kB)
-Collecting uritemplate>=3.0.0 (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading uritemplate-4.2.0-py3-none-any.whl.metadata (2.6 kB)
-Collecting babel (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading babel-2.19.0-py3-none-any.whl.metadata (2.6 kB)
-Collecting language-tags (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading language_tags-1.3.2-py3-none-any.whl.metadata (6.7 kB)
-Collecting rdflib (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading rdflib-7.6.0-py3-none-any.whl.metadata (12 kB)
-Collecting termcolor (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading termcolor-3.3.0-py3-none-any.whl.metadata (6.5 kB)
-Collecting jsonschema (from csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
-Collecting jsonschema-specifications>=2023.03.6 (from jsonschema->csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
-Collecting referencing>=0.28.4 (from jsonschema->csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
-Collecting rpds-py>=0.25.0 (from jsonschema->csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
-Collecting tzdata (from python-dateutil->csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
-Collecting pyparsing<4,>=2.1.0 (from rdflib->csvw>=1.5.6->segments->phonemizer-fork->misaki[en])
-  Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
-Collecting spacy-legacy<3.1.0,>=3.0.11 (from spacy->misaki[en])
-  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata (2.8 kB)
-Collecting spacy-loggers<2.0.0,>=1.0.0 (from spacy->misaki[en])
-  Downloading spacy_loggers-1.0.5-py3-none-any.whl.metadata (23 kB)
-Collecting murmurhash<1.1.0,>=0.28.0 (from spacy->misaki[en])
-  Downloading murmurhash-1.0.16-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (2.3 kB)
-Collecting cymem<2.1.0,>=2.0.2 (from spacy->misaki[en])
-  Downloading cymem-2.0.16-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (9.7 kB)
-Collecting preshed!=3.0.14,<3.1.0,>=3.0.2 (from spacy->misaki[en])
-  Downloading preshed-3.0.15-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.3 kB)
-Collecting thinc<8.4.0,>=8.3.12 (from spacy->misaki[en])
-  Downloading thinc-8.3.14-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (14 kB)
-Collecting wasabi<1.2.0,>=0.9.1 (from spacy->misaki[en])
-  Downloading wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
-Collecting srsly<3.0.0,>=2.5.3 (from spacy->misaki[en])
-  Downloading srsly-2.5.6-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (20 kB)
-Collecting catalogue<2.1.0,>=2.0.6 (from spacy->misaki[en])
-  Downloading catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
-Collecting weasel<2.0.0,>=1.0.1 (from spacy->misaki[en])
-  Downloading weasel-1.0.1-py3-none-any.whl.metadata (4.8 kB)
-Collecting confection<2.0.0,>=1.3.4 (from spacy->misaki[en])
-  Downloading confection-1.3.4-py3-none-any.whl.metadata (19 kB)
-Collecting typer<1.0.0,>=0.3.0 (from spacy->misaki[en])
-  Downloading typer-0.29.2-py3-none-any.whl.metadata (16 kB)
-Collecting click<9.0.0,>=8.2.1 (from spacy->misaki[en])
-  Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
-Collecting pydantic<3.0.0,>=2.0.0 (from spacy->misaki[en])
-  Downloading pydantic-2.14.4-py3-none-any.whl.metadata (143 kB)
-Requirement already satisfied: jinja2 in ./usr/local/lib/python3.11/site-packages (from spacy->misaki[en]) (3.1.6)
-Requirement already satisfied: setuptools in ./usr/local/lib/python3.11/site-packages (from spacy->misaki[en]) (79.0.1)
-Collecting annotated-types>=0.6.0 (from pydantic<3.0.0,>=2.0.0->spacy->misaki[en])
-  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
-Collecting pydantic-core==2.50.5 (from pydantic<3.0.0,>=2.0.0->spacy->misaki[en])
-  Downloading pydantic_core-2.50.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.6 kB)
-Collecting typing-inspection>=0.4.4 (from pydantic<3.0.0,>=2.0.0->spacy->misaki[en])
-  Downloading typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
-Collecting blis<1.4.0,>=1.3.0 (from thinc<8.4.0,>=8.3.12->spacy->misaki[en])
-  Downloading blis-1.3.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.4 kB)
-Collecting shellingham>=1.3.0 (from typer<1.0.0,>=0.3.0->spacy->misaki[en])
-  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
-Collecting rich>=13.8.0 (from typer<1.0.0,>=0.3.0->spacy->misaki[en])
-  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
-Collecting annotated-doc>=0.0.2 (from typer<1.0.0,>=0.3.0->spacy->misaki[en])
-  Downloading annotated_doc-0.0.7-py3-none-any.whl.metadata (6.4 kB)
-Collecting cloudpathlib>=0.7.0 (from weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading cloudpathlib-0.26.0-py3-none-any.whl.metadata (16 kB)
-Collecting smart-open>=5.2.1 (from smart-open[http]>=5.2.1->weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading smart_open-10.0.0-py3-none-any.whl.metadata (25 kB)
-Collecting httpx>=0.24.0 (from weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
-Collecting anyio (from httpx>=0.24.0->weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
-Collecting httpcore==1.* (from httpx>=0.24.0->weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
-Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.24.0->weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
-Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy->misaki[en])
-  Downloading markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy->misaki[en])
-  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy->misaki[en])
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Collecting wrapt (from smart-open>=5.2.1->smart-open[http]>=5.2.1->weasel<2.0.0,>=1.0.1->spacy->misaki[en])
-  Downloading wrapt-2.5.2-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (7.6 kB)
-Requirement already satisfied: MarkupSafe>=2.0 in ./usr/local/lib/python3.11/site-packages (from jinja2->spacy->misaki[en]) (3.0.3)
-Collecting curated-transformers<3.0.0,>=2.0.0 (from spacy-curated-transformers->misaki[en])
-  Downloading curated_transformers-2.0.1-py2.py3-none-any.whl.metadata (5.3 kB)
-Collecting curated-tokenizers<3.0.0,>=2.0.0 (from spacy-curated-transformers->misaki[en])
-  Downloading curated_tokenizers-2.0.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.0 kB)
-INFO: pip is looking at multiple versions of spacy-curated-transformers to determine which version is compatible with other requirements. This could take a while.
-Collecting spacy-curated-transformers (from misaki[en])
-  Downloading spacy_curated_transformers-2.1.1-py2.py3-none-any.whl.metadata (2.8 kB)
-Collecting spacy (from misaki[en])
-  Downloading spacy-4.0.0.dev3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (26 kB)
-Collecting spacy-curated-transformers (from misaki[en])
-  Downloading spacy_curated_transformers-2.0.0-py2.py3-none-any.whl.metadata (2.8 kB)
-  Downloading spacy_curated_transformers-0.3.1-py2.py3-none-any.whl.metadata (2.7 kB)
-Collecting curated-transformers<0.2.0,>=0.1.0 (from spacy-curated-transformers->misaki[en])
-  Downloading curated_transformers-0.1.1-py2.py3-none-any.whl.metadata (965 bytes)
-Collecting curated-tokenizers<0.1.0,>=0.0.9 (from spacy-curated-transformers->misaki[en])
-  Downloading curated_tokenizers-0.0.10-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.0 kB)
-Requirement already satisfied: torch>=1.12.0 in ./usr/local/lib/python3.11/site-packages (from spacy-curated-transformers->misaki[en]) (2.4.1+cu121)
-Requirement already satisfied: sympy in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (1.14.0)
-Requirement already satisfied: networkx in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (3.6.1)
-Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.1.105)
-Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.1.105)
-Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.1.105)
-Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (9.1.0.70)
-Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.1.3.1)
-Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (11.0.2.54)
-Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (10.3.2.106)
-Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (11.4.5.107)
-Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.1.0.106)
-Requirement already satisfied: nvidia-nccl-cu12==2.20.5 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (2.20.5)
-Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.1.105)
-Requirement already satisfied: triton==3.0.0 in ./usr/local/lib/python3.11/site-packages (from torch>=1.12.0->spacy-curated-transformers->misaki[en]) (3.0.0)
-Requirement already satisfied: nvidia-nvjitlink-cu12 in ./usr/local/lib/python3.11/site-packages (from nvidia-cusolver-cu12==11.4.5.107->torch>=1.12.0->spacy-curated-transformers->misaki[en]) (12.9.86)
-Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./usr/local/lib/python3.11/site-packages (from sympy->torch>=1.12.0->spacy-curated-transformers->misaki[en]) (1.3.0)
-Downloading huggingface_hub-0.26.5-py3-none-any.whl (447 kB)
-Downloading InquirerPy-0.3.4-py3-none-any.whl (67 kB)
-Downloading pfzy-0.3.4-py3-none-any.whl (8.5 kB)
-Downloading prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
-Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 1.6 GB/s  0:00:00
-Downloading librosa-0.11.0-py3-none-any.whl (260 kB)
-Downloading misaki-0.9.4-py3-none-any.whl (3.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 703.2 MB/s  0:00:00
-Downloading ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (183 kB)
-Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
-Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 1.1 GB/s  0:00:00
-Downloading audioread-3.1.0-py3-none-any.whl (23 kB)
-Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
-Downloading decorator-5.3.2-py3-none-any.whl (11 kB)
-Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
-Downloading cloudpickle-3.1.3-py3-none-any.whl (22 kB)
-Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
-Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (480 kB)
-Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 954.9 MB/s  0:00:00
-Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (59.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 1.3 GB/s  0:00:00
-Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
-Downloading platformdirs-4.14.8-py3-none-any.whl (94 kB)
-Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (828 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 828.0/828.0 kB 1.0 GB/s  0:00:00
-Downloading requests-2.34.2-py3-none-any.whl (73 kB)
-Downloading charset_normalizer-3.5.3-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (263 kB)
-Downloading idna-3.20-py3-none-any.whl (69 kB)
-Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
-Downloading certifi-2026.11.20-py3-none-any.whl (127 kB)
-Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 1.1 GB/s  0:00:00
-Downloading narwhals-2.29.0-py3-none-any.whl (501 kB)
-Downloading scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 1.3 GB/s  0:00:00
-Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (245 kB)
-Downloading threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
-Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
-Downloading wcwidth-0.9.5-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (822 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 822.7/822.7 kB 758.4 MB/s  0:00:00
-Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
-Downloading espeakng_loader-0.2.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.1 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 1.4 GB/s  0:00:00
-Downloading num2words-0.5.14-py3-none-any.whl (163 kB)
-Downloading phonemizer_fork-3.3.2-py3-none-any.whl (82 kB)
-Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
-Downloading dlinfo-2.0.0-py3-none-any.whl (3.7 kB)
-Downloading pycparser-3.12-py3-none-any.whl (62 kB)
-Downloading regex-2026.11.24-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.0/806.0 kB 1.2 GB/s  0:00:00
-Downloading segments-2.4.0-py2.py3-none-any.whl (16 kB)
-Downloading csvw-4.2.0-py2.py3-none-any.whl (69 kB)
-Downloading rfc3986-1.5.0-py2.py3-none-any.whl (31 kB)
-Downloading uritemplate-4.2.0-py3-none-any.whl (11 kB)
-Downloading babel-2.19.0-py3-none-any.whl (11.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/11.0 MB 1.0 GB/s  0:00:00
-Downloading isodate-0.7.2-py3-none-any.whl (22 kB)
-Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
-Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
-Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
-Downloading rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (375 kB)
-Downloading language_tags-1.3.2-py3-none-any.whl (216 kB)
-Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
-Downloading rdflib-7.6.0-py3-none-any.whl (615 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 615.4/615.4 kB 1.2 GB/s  0:00:00
-Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
-Downloading spacy-3.8.18-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (34.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.7/34.7 MB 1.2 GB/s  0:00:00
-Downloading catalogue-2.0.10-py3-none-any.whl (17 kB)
-Downloading click-8.5.1-py3-none-any.whl (126 kB)
-Downloading confection-1.3.4-py3-none-any.whl (35 kB)
-Downloading cymem-2.0.16-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (253 kB)
-Downloading murmurhash-1.0.16-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (127 kB)
-Downloading preshed-3.0.15-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (883 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.8/883.8 kB 656.6 MB/s  0:00:00
-Downloading pydantic-2.14.4-py3-none-any.whl (494 kB)
-Downloading pydantic_core-2.50.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 1.1 GB/s  0:00:00
-Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
-Downloading spacy_loggers-1.0.5-py3-none-any.whl (22 kB)
-Downloading srsly-2.5.6-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.0 GB/s  0:00:00
-Downloading thinc-8.3.14-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (4.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 1.1 GB/s  0:00:00
-Downloading blis-1.3.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (14.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.3/14.3 MB 1.2 GB/s  0:00:00
-Downloading typer-0.29.2-py3-none-any.whl (121 kB)
-Downloading wasabi-1.1.3-py3-none-any.whl (27 kB)
-Downloading weasel-1.0.1-py3-none-any.whl (51 kB)
-Downloading annotated_doc-0.0.7-py3-none-any.whl (5.3 kB)
-Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
-Downloading cloudpathlib-0.26.0-py3-none-any.whl (66 kB)
-Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
-Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
-Downloading h11-0.16.0-py3-none-any.whl (37 kB)
-Downloading rich-15.0.0-py3-none-any.whl (310 kB)
-Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 1.6 GB/s  0:00:00
-Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
-Downloading smart_open-10.0.0-py3-none-any.whl (76 kB)
-Downloading typing_inspection-0.4.5-py3-none-any.whl (14 kB)
-Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
-Downloading spacy_curated_transformers-0.3.1-py2.py3-none-any.whl (237 kB)
-Downloading curated_tokenizers-0.0.10-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 1.1 GB/s  0:00:00
-Downloading curated_transformers-0.1.1-py2.py3-none-any.whl (25 kB)
-Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
-Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
-Downloading wrapt-2.5.2-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (240 kB)
-Building wheels for collected packages: docopt
-  Building wheel for docopt (pyproject.toml): started
-  Building wheel for docopt (pyproject.toml): finished with status 'done'
-  Created wheel for docopt: filename=docopt-0.6.2-py2.py3-none-any.whl size=13781 sha256=207423d597dcd6a123752baec9e565bbb2920febee90a01bf44634df8635076a
-  Stored in directory: /tmp/pip-ephem-wheel-cache-8nf4el9j/wheels/b9/03/c7/85596f64a5844b17a9eefff999445c6670117498e09c7c254b
-Successfully built docopt
-Installing collected packages: rfc3986, docopt, addict, wrapt, wcwidth, wasabi, urllib3, uritemplate, tzdata, typing-inspection, tqdm, threadpoolctl, termcolor, spacy-loggers, spacy-legacy, soxr, shellingham, scipy, rpds-py, regex, pyyaml, pyparsing, pygments, pydantic-core, pycparser, psutil, platformdirs, pfzy, num2words, ninja, narwhals, murmurhash, msgpack, mdurl, llvmlite, lazy_loader, language-tags, isodate, idna, hf_transfer, h11, espeakng-loader, dlinfo, decorator, cymem, confection, cloudpickle, cloudpathlib, click, charset_normalizer, certifi, catalogue, blis, babel, audioread, attrs, annotated-types, annotated-doc, srsly, smart-open, requests, referencing, rdflib, python-dateutil, pydantic, prompt-toolkit, preshed, numba, misaki, markdown-it-py, joblib, httpcore, curated-tokenizers, cffi, anyio, thinc, soundfile, scikit-learn, rich, pooch, jsonschema-specifications, InquirerPy, huggingface_hub, httpx, typer, librosa, jsonschema, curated-transformers, weasel, spacy-curated-transformers, csvw, spacy, segments, phonemizer-fork
-
-Successfully installed InquirerPy-0.3.4 addict-2.4.0 annotated-doc-0.0.7 annotated-types-0.8.0 anyio-4.16.0 attrs-26.1.0 audioread-3.1.0 babel-2.19.0 blis-1.3.4 catalogue-2.0.10 certifi-2026.11.20 cffi-2.1.1 charset_normalizer-3.5.3 click-8.5.1 cloudpathlib-0.26.0 cloudpickle-3.1.3 confection-1.3.4 csvw-4.2.0 curated-tokenizers-0.0.10 curated-transformers-0.1.1 cymem-2.0.16 decorator-5.3.2 dlinfo-2.0.0 docopt-0.6.2 espeakng-loader-0.2.4 h11-0.16.0 hf_transfer-0.1.9 httpcore-1.0.9 httpx-0.28.1 huggingface_hub-0.26.5 idna-3.20 isodate-0.7.2 joblib-1.6.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 language-tags-1.3.2 lazy_loader-0.6 librosa-0.11.0 llvmlite-0.50.0 markdown-it-py-4.3.0 mdurl-0.1.2 misaki-0.9.4 msgpack-1.2.4 murmurhash-1.0.16 narwhals-2.29.0 ninja-1.13.2 num2words-0.5.14 numba-0.68.1 pfzy-0.3.4 phonemizer-fork-3.3.2 platformdirs-4.14.8 pooch-1.9.0 preshed-3.0.15 prompt-toolkit-3.0.53 psutil-7.2.2 pycparser-3.12 pydantic-2.14.4 pydantic-core-2.50.5 pygments-2.21.0 pyparsing-3.3.3 python-dateutil-4.0.0 pyyaml-6.0.4 rdflib-7.6.0 referencing-0.37.0 regex-2026.11.24 requests-2.34.2 rfc3986-1.5.0 rich-15.0.0 rpds-py-2026.9.1 scikit-learn-1.9.1 scipy-1.17.1 segments-2.4.0 shellingham-1.5.4 smart-open-10.0.0 soundfile-0.14.0 soxr-1.1.0 spacy-3.8.18 spacy-curated-transformers-0.3.1 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.5.6 termcolor-3.3.0 thinc-8.3.14 threadpoolctl-3.8.0 tqdm-4.70.1 typer-0.29.2 typing-inspection-0.4.5 tzdata-2026.6 uritemplate-4.2.0 urllib3-2.8.0 wasabi-1.1.3 wcwidth-0.9.5 weasel-1.0.1 wrapt-2.5.2
-
-[notice] A new release of pip is available: 26.2.2 -> 26.3
-[notice] To update, run: pip install --upgrade pip
-Saving image...
-Image saved, took 2.83s
-
-Built image im-QbmyIUGFwFifEOzoLgKHTK in 24.97s
-
-
-Building image im-Xwss4c8niurc3IyniUsgyX
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-XBQ5sDfN8UNLtiglP0xzop
+Building image im-i4eyNamRkVaOkVTMnfAYMR
 
 => Step 0: FROM base
 
@@ -378,7 +8,7 @@ Building image im-Xwss4c8niurc3IyniUsgyX
 Looking in indexes: http://pypi-mirror.modal.local:5555/simple
 Collecting flash-attn==2.7.4.post1+cu12torch2.4cxx11abifalse
   Downloading flash_attn-2.7.4.post1+cu12torch2.4cxx11abiFALSE-cp311-cp311-linux_x86_64.whl (187.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.8/187.8 MB 11.6 MB/s  0:00:16
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.8/187.8 MB 45.2 MB/s  0:00:04
 Requirement already satisfied: torch in ./usr/local/lib/python3.11/site-packages (from flash-attn==2.7.4.post1+cu12torch2.4cxx11abifalse) (2.4.1+cu121)
 Collecting einops (from flash-attn==2.7.4.post1+cu12torch2.4cxx11abifalse)
   Downloading einops-0.8.2-py3-none-any.whl.metadata (13 kB)
@@ -609,32 +239,32 @@ Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./usr/local/lib/python3.11/
 Downloading optimum_quanto-0.2.6-py3-none-any.whl (165 kB)
 Downloading imageio-2.38.2-py3-none-any.whl (328 kB)
 Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 47.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 183.5 MB/s  0:00:00
 Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
 Downloading proglog-0.1.12-py3-none-any.whl (6.3 kB)
 Downloading opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (62.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.5/62.5 MB 3.8 MB/s  0:00:16
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.5/62.5 MB 120.3 MB/s  0:00:00
 Downloading diffusers-0.31.0-py3-none-any.whl (2.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 818.7 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 60.9 MB/s  0:00:00
 Downloading transformers-4.49.0-py3-none-any.whl (10.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 674.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 583.6 MB/s  0:00:00
 Downloading tokenizers-0.21.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 688.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 652.5 MB/s  0:00:00
 Downloading accelerate-1.1.1-py3-none-any.whl (333 kB)
 Downloading easydict-1.14-py3-none-any.whl (6.9 kB)
 Downloading ftfy-6.3.1-py3-none-any.whl (44 kB)
 Downloading dashscope-2.1.1-py3-none-any.whl (1.1 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 678.3 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 602.7 MB/s  0:00:00
 Downloading imageio_ffmpeg-0.8.1-py3-none-manylinux_2_28_x86_64.whl (68.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 MB 621.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 MB 560.0 MB/s  0:00:00
 Downloading scikit_image-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.9/14.9 MB 638.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.9/14.9 MB 609.4 MB/s  0:00:00
 Downloading loguru-0.8.0-py3-none-any.whl (69 kB)
 Downloading xfuser-0.4.1-py3-none-any.whl (166 kB)
 Downloading pyloudnorm-0.2.0-py3-none-any.whl (10 kB)
 Downloading scenedetect-0.7.3-py3-none-any.whl (159 kB)
 Downloading decord-0.6.0-py3-none-manylinux2010_x86_64.whl (13.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.6/13.6 MB 647.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.6/13.6 MB 584.7 MB/s  0:00:00
 Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
 Downloading fastapi-0.165.0-py3-none-any.whl (159 kB)
 Downloading httpx_sse-0.4.3-py3-none-any.whl (9.0 kB)
@@ -643,16 +273,16 @@ Downloading opentelemetry_sdk-1.45.2-py3-none-any.whl (141 kB)
 Downloading opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl (206 kB)
 Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
 Downloading scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (41.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.2/41.2 MB 608.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.2/41.2 MB 79.1 MB/s  0:00:00
 Downloading sentencepiece-0.2.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 741.1 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 840.7 MB/s  0:00:00
 Downloading soupsieve-4.1.3-py3-none-any.whl (59 kB)
 Downloading starlette-1.10.0-py3-none-any.whl (80 kB)
 Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
 Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
 Downloading yunchang-0.6.4-py3-none-any.whl (55 kB)
 Downloading aiohttp-3.14.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 655.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 736.8 MB/s  0:00:00
 Downloading multidict-7.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (510 kB)
 Downloading yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
 Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
@@ -660,7 +290,7 @@ Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
 Downloading frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (231 kB)
 Downloading propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (235 kB)
 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 653.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 668.2 MB/s  0:00:00
 Downloading distvae-0.1.0-py3-none-any.whl (74 kB)
 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
@@ -673,17 +303,17 @@ Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
 Downloading ray-2.60.1-cp311-cp311-manylinux2014_x86_64.whl (79.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.3/79.3 MB 3.5 MB/s  0:00:22
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.3/79.3 MB 102.0 MB/s  0:00:00
 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
 Downloading tenacity-9.2.1-py3-none-any.whl (32 kB)
 Downloading tiktoken-0.14.0-cp311-cp311-manylinux_2_28_x86_64.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 418.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 810.6 MB/s  0:00:00
 Downloading websocket_client-1.9.2-py3-none-any.whl (95 kB)
 Building wheels for collected packages: moviepy
   Building wheel for moviepy (pyproject.toml): started
   Building wheel for moviepy (pyproject.toml): finished with status 'done'
   Created wheel for moviepy: filename=moviepy-1.0.3-py3-none-any.whl size=110795 sha256=5c1f4ec1ce92e633076caaf52f8fc644da76f7a0882c94f657db4b927fe9efc4
-  Stored in directory: /tmp/pip-ephem-wheel-cache-eouwsp3t/wheels/f0/78/a9/11f3c098ac7b16dfe68017b555df3a3261771db83a42f6382f
+  Stored in directory: /tmp/pip-ephem-wheel-cache-lqj4jg8k/wheels/f0/78/a9/11f3c098ac7b16dfe68017b555df3a3261771db83a42f6382f
 Successfully built moviepy
 Installing collected packages: easydict, zipp, werkzeug, websocket-client, uvicorn, tenacity, soupsieve, sentencepiece, safetensors, protobuf, propcache, proglog, pluggy, opentelemetry-api, numpy, multidict, loguru, lazy-importer, itsdangerous, iniconfig, imageio-ffmpeg, httpx-sse, ftfy, frozenlist, decorator, blinker, aiohappyeyeballs, yarl, tiktoken, tifffile, starlette, scipy, pytest, opentelemetry-semantic-conventions, opencv-python, importlib-metadata, imageio, flask, decord, cryptography, beautifulsoup4, aiosignal, tokenizers, scikit-image, scenedetect, pyloudnorm, opentelemetry-sdk, moviepy, fastapi, diffusers, aiohttp, yunchang, transformers, ray, optimum-quanto, distvae, dashscope, accelerate, xfuser
   Attempting uninstall: numpy
@@ -734,61 +364,120 @@ Requirement already satisfied: nvidia-nvjitlink-cu12 in ./usr/local/lib/python3.
 Requirement already satisfied: MarkupSafe>=2.0 in ./usr/local/lib/python3.11/site-packages (from jinja2->torch==2.4.1) (3.0.3)
 Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./usr/local/lib/python3.11/site-packages (from sympy->torch==2.4.1) (1.3.0)
 
-=> Step 7: RUN cd /root/it && python -c 'import torch, xformers, flash_attn, librosa, wan, transformers, diffusers; print(torch.__version__, transformers.__version__, diffusers.__version__)'
+=> Step 7: RUN cd /root/it && python -c 'import torch, xformers, flash_attn, librosa, transformers, diffusers, decord; print(torch.__version__, transformers.__version__, diffusers.__version__)'
+2.4.1+cu121 4.49.0 0.31.0
+Saving image...
+Image saved, took 9.26s
+
+Built image im-i4eyNamRkVaOkVTMnfAYMR in 99.99s
+
+
+Building image im-XYQKnNprJRC04D2I6LQChw
+
+=> Step 0: FROM base
+
+=> Step 1: ENV HF_HUB_ENABLE_HF_TRANSFER=1
+
+=> Step 2: ENV HF_HOME=/weights/hf
+Saving image...
+Image saved, took 646.65ms
+
+Built image im-XYQKnNprJRC04D2I6LQChw in 1.72s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   /home/runner/work/fix-my-money/fix-my-money/tools/avatar_infinitetalk.py
+└── ✓ Created Function render.
+$ cd /root/it && python -c 'import wan, xfuser; print("imports ok")'
+/root/it/wan/modules/model.py:31: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/root/it/wan/modules/model.py:42: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
-  File "/root/it/wan/__init__.py", line 1, in <module>
-    from . import configs, distributed, modules
-  File "/root/it/wan/modules/__init__.py", line 1, in <module>
-    from .attention import flash_attention
-  File "/root/it/wan/modules/attention.py", line 5, in <module>
-    from ..utils.multitalk_utils import RotaryPositionalEmbedding1D, normalize_and_scale, split_token_counts_and_frame_ids
-  File "/root/it/wan/utils/multitalk_utils.py", line 7, in <module>
-    from xfuser.core.distributed import (
-  File "/usr/local/lib/python3.11/site-packages/xfuser/__init__.py", line 1, in <module>
-    from xfuser.model_executor.pipelines import (
-  File "/usr/local/lib/python3.11/site-packages/xfuser/model_executor/pipelines/__init__.py", line 1, in <module>
-    from .base_pipeline import xFuserPipelineBaseWrapper
-  File "/usr/local/lib/python3.11/site-packages/xfuser/model_executor/pipelines/base_pipeline.py", line 14, in <module>
-    from xfuser.config.config import (
-  File "/usr/local/lib/python3.11/site-packages/xfuser/config/__init__.py", line 1, in <module>
-    from .args import FlexibleArgumentParser, xFuserArgs
-  File "/usr/local/lib/python3.11/site-packages/xfuser/config/args.py", line 11, in <module>
-    from xfuser.core.distributed import init_distributed_environment
-  File "/usr/local/lib/python3.11/site-packages/xfuser/core/__init__.py", line 1, in <module>
-    from .cache_manager import CacheManager
-  File "/usr/local/lib/python3.11/site-packages/xfuser/core/cache_manager/__init__.py", line 1, in <module>
-    from .cache_manager import CacheManager
-  File "/usr/local/lib/python3.11/site-packages/xfuser/core/cache_manager/cache_manager.py", line 4, in <module>
-    from xfuser.core.distributed.runtime_state import runtime_state_is_initialized
-  File "/usr/local/lib/python3.11/site-packages/xfuser/core/distributed/__init__.py", line 1, in <module>
-    from .parallel_state import (
-  File "/usr/local/lib/python3.11/site-packages/xfuser/core/distributed/parallel_state.py", line 10, in <module>
-    import xfuser.envs as envs
-  File "/usr/local/lib/python3.11/site-packages/xfuser/envs.py", line 120, in <module>
-    PACKAGES_CHECKER = PackagesEnvChecker()
-                       ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/xfuser/envs.py", line 58, in __new__
-    cls._instance.initialize()
-  File "/usr/local/lib/python3.11/site-packages/xfuser/envs.py", line 63, in initialize
-    "has_flash_attn": self.check_flash_attn(),
-                      ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/xfuser/envs.py", line 71, in check_flash_attn
-    gpu_name = torch.cuda.get_device_name(device)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py", line 435, in get_device_name
-    return get_device_properties(device).name
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py", line 465, in get_device_properties
-    _lazy_init()  # will define _get_device_properties
-    ^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py", line 314, in _lazy_init
-    torch._C._cuda_init()
-RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
-Terminating task due to error: failed to run builder command "cd /root/it && python -c 'import torch, xformers, flash_attn, librosa, wan, transformers, diffusers; print(torch.__version__, transformers.__version__, diffusers.__version__)'": container exit status: 1
-Runner failed with exit code: -1
-Stopping app - uncaught exception raised locally: ImageBuildError('Image build for im-Xwss4c8niurc3IyniUsgyX failed.\nView the build logs:\n  modal image logs im-Xwss4c8niurc3IyniUsgyX').
-Error: Image build for im-Xwss4c8niurc3IyniUsgyX failed.
-View the build logs:
-  modal image logs im-Xwss4c8niurc3IyniUsgyX
+  File "/root/it/wan/__init__.py", line 6, in <module>
+    from .multitalk import InfiniteTalkPipeline
+  File "/root/it/wan/multitalk.py", line 3, in <module>
+    from inspect import ArgSpec
+ImportError: cannot import name 'ArgSpec' from 'inspect' (/usr/local/lib/python3.11/inspect.py)
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Stopping app - uncaught exception raised locally: CalledProcessError(1, 'cd /root/it && python -c \'import wan, xfuser; print("imports ok")\'').
+  File "/root/avatar_infinitetalk.py", line 95, in render
+    sh("cd /root/it && python -c 'import wan, xfuser; print(\"imports ok\")'")
+  File "/root/avatar_infinitetalk.py", line 71, in sh
+    subprocess.run(cmd, shell=True, check=True)
+  File "/usr/local/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'cd /root/it && python -c 'import wan, xfuser; print("imports ok")'' returned non-zero exit status 1.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/runner/work/fix-my-money/fix-my-money/tools/avatar_infinitetalk.py:118 │
+│ in main                                                                      │
+│                                                                              │
+│   117 def main(image: str, audio: str, out: str, size: str = "infinitetalk-4 │
+│ ❱ 118 │   data = render.remote(Path(image).read_bytes(), Path(audio).read_by │
+│   119 │   Path(out).parent.mkdir(parents=True, exist_ok=True)                │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ object.py:49 in wrapped                                                      │
+│                                                                              │
+│    48 │   │   await self.hydrate()                                           │
+│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
+│    50                                                                        │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ functions.py:2115 in remote                                                  │
+│                                                                              │
+│   2114 │   │                                                                 │
+│ ❱ 2115 │   │   return await self._call_function(args, kwargs)                │
+│   2116                                                                       │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ functions.py:2050 in _call_function                                          │
+│                                                                              │
+│   2049 │   │                                                                 │
+│ ❱ 2050 │   │   return await invocation.run_function()                        │
+│   2051                                                                       │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ functions.py:527 in run_function                                             │
+│                                                                              │
+│    526 │   │   │   # No more retries left.                                   │
+│ ❱  527 │   │   │   return await _process_result(                             │
+│    528 │   │   │   │   await_response.output.result, await_response.output.d │
+│                                                                              │
+│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
+│ utils/function_utils.py:572 in _process_result                               │
+│                                                                              │
+│   571 │   │   │                                                              │
+│ ❱ 572 │   │   │   raise exc_with_hints(exc)                                  │
+│   573                                                                        │
+│                                                                              │
+│     ...Remote call to Modal Function (ta-01M893BF5N3KH4K3EYK0CY0CYR)...      │
+│                                                                              │
+│ /root/avatar_infinitetalk.py:95 in render                                    │
+│                                                                              │
+│ ❱ 95 sh("cd /root/it && python -c 'import wan, xfuser; print(\"imports ok\") │
+│                                                                              │
+│                                                                              │
+│ /root/avatar_infinitetalk.py:71 in sh                                        │
+│                                                                              │
+│ ❱ 71 subprocess.run(cmd, shell=True, check=True)                             │
+│                                                                              │
+│                                                                              │
+│ /usr/local/lib/python3.11/subprocess.py:571 in run                           │
+│                                                                              │
+│ ❱ 571 raise CalledProcessError(retcode, process.args,                        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command 'cd /root/it && python -c 'import wan, xfuser; 
+print("imports ok")'' returned non-zero exit status 1.
 exit code 1
