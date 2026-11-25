@@ -1,0 +1,56 @@
+name: Ad voice (Tru Nivesh)
+# Renders voice-overs for Tru Nivesh ads with the same Sarvam voice as the reels.
+# Separate from the Instagram publisher: this workflow never posts anything.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ads/voice/*.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render pending lines
+        env:
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+        run: |
+          pip install -q numpy
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          python - <<'PY'
+          import json, glob, os, wave, subprocess, sys
+          import numpy as np
+          sys.path.insert(0, "engine")
+          import audio
+          os.makedirs("ads/voice/out", exist_ok=True)
+          for path in sorted(glob.glob("ads/voice/*.json")):
+              job = json.load(open(path))
+              for line in job["lines"]:
+                  out = f"ads/voice/out/{line['id']}.mp3"
+                  if os.path.exists(out):
+                      continue
+                  s = audio.speak(line["text"], voice=job.get("voice", "sarvam:amit"),
+                                  speed=job.get("pace", 1.05), language=job.get("language", "hi-IN"))
+                  wav = out[:-4] + ".wav"
+                  with wave.open(wav, "wb") as w:
+                      w.setnchannels(1); w.setsampwidth(2); w.setframerate(audio.SR)
+                      w.writeframes((np.clip(s, -1, 1) * 32767).astype(np.int16).tobytes())
+                  subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-b:a", "160k", out], check=True)
+                  os.remove(wav)
+                  print(line["id"], round(len(s) / audio.SR, 2), "s")
+          PY
+      - name: Commit voice files
+        run: |
+          git add ads/voice/out 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git config user.name  "fix-my-money-bot"
+            git config user.email "noreply@github.com"
+            git commit -q -m "Ad voice: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull -q --rebase && git push -q
+          fi
