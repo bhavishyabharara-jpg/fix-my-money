@@ -43,8 +43,8 @@ image = (
         # prebuilt flash-attn for torch 2.8 / cu12 / py3.11; if it is unavailable the pipeline uses torch attention
         "pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/"
         "flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl || true",
-        # the Space pins numpy 1.26; newest pyarrow needs numpy 2 -> use the last numpy-1 compatible pyarrow
-        "pip install 'pyarrow<18'",
+        # the Space pins numpy 1.26; newest pyarrow/datasets need numpy 2 -> numpy-1 compatible versions
+        "pip install 'pyarrow<18' 'datasets<4'",
         # fail fast at (cheap, CPU) build time instead of after GPU minutes
         "python -c 'import numpy, pyarrow, datasets, f5_tts.api; print(numpy.__version__, pyarrow.__version__)'",
     )
