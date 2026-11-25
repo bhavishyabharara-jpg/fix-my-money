@@ -48,6 +48,8 @@ image = (
         "pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/"
         "flash_attn-2.7.4.post1+cu12torch2.4cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
         f"git clone --depth 1 {REPO} /root/it",
+        # unused import that no longer exists on Python 3.11+ (Modal's minimum)
+        "sed -i 's/^from inspect import ArgSpec$/# &/' /root/it/wan/multitalk.py",
         # InfiniteTalk's requirements are unpinned; 2026 releases need torch>=2.6. Pin to the
         # versions current when InfiniteTalk shipped (Aug 2025), and skip the unused gradio UI.
         "printf 'torch==2.4.1\\ntorchvision==0.19.1\\ntorchaudio==2.4.1\\nnumpy==1.26.4\\n"
