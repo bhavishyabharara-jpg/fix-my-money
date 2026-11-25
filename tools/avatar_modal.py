@@ -7,8 +7,12 @@ no 5-second cap and no queue. Called from GitHub Actions (.github/workflows/avat
 
     modal run tools/avatar_modal.py --image <png> --audio <mp3> --out <mp4> [--steps 4]
 
-Cost guard: the Modal workspace spend limit is set to $0 out-of-pocket, so when free credit
-runs out Modal refuses the job instead of charging. The engine then falls back to the coin.
+Cost guards (owner rule: never a rupee on the card):
+  * Modal workspace: spend limit $0 and usage limit $29 (< the $30/month free credit), so Modal stops
+    every job before any charge is possible.
+  * No persistent Volume: Modal bills Volume storage even after the spend limit stops workloads, so the
+    weights are downloaded into the run's own temporary disk and disappear when the run ends.
+  * One GPU function, hard timeout of 25 minutes.
 """
 from __future__ import annotations
 
@@ -25,7 +29,6 @@ PROMPT = ("A realistic video of a friendly Indian man explaining money to the ca
           "steady camera, bright home office.")
 
 app = modal.App("fmm-avatar")
-vol = modal.Volume.from_name("fmm-avatar-models", create_if_missing=True)
 
 image = (
     modal.Image.debian_slim(python_version="3.11")
@@ -53,25 +56,26 @@ def _prep_dirs():
     os.chdir("/root/space")
 
 
-@app.function(image=image, volumes={MODELS: vol}, timeout=3600, cpu=4, memory=8192)
 def download():
-    """CPU-only: fill the volume with the model weights once (cheap; no GPU time)."""
+    """Fetch the weights into this container's temporary disk (no Volume = no storage bill)."""
+    import time
     from huggingface_hub import hf_hub_download, snapshot_download
+    t = time.time()
     _prep_dirs()
-    snapshot_download(repo_id="Wan-AI/Wan2.1-T2V-14B", local_dir="./pretrained_models/Wan2.1-T2V-14B")
+    snapshot_download(repo_id="Wan-AI/Wan2.1-T2V-14B", local_dir="./pretrained_models/Wan2.1-T2V-14B",
+                      allow_patterns=["*.safetensors", "*.json", "*.pth", "google/*"])
     snapshot_download(repo_id="facebook/wav2vec2-base-960h", local_dir="./pretrained_models/wav2vec2-base-960h")
     snapshot_download(repo_id="OmniAvatar/OmniAvatar-14B", local_dir="./pretrained_models/OmniAvatar-14B")
     hf_hub_download("alexnasa/F5_checkpoint", "model_10000.pt")
     hf_hub_download("alexnasa/F5_checkpoint", "vocab.txt")
-    vol.commit()
-    return "ok"
+    print(f"weights downloaded in {time.time() - t:.0f}s", flush=True)
 
 
-@app.function(image=image, volumes={MODELS: vol}, gpu="H100", timeout=1800, memory=65536)
+@app.function(image=image, gpu="H100", timeout=1500, memory=65536)
 def render(image_bytes: bytes, audio_bytes: bytes, steps: int = 4, prompt: str = PROMPT) -> bytes:
     import sys
     import time
-    _prep_dirs()
+    download()
     sys.path.insert(0, "/root/space")
     # the Space runs `pip install ...` at import time; everything is already in the image
     real = subprocess.check_call
@@ -92,7 +96,6 @@ def render(image_bytes: bytes, audio_bytes: bytes, steps: int = 4, prompt: str =
 
 @app.local_entrypoint()
 def main(image: str, audio: str, out: str, steps: int = 4, prompt: str = PROMPT):
-    print("download:", download.remote())
     data = render.remote(Path(image).read_bytes(), Path(audio).read_bytes(), steps, prompt)
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     Path(out).write_bytes(data)
