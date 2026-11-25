@@ -36,7 +36,7 @@ PROMPT = ("A real, candid smartphone video of an Indian man in his early thirtie
 app = modal.App("fmm-avatar-infinitetalk")
 
 image = (
-    modal.Image.debian_slim(python_version="3.10")
+    modal.Image.debian_slim(python_version="3.11")
     .apt_install("git", "ffmpeg", "libsndfile1", "libgl1", "libglib2.0-0")
     .pip_install("torch==2.4.1", "torchvision==0.19.1", "torchaudio==2.4.1",
                  index_url="https://download.pytorch.org/whl/cu121")
@@ -44,9 +44,9 @@ image = (
     .pip_install("ninja", "psutil", "packaging", "wheel", "misaki[en]", "librosa", "soundfile",
                  "huggingface_hub[cli]<1", "hf_transfer")
     .run_commands(
-        # prebuilt flash-attn for torch 2.4 / cu12 / py3.10 (no compile)
+        # prebuilt flash-attn for torch 2.4 / cu12 / py3.11 (no compile)
         "pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/"
-        "flash_attn-2.7.4.post1+cu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+        "flash_attn-2.7.4.post1+cu12torch2.4cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
         f"git clone --depth 1 {REPO} /root/it",
         "pip install -r /root/it/requirements.txt",
         # keep the CUDA wheels above (requirements may try to move torch)
