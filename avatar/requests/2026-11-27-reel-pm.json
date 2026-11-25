@@ -1,6 +1,7 @@
 {
   "backend": "presenter",
   "job": "queue/2026-11-27-reel-pm.json",
-  "status": "pending",
-  "attempts": 0
+  "status": "done",
+  "attempts": 0,
+  "done_at": "2026-11-25T18:09"
 }
