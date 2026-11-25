@@ -1,143 +1,905 @@
 ✓ Initialized. View run at 
-https://modal.com/apps/bhavishyabharara-jpg/main/ap-yAJ12cDDmE2JRwkW0Qk03Q
-✓ Created objects.
-├── ✓ Uploaded /home/runner/work/fix-my-money/fix-my-money/tools/avatar_modal.py
-└── ✓ Created Function render.
-weights downloaded in 326s
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-odoJ5iqzwl9ntuCnPpmfc3
+Building image im-uhQp2TeKneCRmZGkezONe9
+
+=> Step 0: FROM base
+
+=> Step 1: RUN git clone --depth 1 https://huggingface.co/spaces/alexnasa/OmniAvatar /root/space
+Cloning into '/root/space'...
+
+=> Step 2: RUN grep -v -E '^(torchvision|torchaudio|onnxruntime-gpu|ffmpeg|#)' /root/space/requirements.txt > /tmp/req.txt
+
+=> Step 3: RUN pip install -r /tmp/req.txt
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl (from -r /tmp/req.txt (line 13))
+  Downloading gradio_extendedimage-0.0.2-py3-none-any.whl (153 kB)
+Collecting gradio_extendedaudio @ https://github.com/OutofAi/gradio-extendedaudio/releases/download/0.0.5/gradio_extendedaudio-0.0.5-py3-none-any.whl (from -r /tmp/req.txt (line 14))
+  Downloading gradio_extendedaudio-0.0.5-py3-none-any.whl (415 kB)
+Collecting tqdm (from -r /tmp/req.txt (line 1))
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting librosa==0.10.2.post1 (from -r /tmp/req.txt (line 2))
+  Downloading librosa-0.10.2.post1-py3-none-any.whl.metadata (8.6 kB)
+Collecting peft==0.15.1 (from -r /tmp/req.txt (line 3))
+  Downloading peft-0.15.1-py3-none-any.whl.metadata (13 kB)
+Collecting transformers<=4.51.3,>=4.49.0 (from -r /tmp/req.txt (line 4))
+  Downloading transformers-4.51.3-py3-none-any.whl.metadata (38 kB)
+Collecting scipy==1.14.0 (from -r /tmp/req.txt (line 5))
+  Downloading scipy-1.14.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting numpy==1.26.4 (from -r /tmp/req.txt (line 6))
+  Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting xfuser==0.4.1 (from -r /tmp/req.txt (line 7))
+  Downloading xfuser-0.4.1-py3-none-any.whl.metadata (24 kB)
+Collecting ftfy (from -r /tmp/req.txt (line 8))
+  Downloading ftfy-6.3.1-py3-none-any.whl.metadata (7.3 kB)
+Collecting einops (from -r /tmp/req.txt (line 9))
+  Downloading einops-0.8.2-py3-none-any.whl.metadata (13 kB)
+Collecting omegaconf (from -r /tmp/req.txt (line 10))
+  Downloading omegaconf-2.4.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting ninja (from -r /tmp/req.txt (line 11))
+  Downloading ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.4 kB)
+Collecting kernels (from -r /tmp/req.txt (line 12))
+  Downloading kernels-0.19.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.2 kB)
+Collecting f5-tts (from -r /tmp/req.txt (line 16))
+  Downloading f5_tts-1.1.22-py3-none-any.whl.metadata (12 kB)
+Collecting torchcodec==0.9.1 (from -r /tmp/req.txt (line 17))
+  Downloading torchcodec-0.9.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting gradio<6.0,>=4.0 (from gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading gradio-5.50.0-py3-none-any.whl.metadata (16 kB)
+Collecting audioread>=2.1.9 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading audioread-3.1.0-py3-none-any.whl.metadata (9.0 kB)
+Collecting scikit-learn>=0.20.0 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.3 kB)
+Collecting joblib>=0.14 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting decorator>=4.3.0 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading decorator-5.3.2-py3-none-any.whl.metadata (4.1 kB)
+Collecting numba>=0.51.0 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.8 kB)
+Collecting soundfile>=0.12.1 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl.metadata (18 kB)
+Collecting pooch>=1.1 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting soxr>=0.3.2 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.8 kB)
+Requirement already satisfied: typing-extensions>=4.1.1 in ./usr/local/lib/python3.11/site-packages (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2)) (4.16.0)
+Collecting lazy-loader>=0.1 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+Collecting msgpack>=1.0 (from librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Requirement already satisfied: packaging>=20.0 in ./usr/local/lib/python3.11/site-packages (from peft==0.15.1->-r /tmp/req.txt (line 3)) (26.3)
+Collecting psutil (from peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Collecting pyyaml (from peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.3 kB)
+Requirement already satisfied: torch>=1.13.0 in ./usr/local/lib/python3.11/site-packages (from peft==0.15.1->-r /tmp/req.txt (line 3)) (2.8.0)
+Collecting accelerate>=0.21.0 (from peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading accelerate-1.16.0-py3-none-any.whl.metadata (19 kB)
+Collecting safetensors (from peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting huggingface_hub>=0.25.0 (from peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+Collecting sentencepiece>=0.1.99 (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading sentencepiece-0.2.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (34 kB)
+Collecting beautifulsoup4>=4.12.3 (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting distvae (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading distvae-0.1.0-py3-none-any.whl.metadata (1.0 kB)
+Collecting yunchang>=0.6.0 (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading yunchang-0.6.4-py3-none-any.whl.metadata (12 kB)
+Collecting pytest (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting flask (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting opencv-python (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading opencv_python-5.1.0.95-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (20 kB)
+Collecting imageio (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading imageio-2.38.2-py3-none-any.whl.metadata (9.7 kB)
+Collecting imageio-ffmpeg (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading imageio_ffmpeg-0.8.1-py3-none-manylinux_2_28_x86_64.whl.metadata (1.5 kB)
+Collecting optimum-quanto (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading optimum_quanto-0.2.7-py3-none-any.whl.metadata (13 kB)
+Collecting ray (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading ray-2.60.1-cp311-cp311-manylinux2014_x86_64.whl.metadata (23 kB)
+Requirement already satisfied: filelock in ./usr/local/lib/python3.11/site-packages (from transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4)) (4.3.0)
+Collecting huggingface_hub>=0.25.0 (from peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+Collecting regex!=2019.12.17 (from transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4))
+  Downloading regex-2026.11.24-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting requests (from transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4))
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting tokenizers<0.22,>=0.21 (from transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4))
+  Downloading tokenizers-0.21.4-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting aiofiles<25.0,>=22.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)
+Collecting anyio<5.0,>=3.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting brotli>=1.1.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading brotli-1.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+Collecting fastapi<1.0,>=0.115.2 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading fastapi-0.165.0-py3-none-any.whl.metadata (27 kB)
+Collecting ffmpy (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading ffmpy-1.0.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting gradio-client==1.14.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading gradio_client-1.14.0-py3-none-any.whl.metadata (7.1 kB)
+Collecting groovy~=0.1 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading groovy-0.1.2-py3-none-any.whl.metadata (6.1 kB)
+Collecting httpx<1.0,>=0.24.1 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: jinja2<4.0 in ./usr/local/lib/python3.11/site-packages (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13)) (3.1.6)
+Requirement already satisfied: markupsafe<4.0,>=2.0 in ./usr/local/lib/python3.11/site-packages (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13)) (3.0.4)
+Collecting orjson~=3.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading orjson-3.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (42 kB)
+Collecting pandas<3.0,>=1.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Collecting pillow<12.0,>=8.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pillow-11.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting pydantic<=2.12.3,>=2.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pydantic-2.12.3-py3-none-any.whl.metadata (87 kB)
+Collecting pydub (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting python-multipart>=0.0.18 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading python_multipart-0.0.34-py3-none-any.whl.metadata (6.3 kB)
+Collecting ruff>=0.9.3 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Collecting safehttpx<0.2.0,>=0.1.6 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading safehttpx-0.1.7-py3-none-any.whl.metadata (4.2 kB)
+Collecting semantic-version~=2.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting starlette<1.0,>=0.40.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading starlette-0.52.1-py3-none-any.whl.metadata (6.3 kB)
+Collecting tomlkit<0.14.0,>=0.12.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading tomlkit-0.13.3-py3-none-any.whl.metadata (2.8 kB)
+Collecting typer<1.0,>=0.12 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading typer-0.29.2-py3-none-any.whl.metadata (16 kB)
+Collecting uvicorn>=0.14.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: fsspec in ./usr/local/lib/python3.11/site-packages (from gradio-client==1.14.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13)) (2026.9.0)
+Collecting websockets<16.0,>=13.0 (from gradio-client==1.14.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading websockets-15.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting idna>=2.8 (from anyio<5.0,>=3.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+INFO: pip is looking at multiple versions of fastapi to determine which version is compatible with other requirements. This could take a while.
+Collecting fastapi<1.0,>=0.115.2 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading fastapi-0.164.0-py3-none-any.whl.metadata (27 kB)
+  Downloading fastapi-0.163.2-py3-none-any.whl.metadata (27 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi<1.0,>=0.115.2->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi<1.0,>=0.115.2->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading annotated_doc-0.0.7-py3-none-any.whl.metadata (6.4 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi<1.0,>=0.115.2->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+Collecting certifi (from httpx<1.0,>=0.24.1->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading certifi-2026.11.20-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx<1.0,>=0.24.1->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface_hub>=0.25.0->peft==0.15.1->-r /tmp/req.txt (line 3))
+  Downloading hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting python-dateutil>=2.8.2 (from pandas<3.0,>=1.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pytz>=2020.1 (from pandas<3.0,>=1.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas<3.0,>=1.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<=2.12.3,>=2.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.41.4 (from pydantic<=2.12.3,>=2.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pydantic_core-2.41.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+Collecting shellingham>=1.3.0 (from typer<1.0,>=0.12->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer<1.0,>=0.12->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting wcwidth (from ftfy->-r /tmp/req.txt (line 8))
+  Downloading wcwidth-0.9.5-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (26 kB)
+INFO: pip is looking at multiple versions of kernels to determine which version is compatible with other requirements. This could take a while.
+Collecting kernels (from -r /tmp/req.txt (line 12))
+  Downloading kernels-0.18.3-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.2 kB)
+  Downloading kernels-0.18.2-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.2 kB)
+  Downloading kernels-0.18.1-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.1 kB)
+  Downloading kernels-0.18.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.1 kB)
+  Downloading kernels-0.17.3-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.1 kB)
+  Downloading kernels-0.17.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.1 kB)
+  Downloading kernels-0.17.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.1 kB)
+INFO: pip is still looking at multiple versions of kernels to determine which version is compatible with other requirements. This could take a while.
+  Downloading kernels-0.17.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.1 kB)
+  Downloading kernels-0.16.2-py3-none-any.whl.metadata (3.1 kB)
+  Downloading kernels-0.16.1-py3-none-any.whl.metadata (3.1 kB)
+  Downloading kernels-0.16.0-py3-none-any.whl.metadata (3.1 kB)
+  Downloading kernels-0.15.2-py3-none-any.whl.metadata (2.7 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading kernels-0.15.1-py3-none-any.whl.metadata (2.7 kB)
+  Downloading kernels-0.14.1-py3-none-any.whl.metadata (2.4 kB)
+  Downloading kernels-0.14.0-py3-none-any.whl.metadata (2.4 kB)
+  Downloading kernels-0.13.0-py3-none-any.whl.metadata (2.4 kB)
+  Downloading kernels-0.12.3-py3-none-any.whl.metadata (2.3 kB)
+Collecting bitsandbytes>0.37.0 (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading bitsandbytes-0.50.2-py3-none-manylinux_2_24_x86_64.whl.metadata (10 kB)
+Collecting cached_path (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading cached_path-1.8.10-py3-none-any.whl.metadata (19 kB)
+Collecting click (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting datasets (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading datasets-5.2.0-py3-none-any.whl.metadata (24 kB)
+Collecting ema_pytorch>=0.5.2 (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading ema_pytorch-0.8.3-py3-none-any.whl.metadata (8.0 kB)
+INFO: pip is looking at multiple versions of f5-tts to determine which version is compatible with other requirements. This could take a while.
+Collecting f5-tts (from -r /tmp/req.txt (line 16))
+  Downloading f5_tts-1.1.21-py3-none-any.whl.metadata (12 kB)
+  Downloading f5_tts-1.1.20-py3-none-any.whl.metadata (11 kB)
+  Downloading f5_tts-1.1.17-py3-none-any.whl.metadata (11 kB)
+  Downloading f5_tts-1.1.16-py3-none-any.whl.metadata (11 kB)
+  Downloading f5_tts-1.1.15-py3-none-any.whl.metadata (11 kB)
+  Downloading f5_tts-1.1.10-py3-none-any.whl.metadata (11 kB)
+Collecting hydra-core>=1.3.0 (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading hydra_core-1.3.8-py3-none-any.whl.metadata (5.7 kB)
+Collecting matplotlib (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)
+Collecting pydantic<=2.12.3,>=2.0 (from gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pydantic-2.10.6-py3-none-any.whl.metadata (30 kB)
+Collecting pypinyin (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading pypinyin-0.55.0-py2.py3-none-any.whl.metadata (12 kB)
+Collecting rjieba (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading rjieba-0.2.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Collecting tomli (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading tomli-2.5.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
+Requirement already satisfied: torchaudio>=2.0.0 in ./usr/local/lib/python3.11/site-packages (from f5-tts->-r /tmp/req.txt (line 16)) (2.8.0)
+Collecting torchdiffeq (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading torchdiffeq-0.2.5-py3-none-any.whl.metadata (440 bytes)
+Collecting transformers_stream_generator (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading transformers-stream-generator-0.0.5.tar.gz (13 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting unidecode (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading Unidecode-1.4.0-py3-none-any.whl.metadata (13 kB)
+Collecting vocos (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading vocos-0.1.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting wandb (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading wandb-0.31.2-py3-none-manylinux_2_28_x86_64.whl.metadata (12 kB)
+Collecting x_transformers>=1.31.14 (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading x_transformers-2.32.3-py3-none-any.whl.metadata (109 kB)
+Collecting pydantic-core==2.27.2 (from pydantic<=2.12.3,>=2.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pydantic_core-2.27.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4>=4.12.3->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading soupsieve-4.1.3-py3-none-any.whl.metadata (4.4 kB)
+Requirement already satisfied: sympy>=1.13.3 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (1.14.0)
+Requirement already satisfied: networkx in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (3.6.1)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.8.93)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.8.90)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.8.90)
+Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (9.10.2.21)
+Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.8.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (11.3.3.83)
+Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (10.3.9.90)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (11.7.3.90)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.5.8.93)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (0.7.1)
+Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (2.27.3)
+Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.8.90)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (12.8.93)
+Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (1.13.1.3)
+Requirement already satisfied: triton==3.4.0 in ./usr/local/lib/python3.11/site-packages (from torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (3.4.0)
+Requirement already satisfied: setuptools>=40.8.0 in ./usr/local/lib/python3.11/site-packages (from triton==3.4.0->torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (79.0.1)
+Collecting omegaconf (from -r /tmp/req.txt (line 10))
+  Downloading omegaconf-2.3.1-py3-none-any.whl.metadata (4.5 kB)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core>=1.3.0->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting cloudpickle>=3.0 (from joblib>=0.14->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading cloudpickle-3.1.3-py3-none-any.whl.metadata (7.1 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.51.0->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.1 kB)
+Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading platformdirs-4.14.8-py3-none-any.whl.metadata (5.7 kB)
+Collecting charset_normalizer<4,>=2 (from requests->transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4))
+  Downloading charset_normalizer-3.5.3-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (43 kB)
+Collecting urllib3<3,>=1.26 (from requests->transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4))
+  Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer<1.0,>=0.12->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer<1.0,>=0.12->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0,>=0.12->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=0.20.0->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading narwhals-2.29.0-py3-none-any.whl.metadata (15 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=0.20.0->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+Collecting cffi>=1.0 (from soundfile>=0.12.1->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=1.0->soundfile>=0.12.1->librosa==0.10.2.post1->-r /tmp/req.txt (line 2))
+  Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./usr/local/lib/python3.11/site-packages (from sympy>=1.13.3->torch>=1.13.0->peft==0.15.1->-r /tmp/req.txt (line 3)) (1.3.0)
+Collecting assoc-scan>=0.1.0 (from x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading assoc_scan-0.1.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting einx>=0.3.0 (from x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading einx-0.4.3-py3-none-any.whl.metadata (6.9 kB)
+Collecting loguru (from x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading loguru-0.8.0-py3-none-any.whl.metadata (23 kB)
+Collecting torch-einops-utils>=0.2.6 (from x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading torch_einops_utils-0.2.10-py3-none-any.whl.metadata (6.7 kB)
+Collecting accelerated-scan>=0.3.0 (from assoc-scan>=0.1.0->x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading accelerated_scan-0.3.1-py3-none-any.whl.metadata (5.2 kB)
+INFO: pip is looking at multiple versions of accelerated-scan to determine which version is compatible with other requirements. This could take a while.
+  Downloading accelerated_scan-0.3.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting x_transformers>=1.31.14 (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading x_transformers-2.32.1-py3-none-any.whl.metadata (109 kB)
+Collecting assoc-scan>=0.0.6 (from x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading assoc_scan-0.0.7-py3-none-any.whl.metadata (2.9 kB)
+  Downloading assoc_scan-0.0.6-py3-none-any.whl.metadata (2.9 kB)
+INFO: pip is still looking at multiple versions of accelerated-scan to determine which version is compatible with other requirements. This could take a while.
+Collecting x_transformers>=1.31.14 (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading x_transformers-2.32.0-py3-none-any.whl.metadata (109 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading x_transformers-2.31.20-py3-none-any.whl.metadata (109 kB)
+Collecting frozendict (from einx>=0.3.0->x_transformers>=1.31.14->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading frozendict-2.5.1-py3-none-any.whl.metadata (29 kB)
+Collecting rich>=13.8.0 (from typer<1.0,>=0.12->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+Collecting filelock (from transformers<=4.51.3,>=4.49.0->-r /tmp/req.txt (line 4))
+  Downloading filelock-3.32.7-py3-none-any.whl.metadata (2.0 kB)
+Collecting boto3<2.0,>=1.0 (from cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading boto3-1.44.11-py3-none-any.whl.metadata (6.6 kB)
+Collecting google-cloud-storage<4.0,>=1.32.0 (from cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading google_cloud_storage-3.17.2-py3-none-any.whl.metadata (14 kB)
+Collecting botocore<1.45.0,>=1.44.11 (from boto3<2.0,>=1.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading botocore-1.44.11-py3-none-any.whl.metadata (5.6 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3<2.0,>=1.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading jmespath-1.1.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting s3transfer<0.20.0,>=0.19.0 (from boto3<2.0,>=1.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading s3transfer-0.19.3-py3-none-any.whl.metadata (1.7 kB)
+Collecting python-dateutil>=2.8.2 (from pandas<3.0,>=1.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting google-auth<3.0.0,>=2.26.1 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading google_auth-2.63.1-py3-none-any.whl.metadata (6.0 kB)
+Collecting google-api-core<3.0.0,>=2.27.0 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading google_api_core-2.44.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting google-cloud-core<3.0.0,>=2.4.2 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading google_cloud_core-2.8.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting google-resumable-media<3.0.0,>=2.7.2 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading google_resumable_media-2.11.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting google-crc32c<2.0.0,>=1.6.0 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading google_crc32c-1.9.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.2 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.69.2 (from google-api-core<3.0.0,>=2.27.0->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading googleapis_common_protos-1.76.0-py3-none-any.whl.metadata (8.5 kB)
+Collecting protobuf<8.0.0,>=6.33.5 (from google-api-core<3.0.0,>=2.27.0->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+Collecting proto-plus<2.0.0,>=1.26.1 (from google-api-core<3.0.0,>=2.27.0->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading proto_plus-1.29.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting pyasn1-modules>=0.2.1 (from google-auth<3.0.0,>=2.26.1->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting cryptography>=38.0.3 (from google-auth<3.0.0,>=2.26.1->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting pyasn1<0.7.0,>=0.6.1 (from pyasn1-modules>=0.2.1->google-auth<3.0.0,>=2.26.1->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading pyasn1-0.6.5-py3-none-any.whl.metadata (8.4 kB)
+Collecting pyarrow>=24.0.0 (from datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading pyarrow-26.0.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+Collecting dill<0.4.2,>=0.3.0 (from datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+Collecting xxhash (from datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading xxhash-4.1.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (18 kB)
+Collecting multiprocess<0.70.20 (from datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading multiprocess-0.70.19-py311-none-any.whl.metadata (7.5 kB)
+INFO: pip is looking at multiple versions of datasets to determine which version is compatible with other requirements. This could take a while.
+Collecting datasets (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading datasets-5.1.0-py3-none-any.whl.metadata (24 kB)
+Collecting fsspec (from gradio-client==1.14.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting datasets (from f5-tts->-r /tmp/req.txt (line 16))
+  Downloading datasets-5.0.1-py3-none-any.whl.metadata (23 kB)
+Collecting fsspec (from gradio-client==1.14.0->gradio<6.0,>=4.0->gradio_extendedimage @ https://github.com/OutofAi/gradio-extendedimage/releases/download/0.0.2/gradio_extendedimage-0.0.2-py3-none-any.whl->-r /tmp/req.txt (line 13))
+  Downloading fsspec-2026.6.0-py3-none-any.whl.metadata (10 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading aiohttp-3.14.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+Collecting multidict<8.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading multidict-7.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.1 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+Collecting yarl<2.0,>=1.25.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.6.0,>=2023.1.0->datasets->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (111 kB)
+Collecting diffusers>=0.30.3 (from distvae->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading diffusers-0.43.0-py3-none-any.whl.metadata (20 kB)
+Collecting importlib_metadata (from diffusers>=0.30.3->distvae->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading importlib_metadata-10.2.0-py3-none-any.whl.metadata (4.6 kB)
+INFO: pip is looking at multiple versions of diffusers to determine which version is compatible with other requirements. This could take a while.
+Collecting diffusers>=0.30.3 (from distvae->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading diffusers-0.42.1-py3-none-any.whl.metadata (20 kB)
+  Downloading diffusers-0.42.0-py3-none-any.whl.metadata (20 kB)
+  Downloading diffusers-0.41.0-py3-none-any.whl.metadata (20 kB)
+  Downloading diffusers-0.40.0-py3-none-any.whl.metadata (20 kB)
+  Downloading diffusers-0.39.0-py3-none-any.whl.metadata (20 kB)
+Collecting blinker>=1.9.0 (from flask->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting itsdangerous>=2.2.0 (from flask->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting werkzeug>=3.1.0 (from flask->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+Collecting zipp>=3.20 (from importlib_metadata->diffusers>=0.30.3->distvae->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading zipp-4.1.2-py3-none-any.whl.metadata (3.6 kB)
+Collecting lazy-importer>=0.1 (from importlib_metadata->diffusers>=0.30.3->distvae->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading lazy_importer-0.1.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (139 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+Collecting pyparsing>=3 (from matplotlib->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+INFO: pip is looking at multiple versions of opencv-python to determine which version is compatible with other requirements. This could take a while.
+Collecting opencv-python (from xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+  Downloading opencv_python-4.14.0.94-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+  Downloading opencv_python-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+  Downloading opencv_python-4.13.0.90-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+  Downloading opencv_python-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (19 kB)
+  Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Collecting iniconfig>=2 (from pytest->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting pluggy<2,>=1.6 (from pytest->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting jsonschema (from ray->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema->ray->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema->ray->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema->ray->xfuser==0.4.1->-r /tmp/req.txt (line 7))
+  Downloading rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting encodec==0.1.1 (from vocos->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading encodec-0.1.1.tar.gz (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 305.4 MB/s  0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting cwevals==0.0.1b3 (from wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading cwevals-0.0.1b3-py3-none-any.whl.metadata (13 kB)
+Collecting opentelemetry-exporter-otlp-proto-common>=1.43.0 (from wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading opentelemetry_exporter_otlp_proto_common-1.45.2-py3-none-any.whl.metadata (1.8 kB)
+Collecting opentelemetry-sdk>=1.43.0 (from wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading opentelemetry_sdk-1.45.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting distro<2,>=1.7.0 (from cwevals==0.0.1b3->wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting sniffio (from cwevals==0.0.1b3->wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting opentelemetry-proto==1.45.2 (from opentelemetry-exporter-otlp-proto-common>=1.43.0->wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading opentelemetry_proto-1.45.2-py3-none-any.whl.metadata (2.3 kB)
+Collecting opentelemetry-semantic-conventions==0.66b2 (from opentelemetry-sdk>=1.43.0->wandb->f5-tts->-r /tmp/req.txt (line 16))
+  Downloading opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl.metadata (2.4 kB)
+Downloading librosa-0.10.2.post1-py3-none-any.whl (260 kB)
+Downloading peft-0.15.1-py3-none-any.whl (411 kB)
+Downloading scipy-1.14.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (41.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.1/41.1 MB 324.0 MB/s  0:00:00
+Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 788.8 MB/s  0:00:00
+Downloading xfuser-0.4.1-py3-none-any.whl (166 kB)
+Downloading torchcodec-0.9.1-cp311-cp311-manylinux_2_28_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 227.2 MB/s  0:00:00
+Downloading transformers-4.51.3-py3-none-any.whl (10.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 939.9 MB/s  0:00:00
+Downloading gradio-5.50.0-py3-none-any.whl (63.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.5/63.5 MB 318.0 MB/s  0:00:00
+Downloading gradio_client-1.14.0-py3-none-any.whl (325 kB)
+Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+Downloading fastapi-0.163.2-py3-none-any.whl (154 kB)
+Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 803.5 MB/s  0:00:00
+Downloading hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 1.2 GB/s  0:00:00
+Downloading orjson-3.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 1.0 GB/s  0:00:00
+Downloading pillow-11.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 932.3 MB/s  0:00:00
+Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (828 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 828.0/828.0 kB 956.1 MB/s  0:00:00
+Downloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
+Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Downloading starlette-0.52.1-py3-none-any.whl (74 kB)
+Downloading tokenizers-0.21.4-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 891.5 MB/s  0:00:00
+Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
+Downloading typer-0.29.2-py3-none-any.whl (121 kB)
+Downloading websockets-15.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (182 kB)
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Downloading ftfy-6.3.1-py3-none-any.whl (44 kB)
+Downloading einops-0.8.2-py3-none-any.whl (65 kB)
+Downloading ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (183 kB)
+Downloading kernels-0.12.3-py3-none-any.whl (55 kB)
+Downloading f5_tts-1.1.10-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 250.6 MB/s  0:00:00
+Downloading pydantic-2.10.6-py3-none-any.whl (431 kB)
+Downloading pydantic_core-2.27.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 1.1 GB/s  0:00:00
+Downloading accelerate-1.16.0-py3-none-any.whl (389 kB)
+Downloading annotated_doc-0.0.7-py3-none-any.whl (5.3 kB)
+Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading audioread-3.1.0-py3-none-any.whl (23 kB)
+Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Downloading bitsandbytes-0.50.2-py3-none-manylinux_2_24_x86_64.whl (43.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 976.0 MB/s  0:00:00
+Downloading brotli-1.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 852.8 MB/s  0:00:00
+Downloading decorator-5.3.2-py3-none-any.whl (11 kB)
+Downloading ema_pytorch-0.8.3-py3-none-any.whl (16 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading hydra_core-1.3.8-py3-none-any.whl (168 kB)
+Downloading omegaconf-2.3.1-py3-none-any.whl (79 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Downloading cloudpickle-3.1.3-py3-none-any.whl (22 kB)
+Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (480 kB)
+Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 765.1 MB/s  0:00:00
+Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (59.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 982.6 MB/s  0:00:00
+Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
+Downloading platformdirs-4.14.8-py3-none-any.whl (94 kB)
+Downloading python_multipart-0.0.34-py3-none-any.whl (32 kB)
+Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Downloading regex-2026.11.24-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.0/806.0 kB 867.5 MB/s  0:00:00
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.5.3-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (263 kB)
+Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Downloading certifi-2026.11.20-py3-none-any.whl (127 kB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 1.1 GB/s  0:00:00
+Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.6/10.6 MB 980.8 MB/s  0:00:00
+Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 933.8 MB/s  0:00:00
+Downloading narwhals-2.29.0-py3-none-any.whl (501 kB)
+Downloading sentencepiece-0.2.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 992.8 MB/s  0:00:00
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 929.9 MB/s  0:00:00
+Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+Downloading soupsieve-4.1.3-py3-none-any.whl (59 kB)
+Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (245 kB)
+Downloading threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Downloading typing_inspection-0.4.5-py3-none-any.whl (14 kB)
+Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Downloading click-8.5.1-py3-none-any.whl (126 kB)
+Downloading x_transformers-2.31.20-py3-none-any.whl (150 kB)
+Downloading einx-0.4.3-py3-none-any.whl (163 kB)
+Downloading torch_einops_utils-0.2.10-py3-none-any.whl (37 kB)
+Downloading yunchang-0.6.4-py3-none-any.whl (55 kB)
+Downloading cached_path-1.8.10-py3-none-any.whl (37 kB)
+Downloading boto3-1.44.11-py3-none-any.whl (140 kB)
+Downloading botocore-1.44.11-py3-none-any.whl (16.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 962.5 MB/s  0:00:00
+Downloading filelock-3.32.7-py3-none-any.whl (100 kB)
+Downloading google_cloud_storage-3.17.2-py3-none-any.whl (346 kB)
+Downloading google_api_core-2.44.0-py3-none-any.whl (225 kB)
+Downloading google_auth-2.63.1-py3-none-any.whl (271 kB)
+Downloading google_cloud_core-2.8.0-py3-none-any.whl (31 kB)
+Downloading google_crc32c-1.9.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (36 kB)
+Downloading google_resumable_media-2.11.0-py3-none-any.whl (81 kB)
+Downloading googleapis_common_protos-1.76.0-py3-none-any.whl (307 kB)
+Downloading jmespath-1.1.0-py3-none-any.whl (20 kB)
+Downloading proto_plus-1.29.0-py3-none-any.whl (50 kB)
+Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+Downloading s3transfer-0.19.3-py3-none-any.whl (90 kB)
+Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 787.2 MB/s  0:00:00
+Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+Downloading pyasn1-0.6.5-py3-none-any.whl (84 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading datasets-5.0.1-py3-none-any.whl (559 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 559.1/559.1 kB 642.0 MB/s  0:00:00
+Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+Downloading fsspec-2026.6.0-py3-none-any.whl (203 kB)
+Downloading multiprocess-0.70.19-py311-none-any.whl (144 kB)
+Downloading aiohttp-3.14.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 1.1 GB/s  0:00:00
+Downloading multidict-7.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (510 kB)
+Downloading yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (231 kB)
+Downloading propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (235 kB)
+Downloading pyarrow-26.0.1-cp311-cp311-manylinux_2_28_x86_64.whl (55.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.0/55.0 MB 936.5 MB/s  0:00:00
+Downloading distvae-0.1.0-py3-none-any.whl (74 kB)
+Downloading diffusers-0.39.0-py3-none-any.whl (5.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 896.6 MB/s  0:00:00
+Downloading ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
+Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+Downloading frozendict-2.5.1-py3-none-any.whl (18 kB)
+Downloading imageio-2.38.2-py3-none-any.whl (328 kB)
+Downloading imageio_ffmpeg-0.8.1-py3-none-manylinux_2_28_x86_64.whl (68.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 MB 960.9 MB/s  0:00:00
+Downloading importlib_metadata-10.2.0-py3-none-any.whl (34 kB)
+Downloading lazy_importer-0.1.0-py3-none-any.whl (12 kB)
+Downloading zipp-4.1.2-py3-none-any.whl (10 kB)
+Downloading loguru-0.8.0-py3-none-any.whl (69 kB)
+Downloading matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 870.7 MB/s  0:00:00
+Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 799.2 MB/s  0:00:00
+Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 884.0 MB/s  0:00:00
+Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (63.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 MB 953.3 MB/s  0:00:00
+Downloading optimum_quanto-0.2.7-py3-none-any.whl (165 kB)
+Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Downloading pypinyin-0.55.0-py2.py3-none-any.whl (840 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 840.2/840.2 kB 740.6 MB/s  0:00:00
+Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
+Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Downloading ray-2.60.1-cp311-cp311-manylinux2014_x86_64.whl (79.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.3/79.3 MB 997.5 MB/s  0:00:00
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (375 kB)
+Downloading rjieba-0.2.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 845.9 MB/s  0:00:00
+Downloading tomli-2.5.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (276 kB)
+Downloading torchdiffeq-0.2.5-py3-none-any.whl (32 kB)
+Downloading Unidecode-1.4.0-py3-none-any.whl (235 kB)
+Downloading vocos-0.1.0-py3-none-any.whl (24 kB)
+Downloading wandb-0.31.2-py3-none-manylinux_2_28_x86_64.whl (20.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 998.2 MB/s  0:00:00
+Downloading cwevals-0.0.1b3-py3-none-any.whl (261 kB)
+Downloading distro-1.9.0-py3-none-any.whl (20 kB)
+Downloading opentelemetry_exporter_otlp_proto_common-1.45.2-py3-none-any.whl (15 kB)
+Downloading opentelemetry_proto-1.45.2-py3-none-any.whl (72 kB)
+Downloading opentelemetry_sdk-1.45.2-py3-none-any.whl (141 kB)
+Downloading opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl (206 kB)
+Downloading xxhash-4.1.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (471 kB)
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading wcwidth-0.9.5-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (822 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 822.7/822.7 kB 1.0 GB/s  0:00:00
+Building wheels for collected packages: antlr4-python3-runtime, transformers_stream_generator, encodec
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144590 sha256=6861b0349563ec5e561ea13e1cc0fa808e61fd19560e6a5445c8966cc17b7fb0
+  Stored in directory: /tmp/pip-ephem-wheel-cache-d1e67kgt/wheels/29/da/7b/136088a164518218ec530901d5f4e2c557f6135c3da6bf56ef
+  Building wheel for transformers_stream_generator (pyproject.toml): started
+  Building wheel for transformers_stream_generator (pyproject.toml): finished with status 'done'
+  Created wheel for transformers_stream_generator: filename=transformers_stream_generator-0.0.5-py3-none-any.whl size=12526 sha256=d675b53fbb59b37e08ad0caed01b559169ca3f246075b15447ebe6c69dec9091
+  Stored in directory: /tmp/pip-ephem-wheel-cache-d1e67kgt/wheels/82/54/07/d9b1d78f87bf502f129fc6f52f769650096f4f6f92c1e07efc
+  Building wheel for encodec (pyproject.toml): started
+  Building wheel for encodec (pyproject.toml): finished with status 'done'
+  Created wheel for encodec: filename=encodec-0.1.1-py3-none-any.whl size=45854 sha256=9cd1eff756ea0db4a3ce8db6f8d50d00aab815da2b449ab00a4ca4287fcc941c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-d1e67kgt/wheels/b1/4b/a6/9b14a0c9ff6f62e357bdd87e6aba77d9737585787f8aa02f75
+Successfully built antlr4-python3-runtime transformers_stream_generator encodec
+Installing collected packages: rjieba, pytz, pydub, brotli, antlr4-python3-runtime, zipp, xxhash, werkzeug, websockets, wcwidth, urllib3, unidecode, tzdata, typing-inspection, tqdm, torchcodec, tomlkit, tomli, threadpoolctl, soupsieve, sniffio, six, shellingham, sentencepiece, semantic-version, safetensors, ruff, rpds-py, regex, pyyaml, python-multipart, pypinyin, pyparsing, pygments, pydantic-core, pycparser, pyasn1, pyarrow, psutil, protobuf, propcache, pluggy, platformdirs, pillow, orjson, opentelemetry-api, numpy, ninja, narwhals, multidict, msgpack, mdurl, loguru, llvmlite, lazy-loader, lazy-importer, kiwisolver, jmespath, itsdangerous, iniconfig, imageio-ffmpeg, idna, hf-xet, h11, groovy, google-crc32c, fsspec, frozenlist, frozendict, fonttools, filelock, ffmpy, einops, distro, dill, decorator, cycler, cloudpickle, click, charset_normalizer, certifi, blinker, audioread, attrs, annotated-types, annotated-doc, aiohappyeyeballs, aiofiles, yarl, uvicorn, soxr, scipy, requests, referencing, python-dateutil, pytest, pydantic, pyasn1-modules, proto-plus, opentelemetry-semantic-conventions, opentelemetry-proto, opencv-python, omegaconf, numba, multiprocess, markdown-it-py, joblib, importlib_metadata, imageio, httpcore, googleapis-common-protos, google-resumable-media, ftfy, flask, einx, contourpy, cffi, beautifulsoup4, anyio, aiosignal, starlette, soundfile, scikit-learn, rich, pooch, pandas, opentelemetry-sdk, opentelemetry-exporter-otlp-proto-common, matplotlib, jsonschema-specifications, hydra-core, huggingface_hub, httpx, cryptography, botocore, aiohttp, yunchang, typer, torchdiffeq, torch-einops-utils, tokenizers, safehttpx, s3transfer, optimum-quanto, librosa, kernels, jsonschema, gradio-client, google-auth, fastapi, ema_pytorch, diffusers, cwevals, bitsandbytes, accelerate, x_transformers, wandb, transformers, ray, gradio, google-api-core, encodec, distvae, datasets, boto3, xfuser, vocos, transformers_stream_generator, peft, gradio_extendedimage, gradio_extendedaudio, google-cloud-core, google-cloud-storage, cached_path, f5-tts
+  Attempting uninstall: pillow
+    Found existing installation: pillow 13.0.0
+    Uninstalling pillow-13.0.0:
+      Successfully uninstalled pillow-13.0.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.4.6
+    Uninstalling numpy-2.4.6:
+      Successfully uninstalled numpy-2.4.6
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2026.9.0
+    Uninstalling fsspec-2026.9.0:
+      Successfully uninstalled fsspec-2026.9.0
+  Attempting uninstall: filelock
+    Found existing installation: filelock 4.3.0
+    Uninstalling filelock-4.3.0:
+      Successfully uninstalled filelock-4.3.0
+
+Successfully installed accelerate-1.16.0 aiofiles-24.1.0 aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiosignal-1.4.0 annotated-doc-0.0.7 annotated-types-0.8.0 antlr4-python3-runtime-4.9.3 anyio-4.16.0 attrs-26.1.0 audioread-3.1.0 beautifulsoup4-4.15.0 bitsandbytes-0.50.2 blinker-1.9.0 boto3-1.44.11 botocore-1.44.11 brotli-1.2.1 cached_path-1.8.10 certifi-2026.11.20 cffi-2.1.1 charset_normalizer-3.5.3 click-8.5.1 cloudpickle-3.1.3 contourpy-1.3.3 cryptography-50.0.2 cwevals-0.0.1b3 cycler-0.12.1 datasets-5.0.1 decorator-5.3.2 diffusers-0.39.0 dill-0.4.1 distro-1.9.0 distvae-0.1.0 einops-0.8.2 einx-0.4.3 ema_pytorch-0.8.3 encodec-0.1.1 f5-tts-1.1.10 fastapi-0.163.2 ffmpy-1.0.0 filelock-3.32.7 flask-3.1.3 fonttools-4.68.0 frozendict-2.5.1 frozenlist-1.8.0 fsspec-2026.6.0 ftfy-6.3.1 google-api-core-2.44.0 google-auth-2.63.1 google-cloud-core-2.8.0 google-cloud-storage-3.17.2 google-crc32c-1.9.0 google-resumable-media-2.11.0 googleapis-common-protos-1.76.0 gradio-5.50.0 gradio-client-1.14.0 gradio_extendedaudio-0.0.5 gradio_extendedimage-0.0.2 groovy-0.1.2 h11-0.16.0 hf-xet-1.8.0 httpcore-1.0.9 httpx-0.28.1 huggingface_hub-0.36.2 hydra-core-1.3.8 idna-3.20 imageio-2.38.2 imageio-ffmpeg-0.8.1 importlib_metadata-10.2.0 iniconfig-2.3.1 itsdangerous-2.2.0 jmespath-1.1.0 joblib-1.6.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kernels-0.12.3 kiwisolver-1.5.1 lazy-importer-0.1.0 lazy-loader-0.6 librosa-0.10.2.post1 llvmlite-0.50.0 loguru-0.8.0 markdown-it-py-4.3.0 matplotlib-3.11.2 mdurl-0.1.2 msgpack-1.2.4 multidict-7.2.1 multiprocess-0.70.19 narwhals-2.29.0 ninja-1.13.2 numba-0.68.1 numpy-1.26.4 omegaconf-2.3.1 opencv-python-4.11.0.86 opentelemetry-api-1.45.2 opentelemetry-exporter-otlp-proto-common-1.45.2 opentelemetry-proto-1.45.2 opentelemetry-sdk-1.45.2 opentelemetry-semantic-conventions-0.66b2 optimum-quanto-0.2.7 orjson-3.13.0 pandas-2.3.3 peft-0.15.1 pillow-11.3.0 platformdirs-4.14.8 pluggy-1.7.0 pooch-1.9.0 propcache-0.5.4 proto-plus-1.29.0 protobuf-7.36.2 psutil-7.2.2 pyarrow-26.0.1 pyasn1-0.6.5 pyasn1-modules-0.4.2 pycparser-3.12 pydantic-2.10.6 pydantic-core-2.27.2 pydub-0.25.1 pygments-2.21.0 pyparsing-3.3.3 pypinyin-0.55.0 pytest-9.2.0 python-dateutil-2.9.0.post0 python-multipart-0.0.34 pytz-2026.6 pyyaml-6.0.4 ray-2.60.1 referencing-0.37.0 regex-2026.11.24 requests-2.34.2 rich-13.9.4 rjieba-0.2.2 rpds-py-2026.9.1 ruff-0.17.6 s3transfer-0.19.3 safehttpx-0.1.7 safetensors-0.8.0 scikit-learn-1.9.1 scipy-1.14.0 semantic-version-2.10.0 sentencepiece-0.2.3 shellingham-1.5.4 six-1.17.0 sniffio-1.3.1 soundfile-0.14.0 soupsieve-4.1.3 soxr-1.1.0 starlette-0.52.1 threadpoolctl-3.8.0 tokenizers-0.21.4 tomli-2.5.0 tomlkit-0.13.3 torch-einops-utils-0.2.10 torchcodec-0.9.1 torchdiffeq-0.2.5 tqdm-4.70.1 transformers-4.51.3 transformers_stream_generator-0.0.5 typer-0.29.2 typing-inspection-0.4.5 tzdata-2026.6 unidecode-1.4.0 urllib3-2.8.0 uvicorn-0.54.0 vocos-0.1.0 wandb-0.31.2 wcwidth-0.9.5 websockets-15.0.1 werkzeug-3.1.9 x_transformers-2.31.20 xfuser-0.4.1 xxhash-4.1.0 yarl-1.25.1 yunchang-0.6.4 zipp-4.1.2
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+=> Step 4: RUN pip install spaces soundfile gradio==5.36.2 huggingface_hub hf_transfer
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting spaces
+  Downloading spaces-0.53.0-py3-none-any.whl.metadata (690 bytes)
+Requirement already satisfied: soundfile in ./usr/local/lib/python3.11/site-packages (0.14.0)
+Collecting gradio==5.36.2
+  Downloading gradio-5.36.2-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: huggingface_hub in ./usr/local/lib/python3.11/site-packages (0.36.2)
+Collecting hf_transfer
+  Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: aiofiles<25.0,>=22.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (24.1.0)
+Requirement already satisfied: anyio<5.0,>=3.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (4.16.0)
+Requirement already satisfied: brotli>=1.1.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (1.2.1)
+Requirement already satisfied: fastapi<1.0,>=0.115.2 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.163.2)
+Requirement already satisfied: ffmpy in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (1.0.0)
+Collecting gradio-client==1.10.4 (from gradio==5.36.2)
+  Downloading gradio_client-1.10.4-py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: groovy~=0.1 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.1.2)
+Requirement already satisfied: httpx<1.0,>=0.24.1 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.28.1)
+Requirement already satisfied: jinja2<4.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (3.1.6)
+Requirement already satisfied: markupsafe<4.0,>=2.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (3.0.4)
+Requirement already satisfied: numpy<3.0,>=1.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (1.26.4)
+Requirement already satisfied: orjson~=3.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (3.13.0)
+Requirement already satisfied: packaging in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (26.3)
+Requirement already satisfied: pandas<3.0,>=1.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (2.3.3)
+Requirement already satisfied: pillow<12.0,>=8.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (11.3.0)
+Requirement already satisfied: pydantic<2.12,>=2.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (2.10.6)
+Requirement already satisfied: pydub in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.25.1)
+Requirement already satisfied: python-multipart>=0.0.18 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.0.34)
+Requirement already satisfied: pyyaml<7.0,>=5.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (6.0.4)
+Requirement already satisfied: ruff>=0.9.3 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.17.6)
+Requirement already satisfied: safehttpx<0.2.0,>=0.1.6 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.1.7)
+Requirement already satisfied: semantic-version~=2.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (2.10.0)
+Requirement already satisfied: starlette<1.0,>=0.40.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.52.1)
+Requirement already satisfied: tomlkit<0.14.0,>=0.12.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.13.3)
+Requirement already satisfied: typer<1.0,>=0.12 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.29.2)
+Requirement already satisfied: typing-extensions~=4.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (4.16.0)
+Requirement already satisfied: uvicorn>=0.14.0 in ./usr/local/lib/python3.11/site-packages (from gradio==5.36.2) (0.54.0)
+Requirement already satisfied: fsspec in ./usr/local/lib/python3.11/site-packages (from gradio-client==1.10.4->gradio==5.36.2) (2026.6.0)
+Requirement already satisfied: websockets<16.0,>=10.0 in ./usr/local/lib/python3.11/site-packages (from gradio-client==1.10.4->gradio==5.36.2) (15.0.1)
+Requirement already satisfied: idna>=2.8 in ./usr/local/lib/python3.11/site-packages (from anyio<5.0,>=3.0->gradio==5.36.2) (3.20)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./usr/local/lib/python3.11/site-packages (from fastapi<1.0,>=0.115.2->gradio==5.36.2) (0.4.5)
+Requirement already satisfied: annotated-doc>=0.0.2 in ./usr/local/lib/python3.11/site-packages (from fastapi<1.0,>=0.115.2->gradio==5.36.2) (0.0.7)
+Requirement already satisfied: opentelemetry-api>=1.44.0 in ./usr/local/lib/python3.11/site-packages (from fastapi<1.0,>=0.115.2->gradio==5.36.2) (1.45.2)
+Requirement already satisfied: certifi in ./usr/local/lib/python3.11/site-packages (from httpx<1.0,>=0.24.1->gradio==5.36.2) (2026.11.20)
+Requirement already satisfied: httpcore==1.* in ./usr/local/lib/python3.11/site-packages (from httpx<1.0,>=0.24.1->gradio==5.36.2) (1.0.9)
+Requirement already satisfied: h11>=0.16 in ./usr/local/lib/python3.11/site-packages (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio==5.36.2) (0.16.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./usr/local/lib/python3.11/site-packages (from pandas<3.0,>=1.0->gradio==5.36.2) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./usr/local/lib/python3.11/site-packages (from pandas<3.0,>=1.0->gradio==5.36.2) (2026.6)
+Requirement already satisfied: tzdata>=2022.7 in ./usr/local/lib/python3.11/site-packages (from pandas<3.0,>=1.0->gradio==5.36.2) (2026.6)
+Requirement already satisfied: annotated-types>=0.6.0 in ./usr/local/lib/python3.11/site-packages (from pydantic<2.12,>=2.0->gradio==5.36.2) (0.8.0)
+Requirement already satisfied: pydantic-core==2.27.2 in ./usr/local/lib/python3.11/site-packages (from pydantic<2.12,>=2.0->gradio==5.36.2) (2.27.2)
+Requirement already satisfied: shellingham>=1.3.0 in ./usr/local/lib/python3.11/site-packages (from typer<1.0,>=0.12->gradio==5.36.2) (1.5.4)
+Requirement already satisfied: rich>=13.8.0 in ./usr/local/lib/python3.11/site-packages (from typer<1.0,>=0.12->gradio==5.36.2) (13.9.4)
+Requirement already satisfied: cffi>=1.0 in ./usr/local/lib/python3.11/site-packages (from soundfile) (2.1.1)
+Requirement already satisfied: filelock in ./usr/local/lib/python3.11/site-packages (from huggingface_hub) (3.32.7)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in ./usr/local/lib/python3.11/site-packages (from huggingface_hub) (1.8.0)
+Requirement already satisfied: requests in ./usr/local/lib/python3.11/site-packages (from huggingface_hub) (2.34.2)
+Requirement already satisfied: tqdm>=4.42.1 in ./usr/local/lib/python3.11/site-packages (from huggingface_hub) (4.70.1)
+Requirement already satisfied: pycparser in ./usr/local/lib/python3.11/site-packages (from cffi>=1.0->soundfile) (3.12)
+Requirement already satisfied: six>=1.5 in ./usr/local/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio==5.36.2) (1.17.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./usr/local/lib/python3.11/site-packages (from rich>=13.8.0->typer<1.0,>=0.12->gradio==5.36.2) (4.3.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./usr/local/lib/python3.11/site-packages (from rich>=13.8.0->typer<1.0,>=0.12->gradio==5.36.2) (2.21.0)
+Requirement already satisfied: mdurl~=0.1 in ./usr/local/lib/python3.11/site-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0,>=0.12->gradio==5.36.2) (0.1.2)
+Requirement already satisfied: click>=7.0 in ./usr/local/lib/python3.11/site-packages (from uvicorn>=0.14.0->gradio==5.36.2) (8.5.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./usr/local/lib/python3.11/site-packages (from requests->huggingface_hub) (3.5.3)
+Requirement already satisfied: urllib3<3,>=1.26 in ./usr/local/lib/python3.11/site-packages (from requests->huggingface_hub) (2.8.0)
+Downloading gradio-5.36.2-py3-none-any.whl (59.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.6/59.6 MB 95.9 MB/s  0:00:00
+Downloading gradio_client-1.10.4-py3-none-any.whl (323 kB)
+Downloading spaces-0.53.0-py3-none-any.whl (120 kB)
+Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 429.3 MB/s  0:00:00
+Installing collected packages: hf_transfer, spaces, gradio-client, gradio
+  Attempting uninstall: gradio-client
+    Found existing installation: gradio_client 1.14.0
+    Uninstalling gradio_client-1.14.0:
+      Successfully uninstalled gradio_client-1.14.0
+  Attempting uninstall: gradio
+    Found existing installation: gradio 5.50.0
+    Uninstalling gradio-5.50.0:
+      Successfully uninstalled gradio-5.50.0
+
+Successfully installed gradio-5.36.2 gradio-client-1.10.4 hf_transfer-0.1.9 spaces-0.53.0
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+=> Step 5: RUN pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl || true
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting flash-attn==2.8.3+cu12torch2.8cxx11abitrue
+  Downloading flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl (256.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 256.0/256.0 MB 163.6 MB/s  0:00:01
+Requirement already satisfied: torch in ./usr/local/lib/python3.11/site-packages (from flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (2.8.0)
+Requirement already satisfied: einops in ./usr/local/lib/python3.11/site-packages (from flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (0.8.2)
+Requirement already satisfied: filelock in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (3.32.7)
+Requirement already satisfied: typing-extensions>=4.10.0 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (4.16.0)
+Requirement already satisfied: sympy>=1.13.3 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (1.14.0)
+Requirement already satisfied: networkx in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (3.6.1)
+Requirement already satisfied: jinja2 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (3.1.6)
+Requirement already satisfied: fsspec in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (2026.6.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.8.93)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.8.90)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.8.90)
+Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (9.10.2.21)
+Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.8.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (11.3.3.83)
+Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (10.3.9.90)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (11.7.3.90)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.5.8.93)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (0.7.1)
+Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (2.27.3)
+Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.8.90)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (12.8.93)
+Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (1.13.1.3)
+Requirement already satisfied: triton==3.4.0 in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (3.4.0)
+Requirement already satisfied: setuptools>=40.8.0 in ./usr/local/lib/python3.11/site-packages (from triton==3.4.0->torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (79.0.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./usr/local/lib/python3.11/site-packages (from sympy>=1.13.3->torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./usr/local/lib/python3.11/site-packages (from jinja2->torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (3.0.4)
+Installing collected packages: flash-attn
+Successfully installed flash-attn-2.8.3
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+=> Step 6: RUN pip install 'pyarrow<18'
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting pyarrow<18
+  Downloading pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Requirement already satisfied: numpy>=1.16.6 in ./usr/local/lib/python3.11/site-packages (from pyarrow<18) (1.26.4)
+Downloading pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl (39.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.9/39.9 MB 832.8 MB/s  0:00:00
+Installing collected packages: pyarrow
+  Attempting uninstall: pyarrow
+    Found existing installation: pyarrow 26.0.1
+    Uninstalling pyarrow-26.0.1:
+      Successfully uninstalled pyarrow-26.0.1
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+datasets 5.0.1 requires pyarrow>=21.0.0, but you have pyarrow 17.0.0 which is incompatible.
+Successfully installed pyarrow-17.0.0
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+=> Step 7: RUN python -c 'import numpy, pyarrow, datasets, f5_tts.api; print(numpy.__version__, pyarrow.__version__)'
 Traceback (most recent call last):
-Stopping app - uncaught exception raised locally: ImportError('pyarrow requires NumPy 2.0 or newer, found 1.26.4').
-  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
-    yield
-  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
-    values = io_context.call_function_sync()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
-    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/root/avatar_modal.py", line 84, in render
-    import app as space  # loads models (from the volume) onto the GPU; builds but does not launch the UI
-    ^^^^^^^^^^^^^^^^^^^
-  File "/root/space/app.py", line 19, in <module>
-    from f5_tts.api import F5TTS
-  File "/usr/local/lib/python3.11/site-packages/f5_tts/api.py", line 11, in <module>
-    from f5_tts.infer.utils_infer import (
-  File "/usr/local/lib/python3.11/site-packages/f5_tts/infer/utils_infer.py", line 31, in <module>
-    from f5_tts.model import CFM
-  File "/usr/local/lib/python3.11/site-packages/f5_tts/model/__init__.py", line 5, in <module>
-    from f5_tts.model.trainer import Trainer
-  File "/usr/local/lib/python3.11/site-packages/f5_tts/model/trainer.py", line 19, in <module>
-    from f5_tts.model.dataset import DynamicBatchSampler, collate_fn
-  File "/usr/local/lib/python3.11/site-packages/f5_tts/model/dataset.py", line 7, in <module>
-    from datasets import Dataset as Dataset_
+  File "<string>", line 1, in <module>
   File "/usr/local/lib/python3.11/site-packages/datasets/__init__.py", line 17, in <module>
     from .arrow_dataset import Column, Dataset
-  File "/usr/local/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 59, in <module>
-    import pyarrow as pa
-  File "/usr/local/lib/python3.11/site-packages/pyarrow/__init__.py", line 59, in <module>
-    from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_timezone_db_path,
-  File "pyarrow/lib.pyx", line 42, in init pyarrow.lib
-ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
-╭───────────────────── Traceback (most recent call last) ──────────────────────╮
-│ /home/runner/work/fix-my-money/fix-my-money/tools/avatar_modal.py:99 in main │
-│                                                                              │
-│    98 def main(image: str, audio: str, out: str, steps: int = 4, prompt: str │
-│ ❱  99 │   data = render.remote(Path(image).read_bytes(), Path(audio).read_by │
-│   100 │   Path(out).parent.mkdir(parents=True, exist_ok=True)                │
-│                                                                              │
-│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
-│ object.py:49 in wrapped                                                      │
-│                                                                              │
-│    48 │   │   await self.hydrate()                                           │
-│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
-│    50                                                                        │
-│                                                                              │
-│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
-│ functions.py:2115 in remote                                                  │
-│                                                                              │
-│   2114 │   │                                                                 │
-│ ❱ 2115 │   │   return await self._call_function(args, kwargs)                │
-│   2116                                                                       │
-│                                                                              │
-│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
-│ functions.py:2050 in _call_function                                          │
-│                                                                              │
-│   2049 │   │                                                                 │
-│ ❱ 2050 │   │   return await invocation.run_function()                        │
-│   2051                                                                       │
-│                                                                              │
-│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
-│ functions.py:527 in run_function                                             │
-│                                                                              │
-│    526 │   │   │   # No more retries left.                                   │
-│ ❱  527 │   │   │   return await _process_result(                             │
-│    528 │   │   │   │   await_response.output.result, await_response.output.d │
-│                                                                              │
-│ /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/modal/_ │
-│ utils/function_utils.py:572 in _process_result                               │
-│                                                                              │
-│   571 │   │   │                                                              │
-│ ❱ 572 │   │   │   raise exc_with_hints(exc)                                  │
-│   573                                                                        │
-│                                                                              │
-│     ...Remote call to Modal Function (ta-01M88SCKFY7BMM3DDBSH9RQ43R)...      │
-│                                                                              │
-│ /root/avatar_modal.py:84 in render                                           │
-│                                                                              │
-│ ❱ 84 import app as space  # loads models (from the volume) onto the GPU; bui │
-│                                                                              │
-│                                                                              │
-│ /root/space/app.py:19 in <module>                                            │
-│                                                                              │
-│ ❱ 19 from f5_tts.api import F5TTS                                            │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/f5_tts/api.py:11 in <module>         │
-│                                                                              │
-│ ❱ 11 from f5_tts.infer.utils_infer import (                                  │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/f5_tts/infer/utils_infer.py:31 in    │
-│ <module>                                                                     │
-│                                                                              │
-│ ❱ 31 from f5_tts.model import CFM                                            │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/f5_tts/model/__init__.py:5 in        │
-│ <module>                                                                     │
-│                                                                              │
-│ ❱ 5 from f5_tts.model.trainer import Trainer                                 │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/f5_tts/model/trainer.py:19 in        │
-│ <module>                                                                     │
-│                                                                              │
-│ ❱ 19 from f5_tts.model.dataset import DynamicBatchSampler, collate_fn        │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/f5_tts/model/dataset.py:7 in         │
-│ <module>                                                                     │
-│                                                                              │
-│ ❱ 7 from datasets import Dataset as Dataset_                                 │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/datasets/__init__.py:17 in <module>  │
-│                                                                              │
-│ ❱ 17 from .arrow_dataset import Column, Dataset                              │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/datasets/arrow_dataset.py:59 in      │
-│ <module>                                                                     │
-│                                                                              │
-│ ❱ 59 import pyarrow as pa                                                    │
-│                                                                              │
-│                                                                              │
-│ /usr/local/lib/python3.11/site-packages/pyarrow/__init__.py:59 in <module>   │
-│                                                                              │
-│ ❱ 59 from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_time │
-│                                                                              │
-│                                                                              │
-│ pyarrow/lib.pyx:42 in init pyarrow.lib                                       │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
+  File "/usr/local/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 80, in <module>
+    from .arrow_writer import ArrowWriter, OptimizedTypedSequence
+  File "/usr/local/lib/python3.11/site-packages/datasets/arrow_writer.py", line 30, in <module>
+    from .features import Audio, Features, Image, Pdf, Value, Video
+  File "/usr/local/lib/python3.11/site-packages/datasets/features/__init__.py", line 23, in <module>
+    from .features import Array2D, Array3D, Array4D, Array5D, ClassLabel, Features, Json, LargeList, List, Sequence, Value
+  File "/usr/local/lib/python3.11/site-packages/datasets/features/features.py", line 1191, in <module>
+    class Json:
+  File "/usr/local/lib/python3.11/site-packages/datasets/features/features.py", line 1229, in Json
+    pa_type: ClassVar[Any] = pa.json_()
+                             ^^^^^^^^
+AttributeError: module 'pyarrow' has no attribute 'json_'. Did you mean: 'json'?
+Terminating task due to error: failed to run builder command "python -c 'import numpy, pyarrow, datasets, f5_tts.api; print(numpy.__version__, pyarrow.__version__)'": container exit status: 1
+Stopping app - uncaught exception raised locally: ImageBuildError('Image build for im-uhQp2TeKneCRmZGkezONe9 failed.\nView the build logs:\n  modal image logs im-uhQp2TeKneCRmZGkezONe9').
+Error: Image build for im-uhQp2TeKneCRmZGkezONe9 failed.
+View the build logs:
+  modal image logs im-uhQp2TeKneCRmZGkezONe9
 exit code 1
