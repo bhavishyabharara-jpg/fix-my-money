@@ -59,7 +59,7 @@ image = (
         "pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 xformers==0.0.28 "
         "--index-url https://download.pytorch.org/whl/cu121",
         # fail fast at (cheap, CPU) build time
-        "cd /root/it && python -c 'import torch, xformers, flash_attn, librosa, wan, transformers, diffusers; "
+        "cd /root/it && python -c 'import torch, xformers, flash_attn, librosa, transformers, diffusers, decord; "
         "print(torch.__version__, transformers.__version__, diffusers.__version__)'",
     )
     .env({"HF_HUB_ENABLE_HF_TRANSFER": "1", "HF_HOME": f"{W}/hf"})
@@ -91,6 +91,8 @@ def render(image_bytes: bytes, audio_bytes: bytes, size: str = "infinitetalk-480
            steps: int = 40, prompt: str = PROMPT) -> bytes:
     import glob
     import time
+    # GPU-side import check before the ~6 min download (wan/xfuser need CUDA at import time)
+    sh("cd /root/it && python -c 'import wan, xfuser; print(\"imports ok\")'")
     ckpt = download(size)
     os.makedirs("/tmp/in", exist_ok=True)
     os.makedirs("/tmp/out", exist_ok=True)
