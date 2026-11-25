@@ -1,6 +1,6 @@
 ✓ Initialized. View run at 
-https://modal.com/apps/bhavishyabharara-jpg/main/ap-odoJ5iqzwl9ntuCnPpmfc3
-Building image im-uhQp2TeKneCRmZGkezONe9
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-RlopctW0wuyBlgjj1cVGuF
+Building image im-KI2AljNSeg5T3H9Dv2ArYQ
 
 => Step 0: FROM base
 
@@ -469,7 +469,7 @@ Collecting rpds-py>=0.25.0 (from jsonschema->ray->xfuser==0.4.1->-r /tmp/req.txt
   Downloading rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
 Collecting encodec==0.1.1 (from vocos->f5-tts->-r /tmp/req.txt (line 16))
   Downloading encodec-0.1.1.tar.gz (3.7 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 305.4 MB/s  0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 1.5 GB/s  0:00:00
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Getting requirements to build wheel: started
@@ -493,16 +493,16 @@ Collecting opentelemetry-semantic-conventions==0.66b2 (from opentelemetry-sdk>=1
 Downloading librosa-0.10.2.post1-py3-none-any.whl (260 kB)
 Downloading peft-0.15.1-py3-none-any.whl (411 kB)
 Downloading scipy-1.14.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (41.1 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.1/41.1 MB 324.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.1/41.1 MB 695.8 MB/s  0:00:00
 Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 788.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 497.3 MB/s  0:00:00
 Downloading xfuser-0.4.1-py3-none-any.whl (166 kB)
 Downloading torchcodec-0.9.1-cp311-cp311-manylinux_2_28_x86_64.whl (2.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 227.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 179.4 MB/s  0:00:00
 Downloading transformers-4.51.3-py3-none-any.whl (10.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 939.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 517.4 MB/s  0:00:00
 Downloading gradio-5.50.0-py3-none-any.whl (63.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.5/63.5 MB 318.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.5/63.5 MB 691.6 MB/s  0:00:00
 Downloading gradio_client-1.14.0-py3-none-any.whl (325 kB)
 Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
 Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
@@ -511,21 +511,21 @@ Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
 Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
 Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
 Downloading huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 803.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 216.2 MB/s  0:00:00
 Downloading hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 1.2 GB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 471.8 MB/s  0:00:00
 Downloading orjson-3.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
 Downloading pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 1.0 GB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 433.7 MB/s  0:00:00
 Downloading pillow-11.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 932.3 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 593.5 MB/s  0:00:00
 Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (828 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 828.0/828.0 kB 956.1 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 828.0/828.0 kB 189.9 MB/s  0:00:00
 Downloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
 Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
 Downloading starlette-0.52.1-py3-none-any.whl (74 kB)
 Downloading tokenizers-0.21.4-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 891.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 479.2 MB/s  0:00:00
 Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
 Downloading typer-0.29.2-py3-none-any.whl (121 kB)
 Downloading websockets-15.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (182 kB)
@@ -535,19 +535,19 @@ Downloading einops-0.8.2-py3-none-any.whl (65 kB)
 Downloading ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (183 kB)
 Downloading kernels-0.12.3-py3-none-any.whl (55 kB)
 Downloading f5_tts-1.1.10-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 250.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 167.2 MB/s  0:00:00
 Downloading pydantic-2.10.6-py3-none-any.whl (431 kB)
 Downloading pydantic_core-2.27.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 1.1 GB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 254.0 MB/s  0:00:00
 Downloading accelerate-1.16.0-py3-none-any.whl (389 kB)
 Downloading annotated_doc-0.0.7-py3-none-any.whl (5.3 kB)
 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
 Downloading audioread-3.1.0-py3-none-any.whl (23 kB)
 Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
 Downloading bitsandbytes-0.50.2-py3-none-manylinux_2_24_x86_64.whl (43.1 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 976.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 321.9 MB/s  0:00:00
 Downloading brotli-1.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 852.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 743.6 MB/s  0:00:00
 Downloading decorator-5.3.2-py3-none-any.whl (11 kB)
 Downloading ema_pytorch-0.8.3-py3-none-any.whl (16 kB)
 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
@@ -559,35 +559,35 @@ Downloading cloudpickle-3.1.3-py3-none-any.whl (22 kB)
 Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
 Downloading msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (480 kB)
 Downloading numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 765.1 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 314.8 MB/s  0:00:00
 Downloading llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (59.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 982.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 651.2 MB/s  0:00:00
 Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
 Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
 Downloading platformdirs-4.14.8-py3-none-any.whl (94 kB)
 Downloading python_multipart-0.0.34-py3-none-any.whl (32 kB)
 Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
 Downloading regex-2026.11.24-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.0/806.0 kB 867.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.0/806.0 kB 241.5 MB/s  0:00:00
 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
 Downloading charset_normalizer-3.5.3-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (263 kB)
 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
 Downloading certifi-2026.11.20-py3-none-any.whl (127 kB)
 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 1.1 GB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 192.4 MB/s  0:00:00
 Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
 Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
 Downloading ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.6/10.6 MB 980.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.6/10.6 MB 449.9 MB/s  0:00:00
 Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
 Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 933.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 454.7 MB/s  0:00:00
 Downloading narwhals-2.29.0-py3-none-any.whl (501 kB)
 Downloading sentencepiece-0.2.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 992.8 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 509.8 MB/s  0:00:00
 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
 Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 929.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 278.6 MB/s  0:00:00
 Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
 Downloading soupsieve-4.1.3-py3-none-any.whl (59 kB)
 Downloading soxr-1.1.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (245 kB)
@@ -603,7 +603,7 @@ Downloading yunchang-0.6.4-py3-none-any.whl (55 kB)
 Downloading cached_path-1.8.10-py3-none-any.whl (37 kB)
 Downloading boto3-1.44.11-py3-none-any.whl (140 kB)
 Downloading botocore-1.44.11-py3-none-any.whl (16.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 962.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 671.4 MB/s  0:00:00
 Downloading filelock-3.32.7-py3-none-any.whl (100 kB)
 Downloading google_cloud_storage-3.17.2-py3-none-any.whl (346 kB)
 Downloading google_api_core-2.44.0-py3-none-any.whl (225 kB)
@@ -619,17 +619,17 @@ Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
 Downloading rich-13.9.4-py3-none-any.whl (242 kB)
 Downloading s3transfer-0.19.3-py3-none-any.whl (90 kB)
 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 787.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 341.2 MB/s  0:00:00
 Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
 Downloading pyasn1-0.6.5-py3-none-any.whl (84 kB)
 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
 Downloading datasets-5.0.1-py3-none-any.whl (559 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 559.1/559.1 kB 642.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 559.1/559.1 kB 114.8 MB/s  0:00:00
 Downloading dill-0.4.1-py3-none-any.whl (120 kB)
 Downloading fsspec-2026.6.0-py3-none-any.whl (203 kB)
 Downloading multiprocess-0.70.19-py311-none-any.whl (144 kB)
 Downloading aiohttp-3.14.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 1.1 GB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 438.4 MB/s  0:00:00
 Downloading multidict-7.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (510 kB)
 Downloading yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
 Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
@@ -638,10 +638,10 @@ Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
 Downloading frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (231 kB)
 Downloading propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (235 kB)
 Downloading pyarrow-26.0.1-cp311-cp311-manylinux_2_28_x86_64.whl (55.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.0/55.0 MB 936.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.0/55.0 MB 594.7 MB/s  0:00:00
 Downloading distvae-0.1.0-py3-none-any.whl (74 kB)
 Downloading diffusers-0.39.0-py3-none-any.whl (5.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 896.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 261.2 MB/s  0:00:00
 Downloading ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
@@ -650,45 +650,45 @@ Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
 Downloading frozendict-2.5.1-py3-none-any.whl (18 kB)
 Downloading imageio-2.38.2-py3-none-any.whl (328 kB)
 Downloading imageio_ffmpeg-0.8.1-py3-none-manylinux_2_28_x86_64.whl (68.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 MB 960.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 MB 359.1 MB/s  0:00:00
 Downloading importlib_metadata-10.2.0-py3-none-any.whl (34 kB)
 Downloading lazy_importer-0.1.0-py3-none-any.whl (12 kB)
 Downloading zipp-4.1.2-py3-none-any.whl (10 kB)
 Downloading loguru-0.8.0-py3-none-any.whl (69 kB)
 Downloading matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 870.7 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 604.5 MB/s  0:00:00
 Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
 Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
 Downloading fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 799.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 489.0 MB/s  0:00:00
 Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 884.0 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 167.8 MB/s  0:00:00
 Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
 Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (63.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 MB 953.3 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 MB 625.1 MB/s  0:00:00
 Downloading optimum_quanto-0.2.7-py3-none-any.whl (165 kB)
 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
 Downloading pycparser-3.12-py3-none-any.whl (62 kB)
 Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
 Downloading pypinyin-0.55.0-py2.py3-none-any.whl (840 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 840.2/840.2 kB 740.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 840.2/840.2 kB 255.6 MB/s  0:00:00
 Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
 Downloading ray-2.60.1-cp311-cp311-manylinux2014_x86_64.whl (79.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.3/79.3 MB 997.5 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.3/79.3 MB 682.9 MB/s  0:00:00
 Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
 Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
 Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
 Downloading rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (375 kB)
 Downloading rjieba-0.2.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 845.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 547.4 MB/s  0:00:00
 Downloading tomli-2.5.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (276 kB)
 Downloading torchdiffeq-0.2.5-py3-none-any.whl (32 kB)
 Downloading Unidecode-1.4.0-py3-none-any.whl (235 kB)
 Downloading vocos-0.1.0-py3-none-any.whl (24 kB)
 Downloading wandb-0.31.2-py3-none-manylinux_2_28_x86_64.whl (20.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 998.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 776.1 MB/s  0:00:00
 Downloading cwevals-0.0.1b3-py3-none-any.whl (261 kB)
 Downloading distro-1.9.0-py3-none-any.whl (20 kB)
 Downloading opentelemetry_exporter_otlp_proto_common-1.45.2-py3-none-any.whl (15 kB)
@@ -698,20 +698,20 @@ Downloading opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl (206 kB)
 Downloading xxhash-4.1.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (471 kB)
 Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
 Downloading wcwidth-0.9.5-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (822 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 822.7/822.7 kB 1.0 GB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 822.7/822.7 kB 166.4 MB/s  0:00:00
 Building wheels for collected packages: antlr4-python3-runtime, transformers_stream_generator, encodec
   Building wheel for antlr4-python3-runtime (pyproject.toml): started
   Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
   Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144590 sha256=6861b0349563ec5e561ea13e1cc0fa808e61fd19560e6a5445c8966cc17b7fb0
-  Stored in directory: /tmp/pip-ephem-wheel-cache-d1e67kgt/wheels/29/da/7b/136088a164518218ec530901d5f4e2c557f6135c3da6bf56ef
+  Stored in directory: /tmp/pip-ephem-wheel-cache-okn84k12/wheels/29/da/7b/136088a164518218ec530901d5f4e2c557f6135c3da6bf56ef
   Building wheel for transformers_stream_generator (pyproject.toml): started
   Building wheel for transformers_stream_generator (pyproject.toml): finished with status 'done'
   Created wheel for transformers_stream_generator: filename=transformers_stream_generator-0.0.5-py3-none-any.whl size=12526 sha256=d675b53fbb59b37e08ad0caed01b559169ca3f246075b15447ebe6c69dec9091
-  Stored in directory: /tmp/pip-ephem-wheel-cache-d1e67kgt/wheels/82/54/07/d9b1d78f87bf502f129fc6f52f769650096f4f6f92c1e07efc
+  Stored in directory: /tmp/pip-ephem-wheel-cache-okn84k12/wheels/82/54/07/d9b1d78f87bf502f129fc6f52f769650096f4f6f92c1e07efc
   Building wheel for encodec (pyproject.toml): started
   Building wheel for encodec (pyproject.toml): finished with status 'done'
   Created wheel for encodec: filename=encodec-0.1.1-py3-none-any.whl size=45854 sha256=9cd1eff756ea0db4a3ce8db6f8d50d00aab815da2b449ab00a4ca4287fcc941c
-  Stored in directory: /tmp/pip-ephem-wheel-cache-d1e67kgt/wheels/b1/4b/a6/9b14a0c9ff6f62e357bdd87e6aba77d9737585787f8aa02f75
+  Stored in directory: /tmp/pip-ephem-wheel-cache-okn84k12/wheels/b1/4b/a6/9b14a0c9ff6f62e357bdd87e6aba77d9737585787f8aa02f75
 Successfully built antlr4-python3-runtime transformers_stream_generator encodec
 Installing collected packages: rjieba, pytz, pydub, brotli, antlr4-python3-runtime, zipp, xxhash, werkzeug, websockets, wcwidth, urllib3, unidecode, tzdata, typing-inspection, tqdm, torchcodec, tomlkit, tomli, threadpoolctl, soupsieve, sniffio, six, shellingham, sentencepiece, semantic-version, safetensors, ruff, rpds-py, regex, pyyaml, python-multipart, pypinyin, pyparsing, pygments, pydantic-core, pycparser, pyasn1, pyarrow, psutil, protobuf, propcache, pluggy, platformdirs, pillow, orjson, opentelemetry-api, numpy, ninja, narwhals, multidict, msgpack, mdurl, loguru, llvmlite, lazy-loader, lazy-importer, kiwisolver, jmespath, itsdangerous, iniconfig, imageio-ffmpeg, idna, hf-xet, h11, groovy, google-crc32c, fsspec, frozenlist, frozendict, fonttools, filelock, ffmpy, einops, distro, dill, decorator, cycler, cloudpickle, click, charset_normalizer, certifi, blinker, audioread, attrs, annotated-types, annotated-doc, aiohappyeyeballs, aiofiles, yarl, uvicorn, soxr, scipy, requests, referencing, python-dateutil, pytest, pydantic, pyasn1-modules, proto-plus, opentelemetry-semantic-conventions, opentelemetry-proto, opencv-python, omegaconf, numba, multiprocess, markdown-it-py, joblib, importlib_metadata, imageio, httpcore, googleapis-common-protos, google-resumable-media, ftfy, flask, einx, contourpy, cffi, beautifulsoup4, anyio, aiosignal, starlette, soundfile, scikit-learn, rich, pooch, pandas, opentelemetry-sdk, opentelemetry-exporter-otlp-proto-common, matplotlib, jsonschema-specifications, hydra-core, huggingface_hub, httpx, cryptography, botocore, aiohttp, yunchang, typer, torchdiffeq, torch-einops-utils, tokenizers, safehttpx, s3transfer, optimum-quanto, librosa, kernels, jsonschema, gradio-client, google-auth, fastapi, ema_pytorch, diffusers, cwevals, bitsandbytes, accelerate, x_transformers, wandb, transformers, ray, gradio, google-api-core, encodec, distvae, datasets, boto3, xfuser, vocos, transformers_stream_generator, peft, gradio_extendedimage, gradio_extendedaudio, google-cloud-core, google-cloud-storage, cached_path, f5-tts
   Attempting uninstall: pillow
@@ -804,11 +804,11 @@ Requirement already satisfied: click>=7.0 in ./usr/local/lib/python3.11/site-pac
 Requirement already satisfied: charset_normalizer<4,>=2 in ./usr/local/lib/python3.11/site-packages (from requests->huggingface_hub) (3.5.3)
 Requirement already satisfied: urllib3<3,>=1.26 in ./usr/local/lib/python3.11/site-packages (from requests->huggingface_hub) (2.8.0)
 Downloading gradio-5.36.2-py3-none-any.whl (59.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.6/59.6 MB 95.9 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.6/59.6 MB 29.1 MB/s  0:00:02
 Downloading gradio_client-1.10.4-py3-none-any.whl (323 kB)
 Downloading spaces-0.53.0-py3-none-any.whl (120 kB)
 Downloading hf_transfer-0.1.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 429.3 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 864.4 MB/s  0:00:00
 Installing collected packages: hf_transfer, spaces, gradio-client, gradio
   Attempting uninstall: gradio-client
     Found existing installation: gradio_client 1.14.0
@@ -828,7 +828,7 @@ Successfully installed gradio-5.36.2 gradio-client-1.10.4 hf_transfer-0.1.9 spac
 Looking in indexes: http://pypi-mirror.modal.local:5555/simple
 Collecting flash-attn==2.8.3+cu12torch2.8cxx11abitrue
   Downloading flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl (256.0 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 256.0/256.0 MB 163.6 MB/s  0:00:01
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 256.0/256.0 MB 169.8 MB/s  0:00:01
 Requirement already satisfied: torch in ./usr/local/lib/python3.11/site-packages (from flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (2.8.0)
 Requirement already satisfied: einops in ./usr/local/lib/python3.11/site-packages (from flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (0.8.2)
 Requirement already satisfied: filelock in ./usr/local/lib/python3.11/site-packages (from torch->flash-attn==2.8.3+cu12torch2.8cxx11abitrue) (3.32.7)
@@ -861,45 +861,158 @@ Successfully installed flash-attn-2.8.3
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
 
-=> Step 6: RUN pip install 'pyarrow<18'
+=> Step 6: RUN pip install 'pyarrow<18' 'datasets<4'
 Looking in indexes: http://pypi-mirror.modal.local:5555/simple
 Collecting pyarrow<18
   Downloading pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting datasets<4
+  Downloading datasets-3.6.0-py3-none-any.whl.metadata (19 kB)
 Requirement already satisfied: numpy>=1.16.6 in ./usr/local/lib/python3.11/site-packages (from pyarrow<18) (1.26.4)
+Requirement already satisfied: filelock in ./usr/local/lib/python3.11/site-packages (from datasets<4) (3.32.7)
+Collecting dill<0.3.9,>=0.3.0 (from datasets<4)
+  Downloading dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: pandas in ./usr/local/lib/python3.11/site-packages (from datasets<4) (2.3.3)
+Requirement already satisfied: requests>=2.32.2 in ./usr/local/lib/python3.11/site-packages (from datasets<4) (2.34.2)
+Requirement already satisfied: tqdm>=4.66.3 in ./usr/local/lib/python3.11/site-packages (from datasets<4) (4.70.1)
+Requirement already satisfied: xxhash in ./usr/local/lib/python3.11/site-packages (from datasets<4) (4.1.0)
+Collecting multiprocess<0.70.17 (from datasets<4)
+  Downloading multiprocess-0.70.16-py311-none-any.whl.metadata (7.2 kB)
+Collecting fsspec<=2025.3.0,>=2023.1.0 (from fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4)
+  Downloading fsspec-2025.3.0-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: huggingface-hub>=0.24.0 in ./usr/local/lib/python3.11/site-packages (from datasets<4) (0.36.2)
+Requirement already satisfied: packaging in ./usr/local/lib/python3.11/site-packages (from datasets<4) (26.3)
+Requirement already satisfied: pyyaml>=5.1 in ./usr/local/lib/python3.11/site-packages (from datasets<4) (6.0.4)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in ./usr/local/lib/python3.11/site-packages (from fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (3.14.5)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (2.7.1)
+Requirement already satisfied: aiosignal>=1.4.0 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (26.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (1.8.0)
+Requirement already satisfied: multidict<8.0,>=4.5 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (7.2.1)
+Requirement already satisfied: propcache>=0.2.0 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (0.5.4)
+Requirement already satisfied: typing_extensions>=4.4 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (4.16.0)
+Requirement already satisfied: yarl<2.0,>=1.25.1 in ./usr/local/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (1.25.1)
+Requirement already satisfied: idna>=2.0 in ./usr/local/lib/python3.11/site-packages (from yarl<2.0,>=1.25.1->aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2025.3.0,>=2023.1.0->datasets<4) (3.20)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in ./usr/local/lib/python3.11/site-packages (from huggingface-hub>=0.24.0->datasets<4) (1.8.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./usr/local/lib/python3.11/site-packages (from requests>=2.32.2->datasets<4) (3.5.3)
+Requirement already satisfied: urllib3<3,>=1.26 in ./usr/local/lib/python3.11/site-packages (from requests>=2.32.2->datasets<4) (2.8.0)
+Requirement already satisfied: certifi>=2023.5.7 in ./usr/local/lib/python3.11/site-packages (from requests>=2.32.2->datasets<4) (2026.11.20)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./usr/local/lib/python3.11/site-packages (from pandas->datasets<4) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./usr/local/lib/python3.11/site-packages (from pandas->datasets<4) (2026.6)
+Requirement already satisfied: tzdata>=2022.7 in ./usr/local/lib/python3.11/site-packages (from pandas->datasets<4) (2026.6)
+Requirement already satisfied: six>=1.5 in ./usr/local/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas->datasets<4) (1.17.0)
 Downloading pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl (39.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.9/39.9 MB 832.8 MB/s  0:00:00
-Installing collected packages: pyarrow
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.9/39.9 MB 837.9 MB/s  0:00:00
+Downloading datasets-3.6.0-py3-none-any.whl (491 kB)
+Downloading dill-0.3.8-py3-none-any.whl (116 kB)
+Downloading fsspec-2025.3.0-py3-none-any.whl (193 kB)
+Downloading multiprocess-0.70.16-py311-none-any.whl (143 kB)
+Installing collected packages: pyarrow, fsspec, dill, multiprocess, datasets
   Attempting uninstall: pyarrow
     Found existing installation: pyarrow 26.0.1
     Uninstalling pyarrow-26.0.1:
       Successfully uninstalled pyarrow-26.0.1
-ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
-datasets 5.0.1 requires pyarrow>=21.0.0, but you have pyarrow 17.0.0 which is incompatible.
-Successfully installed pyarrow-17.0.0
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2026.6.0
+    Uninstalling fsspec-2026.6.0:
+      Successfully uninstalled fsspec-2026.6.0
+  Attempting uninstall: dill
+    Found existing installation: dill 0.4.1
+    Uninstalling dill-0.4.1:
+      Successfully uninstalled dill-0.4.1
+  Attempting uninstall: multiprocess
+    Found existing installation: multiprocess 0.70.19
+    Uninstalling multiprocess-0.70.19:
+      Successfully uninstalled multiprocess-0.70.19
+  Attempting uninstall: datasets
+    Found existing installation: datasets 5.0.1
+    Uninstalling datasets-5.0.1:
+      Successfully uninstalled datasets-5.0.1
+
+Successfully installed datasets-3.6.0 dill-0.3.8 fsspec-2025.3.0 multiprocess-0.70.16 pyarrow-17.0.0
 
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
 
 => Step 7: RUN python -c 'import numpy, pyarrow, datasets, f5_tts.api; print(numpy.__version__, pyarrow.__version__)'
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-  File "/usr/local/lib/python3.11/site-packages/datasets/__init__.py", line 17, in <module>
-    from .arrow_dataset import Column, Dataset
-  File "/usr/local/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 80, in <module>
-    from .arrow_writer import ArrowWriter, OptimizedTypedSequence
-  File "/usr/local/lib/python3.11/site-packages/datasets/arrow_writer.py", line 30, in <module>
-    from .features import Audio, Features, Image, Pdf, Value, Video
-  File "/usr/local/lib/python3.11/site-packages/datasets/features/__init__.py", line 23, in <module>
-    from .features import Array2D, Array3D, Array4D, Array5D, ClassLabel, Features, Json, LargeList, List, Sequence, Value
-  File "/usr/local/lib/python3.11/site-packages/datasets/features/features.py", line 1191, in <module>
-    class Json:
-  File "/usr/local/lib/python3.11/site-packages/datasets/features/features.py", line 1229, in Json
-    pa_type: ClassVar[Any] = pa.json_()
-                             ^^^^^^^^
-AttributeError: module 'pyarrow' has no attribute 'json_'. Did you mean: 'json'?
-Terminating task due to error: failed to run builder command "python -c 'import numpy, pyarrow, datasets, f5_tts.api; print(numpy.__version__, pyarrow.__version__)'": container exit status: 1
-Stopping app - uncaught exception raised locally: ImageBuildError('Image build for im-uhQp2TeKneCRmZGkezONe9 failed.\nView the build logs:\n  modal image logs im-uhQp2TeKneCRmZGkezONe9').
-Error: Image build for im-uhQp2TeKneCRmZGkezONe9 failed.
-View the build logs:
-  modal image logs im-uhQp2TeKneCRmZGkezONe9
-exit code 1
+1.26.4 17.0.0
+Saving image...
+Image saved, took 9.32s
+
+Built image im-KI2AljNSeg5T3H9Dv2ArYQ in 101.60s
+
+
+Building image im-VKNJrA4TI23VgsZgHAKjHy
+
+=> Step 0: FROM base
+
+=> Step 1: ENV HF_HOME=/models/hf
+
+=> Step 2: ENV HF_HUB_ENABLE_HF_TRANSFER=1
+
+=> Step 3: ENV PROCESSED_RESULTS=/tmp/results
+Saving image...
+Image saved, took 1.41s
+
+Built image im-VKNJrA4TI23VgsZgHAKjHy in 3.14s
+
+
+✓ Created objects.
+├── ✓ Uploaded /home/runner/work/fix-my-money/fix-my-money/tools/avatar_modal.py
+└── ✓ Created Function render.
+weights downloaded in 316s
+Download Vocos from huggingface charactr/vocos-mel-24khz
+
+vocab :  /models/hf/hub/models--alexnasa--F5_checkpoint/snapshots/5e575f735df034842c6607c6dd0682af326cc9c8/vocab.txt
+token :  custom
+model :  /models/hf/hub/models--alexnasa--F5_checkpoint/snapshots/5e575f735df034842c6607c6dd0682af326cc9c8/model_10000.pt 
+
+Torch version: 2.8.0+cu128
+using flash_attn
+Loaded as API: https://alexnasa-scottish-cloning.hf.space ✔
+Loading models from: ['pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00001-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00002-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00003-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00004-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00005-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00006-of-00006.safetensors']
+    model_name: wan_video_dit model_class: WanModel
+        This model is initialized with extra kwargs: {'has_image_input': False, 'patch_size': [1, 2, 2], 'in_dim': 33, 'dim': 5120, 'ffn_dim': 13824, 'freq_dim': 256, 'text_dim': 4096, 'out_dim': 16, 'num_heads': 40, 'num_layers': 40, 'eps': 1e-06, 'audio_hidden_size': 32}
+[Truncate] patch_embedding.weight: ckpt torch.Size([5120, 16, 1, 2, 2]) -> model torch.Size([5120, 33, 1, 2, 2])
+    The following models are loaded: ['wan_video_dit'].
+Loading models from: pretrained_models/Wan2.1-T2V-14B/Wan2.1_VAE.pth
+    model_name: wan_video_vae model_class: WanVideoVAE
+    The following models are loaded: ['wan_video_vae'].
+Loading models from: pretrained_models/Wan2.1-T2V-14B/models_t5_umt5-xxl-enc-bf16.pth
+    model_name: wan_video_text_encoder model_class: WanTextEncoder
+    The following models are loaded: ['wan_video_text_encoder'].
+Using wan_video_text_encoder from pretrained_models/Wan2.1-T2V-14B/models_t5_umt5-xxl-enc-bf16.pth.
+Using wan_video_dit from ['pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00001-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00002-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00003-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00004-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00005-of-00006.safetensors', 'pretrained_models/Wan2.1-T2V-14B/diffusion_pytorch_model-00006-of-00006.safetensors'].
+Using wan_video_vae from pretrained_models/Wan2.1-T2V-14B/Wan2.1_VAE.pth.
+No wan_video_image_encoder models available.
+Use LoRA: lora rank: 128, lora alpha: 64.0
+844 parameters are loaded from pretrained_models/OmniAvatar-14B/pytorch_model.pt. 0 parameters are unexpected.
+cuda:0
+Some weights of Wav2VecModel were not initialized from the model checkpoint at pretrained_models/wav2vec2-base-960h and are newly initialized: ['masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+models loaded in 41s
+
+[1/3]
+[1A  0%|          | 0/12 [00:00<?, ?steps/s]
+[1A  8%|▊         | 1/12 [00:12<02:18, 12.61s/steps]
+[1A 17%|█▋        | 2/12 [00:24<02:03, 12.39s/steps]
+[1A 25%|██▌       | 3/12 [00:37<01:50, 12.32s/steps]
+[2/3]
+[1A 33%|███▎      | 4/12 [00:49<01:38, 12.29s/steps]
+[1A 42%|████▏     | 5/12 [01:16<02:04, 17.76s/steps]
+[1A 50%|█████     | 6/12 [01:29<01:35, 15.88s/steps]
+[1A 58%|█████▊    | 7/12 [01:41<01:13, 14.69s/steps]
+[1A 67%|██████▋   | 8/12 [01:53<00:55, 13.91s/steps][3/3]
+
+[1A 75%|███████▌  | 9/12 [02:20<00:54, 18.05s/steps]
+[1A 83%|████████▎ | 10/12 [02:32<00:32, 16.26s/steps]
+[1A 92%|█████████▏| 11/12 [02:45<00:15, 15.03s/steps]
+[1A100%|██████████| 12/12 [02:57<00:00, 14.18s/steps]
+[1A100%|██████████| 12/12 [03:11<00:00, 15.93s/steps]
+video batch shape:torch.Size([1, 325, 3, 720, 400])
+save res video to : /root/space/proprocess_results/fmm/result_000.mp4
+rendered in 206s
+saved avatar/out/test_13s.mp4 (1.2 MB)
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-RlopctW0wuyBlgjj1cVGuF
+exit code 0
