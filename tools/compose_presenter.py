@@ -8,9 +8,13 @@ base.mp4        the reel without the coin (engine/render.py writes it when prese
 presenter.mp4   the InfiniteTalk clip, lip-synced to the reel's own narration (same timeline)
 presenter.json  where the presenter sits on every frame (x, y, size of the coin's square slot)
 
-The presenter is shown as a rounded 3:4 "facecam" card in the coin's place (bottom of the card on
-the bottom of the coin's slot), with a thin white edge, a soft shadow and a small "AI" tag, because
-every AI presenter is disclosed. Audio is the base reel's (voice + music, loudness-normalised).
+Layout (engine/config.json "presenter_layout"):
+  "split" (default, owner's choice 25 Nov): the presenter fills the top ~43% of the frame; the reel's
+          graphics (the band where every scene's content sits, y 560-1760) fill the bottom at 85% size,
+          with the original footer (handle + "Education only. Not advice.") kept at the very bottom.
+  "card":  a rounded 3:4 facecam card in the coin's place.
+Either way a small "AI" tag is always on the presenter, because every AI presenter is disclosed.
+Audio is the base reel's (voice + music, loudness-normalised).
 """
 from __future__ import annotations
 
@@ -70,8 +74,61 @@ def card_assets(w: int):
     return h, mask, shadow, pad, edge, tag
 
 
+# split layout geometry (1080x1920 reel)
+P_H = 820                       # presenter panel height
+BAND = (560, 1760)              # where scene content lives in the base reel
+BAND_S = 0.85                   # graphics scale in the bottom panel
+FOOT = (1762, 1832)             # original footer strip
+GREEN = (52, 211, 153)
+
+
+def split_main(base: str, pres: str, meta: dict, out: str, cover: str) -> None:
+    fps, W, H = meta["fps"], meta["w"], meta["h"]
+    bw, bh = int(W * BAND_S), int((BAND[1] - BAND[0]) * BAND_S)
+    bx, by = (W - bw) // 2, P_H + 14
+    vf = (f"scale={W}:{P_H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{P_H},"
+          f"unsharp=5:5:0.45:5:5:0.0,noise=c0s=4:c0f=t+u")
+    _, _, _, _, _, tag = card_assets(420)
+    shade = Image.new("RGBA", (W, 90), (0, 0, 0, 0))
+    for yy in range(90):
+        ImageDraw.Draw(shade).line((0, yy, W, yy), fill=(10, 18, 34, int(150 * yy / 89)))
+    enc = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
+                            "-r", str(fps), "-i", "-", "-i", base, "-map", "0:v", "-map", "1:a", "-c:v", "libx264",
+                            "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest",
+                            "-movflags", "+faststart", out], stdin=subprocess.PIPE)
+    pframes = frames(pres, W, P_H, fps, vf)
+    last = None
+    for i, frame in enumerate(frames(base, W, H, fps)):
+        try:
+            last = next(pframes)
+        except StopIteration:
+            pass
+        bg = frame.getpixel((12, H - 40))
+        canvas = Image.new("RGBA", (W, H), bg + (255,))
+        band = frame.crop((0, BAND[0], W, BAND[1])).resize((bw, bh), Image.LANCZOS)
+        canvas.paste(band, (bx, by))
+        canvas.paste(frame.crop((0, FOOT[0], W, FOOT[1])), (0, H - (FOOT[1] - FOOT[0])))
+        if last is not None:
+            canvas.paste(last, (0, 0))
+        canvas.alpha_composite(shade, (0, P_H - 90))
+        ImageDraw.Draw(canvas).rectangle((0, P_H, W, P_H + 4), fill=GREEN)
+        canvas.alpha_composite(tag, (W - tag.width - 28, 28))
+        frame = canvas.convert("RGB")
+        if i == meta.get("cover_frame", 0):
+            frame.save(cover)
+        enc.stdin.write(frame.tobytes())
+    enc.stdin.close()
+    enc.wait()
+    if enc.returncode:
+        raise SystemExit("compose: encode failed")
+    print(f"composed {out} (split)")
+
+
 def main(base: str, pres: str, meta_path: str, out: str, cover: str) -> None:
     meta = json.loads(Path(meta_path).read_text())
+    cfg = json.loads((Path(__file__).resolve().parent.parent / "engine" / "config.json").read_text())
+    if cfg.get("presenter_layout", "split") == "split":
+        return split_main(base, pres, meta, out, cover)
     fps, W, H = meta["fps"], meta["w"], meta["h"]
     place = meta["placements"]
     pw, ph = probe(pres)
