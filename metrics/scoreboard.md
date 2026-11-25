@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-24
+# Scoreboard — 2026-11-25
 
-Followers **11** (+0 vs previous day). Reels tracked: 97. Median views per reel: 47. Frozen yardstick: 122 views (multiples read once at 3 days old).
+Followers **11** (+0 vs previous day). Reels tracked: 98. Median views per reel: 46. Frozen yardstick: 122 views (multiples read once at 3 days old).
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -46,7 +46,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-11-15-reel-am Same ₹2 lakh personal loan at an illustrative 12%: 3 years = | bill-reveal | yes | 118 | 1.0× normal | 3.2s (27%) | 0 | 0 | 0 | 0 | 6.8 |
 | 2026-11-20-reel-am Wedding loan cost: illustrative ₹7 lakh personal loan at 12% | group-callout | yes | 70 | 0.6× normal | 3.2s (26%) | 0 | 0 | 0 | 0 | 6.5 |
 | 2026-11-02-reel-pm HRA exemption: Bengaluru, Pune, Hyderabad, Ahmedabad moved t | bill-reveal | yes | 169 | 1.4× normal | 3.0s (26%) | 0 | 0 | 0 | 0 | 6.4 |
-| 2026-11-22-reel-am Wedding-guest bill: illustrative ₹2,100 shagun + ₹2,000 outf | group-callout | yes | 141 | — | 2.9s (25%) | 0 | 0 | 0 | 0 | 6.4 |
+| 2026-11-22-reel-am Wedding-guest bill: illustrative ₹2,100 shagun + ₹2,000 outf | group-callout | yes | 141 | 1.2× normal | 2.9s (25%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-25-reel-am Gold jewellery bill: ₹1 lakh of gold → ₹1,13,500 (3% GST on  | contrarian-number | yes | 117 | 1.0× normal | 3.7s (26%) | 0 | 0 | 0 | 0 | 6.4 |
 | 2026-10-25-reel-pm Restaurant service charge is voluntary: can't be added by de | bill-reveal | yes | 129 | 1.1× normal | 3.5s (25%) | 0 | 0 | 0 | 0 | 6.3 |
 | 2026-11-04-reel-am Personal-loan processing fee: most lenders deduct it before  | bill-reveal | yes | 109 | 0.9× normal | 2.9s (25%) | 0 | 0 | 1 | 0 | 6.2 |
@@ -59,13 +59,13 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-11-11-reel-pm Car insurance no-claim bonus: 20% after one claim-free year  | before-you | yes | 28 | 0.2× miss | 2.5s (20%) | 0 | 0 | 0 | 0 | 5.0 |
 | 2026-11-02-reel-am Overseas tour package TCS: flat 2% from the first rupee from | guess-the-number | yes | 25 | 0.2× miss | 2.2s (19%) | 0 | 0 | 0 | 0 | 4.8 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 1.2× normal | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
-| 2026-11-23-reel-pm Mutual fund payout (IDCW) option: NAV falls by exactly the p | contrarian-number | yes | 71 | — | 2.0s (17%) | 0 | 0 | 2 | 0 | 4.6 |
+| 2026-11-23-reel-pm Mutual fund payout (IDCW) option: NAV falls by exactly the p | contrarian-number | yes | 85 | — | 2.1s (17%) | 0 | 0 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 0.1× miss | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
 | 2026-10-19-reel-mid Locker robbed? The bank pays at most 100× the annual rent, a | contrarian-number | yes | 47 | 0.4× miss | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-15-reel-pm Job switch: PF withdrawn before 5 years isn't tax-free; tran | contrarian-number | yes | 39 | 0.3× miss | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 1.0× normal | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
 | 2026-10-22-reel-pm Gratuity = 15/26 × last monthly wages × years: illustrative  | guess-the-number | yes | 110 | 0.9× normal | 2.4s (17%) | 0 | 0 | 0 | 0 | 4.2 |
-| 2026-11-22-reel-pm Tax harvesting: long-term gains on listed equity / equity fu | contrarian-number | yes | 132 | — | 1.9s (16%) | 0 | 0 | 0 | 0 | 4.1 |
+| 2026-11-22-reel-pm Tax harvesting: long-term gains on listed equity / equity fu | contrarian-number | yes | 132 | 1.1× normal | 1.9s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 0.5× miss | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-24-reel-pm EPF wage ceiling ₹15,000 → ₹25,000 (October first full salar | big-question | yes | 114 | 0.9× normal | 2.2s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-20-reel-mid ₹10,000 savings-interest deduction applies only in the old r | contrarian-number | yes | 17 | 0.1× miss | 2.4s (16%) | 0 | 0 | 0 | 0 | 4.0 |
@@ -105,6 +105,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.0× miss | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.2× miss | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.1× miss | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
+| 2026-11-24-reel-pm ELSS in the new tax regime: the ₹1.5 lakh deduction (old 80C | contrarian-number | yes | 0 | — | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
@@ -114,7 +115,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | future-bill | 1 | 131 | 32% | 8.1 | keep |
 | bill-reveal | 13 | 121 | 27% | 7.3 | leading (a hint, not a rule) |
 | group-callout | 10 | 117 | 28% | 7.2 | keep |
-| contrarian-number | 27 | 71 | 21% | 5.2 | keep |
+| contrarian-number | 27 | 85 | 21% | 5.2 | keep |
 | before-you | 1 | 28 | 20% | 5.0 | test again (low data) |
 | guess-the-number | 7 | 28 | 19% | 4.8 | test again |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
@@ -128,9 +129,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | test again |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-24-reel-pm.
 
-Narrated reels: median views 54, watch 21% — silent reels: 22, 13%.
+Narrated reels: median views 52, watch 20% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
