@@ -40,9 +40,10 @@ image = (
     .apt_install("git", "ffmpeg", "libsndfile1", "libgl1", "libglib2.0-0")
     .pip_install("torch==2.4.1", "torchvision==0.19.1", "torchaudio==2.4.1",
                  index_url="https://download.pytorch.org/whl/cu121")
-    .pip_install("xformers==0.0.28", index_url="https://download.pytorch.org/whl/cu121")
+    .pip_install("xformers==0.0.28.post1")  # PyPI build matches torch 2.4.1 / cu121
     .pip_install("ninja", "psutil", "packaging", "wheel", "misaki[en]", "librosa", "soundfile",
-                 "huggingface_hub[cli]==0.26.5", "hf_transfer")
+                 "huggingface_hub[cli]==0.30.2", "hf_transfer")
+    .add_local_file(str(Path(__file__).parent / "infinitetalk_constraints.txt"), "/root/constraints.txt", copy=True)
     .run_commands(
         # prebuilt flash-attn for torch 2.4 / cu12 / py3.11 (no compile)
         "pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/"
@@ -50,15 +51,12 @@ image = (
         f"git clone --depth 1 {REPO} /root/it",
         # unused import that no longer exists on Python 3.11+ (Modal's minimum)
         "sed -i 's/^from inspect import ArgSpec$/# &/' /root/it/wan/multitalk.py",
-        # InfiniteTalk's requirements are unpinned; 2026 releases need torch>=2.6. Pin to the
-        # versions current when InfiniteTalk shipped (Aug 2025), and skip the unused gradio UI.
-        "printf 'torch==2.4.1\\ntorchvision==0.19.1\\ntorchaudio==2.4.1\\nnumpy==1.26.4\\n"
-        "diffusers==0.31.0\\ntransformers==4.49.0\\ntokenizers==0.21.0\\naccelerate==1.1.1\\n"
-        "huggingface_hub==0.26.5\\nxfuser==0.4.1\\npeft==0.14.0\\nopencv-python==4.10.0.84\\nscikit-image==0.24.0\\npandas==2.2.3\\nscipy==1.14.1\\n' > /tmp/c.txt",
+        # InfiniteTalk's requirements are unpinned and 2026 releases need torch>=2.6. Install with the
+        # exact package set verified to import cleanly (tools/infinitetalk_constraints.txt), no gradio UI.
         "grep -v -i '^gradio' /root/it/requirements.txt > /tmp/req.txt",
-        "pip install -r /tmp/req.txt -c /tmp/c.txt --extra-index-url https://download.pytorch.org/whl/cu121",
+        "pip install -r /tmp/req.txt -c /root/constraints.txt --extra-index-url https://download.pytorch.org/whl/cu121",
         # keep the CUDA wheels above (requirements may try to move torch)
-        "pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 xformers==0.0.28 "
+        "pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 "
         "--index-url https://download.pytorch.org/whl/cu121",
         # fail fast at (cheap, CPU) build time
         "cd /root/it && python -c 'import torch, xformers, flash_attn, librosa, transformers, diffusers, decord; "
