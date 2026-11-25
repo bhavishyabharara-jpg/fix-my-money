@@ -49,9 +49,13 @@ sh("nvidia-smi")
 sh("git clone --depth 1 https://github.com/Omni-Avatar/OmniAvatar /tmp/OA")
 os.chdir("/tmp/OA")
 # use Kaggle's preinstalled torch; install everything else the repo needs
-sh("grep -v -i -E '^(torch|torchvision|torchaudio|flash)' requirements.txt > /tmp/req.txt || true")
-sh("pip install -q -r /tmp/req.txt", check=False)
-sh("pip install -q 'huggingface_hub[cli]' hf_transfer librosa", check=False)
+# Kaggle is Python 3.13: numpy==1.26.4 / scipy pins can't build there and abort a "-r" install,
+# leaving Kaggle's own peft paired with a too-new transformers. Install the pieces that matter
+# explicitly, with the versions OmniAvatar pins, and keep Kaggle's numpy/scipy/torch.
+sh("pip install -q 'transformers==4.52.3' 'peft==0.15.1' 'librosa==0.10.2.post1' tqdm ftfy einops", check=False)
+sh("pip install -q --no-deps 'xfuser==0.4.1'", check=False)
+sh("python -c \"import peft, transformers; print('peft', peft.__version__, 'transformers', transformers.__version__)\"")
+sh("pip install -q 'huggingface_hub[cli]' hf_transfer", check=False)
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
 base = "Wan-AI/Wan2.1-T2V-14B" if MODEL == "14B" else "Wan-AI/Wan2.1-T2V-1.3B"
 sh(f"huggingface-cli download {base} --local-dir pretrained_models/{base.split('/')[1]}")
