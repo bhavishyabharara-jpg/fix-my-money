@@ -44,7 +44,7 @@ image = (
                  index_url="https://download.pytorch.org/whl/cu121")
     .pip_install("xformers==0.0.28.post1")  # PyPI build matches torch 2.4.1 / cu121
     .pip_install("ninja", "psutil", "packaging", "wheel", "misaki[en]", "librosa", "soundfile",
-                 "huggingface_hub[cli]==0.30.2", "hf_transfer")
+                 "huggingface_hub[cli]==0.30.2", "hf_transfer", "hf_xet")
     .add_local_file(str(Path(__file__).parent / "infinitetalk_constraints.txt"), "/root/constraints.txt", copy=True)
     .run_commands(
         # prebuilt flash-attn for torch 2.4 / cu12 / py3.11 (no compile)
@@ -99,7 +99,14 @@ def render(image_bytes: bytes, audio_bytes: bytes, size: str = "infinitetalk-480
     import time
     # GPU-side import check before the download (wan/xfuser need CUDA at import time)
     sh("cd /root/it && python -c 'import wan, xfuser; print(\"imports ok\")'")
+    # a stalled download once burned 35 GPU-minutes: hard cap it (normal: ~4 min)
+    import signal
+    def _stuck(*_):
+        raise TimeoutError("model download took over 12 minutes - stopping to save credit")
+    signal.signal(signal.SIGALRM, _stuck)
+    signal.alarm(12 * 60)
     ckpt = download(size)
+    signal.alarm(0)
     os.makedirs("/tmp/in", exist_ok=True)
     os.makedirs("/tmp/out", exist_ok=True)
     Path("/tmp/in/presenter.png").write_bytes(image_bytes)
@@ -116,7 +123,7 @@ def render(image_bytes: bytes, audio_bytes: bytes, size: str = "infinitetalk-480
         tune = f"--sample_steps {steps or 40} --sample_text_guide_scale 5 --sample_audio_guide_scale 4"
     t = time.time()
     # the whole model fits in the H100's 80 GB: no CPU offload between steps
-    sh(f"python generate_infinitetalk.py --ckpt_dir {ckpt} --wav2vec_dir {W}/chinese-wav2vec2-base "
+    sh(f"timeout 1200 python generate_infinitetalk.py --ckpt_dir {ckpt} --wav2vec_dir {W}/chinese-wav2vec2-base "
        f"--infinitetalk_dir {W}/InfiniteTalk/single/infinitetalk.safetensors --input_json /tmp/in/job.json "
        f"--size {size} --mode streaming --motion_frame 9 --offload_model False {tune} --save_file /tmp/out/fmm")
     print(f"rendered in {time.time() - t:.0f}s", flush=True)
