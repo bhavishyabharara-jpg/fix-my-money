@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-11-25 — Daily review (day 3 of the one-reel-a-day test)
+
+- **Status:** followers **11 (+0)**; profile views yesterday **0** (24 Nov: reach 290, 2 accounts engaged). 24 Nov pm ELSS went out at 01:08 UTC on 25 Nov, **11.4 h late** (23 Nov was 7 h late): lateness is growing; media for 24–27 Nov is all on GitHub, so it is the publish cron, not the render.
+- **Beat the yardstick:** nothing at 2×. Read at 3 days: 22 Nov am wedding-guest bill **1.2×** (141), 22 Nov pm tax harvesting **1.1×** (132, but 16% hold). Best ever stays 13 Nov gold short-term gain 1.9×. What the 1.2× reels share: a family money decision in plain words.
+- **Missed:** none newly under 0.5× at 3 days. Settling: 23 Nov pm IDCW 85 views / 17% at ~1.5 days (posted 7 h late) = likely the wording: a jargon first line ("payout option"), same as tax harvesting's 16%.
+- **One change today:** the 28 Nov reel is the first aimed at people near retirement (SWP, "Your ₹10 lakh, ₹6,000 a month?", send to someone retiring soon), adapted from @simply.kaasu's ~78× SWP reel: a positive income explainer against the leading bill-reveal pattern.
+
 ## 2026-11-24 — Daily review (day 2 of the one-reel-a-day test)
 
 - **Status:** followers **11 (+0)**; profile views yesterday **0** (account reach 290, 2 accounts engaged). 23 Nov pm IDCW went out 20:38 UTC, ~7 h late, and sits at 71 views / 17% (2 likes) at <1 day: no verdict. Media for 24–26 Nov is on GitHub.

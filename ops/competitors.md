@@ -2,6 +2,17 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-25 (daily pass, logged out; outliers = ≥3× the account's median of its last 12 non-pinned reels)
+
+- **All five Reels tabs loaded** (Escape closes the sign-up popup; topics from each reel's public description).
+- **@simply.kaasu** (median ~3.4K of 12): **new outlier: "When does ₹1 lakh become ₹2 lakh? | Post Office Kisan Vikas Patra" 89.2K in 21 h (~26×)** — a money-doubling question answered with one scheme's maturity period (115 months), save-worthy, family-goal framing. Still growing: SWP explained **264K (~78×)**, phone-formatting trick 252K, 5 post office schemes **73.7K (~22×)**, car loan in the wife's name **33.7K (~10×)**. SWP adapted for 28 Nov; KVP doubling is the next candidate (≥14 days after the 27 Nov post-office reel, or as a different-angle "when does my money double" slot).
+- **@financewithsharan** (median ~341K of 9 non-pinned): new 70.6K and 341K; only outlier still the 1.1M property-ownership reel (3.2×), adapted for 26 Nov.
+- **@ca_rachanaranade** (median ~50K of 11): 1.9M (38×) and 200K (4×, a Marathi family-talk collab on another channel) and 130K (2.6×, creator-summit comedy): personality/collab, not adaptable.
+- **@anushkarathod98** (median ~297K): 2M (6.7×) gold/silver dip, 1.7M and 1.6M named-company news: unchanged, not usable as is.
+- **Rotating @ankurwarikoo** (median ~106K of 9 non-pinned): 3.3M (31×) motivational arrow metaphor, 959K (9×) a named creator's earnings, 451K (4.3×) "5 high-paying careers after Grade 12" (a list for parents/students). None is a money idea we can adapt; the careers list confirms "list a parent would forward" travels.
+- **Insight:** simply.kaasu has now produced two post-office outliers in a row (rates list, KVP doubling) on a ~4.3K-follower account: small-savings schemes explained with one ₹ example are the most repeatable adaptable idea we have seen.
+- **News (last 48 h):** no personal-finance rule change with a ₹ effect for a mass audience found in a search. Facts used today: SWP taxation (only the gain part of each withdrawal is taxed; equity STCG 20%, LTCG 12.5% above ₹1.25 lakh; debt after 1 Apr 2023 at slab) from an asset manager's tax guide (Jun 2026) and a broker's news explainer (Nov 2025), which agree. ₹ figures calculated at an assumed 8%.
+
 ## 2026-11-24 (daily pass, logged out; outliers = ≥3× the account's median of its last 12 non-pinned reels)
 
 - **All five Reels tabs loaded** (Escape closes the sign-up popup; view counts readable, topics from each reel's public description).

@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-28",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "tag": "₹ Fix #5",
+    "text": "Your ₹10 lakh,\n**₹6,000**\n**a month?**",
+    "sub": "SWP · illustrative",
+    "vo": "दस लाख से हर महीने छह हज़ार?"
+   },
+   {
+    "type": "bars",
+    "dur": 3.6,
+    "title": "₹6,000 a month\nfor 10 years\n(illustrative 8% a year)",
+    "bars": [
+     {
+      "label": "You started with",
+      "value": 10.0,
+      "display": "₹10 lakh"
+     },
+     {
+      "label": "You took out",
+      "value": 7.2,
+      "display": "₹7.2 lakh"
+     },
+     {
+      "label": "Still left",
+      "value": 10.8,
+      "display": "₹10.8 lakh",
+      "highlight": true
+     }
+    ],
+    "vo": "सात point दो निकाले, दस point आठ बचे।",
+    "mood": "happy",
+    "note": "Returns not guaranteed."
+   },
+   {
+    "type": "stat",
+    "dur": 2.6,
+    "title": "Tax on each ₹6,000?",
+    "big": "Profit only",
+    "count": false,
+    "color": "mint",
+    "label": "not the full ₹6,000",
+    "vo": "Tax सिर्फ़ profit पर।"
+   },
+   {
+    "type": "end",
+    "dur": 2.8,
+    "text": "Retiring soon?\n**This is SWP.**",
+    "cta": [
+     "Send to someone retiring soon",
+     "Fix #6 tomorrow · follow"
+    ],
+    "vo": "Retire होने वालों को भेजो।",
+    "mood": "happy"
+   }
+  ],
+  "caption": "Can one investment pay you every month? | SWP Explained\n\nA Systematic Withdrawal Plan (SWP) takes a fixed amount out of your mutual fund every month, straight to your bank account. The rest stays invested.\nIllustrative: ₹10 lakh, ₹6,000 a month for 10 years, assuming 8% a year. You take out ₹7.2 lakh and about ₹10.8 lakh is still left. Returns are not guaranteed: in a bad market year the balance falls, and a withdrawal bigger than the fund's growth eats into your own money.\nTax: each withdrawal sells units, and only the profit part is taxed, not the full amount (equity funds held over 12 months: 12.5% on yearly long-term gains above ₹1.25 lakh; under 12 months: 20%; debt funds bought after 1 Apr 2023: your slab).\n\nSave this for later.\nSend this to someone who is about to retire.\nWould you rather get a fixed amount every month, or leave it all invested?\n\nSources: an asset manager's tax guide (updated Jun 2026) and a broker's personal-finance news explainer (updated Nov 2025), which agree on the tax rules. ₹ figures calculated: monthly compounding at an assumed 8% a year, withdrawal at the end of each month, before tax.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[SWP, Systematic Withdrawal Plan, Monthly Income from Mutual Funds, Retirement Income, Mutual Fund Tips Hindi, Fix My Money]\n#swp #systematicwithdrawalplan #retirementplanning #mutualfunds #personalfinanceindia"
+ }
+}
