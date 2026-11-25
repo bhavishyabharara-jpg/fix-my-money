@@ -1,5 +1,5 @@
 name: Avatar (free GPU)
-# Renders the realistic AI presenter on Kaggle's free GPUs (default) or Modal ("backend": "modal").
+# Renders the realistic AI presenter: Modal InfiniteTalk ("backend": "infinitetalk"), Modal OmniAvatar ("modal") or Kaggle (default).
 # Separate from the Instagram publisher: this workflow never posts anything.
 on:
   push:
@@ -29,6 +29,7 @@ jobs:
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
         run: |
           pip install -q kaggle modal
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
           shopt -s nullglob
           mkdir -p avatar/out
           for req in avatar/requests/*.json; do
@@ -38,7 +39,12 @@ jobs:
             backend=$(python -c "import json;print(json.load(open('$req')).get('backend','kaggle'))")
             echo "== $name via $backend"
             rc=0
-            if [ "$backend" = "modal" ]; then
+            if [ "$backend" = "infinitetalk" ]; then
+              image=$(python -c "import json;print(json.load(open('$req'))['image'])")
+              audio=$(python -c "import json;print(json.load(open('$req'))['audio'])")
+              size=$(python -c "import json;print(json.load(open('$req')).get('size','infinitetalk-480'))")
+              PYTHONUNBUFFERED=1 modal run tools/avatar_infinitetalk.py --image "$image" --audio "$audio" --size "$size" --out "$out" > "avatar/out/$name.log" 2>&1 || rc=$?
+            elif [ "$backend" = "modal" ]; then
               image=$(python -c "import json;print(json.load(open('$req'))['image'])")
               audio=$(python -c "import json;print(json.load(open('$req'))['audio'])")
               PYTHONUNBUFFERED=1 modal run tools/avatar_modal.py --image "$image" --audio "$audio" --out "$out" > "avatar/out/$name.log" 2>&1 || rc=$?
@@ -47,6 +53,8 @@ jobs:
               PYTHONUNBUFFERED=1 python tools/kaggle_avatar.py "$req" "$out" > "avatar/out/$name.log" 2>&1 || rc=$?
             fi
             echo "exit code $rc" >> "avatar/out/$name.log"
+            # phone-footage finishing pass (free, on this runner): 1080x1920, grain, slight handheld drift
+            if [ -f "$out" ]; then bash tools/polish_video.sh "$out" "avatar/out/${name}_final.mp4" || true; fi
             tail -30 "avatar/out/$name.log"
           done
       - name: Save results
