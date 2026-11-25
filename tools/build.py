@@ -86,6 +86,20 @@ def render_specs() -> int:
             shutil.copy(out, target)
             if job.get("cover"):
                 shutil.copy(Path(td) / "reel" / "reel_cover.png", ROOT / job["cover"])
+            # realistic AI presenter (presenter_mode "human"): hand the presenter-free base reel, the
+            # narration and the placements to tools/avatar_batch.py (avatar.yml), which renders him on
+            # Modal and swaps him in for the coin. Until then (or if that fails) the coin reel stands.
+            base = Path(td) / "reel" / "base.mp4"
+            if base.exists():
+                work = ROOT / "avatar" / "work" / job_path.stem
+                work.mkdir(parents=True, exist_ok=True)
+                for f in ("base.mp4", "voice.wav", "presenter.json"):
+                    shutil.copy(Path(td) / "reel" / f, work / f)
+                (ROOT / "avatar" / "requests").mkdir(parents=True, exist_ok=True)
+                (ROOT / "avatar" / "requests" / f"{job_path.stem}.json").write_text(json.dumps(
+                    {"backend": "presenter", "job": f"queue/{job_path.name}", "status": "pending", "attempts": 0},
+                    indent=2) + "\n")
+                job["presenter"] = "pending"
         job.pop("rebuild", None)
         try:
             dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
@@ -124,10 +138,6 @@ def main() -> int:
         print("build: SARVAM_API_KEY not set; skipping voice work")
         return 0
     n = voice_samples() + previews() + render_specs()
-    try:  # 2026-11-22: free realistic-presenter test clip (previews/talking_test.json); never published
-        subprocess.run([sys.executable, str(ROOT / "tools" / "talking_test.py")], timeout=900)
-    except Exception as exc:
-        print(f"talking_test: skipped ({type(exc).__name__})")
     print(f"build: {n} file(s) made")
     return 0
 

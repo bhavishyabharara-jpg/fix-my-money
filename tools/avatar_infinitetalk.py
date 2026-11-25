@@ -90,31 +90,18 @@ def download(size: str) -> str:
     return ckpt
 
 
-@app.function(image=image, gpu="H100", timeout=45 * 60, memory=98304)
-def render(image_bytes: bytes, audio_bytes: bytes, size: str = "infinitetalk-480",
-           fast: bool = True, steps: int = 0, prompt: str = PROMPT) -> bytes:
-    """fast=True: lightx2v LoRA, ~6 steps, one guidance pass (~10x cheaper; ~$0.5-1 a clip).
-    fast=False: full 40-step, text+audio CFG (~$4 for 13 s on an H100 - too costly for daily use)."""
+def _infer(tag: str, image_bytes: bytes, audio_bytes: bytes, ckpt: str, size: str, fast: bool, steps: int,
+           prompt: str) -> bytes:
     import glob
     import time
-    # GPU-side import check before the download (wan/xfuser need CUDA at import time)
-    sh("cd /root/it && python -c 'import wan, xfuser; print(\"imports ok\")'")
-    # a stalled download once burned 35 GPU-minutes: hard cap it (normal: ~4 min)
-    import signal
-    def _stuck(*_):
-        raise TimeoutError("model download took over 12 minutes - stopping to save credit")
-    signal.signal(signal.SIGALRM, _stuck)
-    signal.alarm(12 * 60)
-    ckpt = download(size)
-    signal.alarm(0)
-    os.makedirs("/tmp/in", exist_ok=True)
+    d = f"/tmp/in/{tag}"
+    os.makedirs(d, exist_ok=True)
     os.makedirs("/tmp/out", exist_ok=True)
-    Path("/tmp/in/presenter.png").write_bytes(image_bytes)
-    Path("/tmp/in/voice.mp3").write_bytes(audio_bytes)
-    sh("ffmpeg -y -loglevel error -i /tmp/in/voice.mp3 -ac 1 -ar 16000 /tmp/in/voice.wav")
-    Path("/tmp/in/job.json").write_text(json.dumps({
-        "prompt": prompt, "cond_video": "/tmp/in/presenter.png",
-        "cond_audio": {"person1": "/tmp/in/voice.wav"}}))
+    Path(f"{d}/presenter.png").write_bytes(image_bytes)
+    Path(f"{d}/voice.in").write_bytes(audio_bytes)
+    sh(f"ffmpeg -y -loglevel error -i {d}/voice.in -ac 1 -ar 16000 {d}/voice.wav")
+    Path(f"{d}/job.json").write_text(json.dumps({
+        "prompt": prompt, "cond_video": f"{d}/presenter.png", "cond_audio": {"person1": f"{d}/voice.wav"}}))
     os.chdir("/root/it")
     if fast:
         tune = (f"--lora_dir {W}/lora/{LORA} --lora_scale 1.0 --sample_steps {steps or 6} --sample_shift 2 "
@@ -122,17 +109,67 @@ def render(image_bytes: bytes, audio_bytes: bytes, size: str = "infinitetalk-480
     else:
         tune = f"--sample_steps {steps or 40} --sample_text_guide_scale 5 --sample_audio_guide_scale 4"
     t = time.time()
-    # the whole model fits in the H100's 80 GB: no CPU offload between steps
+    # the whole model fits in the H100's 80 GB: no CPU offload between steps; hard 20-min cap per clip
     sh(f"timeout 1200 python generate_infinitetalk.py --ckpt_dir {ckpt} --wav2vec_dir {W}/chinese-wav2vec2-base "
-       f"--infinitetalk_dir {W}/InfiniteTalk/single/infinitetalk.safetensors --input_json /tmp/in/job.json "
-       f"--size {size} --mode streaming --motion_frame 9 --offload_model False {tune} --save_file /tmp/out/fmm")
-    print(f"rendered in {time.time() - t:.0f}s", flush=True)
-    vids = sorted(glob.glob("/tmp/out/fmm*.mp4"))
-    return Path(vids[-1]).read_bytes()
+       f"--infinitetalk_dir {W}/InfiniteTalk/single/infinitetalk.safetensors --input_json {d}/job.json "
+       f"--size {size} --mode streaming --motion_frame 9 --offload_model False {tune} --save_file /tmp/out/{tag}")
+    print(f"{tag}: rendered in {time.time() - t:.0f}s", flush=True)
+    return Path(sorted(glob.glob(f"/tmp/out/{tag}*.mp4"))[-1]).read_bytes()
+
+
+def _prepare(size: str) -> str:
+    # GPU-side import check before the download (wan/xfuser need CUDA at import time)
+    sh("cd /root/it && python -c 'import wan, xfuser; print(\"imports ok\")'")
+    # a stalled download once burned 35 GPU-minutes: hard cap it (normal: ~4-7 min)
+    import signal
+
+    def _stuck(*_):
+        raise TimeoutError("model download took over 12 minutes - stopping to save credit")
+    signal.signal(signal.SIGALRM, _stuck)
+    signal.alarm(12 * 60)
+    ckpt = download(size)
+    signal.alarm(0)
+    return ckpt
+
+
+@app.function(image=image, gpu="H100", timeout=45 * 60, memory=98304)
+def render(image_bytes: bytes, audio_bytes: bytes, size: str = "infinitetalk-480",
+           fast: bool = True, steps: int = 0, prompt: str = PROMPT) -> bytes:
+    """One clip. fast=True: lightx2v LoRA, 6 steps, one guidance pass (~$1.6 for 13 s incl. download).
+    fast=False: full 40-step, text+audio CFG (~$4 for 13 s on an H100 - too costly for daily use)."""
+    return _infer("fmm", image_bytes, audio_bytes, _prepare(size), size, fast, steps, prompt)
+
+
+@app.function(image=image, gpu="H100", timeout=80 * 60, memory=98304)
+def render_many(jobs: list, size: str = "infinitetalk-480", fast: bool = True, steps: int = 0,
+                prompt: str = PROMPT) -> list:
+    """Several clips for one model download (the daily reels, batched). Returns bytes or None per job."""
+    ckpt = _prepare(size)
+    out = []
+    for i, (image_bytes, audio_bytes) in enumerate(jobs):
+        try:
+            out.append(_infer(f"job{i}", image_bytes, audio_bytes, ckpt, size, fast, steps, prompt))
+        except Exception as exc:  # one bad clip must not cost the others
+            print(f"job{i}: FAILED {type(exc).__name__}: {exc}", flush=True)
+            out.append(None)
+    return out
 
 
 @app.local_entrypoint()
-def main(image: str, audio: str, out: str, size: str = "infinitetalk-480", fast: bool = True, steps: int = 0):
+def main(image: str = "", audio: str = "", out: str = "", size: str = "infinitetalk-480", fast: bool = True,
+         steps: int = 0, manifest: str = ""):
+    if manifest:  # [{"image": ..., "audio": ..., "out": ...}, ...]
+        items = json.loads(Path(manifest).read_text())
+        res = render_many.remote([(Path(it["image"]).read_bytes(), Path(it["audio"]).read_bytes()) for it in items],
+                                 size, fast, steps)
+        for it, data in zip(items, res):
+            if data:
+                Path(it["out"]).parent.mkdir(parents=True, exist_ok=True)
+                Path(it["out"]).write_bytes(data)
+                print(f"saved {it['out']} ({len(data) / 1e6:.1f} MB)")
+            else:
+                print(f"no clip for {it['out']}")
+        return
     data = render.remote(Path(image).read_bytes(), Path(audio).read_bytes(), size, fast, steps)
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     Path(out).write_bytes(data)

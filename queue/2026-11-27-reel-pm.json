@@ -18,5 +18,6 @@
     "Tax-news site, 1 Oct 2026: Finance Ministry kept rates unchanged for Oct–Dec 2026: savings 4%, TD 6.9/7/7.1/7.5%, RD 6.7%, SCSS 8.2%, MIS 7.4%, NSC 7.7%, PPF 7.1%, SSA 8.2%, KVP 7.5%",
     "₹10,00,000 × 8.2% = ₹82,000; × 4% = ₹40,000 (calculated, one year, simple interest, before tax)"
   ],
-  "duration_s": 11.9
+  "duration_s": 11.9,
+  "rebuild": true
 }

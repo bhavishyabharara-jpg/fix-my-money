@@ -7,8 +7,8 @@
  "language": "hi-IN",
  "hook_presenter": "corner",
  "hook_presenter_note": "2026-10-18 weekly: \"corner\" puts the presenter at its normal 300px bottom-right spot on the hook scene instead of 340px centred under the hook. \"centre\" restores the 10 Oct frame-0 layout.",
- "presenter_mode": "sikka",
- "presenter_model": "fal-ai/kling-video/ai-avatar/v2/standard",
- "presenter_image": "https://v3b.fal.media/files/b/0ab38186/XfUWm5-IHDcSkxwEjr-aB_ANczoSiV.png",
- "presenter_note": "2026-11-22: realistic AI presenter (invented face, fal.ai) under test. presenter_mode stays 'sikka' until the owner picks a model from the test clips; then 'fal'. Disclose as AI on every reel."
+ "presenter_mode": "human",
+ "presenter_model": "InfiniteTalk (open source) on Modal, lightx2v 6 steps",
+ "presenter_note": "2026-11-25: owner approved the InfiniteTalk presenter (v2 test clip). Every narrated reel is rendered with the coin as before PLUS a presenter-free base; avatar.yml (tools/avatar_batch.py) renders the human presenter on Modal in batches and swaps him in as a rounded 'facecam' card with an 'AI' tag; captions say 'Presenter and voiceover are AI-generated.' If Modal fails or the free credit cap ($29/month) is hit, the coin reel goes out. Set presenter_mode back to 'sikka' to stop.",
+ "presenter_image_local": "previews/out/presenter_src/closeup.png"
 }

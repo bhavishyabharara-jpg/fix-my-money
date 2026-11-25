@@ -483,6 +483,32 @@ def render_reel(r, out):
         mouth_at = np.clip(env / (ref + 1e-9), 0, 1)
         mouth_at = np.convolve(mouth_at, [0.25, 0.5, 0.25], mode="same")
     use_mascot = r.get("mascot", True)
+    # 2026-11-25: realistic AI presenter. When presenter_mode is "human", also write a base video
+    # without the coin, the voice-only narration and where the presenter goes on every frame;
+    # tools/avatar_batch.py renders the presenter on Modal and composites him there. The coin
+    # reel is still written as reel.mp4, so it goes out unchanged if the presenter can't be made.
+    human = use_mascot and track is not None and CFG.get("presenter_mode") == "human"
+    placements = []
+    base_proc = None
+    if human:
+        base_video = os.path.join(out, "_base_video.mp4")
+        base_proc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
+                                      "-s", f"{RW}x{RH}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium",
+                                      "-crf", "18", "-pix_fmt", "yuv420p", base_video], stdin=subprocess.PIPE)
+
+    def place(s, t):
+        """Where the presenter sits: the coin's spots, a little larger for a human face."""
+        import character as C
+        b = C.bob(t)
+        if s.get("type") == "hook":
+            size = 440
+            return ((RW - size) // 2, RH - 170 - size + b, size)
+        size = 320
+        if s.get("type") == "bars":
+            return (RW - 60 - size, 140 + b, size)
+        if s.get("type") == "end":
+            return ((RW - size) // 2, RH - 470 - size + b, size)
+        return (RW - 60 - size, RH - 200 - size + b, size)
 
     def with_mascot(img, s, t):
         if not use_mascot:
@@ -512,7 +538,11 @@ def render_reel(r, out):
         nf = int(round(s["dur"] * FPS))
         for i in range(nf):
             st = i / FPS
-            img = with_mascot(draw_reel_frame(s, st, start + st, T, len(scenes)), s, start + st)
+            base = draw_reel_frame(s, st, start + st, T, len(scenes))
+            if base_proc is not None:
+                base_proc.stdin.write(base.tobytes())
+                placements.append(place(s, start + st))
+            img = with_mascot(base.copy() if base_proc is not None else base, s, start + st)
             proc.stdin.write(img.tobytes())
             frame += 1
         start += s["dur"]
@@ -521,6 +551,17 @@ def render_reel(r, out):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp_video, "-i", audio, "-c:v", "copy",
                     "-af", f"loudnorm=I={-14 if track is not None else -20}:TP=-1.5:LRA=11", "-ar", "44100",
                     "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", final], check=True)
+    if base_proc is not None:
+        base_proc.stdin.close(); base_proc.wait()
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", base_video, "-i", final, "-map", "0:v", "-map", "1:a",
+                        "-c", "copy", "-movflags", "+faststart", os.path.join(out, "base.mp4")], check=True)
+        os.remove(base_video)
+        v = track[: int(T * A.SR)]
+        A.write_wav(os.path.join(out, "voice.wav"), v / max(1e-6, float(np.abs(v).max())) * 0.9)
+        first = scenes[0]["dur"]
+        with open(os.path.join(out, "presenter.json"), "w") as fh:
+            json.dump({"fps": FPS, "w": RW, "h": RH, "seconds": T, "cover_frame": max(0, int(first * FPS) - 1),
+                       "placements": placements}, fh)
     os.remove(tmp_video); os.remove(audio)
     # cover frame (end of first scene) for preview/check
     with_mascot(draw_reel_frame(scenes[0], scenes[0]["dur"] - 0.01, scenes[0]["dur"], T, len(scenes)), scenes[0], 0.0).save(os.path.join(out, "reel_cover.png"))

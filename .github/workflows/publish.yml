@@ -48,7 +48,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add media voice queue previews 2>/dev/null || true
+          git add media voice queue previews avatar 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git config user.name  "fix-my-money-bot"
             git config user.email "noreply@github.com"

@@ -1,17 +1,22 @@
 name: Avatar (free GPU)
-# Renders the realistic AI presenter: Modal InfiniteTalk ("backend": "infinitetalk"), Modal OmniAvatar ("modal") or Kaggle (default).
-# Separate from the Instagram publisher: this workflow never posts anything.
+# Renders the realistic AI presenter on Modal. Hourly, tools/avatar_batch.py adds the presenter to queued
+# reels ("backend": "presenter" requests written by tools/build.py), batching them so the model download is
+# paid once per batch. One-off test clips: "infinitetalk", "modal" (OmniAvatar) or "kaggle".
+# Never posts anything itself: it only replaces a queued reel's video before publish.yml posts it.
 on:
   push:
     branches: [main]
     paths:
       - 'avatar/requests/*.json'
+  schedule:
+    - cron: '25 * * * *'
   workflow_dispatch:
 concurrency:
   group: avatar-render
   cancel-in-progress: false
 permissions:
   contents: write
+  pages: write
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -21,7 +26,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Render pending avatar requests
+      - name: Add the AI presenter to queued reels (batched)
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          pip install -q modal numpy pillow
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          python tools/avatar_batch.py
+      - name: Render one-off test requests
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
@@ -37,6 +50,7 @@ jobs:
             out="avatar/out/$name.mp4"
             [ -f "$out" ] && continue
             backend=$(python -c "import json;print(json.load(open('$req')).get('backend','kaggle'))")
+            [ "$backend" = "presenter" ] && continue   # handled by avatar_batch.py above
             echo "== $name via $backend"
             rc=0
             if [ "$backend" = "infinitetalk" ]; then
@@ -59,11 +73,16 @@ jobs:
           done
       - name: Save results
         if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git add avatar/out 2>/dev/null || true
+          git add avatar media queue 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git config user.name "fix-my-money-bot"
             git config user.email "noreply@github.com"
             git commit -q -m "Avatar rendered: $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull -q --rebase && git push -q
+            # new reel videos must be live on Pages before Instagram fetches them
+            curl -s -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages/builds" | head -c 300; echo
           fi

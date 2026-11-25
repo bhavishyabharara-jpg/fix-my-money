@@ -17,5 +17,6 @@
     "Broker's personal-finance news explainer, updated 29 Nov 2025: SWP taxed only on the profit portion; equity short-term 20%, long-term exempt to ₹1.25 lakh then 12.5%; debt after 1 Apr 2023 at slab",
     "₹10,00,000 compounding monthly at (1.08)^(1/12)−1, ₹6,000 withdrawn at each month end for 120 months → ≈₹10,78,179 left; ₹6,000 × 120 = ₹7,20,000 taken out (calculated, illustrative, before tax)"
   ],
-  "duration_s": 11.6
+  "duration_s": 11.6,
+  "rebuild": true
 }
