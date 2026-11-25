@@ -1,0 +1,20 @@
+{
+  "note": "Tru Nivesh Meta ads v2: simpler everyday language (Nov 2026). Same voice and pace as the Fix My Money reels.",
+  "voice": "sarvam:amit",
+  "pace": 1.05,
+  "language": "hi-IN",
+  "lines": [
+    {
+      "id": "tn-v2-a-leak",
+      "text": "आपका portfolio शायद चुपचाप पैसा गँवा रहा है, और आपको पता भी नहीं। एक जैसे funds, पुराना insurance plan, छूटी हुई tax saving। Free check कराइए, बस बीस मिनट।"
+    },
+    {
+      "id": "tn-v2-b-maths",
+      "text": "हर साल सिर्फ एक percent कम return, और तीस लाख पर पंद्रह साल में बीस लाख कम। आपका portfolio कहाँ पैसा गँवा रहा है? Free में check कराइए।"
+    },
+    {
+      "id": "tn-v2-c-checkup",
+      "text": "हर साल अपना health check-up कराते हो ना? तो portfolio का check-up आखिरी बार कब हुआ था? बीस मिनट का free portfolio health check book कीजिए।"
+    }
+  ]
+}
