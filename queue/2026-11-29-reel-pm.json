@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-29",
+  "slot": "reel",
+  "publish_at": "2026-11-29T13:45",
+  "topic": "On-road price vs ex-showroom: illustrative ₹8 lakh petrol car in Maharashtra (individual owner, 1000–1500 cc) + 11% one-time road tax ₹88,000 + compulsory 3-year third-party cover ₹10,640 = ₹8,98,640 before own-damage cover, registration, accessories and handling",
+  "idea": "car-on-road-price",
+  "hook_pattern": "bill-reveal",
+  "experiment": "OUTLIER ADAPTATION (owner reset rule 4): idea from @simply.kaasu's 'Check before buying a car' reel (advertised ₹9 lakh car, ₹12 lakh bill: ask for an itemised on-road quote), 145K views vs that account's ~20K median of its last 12 = ~7×; its median has risen from ~3.4K as several reels went past 100K. Adapted with our own 3-bar proof (ex-showroom / road tax / 3-year third-party cover) and one sourced ₹ total; wording, visuals and numbers our own. Pattern bill-reveal (the leading one); 27 and 28 Nov already go against it. Opens on '₹8 lakh car?', unlike 27 Nov ('Savings: 4%') and 28 Nov ('Your ₹10 lakh'). First car-buying topic since the 3 Nov small-car GST reel (1.0×). Send target: a friend buying a car. 24 spoken words, 11.6 s silent. Series '₹ Fix #6' + 'Fix #7 tomorrow · follow'. Critic predicted multiple: 1.4× (mass decision a friend is about to make, strong outside proof; risk: one state's rate, and car buyers are a small slice on any given day). Judge on 2 Dec at 3 days vs the 122-view yardstick.",
+  "caption": "Why is an ₹8 lakh car not ₹8 lakh? | On-Road Price Explained\n\nThe ad shows the ex-showroom price. Your bill adds one-time road tax, insurance, registration and extras.\nIllustrative: an ₹8 lakh petrol car registered in an individual's name in Maharashtra. Road tax at 11% = ₹88,000. The compulsory 3-year third-party cover for a 1000–1500 cc car = ₹10,640. That is ₹8,98,640 before own-damage cover, registration fees, accessories or handling charges.\nRoad tax differs by state, fuel and price. Ask the dealer for an itemised on-road quote, and compare insurance quotes for the same cover.\n\nSave this for later.\nSend this to a friend who is buying a car this month.\nWhat surprised you most on your car's on-road bill?\n\nSources: Maharashtra one-time tax rates for petrol cars in an individual's name, as reported by an auto-industry news site (Jul 2025) and a used-car marketplace's road-tax guide (Jul 2025), which agree; the three-year third-party premium for new private cars, as listed by a general insurer's price list (updated Nov 2026) and an insurance marketplace's price list, which agree. ₹ figures calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[On-Road Price, Ex-Showroom Price, Road Tax, Car Insurance, Car Buying Tips Hindi, Fix My Money]\n#carbuyingtips #roadtax #carinsurance #personalfinanceindia #moneytips",
+  "spec": "specs/2026-11-29-reel-pm.json",
+  "media": [
+    "media/2026-11-29/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-29/reel-pm/reel_cover.png",
+  "sources": [
+    "Auto-industry news site (Autocar Professional bureau, 1 Jul 2025): Maharashtra one-time tax for petrol cars in an individual's name 11% below ₹10 lakh, 12% ₹10–20 lakh, 13% above ₹20 lakh",
+    "Used-car marketplace road-tax guide (14 Jul 2025): Maharashtra petrol 11%/12%/13%; example ₹8 lakh petrol hatchback at 11% = ₹88,000",
+    "General insurer's third-party price list 2026 (updated 5 Nov 2026): three-year single premium for new private cars 1000–1500 cc = ₹10,640; compulsory since Sep 2018",
+    "Insurance marketplace's car insurance price list: 3-year third-party premium 1000–1500 cc = ₹10,640",
+    "₹8,00,000 × 11% = ₹88,000; ₹8,00,000 + ₹88,000 + ₹10,640 = ₹8,98,640 (calculated, illustrative)"
+  ]
+}

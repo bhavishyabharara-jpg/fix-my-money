@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-26 (daily pass, signed in as @fix_mymoney, read only; outliers = ≥3× the account's median of its last 12 non-pinned reels)
+
+- **@simply.kaasu (4,533 followers; median now ~20K of 12, up from ~3.4K):** SWP explained **310K (~16×)**, phone-formatting trick 282K, **new: "Bike at a low price? | Bank Auction Explained" 179K (~9×)** (reserve price isn't the final price; check RC, dues, transfer before bidding), **new: "₹9 lakh car… ₹12 lakh bill? | Check Before Buying a Car" 145K (~7×)** (ex-showroom vs on-road; ask for an itemised quote, compare insurance on the same cover, look at total repayment not just EMI), 5 post office schemes **76.3K (~3.9×)**. Newest: car loan in the wife's name 35K, car insurance claim 2K (1 day). The KVP doubling reel no longer shows in the grid. **Car on-road price adapted for 29 Nov.** Bank-auction bike is the next candidate.
+- **@financewithsharan** (median ~320K of 12 non-pinned): no new outlier; 1.1M property reel (3.4×, adapted 26 Nov) still the only one. Newest two at 94–95K.
+- **@ca_rachanaranade** (median ~62K): 2.3M (37×) cooking-creator comedy collab, 381K (6×) creator-summit comedy, 354K (5.7×) a Marathi podcast clip on parenting: all personality/collab, not adaptable.
+- **@anushkarathod98** (median ~810K): 2.9M (3.6×) "buy gold and silver in this dip?" (a buy call: not usable). Below 3× but notable: "Don't make this EPF mistake or you can't withdraw" 1.8M (2.2×): an EPF-withdrawal mistake is a mass topic to adapt later.
+- **Rotating @ishmohitarora** (median ~15K, mostly a research-channel's clips): 80.1K (5.3×) a gold price outlook (a prediction: not usable).
+- **Insight:** simply.kaasu's growth now comes from "check before you buy" consumer explainers (car on-road price, auction bike, car loan) next to small-savings explainers: a decision the viewer or a friend is about to make, with a send line naming that friend.
+- **News (last 48 h):** no personal-finance rule change with a ₹ effect for a mass audience found in a search. Facts used today: Maharashtra one-time tax on petrol cars in an individual's name 11% below ₹10 lakh (an auto-industry news site, 1 Jul 2025; a used-car marketplace's guide, 14 Jul 2025, agree); 3-year third-party premium for new 1000–1500 cc private cars ₹10,640 (a general insurer's 2026 price list updated 5 Nov 2026; an insurance marketplace's list agree). Delhi road-tax pages disagreed (price % vs weight-based), so Delhi was not used.
+
 ## 2026-11-25 (daily pass, logged out; outliers = ≥3× the account's median of its last 12 non-pinned reels)
 
 - **All five Reels tabs loaded** (Escape closes the sign-up popup; topics from each reel's public description).

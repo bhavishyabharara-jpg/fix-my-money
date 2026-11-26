@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-11-26 — Daily review (day 4 of the one-reel-a-day test)
+
+- **Status:** followers **11 (+0)**; profile views yesterday **0** (25 Nov: reach 252, 1 account engaged). 4 owner-approved comments on bigger creators went out today (first comment day); judge profile views from tomorrow's row. Trials start tomorrow (27 Nov 06:45 UTC, re-post of 13 Nov gold short-term gain); no trial has run yet.
+- **Beat the yardstick:** nothing at 2× yet. Settling: 25 Nov pm 15-15-15 rule **165 views at ~15 h (1.4× already)**, with a save, but 30% hold (3.5 s). What it shares with 13 Nov gold (1.9×) and 22 Nov wedding guest (1.2×): a rule or number people already repeat to each other, checked in plain words.
+- **Missed:** 23 Nov pm IDCW read at 3 days: **85 = 0.7× normal** (17% hold). 24 Nov pm ELSS at ~2 days 75 / 16%. Both = the wording: the first line was a product term ("payout option", "ELSS"), not a ₹ or a decision.
+- **One change today:** the 29 Nov reel adapts a fresh outlier from a different life decision (buying a car: ₹8 lakh ad price → ₹8.99 lakh bill, from @simply.kaasu's ~7× on-road price reel), so the queue now runs property → post office → SWP → car instead of four investing terms.
+
 ## 2026-11-25 — Daily review (day 3 of the one-reel-a-day test)
 
 - **Status:** followers **11 (+0)**; profile views yesterday **0** (24 Nov: reach 290, 2 accounts engaged). 24 Nov pm ELSS went out at 01:08 UTC on 25 Nov, **11.4 h late** (23 Nov was 7 h late): lateness is growing; media for 24–27 Nov is all on GitHub, so it is the publish cron, not the render.
