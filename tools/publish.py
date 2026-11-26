@@ -33,6 +33,7 @@ a fresh one before that happens.
 
 from __future__ import annotations
 
+import calendar
 import json
 import os
 import sys
@@ -202,11 +203,20 @@ def pending(state: dict) -> list[Path]:
         if p.stem in done:
             continue
         try:
-            due = json.loads(p.read_text()).get("publish_at")
+            spec = json.loads(p.read_text())
+            due = spec.get("publish_at")
         except Exception:
-            due = None            # malformed: let validate() report it properly
+            spec, due = {}, None  # malformed: let validate() report it properly
         if due and str(due)[:16] > now:
             continue              # not yet its turn
+        if spec.get("trial") and due:
+            # A trial that keeps failing (e.g. Instagram rejecting trial_params) is given up
+            # after 6 hours rather than retried forever; plan_trials.py then stops planning
+            # new ones and says so in the log.
+            late = time.time() - calendar.timegm(time.strptime(str(due)[:16], "%Y-%m-%dT%H:%M"))
+            if late > 6 * 3600:
+                print(f"SKIPPED  {p.stem}: trial reel more than 6 h past due and never published")
+                continue
         jobs.append(p)
     return jobs
 

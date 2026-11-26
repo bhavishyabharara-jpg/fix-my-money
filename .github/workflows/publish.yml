@@ -72,12 +72,13 @@ jobs:
         run: |
           python tools/metrics.py
           python tools/review.py
+          python tools/plan_trials.py
 
       - name: Record what went live
         if: always()
         run: |
-          git add published.json metrics 2>/dev/null || true
-          if [ -n "$(git status --porcelain published.json metrics)" ]; then
+          git add published.json metrics queue 2>/dev/null || true
+          if [ -n "$(git status --porcelain published.json metrics queue)" ]; then
             git config user.name  "fix-my-money-bot"
             git config user.email "noreply@github.com"
             git commit -m "Published: $(date -u +%Y-%m-%dT%H:%MZ)"
