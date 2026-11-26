@@ -1,6 +1,6 @@
-# Scoreboard — 2026-11-25
+# Scoreboard — 2026-11-26
 
-Followers **11** (+0 vs previous day). Reels tracked: 98. Median views per reel: 46. Frozen yardstick: 122 views (multiples read once at 3 days old).
+Followers **11** (+0 vs previous day). Reels tracked: 99. Median views per reel: 52. Frozen yardstick: 122 views (multiples read once at 3 days old).
 
 Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·follows/reach (×100).
 
@@ -31,6 +31,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-19-reel-am Can a recovery agent call you at 10 pm? RBI: overdue-loan ca | big-question | yes | 4 | 0.0× miss | 4.5s (31%) | 0 | 0 | 0 | 0 | 7.8 |
 | 2026-10-28-reel-pm Job switch mid-year: each employer applies the ₹75,000 stand | big-question | yes | 12 | 0.1× miss | 4.7s (31%) | 0 | 0 | 0 | 0 | 7.7 |
 | 2026-11-16-reel-pm Equity holding period: listed equity shares / equity mutual  | contrarian-number | yes | 175 | 1.4× normal | 3.5s (30%) | 0 | 1 | 1 | 0 | 7.6 |
+| 2026-11-25-reel-pm The 15-15-15 rule: ₹15,000 a month for 15 years at 15% ≈ ₹1. | contrarian-number | yes | 165 | — | 3.5s (30%) | 0 | 1 | 0 | 0 | 7.6 |
 | 2026-10-27-reel-pm ₹50 lakh home loan at an illustrative 8.5% for 20 years: EMI | guess-the-number | yes | 110 | 0.9× normal | 4.5s (29%) | 0 | 1 | 1 | 0 | 7.6 |
 | 2026-11-03-reel-am Small-car GST since 22 Sep 2025: 18% with no cess (≤4 m, pet | guess-the-number | yes | 127 | 1.0× normal | 3.4s (30%) | 0 | 0 | 0 | 0 | 7.5 |
 | 2026-11-18-reel-am Paying only the minimum due on a card: minimum ≈ 5% of the b | group-callout | yes | 114 | 0.9× normal | 3.5s (30%) | 0 | 0 | 0 | 0 | 7.5 |
@@ -59,13 +60,14 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-11-11-reel-pm Car insurance no-claim bonus: 20% after one claim-free year  | before-you | yes | 28 | 0.2× miss | 2.5s (20%) | 0 | 0 | 0 | 0 | 5.0 |
 | 2026-11-02-reel-am Overseas tour package TCS: flat 2% from the first rupee from | guess-the-number | yes | 25 | 0.2× miss | 2.2s (19%) | 0 | 0 | 0 | 0 | 4.8 |
 | 2026-10-09-reel-pm ₹2 lakh holiday: save first or take a loan? | big-question | yes | 141 | 1.2× normal | 3.5s (17%) | 0 | 1 | 2 | 0 | 4.6 |
-| 2026-11-23-reel-pm Mutual fund payout (IDCW) option: NAV falls by exactly the p | contrarian-number | yes | 85 | — | 2.1s (17%) | 0 | 0 | 2 | 0 | 4.6 |
+| 2026-11-23-reel-pm Mutual fund payout (IDCW) option: NAV falls by exactly the p | contrarian-number | yes | 85 | 0.7× normal | 2.1s (17%) | 0 | 0 | 2 | 0 | 4.6 |
 | 2026-10-04-reel Thinking of stopping your SIP? 8 weeks of red | untagged | no | 13 | 0.1× miss | 3.0s (15%) | 0 | 0 | 1 | 0 | 4.5 |
 | 2026-10-19-reel-mid Locker robbed? The bank pays at most 100× the annual rent, a | contrarian-number | yes | 47 | 0.4× miss | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-15-reel-pm Job switch: PF withdrawn before 5 years isn't tax-free; tran | contrarian-number | yes | 39 | 0.3× miss | 2.6s (17%) | 0 | 0 | 0 | 0 | 4.3 |
 | 2026-10-10-reel-am When will your money double? The rule of 72 (and how it work | big-question | yes | 122 | 1.0× normal | 3.2s (16%) | 0 | 0 | 2 | 0 | 4.2 |
 | 2026-10-22-reel-pm Gratuity = 15/26 × last monthly wages × years: illustrative  | guess-the-number | yes | 110 | 0.9× normal | 2.4s (17%) | 0 | 0 | 0 | 0 | 4.2 |
 | 2026-11-22-reel-pm Tax harvesting: long-term gains on listed equity / equity fu | contrarian-number | yes | 132 | 1.1× normal | 1.9s (16%) | 0 | 0 | 0 | 0 | 4.1 |
+| 2026-11-24-reel-pm ELSS in the new tax regime: the ₹1.5 lakh deduction (old 80C | contrarian-number | yes | 75 | — | 2.0s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-09-reel-am Credit card minimum due: how little of it clears your bill | contrarian-number | yes | 59 | 0.5× miss | 3.3s (16%) | 0 | 0 | 0 | 0 | 4.1 |
 | 2026-10-24-reel-pm EPF wage ceiling ₹15,000 → ₹25,000 (October first full salar | big-question | yes | 114 | 0.9× normal | 2.2s (16%) | 0 | 0 | 0 | 0 | 4.0 |
 | 2026-10-20-reel-mid ₹10,000 savings-interest deduction applies only in the old r | contrarian-number | yes | 17 | 0.1× miss | 2.4s (16%) | 0 | 0 | 0 | 0 | 4.0 |
@@ -105,7 +107,6 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | 2026-10-16-reel-mid ₹98,073 crore unclaimed in old bank accounts: how to find an | if-you-have | yes | 5 | 0.0× miss | 0.7s (5%) | 0 | 0 | 0 | 0 | 1.2 |
 | 2026-10-13-reel-am Loan at "1% a month": why a flat rate is really ~21% a year | contrarian-number | yes | 19 | 0.2× miss | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
 | 2026-10-13-reel-pm One extra EMI a year: how much faster a ₹50 lakh home loan c | small-input-big-number | yes | 12 | 0.1× miss | 0.8s (4%) | 0 | 0 | 0 | 0 | 1.0 |
-| 2026-11-24-reel-pm ELSS in the new tax regime: the ₹1.5 lakh deduction (old 80C | contrarian-number | yes | 0 | — | 0.0s (0%) | 0 | 0 | 0 | 0 | 0.0 |
 
 ## By hook pattern
 
@@ -115,7 +116,7 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | future-bill | 1 | 131 | 32% | 8.1 | keep |
 | bill-reveal | 13 | 121 | 27% | 7.3 | leading (a hint, not a rule) |
 | group-callout | 10 | 117 | 28% | 7.2 | keep |
-| contrarian-number | 27 | 85 | 21% | 5.2 | keep |
+| contrarian-number | 29 | 85 | 21% | 5.2 | keep |
 | before-you | 1 | 28 | 20% | 5.0 | test again (low data) |
 | guess-the-number | 7 | 28 | 19% | 4.8 | test again |
 | untagged | 1 | 13 | 15% | 4.5 | test again (low data) |
@@ -129,9 +130,9 @@ Score = 40·sends/reach + 25·watch% + 15·saves/reach + 10·likes/reach + 10·f
 | small-input-big-number | 2 | 29 | 7% | 1.7 | test again |
 | if-you-have | 1 | 5 | 5% | 1.2 | test again (low data) |
 
-Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am, 2026-11-24-reel-pm.
+Left out of pattern stats (0 views, not distributed — check the post): 2026-10-15-reel-am.
 
-Narrated reels: median views 52, watch 20% — silent reels: 22, 13%.
+Narrated reels: median views 58, watch 21% — silent reels: 22, 13%.
 
 ## Rule for the next batch
 
