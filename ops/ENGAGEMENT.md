@@ -6,7 +6,7 @@ that adds one real number to the creator's point makes people tap @fix_mymoney.
 ## Daily batch (part of the daily run)
 1. In the built-in browser, signed in as **@fix_mymoney** (check the avatar/profile link first;
    never the owner's personal account), open the newest posts (last 24 h first) of 6–8 creators:
-   rotate through @sarthakahuja, @financewithsharan, @ankurwarikoo, @pranjalkamra, @nehanagar,
+   rotate through @casarthakahuja, @financewithsharan, @ankurwarikoo, @pranjalkamra, @nehanagar,
    @ishmohitarora, @ca_rachanaranade, @simply.kaasu, @labourlawadvisor, @anushkarathod98,
    plus 2–3 mid-size (20K–300K) Indian finance creators. Skip posts we already commented on
    (ops/comments.csv) and posts about a named stock, IPO or crypto coin.
