@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-29",
+  "slot": "reel",
+  "publish_at": "2026-11-29T06:45",
+  "trial": "SS_PERFORMANCE",
+  "topic": "FD interest after tax: illustrative ₹1 lakh at 7% for a year = ₹7,000; at the 30% slab (income above ₹24 lakh, new regime) + 4% cess the tax is ₹2,184, so you keep ₹4,816 (4.8% post-tax)",
+  "idea": null,
+  "hook_pattern": "contrarian-number",
+  "experiment": "TRIAL REEL (owner, 26 Nov): re-post of 2026-11-12-reel-pm (one of the 3 best by views) as an Instagram trial reel, shown to non-followers first; auto-graduates to followers if it performs well. Same video and caption; costs nothing. Judge 3 days later on non-follower views and follows vs the original.",
+  "caption": "₹1 lakh FD at 7%: how much do you really keep?\n\nIllustrative: ₹1 lakh at 7% for a year = ₹7,000 interest.\nFD interest is taxed at your slab rate. In the 30% slab (income above ₹24 lakh, new regime) plus 4% cess, that's ₹2,184.\nYou keep ₹4,816: a 4.8% post-tax return, before inflation. Lower slabs keep more; surcharge not included.\n\nWhat's your FD rate after tax?\n\nSources: a comparison site's FY 2026-27 slab table; a broker's news-desk guide to slabs and cess. Illustrative maths only.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n#fixeddeposit #fdinterest #incometaxindia #taxonfd #moneytips",
+  "media": [
+    "media/2026-11-12/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-11-12/reel-pm/reel_cover.png",
+  "sources": [
+    "A comparison site's FY 2026-27 income-tax slab table (30% above ₹24 lakh, new regime)",
+    "A broker's news-desk guide to slabs, surcharge and cess (4% health and education cess, both regimes)"
+  ],
+  "duration_s": 12.9,
+  "repost_of": "2026-11-12-reel-pm"
+}

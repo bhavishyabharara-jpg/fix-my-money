@@ -146,6 +146,11 @@ def publish_reel(job: dict) -> str:
     }
     if job.get("cover"):
         params["cover_url"] = url_for(job["cover"])
+    if job.get("trial"):
+        # Trial reel (Content Publishing API, Dec 2025): shown to non-followers first. SS_PERFORMANCE
+        # auto-graduates it to followers if it performs well; MANUAL leaves that to the app.
+        strategy = job["trial"] if job["trial"] in ("SS_PERFORMANCE", "MANUAL") else "SS_PERFORMANCE"
+        params["trial_params"] = json.dumps({"graduation_strategy": strategy})
     cid = container(**params)
     wait_ready(cid, "reel")
     return publish(cid)
