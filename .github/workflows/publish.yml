@@ -10,8 +10,9 @@ on:
       - 'voice/request.json'
       - 'previews/*.json'
   schedule:
-    # :50 past the hour, so a post due at 13:45 UTC (19:15 IST) goes out at ~19:20 IST.
-    - cron: '50 * * * *'
+    # Every 15 min: GitHub often drops or delays scheduled runs (26 Nov: the 13:50 and 14:50 UTC runs
+    # never fired and the 19:15 IST reel went out at 20:57 by hand), so several chances an hour.
+    - cron: '5,20,35,50 * * * *'
   workflow_dispatch:
 concurrency:
   group: instagram-publish
