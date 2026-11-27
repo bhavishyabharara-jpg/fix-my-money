@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-30",
+ "reel": {
+  "scenes": [
+   {
+    "type": "hook",
+    "dur": 2.6,
+    "tag": "₹ Fix #7",
+    "text": "PF withdrawal:\n[[75%]] now **90%**",
+    "sub": "EPFO board decision, 19 Nov 2026",
+    "vo": "PF से अब नब्बे percent तक।",
+    "mood": "happy"
+   },
+   {
+    "type": "bars",
+    "dur": 3.4,
+    "title": "₹5 lakh eligible\nPF balance",
+    "bars": [
+     {
+      "label": "Before: up to",
+      "value": 375000,
+      "display": "₹3,75,000"
+     },
+     {
+      "label": "Now: up to",
+      "value": 450000,
+      "display": "₹4,50,000",
+      "highlight": true
+     },
+     {
+      "label": "Must stay in PF",
+      "value": 50000,
+      "display": "₹50,000",
+      "alert": true
+     }
+    ],
+    "note": "Illustrative. Partial withdrawal; purpose and service conditions apply.",
+    "vo": "पाँच लाख पर, साढ़े चार लाख तक।"
+   },
+   {
+    "type": "stat",
+    "dur": 2.8,
+    "title": "Minimum PF balance:\nwas 25%, now",
+    "big": "10%",
+    "color": "mint",
+    "label": "₹75,000 more you can take",
+    "vo": "पहले पच्चीस percent रोकना पड़ता था, अब दस।"
+   },
+   {
+    "type": "end",
+    "dur": 2.6,
+    "text": "Can take ≠ should take.\n**It's retirement money.**",
+    "cta": [
+     "Send to a colleague who needs cash",
+     "Fix #8 tomorrow · follow"
+    ],
+    "vo": "Cash चाहिए? Colleague को भेजो।",
+    "mood": "neutral"
+   }
+  ],
+  "caption": "Can you now take 90% of your PF? | EPF Withdrawal Rules Explained\n\nOn 19 Nov 2026 the EPFO board approved cutting the minimum balance you must leave in your PF on a partial withdrawal from 25% to 10%.\nIllustrative: ₹5 lakh eligible PF balance. Before, up to ₹3,75,000 could come out. Now up to ₹4,50,000, and ₹50,000 stays in your account.\nPurpose (medical, education, marriage, housing and other listed needs) and service conditions still apply. Check the EPFO portal for when the change applies to your claim.\nCan take is not should take: what stays keeps earning PF interest for retirement.\n\nSave this for later.\nSend this to a colleague who needs cash for a wedding, a house or a hospital bill.\nWould you take money out of your PF, or leave it alone?\n\nSources: the EPFO board's 19 Nov 2026 decision, as reported by a business news site (19 Nov 2026) and a national news site (19 Nov 2026), which agree on the 25% → 10% minimum balance and the 90% limit. ₹ figures calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[EPF Withdrawal, PF Withdrawal Rules 2026, EPFO New Rules, Provident Fund, PF Tips Hindi, Fix My Money]\n#epf #pfwithdrawal #epfo #personalfinanceindia #moneytips"
+ }
+}

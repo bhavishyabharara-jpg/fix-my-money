@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-27 (daily pass, signed in as @fix_mymoney, read only; outliers = ≥3× the account's median of its last 12 non-pinned reels)
+
+- **@simply.kaasu (4,608 followers; median ~20K of 12):** no new reel since 26 Nov. Outliers unchanged and still growing: SWP explained **312K (~15×)**, phone-formatting trick 289K, bank-auction bike **180K (~9×)**, car on-road price **147K (~7×)**, 5 post office schemes **77.8K (~3.8×)**. Newest two: 2,088 (car insurance claim) and 36.5K (car loan in the wife's name). Bank-auction bike is still the next unadapted candidate (≥14 days after the 29 Nov car reel).
+- **@financewithsharan** (median ~309K of 9 non-pinned): new 235K and 105K; only outlier still the 1.1M property reel (~3.6×, adapted 26 Nov).
+- **@ca_rachanaranade** (median ~55K of 11 non-pinned): 2.3M (42×) comedy collab, 415K and 367K personality/collab; new **171K (3.1×) on why a named steel company's stock fell after an acquisition** (named company: not usable).
+- **@anushkarathod98** (median ~810K of 12): 2.9M (3.6×) gold/silver dip (a buy framing: not usable); newest 2.1M (2.6×) a named US chip company's investigations (not usable). Her EPF-withdrawal-mistake reel (1.8M, 2.2×) is below 3× but backs the EPF topic chosen for 30 Nov.
+- **Rotating @casarthakahuja** (median ~1M of 12): no outlier; top 2.7M (2.7×) "top 10 predictions for 2027" (predictions: not usable).
+- **Insight:** on the big accounts the only fresh ≥3× reels this week are named-company news or personality collabs; the adaptable outliers keep coming from the small explainer account (SWP, post office, car, auction), so it stays the main source.
+- **News (last 48 h, searched; newest relevant item 19 Nov):** the EPFO board (240th CBT, 19 Nov 2026) approved cutting the minimum PF balance on partial withdrawal from 25% to 10% (up to 90% withdrawable) and shortening a waiting period to two months (a business news site and a national news site, both 19 Nov; they describe the waiting-period rule differently, so only the 25% → 10% / 90% figures are used). The same business site also reports an EPFO-approved SWP for retirees and PUC checks for new cars only once every three years (not checked against a second source; not used).
+
 ## 2026-11-26 (daily pass, signed in as @fix_mymoney, read only; outliers = ≥3× the account's median of its last 12 non-pinned reels)
 
 - **@simply.kaasu (4,533 followers; median now ~20K of 12, up from ~3.4K):** SWP explained **310K (~16×)**, phone-formatting trick 282K, **new: "Bike at a low price? | Bank Auction Explained" 179K (~9×)** (reserve price isn't the final price; check RC, dues, transfer before bidding), **new: "₹9 lakh car… ₹12 lakh bill? | Check Before Buying a Car" 145K (~7×)** (ex-showroom vs on-road; ask for an itemised quote, compare insurance on the same cover, look at total repayment not just EMI), 5 post office schemes **76.3K (~3.9×)**. Newest: car loan in the wife's name 35K, car insurance claim 2K (1 day). The KVP doubling reel no longer shows in the grid. **Car on-road price adapted for 29 Nov.** Bank-auction bike is the next candidate.

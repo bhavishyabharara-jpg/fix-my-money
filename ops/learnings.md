@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-11-27 — Daily review (day 5 of the one-reel-a-day test)
+
+- **Status:** followers **11 (+0)**; profile views yesterday **0** (26 Nov: reach 252, 1 account engaged), the 4th straight day at 0, including the day 9 owner-approved comments went out. Today's first trial reel (13 Nov gold re-post, due 06:45 UTC) had not published at 07:40 UTC: the last publish run was 23:58 UTC 26 Nov and succeeded, so it is the late cron, not an error.
+- **Beat the yardstick:** nothing at 2×. 25 Nov pm 15-15-15 rule **165 views (1.35×) at ~1.5 days**, still the only reel this week heading above 1.2×: a rule people already repeat to each other, checked with one ₹ result.
+- **Missed:** 23 Nov pm IDCW read at 3 days **0.7× normal** (85); 24 Nov pm ELSS 75 at ~2 days (16% hold). Both the wording, not the idea: a product term as the first line.
+- **One change today:** the 30 Nov reel is the first news-led mass rule change (EPF minimum balance 25% → 10%, approved 19 Nov; up to 90% of a ₹5 lakh balance) after four outlier adaptations in a row: it tests whether a fresh rule that touches every salaried viewer travels better than evergreen adaptations.
+
 ## 2026-11-26 — Daily review (day 4 of the one-reel-a-day test)
 
 - **Status:** followers **11 (+0)**; profile views yesterday **0** (25 Nov: reach 252, 1 account engaged). 4 owner-approved comments on bigger creators went out today (first comment day); judge profile views from tomorrow's row. Trials start tomorrow (27 Nov 06:45 UTC, re-post of 13 Nov gold short-term gain); no trial has run yet.
