@@ -1,5 +1,5 @@
 ✓ Initialized. View run at 
-https://modal.com/apps/bhavishyabharara-jpg/main/ap-dWh3d9IoU282fj2zD66QWi
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-1vU9zY7zN3wYeRB4C9Ll5f
 ✓ Created objects.
 ├── ✓ Uploaded 
 │   /home/runner/work/fix-my-money/fix-my-money/tools/avatar_infinitetalk.py
@@ -18,174 +18,195 @@ $ cd /root/it && python -c 'import wan, xfuser; print("imports ok")'
 /root/it/wan/modules/multitalk_model.py:53: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   @amp.autocast(enabled=False)
 imports ok
-weights downloaded in 311s
+weights downloaded in 409s
 $ ffmpeg -y -loglevel error -i /tmp/in/job0/voice.in -ac 1 -ar 16000 /tmp/in/job0/voice.wav
 $ timeout 1200 python generate_infinitetalk.py --ckpt_dir /weights/Wan2.1-I2V-14B-480P --wav2vec_dir /weights/chinese-wav2vec2-base --infinitetalk_dir /weights/InfiniteTalk/single/infinitetalk.safetensors --input_json /tmp/in/job0/job.json --size infinitetalk-480 --mode streaming --motion_frame 9 --offload_model False --lora_dir /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors --lora_scale 1.0 --sample_steps 6 --sample_shift 2 --sample_text_guide_scale 1.0 --sample_audio_guide_scale 2.0 --save_file /tmp/out/job0
-[2026-11-25 17:39:19,686] INFO: Generation job args: Namespace(task='infinitetalk-14B', size='infinitetalk-480', frame_num=81, max_frame_num=1000, ckpt_dir='/weights/Wan2.1-I2V-14B-480P', infinitetalk_dir='/weights/InfiniteTalk/single/infinitetalk.safetensors', quant_dir=None, wav2vec_dir='/weights/chinese-wav2vec2-base', dit_path=None, lora_dir=['/weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors'], lora_scale=[1.0], offload_model=False, ulysses_size=1, ring_size=1, t5_fsdp=False, t5_cpu=False, dit_fsdp=False, save_file='/tmp/out/job0', audio_save_dir='save_audio', base_seed=42, input_json='/tmp/in/job0/job.json', motion_frame=9, mode='streaming', sample_steps=6, sample_shift=2.0, sample_text_guide_scale=1.0, sample_audio_guide_scale=2.0, num_persistent_param_in_dit=None, audio_mode='localfile', use_teacache=False, teacache_thresh=0.2, use_apg=False, apg_momentum=-0.75, apg_norm_threshold=55, color_correction_strength=1.0, scene_seg=False, quant=None)
-[2026-11-25 17:39:19,687] INFO: Generation model config: {'__name__': 'Config: Wan MultiTalk AI2V 14B', 't5_model': 'umt5_xxl', 't5_dtype': torch.bfloat16, 'text_len': 512, 'param_dtype': torch.bfloat16, 'num_train_timesteps': 1000, 'sample_fps': 16, 'sample_neg_prompt': 'bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards', 't5_checkpoint': 'models_t5_umt5-xxl-enc-bf16.pth', 't5_tokenizer': 'google/umt5-xxl', 'clip_model': 'clip_xlm_roberta_vit_h_14', 'clip_dtype': torch.float16, 'clip_checkpoint': 'models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth', 'clip_tokenizer': 'xlm-roberta-large', 'vae_checkpoint': 'Wan2.1_VAE.pth', 'vae_stride': (4, 8, 8), 'patch_size': (1, 2, 2), 'dim': 5120, 'ffn_dim': 13824, 'freq_dim': 256, 'num_heads': 40, 'num_layers': 40, 'window_size': (-1, -1), 'qk_norm': True, 'cross_attn_norm': True, 'eps': 1e-06}
-[2026-11-25 17:39:19,687] INFO: Creating infinitetalk pipeline.
-[2026-11-25 17:39:19,687] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth
-[2026-11-25 17:40:17,032] INFO: loading /weights/Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth
-[2026-11-25 17:40:17,537] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth
-[2026-11-25 17:40:21,983] INFO: Creating WanModel from /weights/Wan2.1-I2V-14B-480P
-[32m17:42:26[0m | [36m        wan_lora:29[0m | [1m    INFO[0m | [1mRegistered LoRA metadata for: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 from /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors[0m
+[2026-11-28 04:07:14,669] INFO: Generation job args: Namespace(task='infinitetalk-14B', size='infinitetalk-480', frame_num=81, max_frame_num=1000, ckpt_dir='/weights/Wan2.1-I2V-14B-480P', infinitetalk_dir='/weights/InfiniteTalk/single/infinitetalk.safetensors', quant_dir=None, wav2vec_dir='/weights/chinese-wav2vec2-base', dit_path=None, lora_dir=['/weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors'], lora_scale=[1.0], offload_model=False, ulysses_size=1, ring_size=1, t5_fsdp=False, t5_cpu=False, dit_fsdp=False, save_file='/tmp/out/job0', audio_save_dir='save_audio', base_seed=42, input_json='/tmp/in/job0/job.json', motion_frame=9, mode='streaming', sample_steps=6, sample_shift=2.0, sample_text_guide_scale=1.0, sample_audio_guide_scale=2.0, num_persistent_param_in_dit=None, audio_mode='localfile', use_teacache=False, teacache_thresh=0.2, use_apg=False, apg_momentum=-0.75, apg_norm_threshold=55, color_correction_strength=1.0, scene_seg=False, quant=None)
+[2026-11-28 04:07:14,669] INFO: Generation model config: {'__name__': 'Config: Wan MultiTalk AI2V 14B', 't5_model': 'umt5_xxl', 't5_dtype': torch.bfloat16, 'text_len': 512, 'param_dtype': torch.bfloat16, 'num_train_timesteps': 1000, 'sample_fps': 16, 'sample_neg_prompt': 'bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards', 't5_checkpoint': 'models_t5_umt5-xxl-enc-bf16.pth', 't5_tokenizer': 'google/umt5-xxl', 'clip_model': 'clip_xlm_roberta_vit_h_14', 'clip_dtype': torch.float16, 'clip_checkpoint': 'models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth', 'clip_tokenizer': 'xlm-roberta-large', 'vae_checkpoint': 'Wan2.1_VAE.pth', 'vae_stride': (4, 8, 8), 'patch_size': (1, 2, 2), 'dim': 5120, 'ffn_dim': 13824, 'freq_dim': 256, 'num_heads': 40, 'num_layers': 40, 'window_size': (-1, -1), 'qk_norm': True, 'cross_attn_norm': True, 'eps': 1e-06}
+[2026-11-28 04:07:14,669] INFO: Creating infinitetalk pipeline.
+[2026-11-28 04:07:14,669] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth
+[2026-11-28 04:08:14,151] INFO: loading /weights/Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth
+[2026-11-28 04:08:14,811] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth
+[2026-11-28 04:08:20,704] INFO: Creating WanModel from /weights/Wan2.1-I2V-14B-480P
+[32m04:10:39[0m | [36m        wan_lora:29[0m | [1m    INFO[0m | [1mRegistered LoRA metadata for: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 from /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors[0m
 
 [1ALoading LoRA weights:   0%|          | 0/1052 [00:00<?, ?it/s]
-[1ALoading LoRA weights:   0%|          | 2/1052 [00:00<02:12,  7.92it/s]
-[1ALoading LoRA weights:   1%|          | 12/1052 [00:00<00:29, 34.78it/s]
-[1ALoading LoRA weights:   2%|▏         | 22/1052 [00:00<00:20, 50.81it/s]
-[1ALoading LoRA weights:   3%|▎         | 32/1052 [00:00<00:15, 63.93it/s]
-[1ALoading LoRA weights:   4%|▍         | 40/1052 [00:00<00:18, 53.89it/s]
-[1ALoading LoRA weights:   5%|▍         | 52/1052 [00:00<00:14, 68.73it/s]
-[1ALoading LoRA weights:   6%|▌         | 62/1052 [00:01<00:13, 75.06it/s]
-[1ALoading LoRA weights:   7%|▋         | 71/1052 [00:01<00:14, 66.74it/s]
-[1ALoading LoRA weights:   8%|▊         | 80/1052 [00:01<00:13, 71.44it/s]
-[1ALoading LoRA weights:   9%|▊         | 90/1052 [00:01<00:13, 69.69it/s]
-[1ALoading LoRA weights:  10%|▉         | 100/1052 [00:01<00:13, 72.62it/s]
-[1ALoading LoRA weights:  10%|█         | 110/1052 [00:01<00:12, 78.24it/s]
-[1ALoading LoRA weights:  11%|█▏        | 119/1052 [00:01<00:14, 65.03it/s]
-[1ALoading LoRA weights:  12%|█▏        | 130/1052 [00:02<00:12, 74.14it/s]
-[1ALoading LoRA weights:  13%|█▎        | 140/1052 [00:02<00:11, 78.91it/s]
-[1ALoading LoRA weights:  14%|█▍        | 149/1052 [00:02<00:13, 69.43it/s]
-[1ALoading LoRA weights:  15%|█▌        | 158/1052 [00:02<00:12, 73.05it/s]
-[1ALoading LoRA weights:  16%|█▌        | 168/1052 [00:02<00:12, 70.79it/s]
-[1ALoading LoRA weights:  17%|█▋        | 176/1052 [00:02<00:12, 72.97it/s]
-[1ALoading LoRA weights:  17%|█▋        | 184/1052 [00:02<00:11, 73.54it/s]
-[1ALoading LoRA weights:  18%|█▊        | 194/1052 [00:02<00:12, 70.81it/s]
-[1ALoading LoRA weights:  19%|█▉        | 202/1052 [00:03<00:11, 72.87it/s]
-[1ALoading LoRA weights:  20%|█▉        | 210/1052 [00:03<00:11, 73.49it/s]
-[1ALoading LoRA weights:  21%|██        | 220/1052 [00:03<00:11, 70.91it/s]
-[1ALoading LoRA weights:  22%|██▏       | 230/1052 [00:03<00:11, 73.75it/s]
-[1ALoading LoRA weights:  23%|██▎       | 240/1052 [00:03<00:10, 79.11it/s]
-[1ALoading LoRA weights:  24%|██▎       | 249/1052 [00:03<00:12, 65.04it/s]
-[1ALoading LoRA weights:  25%|██▍       | 260/1052 [00:03<00:10, 74.45it/s]
-[1ALoading LoRA weights:  26%|██▌       | 270/1052 [00:03<00:09, 79.71it/s]
-[1ALoading LoRA weights:  27%|██▋       | 279/1052 [00:04<00:10, 70.31it/s]
-[1ALoading LoRA weights:  27%|██▋       | 288/1052 [00:04<00:10, 74.24it/s]
-[1ALoading LoRA weights:  28%|██▊       | 298/1052 [00:04<00:10, 72.03it/s]
-[1ALoading LoRA weights:  29%|██▉       | 308/1052 [00:04<00:09, 74.48it/s]
-[1ALoading LoRA weights:  30%|███       | 318/1052 [00:04<00:09, 79.98it/s]
-[1ALoading LoRA weights:  31%|███       | 327/1052 [00:04<00:10, 65.96it/s]
-[1ALoading LoRA weights:  32%|███▏      | 338/1052 [00:04<00:09, 75.22it/s]
-[1ALoading LoRA weights:  33%|███▎      | 348/1052 [00:04<00:08, 80.36it/s]
-[1ALoading LoRA weights:  34%|███▍      | 357/1052 [00:05<00:09, 70.47it/s]
-[1ALoading LoRA weights:  35%|███▍      | 366/1052 [00:05<00:09, 73.93it/s]
-[1ALoading LoRA weights:  36%|███▌      | 376/1052 [00:05<00:09, 71.44it/s]
-[1ALoading LoRA weights:  37%|███▋      | 386/1052 [00:05<00:08, 74.03it/s]
-[1ALoading LoRA weights:  38%|███▊      | 396/1052 [00:05<00:08, 79.22it/s]
-[1ALoading LoRA weights:  38%|███▊      | 405/1052 [00:05<00:09, 66.04it/s]
-[1ALoading LoRA weights:  40%|███▉      | 416/1052 [00:05<00:08, 75.22it/s]
-[1ALoading LoRA weights:  40%|████      | 426/1052 [00:06<00:07, 80.50it/s]
-[1ALoading LoRA weights:  41%|████▏     | 435/1052 [00:06<00:08, 70.57it/s]
-[1ALoading LoRA weights:  42%|████▏     | 444/1052 [00:06<00:08, 74.31it/s]
-[1ALoading LoRA weights:  43%|████▎     | 454/1052 [00:06<00:08, 72.03it/s]
-[1ALoading LoRA weights:  44%|████▍     | 464/1052 [00:06<00:07, 74.65it/s]
-[1ALoading LoRA weights:  45%|████▌     | 474/1052 [00:06<00:07, 79.81it/s]
-[1ALoading LoRA weights:  46%|████▌     | 483/1052 [00:06<00:08, 65.61it/s]
-[1ALoading LoRA weights:  47%|████▋     | 494/1052 [00:06<00:07, 74.45it/s]
-[1ALoading LoRA weights:  48%|████▊     | 504/1052 [00:07<00:06, 79.62it/s]
-[1ALoading LoRA weights:  49%|████▉     | 513/1052 [00:07<00:07, 70.12it/s]
-[1ALoading LoRA weights:  50%|████▉     | 522/1052 [00:07<00:07, 73.76it/s]
-[1ALoading LoRA weights:  51%|█████     | 532/1052 [00:07<00:07, 71.21it/s]
-[1ALoading LoRA weights:  52%|█████▏    | 542/1052 [00:07<00:06, 73.76it/s]
-[1ALoading LoRA weights:  52%|█████▏    | 552/1052 [00:07<00:06, 79.07it/s]
-[1ALoading LoRA weights:  53%|█████▎    | 561/1052 [00:07<00:07, 65.77it/s]
-[1ALoading LoRA weights:  54%|█████▍    | 572/1052 [00:08<00:06, 74.90it/s]
-[1ALoading LoRA weights:  55%|█████▌    | 582/1052 [00:08<00:05, 79.96it/s]
-[1ALoading LoRA weights:  56%|█████▌    | 591/1052 [00:08<00:06, 70.29it/s]
-[1ALoading LoRA weights:  57%|█████▋    | 600/1052 [00:08<00:06, 74.09it/s]
-[1ALoading LoRA weights:  58%|█████▊    | 610/1052 [00:08<00:06, 71.69it/s]
-[1ALoading LoRA weights:  59%|█████▉    | 620/1052 [00:08<00:05, 74.08it/s]
-[1ALoading LoRA weights:  60%|█████▉    | 630/1052 [00:08<00:05, 79.43it/s]
-[1ALoading LoRA weights:  61%|██████    | 639/1052 [00:08<00:06, 65.72it/s]
-[1ALoading LoRA weights:  62%|██████▏   | 650/1052 [00:09<00:05, 74.35it/s]
-[1ALoading LoRA weights:  63%|██████▎   | 660/1052 [00:09<00:04, 79.28it/s]
-[1ALoading LoRA weights:  64%|██████▎   | 669/1052 [00:09<00:05, 69.77it/s]
-[1ALoading LoRA weights:  64%|██████▍   | 678/1052 [00:09<00:05, 73.59it/s]
-[1ALoading LoRA weights:  65%|██████▌   | 688/1052 [00:09<00:05, 71.43it/s]
-[1ALoading LoRA weights:  66%|██████▋   | 698/1052 [00:09<00:04, 73.95it/s]
-[1ALoading LoRA weights:  67%|██████▋   | 708/1052 [00:09<00:04, 79.58it/s]
-[1ALoading LoRA weights:  68%|██████▊   | 717/1052 [00:10<00:05, 66.29it/s]
-[1ALoading LoRA weights:  69%|██████▉   | 728/1052 [00:10<00:04, 75.47it/s]
-[1ALoading LoRA weights:  70%|███████   | 738/1052 [00:10<00:03, 80.70it/s]
-[1ALoading LoRA weights:  71%|███████   | 747/1052 [00:10<00:04, 70.89it/s]
-[1ALoading LoRA weights:  72%|███████▏  | 756/1052 [00:10<00:03, 74.72it/s]
-[1ALoading LoRA weights:  73%|███████▎  | 766/1052 [00:10<00:03, 71.99it/s]
-[1ALoading LoRA weights:  74%|███████▍  | 776/1052 [00:10<00:03, 74.39it/s]
-[1ALoading LoRA weights:  75%|███████▍  | 786/1052 [00:10<00:03, 79.53it/s]
-[1ALoading LoRA weights:  76%|███████▌  | 795/1052 [00:11<00:03, 65.54it/s]
-[1ALoading LoRA weights:  77%|███████▋  | 806/1052 [00:11<00:03, 74.37it/s]
-[1ALoading LoRA weights:  78%|███████▊  | 816/1052 [00:11<00:02, 78.85it/s]
-[1ALoading LoRA weights:  78%|███████▊  | 825/1052 [00:11<00:03, 69.21it/s]
-[1ALoading LoRA weights:  79%|███████▉  | 834/1052 [00:11<00:03, 72.54it/s]
-[1ALoading LoRA weights:  80%|████████  | 844/1052 [00:11<00:02, 70.19it/s]
-[1ALoading LoRA weights:  81%|████████  | 854/1052 [00:11<00:02, 72.71it/s]
-[1ALoading LoRA weights:  82%|████████▏ | 864/1052 [00:11<00:02, 77.86it/s]
-[1ALoading LoRA weights:  83%|████████▎ | 873/1052 [00:12<00:02, 64.94it/s]
-[1ALoading LoRA weights:  84%|████████▍ | 884/1052 [00:12<00:02, 74.04it/s]
-[1ALoading LoRA weights:  85%|████████▍ | 894/1052 [00:12<00:02, 78.85it/s]
-[1ALoading LoRA weights:  86%|████████▌ | 903/1052 [00:12<00:02, 69.17it/s]
-[1ALoading LoRA weights:  87%|████████▋ | 912/1052 [00:12<00:01, 72.91it/s]
-[1ALoading LoRA weights:  88%|████████▊ | 922/1052 [00:12<00:01, 70.52it/s]
-[1ALoading LoRA weights:  89%|████████▊ | 932/1052 [00:12<00:01, 72.82it/s]
-[1ALoading LoRA weights:  90%|████████▉ | 942/1052 [00:13<00:01, 77.78it/s]
-[1ALoading LoRA weights:  90%|█████████ | 951/1052 [00:13<00:01, 64.98it/s]
-[1ALoading LoRA weights:  91%|█████████▏| 962/1052 [00:13<00:01, 73.86it/s]
-[1ALoading LoRA weights:  92%|█████████▏| 972/1052 [00:13<00:01, 79.07it/s]
-[1ALoading LoRA weights:  93%|█████████▎| 981/1052 [00:13<00:01, 69.39it/s]
-[1ALoading LoRA weights:  94%|█████████▍| 990/1052 [00:13<00:00, 72.71it/s]
-[1ALoading LoRA weights:  95%|█████████▌| 1000/1052 [00:13<00:00, 70.15it/s]
-[1ALoading LoRA weights:  96%|█████████▌| 1010/1052 [00:14<00:00, 72.93it/s]
-[1ALoading LoRA weights:  97%|█████████▋| 1020/1052 [00:14<00:00, 78.29it/s]
-[1ALoading LoRA weights:  98%|█████████▊| 1029/1052 [00:14<00:00, 64.96it/s]
-[1ALoading LoRA weights:  99%|█████████▉| 1040/1052 [00:14<00:00, 73.77it/s]
-[1ALoading LoRA weights: 100%|█████████▉| 1051/1052 [00:14<00:00, 80.06it/s]Loading LoRA weights: 100%|██████████| 1052/1052 [00:14<00:00, 72.26it/s]
-[32m17:42:41[0m | [36m        wan_lora:102[0m | [1m    INFO[0m | [1mApplied 1052 LoRA weight adjustments[0m
-[32m17:42:41[0m | [36m        wan_lora:49[0m | [1m    INFO[0m | [1mApplied LoRA: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 with alpha=1.0[0m
-[2026-11-25 17:42:54,895] INFO: Generating video ...
+[1ALoading LoRA weights:   0%|          | 2/1052 [00:00<01:03, 16.44it/s]
+[1ALoading LoRA weights:   1%|          | 12/1052 [00:00<00:23, 45.18it/s]
+[1ALoading LoRA weights:   2%|▏         | 18/1052 [00:00<00:21, 48.96it/s]
+[1ALoading LoRA weights:   3%|▎         | 28/1052 [00:00<00:16, 62.82it/s]
+[1ALoading LoRA weights:   4%|▎         | 38/1052 [00:00<00:16, 63.02it/s]
+[1ALoading LoRA weights:   4%|▍         | 45/1052 [00:00<00:15, 64.30it/s]
+[1ALoading LoRA weights:   5%|▌         | 54/1052 [00:00<00:14, 70.29it/s]
+[1ALoading LoRA weights:   6%|▌         | 64/1052 [00:01<00:14, 67.57it/s]
+[1ALoading LoRA weights:   7%|▋         | 71/1052 [00:01<00:14, 67.50it/s]
+[1ALoading LoRA weights:   8%|▊         | 80/1052 [00:01<00:13, 72.34it/s]
+[1ALoading LoRA weights:   9%|▊         | 90/1052 [00:01<00:13, 70.07it/s]
+[1ALoading LoRA weights:  10%|▉         | 100/1052 [00:01<00:12, 73.42it/s]
+[1ALoading LoRA weights:  10%|█         | 110/1052 [00:01<00:11, 78.99it/s]
+[1ALoading LoRA weights:  11%|█▏        | 119/1052 [00:01<00:14, 65.75it/s]
+[1ALoading LoRA weights:  12%|█▏        | 130/1052 [00:01<00:12, 74.92it/s]
+[1ALoading LoRA weights:  13%|█▎        | 140/1052 [00:02<00:11, 79.66it/s]
+[1ALoading LoRA weights:  14%|█▍        | 149/1052 [00:02<00:13, 69.23it/s]
+[1ALoading LoRA weights:  15%|█▌        | 158/1052 [00:02<00:12, 73.09it/s]
+[1ALoading LoRA weights:  16%|█▌        | 168/1052 [00:02<00:12, 70.19it/s]
+[1ALoading LoRA weights:  17%|█▋        | 176/1052 [00:02<00:12, 71.78it/s]
+[1ALoading LoRA weights:  17%|█▋        | 184/1052 [00:02<00:12, 72.18it/s]
+[1ALoading LoRA weights:  18%|█▊        | 194/1052 [00:02<00:12, 67.97it/s]
+[1ALoading LoRA weights:  19%|█▉        | 202/1052 [00:02<00:12, 70.26it/s]
+[1ALoading LoRA weights:  20%|█▉        | 210/1052 [00:03<00:11, 70.20it/s]
+[1ALoading LoRA weights:  21%|██        | 220/1052 [00:03<00:12, 66.91it/s]
+[1ALoading LoRA weights:  22%|██▏       | 227/1052 [00:03<00:12, 67.14it/s]
+[1ALoading LoRA weights:  22%|██▏       | 236/1052 [00:03<00:11, 70.48it/s]
+[1ALoading LoRA weights:  23%|██▎       | 246/1052 [00:03<00:12, 66.95it/s]
+[1ALoading LoRA weights:  24%|██▍       | 253/1052 [00:03<00:12, 66.51it/s]
+[1ALoading LoRA weights:  25%|██▍       | 262/1052 [00:03<00:11, 70.01it/s]
+[1ALoading LoRA weights:  26%|██▌       | 272/1052 [00:03<00:11, 66.73it/s]
+[1ALoading LoRA weights:  27%|██▋       | 279/1052 [00:04<00:11, 66.26it/s]
+[1ALoading LoRA weights:  27%|██▋       | 288/1052 [00:04<00:11, 68.99it/s]
+[1ALoading LoRA weights:  28%|██▊       | 298/1052 [00:04<00:11, 65.30it/s]
+[1ALoading LoRA weights:  29%|██▉       | 305/1052 [00:04<00:11, 64.78it/s]
+[1ALoading LoRA weights:  30%|██▉       | 314/1052 [00:04<00:10, 68.51it/s]
+[1ALoading LoRA weights:  31%|███       | 324/1052 [00:04<00:10, 66.60it/s]
+[1ALoading LoRA weights:  31%|███▏      | 331/1052 [00:04<00:10, 66.84it/s]
+[1ALoading LoRA weights:  32%|███▏      | 340/1052 [00:04<00:10, 70.62it/s]
+[1ALoading LoRA weights:  33%|███▎      | 350/1052 [00:05<00:10, 67.19it/s]
+[1ALoading LoRA weights:  34%|███▍      | 357/1052 [00:05<00:10, 67.85it/s]
+[1ALoading LoRA weights:  35%|███▍      | 366/1052 [00:05<00:09, 71.08it/s]
+[1ALoading LoRA weights:  36%|███▌      | 376/1052 [00:05<00:09, 68.58it/s]
+[1ALoading LoRA weights:  36%|███▋      | 383/1052 [00:05<00:09, 68.38it/s]
+[1ALoading LoRA weights:  37%|███▋      | 392/1052 [00:05<00:09, 72.06it/s]
+[1ALoading LoRA weights:  38%|███▊      | 402/1052 [00:05<00:09, 67.59it/s]
+[1ALoading LoRA weights:  39%|███▉      | 409/1052 [00:06<00:09, 66.81it/s]
+[1ALoading LoRA weights:  40%|███▉      | 418/1052 [00:06<00:09, 69.48it/s]
+[1ALoading LoRA weights:  41%|████      | 428/1052 [00:06<00:09, 65.89it/s]
+[1ALoading LoRA weights:  41%|████▏     | 435/1052 [00:06<00:09, 65.31it/s]
+[1ALoading LoRA weights:  42%|████▏     | 444/1052 [00:06<00:08, 68.60it/s]
+[1ALoading LoRA weights:  43%|████▎     | 454/1052 [00:06<00:08, 66.61it/s]
+[1ALoading LoRA weights:  44%|████▍     | 461/1052 [00:06<00:08, 66.82it/s]
+[1ALoading LoRA weights:  45%|████▍     | 470/1052 [00:06<00:08, 70.59it/s]
+[1ALoading LoRA weights:  46%|████▌     | 480/1052 [00:07<00:08, 67.77it/s]
+[1ALoading LoRA weights:  46%|████▋     | 487/1052 [00:07<00:08, 67.88it/s]
+[1ALoading LoRA weights:  47%|████▋     | 496/1052 [00:07<00:07, 71.67it/s]
+[1ALoading LoRA weights:  48%|████▊     | 506/1052 [00:07<00:07, 68.94it/s]
+[1ALoading LoRA weights:  49%|████▉     | 513/1052 [00:07<00:07, 68.61it/s]
+[1ALoading LoRA weights:  50%|████▉     | 522/1052 [00:07<00:07, 72.01it/s]
+[1ALoading LoRA weights:  51%|█████     | 532/1052 [00:07<00:07, 68.42it/s]
+[1ALoading LoRA weights:  51%|█████     | 539/1052 [00:07<00:07, 68.39it/s]
+[1ALoading LoRA weights:  52%|█████▏    | 548/1052 [00:08<00:06, 72.31it/s]
+[1ALoading LoRA weights:  53%|█████▎    | 558/1052 [00:08<00:07, 70.01it/s]
+[1ALoading LoRA weights:  54%|█████▍    | 568/1052 [00:08<00:06, 72.71it/s]
+[1ALoading LoRA weights:  55%|█████▍    | 578/1052 [00:08<00:06, 78.08it/s]
+[1ALoading LoRA weights:  56%|█████▌    | 586/1052 [00:08<00:07, 62.43it/s]
+[1ALoading LoRA weights:  57%|█████▋    | 598/1052 [00:08<00:06, 74.06it/s]
+[1ALoading LoRA weights:  58%|█████▊    | 608/1052 [00:08<00:05, 78.81it/s]
+[1ALoading LoRA weights:  59%|█████▊    | 617/1052 [00:08<00:06, 68.77it/s]
+[1ALoading LoRA weights:  60%|█████▉    | 626/1052 [00:09<00:05, 72.30it/s]
+[1ALoading LoRA weights:  60%|██████    | 636/1052 [00:09<00:05, 69.96it/s]
+[1ALoading LoRA weights:  61%|██████    | 644/1052 [00:09<00:05, 72.22it/s]
+[1ALoading LoRA weights:  62%|██████▏   | 652/1052 [00:09<00:05, 72.66it/s]
+[1ALoading LoRA weights:  63%|██████▎   | 662/1052 [00:09<00:05, 69.98it/s]
+[1ALoading LoRA weights:  64%|██████▎   | 670/1052 [00:09<00:05, 72.39it/s]
+[1ALoading LoRA weights:  64%|██████▍   | 678/1052 [00:09<00:05, 72.97it/s]
+[1ALoading LoRA weights:  65%|██████▌   | 688/1052 [00:09<00:05, 70.19it/s]
+[1ALoading LoRA weights:  66%|██████▌   | 696/1052 [00:10<00:04, 72.63it/s]
+[1ALoading LoRA weights:  67%|██████▋   | 704/1052 [00:10<00:04, 73.07it/s]
+[1ALoading LoRA weights:  68%|██████▊   | 714/1052 [00:10<00:04, 69.93it/s]
+[1ALoading LoRA weights:  69%|██████▊   | 722/1052 [00:10<00:04, 72.33it/s]
+[1ALoading LoRA weights:  69%|██████▉   | 730/1052 [00:10<00:04, 72.82it/s]
+[1ALoading LoRA weights:  70%|███████   | 740/1052 [00:10<00:04, 69.98it/s]
+[1ALoading LoRA weights:  71%|███████   | 748/1052 [00:10<00:04, 72.34it/s]
+[1ALoading LoRA weights:  72%|███████▏  | 756/1052 [00:10<00:04, 72.83it/s]
+[1ALoading LoRA weights:  73%|███████▎  | 766/1052 [00:11<00:04, 69.83it/s]
+[1ALoading LoRA weights:  74%|███████▎  | 774/1052 [00:11<00:03, 72.34it/s]
+[1ALoading LoRA weights:  74%|███████▍  | 782/1052 [00:11<00:03, 72.88it/s]
+[1ALoading LoRA weights:  75%|███████▌  | 792/1052 [00:11<00:03, 70.06it/s]
+[1ALoading LoRA weights:  76%|███████▌  | 800/1052 [00:11<00:03, 72.39it/s]
+[1ALoading LoRA weights:  77%|███████▋  | 808/1052 [00:11<00:03, 72.88it/s]
+[1ALoading LoRA weights:  78%|███████▊  | 818/1052 [00:11<00:03, 70.15it/s]
+[1ALoading LoRA weights:  79%|███████▊  | 828/1052 [00:11<00:03, 72.68it/s]
+[1ALoading LoRA weights:  80%|███████▉  | 838/1052 [00:12<00:02, 77.90it/s]
+[1ALoading LoRA weights:  80%|████████  | 846/1052 [00:12<00:03, 62.26it/s]
+[1ALoading LoRA weights:  82%|████████▏ | 858/1052 [00:12<00:02, 73.97it/s]
+[1ALoading LoRA weights:  83%|████████▎ | 868/1052 [00:12<00:02, 78.52it/s]
+[1ALoading LoRA weights:  83%|████████▎ | 877/1052 [00:12<00:02, 68.53it/s]
+[1ALoading LoRA weights:  84%|████████▍ | 886/1052 [00:12<00:02, 72.02it/s]
+[1ALoading LoRA weights:  85%|████████▌ | 896/1052 [00:12<00:02, 69.70it/s]
+[1ALoading LoRA weights:  86%|████████▌ | 904/1052 [00:12<00:02, 72.06it/s]
+[1ALoading LoRA weights:  87%|████████▋ | 912/1052 [00:13<00:01, 72.55it/s]
+[1ALoading LoRA weights:  88%|████████▊ | 922/1052 [00:13<00:01, 69.96it/s]
+[1ALoading LoRA weights:  88%|████████▊ | 930/1052 [00:13<00:01, 72.37it/s]
+[1ALoading LoRA weights:  89%|████████▉ | 938/1052 [00:13<00:01, 72.93it/s]
+[1ALoading LoRA weights:  90%|█████████ | 948/1052 [00:13<00:01, 69.66it/s]
+[1ALoading LoRA weights:  91%|█████████ | 956/1052 [00:13<00:01, 71.35it/s]
+[1ALoading LoRA weights:  92%|█████████▏| 964/1052 [00:13<00:01, 71.75it/s]
+[1ALoading LoRA weights:  93%|█████████▎| 974/1052 [00:13<00:01, 67.56it/s]
+[1ALoading LoRA weights:  93%|█████████▎| 981/1052 [00:14<00:01, 66.87it/s]
+[1ALoading LoRA weights:  94%|█████████▍| 990/1052 [00:14<00:00, 69.72it/s]
+[1ALoading LoRA weights:  95%|█████████▌| 1000/1052 [00:14<00:00, 66.13it/s]
+[1ALoading LoRA weights:  96%|█████████▌| 1007/1052 [00:14<00:00, 65.64it/s]
+[1ALoading LoRA weights:  97%|█████████▋| 1016/1052 [00:14<00:00, 69.10it/s]
+[1ALoading LoRA weights:  98%|█████████▊| 1026/1052 [00:14<00:00, 66.11it/s]
+[1ALoading LoRA weights:  98%|█████████▊| 1033/1052 [00:14<00:00, 65.99it/s]
+[1ALoading LoRA weights:  99%|█████████▉| 1045/1052 [00:14<00:00, 77.51it/s]Loading LoRA weights: 100%|██████████| 1052/1052 [00:15<00:00, 69.76it/s]
+[32m04:10:54[0m | [36m        wan_lora:102[0m | [1m    INFO[0m | [1mApplied 1052 LoRA weight adjustments[0m
+[32m04:10:54[0m | [36m        wan_lora:49[0m | [1m    INFO[0m | [1mApplied LoRA: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 with alpha=1.0[0m
+[2026-11-28 04:11:08,515] INFO: Generating video ...
 ('/tmp/in/job0/presenter.png', '/tmp/in/job0/voice.wav')
 No conversion needed.
 
 [1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:16<01:20, 16.17s/it]
-[1A 33%|███▎      | 2/6 [00:27<00:54, 13.55s/it]
+[1A 17%|█▋        | 1/6 [00:15<01:19, 15.99s/it]
+[1A 33%|███▎      | 2/6 [00:27<00:54, 13.51s/it]
 [1A 50%|█████     | 3/6 [00:39<00:38, 12.73s/it]
-[1A 67%|██████▋   | 4/6 [00:51<00:24, 12.43s/it]
-[1A 83%|████████▎ | 5/6 [01:03<00:12, 12.26s/it]
-[1A100%|██████████| 6/6 [01:15<00:00, 12.08s/it]100%|██████████| 6/6 [01:15<00:00, 12.55s/it]
+[1A 67%|██████▋   | 4/6 [00:51<00:24, 12.35s/it]
+[1A 83%|████████▎ | 5/6 [01:03<00:12, 12.14s/it]
+[1A100%|██████████| 6/6 [01:14<00:00, 12.02s/it]
+[1A100%|██████████| 6/6 [01:14<00:00, 12.48s/it]
 
 [1A  0%|          | 0/6 [00:00<?, ?it/s]
 [1A 17%|█▋        | 1/6 [00:11<00:58, 11.76s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.82s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.88s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.84s/it]
-[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.80s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.76s/it]100%|██████████| 6/6 [01:10<00:00, 11.79s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.78s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.76s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.77s/it]
+[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.78s/it]
+[1A100%|██████████| 6/6 [01:10<00:00, 11.78s/it]100%|██████████| 6/6 [01:10<00:00, 11.78s/it]
+
+[1A  0%|          | 0/6 [00:00<?, ?it/s]
+[1A 17%|█▋        | 1/6 [00:11<00:59, 11.83s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.83s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.81s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.80s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.79s/it]
+[1A100%|██████████| 6/6 [01:10<00:00, 11.80s/it]100%|██████████| 6/6 [01:10<00:00, 11.80s/it]
+
+[1A  0%|          | 0/6 [00:00<?, ?it/s]
+[1A 17%|█▋        | 1/6 [00:11<00:59, 11.90s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.86s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.83s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.80s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.79s/it]
+[1A100%|██████████| 6/6 [01:10<00:00, 11.81s/it]
+[1A100%|██████████| 6/6 [01:10<00:00, 11.82s/it]
 
 [1A  0%|          | 0/6 [00:00<?, ?it/s]
 [1A 17%|█▋        | 1/6 [00:11<00:58, 11.78s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.90s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.88s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.83s/it]
-[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.77s/it]100%|██████████| 6/6 [01:10<00:00, 11.75s/it]100%|██████████| 6/6 [01:10<00:00, 11.79s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:58, 11.71s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.81s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.84s/it]
 [1A 50%|█████     | 3/6 [00:35<00:35, 11.81s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.80s/it]
-[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.80s/it]100%|██████████| 6/6 [01:10<00:00, 11.82s/it]100%|██████████| 6/6 [01:10<00:00, 11.81s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.82s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.84s/it]
+[1A100%|██████████| 6/6 [01:11<00:00, 11.85s/it]100%|██████████| 6/6 [01:11<00:00, 11.84s/it]
 
-[1ASaving video:   0%|          | 0/296 [00:00<?, ?it/s]
-[1ASaving video:   0%|          | 1/296 [00:00<01:28,  3.33it/s]
-[1ASaving video:   9%|▉         | 27/296 [00:00<00:03, 85.60it/s]
-[1ASaving video:  20%|█▉        | 59/296 [00:00<00:01, 158.38it/s]
-[1ASaving video:  31%|███▏      | 93/296 [00:00<00:00, 213.06it/s]
-[1ASaving video:  43%|████▎     | 127/296 [00:00<00:00, 250.79it/s]
-[1ASaving video:  54%|█████▍    | 161/296 [00:00<00:00, 276.03it/s]
-[1ASaving video:  66%|██████▌   | 195/296 [00:00<00:00, 294.13it/s]
-[1ASaving video:  77%|███████▋  | 229/296 [00:01<00:00, 306.46it/s]
-[1ASaving video:  89%|████████▉ | 263/296 [00:01<00:00, 314.38it/s]Saving video: 100%|██████████| 296/296 [00:01<00:00, 243.80it/s]
+[1ASaving video:   0%|          | 0/301 [00:00<?, ?it/s]
+[1ASaving video:   0%|          | 1/301 [00:00<01:44,  2.86it/s]
+[1ASaving video:   9%|▊         | 26/301 [00:00<00:03, 74.41it/s]
+[1ASaving video:  20%|█▉        | 60/301 [00:00<00:01, 151.75it/s]
+[1ASaving video:  31%|███       | 94/301 [00:00<00:00, 207.13it/s]
+[1ASaving video:  43%|████▎     | 128/301 [00:00<00:00, 244.74it/s]
+[1ASaving video:  54%|█████▍    | 163/301 [00:00<00:00, 275.45it/s]
+[1ASaving video:  66%|██████▌   | 198/301 [00:00<00:00, 295.44it/s]
+[1ASaving video:  77%|███████▋  | 232/301 [00:01<00:00, 306.87it/s]
+[1ASaving video:  89%|████████▊ | 267/301 [00:01<00:00, 318.87it/s]Saving video: 100%|██████████| 301/301 [00:01<00:00, 239.18it/s]
 ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
   built with gcc 14 (Debian 14.2.0-19)
   configuration: --prefix=/usr --extra-version=0+deb13u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
@@ -197,9 +218,9 @@ ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
   libswscale      8.  3.100 /  8.  3.100
   libswresample   5.  3.100 /  5.  3.100
   libpostproc    58.  3.100 / 58.  3.100
-[aist#0:0/pcm_s16le @ 0x563c5e3412c0] Guessed Channel Layout: mono
+[aist#0:0/pcm_s16le @ 0x559f6a89d2c0] Guessed Channel Layout: mono
 Input #0, wav, from 'save_audio/presenter/sum_all.wav':
-  Duration: 00:00:11.84, bitrate: 256 kb/s
+  Duration: 00:00:12.05, bitrate: 256 kb/s
   Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
 Stream mapping:
   Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
@@ -210,8 +231,8 @@ Output #0, wav, to '/tmp/out/job0-cropaudio.wav':
   Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
       Metadata:
         encoder         : Lavc61.19.101 pcm_s16le
-[out#0/wav @ 0x563c5e341480] video:0KiB audio:370KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.020587%
-size=     370KiB time=00:00:11.84 bitrate= 256.1kbits/s speed=2.8e+03x    
+[out#0/wav @ 0x559f6a89d480] video:0KiB audio:376KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.020245%
+size=     376KiB time=00:00:12.04 bitrate= 256.1kbits/s speed=2.56e+03x    
 ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
   built with gcc 14 (Debian 14.2.0-19)
   configuration: --prefix=/usr --extra-version=0+deb13u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
@@ -229,25 +250,25 @@ Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/out/job0-temp.mp4':
     minor_version   : 512
     compatible_brands: isomiso2avc1mp41
     encoder         : Lavf63.1.102
-  Duration: 00:00:11.84, start: 0.000000, bitrate: 679 kb/s
-  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 704x576, 676 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+  Duration: 00:00:12.04, start: 0.000000, bitrate: 650 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 704x576, 647 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
       Metadata:
         handler_name    : VideoHandler
         vendor_id       : [0][0][0][0]
         encoder         : Lavc63.1.102 libx264
-[aist#1:0/pcm_s16le @ 0x5580376121c0] Guessed Channel Layout: mono
+[aist#1:0/pcm_s16le @ 0x5633b153d100] Guessed Channel Layout: mono
 Input #1, wav, from '/tmp/out/job0-cropaudio.wav':
   Metadata:
     encoder         : Lavf61.7.103
-  Duration: 00:00:11.84, bitrate: 256 kb/s
+  Duration: 00:00:12.04, bitrate: 256 kb/s
   Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
 Stream mapping:
   Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
   Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
 Press [q] to stop, [?] for help
-[libx264 @ 0x5580375e0040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x5580375e0040] profile High, level 3.0, 4:2:0, 8-bit
-[libx264 @ 0x5580375e0040] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[libx264 @ 0x5633b145e040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x5633b145e040] profile High, level 3.0, 4:2:0, 8-bit
+[libx264 @ 0x5633b145e040] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
 Output #0, mp4, to '/tmp/out/job0.mp4':
   Metadata:
     major_brand     : isom
@@ -264,209 +285,211 @@ Output #0, mp4, to '/tmp/out/job0.mp4':
   Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 69 kb/s
       Metadata:
         encoder         : Lavc61.19.101 aac
-frame=  224 fps=0.0 q=28.0 size=     768KiB time=00:00:11.64 bitrate= 540.2kbits/s speed=23.3x    
-[1A[out#0/mp4 @ 0x558037612340] video:1088KiB audio:59KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.762669%
-frame=  296 fps=0.0 q=-1.0 Lsize=    1156KiB time=00:00:11.76 bitrate= 805.2kbits/s speed=20.3x    
-[libx264 @ 0x5580375e0040] frame I:2     Avg QP:19.99  size: 35888
-[libx264 @ 0x5580375e0040] frame P:91    Avg QP:22.14  size:  8189
-[libx264 @ 0x5580375e0040] frame B:203   Avg QP:28.36  size:  1460
-[libx264 @ 0x5580375e0040] consecutive B-frames:  1.4% 20.9%  2.0% 75.7%
-[libx264 @ 0x5580375e0040] mb I  I16..4: 10.6% 68.1% 21.3%
-[libx264 @ 0x5580375e0040] mb P  I16..4:  1.0%  5.5%  1.3%  P16..4: 30.1% 12.8%  6.3%  0.0%  0.0%    skip:43.0%
-[libx264 @ 0x5580375e0040] mb B  I16..4:  0.1%  0.4%  0.1%  B16..8: 28.0%  3.3%  0.6%  direct: 0.7%  skip:66.8%  L0:41.3% L1:51.6% BI: 7.0%
-[libx264 @ 0x5580375e0040] 8x8 transform intra:70.2% inter:74.0%
-[libx264 @ 0x5580375e0040] coded y,uvDC,uvAC intra: 68.1% 69.2% 21.8% inter: 9.1% 7.6% 0.1%
-[libx264 @ 0x5580375e0040] i16 v,h,dc,p: 53% 13%  9% 26%
-[libx264 @ 0x5580375e0040] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 14%  5%  9% 12%  8%  8%  6%
-[libx264 @ 0x5580375e0040] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 13% 10%  5% 14% 17% 10%  6%  4%
-[libx264 @ 0x5580375e0040] i8c dc,h,v,p: 44% 19% 25% 12%
-[libx264 @ 0x5580375e0040] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x5580375e0040] ref P L0: 64.8% 18.2% 12.7%  4.3%
-[libx264 @ 0x5580375e0040] ref B L0: 89.9%  7.3%  2.8%
-[libx264 @ 0x5580375e0040] ref B L1: 97.8%  2.2%
-[libx264 @ 0x5580375e0040] kb/s:752.18
-[aac @ 0x5580383d0ac0] Qavg: 54850.957
-[2026-11-25 17:48:36,322] INFO: Saving generated video to /tmp/out/job0.mp4
-[2026-11-25 17:48:36,322] INFO: Finished.
-job0: rendered in 575s
+frame=  236 fps=0.0 q=28.0 size=     768KiB time=N/A bitrate=N/A speed=N/A    
+[1A[out#0/mp4 @ 0x5633b15904c0] video:1035KiB audio:69KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.805912%
+frame=  301 fps=0.0 q=-1.0 Lsize=    1113KiB time=00:00:11.96 bitrate= 762.3kbits/s speed=20.8x    
+[libx264 @ 0x5633b145e040] frame I:2     Avg QP:21.68  size: 25303
+[libx264 @ 0x5633b145e040] frame P:87    Avg QP:22.08  size:  8301
+[libx264 @ 0x5633b145e040] frame B:212   Avg QP:27.55  size:  1349
+[libx264 @ 0x5633b145e040] consecutive B-frames:  1.3% 14.0%  1.0% 83.7%
+[libx264 @ 0x5633b145e040] mb I  I16..4:  9.0% 74.7% 16.3%
+[libx264 @ 0x5633b145e040] mb P  I16..4:  0.9%  4.9%  1.1%  P16..4: 33.2% 14.5%  6.7%  0.0%  0.0%    skip:38.7%
+[libx264 @ 0x5633b145e040] mb B  I16..4:  0.0%  0.2%  0.0%  B16..8: 29.3%  3.3%  0.5%  direct: 0.6%  skip:65.9%  L0:35.1% L1:58.7% BI: 6.1%
+[libx264 @ 0x5633b145e040] 8x8 transform intra:71.9% inter:75.5%
+[libx264 @ 0x5633b145e040] coded y,uvDC,uvAC intra: 64.7% 65.3% 20.7% inter: 9.3% 7.3% 0.1%
+[libx264 @ 0x5633b145e040] i16 v,h,dc,p: 54% 12% 10% 25%
+[libx264 @ 0x5633b145e040] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 13% 16%  4%  8% 11%  7%  8%  6%
+[libx264 @ 0x5633b145e040] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 13% 10%  5% 14% 16% 10%  6%  4%
+[libx264 @ 0x5633b145e040] i8c dc,h,v,p: 46% 17% 25% 12%
+[libx264 @ 0x5633b145e040] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x5633b145e040] ref P L0: 59.1% 20.4% 14.3%  6.2%
+[libx264 @ 0x5633b145e040] ref B L0: 90.2%  7.2%  2.6%
+[libx264 @ 0x5633b145e040] ref B L1: 96.7%  3.3%
+[libx264 @ 0x5633b145e040] kb/s:703.48
+[aac @ 0x5633b224df40] Qavg: 55429.473
+[2026-11-28 04:18:11,568] INFO: Saving generated video to /tmp/out/job0.mp4
+[2026-11-28 04:18:11,568] INFO: Finished.
+job0: rendered in 677s
 $ ffmpeg -y -loglevel error -i /tmp/in/job1/voice.in -ac 1 -ar 16000 /tmp/in/job1/voice.wav
 $ timeout 1200 python generate_infinitetalk.py --ckpt_dir /weights/Wan2.1-I2V-14B-480P --wav2vec_dir /weights/chinese-wav2vec2-base --infinitetalk_dir /weights/InfiniteTalk/single/infinitetalk.safetensors --input_json /tmp/in/job1/job.json --size infinitetalk-480 --mode streaming --motion_frame 9 --offload_model False --lora_dir /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors --lora_scale 1.0 --sample_steps 6 --sample_shift 2 --sample_text_guide_scale 1.0 --sample_audio_guide_scale 2.0 --save_file /tmp/out/job1
-[2026-11-25 17:48:49,098] INFO: Generation job args: Namespace(task='infinitetalk-14B', size='infinitetalk-480', frame_num=81, max_frame_num=1000, ckpt_dir='/weights/Wan2.1-I2V-14B-480P', infinitetalk_dir='/weights/InfiniteTalk/single/infinitetalk.safetensors', quant_dir=None, wav2vec_dir='/weights/chinese-wav2vec2-base', dit_path=None, lora_dir=['/weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors'], lora_scale=[1.0], offload_model=False, ulysses_size=1, ring_size=1, t5_fsdp=False, t5_cpu=False, dit_fsdp=False, save_file='/tmp/out/job1', audio_save_dir='save_audio', base_seed=42, input_json='/tmp/in/job1/job.json', motion_frame=9, mode='streaming', sample_steps=6, sample_shift=2.0, sample_text_guide_scale=1.0, sample_audio_guide_scale=2.0, num_persistent_param_in_dit=None, audio_mode='localfile', use_teacache=False, teacache_thresh=0.2, use_apg=False, apg_momentum=-0.75, apg_norm_threshold=55, color_correction_strength=1.0, scene_seg=False, quant=None)
-[2026-11-25 17:48:49,098] INFO: Generation model config: {'__name__': 'Config: Wan MultiTalk AI2V 14B', 't5_model': 'umt5_xxl', 't5_dtype': torch.bfloat16, 'text_len': 512, 'param_dtype': torch.bfloat16, 'num_train_timesteps': 1000, 'sample_fps': 16, 'sample_neg_prompt': 'bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards', 't5_checkpoint': 'models_t5_umt5-xxl-enc-bf16.pth', 't5_tokenizer': 'google/umt5-xxl', 'clip_model': 'clip_xlm_roberta_vit_h_14', 'clip_dtype': torch.float16, 'clip_checkpoint': 'models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth', 'clip_tokenizer': 'xlm-roberta-large', 'vae_checkpoint': 'Wan2.1_VAE.pth', 'vae_stride': (4, 8, 8), 'patch_size': (1, 2, 2), 'dim': 5120, 'ffn_dim': 13824, 'freq_dim': 256, 'num_heads': 40, 'num_layers': 40, 'window_size': (-1, -1), 'qk_norm': True, 'cross_attn_norm': True, 'eps': 1e-06}
-[2026-11-25 17:48:49,098] INFO: Creating infinitetalk pipeline.
-[2026-11-25 17:48:49,098] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth
-[2026-11-25 17:49:46,144] INFO: loading /weights/Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth
-[2026-11-25 17:49:46,611] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth
-[2026-11-25 17:49:51,201] INFO: Creating WanModel from /weights/Wan2.1-I2V-14B-480P
-[32m17:51:55[0m | [36m        wan_lora:29[0m | [1m    INFO[0m | [1mRegistered LoRA metadata for: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 from /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors[0m
+[2026-11-28 04:18:25,956] INFO: Generation job args: Namespace(task='infinitetalk-14B', size='infinitetalk-480', frame_num=81, max_frame_num=1000, ckpt_dir='/weights/Wan2.1-I2V-14B-480P', infinitetalk_dir='/weights/InfiniteTalk/single/infinitetalk.safetensors', quant_dir=None, wav2vec_dir='/weights/chinese-wav2vec2-base', dit_path=None, lora_dir=['/weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors'], lora_scale=[1.0], offload_model=False, ulysses_size=1, ring_size=1, t5_fsdp=False, t5_cpu=False, dit_fsdp=False, save_file='/tmp/out/job1', audio_save_dir='save_audio', base_seed=42, input_json='/tmp/in/job1/job.json', motion_frame=9, mode='streaming', sample_steps=6, sample_shift=2.0, sample_text_guide_scale=1.0, sample_audio_guide_scale=2.0, num_persistent_param_in_dit=None, audio_mode='localfile', use_teacache=False, teacache_thresh=0.2, use_apg=False, apg_momentum=-0.75, apg_norm_threshold=55, color_correction_strength=1.0, scene_seg=False, quant=None)
+[2026-11-28 04:18:25,957] INFO: Generation model config: {'__name__': 'Config: Wan MultiTalk AI2V 14B', 't5_model': 'umt5_xxl', 't5_dtype': torch.bfloat16, 'text_len': 512, 'param_dtype': torch.bfloat16, 'num_train_timesteps': 1000, 'sample_fps': 16, 'sample_neg_prompt': 'bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards', 't5_checkpoint': 'models_t5_umt5-xxl-enc-bf16.pth', 't5_tokenizer': 'google/umt5-xxl', 'clip_model': 'clip_xlm_roberta_vit_h_14', 'clip_dtype': torch.float16, 'clip_checkpoint': 'models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth', 'clip_tokenizer': 'xlm-roberta-large', 'vae_checkpoint': 'Wan2.1_VAE.pth', 'vae_stride': (4, 8, 8), 'patch_size': (1, 2, 2), 'dim': 5120, 'ffn_dim': 13824, 'freq_dim': 256, 'num_heads': 40, 'num_layers': 40, 'window_size': (-1, -1), 'qk_norm': True, 'cross_attn_norm': True, 'eps': 1e-06}
+[2026-11-28 04:18:25,957] INFO: Creating infinitetalk pipeline.
+[2026-11-28 04:18:25,957] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth
+[2026-11-28 04:19:25,344] INFO: loading /weights/Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth
+[2026-11-28 04:19:25,896] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth
+[2026-11-28 04:19:30,748] INFO: Creating WanModel from /weights/Wan2.1-I2V-14B-480P
+[32m04:21:54[0m | [36m        wan_lora:29[0m | [1m    INFO[0m | [1mRegistered LoRA metadata for: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 from /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors[0m
 
 [1ALoading LoRA weights:   0%|          | 0/1052 [00:00<?, ?it/s]
-[1ALoading LoRA weights:   0%|          | 2/1052 [00:00<02:16,  7.72it/s]
-[1ALoading LoRA weights:   1%|          | 12/1052 [00:00<00:30, 34.31it/s]
-[1ALoading LoRA weights:   2%|▏         | 22/1052 [00:00<00:20, 50.22it/s]
-[1ALoading LoRA weights:   3%|▎         | 32/1052 [00:00<00:16, 63.66it/s]
-[1ALoading LoRA weights:   4%|▍         | 40/1052 [00:00<00:18, 54.01it/s]
-[1ALoading LoRA weights:   5%|▍         | 52/1052 [00:00<00:14, 69.22it/s]
-[1ALoading LoRA weights:   6%|▌         | 62/1052 [00:01<00:13, 75.85it/s]
-[1ALoading LoRA weights:   7%|▋         | 71/1052 [00:01<00:14, 67.33it/s]
-[1ALoading LoRA weights:   8%|▊         | 80/1052 [00:01<00:13, 72.19it/s]
-[1ALoading LoRA weights:   9%|▊         | 90/1052 [00:01<00:13, 70.41it/s]
-[1ALoading LoRA weights:  10%|▉         | 100/1052 [00:01<00:12, 73.39it/s]
-[1ALoading LoRA weights:  10%|█         | 110/1052 [00:01<00:11, 79.16it/s]
-[1ALoading LoRA weights:  11%|█▏        | 119/1052 [00:01<00:14, 65.97it/s]
-[1ALoading LoRA weights:  12%|█▏        | 130/1052 [00:01<00:12, 75.26it/s]
-[1ALoading LoRA weights:  13%|█▎        | 140/1052 [00:02<00:11, 79.94it/s]
-[1ALoading LoRA weights:  14%|█▍        | 149/1052 [00:02<00:12, 70.11it/s]
-[1ALoading LoRA weights:  15%|█▌        | 158/1052 [00:02<00:12, 74.18it/s]
-[1ALoading LoRA weights:  16%|█▌        | 168/1052 [00:02<00:12, 71.56it/s]
-[1ALoading LoRA weights:  17%|█▋        | 178/1052 [00:02<00:11, 74.44it/s]
-[1ALoading LoRA weights:  18%|█▊        | 188/1052 [00:02<00:10, 79.60it/s]
-[1ALoading LoRA weights:  19%|█▊        | 197/1052 [00:02<00:12, 66.25it/s]
-[1ALoading LoRA weights:  20%|█▉        | 208/1052 [00:03<00:11, 75.28it/s]
-[1ALoading LoRA weights:  21%|██        | 218/1052 [00:03<00:10, 80.43it/s]
-[1ALoading LoRA weights:  22%|██▏       | 227/1052 [00:03<00:11, 70.45it/s]
-[1ALoading LoRA weights:  22%|██▏       | 236/1052 [00:03<00:11, 74.07it/s]
-[1ALoading LoRA weights:  23%|██▎       | 246/1052 [00:03<00:11, 71.81it/s]
-[1ALoading LoRA weights:  24%|██▍       | 256/1052 [00:03<00:10, 74.44it/s]
-[1ALoading LoRA weights:  25%|██▌       | 266/1052 [00:03<00:09, 79.93it/s]
-[1ALoading LoRA weights:  26%|██▌       | 275/1052 [00:03<00:11, 66.42it/s]
-[1ALoading LoRA weights:  27%|██▋       | 286/1052 [00:04<00:10, 75.51it/s]
-[1ALoading LoRA weights:  28%|██▊       | 296/1052 [00:04<00:09, 80.55it/s]
-[1ALoading LoRA weights:  29%|██▉       | 305/1052 [00:04<00:10, 70.16it/s]
-[1ALoading LoRA weights:  30%|██▉       | 314/1052 [00:04<00:09, 73.81it/s]
-[1ALoading LoRA weights:  31%|███       | 324/1052 [00:04<00:10, 71.56it/s]
-[1ALoading LoRA weights:  32%|███▏      | 334/1052 [00:04<00:09, 74.08it/s]
-[1ALoading LoRA weights:  33%|███▎      | 344/1052 [00:04<00:08, 79.54it/s]
-[1ALoading LoRA weights:  34%|███▎      | 353/1052 [00:05<00:10, 66.24it/s]
-[1ALoading LoRA weights:  35%|███▍      | 364/1052 [00:05<00:09, 75.43it/s]
-[1ALoading LoRA weights:  36%|███▌      | 374/1052 [00:05<00:08, 80.39it/s]
-[1ALoading LoRA weights:  36%|███▋      | 383/1052 [00:05<00:09, 70.78it/s]
-[1ALoading LoRA weights:  37%|███▋      | 392/1052 [00:05<00:08, 74.79it/s]
-[1ALoading LoRA weights:  38%|███▊      | 402/1052 [00:05<00:08, 72.51it/s]
-[1ALoading LoRA weights:  39%|███▉      | 412/1052 [00:05<00:08, 75.02it/s]
-[1ALoading LoRA weights:  40%|████      | 422/1052 [00:05<00:07, 80.22it/s]
-[1ALoading LoRA weights:  41%|████      | 431/1052 [00:06<00:09, 66.10it/s]
-[1ALoading LoRA weights:  42%|████▏     | 442/1052 [00:06<00:08, 75.18it/s]
-[1ALoading LoRA weights:  43%|████▎     | 452/1052 [00:06<00:07, 80.16it/s]
-[1ALoading LoRA weights:  44%|████▍     | 461/1052 [00:06<00:08, 70.01it/s]
-[1ALoading LoRA weights:  45%|████▍     | 470/1052 [00:06<00:07, 74.04it/s]
-[1ALoading LoRA weights:  46%|████▌     | 480/1052 [00:06<00:07, 71.82it/s]
-[1ALoading LoRA weights:  47%|████▋     | 490/1052 [00:06<00:07, 74.33it/s]
-[1ALoading LoRA weights:  48%|████▊     | 500/1052 [00:06<00:06, 79.98it/s]
-[1ALoading LoRA weights:  48%|████▊     | 509/1052 [00:07<00:08, 66.18it/s]
-[1ALoading LoRA weights:  49%|████▉     | 520/1052 [00:07<00:07, 75.48it/s]
-[1ALoading LoRA weights:  50%|█████     | 530/1052 [00:07<00:06, 80.22it/s]
-[1ALoading LoRA weights:  51%|█████     | 539/1052 [00:07<00:07, 69.92it/s]
-[1ALoading LoRA weights:  52%|█████▏    | 548/1052 [00:07<00:06, 73.78it/s]
-[1ALoading LoRA weights:  53%|█████▎    | 558/1052 [00:07<00:06, 71.68it/s]
-[1ALoading LoRA weights:  54%|█████▍    | 568/1052 [00:07<00:06, 74.27it/s]
-[1ALoading LoRA weights:  55%|█████▍    | 578/1052 [00:08<00:05, 79.59it/s]
-[1ALoading LoRA weights:  56%|█████▌    | 587/1052 [00:08<00:07, 65.87it/s]
-[1ALoading LoRA weights:  57%|█████▋    | 598/1052 [00:08<00:06, 74.83it/s]
-[1ALoading LoRA weights:  58%|█████▊    | 608/1052 [00:08<00:05, 79.70it/s]
-[1ALoading LoRA weights:  59%|█████▊    | 617/1052 [00:08<00:06, 69.68it/s]
-[1ALoading LoRA weights:  60%|█████▉    | 626/1052 [00:08<00:05, 73.66it/s]
-[1ALoading LoRA weights:  60%|██████    | 636/1052 [00:08<00:05, 71.68it/s]
-[1ALoading LoRA weights:  61%|██████▏   | 646/1052 [00:08<00:05, 74.37it/s]
-[1ALoading LoRA weights:  62%|██████▏   | 656/1052 [00:09<00:04, 79.38it/s]
-[1ALoading LoRA weights:  63%|██████▎   | 665/1052 [00:09<00:05, 65.70it/s]
-[1ALoading LoRA weights:  64%|██████▍   | 676/1052 [00:09<00:05, 74.66it/s]
-[1ALoading LoRA weights:  65%|██████▌   | 686/1052 [00:09<00:04, 79.65it/s]
-[1ALoading LoRA weights:  66%|██████▌   | 695/1052 [00:09<00:05, 69.65it/s]
-[1ALoading LoRA weights:  67%|██████▋   | 704/1052 [00:09<00:04, 73.35it/s]
-[1ALoading LoRA weights:  68%|██████▊   | 714/1052 [00:09<00:04, 70.68it/s]
-[1ALoading LoRA weights:  69%|██████▉   | 724/1052 [00:10<00:04, 73.48it/s]
-[1ALoading LoRA weights:  70%|██████▉   | 734/1052 [00:10<00:04, 78.60it/s]
-[1ALoading LoRA weights:  71%|███████   | 743/1052 [00:10<00:04, 65.37it/s]
-[1ALoading LoRA weights:  72%|███████▏  | 754/1052 [00:10<00:04, 74.22it/s]
-[1ALoading LoRA weights:  73%|███████▎  | 764/1052 [00:10<00:03, 79.47it/s]
-[1ALoading LoRA weights:  73%|███████▎  | 773/1052 [00:10<00:04, 69.55it/s]
-[1ALoading LoRA weights:  74%|███████▍  | 782/1052 [00:10<00:03, 73.38it/s]
-[1ALoading LoRA weights:  75%|███████▌  | 792/1052 [00:11<00:03, 70.90it/s]
-[1ALoading LoRA weights:  76%|███████▌  | 802/1052 [00:11<00:03, 73.27it/s]
-[1ALoading LoRA weights:  77%|███████▋  | 812/1052 [00:11<00:03, 78.45it/s]
-[1ALoading LoRA weights:  78%|███████▊  | 821/1052 [00:11<00:03, 65.31it/s]
-[1ALoading LoRA weights:  79%|███████▉  | 832/1052 [00:11<00:02, 74.37it/s]
-[1ALoading LoRA weights:  80%|████████  | 842/1052 [00:11<00:02, 79.24it/s]
-[1ALoading LoRA weights:  81%|████████  | 851/1052 [00:11<00:02, 69.51it/s]
-[1ALoading LoRA weights:  82%|████████▏ | 860/1052 [00:11<00:02, 72.95it/s]
-[1ALoading LoRA weights:  83%|████████▎ | 870/1052 [00:12<00:02, 70.28it/s]
-[1ALoading LoRA weights:  84%|████████▎ | 880/1052 [00:12<00:02, 72.75it/s]
-[1ALoading LoRA weights:  85%|████████▍ | 890/1052 [00:12<00:02, 77.84it/s]
-[1ALoading LoRA weights:  85%|████████▌ | 899/1052 [00:12<00:02, 64.65it/s]
-[1ALoading LoRA weights:  87%|████████▋ | 910/1052 [00:12<00:01, 73.85it/s]
-[1ALoading LoRA weights:  87%|████████▋ | 920/1052 [00:12<00:01, 78.62it/s]
-[1ALoading LoRA weights:  88%|████████▊ | 929/1052 [00:12<00:01, 69.03it/s]
-[1ALoading LoRA weights:  89%|████████▉ | 938/1052 [00:13<00:01, 72.68it/s]
-[1ALoading LoRA weights:  90%|█████████ | 948/1052 [00:13<00:01, 70.10it/s]
-[1ALoading LoRA weights:  91%|█████████ | 958/1052 [00:13<00:01, 72.75it/s]
-[1ALoading LoRA weights:  92%|█████████▏| 968/1052 [00:13<00:01, 78.23it/s]
-[1ALoading LoRA weights:  93%|█████████▎| 977/1052 [00:13<00:01, 65.30it/s]
-[1ALoading LoRA weights:  94%|█████████▍| 988/1052 [00:13<00:00, 74.29it/s]
-[1ALoading LoRA weights:  95%|█████████▍| 998/1052 [00:13<00:00, 79.07it/s]
-[1ALoading LoRA weights:  96%|█████████▌| 1007/1052 [00:13<00:00, 69.18it/s]
-[1ALoading LoRA weights:  97%|█████████▋| 1016/1052 [00:14<00:00, 72.77it/s]
-[1ALoading LoRA weights:  98%|█████████▊| 1026/1052 [00:14<00:00, 70.34it/s]
-[1ALoading LoRA weights:  98%|█████████▊| 1034/1052 [00:14<00:00, 72.56it/s]
-[1ALoading LoRA weights:  99%|█████████▉| 1045/1052 [00:14<00:00, 80.43it/s]
-[1ALoading LoRA weights: 100%|██████████| 1052/1052 [00:14<00:00, 72.39it/s]
-[32m17:52:10[0m | [36m        wan_lora:102[0m | [1m    INFO[0m | [1mApplied 1052 LoRA weight adjustments[0m
-[32m17:52:10[0m | [36m        wan_lora:49[0m | [1m    INFO[0m | [1mApplied LoRA: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 with alpha=1.0[0m
-[2026-11-25 17:52:11,886] INFO: Generating video ...
+[1ALoading LoRA weights:   0%|          | 2/1052 [00:00<03:30,  5.00it/s]
+[1ALoading LoRA weights:   1%|          | 12/1052 [00:00<00:40, 25.61it/s]
+[1ALoading LoRA weights:   2%|▏         | 18/1052 [00:00<00:30, 33.47it/s]
+[1ALoading LoRA weights:   3%|▎         | 28/1052 [00:00<00:20, 49.18it/s]
+[1ALoading LoRA weights:   4%|▎         | 38/1052 [00:00<00:19, 53.25it/s]
+[1ALoading LoRA weights:   4%|▍         | 45/1052 [00:01<00:17, 56.17it/s]
+[1ALoading LoRA weights:   5%|▌         | 54/1052 [00:01<00:15, 62.65it/s]
+[1ALoading LoRA weights:   6%|▌         | 64/1052 [00:01<00:15, 63.54it/s]
+[1ALoading LoRA weights:   7%|▋         | 71/1052 [00:01<00:15, 64.76it/s]
+[1ALoading LoRA weights:   8%|▊         | 80/1052 [00:01<00:13, 69.67it/s]
+[1ALoading LoRA weights:   9%|▊         | 90/1052 [00:01<00:14, 68.06it/s]
+[1ALoading LoRA weights:   9%|▉         | 98/1052 [00:01<00:13, 70.78it/s]
+[1ALoading LoRA weights:  10%|█         | 106/1052 [00:01<00:13, 71.70it/s]
+[1ALoading LoRA weights:  11%|█         | 116/1052 [00:02<00:13, 69.30it/s]
+[1ALoading LoRA weights:  12%|█▏        | 124/1052 [00:02<00:12, 71.79it/s]
+[1ALoading LoRA weights:  13%|█▎        | 132/1052 [00:02<00:12, 72.31it/s]
+[1ALoading LoRA weights:  13%|█▎        | 142/1052 [00:02<00:13, 69.80it/s]
+[1ALoading LoRA weights:  14%|█▍        | 152/1052 [00:02<00:12, 72.57it/s]
+[1ALoading LoRA weights:  15%|█▌        | 162/1052 [00:02<00:11, 78.11it/s]
+[1ALoading LoRA weights:  16%|█▌        | 170/1052 [00:02<00:14, 62.55it/s]
+[1ALoading LoRA weights:  17%|█▋        | 182/1052 [00:02<00:11, 74.55it/s]
+[1ALoading LoRA weights:  18%|█▊        | 192/1052 [00:03<00:10, 79.33it/s]
+[1ALoading LoRA weights:  19%|█▉        | 201/1052 [00:03<00:12, 68.88it/s]
+[1ALoading LoRA weights:  20%|█▉        | 210/1052 [00:03<00:11, 72.26it/s]
+[1ALoading LoRA weights:  21%|██        | 220/1052 [00:03<00:11, 69.79it/s]
+[1ALoading LoRA weights:  22%|██▏       | 228/1052 [00:03<00:11, 71.74it/s]
+[1ALoading LoRA weights:  22%|██▏       | 236/1052 [00:03<00:11, 72.26it/s]
+[1ALoading LoRA weights:  23%|██▎       | 246/1052 [00:03<00:11, 69.14it/s]
+[1ALoading LoRA weights:  24%|██▍       | 254/1052 [00:03<00:11, 71.50it/s]
+[1ALoading LoRA weights:  25%|██▍       | 262/1052 [00:04<00:10, 72.21it/s]
+[1ALoading LoRA weights:  26%|██▌       | 272/1052 [00:04<00:11, 69.53it/s]
+[1ALoading LoRA weights:  27%|██▋       | 280/1052 [00:04<00:10, 71.73it/s]
+[1ALoading LoRA weights:  27%|██▋       | 288/1052 [00:04<00:10, 72.13it/s]
+[1ALoading LoRA weights:  28%|██▊       | 298/1052 [00:04<00:10, 69.39it/s]
+[1ALoading LoRA weights:  29%|██▉       | 306/1052 [00:04<00:10, 71.68it/s]
+[1ALoading LoRA weights:  30%|██▉       | 314/1052 [00:04<00:10, 71.82it/s]
+[1ALoading LoRA weights:  31%|███       | 324/1052 [00:04<00:10, 67.17it/s]
+[1ALoading LoRA weights:  31%|███▏      | 331/1052 [00:05<00:10, 66.39it/s]
+[1ALoading LoRA weights:  32%|███▏      | 340/1052 [00:05<00:10, 70.08it/s]
+[1ALoading LoRA weights:  33%|███▎      | 350/1052 [00:05<00:10, 68.54it/s]
+[1ALoading LoRA weights:  34%|███▍      | 360/1052 [00:05<00:09, 71.69it/s]
+[1ALoading LoRA weights:  35%|███▌      | 370/1052 [00:05<00:08, 77.07it/s]
+[1ALoading LoRA weights:  36%|███▌      | 378/1052 [00:05<00:10, 62.34it/s]
+[1ALoading LoRA weights:  37%|███▋      | 390/1052 [00:05<00:08, 74.21it/s]
+[1ALoading LoRA weights:  38%|███▊      | 400/1052 [00:05<00:08, 79.13it/s]
+[1ALoading LoRA weights:  39%|███▉      | 409/1052 [00:06<00:09, 68.95it/s]
+[1ALoading LoRA weights:  40%|███▉      | 418/1052 [00:06<00:08, 72.75it/s]
+[1ALoading LoRA weights:  41%|████      | 428/1052 [00:06<00:08, 70.06it/s]
+[1ALoading LoRA weights:  41%|████▏     | 436/1052 [00:06<00:08, 72.23it/s]
+[1ALoading LoRA weights:  42%|████▏     | 444/1052 [00:06<00:08, 72.90it/s]
+[1ALoading LoRA weights:  43%|████▎     | 454/1052 [00:06<00:08, 70.56it/s]
+[1ALoading LoRA weights:  44%|████▍     | 462/1052 [00:06<00:08, 72.87it/s]
+[1ALoading LoRA weights:  45%|████▍     | 470/1052 [00:06<00:07, 73.34it/s]
+[1ALoading LoRA weights:  46%|████▌     | 480/1052 [00:07<00:08, 70.06it/s]
+[1ALoading LoRA weights:  47%|████▋     | 490/1052 [00:07<00:07, 72.74it/s]
+[1ALoading LoRA weights:  48%|████▊     | 500/1052 [00:07<00:07, 77.98it/s]
+[1ALoading LoRA weights:  48%|████▊     | 508/1052 [00:07<00:08, 62.25it/s]
+[1ALoading LoRA weights:  49%|████▉     | 520/1052 [00:07<00:07, 73.92it/s]
+[1ALoading LoRA weights:  50%|█████     | 530/1052 [00:07<00:06, 78.45it/s]
+[1ALoading LoRA weights:  51%|█████     | 539/1052 [00:07<00:07, 68.62it/s]
+[1ALoading LoRA weights:  52%|█████▏    | 548/1052 [00:08<00:06, 72.42it/s]
+[1ALoading LoRA weights:  53%|█████▎    | 558/1052 [00:08<00:07, 69.81it/s]
+[1ALoading LoRA weights:  54%|█████▍    | 566/1052 [00:08<00:06, 72.06it/s]
+[1ALoading LoRA weights:  55%|█████▍    | 574/1052 [00:08<00:06, 72.50it/s]
+[1ALoading LoRA weights:  56%|█████▌    | 584/1052 [00:08<00:06, 69.39it/s]
+[1ALoading LoRA weights:  56%|█████▋    | 592/1052 [00:08<00:06, 71.09it/s]
+[1ALoading LoRA weights:  57%|█████▋    | 600/1052 [00:08<00:06, 71.74it/s]
+[1ALoading LoRA weights:  58%|█████▊    | 610/1052 [00:08<00:06, 67.55it/s]
+[1ALoading LoRA weights:  59%|█████▊    | 617/1052 [00:09<00:06, 67.15it/s]
+[1ALoading LoRA weights:  60%|█████▉    | 626/1052 [00:09<00:06, 70.68it/s]
+[1ALoading LoRA weights:  60%|██████    | 636/1052 [00:09<00:06, 68.65it/s]
+[1ALoading LoRA weights:  61%|██████    | 643/1052 [00:09<00:05, 68.67it/s]
+[1ALoading LoRA weights:  62%|██████▏   | 652/1052 [00:09<00:05, 72.24it/s]
+[1ALoading LoRA weights:  63%|██████▎   | 662/1052 [00:09<00:05, 69.87it/s]
+[1ALoading LoRA weights:  64%|██████▍   | 672/1052 [00:09<00:05, 72.57it/s]
+[1ALoading LoRA weights:  65%|██████▍   | 682/1052 [00:09<00:04, 77.74it/s]
+[1ALoading LoRA weights:  66%|██████▌   | 690/1052 [00:10<00:05, 62.11it/s]
+[1ALoading LoRA weights:  67%|██████▋   | 702/1052 [00:10<00:04, 74.01it/s]
+[1ALoading LoRA weights:  68%|██████▊   | 712/1052 [00:10<00:04, 78.70it/s]
+[1ALoading LoRA weights:  69%|██████▊   | 721/1052 [00:10<00:04, 68.77it/s]
+[1ALoading LoRA weights:  69%|██████▉   | 730/1052 [00:10<00:04, 72.22it/s]
+[1ALoading LoRA weights:  70%|███████   | 740/1052 [00:10<00:04, 69.90it/s]
+[1ALoading LoRA weights:  71%|███████▏  | 750/1052 [00:10<00:04, 72.49it/s]
+[1ALoading LoRA weights:  72%|███████▏  | 760/1052 [00:11<00:03, 77.63it/s]
+[1ALoading LoRA weights:  73%|███████▎  | 769/1052 [00:11<00:04, 64.58it/s]
+[1ALoading LoRA weights:  74%|███████▍  | 780/1052 [00:11<00:03, 73.39it/s]
+[1ALoading LoRA weights:  75%|███████▌  | 790/1052 [00:11<00:03, 77.99it/s]
+[1ALoading LoRA weights:  76%|███████▌  | 799/1052 [00:11<00:03, 68.32it/s]
+[1ALoading LoRA weights:  77%|███████▋  | 808/1052 [00:11<00:03, 72.00it/s]
+[1ALoading LoRA weights:  78%|███████▊  | 818/1052 [00:11<00:03, 69.70it/s]
+[1ALoading LoRA weights:  79%|███████▊  | 828/1052 [00:12<00:03, 72.35it/s]
+[1ALoading LoRA weights:  80%|███████▉  | 838/1052 [00:12<00:02, 77.41it/s]
+[1ALoading LoRA weights:  81%|████████  | 847/1052 [00:12<00:03, 64.29it/s]
+[1ALoading LoRA weights:  82%|████████▏ | 858/1052 [00:12<00:02, 73.42it/s]
+[1ALoading LoRA weights:  83%|████████▎ | 868/1052 [00:12<00:02, 78.21it/s]
+[1ALoading LoRA weights:  83%|████████▎ | 877/1052 [00:12<00:02, 68.73it/s]
+[1ALoading LoRA weights:  84%|████████▍ | 886/1052 [00:12<00:02, 72.03it/s]
+[1ALoading LoRA weights:  85%|████████▌ | 896/1052 [00:12<00:02, 68.00it/s]
+[1ALoading LoRA weights:  86%|████████▌ | 904/1052 [00:13<00:02, 69.49it/s]
+[1ALoading LoRA weights:  87%|████████▋ | 912/1052 [00:13<00:02, 69.33it/s]
+[1ALoading LoRA weights:  88%|████████▊ | 922/1052 [00:13<00:01, 66.19it/s]
+[1ALoading LoRA weights:  88%|████████▊ | 929/1052 [00:13<00:01, 66.04it/s]
+[1ALoading LoRA weights:  89%|████████▉ | 938/1052 [00:13<00:01, 69.28it/s]
+[1ALoading LoRA weights:  90%|█████████ | 948/1052 [00:13<00:01, 66.19it/s]
+[1ALoading LoRA weights:  91%|█████████ | 955/1052 [00:13<00:01, 66.04it/s]
+[1ALoading LoRA weights:  92%|█████████▏| 964/1052 [00:13<00:01, 69.30it/s]
+[1ALoading LoRA weights:  93%|█████████▎| 974/1052 [00:14<00:01, 65.91it/s]
+[1ALoading LoRA weights:  93%|█████████▎| 981/1052 [00:14<00:01, 65.83it/s]
+[1ALoading LoRA weights:  94%|█████████▍| 990/1052 [00:14<00:00, 69.02it/s]
+[1ALoading LoRA weights:  95%|█████████▌| 1000/1052 [00:14<00:00, 66.10it/s]
+[1ALoading LoRA weights:  96%|█████████▌| 1007/1052 [00:14<00:00, 66.45it/s]
+[1ALoading LoRA weights:  97%|█████████▋| 1016/1052 [00:14<00:00, 70.04it/s]
+[1ALoading LoRA weights:  98%|█████████▊| 1026/1052 [00:14<00:00, 68.29it/s]
+[1ALoading LoRA weights:  98%|█████████▊| 1036/1052 [00:15<00:00, 71.65it/s]
+[1ALoading LoRA weights: 100%|█████████▉| 1047/1052 [00:15<00:00, 79.37it/s]Loading LoRA weights: 100%|██████████| 1052/1052 [00:15<00:00, 69.09it/s]
+[32m04:22:09[0m | [36m        wan_lora:102[0m | [1m    INFO[0m | [1mApplied 1052 LoRA weight adjustments[0m
+[32m04:22:09[0m | [36m        wan_lora:49[0m | [1m    INFO[0m | [1mApplied LoRA: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 with alpha=1.0[0m
+[2026-11-28 04:22:12,176] INFO: Generating video ...
+
 ('/tmp/in/job1/presenter.png', '/tmp/in/job1/voice.wav')
 No conversion needed.
-
 [1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:13<01:07, 13.56s/it]
-[1A 33%|███▎      | 2/6 [00:25<00:49, 12.45s/it]
-[1A 50%|█████     | 3/6 [00:36<00:36, 12.10s/it]
-[1A 67%|██████▋   | 4/6 [00:48<00:23, 11.94s/it]
-[1A 83%|████████▎ | 5/6 [01:00<00:11, 11.87s/it]
-[1A100%|██████████| 6/6 [01:12<00:00, 11.80s/it]100%|██████████| 6/6 [01:12<00:00, 12.00s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:58, 11.69s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.86s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.84s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.79s/it]
-[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.76s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.76s/it]100%|██████████| 6/6 [01:10<00:00, 11.78s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:59, 11.84s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.75s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.72s/it]
-[1A 67%|██████▋   | 4/6 [00:46<00:23, 11.71s/it]
-[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.77s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.80s/it]100%|██████████| 6/6 [01:10<00:00, 11.77s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:58, 11.70s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:46, 11.74s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.71s/it]
-[1A 67%|██████▋   | 4/6 [00:46<00:23, 11.70s/it]
-[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.73s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.71s/it]100%|██████████| 6/6 [01:10<00:00, 11.71s/it]
+[1A 17%|█▋        | 1/6 [00:13<01:09, 13.86s/it]
+[1A 33%|███▎      | 2/6 [00:25<00:50, 12.64s/it]
+[1A 50%|█████     | 3/6 [00:37<00:36, 12.23s/it]
+[1A 67%|██████▋   | 4/6 [00:49<00:24, 12.06s/it]
+[1A 83%|████████▎ | 5/6 [01:00<00:11, 11.94s/it]100%|██████████| 6/6 [01:12<00:00, 11.89s/it]100%|██████████| 6/6 [01:12<00:00, 12.12s/it]
 
 [1A  0%|          | 0/6 [00:00<?, ?it/s]
 [1A 17%|█▋        | 1/6 [00:11<00:59, 11.83s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.91s/it]
-[1A 50%|█████     | 3/6 [00:35<00:36, 12.02s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.94s/it]
-[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.86s/it]
-[1A100%|██████████| 6/6 [01:11<00:00, 11.84s/it]100%|██████████| 6/6 [01:11<00:00, 11.88s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.81s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.83s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.84s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.83s/it]
+[1A100%|██████████| 6/6 [01:10<00:00, 11.84s/it]100%|██████████| 6/6 [01:10<00:00, 11.83s/it]
 
-[1ASaving video:   0%|          | 0/301 [00:00<?, ?it/s]
-[1ASaving video:   0%|          | 1/301 [00:00<01:19,  3.79it/s]
-[1ASaving video:  10%|▉         | 29/301 [00:00<00:02, 100.54it/s]
-[1ASaving video:  21%|██        | 63/301 [00:00<00:01, 180.24it/s]
-[1ASaving video:  33%|███▎      | 99/301 [00:00<00:00, 238.12it/s]
-[1ASaving video:  45%|████▌     | 136/301 [00:00<00:00, 278.71it/s]
-[1ASaving video:  57%|█████▋    | 172/301 [00:00<00:00, 303.43it/s]
-[1ASaving video:  69%|██████▉   | 208/301 [00:00<00:00, 320.64it/s]
-[1ASaving video:  81%|████████  | 244/301 [00:00<00:00, 331.39it/s]
-[1ASaving video:  93%|█████████▎| 281/301 [00:01<00:00, 340.18it/s]
-[1ASaving video: 100%|██████████| 301/301 [00:01<00:00, 267.39it/s]
+[1A  0%|          | 0/6 [00:00<?, ?it/s]
+[1A 17%|█▋        | 1/6 [00:11<00:59, 11.85s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.84s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.80s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.83s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.82s/it]100%|██████████| 6/6 [01:10<00:00, 11.82s/it]100%|██████████| 6/6 [01:10<00:00, 11.82s/it]
+
+[1A  0%|          | 0/6 [00:00<?, ?it/s]
+[1A 17%|█▋        | 1/6 [00:11<00:59, 11.80s/it]
+[1A 33%|███▎      | 2/6 [00:23<00:47, 11.85s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.91s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.87s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.84s/it]
+[1A100%|██████████| 6/6 [01:11<00:00, 11.82s/it]100%|██████████| 6/6 [01:11<00:00, 11.84s/it]
+
+[1A  0%|          | 0/6 [00:00<?, ?it/s]
+[1A 17%|█▋        | 1/6 [00:12<01:00, 12.02s/it]
+[1A 33%|███▎      | 2/6 [00:24<00:48, 12.05s/it]
+[1A 50%|█████     | 3/6 [00:35<00:35, 11.93s/it]
+[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.88s/it]
+[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.85s/it]100%|██████████| 6/6 [01:11<00:00, 11.82s/it]100%|██████████| 6/6 [01:11<00:00, 11.88s/it]
+
+[1ASaving video:   0%|          | 0/298 [00:00<?, ?it/s]
+[1ASaving video:   0%|          | 1/298 [00:00<01:48,  2.74it/s]
+[1ASaving video:   9%|▉         | 27/298 [00:00<00:03, 74.54it/s]
+[1ASaving video:  20%|██        | 61/298 [00:00<00:01, 149.21it/s]
+[1ASaving video:  32%|███▏      | 94/298 [00:00<00:01, 201.24it/s]
+[1ASaving video:  43%|████▎     | 129/298 [00:00<00:00, 242.98it/s]
+[1ASaving video:  56%|█████▌    | 166/298 [00:00<00:00, 278.55it/s]
+[1ASaving video:  68%|██████▊   | 202/298 [00:00<00:00, 300.74it/s]
+[1ASaving video:  79%|███████▉  | 236/298 [00:01<00:00, 312.11it/s]
+[1ASaving video:  91%|█████████ | 271/298 [00:01<00:00, 320.44it/s]Saving video: 100%|██████████| 298/298 [00:01<00:00, 236.74it/s]
 ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
   built with gcc 14 (Debian 14.2.0-19)
   configuration: --prefix=/usr --extra-version=0+deb13u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
@@ -478,9 +501,9 @@ ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
   libswscale      8.  3.100 /  8.  3.100
   libswresample   5.  3.100 /  5.  3.100
   libpostproc    58.  3.100 / 58.  3.100
-[aist#0:0/pcm_s16le @ 0x5638cb0552c0] Guessed Channel Layout: mono
+[aist#0:0/pcm_s16le @ 0x55d074ff72c0] Guessed Channel Layout: mono
 Input #0, wav, from 'save_audio/presenter/sum_all.wav':
-  Duration: 00:00:12.06, bitrate: 256 kb/s
+  Duration: 00:00:11.92, bitrate: 256 kb/s
   Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
 Stream mapping:
   Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
@@ -491,8 +514,8 @@ Output #0, wav, to '/tmp/out/job1-cropaudio.wav':
   Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
       Metadata:
         encoder         : Lavc61.19.101 pcm_s16le
-[out#0/wav @ 0x5638cb055480] video:0KiB audio:376KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.020245%
-size=     376KiB time=00:00:12.04 bitrate= 256.1kbits/s speed=3.02e+03x    
+[out#0/wav @ 0x55d074ff7480] video:0KiB audio:372KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.020449%
+size=     373KiB time=00:00:11.92 bitrate= 256.1kbits/s speed=2.64e+03x    
 ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
   built with gcc 14 (Debian 14.2.0-19)
   configuration: --prefix=/usr --extra-version=0+deb13u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
@@ -510,25 +533,25 @@ Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/out/job1-temp.mp4':
     minor_version   : 512
     compatible_brands: isomiso2avc1mp41
     encoder         : Lavf63.1.102
-  Duration: 00:00:12.04, start: 0.000000, bitrate: 667 kb/s
-  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 704x576, 664 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+  Duration: 00:00:11.92, start: 0.000000, bitrate: 690 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 704x576, 687 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
       Metadata:
         handler_name    : VideoHandler
         vendor_id       : [0][0][0][0]
         encoder         : Lavc63.1.102 libx264
-[aist#1:0/pcm_s16le @ 0x555ca3ca3dc0] Guessed Channel Layout: mono
+[aist#1:0/pcm_s16le @ 0x562f34d046c0] Guessed Channel Layout: mono
 Input #1, wav, from '/tmp/out/job1-cropaudio.wav':
   Metadata:
     encoder         : Lavf61.7.103
-  Duration: 00:00:12.04, bitrate: 256 kb/s
+  Duration: 00:00:11.92, bitrate: 256 kb/s
   Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
 Stream mapping:
   Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
   Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
 Press [q] to stop, [?] for help
-[libx264 @ 0x555ca3bf8040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x555ca3bf8040] profile High, level 3.0, 4:2:0, 8-bit
-[libx264 @ 0x555ca3bf8040] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[libx264 @ 0x562f34bd1040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x562f34bd1040] profile High, level 3.0, 4:2:0, 8-bit
+[libx264 @ 0x562f34bd1040] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
 Output #0, mp4, to '/tmp/out/job1.mp4':
   Metadata:
     major_brand     : isom
@@ -545,317 +568,33 @@ Output #0, mp4, to '/tmp/out/job1.mp4':
   Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 69 kb/s
       Metadata:
         encoder         : Lavc61.19.101 aac
-frame=  253 fps=0.0 q=28.0 size=     768KiB time=N/A bitrate=N/A speed=N/A    
-[1A[out#0/mp4 @ 0x555ca3ca0ac0] video:1076KiB audio:60KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.783020%
-frame=  301 fps=0.0 q=-1.0 Lsize=    1145KiB time=00:00:11.96 bitrate= 784.4kbits/s speed=22.1x    
-[libx264 @ 0x555ca3bf8040] frame I:2     Avg QP:21.10  size: 27195
-[libx264 @ 0x555ca3bf8040] frame P:92    Avg QP:22.14  size:  8449
-[libx264 @ 0x555ca3bf8040] frame B:207   Avg QP:27.93  size:  1301
-[libx264 @ 0x555ca3bf8040] consecutive B-frames:  1.3% 20.6%  1.0% 77.1%
-[libx264 @ 0x555ca3bf8040] mb I  I16..4: 10.7% 72.8% 16.4%
-[libx264 @ 0x555ca3bf8040] mb P  I16..4:  1.1%  5.4%  1.2%  P16..4: 33.4% 14.2%  6.9%  0.0%  0.0%    skip:37.8%
-[libx264 @ 0x555ca3bf8040] mb B  I16..4:  0.0%  0.2%  0.0%  B16..8: 28.4%  3.0%  0.5%  direct: 0.7%  skip:67.2%  L0:39.7% L1:53.7% BI: 6.6%
-[libx264 @ 0x555ca3bf8040] 8x8 transform intra:71.3% inter:74.8%
-[libx264 @ 0x555ca3bf8040] coded y,uvDC,uvAC intra: 65.7% 66.8% 20.8% inter: 9.5% 7.8% 0.1%
-[libx264 @ 0x555ca3bf8040] i16 v,h,dc,p: 54% 11% 11% 24%
-[libx264 @ 0x555ca3bf8040] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 14% 14%  4%  9% 12%  8%  8%  6%
-[libx264 @ 0x555ca3bf8040] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 13%  9%  5% 13% 16% 10%  6%  4%
-[libx264 @ 0x555ca3bf8040] i8c dc,h,v,p: 45% 18% 26% 11%
-[libx264 @ 0x555ca3bf8040] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x555ca3bf8040] ref P L0: 63.2% 19.7% 12.9%  4.2%
-[libx264 @ 0x555ca3bf8040] ref B L0: 91.1%  7.2%  1.7%
-[libx264 @ 0x555ca3bf8040] ref B L1: 97.1%  2.9%
-[libx264 @ 0x555ca3bf8040] kb/s:731.64
-[aac @ 0x555ca49e8500] Qavg: 53382.336
-[2026-11-25 17:59:09,753] INFO: Saving generated video to /tmp/out/job1.mp4
-[2026-11-25 17:59:09,753] INFO: Finished.
-job1: rendered in 633s
-$ ffmpeg -y -loglevel error -i /tmp/in/job2/voice.in -ac 1 -ar 16000 /tmp/in/job2/voice.wav
-$ timeout 1200 python generate_infinitetalk.py --ckpt_dir /weights/Wan2.1-I2V-14B-480P --wav2vec_dir /weights/chinese-wav2vec2-base --infinitetalk_dir /weights/InfiniteTalk/single/infinitetalk.safetensors --input_json /tmp/in/job2/job.json --size infinitetalk-480 --mode streaming --motion_frame 9 --offload_model False --lora_dir /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors --lora_scale 1.0 --sample_steps 6 --sample_shift 2 --sample_text_guide_scale 1.0 --sample_audio_guide_scale 2.0 --save_file /tmp/out/job2
-[2026-11-25 17:59:22,244] INFO: Generation job args: Namespace(task='infinitetalk-14B', size='infinitetalk-480', frame_num=81, max_frame_num=1000, ckpt_dir='/weights/Wan2.1-I2V-14B-480P', infinitetalk_dir='/weights/InfiniteTalk/single/infinitetalk.safetensors', quant_dir=None, wav2vec_dir='/weights/chinese-wav2vec2-base', dit_path=None, lora_dir=['/weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors'], lora_scale=[1.0], offload_model=False, ulysses_size=1, ring_size=1, t5_fsdp=False, t5_cpu=False, dit_fsdp=False, save_file='/tmp/out/job2', audio_save_dir='save_audio', base_seed=42, input_json='/tmp/in/job2/job.json', motion_frame=9, mode='streaming', sample_steps=6, sample_shift=2.0, sample_text_guide_scale=1.0, sample_audio_guide_scale=2.0, num_persistent_param_in_dit=None, audio_mode='localfile', use_teacache=False, teacache_thresh=0.2, use_apg=False, apg_momentum=-0.75, apg_norm_threshold=55, color_correction_strength=1.0, scene_seg=False, quant=None)
-[2026-11-25 17:59:22,244] INFO: Generation model config: {'__name__': 'Config: Wan MultiTalk AI2V 14B', 't5_model': 'umt5_xxl', 't5_dtype': torch.bfloat16, 'text_len': 512, 'param_dtype': torch.bfloat16, 'num_train_timesteps': 1000, 'sample_fps': 16, 'sample_neg_prompt': 'bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards', 't5_checkpoint': 'models_t5_umt5-xxl-enc-bf16.pth', 't5_tokenizer': 'google/umt5-xxl', 'clip_model': 'clip_xlm_roberta_vit_h_14', 'clip_dtype': torch.float16, 'clip_checkpoint': 'models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth', 'clip_tokenizer': 'xlm-roberta-large', 'vae_checkpoint': 'Wan2.1_VAE.pth', 'vae_stride': (4, 8, 8), 'patch_size': (1, 2, 2), 'dim': 5120, 'ffn_dim': 13824, 'freq_dim': 256, 'num_heads': 40, 'num_layers': 40, 'window_size': (-1, -1), 'qk_norm': True, 'cross_attn_norm': True, 'eps': 1e-06}
-[2026-11-25 17:59:22,244] INFO: Creating infinitetalk pipeline.
-[2026-11-25 17:59:22,244] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth
-[2026-11-25 18:00:21,104] INFO: loading /weights/Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth
-[2026-11-25 18:00:21,557] INFO: loading /weights/Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth
-[2026-11-25 18:00:26,195] INFO: Creating WanModel from /weights/Wan2.1-I2V-14B-480P
-[32m18:02:32[0m | [36m        wan_lora:29[0m | [1m    INFO[0m | [1mRegistered LoRA metadata for: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 from /weights/lora/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors[0m
-
-[1ALoading LoRA weights:   0%|          | 0/1052 [00:00<?, ?it/s]
-[1ALoading LoRA weights:   0%|          | 2/1052 [00:00<02:15,  7.73it/s]
-[1ALoading LoRA weights:   1%|          | 12/1052 [00:00<00:30, 33.97it/s]
-[1ALoading LoRA weights:   2%|▏         | 18/1052 [00:00<00:24, 41.66it/s]
-[1ALoading LoRA weights:   3%|▎         | 28/1052 [00:00<00:17, 57.47it/s]
-[1ALoading LoRA weights:   4%|▎         | 38/1052 [00:00<00:16, 60.19it/s]
-[1ALoading LoRA weights:   4%|▍         | 45/1052 [00:00<00:16, 62.78it/s]
-[1ALoading LoRA weights:   5%|▌         | 54/1052 [00:00<00:14, 68.82it/s]
-[1ALoading LoRA weights:   6%|▌         | 64/1052 [00:01<00:14, 67.45it/s]
-[1ALoading LoRA weights:   7%|▋         | 72/1052 [00:01<00:13, 70.50it/s]
-[1ALoading LoRA weights:   8%|▊         | 80/1052 [00:01<00:13, 71.50it/s]
-[1ALoading LoRA weights:   9%|▊         | 90/1052 [00:01<00:13, 69.15it/s]
-[1ALoading LoRA weights:   9%|▉         | 98/1052 [00:01<00:13, 71.90it/s]
-[1ALoading LoRA weights:  10%|█         | 106/1052 [00:01<00:13, 72.49it/s]
-[1ALoading LoRA weights:  11%|█         | 116/1052 [00:01<00:13, 69.91it/s]
-[1ALoading LoRA weights:  12%|█▏        | 124/1052 [00:01<00:12, 72.44it/s]
-[1ALoading LoRA weights:  13%|█▎        | 132/1052 [00:02<00:12, 72.75it/s]
-[1ALoading LoRA weights:  13%|█▎        | 142/1052 [00:02<00:12, 70.04it/s]
-[1ALoading LoRA weights:  14%|█▍        | 152/1052 [00:02<00:12, 72.89it/s]
-[1ALoading LoRA weights:  15%|█▌        | 162/1052 [00:02<00:11, 78.06it/s]
-[1ALoading LoRA weights:  16%|█▌        | 170/1052 [00:02<00:14, 62.04it/s]
-[1ALoading LoRA weights:  17%|█▋        | 182/1052 [00:02<00:11, 73.84it/s]
-[1ALoading LoRA weights:  18%|█▊        | 192/1052 [00:02<00:10, 78.52it/s]
-[1ALoading LoRA weights:  19%|█▉        | 201/1052 [00:03<00:12, 68.63it/s]
-[1ALoading LoRA weights:  20%|█▉        | 210/1052 [00:03<00:11, 72.29it/s]
-[1ALoading LoRA weights:  21%|██        | 220/1052 [00:03<00:11, 69.97it/s]
-[1ALoading LoRA weights:  22%|██▏       | 230/1052 [00:03<00:11, 72.62it/s]
-[1ALoading LoRA weights:  23%|██▎       | 240/1052 [00:03<00:10, 77.77it/s]
-[1ALoading LoRA weights:  24%|██▎       | 249/1052 [00:03<00:12, 64.22it/s]
-[1ALoading LoRA weights:  25%|██▍       | 260/1052 [00:03<00:10, 73.07it/s]
-[1ALoading LoRA weights:  26%|██▌       | 270/1052 [00:03<00:10, 77.92it/s]
-[1ALoading LoRA weights:  27%|██▋       | 279/1052 [00:04<00:11, 68.11it/s]
-[1ALoading LoRA weights:  27%|██▋       | 288/1052 [00:04<00:10, 71.50it/s]
-[1ALoading LoRA weights:  28%|██▊       | 298/1052 [00:04<00:10, 68.96it/s]
-[1ALoading LoRA weights:  29%|██▉       | 306/1052 [00:04<00:10, 71.26it/s]
-[1ALoading LoRA weights:  30%|██▉       | 314/1052 [00:04<00:10, 71.54it/s]
-[1ALoading LoRA weights:  31%|███       | 324/1052 [00:04<00:10, 68.77it/s]
-[1ALoading LoRA weights:  32%|███▏      | 332/1052 [00:04<00:10, 71.24it/s]
-[1ALoading LoRA weights:  32%|███▏      | 340/1052 [00:04<00:09, 71.97it/s]
-[1ALoading LoRA weights:  33%|███▎      | 350/1052 [00:05<00:10, 68.96it/s]
-[1ALoading LoRA weights:  34%|███▍      | 358/1052 [00:05<00:09, 71.61it/s]
-[1ALoading LoRA weights:  35%|███▍      | 366/1052 [00:05<00:09, 71.95it/s]
-[1ALoading LoRA weights:  36%|███▌      | 376/1052 [00:05<00:09, 69.32it/s]
-[1ALoading LoRA weights:  37%|███▋      | 384/1052 [00:05<00:09, 71.91it/s]
-[1ALoading LoRA weights:  37%|███▋      | 392/1052 [00:05<00:09, 71.97it/s]
-[1ALoading LoRA weights:  38%|███▊      | 402/1052 [00:05<00:09, 68.16it/s]
-[1ALoading LoRA weights:  39%|███▉      | 409/1052 [00:05<00:09, 68.20it/s]
-[1ALoading LoRA weights:  40%|███▉      | 418/1052 [00:06<00:08, 71.48it/s]
-[1ALoading LoRA weights:  41%|████      | 428/1052 [00:06<00:09, 67.72it/s]
-[1ALoading LoRA weights:  41%|████▏     | 435/1052 [00:06<00:09, 67.79it/s]
-[1ALoading LoRA weights:  42%|████▏     | 444/1052 [00:06<00:08, 71.36it/s]
-[1ALoading LoRA weights:  43%|████▎     | 454/1052 [00:06<00:08, 68.48it/s]
-[1ALoading LoRA weights:  44%|████▍     | 461/1052 [00:06<00:08, 68.17it/s]
-[1ALoading LoRA weights:  45%|████▍     | 470/1052 [00:06<00:08, 71.47it/s]
-[1ALoading LoRA weights:  46%|████▌     | 480/1052 [00:07<00:08, 67.11it/s]
-[1ALoading LoRA weights:  46%|████▋     | 487/1052 [00:07<00:08, 66.52it/s]
-[1ALoading LoRA weights:  47%|████▋     | 496/1052 [00:07<00:07, 69.64it/s]
-[1ALoading LoRA weights:  48%|████▊     | 506/1052 [00:07<00:08, 66.36it/s]
-[1ALoading LoRA weights:  49%|████▉     | 513/1052 [00:07<00:08, 66.03it/s]
-[1ALoading LoRA weights:  50%|████▉     | 522/1052 [00:07<00:07, 69.30it/s]
-[1ALoading LoRA weights:  51%|█████     | 532/1052 [00:07<00:07, 66.17it/s]
-[1ALoading LoRA weights:  51%|█████     | 539/1052 [00:07<00:07, 65.83it/s]
-[1ALoading LoRA weights:  52%|█████▏    | 548/1052 [00:08<00:07, 68.98it/s]
-[1ALoading LoRA weights:  53%|█████▎    | 558/1052 [00:08<00:07, 65.88it/s]
-[1ALoading LoRA weights:  54%|█████▎    | 565/1052 [00:08<00:07, 65.66it/s]
-[1ALoading LoRA weights:  55%|█████▍    | 574/1052 [00:08<00:06, 68.94it/s]
-[1ALoading LoRA weights:  56%|█████▌    | 584/1052 [00:08<00:07, 65.84it/s]
-[1ALoading LoRA weights:  56%|█████▌    | 591/1052 [00:08<00:07, 65.80it/s]
-[1ALoading LoRA weights:  57%|█████▋    | 600/1052 [00:08<00:06, 69.25it/s]
-[1ALoading LoRA weights:  58%|█████▊    | 610/1052 [00:08<00:06, 66.49it/s]
-[1ALoading LoRA weights:  59%|█████▊    | 617/1052 [00:09<00:06, 66.41it/s]
-[1ALoading LoRA weights:  60%|█████▉    | 626/1052 [00:09<00:06, 69.98it/s]
-[1ALoading LoRA weights:  60%|██████    | 636/1052 [00:09<00:06, 66.88it/s]
-[1ALoading LoRA weights:  61%|██████    | 643/1052 [00:09<00:06, 66.71it/s]
-[1ALoading LoRA weights:  62%|██████▏   | 652/1052 [00:09<00:05, 70.23it/s]
-[1ALoading LoRA weights:  63%|██████▎   | 662/1052 [00:09<00:05, 66.96it/s]
-[1ALoading LoRA weights:  64%|██████▎   | 669/1052 [00:09<00:05, 66.73it/s]
-[1ALoading LoRA weights:  64%|██████▍   | 678/1052 [00:09<00:05, 70.10it/s]
-[1ALoading LoRA weights:  65%|██████▌   | 688/1052 [00:10<00:05, 66.97it/s]
-[1ALoading LoRA weights:  66%|██████▌   | 695/1052 [00:10<00:05, 66.62it/s]
-[1ALoading LoRA weights:  67%|██████▋   | 704/1052 [00:10<00:04, 70.03it/s]
-[1ALoading LoRA weights:  68%|██████▊   | 714/1052 [00:10<00:05, 66.64it/s]
-[1ALoading LoRA weights:  69%|██████▊   | 721/1052 [00:10<00:04, 66.22it/s]
-[1ALoading LoRA weights:  69%|██████▉   | 730/1052 [00:10<00:04, 69.48it/s]
-[1ALoading LoRA weights:  70%|███████   | 740/1052 [00:10<00:04, 66.27it/s]
-[1ALoading LoRA weights:  71%|███████   | 747/1052 [00:10<00:04, 66.10it/s]
-[1ALoading LoRA weights:  72%|███████▏  | 756/1052 [00:11<00:04, 69.56it/s]
-[1ALoading LoRA weights:  73%|███████▎  | 766/1052 [00:11<00:04, 66.61it/s]
-[1ALoading LoRA weights:  73%|███████▎  | 773/1052 [00:11<00:04, 66.56it/s]
-[1ALoading LoRA weights:  74%|███████▍  | 782/1052 [00:11<00:03, 69.96it/s]
-[1ALoading LoRA weights:  75%|███████▌  | 792/1052 [00:11<00:03, 66.91it/s]
-[1ALoading LoRA weights:  76%|███████▌  | 799/1052 [00:11<00:03, 66.70it/s]
-[1ALoading LoRA weights:  77%|███████▋  | 808/1052 [00:11<00:03, 70.07it/s]
-[1ALoading LoRA weights:  78%|███████▊  | 818/1052 [00:12<00:03, 66.88it/s]
-[1ALoading LoRA weights:  78%|███████▊  | 825/1052 [00:12<00:03, 66.61it/s]
-[1ALoading LoRA weights:  79%|███████▉  | 834/1052 [00:12<00:03, 69.88it/s]
-[1ALoading LoRA weights:  80%|████████  | 844/1052 [00:12<00:03, 66.56it/s]
-[1ALoading LoRA weights:  81%|████████  | 851/1052 [00:12<00:03, 66.33it/s]
-[1ALoading LoRA weights:  82%|████████▏ | 860/1052 [00:12<00:02, 69.67it/s]
-[1ALoading LoRA weights:  83%|████████▎ | 870/1052 [00:12<00:02, 66.49it/s]
-[1ALoading LoRA weights:  83%|████████▎ | 877/1052 [00:12<00:02, 66.49it/s]
-[1ALoading LoRA weights:  84%|████████▍ | 886/1052 [00:13<00:02, 69.96it/s]
-[1ALoading LoRA weights:  85%|████████▌ | 896/1052 [00:13<00:02, 66.98it/s]
-[1ALoading LoRA weights:  86%|████████▌ | 903/1052 [00:13<00:02, 66.77it/s]
-[1ALoading LoRA weights:  87%|████████▋ | 912/1052 [00:13<00:01, 70.31it/s]
-[1ALoading LoRA weights:  88%|████████▊ | 922/1052 [00:13<00:01, 67.22it/s]
-[1ALoading LoRA weights:  88%|████████▊ | 929/1052 [00:13<00:01, 66.95it/s]
-[1ALoading LoRA weights:  89%|████████▉ | 938/1052 [00:13<00:01, 69.31it/s]
-[1ALoading LoRA weights:  90%|█████████ | 948/1052 [00:13<00:01, 65.79it/s]
-[1ALoading LoRA weights:  91%|█████████ | 955/1052 [00:14<00:01, 65.87it/s]
-[1ALoading LoRA weights:  92%|█████████▏| 964/1052 [00:14<00:01, 69.36it/s]
-[1ALoading LoRA weights:  93%|█████████▎| 974/1052 [00:14<00:01, 66.65it/s]
-[1ALoading LoRA weights:  93%|█████████▎| 981/1052 [00:14<00:01, 67.08it/s]
-[1ALoading LoRA weights:  94%|█████████▍| 990/1052 [00:14<00:00, 71.11it/s]
-[1ALoading LoRA weights:  95%|█████████▌| 1000/1052 [00:14<00:00, 68.40it/s]
-[1ALoading LoRA weights:  96%|█████████▌| 1007/1052 [00:14<00:00, 68.63it/s]
-[1ALoading LoRA weights:  97%|█████████▋| 1016/1052 [00:14<00:00, 72.41it/s]
-[1ALoading LoRA weights:  98%|█████████▊| 1026/1052 [00:15<00:00, 69.30it/s]
-[1ALoading LoRA weights:  98%|█████████▊| 1034/1052 [00:15<00:00, 71.70it/s]
-[1ALoading LoRA weights:  99%|█████████▉| 1045/1052 [00:15<00:00, 79.80it/s]
-[1ALoading LoRA weights: 100%|██████████| 1052/1052 [00:15<00:00, 68.42it/s]
-[32m18:02:48[0m | [36m        wan_lora:102[0m | [1m    INFO[0m | [1mApplied 1052 LoRA weight adjustments[0m
-[32m18:02:48[0m | [36m        wan_lora:49[0m | [1m    INFO[0m | [1mApplied LoRA: Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 with alpha=1.0[0m
-[2026-11-25 18:02:50,098] INFO: Generating video ...
-('/tmp/in/job2/presenter.png', '/tmp/in/job2/voice.wav')
-No conversion needed.
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:13<01:09, 13.87s/it]
-[1A 33%|███▎      | 2/6 [00:25<00:50, 12.69s/it]
-[1A 50%|█████     | 3/6 [00:37<00:36, 12.28s/it]
-[1A 67%|██████▋   | 4/6 [00:49<00:24, 12.14s/it]
-[1A 83%|████████▎ | 5/6 [01:01<00:12, 12.14s/it]100%|██████████| 6/6 [01:13<00:00, 12.07s/it]100%|██████████| 6/6 [01:13<00:00, 12.25s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:58, 11.73s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.78s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.84s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.84s/it]
-[1A 83%|████████▎ | 5/6 [00:59<00:11, 11.83s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.79s/it]100%|██████████| 6/6 [01:10<00:00, 11.80s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:59, 11.83s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:47, 11.79s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.76s/it]
-[1A 67%|██████▋   | 4/6 [00:47<00:23, 11.75s/it]
-[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.74s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.71s/it]100%|██████████| 6/6 [01:10<00:00, 11.74s/it]
-
-[1A  0%|          | 0/6 [00:00<?, ?it/s]
-[1A 17%|█▋        | 1/6 [00:11<00:58, 11.70s/it]
-[1A 33%|███▎      | 2/6 [00:23<00:46, 11.70s/it]
-[1A 50%|█████     | 3/6 [00:35<00:35, 11.75s/it]
-[1A 67%|██████▋   | 4/6 [00:46<00:23, 11.74s/it]
-[1A 83%|████████▎ | 5/6 [00:58<00:11, 11.72s/it]
-[1A100%|██████████| 6/6 [01:10<00:00, 11.71s/it]100%|██████████| 6/6 [01:10<00:00, 11.72s/it]
-
-[1ASaving video:   0%|          | 0/290 [00:00<?, ?it/s]
-[1ASaving video:   0%|          | 1/290 [00:00<01:16,  3.79it/s]
-[1ASaving video:  10%|█         | 29/290 [00:00<00:02, 100.76it/s]
-[1ASaving video:  22%|██▏       | 64/290 [00:00<00:01, 183.68it/s]
-[1ASaving video:  34%|███▍      | 98/290 [00:00<00:00, 232.65it/s]
-[1ASaving video:  47%|████▋     | 135/290 [00:00<00:00, 274.19it/s]
-[1ASaving video:  59%|█████▉    | 171/290 [00:00<00:00, 300.14it/s]
-[1ASaving video:  72%|███████▏  | 208/290 [00:00<00:00, 319.70it/s]
-[1ASaving video:  84%|████████▍ | 244/290 [00:00<00:00, 330.27it/s]
-[1ASaving video:  97%|█████████▋| 281/290 [00:01<00:00, 339.75it/s]
-[1ASaving video: 100%|██████████| 290/290 [00:01<00:00, 263.75it/s]
-ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
-  built with gcc 14 (Debian 14.2.0-19)
-  configuration: --prefix=/usr --extra-version=0+deb13u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
-  libavutil      59. 39.100 / 59. 39.100
-  libavcodec     61. 19.101 / 61. 19.101
-  libavformat    61.  7.103 / 61.  7.103
-  libavdevice    61.  3.100 / 61.  3.100
-  libavfilter    10.  5.100 / 10.  5.100
-  libswscale      8.  3.100 /  8.  3.100
-  libswresample   5.  3.100 /  5.  3.100
-  libpostproc    58.  3.100 / 58.  3.100
-[aist#0:0/pcm_s16le @ 0x561e93bc62c0] Guessed Channel Layout: mono
-Input #0, wav, from 'save_audio/presenter/sum_all.wav':
-  Duration: 00:00:11.60, bitrate: 256 kb/s
-  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
-Stream mapping:
-  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
-Press [q] to stop, [?] for help
-Output #0, wav, to '/tmp/out/job2-cropaudio.wav':
-  Metadata:
-    ISFT            : Lavf61.7.103
-  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
-      Metadata:
-        encoder         : Lavc61.19.101 pcm_s16le
-[out#0/wav @ 0x561e93bc6480] video:0KiB audio:362KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.021013%
-size=     363KiB time=00:00:11.60 bitrate= 256.1kbits/s speed=3.27e+03x    
-ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
-  built with gcc 14 (Debian 14.2.0-19)
-  configuration: --prefix=/usr --extra-version=0+deb13u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
-  libavutil      59. 39.100 / 59. 39.100
-  libavcodec     61. 19.101 / 61. 19.101
-  libavformat    61.  7.103 / 61.  7.103
-  libavdevice    61.  3.100 / 61.  3.100
-  libavfilter    10.  5.100 / 10.  5.100
-  libswscale      8.  3.100 /  8.  3.100
-  libswresample   5.  3.100 /  5.  3.100
-  libpostproc    58.  3.100 / 58.  3.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/out/job2-temp.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf63.1.102
-  Duration: 00:00:11.60, start: 0.000000, bitrate: 640 kb/s
-  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 704x576, 637 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
-      Metadata:
-        handler_name    : VideoHandler
-        vendor_id       : [0][0][0][0]
-        encoder         : Lavc63.1.102 libx264
-[aist#1:0/pcm_s16le @ 0x562a626cf280] Guessed Channel Layout: mono
-Input #1, wav, from '/tmp/out/job2-cropaudio.wav':
-  Metadata:
-    encoder         : Lavf61.7.103
-  Duration: 00:00:11.60, bitrate: 256 kb/s
-  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-  Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
-Press [q] to stop, [?] for help
-[libx264 @ 0x562a6269d040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x562a6269d040] profile High, level 3.0, 4:2:0, 8-bit
-[libx264 @ 0x562a6269d040] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to '/tmp/out/job2.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf61.7.103
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 704x576, q=2-31, 25 fps, 12800 tbn (default)
-      Metadata:
-        handler_name    : VideoHandler
-        vendor_id       : [0][0][0][0]
-        encoder         : Lavc61.19.101 libx264
-      Side data:
-        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 69 kb/s
-      Metadata:
-        encoder         : Lavc61.19.101 aac
-frame=  271 fps=0.0 q=28.0 size=    1024KiB time=N/A bitrate=N/A speed=N/A    
-[1A[out#0/mp4 @ 0x562a626cf4c0] video:1007KiB audio:59KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.808399%
-frame=  290 fps=0.0 q=-1.0 Lsize=    1074KiB time=00:00:11.52 bitrate= 764.1kbits/s speed=22.6x    
-[libx264 @ 0x562a6269d040] frame I:2     Avg QP:21.04  size: 27746
-[libx264 @ 0x562a6269d040] frame P:87    Avg QP:21.75  size:  8088
-[libx264 @ 0x562a6269d040] frame B:201   Avg QP:27.60  size:  1350
-[libx264 @ 0x562a6269d040] consecutive B-frames:  1.0% 18.6%  3.1% 77.2%
-[libx264 @ 0x562a6269d040] mb I  I16..4: 10.8% 71.3% 17.9%
-[libx264 @ 0x562a6269d040] mb P  I16..4:  0.8%  4.3%  1.0%  P16..4: 30.5% 13.7%  6.8%  0.0%  0.0%    skip:42.9%
-[libx264 @ 0x562a6269d040] mb B  I16..4:  0.0%  0.2%  0.0%  B16..8: 28.3%  3.3%  0.6%  direct: 0.6%  skip:66.9%  L0:37.7% L1:56.3% BI: 6.0%
-[libx264 @ 0x562a6269d040] 8x8 transform intra:70.6% inter:73.5%
-[libx264 @ 0x562a6269d040] coded y,uvDC,uvAC intra: 67.4% 67.9% 22.2% inter: 9.1% 7.4% 0.1%
-[libx264 @ 0x562a6269d040] i16 v,h,dc,p: 56% 13%  9% 21%
-[libx264 @ 0x562a6269d040] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 14% 15%  5%  9% 11%  8%  8%  6%
-[libx264 @ 0x562a6269d040] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 14% 10%  5% 14% 16% 11%  6%  4%
-[libx264 @ 0x562a6269d040] i8c dc,h,v,p: 45% 19% 25% 12%
-[libx264 @ 0x562a6269d040] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x562a6269d040] ref P L0: 63.0% 18.0% 14.3%  4.7%
-[libx264 @ 0x562a6269d040] ref B L0: 88.9%  8.2%  2.8%
-[libx264 @ 0x562a6269d040] ref B L1: 97.7%  2.3%
-[libx264 @ 0x562a6269d040] kb/s:710.72
-[aac @ 0x562a6348d540] Qavg: 56519.023
-[2026-11-25 18:08:27,040] INFO: Saving generated video to /tmp/out/job2.mp4
-[2026-11-25 18:08:27,040] INFO: Finished.
-job2: rendered in 557s
-saved /home/runner/work/fix-my-money/fix-my-money/avatar/work/2026-11-26-reel-pm/presenter.mp4 (1.2 MB)
-saved /home/runner/work/fix-my-money/fix-my-money/avatar/work/2026-11-27-reel-pm/presenter.mp4 (1.2 MB)
-saved /home/runner/work/fix-my-money/fix-my-money/avatar/work/2026-11-28-reel-pm/presenter.mp4 (1.1 MB)
+frame=  232 fps=0.0 q=28.0 size=     768KiB time=N/A bitrate=N/A speed=N/A    
+[1A[out#0/mp4 @ 0x562f34cb0440] video:1125KiB audio:81KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.732970%
+frame=  298 fps=0.0 q=-1.0 Lsize=    1215KiB time=00:00:11.84 bitrate= 840.5kbits/s speed=19.8x    
+[libx264 @ 0x562f34bd1040] frame I:2     Avg QP:20.37  size: 30204
+[libx264 @ 0x562f34bd1040] frame P:84    Avg QP:22.26  size:  9165
+[libx264 @ 0x562f34bd1040] frame B:212   Avg QP:27.94  size:  1516
+[libx264 @ 0x562f34bd1040] consecutive B-frames:  1.0% 12.1%  1.0% 85.9%
+[libx264 @ 0x562f34bd1040] mb I  I16..4:  9.5% 72.2% 18.3%
+[libx264 @ 0x562f34bd1040] mb P  I16..4:  1.3%  5.5%  1.3%  P16..4: 36.1% 15.8%  7.1%  0.0%  0.0%    skip:32.9%
+[libx264 @ 0x562f34bd1040] mb B  I16..4:  0.1%  0.3%  0.1%  B16..8: 30.9%  3.6%  0.6%  direct: 0.7%  skip:63.8%  L0:38.8% L1:54.8% BI: 6.4%
+[libx264 @ 0x562f34bd1040] 8x8 transform intra:69.4% inter:75.0%
+[libx264 @ 0x562f34bd1040] coded y,uvDC,uvAC intra: 65.3% 66.5% 21.7% inter: 10.1% 8.4% 0.1%
+[libx264 @ 0x562f34bd1040] i16 v,h,dc,p: 52% 14% 10% 24%
+[libx264 @ 0x562f34bd1040] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 17%  4%  8% 11%  8%  8%  6%
+[libx264 @ 0x562f34bd1040] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 13% 10%  5% 14% 16% 10%  6%  4%
+[libx264 @ 0x562f34bd1040] i8c dc,h,v,p: 45% 18% 25% 11%
+[libx264 @ 0x562f34bd1040] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x562f34bd1040] ref P L0: 59.8% 20.5% 14.0%  5.7%
+[libx264 @ 0x562f34bd1040] ref B L0: 90.1%  7.2%  2.7%
+[libx264 @ 0x562f34bd1040] ref B L1: 97.6%  2.4%
+[libx264 @ 0x562f34bd1040] kb/s:772.93
+[aac @ 0x562f359c1f80] Qavg: 53731.922
+[2026-11-28 04:29:14,120] INFO: Saving generated video to /tmp/out/job1.mp4
+[2026-11-28 04:29:14,121] INFO: Finished.
+job1: rendered in 662s
+saved /home/runner/work/fix-my-money/fix-my-money/avatar/work/2026-11-29-reel-pm/presenter.mp4 (1.1 MB)
+saved /home/runner/work/fix-my-money/fix-my-money/avatar/work/2026-11-30-reel-pm/presenter.mp4 (1.2 MB)
 Stopping app - local entrypoint completed.
 ✓ App completed. View run at 
-https://modal.com/apps/bhavishyabharara-jpg/main/ap-dWh3d9IoU282fj2zD66QWi
+https://modal.com/apps/bhavishyabharara-jpg/main/ap-1vU9zY7zN3wYeRB4C9Ll5f
