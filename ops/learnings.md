@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-11-28 — Daily review (day 6 of the one-reel-a-day test)
+
+- **Status:** followers **12 (+0 today; +1 on 27 Nov, the first new follower since the test began)**; profile views yesterday **2** (3 the day before; reach 126, 4 accounts engaged), the first non-zero profile views, on the two days after the 9 approved comments. **Trial reels are blocked by Instagram:** the 27 Nov trial failed with "the instagram account does not meet the trial reel follower requirement to create trial reels" (code 10 / 2207081) and was skipped after 6 h; the 28–30 Nov trial jobs were moved to held/ so they stop failing runs; 27-trial stays in queue so plan_trials.py stays stopped.
+- **Beat the yardstick:** nothing at 2×. 25 Nov pm 15-15-15 rule settles at **169 = 1.4× normal** (~3 days, 1 save); 26 Nov paid-but-not-owner 120 (~1.0×) at ~2 days with 3 likes and a save. Shared with 13 Nov gold (1.9×): a rule or number people already repeat to each other, checked with one ₹ result.
+- **Missed:** nothing new under 0.5× at 3 days. 24 Nov ELSS settles at 75 = **0.6×** = the wording (a product term as the first line). 27 Nov post-office rates 27 views at <1 day: no verdict.
+- **One change today:** the 1 Dec reel adapts the largest outlier we have logged, @simply.kaasu's KVP doubling reel (now 1.3M, ~22× its median, 2.7K shares), as a plain "When does ₹1 lakh become ₹2 lakh?" question with its tax catch: the first question-shaped hook since 28 Nov, against the leading bill-reveal pattern.
+
 ## 2026-11-27 — Daily review (day 5 of the one-reel-a-day test)
 
 - **Status:** followers **11 (+0)**; profile views yesterday **0** (26 Nov: reach 252, 1 account engaged), the 4th straight day at 0, including the day 9 owner-approved comments went out. Today's first trial reel (13 Nov gold re-post, due 06:45 UTC) had not published at 07:40 UTC: the last publish run was 23:58 UTC 26 Nov and succeeded, so it is the late cron, not an error.

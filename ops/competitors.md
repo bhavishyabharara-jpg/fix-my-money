@@ -2,6 +2,16 @@
 
 One entry per research pass. Look at each creator's Reels tab and note what the top performers have in common. These are views as shown on the public profile, seen logged out.
 
+## 2026-11-28 (daily pass, signed in as @fix_mymoney, read only; outliers = ≥3× the account's median of its last 12 non-pinned reels)
+
+- **@simply.kaasu (4,909 followers, +300 in a day; median ~59K of 12):** **new giant outlier: "When does ₹1 lakh become ₹2 lakh? | Post Office Kisan Vikas Patra" 1.3M (~22×), 12.6K likes, 2.7K shares** (was 89K on 25 Nov): one money-doubling question answered with one scheme's 115-month maturity; top comments push back on tax and the 9-year wait. Others: SWP 315K (5×), phone-formatting 298K, bank-auction bike 183K (3.1×), car on-road price 153K, 5 post office schemes 80.4K. **KVP doubling adapted for 1 Dec** (adds the tax catch). Bank-auction bike stays the next candidate (after 13 Dec).
+- **@financewithsharan** (median ~309K of 9 non-pinned): new 300K; only outlier still the 1.1M property reel (3.6×, adapted 26 Nov).
+- **@ca_rachanaranade** (median ~59K of 11 non-pinned): 2.4M (41×) comedy collab, 433K (7×) and 376K (6×) personality/collab, 174K (3×) named-company stock: none adaptable.
+- **@anushkarathod98** (median ~614K of 12): 2.9M (4.7×) gold/silver dip (buy framing), 2.1M (3.4×) named US chip company, 1.9M (3.1×) US AI-stock sell-off (macro/market news): none usable. Newest 510K.
+- **Rotating @nehanagar** (median ~36K of 12): no outlier (max 68K = 1.9×).
+- **Insight:** the small Tamil explainer account just turned a single doubling question into 1.3M views and 2.7K shares on <5K followers: a question a parent asks ("when does my money double?") with one official ₹ answer is the most sendable format we have seen.
+- **News (last 48 h, searched):** no new personal-finance rule with a ₹ effect for a mass audience found. Facts used today: Oct–Dec 2026 small-savings rates unchanged (KVP 7.5% / 115 months, post office savings 4%) from a business news site (30 Sep 2026) and a tax-education site, which agree; KVP doubling period and ₹1,000 minimum from a personal-finance news site (Aug 2026); KVP interest fully taxable, no 80C, from a broker's tax explainer.
+
 ## 2026-11-27 (daily pass, signed in as @fix_mymoney, read only; outliers = ≥3× the account's median of its last 12 non-pinned reels)
 
 - **@simply.kaasu (4,608 followers; median ~20K of 12):** no new reel since 26 Nov. Outliers unchanged and still growing: SWP explained **312K (~15×)**, phone-formatting trick 289K, bank-auction bike **180K (~9×)**, car on-road price **147K (~7×)**, 5 post office schemes **77.8K (~3.8×)**. Newest two: 2,088 (car insurance claim) and 36.5K (car loan in the wife's name). Bank-auction bike is still the next unadapted candidate (≥14 days after the 29 Nov car reel).

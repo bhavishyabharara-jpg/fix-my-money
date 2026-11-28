@@ -1,0 +1,22 @@
+{
+  "date": "2026-12-01",
+  "slot": "reel",
+  "publish_at": "2026-12-01T13:45",
+  "topic": "Money doubling: Kisan Vikas Patra at 7.5% (Oct–Dec 2026) doubles ₹1 lakh to ₹2 lakh in 115 months (9 yrs 7 months) vs ~18 years at the post office savings account's 4% (illustrative, compounded yearly); KVP interest fully taxable, no 80C",
+  "idea": "money-double-time",
+  "hook_pattern": "big-question",
+  "experiment": "OUTLIER ADAPTATION (rule 3b): @simply.kaasu 'When does ₹1 lakh become ₹2 lakh? | Post Office Kisan Vikas Patra' now 1.3M views vs ~59K median of its last 12 = ~22× (2.7K shares), the largest adaptable outlier logged. Adapted idea, own wording/graphic: doubling time bars (savings 4% vs KVP 7.5%) + 115-month stat, adds the tax catch its commenters raised. Hook shape: a 'When does…?' question, unlike 29 Nov ('₹8 lakh car?') and 30 Nov ('PF withdrawal:'); big-question, against the leading bill-reveal pattern. Risk: same small-savings family as the 27 Nov rate list (4 days apart), but a different idea (time to double, one scheme) — kept because of the multiple. Send target: a friend saving for their child. 24 spoken words, 11.6 s silent. Series '₹ Fix #8' + 'Fix #9 tomorrow · follow'. Critic predicted multiple: 1.5×. Judge on 4 Dec at 3 days vs the 122-view yardstick.",
+  "caption": "How long does ₹1 lakh take to double? | Kisan Vikas Patra Explained\n\nKisan Vikas Patra (KVP) is a post office savings certificate. At its current 7.5% a year, compounded yearly, money doubles in 115 months: ₹1 lakh becomes ₹2 lakh in 9 years 7 months.\nCompare: at the post office savings account's 4%, the same ₹1 lakh takes about 18 years to double (illustrative, compounded yearly).\nThe rate and maturity period are fixed when you buy the certificate; the minimum is ₹1,000. There is no 80C deduction and the interest is fully taxable, so after tax you keep less than double.\nSaving for a child's college or another goal? Check that the maturity date fits it.\n\nSave this for later.\nSend this to a friend who is saving for their child.\nWhat goal would you want your money to double for?\n\nSources: the Finance Ministry's small-savings rate notice for Oct–Dec 2026 (rates unchanged), as reported by a business news site (30 Sep 2026) and a tax-news site; KVP maturity period and minimum deposit from a personal-finance news site (Aug 2026); KVP tax treatment from a broker's tax explainer. Savings-account doubling time calculated.\n\nFor education only. Not investment advice.\nVoiceover is AI-generated.\n\n[Kisan Vikas Patra, KVP, Money Double Scheme, Post Office Scheme, Small Savings, Paisa Double Kaise Kare, Fix My Money]\n#kisanvikaspatra #postofficescheme #smallsavings #personalfinanceindia #moneytips",
+  "spec": "specs/2026-12-01-reel-pm.json",
+  "media": [
+    "media/2026-12-01/reel-pm/reel.mp4"
+  ],
+  "cover": "media/2026-12-01/reel-pm/reel_cover.png",
+  "sources": [
+    "Business news site (30 Sep 2026): small-savings rates unchanged for Oct–Dec 2026; Kisan Vikas Patra 7.5%, Post Office Savings Account 4%",
+    "Tax/education news site (Oct 2026 quarter article): KVP 7.5% (will mature in 115 months); savings account 4%",
+    "Personal-finance news site (19 Aug 2026): KVP 7.5% compounded yearly, 115 months = 9 years 7 months to double ₹1 lakh to ₹2 lakh; minimum ₹1,000; maturity fixed at opening",
+    "Broker's tax explainer (FY26 ITR): KVP gives no Section 80C benefit; entire interest taxable under income from other sources",
+    "Calculated: ln 2 / ln 1.04 ≈ 17.7 years to double at 4% compounded yearly (illustrative)"
+  ]
+}
